@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196B2B70)
-#define RPG_GAMECORE_MONOPOLYBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196B2EC0)
+#define RPG_GAMECORE_MONOPOLYBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B614950)
+#define RPG_GAMECORE_MONOPOLYBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B614CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyBuffConfigRow_TypeDefinitionIndex = 11499;
+	inline static constexpr unsigned int MonopolyBuffConfigRow_TypeDefinitionIndex = 11599;
 
 	class MonopolyBuffConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 BuffID; // 0x18
-		::System::UInt32 Rank; // 0x1C
-		::System::UInt32 Duration; // 0x20
-		::System::Boolean IsPermanent; // 0x24
-		::RPG::Client::TextID BuffDesc; // 0x28
+		::RPG::Client::TextID BuffDesc; // 0x18
+		::System::UInt32 Duration; // 0x28
+		::System::UInt32 EffectID; // 0x2C
+		::System::UInt32 Rank; // 0x30
 		::RPG::Client::TextID BuffName; // 0x38
-		::System::UInt32 EffectID; // 0x48
+		::System::Boolean IsPermanent; // 0x48
+		::System::UInt32 BuffID; // 0x4C
 
 		::System::Void _ctor()
 		{

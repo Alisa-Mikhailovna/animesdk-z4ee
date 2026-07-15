@@ -7,19 +7,19 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1971D440)
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1971D2D0)
-#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1971D2C0)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A1C9820)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A1C9600)
+#define SYSTEM_RUNTIME_REMOTING_DISPOSERREPLYSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C95F0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int DisposerReplySink_TypeDefinitionIndex = 1215;
+	inline static constexpr unsigned int DisposerReplySink_TypeDefinitionIndex = 1217;
 
 	class DisposerReplySink : public ::System::Object
 	{
 	public:
-		::System::Runtime::Remoting::Messaging::IMessageSink* _next; // 0x10
-		::System::IDisposable* _disposable; // 0x18
+		::System::IDisposable* _disposable; // 0x10
+		::System::Runtime::Remoting::Messaging::IMessageSink* _next; // 0x18
 
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* a1, ::System::IDisposable* a2)
 		{

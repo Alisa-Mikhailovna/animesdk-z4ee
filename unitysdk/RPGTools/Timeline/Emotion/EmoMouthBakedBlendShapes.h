@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/EmoMouthBakedBlendShapes_LipType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPES__CTOR_OFFSET UNITYSDK_OFFSET(0x199D2470)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOMOUTHBAKEDBLENDSHAPES__CTOR_OFFSET UNITYSDK_OFFSET(0xDCD17C0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoMouthBakedBlendShapes_TypeDefinitionIndex = 46038;
+	inline static constexpr unsigned int EmoMouthBakedBlendShapes_TypeDefinitionIndex = 46977;
 
 	class EmoMouthBakedBlendShapes : public ::System::Object
 	{

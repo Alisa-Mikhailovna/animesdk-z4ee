@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A0AC850)
-#define RPG_GAMECORE_DRINKMAKERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0ACED0)
+#define RPG_GAMECORE_DRINKMAKERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3C6D70)
+#define RPG_GAMECORE_DRINKMAKERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C73F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerLevelRow_TypeDefinitionIndex = 12542;
+	inline static constexpr unsigned int DrinkMakerLevelRow_TypeDefinitionIndex = 12679;
 
 	class DrinkMakerLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 LevelUpExp; // 0x10
-		::System::UInt32 Level; // 0x14
-		::RPG::Client::TextID DrinkMakerLevel; // 0x18
+		::RPG::Client::TextID DrinkMakerLevel; // 0x10
+		::System::UInt32 Level; // 0x20
+		::System::UInt32 LevelUpExp; // 0x24
 
 		::System::Void _ctor()
 		{

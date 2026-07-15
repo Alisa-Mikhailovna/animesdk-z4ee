@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MUSICRHYTHMSTARTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187632D0)
+#define RPG_CLIENT_MUSICRHYTHMSTARTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCE18790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmStartInfo_TypeDefinitionIndex = 56246;
+	inline static constexpr unsigned int MusicRhythmStartInfo_TypeDefinitionIndex = 57485;
 
 	class MusicRhythmStartInfo : public ::System::Object
 	{
 	public:
 		::System::Single BeatTime; // 0x10
-		::System::UInt32 LevelId; // 0x14
-		::System::UInt32 TotalScore; // 0x18
-		::System::Int32 BeatCount; // 0x1C
-		::System::Boolean IsTutorial; // 0x20
-		::System::Boolean LineVisible; // 0x21
-		::System::Boolean HintVisible; // 0x22
-		::System::Boolean IsPuMan; // 0x23
-		::System::Boolean ShowCircle; // 0x24
-		::System::Single CircleOffset; // 0x28
-		::System::Single MusicTotalTime; // 0x2C
-		::System::Single GoodInputTime; // 0x30
-		::System::UInt32 CountDown; // 0x34
+		::System::UInt32 TotalScore; // 0x14
+		::System::UInt32 LevelId; // 0x18
+		::System::Single CircleOffset; // 0x1C
+		::System::Single MusicTotalTime; // 0x20
+		::System::Int32 BeatCount; // 0x24
+		::System::Boolean HintVisible; // 0x28
+		::System::Boolean IsTutorial; // 0x29
+		::System::Boolean ShowCircle; // 0x2A
+		::System::Boolean LineVisible; // 0x2B
+		::System::Boolean IsPuMan; // 0x2C
+		::System::UInt32 CountDown; // 0x30
+		::System::Single GoodInputTime; // 0x34
 
 		::System::Void _ctor()
 		{

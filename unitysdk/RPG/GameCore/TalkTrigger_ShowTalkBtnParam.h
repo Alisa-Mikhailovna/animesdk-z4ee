@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/GameCore/TalkTrigger_DialogueGroupInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM_RESET_OFFSET UNITYSDK_OFFSET(0xEF30CA0)
-#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xEF2E4E0)
+#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM_RESET_OFFSET UNITYSDK_OFFSET(0xDBACB20)
+#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDBAA480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkTrigger_ShowTalkBtnParam_TypeDefinitionIndex = 53744;
+	inline static constexpr unsigned int TalkTrigger_ShowTalkBtnParam_TypeDefinitionIndex = 54963;
 
 	class TalkTrigger_ShowTalkBtnParam : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TalkTrigger_DialogueGroupInfo>* DialogueGroupInfos; // 0x10
-		::System::UInt32 GuestRuntimeID; // 0x18
-		::System::UInt32 HostRuntimeID; // 0x1C
+		::System::UInt32 HostRuntimeID; // 0x18
+		::System::UInt32 GuestRuntimeID; // 0x1C
 
 		::System::Void _ctor()
 		{

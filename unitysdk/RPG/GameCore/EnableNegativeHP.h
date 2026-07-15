@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENABLENEGATIVEHP_METHOD_3_8D6DD034BC24894E_OFFSET UNITYSDK_OFFSET(0x19D75C80)
-#define RPG_GAMECORE_ENABLENEGATIVEHP_METHOD_3_A9309D4160CB719F_OFFSET UNITYSDK_OFFSET(0x19D75C00)
-#define RPG_GAMECORE_ENABLENEGATIVEHP__CTOR_OFFSET UNITYSDK_OFFSET(0x19D75C50)
+#define RPG_GAMECORE_ENABLENEGATIVEHP_METHOD_3_5F2DCF05A443A98D_OFFSET UNITYSDK_OFFSET(0x1B3E4E80)
+#define RPG_GAMECORE_ENABLENEGATIVEHP_METHOD_3_8D6DD034BC24894E_OFFSET UNITYSDK_OFFSET(0x1B3E4ED0)
+#define RPG_GAMECORE_ENABLENEGATIVEHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E4EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableNegativeHP_TypeDefinitionIndex = 22416;
+	inline static constexpr unsigned int EnableNegativeHP_TypeDefinitionIndex = 22858;
 
 	class EnableNegativeHP : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENEGATIVEHP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A9309D4160CB719F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableNegativeHP*& a2)
+		static ::System::Void Method_3_5F2DCF05A443A98D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableNegativeHP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableNegativeHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENEGATIVEHP_METHOD_3_A9309D4160CB719F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableNegativeHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLENEGATIVEHP_METHOD_3_5F2DCF05A443A98D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8D6DD034BC24894E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableNegativeHP* a2)

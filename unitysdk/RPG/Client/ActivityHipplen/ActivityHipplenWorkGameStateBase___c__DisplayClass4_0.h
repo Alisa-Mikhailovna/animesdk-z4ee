@@ -5,12 +5,12 @@
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkGameStateBase; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENWORKGAMESTATEBASE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186C9B10)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENWORKGAMESTATEBASE___C__DISPLAYCLASS4_0__ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x186C9BD0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENWORKGAMESTATEBASE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB3DF10)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENWORKGAMESTATEBASE___C__DISPLAYCLASS4_0__ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xBB3DFD0)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenWorkGameStateBase___c__DisplayClass4_0_TypeDefinitionIndex = 70408;
+	inline static constexpr unsigned int ActivityHipplenWorkGameStateBase___c__DisplayClass4_0_TypeDefinitionIndex = 71931;
 
 	class ActivityHipplenWorkGameStateBase___c__DisplayClass4_0 : public ::System::Object
 	{

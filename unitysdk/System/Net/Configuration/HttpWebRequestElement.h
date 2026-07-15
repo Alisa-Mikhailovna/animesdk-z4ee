@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_HTTPWEBREQUESTELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x18199B30)
-#define SYSTEM_NET_CONFIGURATION_HTTPWEBREQUESTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18199AF0)
+#define SYSTEM_NET_CONFIGURATION_HTTPWEBREQUESTELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CCADC10)
+#define SYSTEM_NET_CONFIGURATION_HTTPWEBREQUESTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCADBD0)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int HttpWebRequestElement_TypeDefinitionIndex = 3068;
+	inline static constexpr unsigned int HttpWebRequestElement_TypeDefinitionIndex = 3072;
 
 	class HttpWebRequestElement : public ::System::Configuration::ConfigurationElement
 	{

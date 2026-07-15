@@ -5,19 +5,19 @@
 namespace RPG::Client { class UserPrefs; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x16C51A00)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__1_OFFSET UNITYSDK_OFFSET(0x16C51BA0)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C51830)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xC384180)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__1_OFFSET UNITYSDK_OFFSET(0xC384320)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC383F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass2_0_TypeDefinitionIndex = 59623;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass2_0_TypeDefinitionIndex = 60908;
 
 	class ElfHintToastManager___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedFieldIDs; // 0x10
-		::RPG::Client::UserPrefs* userPrefs; // 0x18
+		::RPG::Client::UserPrefs* userPrefs; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* unlockedUnpurchasedFieldIDs; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* unlockedSeedIDs; // 0x20
 
 		::System::Void _ctor()

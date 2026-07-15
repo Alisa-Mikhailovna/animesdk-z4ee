@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SetUltraSkillAssetPreload; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_01DBDE2AF88A3F73_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1426D060)
-#define CLASS_3_01DBDE2AF88A3F73_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1426D0A0)
-#define CLASS_3_01DBDE2AF88A3F73__CTOR_OFFSET UNITYSDK_OFFSET(0x1426D030)
-#define CLASS_3_01DBDE2AF88A3F73___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1426D270)
+#define CLASS_3_01DBDE2AF88A3F73_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD6BDC0)
+#define CLASS_3_01DBDE2AF88A3F73_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD6BE00)
+#define CLASS_3_01DBDE2AF88A3F73__CTOR_OFFSET UNITYSDK_OFFSET(0xBD6BD90)
 
-inline static constexpr unsigned int Class_3_01DBDE2AF88A3F73_TypeDefinitionIndex = 51916;
+inline static constexpr unsigned int Class_3_01DBDE2AF88A3F73_TypeDefinitionIndex = 53069;
 
 class Class_3_01DBDE2AF88A3F73 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetUltraSkillAssetPreload*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_01DBDE2AF88A3F73_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_01DBDE2AF88A3F73___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

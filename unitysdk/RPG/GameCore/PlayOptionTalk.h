@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class OptionTalkInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYOPTIONTALK_METHOD_3_50D1E4EE64E85756_OFFSET UNITYSDK_OFFSET(0x19D55DF0)
-#define RPG_GAMECORE_PLAYOPTIONTALK_METHOD_3_53F5C3B025D534DA_OFFSET UNITYSDK_OFFSET(0x19D55D70)
-#define RPG_GAMECORE_PLAYOPTIONTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19D55DC0)
+#define RPG_GAMECORE_PLAYOPTIONTALK_METHOD_3_50D1E4EE64E85756_OFFSET UNITYSDK_OFFSET(0x1B6C8400)
+#define RPG_GAMECORE_PLAYOPTIONTALK_METHOD_3_A982EAC4B29F2E42_OFFSET UNITYSDK_OFFSET(0x1B6C83C0)
+#define RPG_GAMECORE_PLAYOPTIONTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C83F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayOptionTalk_TypeDefinitionIndex = 19706;
+	inline static constexpr unsigned int PlayOptionTalk_TypeDefinitionIndex = 20065;
 
 	class PlayOptionTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYOPTIONTALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_53F5C3B025D534DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayOptionTalk*& a2)
+		static ::System::Void Method_3_A982EAC4B29F2E42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayOptionTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayOptionTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYOPTIONTALK_METHOD_3_53F5C3B025D534DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayOptionTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYOPTIONTALK_METHOD_3_A982EAC4B29F2E42_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_50D1E4EE64E85756(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayOptionTalk* a2)

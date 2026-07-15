@@ -6,16 +6,16 @@ class Class_3_CEF86C33D203CEB1;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace UnityEngine { class Object; }
 
-#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14736550)
-#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x14736680)
+#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x149FD910)
+#define CLASS_3_CEF86C33D203CEB1___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x149FD9A0)
 
-inline static constexpr unsigned int Class_3_CEF86C33D203CEB1___c__DisplayClass5_0_TypeDefinitionIndex = 68964;
+inline static constexpr unsigned int Class_3_CEF86C33D203CEB1___c__DisplayClass5_0_TypeDefinitionIndex = 70491;
 
 class Class_3_CEF86C33D203CEB1___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::RPG::Client::OpenWorld::StreamingItemData* renderItem; // 0x10
-	::Class_3_CEF86C33D203CEB1* __4__this; // 0x18
+	::Class_3_CEF86C33D203CEB1* __4__this; // 0x10
+	::RPG::Client::OpenWorld::StreamingItemData* renderItem; // 0x18
 
 	::System::Void _ctor()
 	{

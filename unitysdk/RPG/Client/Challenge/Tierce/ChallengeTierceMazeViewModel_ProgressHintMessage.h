@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_PROGRESSHINTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x181AA2D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_PROGRESSHINTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xBF56530)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceMazeViewModel_ProgressHintMessage_TypeDefinitionIndex = 74245;
+	inline static constexpr unsigned int ChallengeTierceMazeViewModel_ProgressHintMessage_TypeDefinitionIndex = 76629;
 
 	class ChallengeTierceMazeViewModel_ProgressHintMessage : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByPartialFlipDeviceState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EBDC81F720607D20_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A69750)
-#define CLASS_3_EBDC81F720607D20__CTOR_OFFSET UNITYSDK_OFFSET(0x16A69720)
+#define CLASS_3_EBDC81F720607D20_EVALUATE_OFFSET UNITYSDK_OFFSET(0x147B0740)
+#define CLASS_3_EBDC81F720607D20__CTOR_OFFSET UNITYSDK_OFFSET(0x147B0710)
 
-inline static constexpr unsigned int Class_3_EBDC81F720607D20_TypeDefinitionIndex = 49354;
+inline static constexpr unsigned int Class_3_EBDC81F720607D20_TypeDefinitionIndex = 50369;
 
 class Class_3_EBDC81F720607D20 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByPartialFlipDeviceState*>
 {

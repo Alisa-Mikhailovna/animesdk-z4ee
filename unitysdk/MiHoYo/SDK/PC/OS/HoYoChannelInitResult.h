@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::PC::OS { class SteamInitExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x186971B0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1869D8E0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x19D6E1C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D74850)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelInitResult_TypeDefinitionIndex = 8454;
+	inline static constexpr unsigned int HoYoChannelInitResult_TypeDefinitionIndex = 8466;
 
 	class HoYoChannelInitResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

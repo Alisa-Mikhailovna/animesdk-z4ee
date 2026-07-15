@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1623DF50)
-#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1623DF80)
-#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__INITMAP_B__5_0_OFFSET UNITYSDK_OFFSET(0x1623DF90)
+#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC907C00)
+#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC907C30)
+#define RPG_CLIENT_ITEMCOMPOSEMODULE___C__INITMAP_B__5_0_OFFSET UNITYSDK_OFFSET(0xC907C40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemComposeModule___c_TypeDefinitionIndex = 61468;
+	inline static constexpr unsigned int ItemComposeModule___c_TypeDefinitionIndex = 62830;
 
 	class ItemComposeModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ItemComposeModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::ItemComposeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ItemComposeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C9C0);
-		}
 		static ::System::Comparison_1<::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ItemComposeModule___c_TypeDefinitionIndex)->GetStaticField(0x3C9C8);
+			return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ItemComposeModule___c_TypeDefinitionIndex)->GetStaticField(0x35160);
+		}
+		static ::RPG::Client::ItemComposeModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::ItemComposeModule___c**)Il2CppClass::FromTypeDefinitionIndex(ItemComposeModule___c_TypeDefinitionIndex)->GetStaticField(0x35168);
 		}
 
 		static ::System::Void _cctor()

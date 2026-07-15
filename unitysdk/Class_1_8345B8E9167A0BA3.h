@@ -9,30 +9,30 @@ class Class_1_F4428E4EEF88CB9C;
 namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_1_OFFSET UNITYSDK_OFFSET(0x1603DCC0)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_OFFSET UNITYSDK_OFFSET(0x1603DBE0)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_19575D1AD52D1399_OFFSET UNITYSDK_OFFSET(0x1603DF60)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_2B37EFC04765C317_OFFSET UNITYSDK_OFFSET(0x1603C0B0)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_66F501070C8F9EA1_OFFSET UNITYSDK_OFFSET(0x1603DDA0)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_C03074CAF4801A1C_OFFSET UNITYSDK_OFFSET(0x1603CF20)
-#define CLASS_1_8345B8E9167A0BA3_METHOD_1_FDC75E773C3424A0_OFFSET UNITYSDK_OFFSET(0x1603C150)
-#define CLASS_1_8345B8E9167A0BA3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1603E130)
-#define CLASS_1_8345B8E9167A0BA3__CTOR_OFFSET UNITYSDK_OFFSET(0x1603BE30)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_0136226C6C09D487_OFFSET UNITYSDK_OFFSET(0x153D1D10)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_1_OFFSET UNITYSDK_OFFSET(0x153D3830)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_1757A5346B290CED_OFFSET UNITYSDK_OFFSET(0x153D3750)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_19575D1AD52D1399_OFFSET UNITYSDK_OFFSET(0x153D3AD0)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_2B37EFC04765C317_OFFSET UNITYSDK_OFFSET(0x153D1C70)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_66F501070C8F9EA1_OFFSET UNITYSDK_OFFSET(0x153D3910)
+#define CLASS_1_8345B8E9167A0BA3_METHOD_1_C03074CAF4801A1C_OFFSET UNITYSDK_OFFSET(0x153D2A90)
+#define CLASS_1_8345B8E9167A0BA3__CCTOR_OFFSET UNITYSDK_OFFSET(0x153D3CA0)
+#define CLASS_1_8345B8E9167A0BA3__CTOR_OFFSET UNITYSDK_OFFSET(0x153D19F0)
 
-inline static constexpr unsigned int Class_1_8345B8E9167A0BA3_TypeDefinitionIndex = 65676;
+inline static constexpr unsigned int Class_1_8345B8E9167A0BA3_TypeDefinitionIndex = 67093;
 
 class Class_1_8345B8E9167A0BA3 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8345B8E9167A0BA3_TypeDefinitionIndex)->GetStaticField(0x3E6E0);
+		return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_8345B8E9167A0BA3_TypeDefinitionIndex)->GetStaticField(0x3E110);
 	}
-	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_2; // 0x18
-	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_3; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_4; // 0x28
-	::Class_1_31F7AA61A6C51B11* Field_1_5; // 0x30
+	::Class_1_31F7AA61A6C51B11* Field_1_1; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_3; // 0x20
+	::System::Collections::Generic::Dictionary_2<::Class_1_5F96B92B05C740DB*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_4; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084*, ::Class_1_F4428E4EEF88CB9C*>* Field_1_5; // 0x30
 	::UnityEngine::Vector3 Field_1_6; // 0x38
 
 	::System::Void _ctor(::System::Int32 a1, ::UnityEngine::Vector3 a2)
@@ -50,9 +50,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_F4428E4EEF88CB9C*>*))((::PBYTE)hIl2Cpp + CLASS_1_8345B8E9167A0BA3_METHOD_1_2B37EFC04765C317_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_FDC75E773C3424A0(::Class_1_5F96B92B05C740DB* a1)
+	::System::Void Method_1_0136226C6C09D487(::Class_1_5F96B92B05C740DB* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_5F96B92B05C740DB*))((::PBYTE)hIl2Cpp + CLASS_1_8345B8E9167A0BA3_METHOD_1_FDC75E773C3424A0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_5F96B92B05C740DB*))((::PBYTE)hIl2Cpp + CLASS_1_8345B8E9167A0BA3_METHOD_1_0136226C6C09D487_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_C03074CAF4801A1C(::RPG::Client::TimeSpaceCrisscrossLightsBehavior_Class_1_157DF0DD0C4E4084* a1)

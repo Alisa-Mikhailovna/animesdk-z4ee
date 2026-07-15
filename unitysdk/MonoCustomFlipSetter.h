@@ -5,10 +5,10 @@
 
 namespace UnityEngine { class Material; }
 
-#define MONOCUSTOMFLIPSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16B7B740)
-#define MONOCUSTOMFLIPSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7B890)
+#define MONOCUSTOMFLIPSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB1EEBC0)
+#define MONOCUSTOMFLIPSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EED10)
 
-inline static constexpr unsigned int MonoCustomFlipSetter_TypeDefinitionIndex = 44731;
+inline static constexpr unsigned int MonoCustomFlipSetter_TypeDefinitionIndex = 45646;
 
 class MonoCustomFlipSetter : public ::UnityEngine::MonoBehaviour
 {

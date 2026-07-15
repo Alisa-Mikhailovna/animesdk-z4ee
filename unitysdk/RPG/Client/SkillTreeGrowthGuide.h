@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_798;
+class Class_0_16E4307DCC419505_836;
 class Class_1_440BC8B0F4E66EEB;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SKILLTREEGROWTHGUIDE_CREATE_OFFSET UNITYSDK_OFFSET(0x17C0BC70)
-#define RPG_CLIENT_SKILLTREEGROWTHGUIDE_GETGUIDEITEMS_OFFSET UNITYSDK_OFFSET(0x17C0BF90)
-#define RPG_CLIENT_SKILLTREEGROWTHGUIDE_GET_ISGROWABLE_OFFSET UNITYSDK_OFFSET(0x17C0BDC0)
-#define RPG_CLIENT_SKILLTREEGROWTHGUIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x17C0BD50)
+#define RPG_CLIENT_SKILLTREEGROWTHGUIDE_CREATE_OFFSET UNITYSDK_OFFSET(0xD518D60)
+#define RPG_CLIENT_SKILLTREEGROWTHGUIDE_GETGUIDEITEMS_OFFSET UNITYSDK_OFFSET(0xD519080)
+#define RPG_CLIENT_SKILLTREEGROWTHGUIDE_GET_ISGROWABLE_OFFSET UNITYSDK_OFFSET(0xD518EB0)
+#define RPG_CLIENT_SKILLTREEGROWTHGUIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xD518E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillTreeGrowthGuide_TypeDefinitionIndex = 61293;
+	inline static constexpr unsigned int SkillTreeGrowthGuide_TypeDefinitionIndex = 62635;
 
 	class SkillTreeGrowthGuide : public ::System::Object
 	{
 	public:
-		::Class_1_440BC8B0F4E66EEB* _Factory; // 0x10
-		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x18
+		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x10
+		::Class_1_440BC8B0F4E66EEB* _Factory; // 0x18
 
 		::System::Void _ctor()
 		{
@@ -37,9 +37,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLTREEGROWTHGUIDE_GET_ISGROWABLE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_798*>* GetGuideItems()
+		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_836*>* GetGuideItems()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_798*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLTREEGROWTHGUIDE_GETGUIDEITEMS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_836*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLTREEGROWTHGUIDE_GETGUIDEITEMS_OFFSET))(this);
 		}
 	};
 }

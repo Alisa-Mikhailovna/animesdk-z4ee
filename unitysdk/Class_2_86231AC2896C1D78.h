@@ -10,27 +10,26 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_86231AC2896C1D78_METHOD_2_1779151B1D25FC5C_OFFSET UNITYSDK_OFFSET(0x1737E450)
-#define CLASS_2_86231AC2896C1D78_METHOD_2_8285091081E03590_OFFSET UNITYSDK_OFFSET(0x1737E820)
-#define CLASS_2_86231AC2896C1D78_METHOD_2_8E66B82298267DC3_OFFSET UNITYSDK_OFFSET(0x1737E8C0)
-#define CLASS_2_86231AC2896C1D78_METHOD_2_B3395AFA7A642A0F_OFFSET UNITYSDK_OFFSET(0x1737E570)
-#define CLASS_2_86231AC2896C1D78__CTOR_OFFSET UNITYSDK_OFFSET(0x1737E990)
-#define CLASS_2_86231AC2896C1D78__ONBIND_OFFSET UNITYSDK_OFFSET(0x1737E230)
-#define CLASS_2_86231AC2896C1D78___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x1737E9C0)
+#define CLASS_2_86231AC2896C1D78_METHOD_2_1779151B1D25FC5C_OFFSET UNITYSDK_OFFSET(0xBAAD6D0)
+#define CLASS_2_86231AC2896C1D78_METHOD_2_8285091081E03590_OFFSET UNITYSDK_OFFSET(0xBAADAA0)
+#define CLASS_2_86231AC2896C1D78_METHOD_2_8E66B82298267DC3_OFFSET UNITYSDK_OFFSET(0xBAADB40)
+#define CLASS_2_86231AC2896C1D78_METHOD_2_B3395AFA7A642A0F_OFFSET UNITYSDK_OFFSET(0xBAAD7F0)
+#define CLASS_2_86231AC2896C1D78__CTOR_OFFSET UNITYSDK_OFFSET(0xBAADC10)
+#define CLASS_2_86231AC2896C1D78__ONBIND_OFFSET UNITYSDK_OFFSET(0xBAAD4B0)
 
-inline static constexpr unsigned int Class_2_86231AC2896C1D78_TypeDefinitionIndex = 67587;
+inline static constexpr unsigned int Class_2_86231AC2896C1D78_TypeDefinitionIndex = 69069;
 
 class Class_2_86231AC2896C1D78 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::UnityEngine::UI::Image* Field_2_0; // 0x60
+	::UnityEngine::UI::Text* Field_2_0; // 0x60
 	::System::String* Field_2_1; // 0x68
-	::UnityEngine::UI::Text* Field_2_2; // 0x70
+	::UnityEngine::Transform* Field_2_2; // 0x70
 	::UnityEngine::UI::Text* Field_2_3; // 0x78
-	::UnityEngine::Transform* Field_2_4; // 0x80
-	::UnityEngine::UI::Text* Field_2_5; // 0x88
+	::UnityEngine::UI::Text* Field_2_4; // 0x80
+	::UnityEngine::Transform* Field_2_5; // 0x88
 	::UnityEngine::Transform* Field_2_6; // 0x90
-	::UnityEngine::Transform* Field_2_7; // 0x98
+	::UnityEngine::UI::Image* Field_2_7; // 0x98
 	::RPG::GameCore::NumBarSubType Field_2_8; // 0xA0
 
 	::System::Void _ctor()
@@ -61,10 +60,5 @@ public:
 	::System::Void Method_2_8E66B82298267DC3(::System::String* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_86231AC2896C1D78_METHOD_2_8E66B82298267DC3_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_86231AC2896C1D78___IFIXBASEPROXY__ONBIND_OFFSET))(this);
 	}
 };

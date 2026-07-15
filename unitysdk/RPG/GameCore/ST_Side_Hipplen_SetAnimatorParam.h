@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM_METHOD_4_70E6DE2C282E3FAE_OFFSET UNITYSDK_OFFSET(0x1A172F00)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM_METHOD_4_C40C41AE521055A5_OFFSET UNITYSDK_OFFSET(0x1A182FC0)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A172EB0)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM_METHOD_4_70E6DE2C282E3FAE_OFFSET UNITYSDK_OFFSET(0x1B7E2440)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM_METHOD_4_7829B0263DD2D05A_OFFSET UNITYSDK_OFFSET(0x1B7E2400)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E2430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_Hipplen_SetAnimatorParam_TypeDefinitionIndex = 20144;
+	inline static constexpr unsigned int ST_Side_Hipplen_SetAnimatorParam_TypeDefinitionIndex = 20516;
 
 	class ST_Side_Hipplen_SetAnimatorParam : public ::RPG::GameCore::STTaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C40C41AE521055A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_SetAnimatorParam*& a2)
+		static ::System::Void Method_4_7829B0263DD2D05A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_SetAnimatorParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_SetAnimatorParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM_METHOD_4_C40C41AE521055A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_SetAnimatorParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_SETANIMATORPARAM_METHOD_4_7829B0263DD2D05A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_70E6DE2C282E3FAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_SetAnimatorParam* a2)

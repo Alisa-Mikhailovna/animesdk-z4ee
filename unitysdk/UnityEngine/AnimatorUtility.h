@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define UNITYENGINE_ANIMATORUTILITY_OPTIMIZETRANSFORMHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1B435B90)
+#define UNITYENGINE_ANIMATORUTILITY_OPTIMIZETRANSFORMHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1CFF0C00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorUtility_TypeDefinitionIndex = 5142;
+	inline static constexpr unsigned int AnimatorUtility_TypeDefinitionIndex = 5147;
 
 	class AnimatorUtility : public ::System::Object
 	{

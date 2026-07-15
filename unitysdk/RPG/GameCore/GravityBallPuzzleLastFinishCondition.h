@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class GravityBallCondition; }
 
-#define RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION_METHOD_3_CCB5B29140E7FA48_OFFSET UNITYSDK_OFFSET(0x19CB00C0)
-#define RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION_METHOD_3_CCD013273C325858_OFFSET UNITYSDK_OFFSET(0x19CB0040)
-#define RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB0090)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION_METHOD_3_0E350918A4572B3B_OFFSET UNITYSDK_OFFSET(0x1B4CF260)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION_METHOD_3_CCB5B29140E7FA48_OFFSET UNITYSDK_OFFSET(0x1B4CF2A0)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CF290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravityBallPuzzleLastFinishCondition_TypeDefinitionIndex = 19243;
+	inline static constexpr unsigned int GravityBallPuzzleLastFinishCondition_TypeDefinitionIndex = 19599;
 
 	class GravityBallPuzzleLastFinishCondition : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CCD013273C325858(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GravityBallPuzzleLastFinishCondition*& a2)
+		static ::System::Void Method_3_0E350918A4572B3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GravityBallPuzzleLastFinishCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GravityBallPuzzleLastFinishCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION_METHOD_3_CCD013273C325858_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GravityBallPuzzleLastFinishCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLELASTFINISHCONDITION_METHOD_3_0E350918A4572B3B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CCB5B29140E7FA48(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GravityBallPuzzleLastFinishCondition* a2)

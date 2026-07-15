@@ -7,27 +7,27 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_F26E05633A0C9516_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DE3E20)
-#define CLASS_1_F26E05633A0C9516_METHOD_1_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x15DE3B90)
-#define CLASS_1_F26E05633A0C9516_METHOD_1_1709D3280A2D3A51_OFFSET UNITYSDK_OFFSET(0x15DE4590)
-#define CLASS_1_F26E05633A0C9516_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x15DE3B80)
-#define CLASS_1_F26E05633A0C9516_METHOD_1_E59D1BA4D2E00CB7_OFFSET UNITYSDK_OFFSET(0x15DE44E0)
-#define CLASS_1_F26E05633A0C9516_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x15DE3DC0)
-#define CLASS_1_F26E05633A0C9516__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE3CE0)
+#define CLASS_1_F26E05633A0C9516_DISPOSE_OFFSET UNITYSDK_OFFSET(0x153182F0)
+#define CLASS_1_F26E05633A0C9516_METHOD_1_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x15318060)
+#define CLASS_1_F26E05633A0C9516_METHOD_1_1D584921E9C31128_OFFSET UNITYSDK_OFFSET(0x15318A60)
+#define CLASS_1_F26E05633A0C9516_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x15318050)
+#define CLASS_1_F26E05633A0C9516_METHOD_1_E59D1BA4D2E00CB7_OFFSET UNITYSDK_OFFSET(0x153189B0)
+#define CLASS_1_F26E05633A0C9516_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x15318290)
+#define CLASS_1_F26E05633A0C9516__CTOR_OFFSET UNITYSDK_OFFSET(0x153181B0)
 
-inline static constexpr unsigned int Class_1_F26E05633A0C9516_TypeDefinitionIndex = 55896;
+inline static constexpr unsigned int Class_1_F26E05633A0C9516_TypeDefinitionIndex = 57135;
 
 class Class_1_F26E05633A0C9516 : public ::System::Object
 {
 public:
 	static ::Class_1_F26E05633A0C9516** StaticGet_Field_1_0()
 	{
-		return (::Class_1_F26E05633A0C9516**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F26E05633A0C9516_TypeDefinitionIndex)->GetStaticField(0x28BC0);
+		return (::Class_1_F26E05633A0C9516**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F26E05633A0C9516_TypeDefinitionIndex)->GetStaticField(0x24C00);
 	}
 	// static const ::System::Int32 Field_1_1 = 0x4; // 0x0
 	::UnityEngine::Transform* Field_1_2; // 0x10
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*>* Field_1_3; // 0x18
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::UnityEngine::Object*>* Field_1_4; // 0x20
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::UnityEngine::Object*>* Field_1_3; // 0x18
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::Object*, ::System::Collections::Generic::List_1<::UnityEngine::Object*>*>* Field_1_4; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -59,8 +59,8 @@ public:
 		return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + CLASS_1_F26E05633A0C9516_METHOD_1_E59D1BA4D2E00CB7_OFFSET))(a1);
 	}
 
-	::UnityEngine::Transform* Method_1_1709D3280A2D3A51()
+	::UnityEngine::Transform* Method_1_1D584921E9C31128()
 	{
-		return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F26E05633A0C9516_METHOD_1_1709D3280A2D3A51_OFFSET))(this);
+		return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F26E05633A0C9516_METHOD_1_1D584921E9C31128_OFFSET))(this);
 	}
 };

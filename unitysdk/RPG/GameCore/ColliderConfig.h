@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_COLLIDERCONFIG_METHOD_2_DB1183BA0272677E_OFFSET UNITYSDK_OFFSET(0x1A3227C0)
-#define RPG_GAMECORE_COLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A322930)
+#define RPG_GAMECORE_COLLIDERCONFIG_METHOD_2_DB1183BA0272677E_OFFSET UNITYSDK_OFFSET(0x1B371BF0)
+#define RPG_GAMECORE_COLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B371D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ColliderConfig_TypeDefinitionIndex = 16626;
+	inline static constexpr unsigned int ColliderConfig_TypeDefinitionIndex = 16788;
 
 	class ColliderConfig : public ::RPG::GameCore::JsonConfig
 	{

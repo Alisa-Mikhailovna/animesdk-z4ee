@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PROPRESETPUZZLE_METHOD_3_D51B6A81FC1E9F87_OFFSET UNITYSDK_OFFSET(0x19A90760)
-#define RPG_GAMECORE_PROPRESETPUZZLE_METHOD_3_E572D3AB8AF1CCF3_OFFSET UNITYSDK_OFFSET(0x19A90650)
-#define RPG_GAMECORE_PROPRESETPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A90730)
+#define RPG_GAMECORE_PROPRESETPUZZLE_METHOD_3_B9642DF4FCC047EA_OFFSET UNITYSDK_OFFSET(0x1B6EB1F0)
+#define RPG_GAMECORE_PROPRESETPUZZLE_METHOD_3_D51B6A81FC1E9F87_OFFSET UNITYSDK_OFFSET(0x1B6EB2C0)
+#define RPG_GAMECORE_PROPRESETPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6EB2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropResetPuzzle_TypeDefinitionIndex = 20762;
+	inline static constexpr unsigned int PropResetPuzzle_TypeDefinitionIndex = 21177;
 
 	class PropResetPuzzle : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRESETPUZZLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E572D3AB8AF1CCF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropResetPuzzle*& a2)
+		static ::System::Void Method_3_B9642DF4FCC047EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropResetPuzzle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropResetPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRESETPUZZLE_METHOD_3_E572D3AB8AF1CCF3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropResetPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRESETPUZZLE_METHOD_3_B9642DF4FCC047EA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D51B6A81FC1E9F87(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropResetPuzzle* a2)

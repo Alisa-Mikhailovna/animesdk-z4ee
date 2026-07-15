@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER_METHOD_3_26F40ACAE0E5E5E2_OFFSET UNITYSDK_OFFSET(0x1A1E0580)
-#define RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER_METHOD_3_D8F2233D3B5E73F1_OFFSET UNITYSDK_OFFSET(0x1A1E0600)
-#define RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E05D0)
+#define RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER_METHOD_3_1D546558AC1EAFCC_OFFSET UNITYSDK_OFFSET(0x1B882880)
+#define RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER_METHOD_3_D8F2233D3B5E73F1_OFFSET UNITYSDK_OFFSET(0x1B8828C0)
+#define RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8828B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetActionBarItemAnimatorTrigger_TypeDefinitionIndex = 21914;
+	inline static constexpr unsigned int SetActionBarItemAnimatorTrigger_TypeDefinitionIndex = 22343;
 
 	class SetActionBarItemAnimatorTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_26F40ACAE0E5E5E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionBarItemAnimatorTrigger*& a2)
+		static ::System::Void Method_3_1D546558AC1EAFCC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionBarItemAnimatorTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActionBarItemAnimatorTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER_METHOD_3_26F40ACAE0E5E5E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActionBarItemAnimatorTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONBARITEMANIMATORTRIGGER_METHOD_3_1D546558AC1EAFCC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D8F2233D3B5E73F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionBarItemAnimatorTrigger* a2)

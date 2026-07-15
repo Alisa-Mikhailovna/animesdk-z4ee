@@ -10,11 +10,11 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CURVEEDGECONNECTIONTRIGGERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x15F3A3F0)
+#define RPG_CLIENT_CURVEEDGECONNECTIONTRIGGERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xC1C8790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveEdgeConnectionTriggerSetting_TypeDefinitionIndex = 64135;
+	inline static constexpr unsigned int CurveEdgeConnectionTriggerSetting_TypeDefinitionIndex = 65506;
 
 	class CurveEdgeConnectionTriggerSetting : public ::System::Object
 	{

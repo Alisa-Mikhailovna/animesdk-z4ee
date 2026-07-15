@@ -4,22 +4,22 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x17CFDD40)
-#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17CFD9B0)
-#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17CFDDF0)
-#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CFE1B0)
-#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x17CFD9A0)
+#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CCFCBC0)
+#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CCFC830)
+#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CCFCC70)
+#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCFD030)
+#define SYSTEM_NET_NETWORKINFORMATION_PHYSICALADDRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCFC820)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int PhysicalAddress_TypeDefinitionIndex = 2924;
+	inline static constexpr unsigned int PhysicalAddress_TypeDefinitionIndex = 2928;
 
 	class PhysicalAddress : public ::System::Object
 	{
 	public:
 		static ::System::Net::NetworkInformation::PhysicalAddress** StaticGet_None()
 		{
-			return (::System::Net::NetworkInformation::PhysicalAddress**)Il2CppClass::FromTypeDefinitionIndex(PhysicalAddress_TypeDefinitionIndex)->GetStaticField(0x25B40);
+			return (::System::Net::NetworkInformation::PhysicalAddress**)Il2CppClass::FromTypeDefinitionIndex(PhysicalAddress_TypeDefinitionIndex)->GetStaticField(0x2D5E0);
 		}
 		::Il2CppArray<::System::Byte>* address; // 0x10
 		::System::Boolean changed; // 0x18

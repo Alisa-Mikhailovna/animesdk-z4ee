@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E73720)
-#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E738D0)
+#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B568A90)
+#define RPG_GAMECORE_LEVELNAVMAPSUBMAPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B568C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavmapSubmapConfig_TypeDefinitionIndex = 16376;
+	inline static constexpr unsigned int LevelNavmapSubmapConfig_TypeDefinitionIndex = 16538;
 
 	class LevelNavmapSubmapConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class Confirm; }
 namespace MiHoYo::SDK { class Confirm_OnConfirmDelegate; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1725EA90)
-#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1725F250)
+#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BCEF50)
+#define MIHOYO_SDK_CONFIRM___C__DISPLAYCLASS24_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19BCF710)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Confirm___c__DisplayClass24_0_TypeDefinitionIndex = 8178;
+	inline static constexpr unsigned int Confirm___c__DisplayClass24_0_TypeDefinitionIndex = 8189;
 
 	class Confirm___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::System::String* content; // 0x10
+		::MiHoYo::SDK::Confirm_OnConfirmDelegate* callback; // 0x10
 		::System::String* okButton; // 0x18
-		::MiHoYo::SDK::Confirm_OnConfirmDelegate* callback; // 0x20
-		::System::String* cancelButton; // 0x28
+		::System::String* cancelButton; // 0x20
+		::System::String* content; // 0x28
 
 		::System::Void _ctor()
 		{

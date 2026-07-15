@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_E408E6D7F3D1822C.h"
+#include "unitysdk/Class_2_980BB27C20DEC196.h"
 #include "unitysdk/RPG/Client/LittleGame/Match3/OpponentRole.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client::LittleGame { class Match3EnergyViewStateBuffer; }
 
-#define CLASS_3_101FB938C28FF305_METHOD_3_E61C16044B7481FF_OFFSET UNITYSDK_OFFSET(0x1356D300)
-#define CLASS_3_101FB938C28FF305_METHOD_3_ED70800534CD3957_OFFSET UNITYSDK_OFFSET(0x1356CE30)
-#define CLASS_3_101FB938C28FF305_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1356CEC0)
-#define CLASS_3_101FB938C28FF305_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1356CF50)
-#define CLASS_3_101FB938C28FF305__CTOR_OFFSET UNITYSDK_OFFSET(0x1356D350)
-#define CLASS_3_101FB938C28FF305___IFIXBASEPROXY_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1356D360)
-#define CLASS_3_101FB938C28FF305___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1356D3C0)
+#define CLASS_3_101FB938C28FF305_METHOD_3_E61C16044B7481FF_OFFSET UNITYSDK_OFFSET(0xC27FF60)
+#define CLASS_3_101FB938C28FF305_METHOD_3_ED70800534CD3957_OFFSET UNITYSDK_OFFSET(0xC27FA90)
+#define CLASS_3_101FB938C28FF305_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xC27FB20)
+#define CLASS_3_101FB938C28FF305_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xC27FBB0)
+#define CLASS_3_101FB938C28FF305__CTOR_OFFSET UNITYSDK_OFFSET(0xC27FFB0)
 
-inline static constexpr unsigned int Class_3_101FB938C28FF305_TypeDefinitionIndex = 61561;
+inline static constexpr unsigned int Class_3_101FB938C28FF305_TypeDefinitionIndex = 62923;
 
-class Class_3_101FB938C28FF305 : public ::Class_2_E408E6D7F3D1822C
+class Class_3_101FB938C28FF305 : public ::Class_2_980BB27C20DEC196
 {
 public:
 	// static const ::System::Single Field_3_0; // 0x0
 	::RPG::Client::LittleGame::Match3EnergyViewStateBuffer* Field_3_1; // 0x28
 	::UnityEngine::Vector2 Field_3_2; // 0x30
-	::System::Boolean Field_3_3; // 0x38
-	::System::Boolean Field_3_4; // 0x39
-	::System::UInt32 Field_3_5; // 0x3C
-	::System::UInt32 Field_3_6; // 0x40
-	::RPG::Client::LittleGame::Match3::OpponentRole Field_3_7; // 0x44
+	::System::UInt32 Field_3_3; // 0x38
+	::System::Boolean Field_3_4; // 0x3C
+	::System::Boolean Field_3_5; // 0x3D
+	::RPG::Client::LittleGame::Match3::OpponentRole Field_3_6; // 0x40
+	::System::UInt32 Field_3_7; // 0x44
 
 	::System::Void _ctor()
 	{
@@ -52,15 +50,5 @@ public:
 	::System::Void Method_3_E61C16044B7481FF()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_101FB938C28FF305_METHOD_3_E61C16044B7481FF_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnClear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_101FB938C28FF305___IFIXBASEPROXY_ONCLEAR_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_101FB938C28FF305___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
 	}
 };

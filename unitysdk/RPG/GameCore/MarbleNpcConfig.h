@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLENPCCONFIG_METHOD_2_4F880ECBD859B453_OFFSET UNITYSDK_OFFSET(0x19C37F30)
-#define RPG_GAMECORE_MARBLENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3B8C0)
+#define RPG_GAMECORE_MARBLENPCCONFIG_METHOD_2_4F880ECBD859B453_OFFSET UNITYSDK_OFFSET(0x1B5B81D0)
+#define RPG_GAMECORE_MARBLENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5BBAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleNpcConfig_TypeDefinitionIndex = 17999;
+	inline static constexpr unsigned int MarbleNpcConfig_TypeDefinitionIndex = 18183;
 
 	class MarbleNpcConfig : public ::RPG::GameCore::JsonConfig
 	{

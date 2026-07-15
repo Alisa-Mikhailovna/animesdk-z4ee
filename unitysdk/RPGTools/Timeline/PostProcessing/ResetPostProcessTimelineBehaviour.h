@@ -3,13 +3,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x19B4FB50)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B4FC20)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x19B4FC30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xDD0A220)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD0A2F0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ResetPostProcessTimelineBehaviour_TypeDefinitionIndex = 45877;
+	inline static constexpr unsigned int ResetPostProcessTimelineBehaviour_TypeDefinitionIndex = 46816;
 
 	class ResetPostProcessTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -22,11 +21,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Void OnGraphStop(::UnityEngine::Playables::Playable a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
 	};
 }

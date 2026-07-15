@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONTENTPACKAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B16ED0)
-#define RPG_GAMECORE_CONTENTPACKAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B171E0)
+#define RPG_GAMECORE_CONTENTPACKAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B383300)
+#define RPG_GAMECORE_CONTENTPACKAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B383610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ContentPackageConfigRow_TypeDefinitionIndex = 12459;
+	inline static constexpr unsigned int ContentPackageConfigRow_TypeDefinitionIndex = 12596;
 
 	class ContentPackageConfigRow : public ::System::Object
 	{
@@ -19,11 +19,11 @@ namespace RPG::GameCore
 		::System::String* ReleaseCondition; // 0x18
 		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x20
 		::System::String* EarlyAccessCondition; // 0x28
-		::System::UInt32 InitEntranceID; // 0x30
-		::System::UInt32 AfterGuideEntranceID; // 0x34
-		::System::UInt32 ContentID; // 0x38
-		::System::UInt32 ActivityModuleID; // 0x3C
-		::System::Boolean IsHaveResidentPart; // 0x40
+		::System::UInt32 AfterGuideEntranceID; // 0x30
+		::System::UInt32 ActivityModuleID; // 0x34
+		::System::Boolean IsHaveResidentPart; // 0x38
+		::System::UInt32 ContentID; // 0x3C
+		::System::UInt32 InitEntranceID; // 0x40
 
 		::System::Void _ctor()
 		{

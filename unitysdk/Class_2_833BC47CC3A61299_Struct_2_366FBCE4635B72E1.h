@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/QingQueEnergyBarIconType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_2_833BC47CC3A61299_STRUCT_2_366FBCE4635B72E1_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3755320)
+#define CLASS_2_833BC47CC3A61299_STRUCT_2_366FBCE4635B72E1_COMPARETO_OFFSET UNITYSDK_OFFSET(0x141290)
 
-inline static constexpr unsigned int Class_2_833BC47CC3A61299_Struct_2_366FBCE4635B72E1_TypeDefinitionIndex = 51648;
+inline static constexpr unsigned int Class_2_833BC47CC3A61299_Struct_2_366FBCE4635B72E1_TypeDefinitionIndex = 52791;
 
 struct alignas(4) Class_2_833BC47CC3A61299_Struct_2_366FBCE4635B72E1
 {

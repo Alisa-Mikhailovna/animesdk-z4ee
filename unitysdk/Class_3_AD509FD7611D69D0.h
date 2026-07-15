@@ -7,12 +7,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSoundMusicRhythmStageBGM; }
 namespace System { class String; }
 
-#define CLASS_3_AD509FD7611D69D0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC3B90)
-#define CLASS_3_AD509FD7611D69D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CC3BD0)
-#define CLASS_3_AD509FD7611D69D0__CTOR_OFFSET UNITYSDK_OFFSET(0x12CC3B60)
-#define CLASS_3_AD509FD7611D69D0___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC3EA0)
+#define CLASS_3_AD509FD7611D69D0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1561CD90)
+#define CLASS_3_AD509FD7611D69D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1561CDD0)
+#define CLASS_3_AD509FD7611D69D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1561CD60)
 
-inline static constexpr unsigned int Class_3_AD509FD7611D69D0_TypeDefinitionIndex = 52729;
+inline static constexpr unsigned int Class_3_AD509FD7611D69D0_TypeDefinitionIndex = 53939;
 
 class Class_3_AD509FD7611D69D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerSoundMusicRhythmStageBGM*>
 {
@@ -33,10 +32,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AD509FD7611D69D0_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AD509FD7611D69D0___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

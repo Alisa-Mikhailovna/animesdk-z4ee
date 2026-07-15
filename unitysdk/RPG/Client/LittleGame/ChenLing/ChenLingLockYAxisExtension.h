@@ -6,12 +6,12 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x17E1C130)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17E1C280)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xC977B40)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGLOCKYAXISEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0xC977C90)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingLockYAxisExtension_TypeDefinitionIndex = 72495;
+	inline static constexpr unsigned int ChenLingLockYAxisExtension_TypeDefinitionIndex = 74020;
 
 	class ChenLingLockYAxisExtension : public ::Cinemachine::CinemachineExtension
 	{

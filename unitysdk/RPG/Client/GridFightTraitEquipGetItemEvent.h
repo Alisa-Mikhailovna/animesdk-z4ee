@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class GridFightEquipItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPGETITEMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19657CA0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPGETITEMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC848540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEquipGetItemEvent_TypeDefinitionIndex = 60743;
+	inline static constexpr unsigned int GridFightTraitEquipGetItemEvent_TypeDefinitionIndex = 62035;
 
 	class GridFightTraitEquipGetItemEvent : public ::System::Object
 	{

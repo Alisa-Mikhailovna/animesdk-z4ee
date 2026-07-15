@@ -6,20 +6,21 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_5534CCC822EB6D42_OFFSET UNITYSDK_OFFSET(0x158517E0)
-#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_74D959A721F20D0E_OFFSET UNITYSDK_OFFSET(0x15851A90)
-#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_8340EF9CF434CC7C_OFFSET UNITYSDK_OFFSET(0x15851EE0)
-#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_C35E6B16983C67FF_OFFSET UNITYSDK_OFFSET(0x15851830)
-#define CLASS_1_FBD3E8AC73450E0D__CCTOR_OFFSET UNITYSDK_OFFSET(0x15851F40)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_5534CCC822EB6D42_OFFSET UNITYSDK_OFFSET(0x14C4BEF0)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_74D959A721F20D0E_OFFSET UNITYSDK_OFFSET(0x14C4C1A0)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_8340EF9CF434CC7C_OFFSET UNITYSDK_OFFSET(0x14C4C780)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_C35E6B16983C67FF_OFFSET UNITYSDK_OFFSET(0x14C4BF40)
+#define CLASS_1_FBD3E8AC73450E0D_METHOD_1_E67CA5C3D2DB2108_OFFSET UNITYSDK_OFFSET(0x14C4C7E0)
+#define CLASS_1_FBD3E8AC73450E0D__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C4C8C0)
 
-inline static constexpr unsigned int Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex = 68322;
+inline static constexpr unsigned int Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex = 69811;
 
 class Class_1_FBD3E8AC73450E0D : public ::System::Object
 {
 public:
 	static ::System::String** StaticGet_Field_1_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex)->GetStaticField(0x63A70);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FBD3E8AC73450E0D_TypeDefinitionIndex)->GetStaticField(0x5C990);
 	}
 
 	static ::System::Void _cctor()
@@ -45,5 +46,10 @@ public:
 	static ::System::String* Method_1_8340EF9CF434CC7C(::System::String* a1)
 	{
 		return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_FBD3E8AC73450E0D_METHOD_1_8340EF9CF434CC7C_OFFSET))(a1);
+	}
+
+	static ::System::String* Method_1_E67CA5C3D2DB2108(::System::String* a1, ::System::String* a2)
+	{
+		return ((::System::String*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_FBD3E8AC73450E0D_METHOD_1_E67CA5C3D2DB2108_OFFSET))(a1, a2);
 	}
 };

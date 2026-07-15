@@ -1,0 +1,239 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_2.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_6.h"
+#include "unitysdk/RPG/Client/Multiplayer/BaseMPGameService.h"
+#include "unitysdk/RPG/Client/Multiplayer/MPSessionState.h"
+
+class Class_1_1DD6AC150642D284;
+class Class_1_2375E47039821420;
+class Class_1_6DBCB1EF77F6CF1A;
+class Class_1_7B005A18003A04C3;
+class Class_1_7EEA5E93C4D09894;
+class Class_1_B13340E145F0BF93;
+class Class_2_4A27D8D16ED10A2B;
+namespace Google::Protobuf { class ByteString; }
+namespace RPG::Client::TeamTowers { class TeamTowersWindowService; }
+namespace System { class Action; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
+
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CHECKANDSHOWRECONNECTCONFIRM_OFFSET UNITYSDK_OFFSET(0xD666EA0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CHECKCANENTERMPGAME_OFFSET UNITYSDK_OFFSET(0xD6686C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CREATEMPPLAYEREXTINFO_OFFSET UNITYSDK_OFFSET(0xD668340)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CREATEMPROOMEXTINFO_OFFSET UNITYSDK_OFFSET(0xD668580)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_GAMEMODE_OFFSET UNITYSDK_OFFSET(0xD668280)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_INVITETOASTUIPATH_OFFSET UNITYSDK_OFFSET(0xD6682D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_ISINGAME_OFFSET UNITYSDK_OFFSET(0xD6693E0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_ISSERVERCONNECTED_OFFSET UNITYSDK_OFFSET(0xD669450)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ISINACTIVITYGAME_OFFSET UNITYSDK_OFFSET(0xD668820)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONCREATEGAME_OFFSET UNITYSDK_OFFSET(0xD668C70)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONFINISHGAME_OFFSET UNITYSDK_OFFSET(0xD668CC0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONGENERALNOTIFY_OFFSET UNITYSDK_OFFSET(0xD668E50)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONONGENERALRSP_OFFSET UNITYSDK_OFFSET(0xD668DD0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONSERVERCONNECTED_OFFSET UNITYSDK_OFFSET(0xD668D20)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONSERVERDISCONNECTED_OFFSET UNITYSDK_OFFSET(0xD668D80)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONSTATECHANGED_OFFSET UNITYSDK_OFFSET(0xD668710)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_REGISTERGUEST_OFFSET UNITYSDK_OFFSET(0xD668AC0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_SETINVITEROBOTID_OFFSET UNITYSDK_OFFSET(0xD668EC0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_SETSELECTEDGAMETYPE_OFFSET UNITYSDK_OFFSET(0xD6673E0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_SET_ISSERVERCONNECTED_OFFSET UNITYSDK_OFFSET(0xD669460)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_STARTMATCHWITHROBOTSYNC_OFFSET UNITYSDK_OFFSET(0xD668FD0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_START_OFFSET UNITYSDK_OFFSET(0xD668980)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_STOP_OFFSET UNITYSDK_OFFSET(0xD668A20)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_UNREGISTERGUEST_OFFSET UNITYSDK_OFFSET(0xD668BB0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_0_OFFSET UNITYSDK_OFFSET(0xD669480)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_1_OFFSET UNITYSDK_OFFSET(0xD6697C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_2_OFFSET UNITYSDK_OFFSET(0xD6696F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_3_OFFSET UNITYSDK_OFFSET(0xD6697B0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_4_OFFSET UNITYSDK_OFFSET(0xD669790)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xD668240)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__ONACCEPTINVITATIONNOTIFY_OFFSET UNITYSDK_OFFSET(0xD669330)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__ONENTERLOBBY_OFFSET UNITYSDK_OFFSET(0xD6687C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__STARTMATCHWITHROBOTSYNC_B__22_0_OFFSET UNITYSDK_OFFSET(0xD669470)
+
+namespace RPG::Client::TeamTowers
+{
+	inline static constexpr unsigned int TeamTowersPVPService_TypeDefinitionIndex = 75080;
+
+	class TeamTowersPVPService : public ::RPG::Client::Multiplayer::BaseMPGameService
+	{
+	public:
+		::System::Action_1<::Class_1_2375E47039821420*>* _OnGeneralNotify; // 0x20
+		::Class_1_7EEA5E93C4D09894* _Repository; // 0x28
+		::RPG::Client::TeamTowers::TeamTowersWindowService* _WindowService; // 0x30
+		::System::Action* _OnServerConnected; // 0x38
+		::Class_1_B13340E145F0BF93* _GameflowService; // 0x40
+		::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* _OnOnGeneralRsp; // 0x48
+		::System::Boolean _IsServerConnected_k__BackingField; // 0x50
+		::System::Boolean _IsCheckingReconnectToFight; // 0x51
+		::Enum_3_4608E37A1B3D374A_6 _SelectedGameType; // 0x54
+
+		::System::Void _ctor(::Class_2_4A27D8D16ED10A2B* a1, ::Class_1_6DBCB1EF77F6CF1A* a2, ::Class_1_7EEA5E93C4D09894* a3, ::Class_1_B13340E145F0BF93* a4, ::RPG::Client::TeamTowers::TeamTowersWindowService* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_2_4A27D8D16ED10A2B*, ::Class_1_6DBCB1EF77F6CF1A*, ::Class_1_7EEA5E93C4D09894*, ::Class_1_B13340E145F0BF93*, ::RPG::Client::TeamTowers::TeamTowersWindowService*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::Enum_3_01618AD0437C8486_2 get_GameMode()
+		{
+			return ((::Enum_3_01618AD0437C8486_2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_GAMEMODE_OFFSET))(this);
+		}
+
+		::System::String* get_InviteToastUIPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_INVITETOASTUIPATH_OFFSET))(this);
+		}
+
+		::Class_1_7B005A18003A04C3* CreateMPPlayerExtInfo()
+		{
+			return ((::Class_1_7B005A18003A04C3*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CREATEMPPLAYEREXTINFO_OFFSET))(this);
+		}
+
+		::Class_1_1DD6AC150642D284* CreateMPRoomExtInfo()
+		{
+			return ((::Class_1_1DD6AC150642D284*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CREATEMPROOMEXTINFO_OFFSET))(this);
+		}
+
+		::System::Boolean CheckCanEnterMPGame()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CHECKCANENTERMPGAME_OFFSET))(this);
+		}
+
+		::System::Void OnStateChanged(::RPG::Client::Multiplayer::MPSessionState a1, ::RPG::Client::Multiplayer::MPSessionState a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Multiplayer::MPSessionState, ::RPG::Client::Multiplayer::MPSessionState))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONSTATECHANGED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean IsInActivityGame()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ISINACTIVITYGAME_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_START_OFFSET))(this);
+		}
+
+		::System::Void Stop()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_STOP_OFFSET))(this);
+		}
+
+		::System::Void RegisterGuest(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::Class_1_2375E47039821420*>* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::Class_1_2375E47039821420*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_REGISTERGUEST_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void UnregisterGuest(::System::Action* a1, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>* a2, ::System::Action_1<::Class_1_2375E47039821420*>* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_2<::System::UInt32, ::Google::Protobuf::ByteString*>*, ::System::Action_1<::Class_1_2375E47039821420*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_UNREGISTERGUEST_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void OnCreateGame()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONCREATEGAME_OFFSET))(this);
+		}
+
+		::System::Void OnFinishGame()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONFINISHGAME_OFFSET))(this);
+		}
+
+		::System::Void OnServerConnected()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONSERVERCONNECTED_OFFSET))(this);
+		}
+
+		::System::Void OnServerDisconnected()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONSERVERDISCONNECTED_OFFSET))(this);
+		}
+
+		::System::Void OnOnGeneralRsp(::System::UInt32 a1, ::Google::Protobuf::ByteString* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Google::Protobuf::ByteString*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONONGENERALRSP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnGeneralNotify(::Class_1_2375E47039821420* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_2375E47039821420*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_ONGENERALNOTIFY_OFFSET))(this, a1);
+		}
+
+		::System::Void SetSelectedGameType(::Enum_3_4608E37A1B3D374A_6 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Enum_3_4608E37A1B3D374A_6))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_SETSELECTEDGAMETYPE_OFFSET))(this, a1);
+		}
+
+		::System::Void SetInviteRobotID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_SETINVITEROBOTID_OFFSET))(this, a1);
+		}
+
+		::System::Void StartMatchWithRobotSync()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_STARTMATCHWITHROBOTSYNC_OFFSET))(this);
+		}
+
+		::System::Void CheckAndShowReconnectConfirm()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_CHECKANDSHOWRECONNECTCONFIRM_OFFSET))(this);
+		}
+
+		::System::Void _OnEnterLobby()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__ONENTERLOBBY_OFFSET))(this);
+		}
+
+		::System::Void _OnAcceptInvitationNotify(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__ONACCEPTINVITATIONNOTIFY_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsInGame()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_ISINGAME_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsServerConnected()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_GET_ISSERVERCONNECTED_OFFSET))(this);
+		}
+
+		::System::Void set_IsServerConnected(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE_SET_ISSERVERCONNECTED_OFFSET))(this, a1);
+		}
+
+		::System::Void _StartMatchWithRobotSync_b__22_0(::System::UInt16 a1, ::System::Object* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__STARTMATCHWITHROBOTSYNC_B__22_0_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _CheckAndShowReconnectConfirm_b__23_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_0_OFFSET))(this);
+		}
+
+		::System::Void _CheckAndShowReconnectConfirm_b__23_2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_2_OFFSET))(this);
+		}
+
+		::System::Void _CheckAndShowReconnectConfirm_b__23_4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_4_OFFSET))(this);
+		}
+
+		::System::Void _CheckAndShowReconnectConfirm_b__23_3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_3_OFFSET))(this);
+		}
+
+		::System::Void _CheckAndShowReconnectConfirm_b__23_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPVPSERVICE__CHECKANDSHOWRECONNECTCONFIRM_B__23_1_OFFSET))(this);
+		}
+	};
+}

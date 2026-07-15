@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Material; }
 
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B424B90)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B424BD0)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__GET_B__5_0_OFFSET UNITYSDK_OFFSET(0x1B424BE0)
-#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__GET_B__6_0_OFFSET UNITYSDK_OFFSET(0x1B424C30)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15713F70)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15713FB0)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__GET_B__5_0_OFFSET UNITYSDK_OFFSET(0x15713FC0)
+#define COFFEE_UIPARTICLEINTERNAL_MATERIALREPOSITORY___C__GET_B__6_0_OFFSET UNITYSDK_OFFSET(0x15714010)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int MaterialRepository___c_TypeDefinitionIndex = 41517;
+	inline static constexpr unsigned int MaterialRepository___c_TypeDefinitionIndex = 42332;
 
 	class MaterialRepository___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*>, ::UnityEngine::Material*>** StaticGet___9__6_0()
+		static ::System::Func_2<::System::String*, ::UnityEngine::Material*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*>, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository___c_TypeDefinitionIndex)->GetStaticField(0x1440);
+			return (::System::Func_2<::System::String*, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository___c_TypeDefinitionIndex)->GetStaticField(0x11A0);
 		}
 		static ::Coffee::UIParticleInternal::MaterialRepository___c** StaticGet___9()
 		{
-			return (::Coffee::UIParticleInternal::MaterialRepository___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository___c_TypeDefinitionIndex)->GetStaticField(0x1448);
+			return (::Coffee::UIParticleInternal::MaterialRepository___c**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository___c_TypeDefinitionIndex)->GetStaticField(0x11A8);
 		}
-		static ::System::Func_2<::System::String*, ::UnityEngine::Material*>** StaticGet___9__5_0()
+		static ::System::Func_2<::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*>, ::UnityEngine::Material*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository___c_TypeDefinitionIndex)->GetStaticField(0x1450);
+			return (::System::Func_2<::System::ValueTuple_2<::System::String*, ::Il2CppArray<::System::String*>*>, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialRepository___c_TypeDefinitionIndex)->GetStaticField(0x11B0);
 		}
 
 		static ::System::Void _cctor()

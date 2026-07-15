@@ -11,20 +11,20 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Globalization { class CultureInfo; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER_GET_CULTURE_OFFSET UNITYSDK_OFFSET(0x1738F8A0)
-#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1738FD20)
-#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1738F930)
-#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x17390340)
+#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER_GET_CULTURE_OFFSET UNITYSDK_OFFSET(0x1A2678E0)
+#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1A267DD0)
+#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1A267970)
+#define NEWTONSOFT_JSON_CONVERTERS_ISODATETIMECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2687F0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int IsoDateTimeConverter_TypeDefinitionIndex = 9474;
+	inline static constexpr unsigned int IsoDateTimeConverter_TypeDefinitionIndex = 9486;
 
 	class IsoDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase
 	{
 	public:
-		::System::String* _dateTimeFormat; // 0x10
-		::System::Globalization::CultureInfo* _culture; // 0x18
+		::System::Globalization::CultureInfo* _culture; // 0x10
+		::System::String* _dateTimeFormat; // 0x18
 		::System::Globalization::DateTimeStyles _dateTimeStyles; // 0x20
 
 		::System::Void _ctor()

@@ -5,26 +5,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HARDLEVELGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1D0960)
-#define RPG_GAMECORE_HARDLEVELGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D1300)
+#define RPG_GAMECORE_HARDLEVELGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B500450)
+#define RPG_GAMECORE_HARDLEVELGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B500DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HardLevelGroupRow_TypeDefinitionIndex = 13510;
+	inline static constexpr unsigned int HardLevelGroupRow_TypeDefinitionIndex = 13658;
 
 	class HardLevelGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* CombatPowerList; // 0x10
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 HardLevelGroup; // 0x1C
-		::RPG::GameCore::FixPoint AttackRatio; // 0x20
-		::RPG::GameCore::FixPoint StatusResistance; // 0x28
-		::RPG::GameCore::FixPoint SpeedRatio; // 0x30
-		::RPG::GameCore::FixPoint StatusProbability; // 0x38
-		::RPG::GameCore::FixPoint DefenceRatio; // 0x40
-		::RPG::GameCore::FixPoint StanceRatio; // 0x48
-		::RPG::GameCore::FixPoint HPRatio; // 0x50
+		::RPG::GameCore::FixPoint StatusResistance; // 0x18
+		::RPG::GameCore::FixPoint StanceRatio; // 0x20
+		::RPG::GameCore::FixPoint SpeedRatio; // 0x28
+		::RPG::GameCore::FixPoint StatusProbability; // 0x30
+		::System::UInt32 HardLevelGroup; // 0x38
+		::System::UInt32 Level; // 0x3C
+		::RPG::GameCore::FixPoint HPRatio; // 0x40
+		::RPG::GameCore::FixPoint DefenceRatio; // 0x48
+		::RPG::GameCore::FixPoint AttackRatio; // 0x50
 
 		::System::Void _ctor()
 		{

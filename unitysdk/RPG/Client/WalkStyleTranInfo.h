@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/WalkStyleFlag.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_WALKSTYLETRANINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1772E290)
+#define RPG_CLIENT_WALKSTYLETRANINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD8A53E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WalkStyleTranInfo_TypeDefinitionIndex = 64407;
+	inline static constexpr unsigned int WalkStyleTranInfo_TypeDefinitionIndex = 65778;
 
 	class WalkStyleTranInfo : public ::System::Object
 	{

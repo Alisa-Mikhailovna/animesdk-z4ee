@@ -4,12 +4,12 @@
 
 namespace SRDebugger::UI::Controls { class PinEntryControl; }
 
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__AWAKE_B__0_OFFSET UNITYSDK_OFFSET(0x186FBAF0)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186FB530)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__AWAKE_B__0_OFFSET UNITYSDK_OFFSET(0x1C9E87B0)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E8170)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int PinEntryControl___c__DisplayClass14_0_TypeDefinitionIndex = 35695;
+	inline static constexpr unsigned int PinEntryControl___c__DisplayClass14_0_TypeDefinitionIndex = 36477;
 
 	class PinEntryControl___c__DisplayClass14_0 : public ::System::Object
 	{

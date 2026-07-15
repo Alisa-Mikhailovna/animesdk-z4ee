@@ -7,24 +7,24 @@ namespace OceanSystem { class OceanRenderer; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Camera; }
 
-#define OCEANSYSTEM_OCEANRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15336DA0)
-#define OCEANSYSTEM_OCEANRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15336DE0)
-#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0x15336DF0)
+#define OCEANSYSTEM_OCEANRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6FE150)
+#define OCEANSYSTEM_OCEANRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB6FE190)
+#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0xB6FE1A0)
 
 namespace OceanSystem
 {
-	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 46173;
+	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 47138;
 
 	class OceanRenderer___c : public ::System::Object
 	{
 	public:
-		static ::OceanSystem::OceanRenderer___c** StaticGet___9()
-		{
-			return (::OceanSystem::OceanRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x1B760);
-		}
 		static ::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__58_0()
 		{
-			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x1B768);
+			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x56F0);
+		}
+		static ::OceanSystem::OceanRenderer___c** StaticGet___9()
+		{
+			return (::OceanSystem::OceanRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(OceanRenderer___c_TypeDefinitionIndex)->GetStaticField(0x56F8);
 		}
 
 		static ::System::Void _cctor()

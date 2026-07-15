@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETMECHANISMBARVISIBLE_METHOD_3_99FD824A61E7BC41_OFFSET UNITYSDK_OFFSET(0x1A792670)
-#define RPG_GAMECORE_SETMECHANISMBARVISIBLE_METHOD_3_F71BA915C3B8323F_OFFSET UNITYSDK_OFFSET(0x1A7925F0)
-#define RPG_GAMECORE_SETMECHANISMBARVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A792640)
+#define RPG_GAMECORE_SETMECHANISMBARVISIBLE_METHOD_3_99FD824A61E7BC41_OFFSET UNITYSDK_OFFSET(0x1B8A97B0)
+#define RPG_GAMECORE_SETMECHANISMBARVISIBLE_METHOD_3_E2B371A97AE74E2A_OFFSET UNITYSDK_OFFSET(0x1B8A9760)
+#define RPG_GAMECORE_SETMECHANISMBARVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A97A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMechanismBarVisible_TypeDefinitionIndex = 19384;
+	inline static constexpr unsigned int SetMechanismBarVisible_TypeDefinitionIndex = 19740;
 
 	class SetMechanismBarVisible : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMECHANISMBARVISIBLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F71BA915C3B8323F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMechanismBarVisible*& a2)
+		static ::System::Void Method_3_E2B371A97AE74E2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMechanismBarVisible*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMechanismBarVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMECHANISMBARVISIBLE_METHOD_3_F71BA915C3B8323F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMechanismBarVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMECHANISMBARVISIBLE_METHOD_3_E2B371A97AE74E2A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_99FD824A61E7BC41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMechanismBarVisible* a2)

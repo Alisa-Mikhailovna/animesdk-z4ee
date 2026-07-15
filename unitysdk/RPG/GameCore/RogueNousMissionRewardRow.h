@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE462B0)
-#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE46950)
+#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7838F0)
+#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B783F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousMissionRewardRow_TypeDefinitionIndex = 14190;
+	inline static constexpr unsigned int RogueNousMissionRewardRow_TypeDefinitionIndex = 14338;
 
 	class RogueNousMissionRewardRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 UnlockID; // 0x18
-		::System::UInt32 MissionRewardID; // 0x1C
+		::System::UInt32 MissionRewardID; // 0x18
+		::System::UInt32 UnlockID; // 0x1C
 		::RPG::Client::TextID TabTitle; // 0x20
 
 		::System::Void _ctor()

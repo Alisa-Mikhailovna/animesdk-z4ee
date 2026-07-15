@@ -1,37 +1,118 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/JsonConfig.h"
-#include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/ValueType.h"
 
-class Class_1_7A22A3DBEEDD1F80;
+class Class_1_43BD383C98B4C0C5_3;
+namespace System { class Object; }
 
-#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E727B0)
-#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E72660)
-#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E72650)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x39E89D0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x39FA360)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x2D8F7B0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2D8F7D0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0x39FA370)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2D8F5B0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_POOL_OFFSET UNITYSDK_OFFSET(0x5AA0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_POS_OFFSET UNITYSDK_OFFSET(0x39FA3D0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8A130)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B565970)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B565BB0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B565A80)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_LOGICALNOT_OFFSET UNITYSDK_OFFSET(0x1B565C60)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_SET_ID_OFFSET UNITYSDK_OFFSET(0x39FA380)
+#define RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_SET_POS_OFFSET UNITYSDK_OFFSET(0x39FA3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeInnerNodeInfo_TypeDefinitionIndex = 16305;
+	inline static constexpr unsigned int LevelNavNodeInnerNodeInfo_TypeDefinitionIndex = 10363;
 
-	class LevelNavNodeInnerNodeInfo : public ::RPG::GameCore::JsonConfig
+	struct alignas(8) LevelNavNodeInnerNodeInfo
 	{
-	public:
-		::System::UInt32 ID; // 0x10
-		::RPG::MVector3 Pos; // 0x14
+		::Class_1_43BD383C98B4C0C5_3* _Pool; // 0x10
+		::System::UInt32 _Offset; // 0x18
 
-		::System::Void _ctor()
+		::System::Void Init(::Class_1_43BD383C98B4C0C5_3* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_3*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_INIT_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNavNodeInnerNodeInfo*& a2)
+		::System::Boolean get_IsValid()
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavNodeInnerNodeInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_ISVALID_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelNavNodeInnerNodeInfo* a2)
+		::System::UInt32 get_Offset()
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelNavNodeInnerNodeInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_OFFSET_OFFSET))(this);
 		}
+
+		::Class_1_43BD383C98B4C0C5_3* get_Pool()
+		{
+			return ((::Class_1_43BD383C98B4C0C5_3*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_POOL_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_DISPOSE_OFFSET))(this);
+		}
+
+		static ::System::Boolean op_Equality(::RPG::GameCore::LevelNavNodeInnerNodeInfo a1, ::System::Object* a2)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavNodeInnerNodeInfo, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_EQUALITY_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean op_Inequality(::RPG::GameCore::LevelNavNodeInnerNodeInfo a1, ::System::Object* a2)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavNodeInnerNodeInfo, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_INEQUALITY_OFFSET))(a1, a2);
+		}
+
+		::System::Boolean Equals(::RPG::GameCore::LevelNavNodeInnerNodeInfo a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNavNodeInnerNodeInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GETHASHCODE_OFFSET))(this);
+		}
+
+		static ::System::Boolean op_Implicit(::RPG::GameCore::LevelNavNodeInnerNodeInfo a1)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavNodeInnerNodeInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_IMPLICIT_OFFSET))(a1);
+		}
+
+		static ::System::Boolean op_LogicalNot(::RPG::GameCore::LevelNavNodeInnerNodeInfo a1)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavNodeInnerNodeInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_OP_LOGICALNOT_OFFSET))(a1);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_ID_OFFSET))(this);
+		}
+
+		::System::Void set_ID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_SET_ID_OFFSET))(this, a1);
+		}
+
+		/*
+		::RPG::MVector3 get_Pos()
+		{
+			return ((::RPG::MVector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_GET_POS_OFFSET))(this);
+		}
+		*/
+
+		/*
+		::System::Void set_Pos(::RPG::MVector3 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVNODEINNERNODEINFO_SET_POS_OFFSET))(this, a1);
+		}
+		*/
 	};
 }

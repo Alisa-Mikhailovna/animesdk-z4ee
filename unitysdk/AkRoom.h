@@ -8,33 +8,32 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x1A2850D0)
-#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x1A284BC0)
-#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x1A284CF0)
-#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1A284DD0)
-#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1A2875D0)
-#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1A286990)
-#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A285190)
-#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1A2871C0)
-#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1A2872D0)
-#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x1A2873E0)
-#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1A284DE0)
-#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1A284DF0)
-#define AKROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A287620)
-#define AKROOM___IFIXBASEPROXY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1A2876D0)
+#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x1D1E4830)
+#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x1D1E4420)
+#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x1D1E4550)
+#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1D1E4630)
+#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1D1E6D00)
+#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1D1E6080)
+#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1D1E48F0)
+#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1D1E68B0)
+#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1D1E69C0)
+#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x1D1E6AD0)
+#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1D1E4640)
+#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1D1E4650)
+#define AKROOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E6D50)
 
-inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 41325;
+inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 42140;
 
 class AkRoom : public ::AkTriggerHandler
 {
 public:
-	static ::System::Int32* StaticGet__RoomCount_k__BackingField()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0xFF40);
-	}
 	static ::System::UInt64* StaticGet_INVALID_ROOM_ID()
 	{
-		return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0xFF48);
+		return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x103C0);
+	}
+	static ::System::Int32* StaticGet__RoomCount_k__BackingField()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AkRoom_TypeDefinitionIndex)->GetStaticField(0x103C8);
 	}
 	::System::Int32 priority; // 0x30
 	::System::UInt32 reverbAuxBusID; // 0x34
@@ -108,10 +107,5 @@ public:
 	::System::Void HandleEvent(::UnityEngine::GameObject* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + AKROOM_HANDLEEVENT_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnEnable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOM___IFIXBASEPROXY_ONENABLE_OFFSET))(this);
 	}
 };

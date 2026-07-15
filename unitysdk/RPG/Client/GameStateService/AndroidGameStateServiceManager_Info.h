@@ -3,7 +3,7 @@
 
 namespace RPG::Client::GameStateService
 {
-	inline static constexpr unsigned int AndroidGameStateServiceManager_Info_TypeDefinitionIndex = 70497;
+	inline static constexpr unsigned int AndroidGameStateServiceManager_Info_TypeDefinitionIndex = 72020;
 
 	enum class AndroidGameStateServiceManager_Info : ::System::Int32
 	{

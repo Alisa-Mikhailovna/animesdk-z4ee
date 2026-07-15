@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPFASTDELIVERSTARTAIM_METHOD_3_91BB5A48DD9744DB_OFFSET UNITYSDK_OFFSET(0x19A8A7C0)
-#define RPG_GAMECORE_PROPFASTDELIVERSTARTAIM_METHOD_3_9E2199BE99BE22E5_OFFSET UNITYSDK_OFFSET(0x19A8A670)
-#define RPG_GAMECORE_PROPFASTDELIVERSTARTAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8A730)
+#define RPG_GAMECORE_PROPFASTDELIVERSTARTAIM_METHOD_3_3917215826F7A2FB_OFFSET UNITYSDK_OFFSET(0x1B6E5C40)
+#define RPG_GAMECORE_PROPFASTDELIVERSTARTAIM_METHOD_3_91BB5A48DD9744DB_OFFSET UNITYSDK_OFFSET(0x1B6E5CC0)
+#define RPG_GAMECORE_PROPFASTDELIVERSTARTAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E5C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropFastDeliverStartAim_TypeDefinitionIndex = 20939;
+	inline static constexpr unsigned int PropFastDeliverStartAim_TypeDefinitionIndex = 21354;
 
 	class PropFastDeliverStartAim : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERSTARTAIM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E2199BE99BE22E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverStartAim*& a2)
+		static ::System::Void Method_3_3917215826F7A2FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverStartAim*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropFastDeliverStartAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERSTARTAIM_METHOD_3_9E2199BE99BE22E5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropFastDeliverStartAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERSTARTAIM_METHOD_3_3917215826F7A2FB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_91BB5A48DD9744DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverStartAim* a2)

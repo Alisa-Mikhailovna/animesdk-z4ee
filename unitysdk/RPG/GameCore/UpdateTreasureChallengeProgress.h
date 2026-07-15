@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS_METHOD_3_0DB01052B866BAD8_OFFSET UNITYSDK_OFFSET(0x19A6A740)
-#define RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS_METHOD_3_FBB29ECEC90C3D80_OFFSET UNITYSDK_OFFSET(0x19A6A7C0)
-#define RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19A6A790)
+#define RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS_METHOD_3_05FB32B6BEB2BB65_OFFSET UNITYSDK_OFFSET(0x1B9C72C0)
+#define RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS_METHOD_3_FBB29ECEC90C3D80_OFFSET UNITYSDK_OFFSET(0x1B9C7300)
+#define RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C72F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UpdateTreasureChallengeProgress_TypeDefinitionIndex = 19330;
+	inline static constexpr unsigned int UpdateTreasureChallengeProgress_TypeDefinitionIndex = 19686;
 
 	class UpdateTreasureChallengeProgress : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0DB01052B866BAD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UpdateTreasureChallengeProgress*& a2)
+		static ::System::Void Method_3_05FB32B6BEB2BB65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UpdateTreasureChallengeProgress*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UpdateTreasureChallengeProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS_METHOD_3_0DB01052B866BAD8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UpdateTreasureChallengeProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UPDATETREASURECHALLENGEPROGRESS_METHOD_3_05FB32B6BEB2BB65_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FBB29ECEC90C3D80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UpdateTreasureChallengeProgress* a2)

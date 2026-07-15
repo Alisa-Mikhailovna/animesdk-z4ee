@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class ByCompareModifierCallBackDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3C3F2F971D5500E6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15514CF0)
-#define CLASS_3_3C3F2F971D5500E6__CTOR_OFFSET UNITYSDK_OFFSET(0x15514C10)
+#define CLASS_3_3C3F2F971D5500E6_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9FC800)
+#define CLASS_3_3C3F2F971D5500E6__CTOR_OFFSET UNITYSDK_OFFSET(0xB9FC720)
 
-inline static constexpr unsigned int Class_3_3C3F2F971D5500E6_TypeDefinitionIndex = 50983;
+inline static constexpr unsigned int Class_3_3C3F2F971D5500E6_TypeDefinitionIndex = 52068;
 
 class Class_3_3C3F2F971D5500E6 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareModifierCallBackDynamicValue*>
 {

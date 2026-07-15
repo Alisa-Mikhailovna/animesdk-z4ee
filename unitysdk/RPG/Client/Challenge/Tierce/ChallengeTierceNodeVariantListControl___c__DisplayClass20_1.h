@@ -6,19 +6,19 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListC
 namespace System { class Action; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0x181AC860)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_1___CONVERTTOVARIANTS_B__0_OFFSET UNITYSDK_OFFSET(0x181AC870)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_1___CONVERTTOVARIANTS_B__1_OFFSET UNITYSDK_OFFSET(0x181AC970)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBF58F70)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_1___CONVERTTOVARIANTS_B__0_OFFSET UNITYSDK_OFFSET(0xBF58F80)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL___C__DISPLAYCLASS20_1___CONVERTTOVARIANTS_B__1_OFFSET UNITYSDK_OFFSET(0xBF590D0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass20_1_TypeDefinitionIndex = 74188;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl___c__DisplayClass20_1_TypeDefinitionIndex = 76572;
 
 	class ChallengeTierceNodeVariantListControl___c__DisplayClass20_1 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl___c__DisplayClass20_0* CS___8__locals1; // 0x10
-		::System::Object* param; // 0x18
+		::System::Object* param; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl___c__DisplayClass20_0* CS___8__locals1; // 0x18
 
 		::System::Void _ctor()
 		{

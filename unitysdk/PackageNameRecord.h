@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define PACKAGENAMERECORD_METHOD_5_B8FAD8726C647FA2_OFFSET UNITYSDK_OFFSET(0x17B76600)
-#define PACKAGENAMERECORD_METHOD_5_BBE2D28D8A6AFB06_OFFSET UNITYSDK_OFFSET(0x17B76570)
-#define PACKAGENAMERECORD_WRITEANDUPLOADBRANCHDATA_OFFSET UNITYSDK_OFFSET(0x17B75F90)
-#define PACKAGENAMERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x17B766A0)
+#define PACKAGENAMERECORD_METHOD_5_6A7CEF06F8896271_OFFSET UNITYSDK_OFFSET(0xBA73A00)
+#define PACKAGENAMERECORD_METHOD_5_B8FAD8726C647FA2_OFFSET UNITYSDK_OFFSET(0xBA73AA0)
+#define PACKAGENAMERECORD_WRITEANDUPLOADBRANCHDATA_OFFSET UNITYSDK_OFFSET(0xBA73400)
+#define PACKAGENAMERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xBA73B40)
 
-inline static constexpr unsigned int PackageNameRecord_TypeDefinitionIndex = 44871;
+inline static constexpr unsigned int PackageNameRecord_TypeDefinitionIndex = 45788;
 
 class PackageNameRecord : public ::UnityEngine::MonoBehaviour
 {
@@ -27,9 +27,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PACKAGENAMERECORD_WRITEANDUPLOADBRANCHDATA_OFFSET))();
 	}
 
-	static ::System::Void Method_5_BBE2D28D8A6AFB06(::System::String* a1, ::System::String* a2)
+	static ::System::Void Method_5_6A7CEF06F8896271(::System::String* a1, ::System::String* a2)
 	{
-		return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + PACKAGENAMERECORD_METHOD_5_BBE2D28D8A6AFB06_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + PACKAGENAMERECORD_METHOD_5_6A7CEF06F8896271_OFFSET))(a1, a2);
 	}
 
 	static ::System::Collections::IEnumerator* Method_5_B8FAD8726C647FA2(::System::String* a1, ::System::String* a2)

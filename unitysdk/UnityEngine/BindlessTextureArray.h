@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/BaseBindlessArray.h"
 
-#define UNITYENGINE_BINDLESSTEXTUREARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1AB44770)
-#define UNITYENGINE_BINDLESSTEXTUREARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AB446C0)
+#define UNITYENGINE_BINDLESSTEXTUREARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1D004EE0)
+#define UNITYENGINE_BINDLESSTEXTUREARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D004E30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BindlessTextureArray_TypeDefinitionIndex = 4236;
+	inline static constexpr unsigned int BindlessTextureArray_TypeDefinitionIndex = 4241;
 
 	class BindlessTextureArray : public ::UnityEngine::BaseBindlessArray
 	{

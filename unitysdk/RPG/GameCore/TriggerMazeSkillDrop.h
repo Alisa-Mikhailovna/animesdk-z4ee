@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRIGGERMAZESKILLDROP_METHOD_3_A8FF22884C4E9AE5_OFFSET UNITYSDK_OFFSET(0x19A497B0)
-#define RPG_GAMECORE_TRIGGERMAZESKILLDROP_METHOD_3_E408C7E05ECBF60A_OFFSET UNITYSDK_OFFSET(0x19A49820)
-#define RPG_GAMECORE_TRIGGERMAZESKILLDROP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A497F0)
+#define RPG_GAMECORE_TRIGGERMAZESKILLDROP_METHOD_3_E408C7E05ECBF60A_OFFSET UNITYSDK_OFFSET(0x1B9A51F0)
+#define RPG_GAMECORE_TRIGGERMAZESKILLDROP_METHOD_3_FED15E8FF416B957_OFFSET UNITYSDK_OFFSET(0x1B9A51B0)
+#define RPG_GAMECORE_TRIGGERMAZESKILLDROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A51E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerMazeSkillDrop_TypeDefinitionIndex = 20536;
+	inline static constexpr unsigned int TriggerMazeSkillDrop_TypeDefinitionIndex = 20951;
 
 	class TriggerMazeSkillDrop : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZESKILLDROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A8FF22884C4E9AE5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeSkillDrop*& a2)
+		static ::System::Void Method_3_FED15E8FF416B957(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeSkillDrop*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeSkillDrop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZESKILLDROP_METHOD_3_A8FF22884C4E9AE5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeSkillDrop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZESKILLDROP_METHOD_3_FED15E8FF416B957_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E408C7E05ECBF60A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeSkillDrop* a2)

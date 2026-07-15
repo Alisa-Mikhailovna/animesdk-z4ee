@@ -4,11 +4,10 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_6E9D411FA6163500_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x1588B170)
-#define CLASS_2_6E9D411FA6163500__CTOR_OFFSET UNITYSDK_OFFSET(0x1588B250)
-#define CLASS_2_6E9D411FA6163500___IFIXBASEPROXY_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x1588B2C0)
+#define CLASS_2_6E9D411FA6163500_GET_ICONID_OFFSET UNITYSDK_OFFSET(0xB4731E0)
+#define CLASS_2_6E9D411FA6163500__CTOR_OFFSET UNITYSDK_OFFSET(0xB473310)
 
-inline static constexpr unsigned int Class_2_6E9D411FA6163500_TypeDefinitionIndex = 56678;
+inline static constexpr unsigned int Class_2_6E9D411FA6163500_TypeDefinitionIndex = 57924;
 
 class Class_2_6E9D411FA6163500 : public ::Class_1_7DC1DFEA80680036
 {
@@ -21,10 +20,5 @@ public:
 	::System::UInt32 get_IconID()
 	{
 		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6E9D411FA6163500_GET_ICONID_OFFSET))(this);
-	}
-
-	::System::UInt32 __iFixBaseProxy_get_IconID()
-	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6E9D411FA6163500___IFIXBASEPROXY_GET_ICONID_OFFSET))(this);
 	}
 };

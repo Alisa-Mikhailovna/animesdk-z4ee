@@ -9,13 +9,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define CLASS_2_A8EFE6EC7E1FF070_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x15733110)
-#define CLASS_2_A8EFE6EC7E1FF070_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x157331F0)
-#define CLASS_2_A8EFE6EC7E1FF070__CTOR_OFFSET UNITYSDK_OFFSET(0x15733680)
-#define CLASS_2_A8EFE6EC7E1FF070___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x15733700)
-#define CLASS_2_A8EFE6EC7E1FF070___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15733710)
+#define CLASS_2_A8EFE6EC7E1FF070_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x149A7C00)
+#define CLASS_2_A8EFE6EC7E1FF070_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x149A7CE0)
+#define CLASS_2_A8EFE6EC7E1FF070__CTOR_OFFSET UNITYSDK_OFFSET(0x149A8170)
 
-inline static constexpr unsigned int Class_2_A8EFE6EC7E1FF070_TypeDefinitionIndex = 45729;
+inline static constexpr unsigned int Class_2_A8EFE6EC7E1FF070_TypeDefinitionIndex = 46668;
 
 class Class_2_A8EFE6EC7E1FF070 : public ::UnityEngine::Playables::PlayableBehaviour
 {
@@ -36,15 +34,5 @@ public:
 	::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_A8EFE6EC7E1FF070_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnPlayableCreate(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_A8EFE6EC7E1FF070___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_A8EFE6EC7E1FF070___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 };

@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BDE5F0)
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDE840)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1A8040)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A8290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionContentConfigRow_TypeDefinitionIndex = 12054;
+	inline static constexpr unsigned int AnniversaryCollectionContentConfigRow_TypeDefinitionIndex = 12186;
 
 	class AnniversaryCollectionContentConfigRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID ContentTitle; // 0x10
-		::System::UInt32 ContentID; // 0x20
+		::System::UInt32 RelatedGotoID; // 0x20
 		::System::UInt32 RelatedActivityID; // 0x24
-		::System::UInt32 RelatedGotoID; // 0x28
-		::RPG::GameCore::AnniversaryCollectionContentRegionScope RegionScope; // 0x2C
+		::RPG::GameCore::AnniversaryCollectionContentRegionScope RegionScope; // 0x28
+		::System::UInt32 ContentID; // 0x2C
 
 		::System::Void _ctor()
 		{

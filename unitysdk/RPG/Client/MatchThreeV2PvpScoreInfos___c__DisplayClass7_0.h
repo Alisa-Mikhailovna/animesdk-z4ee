@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class MatchThreeV2PvpScoreData; }
 
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188E2DD0)
-#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS7_0__GETSCOREDATALISTBYSCORETYPE_B__0_OFFSET UNITYSDK_OFFSET(0x188E33C0)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB7FB70)
+#define RPG_CLIENT_MATCHTHREEV2PVPSCOREINFOS___C__DISPLAYCLASS7_0__GETSCOREDATALISTBYSCORETYPE_B__0_OFFSET UNITYSDK_OFFSET(0xCB7FDA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PvpScoreInfos___c__DisplayClass7_0_TypeDefinitionIndex = 61751;
+	inline static constexpr unsigned int MatchThreeV2PvpScoreInfos___c__DisplayClass7_0_TypeDefinitionIndex = 63113;
 
 	class MatchThreeV2PvpScoreInfos___c__DisplayClass7_0 : public ::System::Object
 	{

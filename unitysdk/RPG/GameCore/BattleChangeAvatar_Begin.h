@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_METHOD_3_19BC27478A940D3B_OFFSET UNITYSDK_OFFSET(0x1765B810)
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_METHOD_3_B6A5BBBE236312F3_OFFSET UNITYSDK_OFFSET(0x1765B930)
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1765B8B0)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_METHOD_3_B6A5BBBE236312F3_OFFSET UNITYSDK_OFFSET(0x1B1F09E0)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_METHOD_3_BBE9E0D6306778E0_OFFSET UNITYSDK_OFFSET(0x1B1F08E0)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F0970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleChangeAvatar_Begin_TypeDefinitionIndex = 21534;
+	inline static constexpr unsigned int BattleChangeAvatar_Begin_TypeDefinitionIndex = 21956;
 
 	class BattleChangeAvatar_Begin : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_19BC27478A940D3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleChangeAvatar_Begin*& a2)
+		static ::System::Void Method_3_BBE9E0D6306778E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleChangeAvatar_Begin*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleChangeAvatar_Begin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_METHOD_3_19BC27478A940D3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleChangeAvatar_Begin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_BEGIN_METHOD_3_BBE9E0D6306778E0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B6A5BBBE236312F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleChangeAvatar_Begin* a2)

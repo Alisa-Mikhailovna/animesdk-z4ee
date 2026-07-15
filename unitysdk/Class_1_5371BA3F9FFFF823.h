@@ -8,13 +8,13 @@ namespace RPG::GameCore { class ChimeraDuelAttributeComparePredicate; }
 namespace RPG::GameCore { class ChimeraDuelPredicateBase; }
 namespace RPG::GameCore { class ChimeraDuelValueComparePredicate; }
 
-#define CLASS_1_5371BA3F9FFFF823_METHOD_1_0785C16674E9B873_OFFSET UNITYSDK_OFFSET(0x164C4720)
-#define CLASS_1_5371BA3F9FFFF823_METHOD_1_7E57E768FCCBDD62_OFFSET UNITYSDK_OFFSET(0x164C3F00)
-#define CLASS_1_5371BA3F9FFFF823_METHOD_1_A7088C98B83C4065_OFFSET UNITYSDK_OFFSET(0x164C4060)
-#define CLASS_1_5371BA3F9FFFF823_METHOD_1_F95E2A8DD939BDCC_OFFSET UNITYSDK_OFFSET(0x164C41C0)
-#define CLASS_1_5371BA3F9FFFF823__CTOR_OFFSET UNITYSDK_OFFSET(0x164C3EF0)
+#define CLASS_1_5371BA3F9FFFF823_METHOD_1_0785C16674E9B873_OFFSET UNITYSDK_OFFSET(0x1463EE30)
+#define CLASS_1_5371BA3F9FFFF823_METHOD_1_7E57E768FCCBDD62_OFFSET UNITYSDK_OFFSET(0x1463E4B0)
+#define CLASS_1_5371BA3F9FFFF823_METHOD_1_A7088C98B83C4065_OFFSET UNITYSDK_OFFSET(0x1463E610)
+#define CLASS_1_5371BA3F9FFFF823_METHOD_1_B379B190E4631C29_OFFSET UNITYSDK_OFFSET(0x1463E770)
+#define CLASS_1_5371BA3F9FFFF823__CTOR_OFFSET UNITYSDK_OFFSET(0x1463E4A0)
 
-inline static constexpr unsigned int Class_1_5371BA3F9FFFF823_TypeDefinitionIndex = 72095;
+inline static constexpr unsigned int Class_1_5371BA3F9FFFF823_TypeDefinitionIndex = 73620;
 
 class Class_1_5371BA3F9FFFF823 : public ::System::Object
 {
@@ -36,9 +36,9 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChimeraDuelValueComparePredicate*))((::PBYTE)hIl2Cpp + CLASS_1_5371BA3F9FFFF823_METHOD_1_A7088C98B83C4065_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_F95E2A8DD939BDCC(::RPG::GameCore::ChimeraDuelAttributeComparePredicate* a1)
+	::System::Boolean Method_1_B379B190E4631C29(::RPG::GameCore::ChimeraDuelAttributeComparePredicate* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChimeraDuelAttributeComparePredicate*))((::PBYTE)hIl2Cpp + CLASS_1_5371BA3F9FFFF823_METHOD_1_F95E2A8DD939BDCC_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ChimeraDuelAttributeComparePredicate*))((::PBYTE)hIl2Cpp + CLASS_1_5371BA3F9FFFF823_METHOD_1_B379B190E4631C29_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Method_1_0785C16674E9B873(::RPG::GameCore::ChimeraDuelAreSelectionsEqualPredicate* a1)

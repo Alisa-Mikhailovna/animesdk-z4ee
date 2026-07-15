@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_COLORPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x195AC790)
-#define UNITYENGINE_RENDERING_COLORPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x195AC720)
-#define UNITYENGINE_RENDERING_COLORPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x195AC6F0)
+#define UNITYENGINE_RENDERING_COLORPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1CEDBBB0)
+#define UNITYENGINE_RENDERING_COLORPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CEDBA40)
+#define UNITYENGINE_RENDERING_COLORPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDB8F0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ColorParameter_TypeDefinitionIndex = 33836;
+	inline static constexpr unsigned int ColorParameter_TypeDefinitionIndex = 34207;
 
 	class ColorParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Color>
 	{

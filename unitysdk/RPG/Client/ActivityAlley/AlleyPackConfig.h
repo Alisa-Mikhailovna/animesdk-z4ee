@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x177B56B0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBAE5CC0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackConfig_TypeDefinitionIndex = 69179;
+	inline static constexpr unsigned int AlleyPackConfig_TypeDefinitionIndex = 70700;
 
 	class AlleyPackConfig : public ::System::Object
 	{

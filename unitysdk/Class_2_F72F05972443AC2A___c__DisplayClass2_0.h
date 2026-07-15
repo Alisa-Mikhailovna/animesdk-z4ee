@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class SwordTrainingGameInstance; }
 
-#define CLASS_2_F72F05972443AC2A___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163FD630)
-#define CLASS_2_F72F05972443AC2A___C__DISPLAYCLASS2_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x163FD790)
+#define CLASS_2_F72F05972443AC2A___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1428B0)
+#define CLASS_2_F72F05972443AC2A___C__DISPLAYCLASS2_0___ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xB1429B0)
 
-inline static constexpr unsigned int Class_2_F72F05972443AC2A___c__DisplayClass2_0_TypeDefinitionIndex = 69908;
+inline static constexpr unsigned int Class_2_F72F05972443AC2A___c__DisplayClass2_0_TypeDefinitionIndex = 71431;
 
 class Class_2_F72F05972443AC2A___c__DisplayClass2_0 : public ::System::Object
 {

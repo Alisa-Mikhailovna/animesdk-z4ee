@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CityAtmosphereThread
 {
-	inline static constexpr unsigned int ECityAtmosphereThreadType_TypeDefinitionIndex = 74355;
+	inline static constexpr unsigned int ECityAtmosphereThreadType_TypeDefinitionIndex = 76745;
 
 	enum class ECityAtmosphereThreadType : ::System::Int32
 	{

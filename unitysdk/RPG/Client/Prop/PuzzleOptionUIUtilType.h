@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleOptionUIUtilType_TypeDefinitionIndex = 73320;
+	inline static constexpr unsigned int PuzzleOptionUIUtilType_TypeDefinitionIndex = 74845;
 
 	enum class PuzzleOptionUIUtilType : ::System::Int32
 	{

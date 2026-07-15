@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_C6F37FCBCDAC37E4___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x147A3AA0)
-#define CLASS_2_C6F37FCBCDAC37E4___C__DISPLAYCLASS1_0__REFRESHEFFECTS_B__1_OFFSET UNITYSDK_OFFSET(0x147A4020)
+#define CLASS_2_C6F37FCBCDAC37E4___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D6710)
+#define CLASS_2_C6F37FCBCDAC37E4___C__DISPLAYCLASS1_0__REFRESHEFFECTS_B__1_OFFSET UNITYSDK_OFFSET(0xB5D6C30)
 
-inline static constexpr unsigned int Class_2_C6F37FCBCDAC37E4___c__DisplayClass1_0_TypeDefinitionIndex = 66589;
+inline static constexpr unsigned int Class_2_C6F37FCBCDAC37E4___c__DisplayClass1_0_TypeDefinitionIndex = 68025;
 
 class Class_2_C6F37FCBCDAC37E4___c__DisplayClass1_0 : public ::System::Object
 {

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_PLAYABLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x18B9D8B0)
-#define UNITYENGINE_TIMELINE_PLAYABLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18B9D910)
+#define UNITYENGINE_TIMELINE_PLAYABLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1CFBFAC0)
+#define UNITYENGINE_TIMELINE_PLAYABLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBFB80)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PlayableTrack_TypeDefinitionIndex = 35916;
+	inline static constexpr unsigned int PlayableTrack_TypeDefinitionIndex = 36698;
 
 	class PlayableTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -1,35 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
 
 class Class_2_8AC317DBE0FE8548;
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightTrait; }
+namespace RPG::Client { class GridFightTraitConfig; }
+namespace RPG::Client { class GridFightUnlockTraitMember; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1609AEE0)
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_GRIDFIGHTTRAIT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1609B180)
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_GRIDFIGHTTRAIT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1609B110)
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1609B200)
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1609B170)
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1609B120)
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1609AED0)
-#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8__CTOR_OFFSET UNITYSDK_OFFSET(0x1609AE10)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xF1D6180)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_GRIDFIGHTTRAIT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xF1D7020)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_GRIDFIGHTTRAIT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xF1D6FB0)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xF1D70A0)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xF1D7010)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xF1D6FC0)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF1D6030)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8__CTOR_OFFSET UNITYSDK_OFFSET(0xF1D6010)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xF1D6070)
+#define CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xF1D6080)
 
-inline static constexpr unsigned int Class_2_8AC317DBE0FE8548__CreateTraits_d__8_TypeDefinitionIndex = 60873;
+inline static constexpr unsigned int Class_2_8AC317DBE0FE8548__CreateTraits_d__8_TypeDefinitionIndex = 62185;
 
 class Class_2_8AC317DBE0FE8548__CreateTraits_d__8 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* __7__wrap1; // 0x10
+	::RPG::Client::GridFightTrait* _trait_5__4; // 0x10
 	::RPG::Client::GridFightRole* __3__role; // 0x18
-	::RPG::Client::GridFightRole* role; // 0x20
-	::RPG::Client::GridFightTrait* __2__current; // 0x28
-	::Class_2_8AC317DBE0FE8548* __4__this; // 0x30
-	::System::Int32 __1__state; // 0x38
-	::System::Int32 __l__initialThreadId; // 0x3C
-	::System::Int32 __7__wrap2; // 0x40
+	::System::Collections::Generic::IEnumerator_1<::RPG::Client::GridFightUnlockTraitMember*>* __7__wrap5; // 0x20
+	::Il2CppArray<::System::UInt32>* __7__wrap1; // 0x28
+	::RPG::Client::GridFightTrait* __2__current; // 0x30
+	::System::Collections::Generic::List_1_Enumerator<::RPG::Client::GridFightTraitConfig*> __7__wrap4; // 0x38
+	::RPG::Client::GridFightRole* role; // 0x50
+	::Class_2_8AC317DBE0FE8548* __4__this; // 0x58
+	::System::Int32 __l__initialThreadId; // 0x60
+	::System::Int32 __7__wrap2; // 0x64
+	::System::Int32 __1__state; // 0x68
 
 	::System::Void _ctor(::System::Int32 a1)
 	{
@@ -44,6 +52,16 @@ public:
 	::System::Boolean MoveNext()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8_MOVENEXT_OFFSET))(this);
+	}
+
+	::System::Void __m__Finally1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8___M__FINALLY1_OFFSET))(this);
+	}
+
+	::System::Void __m__Finally2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8AC317DBE0FE8548__CREATETRAITS_D__8___M__FINALLY2_OFFSET))(this);
 	}
 
 	::RPG::Client::GridFightTrait* System_Collections_Generic_IEnumerator_RPG_Client_GridFightTrait__get_Current()

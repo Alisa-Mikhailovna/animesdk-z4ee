@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBehaviorFlagCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_69A820402A05E6EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149D0770)
-#define CLASS_3_69A820402A05E6EB__CTOR_OFFSET UNITYSDK_OFFSET(0x149D0690)
+#define CLASS_3_69A820402A05E6EB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB180590)
+#define CLASS_3_69A820402A05E6EB__CTOR_OFFSET UNITYSDK_OFFSET(0xB1804B0)
 
-inline static constexpr unsigned int Class_3_69A820402A05E6EB_TypeDefinitionIndex = 51758;
+inline static constexpr unsigned int Class_3_69A820402A05E6EB_TypeDefinitionIndex = 52904;
 
 class Class_3_69A820402A05E6EB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByBehaviorFlagCount*>
 {

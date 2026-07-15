@@ -7,22 +7,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE43230)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE43990)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B780830)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B780FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDifficultyLevelRow_TypeDefinitionIndex = 14197;
+	inline static constexpr unsigned int RogueNousDifficultyLevelRow_TypeDefinitionIndex = 14345;
 
 	class RogueNousDifficultyLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::RPG::Client::TextID DifficultyDesc; // 0x18
-		::System::UInt32 Tag; // 0x28
-		::System::UInt32 DifficultyID; // 0x2C
-		::System::UInt32 Sort; // 0x30
-		::RPG::GameCore::RogueNousDifficultyType DifficultyType; // 0x34
+		::System::UInt32 Tag; // 0x18
+		::RPG::GameCore::RogueNousDifficultyType DifficultyType; // 0x1C
+		::System::UInt32 Sort; // 0x20
+		::System::UInt32 DifficultyID; // 0x24
+		::RPG::Client::TextID DifficultyDesc; // 0x28
 
 		::System::Void _ctor()
 		{

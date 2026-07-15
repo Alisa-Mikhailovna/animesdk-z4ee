@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/UITransitionAnimType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_82A1455F3BBBFC10__CTOR_OFFSET UNITYSDK_OFFSET(0x378A2C0)
+#define STRUCT_2_82A1455F3BBBFC10__CTOR_OFFSET UNITYSDK_OFFSET(0x82C40)
 
-inline static constexpr unsigned int Struct_2_82A1455F3BBBFC10_TypeDefinitionIndex = 68291;
+inline static constexpr unsigned int Struct_2_82A1455F3BBBFC10_TypeDefinitionIndex = 69780;
 
 struct alignas(4) Struct_2_82A1455F3BBBFC10
 {

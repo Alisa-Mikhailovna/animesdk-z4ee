@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_196.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_204.h"
 #include "unitysdk/RPG/Client/Prop/LogisticsRobotState.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_2_4371E687C098A41A__CTOR_OFFSET UNITYSDK_OFFSET(0x17702170)
+#define CLASS_2_4371E687C098A41A__CTOR_OFFSET UNITYSDK_OFFSET(0x151D4630)
 
-inline static constexpr unsigned int Class_2_4371E687C098A41A_TypeDefinitionIndex = 73461;
+inline static constexpr unsigned int Class_2_4371E687C098A41A_TypeDefinitionIndex = 74986;
 
-class Class_2_4371E687C098A41A : public ::Class_1_43BD383C98B4C0C5_196
+class Class_2_4371E687C098A41A : public ::Class_1_43BD383C98B4C0C5_204
 {
 public:
-	::System::Int32 Field_2_0; // 0x10
-	::RPG::Client::Prop::LogisticsRobotState Field_2_1; // 0x14
-	::System::Boolean Field_2_2; // 0x18
-	::UnityEngine::Quaternion Field_2_3; // 0x1C
-	::UnityEngine::Vector3 Field_2_4; // 0x2C
+	::UnityEngine::Vector3 Field_2_0; // 0x10
+	::System::Int32 Field_2_1; // 0x1C
+	::UnityEngine::Quaternion Field_2_2; // 0x20
+	::RPG::Client::Prop::LogisticsRobotState Field_2_3; // 0x30
+	::System::Boolean Field_2_4; // 0x34
 
 	::System::Void _ctor()
 	{

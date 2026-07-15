@@ -5,12 +5,12 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD_TRYENTERONCURRENTSTACK_OFFSET UNITYSDK_OFFSET(0x1A6A3D40)
-#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A3D70)
+#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD_TRYENTERONCURRENTSTACK_OFFSET UNITYSDK_OFFSET(0x1CABF480)
+#define SYSTEM_LINQ_EXPRESSIONS_STACKGUARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CABF4B0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int StackGuard_TypeDefinitionIndex = 3260;
+	inline static constexpr unsigned int StackGuard_TypeDefinitionIndex = 3264;
 
 	class StackGuard : public ::System::Object
 	{

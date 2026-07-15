@@ -7,23 +7,23 @@ namespace Google::Protobuf::Collections { template <typename T1, typename T2> cl
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_2CD49A0EAC7162BE_OFFSET UNITYSDK_OFFSET(0x15E10010)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_30486951A69C066B_OFFSET UNITYSDK_OFFSET(0x15E104C0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_3ACD76C7F548B61E_OFFSET UNITYSDK_OFFSET(0x15E10580)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_580B926F5C52ECD8_OFFSET UNITYSDK_OFFSET(0x15E10C80)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_82CE54112EE2CFCC_OFFSET UNITYSDK_OFFSET(0x15E108F0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_8A5D97B1DC91D305_OFFSET UNITYSDK_OFFSET(0x15E10050)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x15E103D0)
-#define CLASS_1_12ABE890CAA92AB9_METHOD_1_F3EED4A2062C5ADB_OFFSET UNITYSDK_OFFSET(0x15E10640)
-#define CLASS_1_12ABE890CAA92AB9__CTOR_OFFSET UNITYSDK_OFFSET(0x15E10DA0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_2CD49A0EAC7162BE_OFFSET UNITYSDK_OFFSET(0x15348020)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_30486951A69C066B_OFFSET UNITYSDK_OFFSET(0x153484D0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_3ACD76C7F548B61E_OFFSET UNITYSDK_OFFSET(0x15348590)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_580B926F5C52ECD8_OFFSET UNITYSDK_OFFSET(0x15348DB0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_8A5D97B1DC91D305_OFFSET UNITYSDK_OFFSET(0x15348060)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0x153483E0)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_F3EED4A2062C5ADB_OFFSET UNITYSDK_OFFSET(0x15348650)
+#define CLASS_1_12ABE890CAA92AB9_METHOD_1_F631551F6BB1870F_OFFSET UNITYSDK_OFFSET(0x15348900)
+#define CLASS_1_12ABE890CAA92AB9__CTOR_OFFSET UNITYSDK_OFFSET(0x15348ED0)
 
-inline static constexpr unsigned int Class_1_12ABE890CAA92AB9_TypeDefinitionIndex = 52557;
+inline static constexpr unsigned int Class_1_12ABE890CAA92AB9_TypeDefinitionIndex = 53761;
 
 class Class_1_12ABE890CAA92AB9 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -60,9 +60,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_F3EED4A2062C5ADB_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_82CE54112EE2CFCC(::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>* a1)
+	::System::Void Method_1_F631551F6BB1870F(::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_82CE54112EE2CFCC_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_12ABE890CAA92AB9_METHOD_1_F631551F6BB1870F_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_580B926F5C52ECD8(::System::String* a1, ::System::UInt32 a2)

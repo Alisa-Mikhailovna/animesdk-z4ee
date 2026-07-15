@@ -6,20 +6,20 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenMiniGameGameState; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186BEF90)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE___C__DISPLAYCLASS3_0__ONREALENTER_B__0_OFFSET UNITYSDK_OFFSET(0x186BF200)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE___C__DISPLAYCLASS3_0__ONREALENTER_B__1_OFFSET UNITYSDK_OFFSET(0x186BF370)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB32720)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE___C__DISPLAYCLASS3_0__ONREALENTER_B__0_OFFSET UNITYSDK_OFFSET(0xBB32990)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEGAMESTATE___C__DISPLAYCLASS3_0__ONREALENTER_B__1_OFFSET UNITYSDK_OFFSET(0xBB32B10)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenMiniGameGameState___c__DisplayClass3_0_TypeDefinitionIndex = 70391;
+	inline static constexpr unsigned int ActivityHipplenMiniGameGameState___c__DisplayClass3_0_TypeDefinitionIndex = 71914;
 
 	class ActivityHipplenMiniGameGameState___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game; // 0x10
-		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameGameState* __4__this; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action* __9__1; // 0x10
+		::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game; // 0x18
+		::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameGameState* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

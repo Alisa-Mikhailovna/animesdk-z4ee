@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtSkillFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_49DE06A814C83D94_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178EE7E0)
-#define CLASS_3_49DE06A814C83D94__CTOR_OFFSET UNITYSDK_OFFSET(0x178EE7B0)
+#define CLASS_3_49DE06A814C83D94_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14AC47A0)
+#define CLASS_3_49DE06A814C83D94__CTOR_OFFSET UNITYSDK_OFFSET(0x14AC4770)
 
-inline static constexpr unsigned int Class_3_49DE06A814C83D94_TypeDefinitionIndex = 50381;
+inline static constexpr unsigned int Class_3_49DE06A814C83D94_TypeDefinitionIndex = 51463;
 
 class Class_3_49DE06A814C83D94 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtSkillFinish*>
 {

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetOverrideColliderCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_508E9872B5E4711B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1545E9C0)
-#define CLASS_3_508E9872B5E4711B__CTOR_OFFSET UNITYSDK_OFFSET(0x1545E990)
+#define CLASS_3_508E9872B5E4711B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1468C8D0)
+#define CLASS_3_508E9872B5E4711B__CTOR_OFFSET UNITYSDK_OFFSET(0x1468C8A0)
 
-inline static constexpr unsigned int Class_3_508E9872B5E4711B_TypeDefinitionIndex = 51889;
+inline static constexpr unsigned int Class_3_508E9872B5E4711B_TypeDefinitionIndex = 53042;
 
 class Class_3_508E9872B5E4711B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetOverrideColliderCamera*>
 {

@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_31;
+class Class_1_43BD383C98B4C0C5_33;
 namespace RPG::GameCore { class FiveDimWindowControllerComponentConfig; }
 
-#define CLASS_1_AC9C86DEE29C5AC3__CTOR_OFFSET UNITYSDK_OFFSET(0x189B0D70)
+#define CLASS_1_AC9C86DEE29C5AC3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A872B60)
 
-inline static constexpr unsigned int Class_1_AC9C86DEE29C5AC3_TypeDefinitionIndex = 40156;
+inline static constexpr unsigned int Class_1_AC9C86DEE29C5AC3_TypeDefinitionIndex = 40970;
 
 class Class_1_AC9C86DEE29C5AC3 : public ::System::Object
 {
 public:
-	::Class_1_43BD383C98B4C0C5_31* Field_1_0; // 0x10
+	::Class_1_43BD383C98B4C0C5_33* Field_1_0; // 0x10
 	::RPG::GameCore::FiveDimWindowControllerComponentConfig* Field_1_1; // 0x18
 
 	::System::Void _ctor()

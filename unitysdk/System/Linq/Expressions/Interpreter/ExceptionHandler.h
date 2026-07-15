@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class ExceptionFilter; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_MATCHES_OFFSET UNITYSDK_OFFSET(0x18006410)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18006440)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x180063F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_MATCHES_OFFSET UNITYSDK_OFFSET(0x1CA740E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CA74180)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA740C0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 3465;
+	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 3469;
 
 	class ExceptionHandler : public ::System::Object
 	{
 	public:
 		::System::Type* _exceptionType; // 0x10
 		::System::Linq::Expressions::Interpreter::ExceptionFilter* Filter; // 0x18
-		::System::Int32 HandlerStartIndex; // 0x20
-		::System::Int32 HandlerEndIndex; // 0x24
-		::System::Int32 LabelIndex; // 0x28
+		::System::Int32 LabelIndex; // 0x20
+		::System::Int32 HandlerStartIndex; // 0x24
+		::System::Int32 HandlerEndIndex; // 0x28
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Type* a4, ::System::Linq::Expressions::Interpreter::ExceptionFilter* a5)
 		{

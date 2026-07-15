@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionItemConfig; }
 
-#define RPG_GAMECORE_MISSIONITEMCONFIGLIST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1969DEB0)
-#define RPG_GAMECORE_MISSIONITEMCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1969DFA0)
+#define RPG_GAMECORE_MISSIONITEMCONFIGLIST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B600240)
+#define RPG_GAMECORE_MISSIONITEMCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B600330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionItemConfigList_TypeDefinitionIndex = 18056;
+	inline static constexpr unsigned int MissionItemConfigList_TypeDefinitionIndex = 18260;
 
 	class MissionItemConfigList : public ::RPG::GameCore::JsonConfig
 	{

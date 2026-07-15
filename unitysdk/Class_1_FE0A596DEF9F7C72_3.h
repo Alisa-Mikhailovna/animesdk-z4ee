@@ -7,13 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_FE0A596DEF9F7C72_3_METHOD_1_BCAE9303D19217E3_OFFSET UNITYSDK_OFFSET(0x178ED2E0)
-#define CLASS_1_FE0A596DEF9F7C72_3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x178ED1B0)
-#define CLASS_1_FE0A596DEF9F7C72_3_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x178ED240)
-#define CLASS_1_FE0A596DEF9F7C72_3__CTOR_OFFSET UNITYSDK_OFFSET(0x178ED130)
-#define CLASS_1_FE0A596DEF9F7C72_3___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x178ED2F0)
+#define CLASS_1_FE0A596DEF9F7C72_3_METHOD_1_976CE8DBF12537DF_OFFSET UNITYSDK_OFFSET(0x14AC3140)
+#define CLASS_1_FE0A596DEF9F7C72_3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14AC3010)
+#define CLASS_1_FE0A596DEF9F7C72_3_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x14AC30A0)
+#define CLASS_1_FE0A596DEF9F7C72_3__CTOR_OFFSET UNITYSDK_OFFSET(0x14AC2F90)
 
-inline static constexpr unsigned int Class_1_FE0A596DEF9F7C72_3_TypeDefinitionIndex = 62667;
+inline static constexpr unsigned int Class_1_FE0A596DEF9F7C72_3_TypeDefinitionIndex = 64034;
 
 class Class_1_FE0A596DEF9F7C72_3 : public ::System::Object
 {
@@ -35,13 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE0A596DEF9F7C72_3_TRIGGERACTION_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueMiracle*>* Method_1_BCAE9303D19217E3()
+	::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueMiracle*>* Method_1_976CE8DBF12537DF()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueMiracle*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE0A596DEF9F7C72_3_METHOD_1_BCAE9303D19217E3_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE0A596DEF9F7C72_3___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueMiracle*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FE0A596DEF9F7C72_3_METHOD_1_976CE8DBF12537DF_OFFSET))(this);
 	}
 };

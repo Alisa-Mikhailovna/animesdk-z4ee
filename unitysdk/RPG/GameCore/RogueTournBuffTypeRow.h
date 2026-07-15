@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193FCBE0)
-#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193FD3E0)
+#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B791EF0)
+#define RPG_GAMECORE_ROGUETOURNBUFFTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B792730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuffTypeRow_TypeDefinitionIndex = 14284;
+	inline static constexpr unsigned int RogueTournBuffTypeRow_TypeDefinitionIndex = 14432;
 
 	class RogueTournBuffTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* RogueBuffTypeIcon; // 0x10
-		::System::String* RogueBuffTypeDecoName; // 0x18
-		::System::String* RogueBuffTypeSmallIcon; // 0x20
-		::System::String* RogueBuffTypeLargeIcon; // 0x28
-		::RPG::Client::TextID RogueBuffTypeSubTitle; // 0x30
-		::System::UInt32 RogueBuffType; // 0x40
-		::RPG::Client::TextID RogueBuffTypeTitle; // 0x48
-		::RPG::Client::TextID RogueBuffTypeName; // 0x58
+		::System::String* RogueBuffTypeDecoName; // 0x10
+		::System::String* RogueBuffTypeSmallIcon; // 0x18
+		::System::String* RogueBuffTypeLargeIcon; // 0x20
+		::System::String* RogueBuffTypeIcon; // 0x28
+		::RPG::Client::TextID RogueBuffTypeName; // 0x30
+		::RPG::Client::TextID RogueBuffTypeSubTitle; // 0x40
+		::System::UInt32 RogueBuffType; // 0x50
+		::RPG::Client::TextID RogueBuffTypeTitle; // 0x58
 
 		::System::Void _ctor()
 		{

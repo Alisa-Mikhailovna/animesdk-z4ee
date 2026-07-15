@@ -6,12 +6,12 @@ namespace RPG::Client { class CRPLensFlarePlugin; }
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class OnAssetOperationDelegate; }
 
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182DD060)
-#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x182DD680)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEDB440)
+#define RPG_CLIENT_CRPLENSFLAREPLUGIN___C__DISPLAYCLASS1_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xBEDBA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPLensFlarePlugin___c__DisplayClass1_0_TypeDefinitionIndex = 65609;
+	inline static constexpr unsigned int CRPLensFlarePlugin___c__DisplayClass1_0_TypeDefinitionIndex = 67026;
 
 	class CRPLensFlarePlugin___c__DisplayClass1_0 : public ::System::Object
 	{

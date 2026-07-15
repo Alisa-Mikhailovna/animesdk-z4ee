@@ -7,15 +7,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_4F53AE2D5201BAA7_OFFSET UNITYSDK_OFFSET(0x18FCAF10)
-#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_7D462441AE52028E_OFFSET UNITYSDK_OFFSET(0x18FCAF90)
-#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_E10A1F890BC682ED_OFFSET UNITYSDK_OFFSET(0x18FCAD20)
-#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_FC12403D96AEBABD_OFFSET UNITYSDK_OFFSET(0x18FCAC50)
-#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18FCACD0)
+#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_0519072CE1116C19_OFFSET UNITYSDK_OFFSET(0x1B240C60)
+#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_40583F1EBFA0A5A6_OFFSET UNITYSDK_OFFSET(0x1B240C30)
+#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_4A5FC7350B47F9C0_OFFSET UNITYSDK_OFFSET(0x1B240A00)
+#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_E10A1F890BC682ED_OFFSET UNITYSDK_OFFSET(0x1B240A40)
+#define RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B240A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareCurrentSkillUseParam_TypeDefinitionIndex = 21323;
+	inline static constexpr unsigned int ByCompareCurrentSkillUseParam_TypeDefinitionIndex = 21741;
 
 	class ByCompareCurrentSkillUseParam : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_FC12403D96AEBABD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCurrentSkillUseParam*& a2)
+		static ::System::Void Method_4_4A5FC7350B47F9C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCurrentSkillUseParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCurrentSkillUseParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_FC12403D96AEBABD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCurrentSkillUseParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_4A5FC7350B47F9C0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_E10A1F890BC682ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareCurrentSkillUseParam* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareCurrentSkillUseParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_E10A1F890BC682ED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4F53AE2D5201BAA7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentSkillUseParam*& a2)
+		static ::System::Void Method_4_40583F1EBFA0A5A6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentSkillUseParam*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentSkillUseParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_4F53AE2D5201BAA7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentSkillUseParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_40583F1EBFA0A5A6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7D462441AE52028E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentSkillUseParam* a2)
+		static ::System::Void Method_4_0519072CE1116C19(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareCurrentSkillUseParam* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentSkillUseParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_7D462441AE52028E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareCurrentSkillUseParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECURRENTSKILLUSEPARAM_METHOD_4_0519072CE1116C19_OFFSET))(a1, a2);
 		}
 	};
 }

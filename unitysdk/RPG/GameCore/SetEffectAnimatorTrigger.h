@@ -7,13 +7,13 @@ namespace RPG::GameCore { class EffectTriggerRange; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_METHOD_3_0BD260321A688D3D_OFFSET UNITYSDK_OFFSET(0x1A786EF0)
-#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_METHOD_3_9FE9171619FA9343_OFFSET UNITYSDK_OFFSET(0x1A786F70)
-#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A786F40)
+#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_METHOD_3_7D70005BB9EECBDE_OFFSET UNITYSDK_OFFSET(0x1B89F050)
+#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_METHOD_3_9FE9171619FA9343_OFFSET UNITYSDK_OFFSET(0x1B89F090)
+#define RPG_GAMECORE_SETEFFECTANIMATORTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89F080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEffectAnimatorTrigger_TypeDefinitionIndex = 21640;
+	inline static constexpr unsigned int SetEffectAnimatorTrigger_TypeDefinitionIndex = 22063;
 
 	class SetEffectAnimatorTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0BD260321A688D3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimatorTrigger*& a2)
+		static ::System::Void Method_3_7D70005BB9EECBDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimatorTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectAnimatorTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_METHOD_3_0BD260321A688D3D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectAnimatorTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMATORTRIGGER_METHOD_3_7D70005BB9EECBDE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9FE9171619FA9343(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimatorTrigger* a2)

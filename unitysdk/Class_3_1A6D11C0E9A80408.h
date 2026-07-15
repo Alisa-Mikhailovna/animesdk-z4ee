@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableDynamicSkillButtonInput; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1A6D11C0E9A80408_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x171D3370)
-#define CLASS_3_1A6D11C0E9A80408__CTOR_OFFSET UNITYSDK_OFFSET(0x171D3340)
+#define CLASS_3_1A6D11C0E9A80408_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4BFB60)
+#define CLASS_3_1A6D11C0E9A80408__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BFB30)
 
-inline static constexpr unsigned int Class_3_1A6D11C0E9A80408_TypeDefinitionIndex = 51412;
+inline static constexpr unsigned int Class_3_1A6D11C0E9A80408_TypeDefinitionIndex = 52522;
 
 class Class_3_1A6D11C0E9A80408 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableDynamicSkillButtonInput*>
 {

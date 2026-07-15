@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_F9FBCC956DFCF137_1.h"
 
-class Class_1_5816B66AC6910205;
+class Class_1_EFDEDB2BC2764B7D;
 namespace RPG::GameCore { class MarbleAddSkill; }
 
-#define CLASS_2_047721DD21A4720F_METHOD_2_4487776BEE04D471_OFFSET UNITYSDK_OFFSET(0x1810ABA0)
-#define CLASS_2_047721DD21A4720F_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1810AC80)
-#define CLASS_2_047721DD21A4720F__CTOR_OFFSET UNITYSDK_OFFSET(0x1810AB90)
+#define CLASS_2_047721DD21A4720F_METHOD_2_4487776BEE04D471_OFFSET UNITYSDK_OFFSET(0x1AA216D0)
+#define CLASS_2_047721DD21A4720F_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1AA217B0)
+#define CLASS_2_047721DD21A4720F__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA216C0)
 
-inline static constexpr unsigned int Class_2_047721DD21A4720F_TypeDefinitionIndex = 39745;
+inline static constexpr unsigned int Class_2_047721DD21A4720F_TypeDefinitionIndex = 40554;
 
 class Class_2_047721DD21A4720F : public ::Class_1_F9FBCC956DFCF137_1
 {
 public:
 	::RPG::GameCore::MarbleAddSkill* Field_2_0; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::MarbleAddSkill* a1, ::Class_1_5816B66AC6910205* a2)
+	::System::Void _ctor(::RPG::GameCore::MarbleAddSkill* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleAddSkill*, ::Class_1_5816B66AC6910205*))((::PBYTE)hIl2Cpp + CLASS_2_047721DD21A4720F__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleAddSkill*, ::Class_1_EFDEDB2BC2764B7D*))((::PBYTE)hIl2Cpp + CLASS_2_047721DD21A4720F__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_2_4487776BEE04D471()

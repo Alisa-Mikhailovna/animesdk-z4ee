@@ -7,17 +7,14 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_CHECKITEMFINISHQUEST_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x17B28E70)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17B28FB0)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x17B28E50)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x17B28F00)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x17B29060)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17B29120)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST___IFIXBASEPROXY__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x17B290C0)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xC03AAD0)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC03AC10)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xC03AAB0)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xC03AB60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CheckItemFinishQuest_TypeDefinitionIndex = 55980;
+	inline static constexpr unsigned int CheckItemFinishQuest_TypeDefinitionIndex = 57219;
 
 	class CheckItemFinishQuest : public ::RPG::Client::SyncCheckItemBase
 	{
@@ -42,21 +39,6 @@ namespace RPG::Client
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMFINISHQUEST_TOSTRING_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMFINISHQUEST___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET))(this, a1);
-		}
-
-		::System::Boolean __iFixBaseProxy__DoCheckImpl()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMFINISHQUEST___IFIXBASEPROXY__DOCHECKIMPL_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMFINISHQUEST___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

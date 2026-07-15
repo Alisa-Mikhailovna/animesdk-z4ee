@@ -9,12 +9,12 @@ namespace RPG::GameCore { class VisionSetConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREAICONFIG_METHOD_2_9566F3591B542B38_OFFSET UNITYSDK_OFFSET(0x19BFA680)
-#define RPG_GAMECORE_ADVENTUREAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFADB0)
+#define RPG_GAMECORE_ADVENTUREAICONFIG_METHOD_2_9566F3591B542B38_OFFSET UNITYSDK_OFFSET(0x1B168040)
+#define RPG_GAMECORE_ADVENTUREAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B168770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAIConfig_TypeDefinitionIndex = 16569;
+	inline static constexpr unsigned int AdventureAIConfig_TypeDefinitionIndex = 16731;
 
 	class AdventureAIConfig : public ::RPG::GameCore::JsonConfig
 	{

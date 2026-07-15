@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_8CAEDD173D31E822.h"
+#include "unitysdk/Class_3_778D44A66A0719FE.h"
 
 namespace RPG::GameCore { class CreateBattleEventEntityFromStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_F319A0B161FEC6F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14EED7F0)
-#define CLASS_4_F319A0B161FEC6F4__CTOR_OFFSET UNITYSDK_OFFSET(0x14EED7D0)
-#define CLASS_4_F319A0B161FEC6F4___IFIXBASEPROXY_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14EEDC30)
+#define CLASS_4_F319A0B161FEC6F4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAC2DE0)
+#define CLASS_4_F319A0B161FEC6F4__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC2DC0)
 
-inline static constexpr unsigned int Class_4_F319A0B161FEC6F4_TypeDefinitionIndex = 54237;
+inline static constexpr unsigned int Class_4_F319A0B161FEC6F4_TypeDefinitionIndex = 55460;
 
-class Class_4_F319A0B161FEC6F4 : public ::Class_3_8CAEDD173D31E822
+class Class_4_F319A0B161FEC6F4 : public ::Class_3_778D44A66A0719FE
 {
 public:
 	::RPG::GameCore::CreateBattleEventEntityFromStage* Field_4_0; // 0x40
@@ -24,10 +23,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_F319A0B161FEC6F4_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnTaskBegin()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_F319A0B161FEC6F4___IFIXBASEPROXY_ONTASKBEGIN_OFFSET))(this);
 	}
 };

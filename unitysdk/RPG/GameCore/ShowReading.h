@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SHOWREADING_METHOD_3_2E0F76BD1A1A9192_OFFSET UNITYSDK_OFFSET(0x1A008870)
-#define RPG_GAMECORE_SHOWREADING_METHOD_3_987B0F0F0DE22AEB_OFFSET UNITYSDK_OFFSET(0x1A0087F0)
-#define RPG_GAMECORE_SHOWREADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A008840)
+#define RPG_GAMECORE_SHOWREADING_METHOD_3_2E0F76BD1A1A9192_OFFSET UNITYSDK_OFFSET(0x1B8D28A0)
+#define RPG_GAMECORE_SHOWREADING_METHOD_3_ACA9B73707AECF83_OFFSET UNITYSDK_OFFSET(0x1B8D2850)
+#define RPG_GAMECORE_SHOWREADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D2890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowReading_TypeDefinitionIndex = 19745;
+	inline static constexpr unsigned int ShowReading_TypeDefinitionIndex = 20105;
 
 	class ShowReading : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_987B0F0F0DE22AEB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowReading*& a2)
+		static ::System::Void Method_3_ACA9B73707AECF83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowReading*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowReading*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING_METHOD_3_987B0F0F0DE22AEB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowReading*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWREADING_METHOD_3_ACA9B73707AECF83_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2E0F76BD1A1A9192(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowReading* a2)

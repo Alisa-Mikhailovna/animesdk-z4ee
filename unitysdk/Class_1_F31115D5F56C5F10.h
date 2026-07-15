@@ -9,10 +9,10 @@
 
 class Class_1_06AB2BCBCFDFE141;
 
-#define CLASS_1_F31115D5F56C5F10_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x167FF6E0)
-#define CLASS_1_F31115D5F56C5F10__CTOR_OFFSET UNITYSDK_OFFSET(0x167FF720)
+#define CLASS_1_F31115D5F56C5F10_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A8D5BE0)
+#define CLASS_1_F31115D5F56C5F10__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D5C20)
 
-inline static constexpr unsigned int Class_1_F31115D5F56C5F10_TypeDefinitionIndex = 39523;
+inline static constexpr unsigned int Class_1_F31115D5F56C5F10_TypeDefinitionIndex = 40332;
 
 class Class_1_F31115D5F56C5F10 : public ::System::Object
 {
@@ -20,10 +20,10 @@ public:
 	::RPG::Client::LittleGame::TimelineControlGameWorld_LevelCell Field_1_0; // 0x10
 	::Class_1_06AB2BCBCFDFE141* Field_1_1; // 0x30
 	::UnityEngine::Vector3Int Field_1_2; // 0x38
-	::System::Single Field_1_3; // 0x44
-	::UnityEngine::Vector2Int Field_1_4; // 0x48
-	::UnityEngine::Vector3Int Field_1_5; // 0x50
-	::RPG::Client::LittleGame::ETimelineControlGameLevelFloor Field_1_6; // 0x5C
+	::UnityEngine::Vector2Int Field_1_3; // 0x44
+	::RPG::Client::LittleGame::ETimelineControlGameLevelFloor Field_1_4; // 0x4C
+	::System::Single Field_1_5; // 0x50
+	::UnityEngine::Vector3Int Field_1_6; // 0x54
 	::RPG::Client::LittleGame::ETimelineControlGameLevelRotation Field_1_7; // 0x60
 
 	::System::Void _ctor()

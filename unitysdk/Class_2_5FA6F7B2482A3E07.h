@@ -9,13 +9,12 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_5FA6F7B2482A3E07_METHOD_2_214A2DDDE2515836_OFFSET UNITYSDK_OFFSET(0x14F3CA60)
-#define CLASS_2_5FA6F7B2482A3E07_METHOD_2_F719CD6CA9B3F622_OFFSET UNITYSDK_OFFSET(0x14F3CB10)
-#define CLASS_2_5FA6F7B2482A3E07__CTOR_OFFSET UNITYSDK_OFFSET(0x14F3CC40)
-#define CLASS_2_5FA6F7B2482A3E07__ONBIND_OFFSET UNITYSDK_OFFSET(0x14F3C9B0)
-#define CLASS_2_5FA6F7B2482A3E07___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x14F3CC70)
+#define CLASS_2_5FA6F7B2482A3E07_METHOD_2_958B126D55B718A5_OFFSET UNITYSDK_OFFSET(0x151A0760)
+#define CLASS_2_5FA6F7B2482A3E07_METHOD_2_F719CD6CA9B3F622_OFFSET UNITYSDK_OFFSET(0x151A0810)
+#define CLASS_2_5FA6F7B2482A3E07__CTOR_OFFSET UNITYSDK_OFFSET(0x151A09F0)
+#define CLASS_2_5FA6F7B2482A3E07__ONBIND_OFFSET UNITYSDK_OFFSET(0x151A06B0)
 
-inline static constexpr unsigned int Class_2_5FA6F7B2482A3E07_TypeDefinitionIndex = 67514;
+inline static constexpr unsigned int Class_2_5FA6F7B2482A3E07_TypeDefinitionIndex = 68995;
 
 class Class_2_5FA6F7B2482A3E07 : public ::Class_1_CA217ABF4E3B4F3F
 {
@@ -35,18 +34,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5FA6F7B2482A3E07__ONBIND_OFFSET))(this);
 	}
 
-	::System::Void Method_2_214A2DDDE2515836(::RPG::GameCore::BattleGridFightTeamTraitData* a1)
+	::System::Void Method_2_958B126D55B718A5(::RPG::GameCore::BattleGridFightTeamTraitData* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleGridFightTeamTraitData*))((::PBYTE)hIl2Cpp + CLASS_2_5FA6F7B2482A3E07_METHOD_2_214A2DDDE2515836_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleGridFightTeamTraitData*))((::PBYTE)hIl2Cpp + CLASS_2_5FA6F7B2482A3E07_METHOD_2_958B126D55B718A5_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_F719CD6CA9B3F622(::RPG::Client::GridFightTraitConfigBase* a1, ::System::UInt32 a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTraitConfigBase*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_5FA6F7B2482A3E07_METHOD_2_F719CD6CA9B3F622_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5FA6F7B2482A3E07___IFIXBASEPROXY__ONBIND_OFFSET))(this);
 	}
 };

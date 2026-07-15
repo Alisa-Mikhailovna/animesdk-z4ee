@@ -7,20 +7,20 @@
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_57207EAD4239ED6B_METHOD_1_00004B41EFDB322F_OFFSET UNITYSDK_OFFSET(0x14A2A3A0)
-#define CLASS_1_57207EAD4239ED6B_METHOD_1_3B47B864CE8CD355_OFFSET UNITYSDK_OFFSET(0x14A2AE60)
-#define CLASS_1_57207EAD4239ED6B_METHOD_1_77BD26FBF553005C_OFFSET UNITYSDK_OFFSET(0x14A2AB20)
-#define CLASS_1_57207EAD4239ED6B_METHOD_1_7C09BC3ADD2A7890_OFFSET UNITYSDK_OFFSET(0x14A2A840)
-#define CLASS_1_57207EAD4239ED6B_METHOD_1_CB7C8CEA3CCE1B7A_OFFSET UNITYSDK_OFFSET(0x14A2A2C0)
-#define CLASS_1_57207EAD4239ED6B__CTOR_OFFSET UNITYSDK_OFFSET(0x14A2A300)
+#define CLASS_1_57207EAD4239ED6B_METHOD_1_3367709B8A4965F3_OFFSET UNITYSDK_OFFSET(0x1474CE80)
+#define CLASS_1_57207EAD4239ED6B_METHOD_1_3B47B864CE8CD355_OFFSET UNITYSDK_OFFSET(0x1474D300)
+#define CLASS_1_57207EAD4239ED6B_METHOD_1_AC4D79DA9B317127_OFFSET UNITYSDK_OFFSET(0x1474CA50)
+#define CLASS_1_57207EAD4239ED6B_METHOD_1_CB7C8CEA3CCE1B7A_OFFSET UNITYSDK_OFFSET(0x1474C3A0)
+#define CLASS_1_57207EAD4239ED6B_METHOD_1_E83C86A203FAF2A6_OFFSET UNITYSDK_OFFSET(0x1474C480)
+#define CLASS_1_57207EAD4239ED6B__CTOR_OFFSET UNITYSDK_OFFSET(0x1474C3E0)
 
-inline static constexpr unsigned int Class_1_57207EAD4239ED6B_TypeDefinitionIndex = 52559;
+inline static constexpr unsigned int Class_1_57207EAD4239ED6B_TypeDefinitionIndex = 53763;
 
 class Class_1_57207EAD4239ED6B : public ::System::Object
 {
 public:
-	::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
+	::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* Field_1_1; // 0x18
 	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor(::System::Int32 a1)
@@ -33,19 +33,19 @@ public:
 		return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_57207EAD4239ED6B_METHOD_1_CB7C8CEA3CCE1B7A_OFFSET))(this);
 	}
 
-	::System::Void Method_1_00004B41EFDB322F(::Class_1_57207EAD4239ED6B* a1)
+	::System::Void Method_1_E83C86A203FAF2A6(::Class_1_57207EAD4239ED6B* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_57207EAD4239ED6B*))((::PBYTE)hIl2Cpp + CLASS_1_57207EAD4239ED6B_METHOD_1_00004B41EFDB322F_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_57207EAD4239ED6B*))((::PBYTE)hIl2Cpp + CLASS_1_57207EAD4239ED6B_METHOD_1_E83C86A203FAF2A6_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_7C09BC3ADD2A7890(::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* a1)
+	::System::Void Method_1_AC4D79DA9B317127(::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_57207EAD4239ED6B_METHOD_1_7C09BC3ADD2A7890_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_57207EAD4239ED6B_METHOD_1_AC4D79DA9B317127_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_77BD26FBF553005C(::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* a1)
+	::System::Void Method_1_3367709B8A4965F3(::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_57207EAD4239ED6B_METHOD_1_77BD26FBF553005C_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_1_57207EAD4239ED6B_METHOD_1_3367709B8A4965F3_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_3B47B864CE8CD355(::System::UInt32 a1, ::System::UInt32 a2)

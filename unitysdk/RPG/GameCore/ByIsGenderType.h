@@ -6,15 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_3AC0332A3E74A975_OFFSET UNITYSDK_OFFSET(0x19DA7380)
-#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_B89C3B8F478E9048_OFFSET UNITYSDK_OFFSET(0x19DA7400)
-#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_D2C301A67DE6BA68_OFFSET UNITYSDK_OFFSET(0x19DA7200)
-#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_DC9F15406B4100C6_OFFSET UNITYSDK_OFFSET(0x19DA7130)
-#define RPG_GAMECORE_BYISGENDERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA71B0)
+#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_49ED4755CAE23118_OFFSET UNITYSDK_OFFSET(0x1B2B07D0)
+#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_A90BFCB4BD61243F_OFFSET UNITYSDK_OFFSET(0x1B2B0800)
+#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_BC730A8BB92EA21D_OFFSET UNITYSDK_OFFSET(0x1B2B0610)
+#define RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_D2C301A67DE6BA68_OFFSET UNITYSDK_OFFSET(0x1B2B0650)
+#define RPG_GAMECORE_BYISGENDERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2B0640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsGenderType_TypeDefinitionIndex = 19661;
+	inline static constexpr unsigned int ByIsGenderType_TypeDefinitionIndex = 20020;
 
 	class ByIsGenderType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DC9F15406B4100C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsGenderType*& a2)
+		static ::System::Void Method_4_BC730A8BB92EA21D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsGenderType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsGenderType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_DC9F15406B4100C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsGenderType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_BC730A8BB92EA21D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_D2C301A67DE6BA68(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsGenderType* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsGenderType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_D2C301A67DE6BA68_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3AC0332A3E74A975(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsGenderType*& a2)
+		static ::System::Void Method_4_49ED4755CAE23118(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsGenderType*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsGenderType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_3AC0332A3E74A975_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsGenderType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_49ED4755CAE23118_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B89C3B8F478E9048(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsGenderType* a2)
+		static ::System::Void Method_4_A90BFCB4BD61243F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsGenderType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsGenderType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_B89C3B8F478E9048_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsGenderType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISGENDERTYPE_METHOD_4_A90BFCB4BD61243F_OFFSET))(a1, a2);
 		}
 	};
 }

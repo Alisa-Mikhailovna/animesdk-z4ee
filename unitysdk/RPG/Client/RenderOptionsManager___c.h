@@ -5,29 +5,29 @@
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_RENDEROPTIONSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D0BFE0)
-#define RPG_CLIENT_RENDEROPTIONSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14D0C010)
-#define RPG_CLIENT_RENDEROPTIONSMANAGER___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x14D0C020)
-#define RPG_CLIENT_RENDEROPTIONSMANAGER___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0x14D0C0F0)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD30E5B0)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD30E5E0)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0xD30E5F0)
+#define RPG_CLIENT_RENDEROPTIONSMANAGER___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0xD30E6C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderOptionsManager___c_TypeDefinitionIndex = 65614;
+	inline static constexpr unsigned int RenderOptionsManager___c_TypeDefinitionIndex = 67031;
 
 	class RenderOptionsManager___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderOptionsManager___c_TypeDefinitionIndex)->GetStaticField(0x21870);
+		}
 		static ::RPG::Client::RenderOptionsManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::RenderOptionsManager___c**)Il2CppClass::FromTypeDefinitionIndex(RenderOptionsManager___c_TypeDefinitionIndex)->GetStaticField(0x29DF0);
+			return (::RPG::Client::RenderOptionsManager___c**)Il2CppClass::FromTypeDefinitionIndex(RenderOptionsManager___c_TypeDefinitionIndex)->GetStaticField(0x21878);
 		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__1_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderOptionsManager___c_TypeDefinitionIndex)->GetStaticField(0x29DF8);
-		}
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderOptionsManager___c_TypeDefinitionIndex)->GetStaticField(0x29E00);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RenderOptionsManager___c_TypeDefinitionIndex)->GetStaticField(0x21880);
 		}
 
 		static ::System::Void _cctor()

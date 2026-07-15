@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/GameCore/SwordTrainingConditionType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x184AB550)
-#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x184AB540)
+#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xD597540)
+#define RPG_CLIENT_SWORDTRAININGCONDITIONDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD597530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingConditionDisplayData_TypeDefinitionIndex = 57916;
+	inline static constexpr unsigned int SwordTrainingConditionDisplayData_TypeDefinitionIndex = 59182;
 
 	class SwordTrainingConditionDisplayData : public ::System::Object
 	{

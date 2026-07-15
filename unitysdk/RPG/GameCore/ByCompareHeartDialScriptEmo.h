@@ -7,15 +7,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_24B6FA4C1FFC270A_OFFSET UNITYSDK_OFFSET(0x18FD6BD0)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_AAA770E349205268_OFFSET UNITYSDK_OFFSET(0x18FD6F10)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_CA6AD7D4B8A0F7FC_OFFSET UNITYSDK_OFFSET(0x18FD6CA0)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_CCC955023ED2B505_OFFSET UNITYSDK_OFFSET(0x18FD6E90)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD6C50)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_20F7DB96FDD24DA9_OFFSET UNITYSDK_OFFSET(0x1B250A00)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_76BEA9B6E7F4D30F_OFFSET UNITYSDK_OFFSET(0x1B250C60)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_CA6AD7D4B8A0F7FC_OFFSET UNITYSDK_OFFSET(0x1B250A40)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_FD4DD268F803EF68_OFFSET UNITYSDK_OFFSET(0x1B250C30)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B250A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareHeartDialScriptEmo_TypeDefinitionIndex = 20675;
+	inline static constexpr unsigned int ByCompareHeartDialScriptEmo_TypeDefinitionIndex = 21090;
 
 	class ByCompareHeartDialScriptEmo : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_24B6FA4C1FFC270A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareHeartDialScriptEmo*& a2)
+		static ::System::Void Method_4_20F7DB96FDD24DA9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareHeartDialScriptEmo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareHeartDialScriptEmo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_24B6FA4C1FFC270A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareHeartDialScriptEmo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_20F7DB96FDD24DA9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_CA6AD7D4B8A0F7FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareHeartDialScriptEmo* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareHeartDialScriptEmo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_CA6AD7D4B8A0F7FC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_CCC955023ED2B505(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptEmo*& a2)
+		static ::System::Void Method_4_FD4DD268F803EF68(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptEmo*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptEmo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_CCC955023ED2B505_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptEmo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_FD4DD268F803EF68_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AAA770E349205268(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptEmo* a2)
+		static ::System::Void Method_4_76BEA9B6E7F4D30F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptEmo* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptEmo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_AAA770E349205268_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptEmo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTEMO_METHOD_4_76BEA9B6E7F4D30F_OFFSET))(a1, a2);
 		}
 	};
 }

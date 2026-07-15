@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_INFINITEWAVENEXTMONSTERID_METHOD_3_0D1F0B4DB709D303_OFFSET UNITYSDK_OFFSET(0x19AE23E0)
-#define RPG_GAMECORE_INFINITEWAVENEXTMONSTERID_METHOD_3_F037ABBC15D2C8B6_OFFSET UNITYSDK_OFFSET(0x19AE2460)
-#define RPG_GAMECORE_INFINITEWAVENEXTMONSTERID__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE2430)
+#define RPG_GAMECORE_INFINITEWAVENEXTMONSTERID_METHOD_3_CDCF584D3D7857CB_OFFSET UNITYSDK_OFFSET(0x1B531B80)
+#define RPG_GAMECORE_INFINITEWAVENEXTMONSTERID_METHOD_3_F037ABBC15D2C8B6_OFFSET UNITYSDK_OFFSET(0x1B531BC0)
+#define RPG_GAMECORE_INFINITEWAVENEXTMONSTERID__CTOR_OFFSET UNITYSDK_OFFSET(0x1B531BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfiniteWaveNextMonsterId_TypeDefinitionIndex = 21526;
+	inline static constexpr unsigned int InfiniteWaveNextMonsterId_TypeDefinitionIndex = 21947;
 
 	class InfiniteWaveNextMonsterId : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVENEXTMONSTERID__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0D1F0B4DB709D303(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveNextMonsterId*& a2)
+		static ::System::Void Method_3_CDCF584D3D7857CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveNextMonsterId*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfiniteWaveNextMonsterId*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVENEXTMONSTERID_METHOD_3_0D1F0B4DB709D303_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfiniteWaveNextMonsterId*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVENEXTMONSTERID_METHOD_3_CDCF584D3D7857CB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F037ABBC15D2C8B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveNextMonsterId* a2)

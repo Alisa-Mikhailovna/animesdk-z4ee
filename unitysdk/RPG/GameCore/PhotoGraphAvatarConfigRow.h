@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D34F30)
-#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D35070)
+#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6A7D00)
+#define RPG_GAMECORE_PHOTOGRAPHAVATARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6A7E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAvatarConfigRow_TypeDefinitionIndex = 13758;
+	inline static constexpr unsigned int PhotoGraphAvatarConfigRow_TypeDefinitionIndex = 13906;
 
 	class PhotoGraphAvatarConfigRow : public ::System::Object
 	{

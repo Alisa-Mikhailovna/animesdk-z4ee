@@ -5,22 +5,22 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_E1B52763F52BED2C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14627BB0)
-#define CLASS_1_E1B52763F52BED2C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14627BF0)
-#define CLASS_1_E1B52763F52BED2C___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x14627C00)
+#define CLASS_1_E1B52763F52BED2C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB4DF920)
+#define CLASS_1_E1B52763F52BED2C___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB4DF960)
+#define CLASS_1_E1B52763F52BED2C___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0xB4DF970)
 
-inline static constexpr unsigned int Class_1_E1B52763F52BED2C___c_TypeDefinitionIndex = 70034;
+inline static constexpr unsigned int Class_1_E1B52763F52BED2C___c_TypeDefinitionIndex = 71557;
 
 class Class_1_E1B52763F52BED2C___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>** StaticGet___9__3_0()
-	{
-		return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E1B52763F52BED2C___c_TypeDefinitionIndex)->GetStaticField(0x7F30);
-	}
 	static ::Class_1_E1B52763F52BED2C___c** StaticGet___9()
 	{
-		return (::Class_1_E1B52763F52BED2C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E1B52763F52BED2C___c_TypeDefinitionIndex)->GetStaticField(0x7F38);
+		return (::Class_1_E1B52763F52BED2C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E1B52763F52BED2C___c_TypeDefinitionIndex)->GetStaticField(0x69340);
+	}
+	static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>** StaticGet___9__3_0()
+	{
+		return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_E1B52763F52BED2C___c_TypeDefinitionIndex)->GetStaticField(0x69348);
 	}
 
 	static ::System::Void _cctor()

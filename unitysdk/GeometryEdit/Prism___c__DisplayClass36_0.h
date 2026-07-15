@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define GEOMETRYEDIT_PRISM___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1471D4F0)
-#define GEOMETRYEDIT_PRISM___C__DISPLAYCLASS36_0__RESETPIVOT_B__0_OFFSET UNITYSDK_OFFSET(0x1471D580)
+#define GEOMETRYEDIT_PRISM___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x149E2F40)
+#define GEOMETRYEDIT_PRISM___C__DISPLAYCLASS36_0__RESETPIVOT_B__0_OFFSET UNITYSDK_OFFSET(0x149E2FD0)
 
 namespace GeometryEdit
 {
-	inline static constexpr unsigned int Prism___c__DisplayClass36_0_TypeDefinitionIndex = 46368;
+	inline static constexpr unsigned int Prism___c__DisplayClass36_0_TypeDefinitionIndex = 47333;
 
 	class Prism___c__DisplayClass36_0 : public ::System::Object
 	{

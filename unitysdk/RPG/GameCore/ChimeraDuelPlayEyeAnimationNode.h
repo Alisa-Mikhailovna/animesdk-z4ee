@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE_METHOD_3_151CD5631151A84E_OFFSET UNITYSDK_OFFSET(0x1A5164E0)
-#define RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE_METHOD_3_4E4C2F9B7DB47A0D_OFFSET UNITYSDK_OFFSET(0x1A516400)
-#define RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A516490)
+#define RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE_METHOD_3_151CD5631151A84E_OFFSET UNITYSDK_OFFSET(0x1B34EFC0)
+#define RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE_METHOD_3_E6C0538ED51ECA04_OFFSET UNITYSDK_OFFSET(0x1B34EF60)
+#define RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34EFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelPlayEyeAnimationNode_TypeDefinitionIndex = 15173;
+	inline static constexpr unsigned int ChimeraDuelPlayEyeAnimationNode_TypeDefinitionIndex = 15337;
 
 	class ChimeraDuelPlayEyeAnimationNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E4C2F9B7DB47A0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelPlayEyeAnimationNode*& a2)
+		static ::System::Void Method_3_E6C0538ED51ECA04(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelPlayEyeAnimationNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelPlayEyeAnimationNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE_METHOD_3_4E4C2F9B7DB47A0D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelPlayEyeAnimationNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPLAYEYEANIMATIONNODE_METHOD_3_E6C0538ED51ECA04_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_151CD5631151A84E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelPlayEyeAnimationNode* a2)

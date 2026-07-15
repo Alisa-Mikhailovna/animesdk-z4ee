@@ -1,0 +1,141 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/CaseBoard/CaseBoardAvatarTextMode.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FateRinCaseBoardAvatarType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_4C038D02B7044E61;
+namespace System { class String; }
+
+#define CLASS_1_F127B01B07319136_GET_INVISIBLE_OFFSET UNITYSDK_OFFSET(0x14A80DF0)
+#define CLASS_1_F127B01B07319136_GET_UNKNOWN_OFFSET UNITYSDK_OFFSET(0x14A80D90)
+#define CLASS_1_F127B01B07319136_METHOD_1_438EB0FFE11AF767_OFFSET UNITYSDK_OFFSET(0x14A810C0)
+#define CLASS_1_F127B01B07319136_METHOD_1_4879C99A16C1BFC8_OFFSET UNITYSDK_OFFSET(0x14A81710)
+#define CLASS_1_F127B01B07319136_METHOD_1_49584CF3091B56B6_OFFSET UNITYSDK_OFFSET(0x14A80EA0)
+#define CLASS_1_F127B01B07319136_METHOD_1_88B60F3B95FAA4F1_1_OFFSET UNITYSDK_OFFSET(0x14A80F60)
+#define CLASS_1_F127B01B07319136_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x14A80F10)
+#define CLASS_1_F127B01B07319136_METHOD_1_97B5A198ED27BF16_OFFSET UNITYSDK_OFFSET(0x14A80E50)
+#define CLASS_1_F127B01B07319136_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x14A81330)
+#define CLASS_1_F127B01B07319136_METHOD_1_D008B6653DE34794_OFFSET UNITYSDK_OFFSET(0x14A817A0)
+#define CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_1_OFFSET UNITYSDK_OFFSET(0x14A81220)
+#define CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_2_OFFSET UNITYSDK_OFFSET(0x14A81380)
+#define CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_3_OFFSET UNITYSDK_OFFSET(0x14A81490)
+#define CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_4_OFFSET UNITYSDK_OFFSET(0x14A815A0)
+#define CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_OFFSET UNITYSDK_OFFSET(0x14A80FB0)
+#define CLASS_1_F127B01B07319136__CCTOR_OFFSET UNITYSDK_OFFSET(0x14A81840)
+#define CLASS_1_F127B01B07319136__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14A816C0)
+#define CLASS_1_F127B01B07319136__CTOR_2_OFFSET UNITYSDK_OFFSET(0x14A816F0)
+#define CLASS_1_F127B01B07319136__CTOR_OFFSET UNITYSDK_OFFSET(0x14A816B0)
+
+inline static constexpr unsigned int Class_1_F127B01B07319136_TypeDefinitionIndex = 75816;
+
+class Class_1_F127B01B07319136 : public ::System::Object
+{
+public:
+	static ::Class_1_F127B01B07319136** StaticGet__Invisible_k__BackingField()
+	{
+		return (::Class_1_F127B01B07319136**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F127B01B07319136_TypeDefinitionIndex)->GetStaticField(0x2D940);
+	}
+	static ::Class_1_F127B01B07319136** StaticGet__Unknown_k__BackingField()
+	{
+		return (::Class_1_F127B01B07319136**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F127B01B07319136_TypeDefinitionIndex)->GetStaticField(0x2D948);
+	}
+	::Class_1_4C038D02B7044E61* Field_1_2; // 0x10
+	::RPG::Client::FateRin::CaseBoard::CaseBoardAvatarTextMode Field_1_3; // 0x18
+
+	::System::Void _ctor(::Class_1_4C038D02B7044E61* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4C038D02B7044E61*))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void _ctor_1(::Class_1_F127B01B07319136* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F127B01B07319136*))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136__CTOR_1_OFFSET))(this, a1);
+	}
+
+	::System::Void _ctor_2(::Class_1_F127B01B07319136* a1, ::RPG::Client::FateRin::CaseBoard::CaseBoardAvatarTextMode a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F127B01B07319136*, ::RPG::Client::FateRin::CaseBoard::CaseBoardAvatarTextMode))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136__CTOR_2_OFFSET))(this, a1, a2);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136__CCTOR_OFFSET))();
+	}
+
+	static ::Class_1_F127B01B07319136* get_Unknown()
+	{
+		return ((::Class_1_F127B01B07319136*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_GET_UNKNOWN_OFFSET))();
+	}
+
+	static ::Class_1_F127B01B07319136* get_Invisible()
+	{
+		return ((::Class_1_F127B01B07319136*(*)())((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_GET_INVISIBLE_OFFSET))();
+	}
+
+	::RPG::GameCore::FateRinCaseBoardAvatarType Method_1_97B5A198ED27BF16()
+	{
+		return ((::RPG::GameCore::FateRinCaseBoardAvatarType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_97B5A198ED27BF16_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_1_49584CF3091B56B6()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_49584CF3091B56B6_OFFSET))(this);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_88B60F3B95FAA4F1_OFFSET))(this);
+	}
+
+	::System::String* Method_1_88B60F3B95FAA4F1_1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_88B60F3B95FAA4F1_1_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_1_ED41E07E88A0E37E()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_1_ED41E07E88A0E37E_1()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_1_OFFSET))(this);
+	}
+
+	::System::UInt32 Method_1_AA2D3E889C8A52CA()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_AA2D3E889C8A52CA_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_1_ED41E07E88A0E37E_2()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_2_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_1_ED41E07E88A0E37E_3()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_3_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_1_ED41E07E88A0E37E_4()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_ED41E07E88A0E37E_4_OFFSET))(this);
+	}
+
+	::Class_1_F127B01B07319136* Method_1_4879C99A16C1BFC8(::RPG::Client::FateRin::CaseBoard::CaseBoardAvatarTextMode a1)
+	{
+		return ((::Class_1_F127B01B07319136*(*)(::PVOID, ::RPG::Client::FateRin::CaseBoard::CaseBoardAvatarTextMode))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_4879C99A16C1BFC8_OFFSET))(this, a1);
+	}
+
+	static ::RPG::Client::TextID Method_1_438EB0FFE11AF767(::System::UInt32 a1, ::RPG::Client::TextID a2, ::RPG::Client::TextID a3, ::RPG::Client::FateRin::CaseBoard::CaseBoardAvatarTextMode a4)
+	{
+		return ((::RPG::Client::TextID(*)(::System::UInt32, ::RPG::Client::TextID, ::RPG::Client::TextID, ::RPG::Client::FateRin::CaseBoard::CaseBoardAvatarTextMode))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_438EB0FFE11AF767_OFFSET))(a1, a2, a3, a4);
+	}
+
+	static ::System::Boolean Method_1_D008B6653DE34794(::System::UInt32 a1)
+	{
+		return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F127B01B07319136_METHOD_1_D008B6653DE34794_OFFSET))(a1);
+	}
+};

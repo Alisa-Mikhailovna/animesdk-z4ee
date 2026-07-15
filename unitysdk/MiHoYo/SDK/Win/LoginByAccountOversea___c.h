@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Win { class LoginByAccountOversea; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x153E0B20)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x153E0B60)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA___C__SHOW_B__51_0_OFFSET UNITYSDK_OFFSET(0x153E0B70)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ED5320)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED5360)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNTOVERSEA___C__SHOW_B__51_0_OFFSET UNITYSDK_OFFSET(0x19ED5370)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByAccountOversea___c_TypeDefinitionIndex = 9185;
+	inline static constexpr unsigned int LoginByAccountOversea___c_TypeDefinitionIndex = 9197;
 
 	class LoginByAccountOversea___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::Win::LoginByAccountOversea*>** StaticGet___9__51_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::LoginByAccountOversea*>**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccountOversea___c_TypeDefinitionIndex)->GetStaticField(0x27730);
+			return (::System::Action_1<::MiHoYo::SDK::Win::LoginByAccountOversea*>**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccountOversea___c_TypeDefinitionIndex)->GetStaticField(0x2F310);
 		}
 		static ::MiHoYo::SDK::Win::LoginByAccountOversea___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::LoginByAccountOversea___c**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccountOversea___c_TypeDefinitionIndex)->GetStaticField(0x27738);
+			return (::MiHoYo::SDK::Win::LoginByAccountOversea___c**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccountOversea___c_TypeDefinitionIndex)->GetStaticField(0x2F318);
 		}
 
 		static ::System::Void _cctor()

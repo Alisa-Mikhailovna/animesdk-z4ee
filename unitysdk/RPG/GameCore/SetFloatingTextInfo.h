@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETFLOATINGTEXTINFO_METHOD_3_4A59BCFEBF653E43_OFFSET UNITYSDK_OFFSET(0x1A78B750)
-#define RPG_GAMECORE_SETFLOATINGTEXTINFO_METHOD_3_D90BFFAC9ED84F22_OFFSET UNITYSDK_OFFSET(0x1A78B7D0)
-#define RPG_GAMECORE_SETFLOATINGTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A78B7A0)
+#define RPG_GAMECORE_SETFLOATINGTEXTINFO_METHOD_3_45567AAC6FC42F23_OFFSET UNITYSDK_OFFSET(0x1B8A3430)
+#define RPG_GAMECORE_SETFLOATINGTEXTINFO_METHOD_3_D90BFFAC9ED84F22_OFFSET UNITYSDK_OFFSET(0x1B8A3470)
+#define RPG_GAMECORE_SETFLOATINGTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A3460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFloatingTextInfo_TypeDefinitionIndex = 19326;
+	inline static constexpr unsigned int SetFloatingTextInfo_TypeDefinitionIndex = 19682;
 
 	class SetFloatingTextInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLOATINGTEXTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4A59BCFEBF653E43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFloatingTextInfo*& a2)
+		static ::System::Void Method_3_45567AAC6FC42F23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFloatingTextInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFloatingTextInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLOATINGTEXTINFO_METHOD_3_4A59BCFEBF653E43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFloatingTextInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLOATINGTEXTINFO_METHOD_3_45567AAC6FC42F23_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D90BFFAC9ED84F22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFloatingTextInfo* a2)

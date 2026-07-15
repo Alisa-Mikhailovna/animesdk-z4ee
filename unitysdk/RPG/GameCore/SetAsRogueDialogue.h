@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETASROGUEDIALOGUE_METHOD_3_908A9821CFB8550B_OFFSET UNITYSDK_OFFSET(0x1A1E2A00)
-#define RPG_GAMECORE_SETASROGUEDIALOGUE_METHOD_3_BF620B0AE7EB747F_OFFSET UNITYSDK_OFFSET(0x1A1E2B10)
-#define RPG_GAMECORE_SETASROGUEDIALOGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E2AE0)
+#define RPG_GAMECORE_SETASROGUEDIALOGUE_METHOD_3_BF620B0AE7EB747F_OFFSET UNITYSDK_OFFSET(0x1B884A50)
+#define RPG_GAMECORE_SETASROGUEDIALOGUE_METHOD_3_E52B577F1F653F42_OFFSET UNITYSDK_OFFSET(0x1B884980)
+#define RPG_GAMECORE_SETASROGUEDIALOGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B884A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAsRogueDialogue_TypeDefinitionIndex = 19952;
+	inline static constexpr unsigned int SetAsRogueDialogue_TypeDefinitionIndex = 20323;
 
 	class SetAsRogueDialogue : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETASROGUEDIALOGUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_908A9821CFB8550B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAsRogueDialogue*& a2)
+		static ::System::Void Method_3_E52B577F1F653F42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAsRogueDialogue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAsRogueDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETASROGUEDIALOGUE_METHOD_3_908A9821CFB8550B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAsRogueDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETASROGUEDIALOGUE_METHOD_3_E52B577F1F653F42_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BF620B0AE7EB747F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAsRogueDialogue* a2)

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_GRADIENTALPHAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x6C3BE0)
+#define UNITYENGINE_GRADIENTALPHAKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x2D5A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GradientAlphaKey_TypeDefinitionIndex = 4205;
+	inline static constexpr unsigned int GradientAlphaKey_TypeDefinitionIndex = 4210;
 
 	struct alignas(4) GradientAlphaKey
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByPlayerHide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8400085729D29353_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1205D150)
-#define CLASS_3_8400085729D29353__CTOR_OFFSET UNITYSDK_OFFSET(0x1205D120)
+#define CLASS_3_8400085729D29353_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB77C960)
+#define CLASS_3_8400085729D29353__CTOR_OFFSET UNITYSDK_OFFSET(0xB77C930)
 
-inline static constexpr unsigned int Class_3_8400085729D29353_TypeDefinitionIndex = 49641;
+inline static constexpr unsigned int Class_3_8400085729D29353_TypeDefinitionIndex = 50695;
 
 class Class_3_8400085729D29353 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByPlayerHide*>
 {

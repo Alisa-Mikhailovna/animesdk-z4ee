@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW_METHOD_3_342111117C916ACE_OFFSET UNITYSDK_OFFSET(0x1A1EAFD0)
-#define RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW_METHOD_3_6F7D0F5DA1CDA221_OFFSET UNITYSDK_OFFSET(0x1A1EAF40)
-#define RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EAFA0)
+#define RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW_METHOD_3_342111117C916ACE_OFFSET UNITYSDK_OFFSET(0x1B88C1F0)
+#define RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW_METHOD_3_FE615732F364E1F7_OFFSET UNITYSDK_OFFSET(0x1B88C1A0)
+#define RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88C1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterVisibilityFollow_TypeDefinitionIndex = 21416;
+	inline static constexpr unsigned int SetCharacterVisibilityFollow_TypeDefinitionIndex = 21835;
 
 	class SetCharacterVisibilityFollow : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6F7D0F5DA1CDA221(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterVisibilityFollow*& a2)
+		static ::System::Void Method_3_FE615732F364E1F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterVisibilityFollow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterVisibilityFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW_METHOD_3_6F7D0F5DA1CDA221_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterVisibilityFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERVISIBILITYFOLLOW_METHOD_3_FE615732F364E1F7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_342111117C916ACE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterVisibilityFollow* a2)

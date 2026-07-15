@@ -6,21 +6,21 @@
 namespace RPG::GameCore { class SwordTrainingSkillTypeRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_SWORDTRAININGGAMESETTLESKILLDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x184B5F20)
-#define RPG_CLIENT_SWORDTRAININGGAMESETTLESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x184B5FD0)
-#define RPG_CLIENT_SWORDTRAININGGAMESETTLESKILLDATA__SETSKILLNUM_OFFSET UNITYSDK_OFFSET(0x184B5FE0)
+#define RPG_CLIENT_SWORDTRAININGGAMESETTLESKILLDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD5A1BF0)
+#define RPG_CLIENT_SWORDTRAININGGAMESETTLESKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD5A1CA0)
+#define RPG_CLIENT_SWORDTRAININGGAMESETTLESKILLDATA__SETSKILLNUM_OFFSET UNITYSDK_OFFSET(0xD5A1CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingGameSettleSkillData_TypeDefinitionIndex = 57944;
+	inline static constexpr unsigned int SwordTrainingGameSettleSkillData_TypeDefinitionIndex = 59210;
 
 	class SwordTrainingGameSettleSkillData : public ::System::Object
 	{
 	public:
 		::System::String* SkillTypePath; // 0x10
 		::RPG::Client::TextID SkillTypeName; // 0x18
-		::System::UInt32 SkillTypeID; // 0x28
-		::System::UInt32 SkillNum; // 0x2C
+		::System::UInt32 SkillNum; // 0x28
+		::System::UInt32 SkillTypeID; // 0x2C
 
 		::System::Void _ctor()
 		{

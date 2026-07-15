@@ -10,11 +10,11 @@ namespace System::Threading { class SendOrPostCallback; }
 namespace System::Threading { class SynchronizationContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_GETPOSTACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x18595420)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_POSTACTION_OFFSET UNITYSDK_OFFSET(0x185953A0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x185950B0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x185954E0)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18595060)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_GETPOSTACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A03D620)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_POSTACTION_OFFSET UNITYSDK_OFFSET(0x1A03D530)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1A03D310)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A03D6E0)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A03D2C0)
 
 namespace System::Threading::Tasks
 {
@@ -23,13 +23,13 @@ namespace System::Threading::Tasks
 	class SynchronizationContextAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation
 	{
 	public:
-		static ::System::Threading::ContextCallback** StaticGet_s_postActionCallback()
-		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation_TypeDefinitionIndex)->GetStaticField(0x12DC0);
-		}
 		static ::System::Threading::SendOrPostCallback** StaticGet_s_postCallback()
 		{
-			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation_TypeDefinitionIndex)->GetStaticField(0x12DC8);
+			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation_TypeDefinitionIndex)->GetStaticField(0x20A30);
+		}
+		static ::System::Threading::ContextCallback** StaticGet_s_postActionCallback()
+		{
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation_TypeDefinitionIndex)->GetStaticField(0x20A38);
 		}
 		::System::Threading::SynchronizationContext* m_syncContext; // 0x20
 

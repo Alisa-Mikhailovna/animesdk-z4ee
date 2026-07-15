@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLBEHAVIOR_PARTICLECONTROLCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x156B3160)
+#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLBEHAVIOR_PARTICLECONTROLCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC33A070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticleVelocityControlBehavior_ParticleControlContent_TypeDefinitionIndex = 65942;
+	inline static constexpr unsigned int Effect_ParticleVelocityControlBehavior_ParticleControlContent_TypeDefinitionIndex = 67367;
 
 	class Effect_ParticleVelocityControlBehavior_ParticleControlContent : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropSetupHitBox; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_521E85611E182D5E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A5D1C0)
-#define CLASS_3_521E85611E182D5E__CTOR_OFFSET UNITYSDK_OFFSET(0x16A5D190)
+#define CLASS_3_521E85611E182D5E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147A45E0)
+#define CLASS_3_521E85611E182D5E__CTOR_OFFSET UNITYSDK_OFFSET(0x147A45B0)
 
-inline static constexpr unsigned int Class_3_521E85611E182D5E_TypeDefinitionIndex = 54546;
+inline static constexpr unsigned int Class_3_521E85611E182D5E_TypeDefinitionIndex = 55770;
 
 class Class_3_521E85611E182D5E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetupHitBox*>
 {

@@ -6,25 +6,25 @@ namespace RPG::GameCore { class EmojiIconInfo; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CREATEEMOJIBUBBLEPARAM_CREATEEMOJIICONINFOS_OFFSET UNITYSDK_OFFSET(0x15F2BDB0)
-#define RPG_CLIENT_CREATEEMOJIBUBBLEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x15F2BDA0)
+#define RPG_CLIENT_CREATEEMOJIBUBBLEPARAM_CREATEEMOJIICONINFOS_OFFSET UNITYSDK_OFFSET(0xC1B9BB0)
+#define RPG_CLIENT_CREATEEMOJIBUBBLEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC1B9BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CreateEmojiBubbleParam_TypeDefinitionIndex = 58892;
+	inline static constexpr unsigned int CreateEmojiBubbleParam_TypeDefinitionIndex = 60163;
 
 	class CreateEmojiBubbleParam : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::EmojiIconInfo*>* EmojiIconInfos; // 0x10
-		::System::String* BubbleBGPath; // 0x18
-		::RPG::GameCore::GameEntity* Entity; // 0x20
-		::System::Single Duration; // 0x28
-		::System::UInt32 PositionIndex; // 0x2C
+		::RPG::GameCore::GameEntity* Entity; // 0x10
+		::Il2CppArray<::RPG::GameCore::EmojiIconInfo*>* EmojiIconInfos; // 0x18
+		::System::String* BubbleBGPath; // 0x20
+		::System::Single BubbleRoll; // 0x28
+		::System::Single Duration; // 0x2C
 		::System::Boolean IsVertical; // 0x30
-		::System::Boolean UseDummyPosition; // 0x31
-		::System::Boolean IsFromOnlineChat; // 0x32
-		::System::Single BubbleRoll; // 0x34
+		::System::Boolean IsFromOnlineChat; // 0x31
+		::System::Boolean UseDummyPosition; // 0x32
+		::System::UInt32 PositionIndex; // 0x34
 
 		::System::Void _ctor()
 		{

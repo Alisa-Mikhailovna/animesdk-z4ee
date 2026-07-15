@@ -4,22 +4,22 @@
 
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 
-#define CLASS_1_D70A30D666F20D90___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E43480)
-#define CLASS_1_D70A30D666F20D90___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13E434B0)
-#define CLASS_1_D70A30D666F20D90___C__ENABLEENVPROFILE_B__58_0_OFFSET UNITYSDK_OFFSET(0x13E434C0)
+#define CLASS_1_D70A30D666F20D90___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAEEF600)
+#define CLASS_1_D70A30D666F20D90___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAEEF630)
+#define CLASS_1_D70A30D666F20D90___C__ENABLEENVPROFILE_B__85_0_OFFSET UNITYSDK_OFFSET(0xAEEF640)
 
-inline static constexpr unsigned int Class_1_D70A30D666F20D90___c_TypeDefinitionIndex = 68944;
+inline static constexpr unsigned int Class_1_D70A30D666F20D90___c_TypeDefinitionIndex = 70384;
 
 class Class_1_D70A30D666F20D90___c : public ::System::Object
 {
 public:
 	static ::Class_1_D70A30D666F20D90___c** StaticGet___9()
 	{
-		return (::Class_1_D70A30D666F20D90___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D70A30D666F20D90___c_TypeDefinitionIndex)->GetStaticField(0x5C780);
+		return (::Class_1_D70A30D666F20D90___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D70A30D666F20D90___c_TypeDefinitionIndex)->GetStaticField(0x5D4D0);
 	}
-	static ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate** StaticGet___9__58_0()
+	static ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate** StaticGet___9__85_0()
 	{
-		return (::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D70A30D666F20D90___c_TypeDefinitionIndex)->GetStaticField(0x5C788);
+		return (::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_D70A30D666F20D90___c_TypeDefinitionIndex)->GetStaticField(0x5D4D8);
 	}
 
 	static ::System::Void _cctor()
@@ -32,8 +32,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D70A30D666F20D90___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _EnableEnvProfile_b__58_0(::System::Object* a1)
+	::System::Void _EnableEnvProfile_b__85_0(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_D70A30D666F20D90___C__ENABLEENVPROFILE_B__58_0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_D70A30D666F20D90___C__ENABLEENVPROFILE_B__85_0_OFFSET))(this, a1);
 	}
 };

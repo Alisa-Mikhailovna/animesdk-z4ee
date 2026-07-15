@@ -4,44 +4,44 @@
 #include "unitysdk/RPG/Client/StartUpReasonType.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_06E015556A5BEF64;
 class Class_1_0C1B8B2E4F85A50B;
 class Class_1_0CB6C61727512407;
-class Class_1_0DF72B5BC66F295C;
+class Class_1_0FE8866DA7E9C099;
+class Class_1_1C0124822CFB2AD3;
+class Class_1_1D3775522860A581;
 class Class_1_21F37629863F4674;
-class Class_1_247AEF57282D634D;
+class Class_1_293FF9D2EE901E33;
 class Class_1_31B28970A5870409;
 class Class_1_33B50469231C7D95;
+class Class_1_34E3B780DA1AE78E;
 class Class_1_40C8E2F7BA4DE994;
 class Class_1_46C4AD3834C1EA18;
+class Class_1_59F68D258F7479FC;
 class Class_1_6041ED8E42CCA413;
-class Class_1_68C8F3AFAA95F0CD;
 class Class_1_7034D7C52E05781E;
 class Class_1_7B4E9156998275BE;
 class Class_1_88DC60C54E5C3B07;
-class Class_1_8A42BF5C39EA2E4C;
-class Class_1_94498A9753F0DEAA;
+class Class_1_8E325EC9057215AB;
+class Class_1_94DB5F1FACA13068;
+class Class_1_A93E17BA538A6673;
+class Class_1_AB238635C71ABAA0;
 class Class_1_B93C65313845AAEB;
-class Class_1_BF3DE12C5A1505DF;
-class Class_1_C123D24D321AA621;
+class Class_1_C8FB696C4B9416C3;
 class Class_1_CB35F14FEF4E91E1;
-class Class_1_CC6282A3D1F32D49;
-class Class_1_D051025A3269812F;
 class Class_1_D2B8D50DD9833CFC;
-class Class_1_D5012BC296A9375A;
-class Class_1_D59854D46040C6B8;
-class Class_1_DB8D2359E085AA87;
+class Class_1_D949B99CBE5E8045;
 class Class_1_E3ED3259960F0549;
 class Class_1_E5AFA09D8E02FD08;
-class Class_1_EA7DB942B013E54C;
 class Class_1_F0D462198B262603;
 class Class_1_F11BD9383D17B528;
 class Class_1_F5228F8C22090BDC;
 class Class_1_F846C02FF2F1434D;
 class Class_1_FDDA284A31AE5159;
+class Class_2_04AC45AC06EB04C7;
 class Class_2_204B0797FD6E1A9C;
-class Class_2_3E17E61D9F6875C4;
-class Class_2_57F2B60109689D90;
-class Class_2_C91A3154842340B5;
+class Class_2_6821B2280D711A52;
+class Class_2_DE2B33861A1AE2C3;
 class Class_3_6E8B2FCA74824121;
 namespace InControl { class InControlInputModule; }
 namespace RPG::Client { class AssetMgr; }
@@ -56,6 +56,7 @@ namespace RPG::Client { class GamePhaseManager; }
 namespace RPG::Client { class GamePlayLockManager; }
 namespace RPG::Client { class GlobalConfigManager; }
 namespace RPG::Client { class GyroManager; }
+namespace RPG::Client { class IFixGlobalExtendMemberManager; }
 namespace RPG::Client { class InControlActionsManager; }
 namespace RPG::Client { class InputSettingKeyConflictManager; }
 namespace RPG::Client { class LoadingManager; }
@@ -89,483 +90,487 @@ namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GLOBALVARS_ASYNCINITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0x160229E0)
-#define RPG_CLIENT_GLOBALVARS_CHECKPACKAGEREINSTALL_OFFSET UNITYSDK_OFFSET(0x1601FCE0)
-#define RPG_CLIENT_GLOBALVARS_CLEARHIDEINTERACTIVEUIREASONS_OFFSET UNITYSDK_OFFSET(0x16025D80)
-#define RPG_CLIENT_GLOBALVARS_CLEAROLDINSTALLFILES_OFFSET UNITYSDK_OFFSET(0x16025F90)
-#define RPG_CLIENT_GLOBALVARS_GETINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x16026A90)
-#define RPG_CLIENT_GLOBALVARS_GETLASTPACKAGEVERSION_OFFSET UNITYSDK_OFFSET(0x160268B0)
-#define RPG_CLIENT_GLOBALVARS_GET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0x16026EC0)
-#define RPG_CLIENT_GLOBALVARS_GET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0x16026F80)
-#define RPG_CLIENT_GLOBALVARS_GET_S_FPSCOUNTER_OFFSET UNITYSDK_OFFSET(0x16026BC0)
-#define RPG_CLIENT_GLOBALVARS_GET_S_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0x16025D00)
-#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0x16026C10)
-#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEEDREAL_OFFSET UNITYSDK_OFFSET(0x16026E00)
-#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0x16026C80)
-#define RPG_CLIENT_GLOBALVARS_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0x16025A20)
-#define RPG_CLIENT_GLOBALVARS_INITBASEANDSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0x16022A70)
-#define RPG_CLIENT_GLOBALVARS_INITBASECONFIGSTEP_OFFSET UNITYSDK_OFFSET(0x1601F9D0)
-#define RPG_CLIENT_GLOBALVARS_INITCONFIGMANAGER_OFFSET UNITYSDK_OFFSET(0x160200A0)
-#define RPG_CLIENT_GLOBALVARS_INITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0x16022330)
-#define RPG_CLIENT_GLOBALVARS_INITMOTIONMANAGER_OFFSET UNITYSDK_OFFSET(0x16025940)
-#define RPG_CLIENT_GLOBALVARS_INITSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0x16020190)
-#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODCHECKRENDERERVISIBLE_OFFSET UNITYSDK_OFFSET(0x16025ED0)
-#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODOPEN_OFFSET UNITYSDK_OFFSET(0x16025E40)
-#define RPG_CLIENT_GLOBALVARS_REMOVETMPINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x160265E0)
-#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSIONTMP_OFFSET UNITYSDK_OFFSET(0x16026580)
-#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x16025F30)
-#define RPG_CLIENT_GLOBALVARS_SET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0x16026F00)
-#define RPG_CLIENT_GLOBALVARS_SET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0x16026FC0)
-#define RPG_CLIENT_GLOBALVARS_SET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0x16026C40)
-#define RPG_CLIENT_GLOBALVARS_SHADERWARMUP_OFFSET UNITYSDK_OFFSET(0x16022AE0)
-#define RPG_CLIENT_GLOBALVARS_TESTERMPTY_OFFSET UNITYSDK_OFFSET(0x1601F990)
-#define RPG_CLIENT_GLOBALVARS_UNINITGLOBALVARS_OFFSET UNITYSDK_OFFSET(0x16022D50)
-#define RPG_CLIENT_GLOBALVARS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1601F810)
-#define RPG_CLIENT_GLOBALVARS__INITDICONTAINER_OFFSET UNITYSDK_OFFSET(0x160221D0)
-#define RPG_CLIENT_GLOBALVARS__INITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x16021A80)
-#define RPG_CLIENT_GLOBALVARS__RELEASEGLOBALRESOURCES_OFFSET UNITYSDK_OFFSET(0x16022CA0)
-#define RPG_CLIENT_GLOBALVARS__SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0x16026130)
-#define RPG_CLIENT_GLOBALVARS__SHOULDCLEARPERISISTENTDIR_OFFSET UNITYSDK_OFFSET(0x16026660)
-#define RPG_CLIENT_GLOBALVARS__UNINITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x16025900)
+#define RPG_CLIENT_GLOBALVARS_ASYNCINITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0xC6932E0)
+#define RPG_CLIENT_GLOBALVARS_CHECKPACKAGEREINSTALL_OFFSET UNITYSDK_OFFSET(0xC6904E0)
+#define RPG_CLIENT_GLOBALVARS_CLEARHIDEINTERACTIVEUIREASONS_OFFSET UNITYSDK_OFFSET(0xC6967B0)
+#define RPG_CLIENT_GLOBALVARS_CLEAROLDINSTALLFILES_OFFSET UNITYSDK_OFFSET(0xC6969C0)
+#define RPG_CLIENT_GLOBALVARS_GETINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xC697520)
+#define RPG_CLIENT_GLOBALVARS_GETLASTPACKAGEVERSION_OFFSET UNITYSDK_OFFSET(0xC697340)
+#define RPG_CLIENT_GLOBALVARS_GET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0xC697950)
+#define RPG_CLIENT_GLOBALVARS_GET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0xC697A10)
+#define RPG_CLIENT_GLOBALVARS_GET_S_FPSCOUNTER_OFFSET UNITYSDK_OFFSET(0xC697650)
+#define RPG_CLIENT_GLOBALVARS_GET_S_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0xC696730)
+#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0xC6976A0)
+#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEEDREAL_OFFSET UNITYSDK_OFFSET(0xC697890)
+#define RPG_CLIENT_GLOBALVARS_GET_S_SIMULATIONSPEED_OFFSET UNITYSDK_OFFSET(0xC697710)
+#define RPG_CLIENT_GLOBALVARS_HIDEINTERACTIVEUI_OFFSET UNITYSDK_OFFSET(0xC696450)
+#define RPG_CLIENT_GLOBALVARS_INITBASEANDSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0xC693370)
+#define RPG_CLIENT_GLOBALVARS_INITBASECONFIGSTEP_OFFSET UNITYSDK_OFFSET(0xC6901D0)
+#define RPG_CLIENT_GLOBALVARS_INITCONFIGMANAGER_OFFSET UNITYSDK_OFFSET(0xC6908A0)
+#define RPG_CLIENT_GLOBALVARS_INITENTERGAMESTEP_OFFSET UNITYSDK_OFFSET(0xC692C30)
+#define RPG_CLIENT_GLOBALVARS_INITMOTIONMANAGER_OFFSET UNITYSDK_OFFSET(0xC696370)
+#define RPG_CLIENT_GLOBALVARS_INITSTARTUPSTEP_OFFSET UNITYSDK_OFFSET(0xC690990)
+#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODCHECKRENDERERVISIBLE_OFFSET UNITYSDK_OFFSET(0xC696900)
+#define RPG_CLIENT_GLOBALVARS_ISENTITYTICKLODOPEN_OFFSET UNITYSDK_OFFSET(0xC696870)
+#define RPG_CLIENT_GLOBALVARS_REMOVETMPINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xC697070)
+#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSIONTMP_OFFSET UNITYSDK_OFFSET(0xC697010)
+#define RPG_CLIENT_GLOBALVARS_SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xC696960)
+#define RPG_CLIENT_GLOBALVARS_SET_S_BASELINEMODE_OFFSET UNITYSDK_OFFSET(0xC697990)
+#define RPG_CLIENT_GLOBALVARS_SET_S_BATTLECLIENTONLYRANDOM_OFFSET UNITYSDK_OFFSET(0xC697A50)
+#define RPG_CLIENT_GLOBALVARS_SET_S_SIMULATIONCONTROLLER_OFFSET UNITYSDK_OFFSET(0xC6976D0)
+#define RPG_CLIENT_GLOBALVARS_SHADERWARMUP_OFFSET UNITYSDK_OFFSET(0xC6933E0)
+#define RPG_CLIENT_GLOBALVARS_TESTERMPTY_OFFSET UNITYSDK_OFFSET(0xC690190)
+#define RPG_CLIENT_GLOBALVARS_UNINITGLOBALVARS_OFFSET UNITYSDK_OFFSET(0xC693650)
+#define RPG_CLIENT_GLOBALVARS__CCTOR_OFFSET UNITYSDK_OFFSET(0xC690030)
+#define RPG_CLIENT_GLOBALVARS__INITDICONTAINER_OFFSET UNITYSDK_OFFSET(0xC692AD0)
+#define RPG_CLIENT_GLOBALVARS__INITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xC692380)
+#define RPG_CLIENT_GLOBALVARS__RELEASEGLOBALRESOURCES_OFFSET UNITYSDK_OFFSET(0xC6935A0)
+#define RPG_CLIENT_GLOBALVARS__SAVEINSTALLVERSION_OFFSET UNITYSDK_OFFSET(0xC696B60)
+#define RPG_CLIENT_GLOBALVARS__SHOULDCLEARPERISISTENTDIR_OFFSET UNITYSDK_OFFSET(0xC6970F0)
+#define RPG_CLIENT_GLOBALVARS__UNINITUNITYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xC696330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GlobalVars_TypeDefinitionIndex = 57297;
+	inline static constexpr unsigned int GlobalVars_TypeDefinitionIndex = 58555;
 
 	class GlobalVars : public ::System::Object
 	{
 	public:
-		static ::Class_1_46C4AD3834C1EA18** StaticGet_s_CloudSupporter()
-		{
-			return (::Class_1_46C4AD3834C1EA18**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14E0);
-		}
-		static ::Class_2_3E17E61D9F6875C4** StaticGet_DebugInfoWidgetContext()
-		{
-			return (::Class_2_3E17E61D9F6875C4**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14E8);
-		}
-		static ::Class_1_21F37629863F4674** StaticGet_s_VirtualServerManager()
-		{
-			return (::Class_1_21F37629863F4674**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14F0);
-		}
-		static ::RPG::Client::AudioManager** StaticGet_s_AudioManager()
-		{
-			return (::RPG::Client::AudioManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14F8);
-		}
-		static ::RPG::Client::TimeManager** StaticGet_s_TimeManager()
-		{
-			return (::RPG::Client::TimeManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1500);
-		}
-		static ::Class_1_0CB6C61727512407** StaticGet_s_RogueManager()
-		{
-			return (::Class_1_0CB6C61727512407**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1508);
-		}
-		static ::Class_2_57F2B60109689D90** StaticGet_BetaHintDialogContext()
-		{
-			return (::Class_2_57F2B60109689D90**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1510);
-		}
-		static ::Class_1_B93C65313845AAEB** StaticGet_s_CustomLateUpdateManager()
-		{
-			return (::Class_1_B93C65313845AAEB**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1518);
-		}
 		static ::UnityEngine::Camera** StaticGet_s_UICamera()
 		{
-			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1520);
+			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12A0);
 		}
-		static ::RPG::Client::ModuleManager** StaticGet_s_ModuleManager()
+		static ::Class_1_A93E17BA538A6673** StaticGet_s_TAMonoTickManager()
 		{
-			return (::RPG::Client::ModuleManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1528);
-		}
-		static ::Class_1_F0D462198B262603** StaticGet_s_RdrMatCacheMgr()
-		{
-			return (::Class_1_F0D462198B262603**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1530);
-		}
-		static ::Class_1_CB35F14FEF4E91E1** StaticGet_s_TimelineManager()
-		{
-			return (::Class_1_CB35F14FEF4E91E1**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1538);
-		}
-		static ::UnityEngine::Transform** StaticGet_s_UIRoot()
-		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1540);
-		}
-		static ::RPG::Client::CameraManager** StaticGet_s_CameraManager()
-		{
-			return (::RPG::Client::CameraManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1548);
-		}
-		static ::Class_1_247AEF57282D634D** StaticGet_s_MultiplayerManager()
-		{
-			return (::Class_1_247AEF57282D634D**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1550);
-		}
-		static ::UnityEngine::GameObject** StaticGet_s_MainGameObject()
-		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1558);
-		}
-		static ::UnityEngine::Canvas** StaticGet_s_Canvas3D()
-		{
-			return (::UnityEngine::Canvas**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1560);
-		}
-		static ::Class_1_88DC60C54E5C3B07** StaticGet_s_PhaseModeManager()
-		{
-			return (::Class_1_88DC60C54E5C3B07**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1568);
-		}
-		static ::RPG::GameCore::VersionData** StaticGet_s_VersionData()
-		{
-			return (::RPG::GameCore::VersionData**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1570);
-		}
-		static ::Class_1_68C8F3AFAA95F0CD** StaticGet_s_RuntimeAtlasManager()
-		{
-			return (::Class_1_68C8F3AFAA95F0CD**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1578);
-		}
-		static ::RPG::Client::DialogueManager** StaticGet_s_DialogueManager()
-		{
-			return (::RPG::Client::DialogueManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1580);
-		}
-		static ::UnityEngine::Transform** StaticGet_s_CharacterCache()
-		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1588);
-		}
-		static ::RPG::Client::LoadingManager** StaticGet_s_LoadingManager()
-		{
-			return (::RPG::Client::LoadingManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1590);
-		}
-		static ::RPG::Client::GyroManager** StaticGet_s_GyroManager()
-		{
-			return (::RPG::Client::GyroManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1598);
-		}
-		static ::Class_1_E5AFA09D8E02FD08** StaticGet_s_ShaderWarmupManager()
-		{
-			return (::Class_1_E5AFA09D8E02FD08**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15A0);
-		}
-		static ::UnityEngine::Camera** StaticGet_s_UI3DCamera()
-		{
-			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15A8);
+			return (::Class_1_A93E17BA538A6673**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12A8);
 		}
 		static ::RPG::Client::TimerManager** StaticGet_s_TimerManager()
 		{
-			return (::RPG::Client::TimerManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15B0);
+			return (::RPG::Client::TimerManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12B0);
 		}
-		static ::Class_1_F11BD9383D17B528** StaticGet_s_Tween()
+		static ::Class_1_D949B99CBE5E8045** StaticGet_s_IFixPatchManager()
 		{
-			return (::Class_1_F11BD9383D17B528**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15B8);
+			return (::Class_1_D949B99CBE5E8045**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12B8);
 		}
-		static ::RPG::Client::PlayGoManager** StaticGet_s_PlayGoManager()
+		static ::RPG::Client::GyroManager** StaticGet_s_GyroManager()
 		{
-			return (::RPG::Client::PlayGoManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15C0);
-		}
-		static ::Class_1_31B28970A5870409** StaticGet_s_AsyncProcessor()
-		{
-			return (::Class_1_31B28970A5870409**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15C8);
-		}
-		static ::Class_1_0C1B8B2E4F85A50B** StaticGet_s_LuaHotfixManager()
-		{
-			return (::Class_1_0C1B8B2E4F85A50B**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15D0);
-		}
-		static ::RPG::Client::SettingManager** StaticGet_s_SettingManager()
-		{
-			return (::RPG::Client::SettingManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15D8);
-		}
-		static ::RPG::Client::LuaSystem** StaticGet_s_LuaSystem()
-		{
-			return (::RPG::Client::LuaSystem**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15E0);
-		}
-		static ::Class_1_D59854D46040C6B8** StaticGet_s_DynamicOptimizeCenter()
-		{
-			return (::Class_1_D59854D46040C6B8**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15E8);
-		}
-		static ::RPG::Client::UIManager** StaticGet_s_UIManager()
-		{
-			return (::RPG::Client::UIManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15F0);
-		}
-		static ::Class_1_8A42BF5C39EA2E4C** StaticGet_s_ThreadSchedulerManager()
-		{
-			return (::Class_1_8A42BF5C39EA2E4C**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x15F8);
-		}
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>** StaticGet__HideInteractiveUIReasons()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1600);
-		}
-		static ::Class_1_D051025A3269812F** StaticGet_s_IFixPatchManager()
-		{
-			return (::Class_1_D051025A3269812F**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1608);
-		}
-		static ::Class_1_E3ED3259960F0549** StaticGet_s_ProfilerManager()
-		{
-			return (::Class_1_E3ED3259960F0549**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1610);
-		}
-		static ::RPG::Client::PSManager** StaticGet_s_PSManager()
-		{
-			return (::RPG::Client::PSManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1618);
-		}
-		static ::Class_1_DB8D2359E085AA87** StaticGet_s_VideoManager()
-		{
-			return (::Class_1_DB8D2359E085AA87**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1620);
-		}
-		static ::Class_1_D5012BC296A9375A** StaticGet_s_MaterialBlockEffectManager()
-		{
-			return (::Class_1_D5012BC296A9375A**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1628);
-		}
-		static ::RPG::Client::RenderOptionsManager** StaticGet_s_RenderOptionsManager()
-		{
-			return (::RPG::Client::RenderOptionsManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1630);
-		}
-		static ::UnityEngine::Camera** StaticGet_s_MainCamera()
-		{
-			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1638);
-		}
-		static ::RPG::Client::InputSettingKeyConflictManager** StaticGet_s_InputSettingKeyConflictManager()
-		{
-			return (::RPG::Client::InputSettingKeyConflictManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1640);
-		}
-		static ::RPG::Client::VietNam18DialogContext** StaticGet_VietNam18DialogContext()
-		{
-			return (::RPG::Client::VietNam18DialogContext**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1648);
-		}
-		static ::RPG::Client::RPGSDKAccountManager** StaticGet_s_AccountManager()
-		{
-			return (::RPG::Client::RPGSDKAccountManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1650);
-		}
-		static ::Class_1_94498A9753F0DEAA** StaticGet_s_EmotionLateUpdateManager()
-		{
-			return (::Class_1_94498A9753F0DEAA**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1658);
-		}
-		static ::Class_1_FDDA284A31AE5159** StaticGet_s_AttachPointManager()
-		{
-			return (::Class_1_FDDA284A31AE5159**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1660);
-		}
-		static ::RPG::Client::GlobalConfigManager** StaticGet_s_ConfigManager()
-		{
-			return (::RPG::Client::GlobalConfigManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1668);
-		}
-		static ::Class_1_F5228F8C22090BDC** StaticGet_s_FollowPointMappingManager()
-		{
-			return (::Class_1_F5228F8C22090BDC**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1670);
-		}
-		static ::Class_1_7034D7C52E05781E** StaticGet_s_EntityTickLodManager()
-		{
-			return (::Class_1_7034D7C52E05781E**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1678);
+			return (::RPG::Client::GyroManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12C0);
 		}
 		static ::RPG::Client::TextmapDownloadManager** StaticGet_s_TextDownloadManager()
 		{
-			return (::RPG::Client::TextmapDownloadManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1680);
-		}
-		static ::InControl::InControlInputModule** StaticGet_s_InControlInputModule()
-		{
-			return (::InControl::InControlInputModule**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1688);
-		}
-		static ::Class_1_CC6282A3D1F32D49** StaticGet_s_TAMonoTickManager()
-		{
-			return (::Class_1_CC6282A3D1F32D49**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1690);
-		}
-		static ::Class_3_6E8B2FCA74824121** StaticGet_s_GamePlayAssetLoader()
-		{
-			return (::Class_3_6E8B2FCA74824121**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1698);
-		}
-		static ::Class_1_BF3DE12C5A1505DF** StaticGet_s_MotionManager()
-		{
-			return (::Class_1_BF3DE12C5A1505DF**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16A0);
-		}
-		static ::UnityEngine::Transform** StaticGet_s_BillboardRoot()
-		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16A8);
-		}
-		static ::Class_1_6041ED8E42CCA413** StaticGet_s_CRPCameraManager()
-		{
-			return (::Class_1_6041ED8E42CCA413**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16B0);
+			return (::RPG::Client::TextmapDownloadManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12C8);
 		}
 		static ::RPG::Client::PreDownloadManager** StaticGet_s_PreDownloadManager()
 		{
-			return (::RPG::Client::PreDownloadManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16B8);
+			return (::RPG::Client::PreDownloadManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12D0);
 		}
-		static ::RPG::Client::LocalizationManager** StaticGet_s_LocalizationManager()
+		static ::Class_1_0C1B8B2E4F85A50B** StaticGet_s_LuaHotfixManager()
 		{
-			return (::RPG::Client::LocalizationManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16C0);
+			return (::Class_1_0C1B8B2E4F85A50B**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12D8);
 		}
-		static ::RPG::Client::EnvironmentSystem** StaticGet_s_EnvironmentSystem()
+		static ::Class_1_59F68D258F7479FC** StaticGet_s_VideoManager()
 		{
-			return (::RPG::Client::EnvironmentSystem**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16C8);
-		}
-		static ::Class_1_D2B8D50DD9833CFC** StaticGet_s_MainCameraOccluder()
-		{
-			return (::Class_1_D2B8D50DD9833CFC**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16D0);
-		}
-		static ::Class_2_204B0797FD6E1A9C** StaticGet_s_StackCameraManager()
-		{
-			return (::Class_2_204B0797FD6E1A9C**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16D8);
-		}
-		static ::RPG::Client::SimulateSpeedController** StaticGet__s_SimulationController_k__BackingField()
-		{
-			return (::RPG::Client::SimulateSpeedController**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16E0);
-		}
-		static ::Class_1_7B4E9156998275BE** StaticGet_s_DiContainer()
-		{
-			return (::Class_1_7B4E9156998275BE**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16E8);
-		}
-		static ::RPG::Client::GamePlayLockManager** StaticGet_s_GamePlayLockManager()
-		{
-			return (::RPG::Client::GamePlayLockManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16F0);
-		}
-		static ::RPG::Client::InControlActionsManager** StaticGet_s_InControlActionsManager()
-		{
-			return (::RPG::Client::InControlActionsManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x16F8);
-		}
-		static ::RPG::Client::AssetMgr** StaticGet_s_AssetMgr()
-		{
-			return (::RPG::Client::AssetMgr**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1700);
+			return (::Class_1_59F68D258F7479FC**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12E0);
 		}
 		static ::UnityEngine::GameObject** StaticGet_s_WwiseInitializerGameObject()
 		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1708);
+			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12E8);
 		}
-		static ::RPG::Client::EffectPluginManager** StaticGet_s_EffectPluginManager()
+		static ::Class_1_E3ED3259960F0549** StaticGet_s_ProfilerManager()
 		{
-			return (::RPG::Client::EffectPluginManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1710);
+			return (::Class_1_E3ED3259960F0549**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12F0);
 		}
-		static ::Class_2_C91A3154842340B5** StaticGet_LongPressHintDialogContext()
+		static ::RPG::Client::AudioManager** StaticGet_s_AudioManager()
 		{
-			return (::Class_2_C91A3154842340B5**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1718);
+			return (::RPG::Client::AudioManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x12F8);
 		}
-		static ::RPG::Client::ResolutionController** StaticGet_s_ResolutionController()
+		static ::Class_1_0CB6C61727512407** StaticGet_s_RogueManager()
 		{
-			return (::RPG::Client::ResolutionController**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1720);
-		}
-		static ::RPG::Client::PipelineCameraEngine** StaticGet_s_PipelineCamera()
-		{
-			return (::RPG::Client::PipelineCameraEngine**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1728);
-		}
-		static ::RPG::Client::MonoEffectManager** StaticGet_s_MonoEffectManager()
-		{
-			return (::RPG::Client::MonoEffectManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1730);
+			return (::Class_1_0CB6C61727512407**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1300);
 		}
 		static ::Class_1_F846C02FF2F1434D** StaticGet_s_MaterialGroupCbManager()
 		{
-			return (::Class_1_F846C02FF2F1434D**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1738);
-		}
-		static ::RPG::Client::GamePhaseManager** StaticGet_s_GamePhaseManager()
-		{
-			return (::RPG::Client::GamePhaseManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1740);
-		}
-		static ::UnityEngine::GameObject** StaticGet_s_EventSystemGameObject()
-		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1748);
-		}
-		static ::RPG::Client::ClientOnlyCommonConfig** StaticGet_s_ClientOnlyCommonConfig()
-		{
-			return (::RPG::Client::ClientOnlyCommonConfig**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1750);
-		}
-		static ::Class_1_40C8E2F7BA4DE994** StaticGet_s_ThirdPartSDKManager()
-		{
-			return (::Class_1_40C8E2F7BA4DE994**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1758);
-		}
-		static ::RPG::Client::GameFlowManager** StaticGet_s_GameFlowManager()
-		{
-			return (::RPG::Client::GameFlowManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1760);
-		}
-		static ::UnityEngine::GameObject** StaticGet_s_EasytouchGameObject()
-		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1768);
-		}
-		static ::UnityEngine::Transform** StaticGet_s_UI3DRoot()
-		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1770);
+			return (::Class_1_F846C02FF2F1434D**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1308);
 		}
 		static ::UnityEngine::Canvas** StaticGet_s_PageCanvas()
 		{
-			return (::UnityEngine::Canvas**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1778);
+			return (::UnityEngine::Canvas**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1310);
 		}
-		static ::Class_1_EA7DB942B013E54C** StaticGet_s_GoPoolMgr()
+		static ::Class_1_E5AFA09D8E02FD08** StaticGet_s_ShaderWarmupManager()
 		{
-			return (::Class_1_EA7DB942B013E54C**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1780);
+			return (::Class_1_E5AFA09D8E02FD08**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1318);
 		}
-		static ::Class_1_C123D24D321AA621** StaticGet_s_ShaderPropertyTransitionManager()
+		static ::RPG::Client::GameFlowManager** StaticGet_s_GameFlowManager()
 		{
-			return (::Class_1_C123D24D321AA621**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1788);
+			return (::RPG::Client::GameFlowManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1320);
 		}
-		static ::Class_1_0DF72B5BC66F295C** StaticGet_s_CharacterEffectManager()
+		static ::UnityEngine::Transform** StaticGet_s_BillboardRoot()
 		{
-			return (::Class_1_0DF72B5BC66F295C**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1790);
+			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1328);
+		}
+		static ::InControl::InControlInputModule** StaticGet_s_InControlInputModule()
+		{
+			return (::InControl::InControlInputModule**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1330);
+		}
+		static ::Class_1_293FF9D2EE901E33** StaticGet_s_GoPoolMgr()
+		{
+			return (::Class_1_293FF9D2EE901E33**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1338);
+		}
+		static ::UnityEngine::GameObject** StaticGet_s_EventSystemGameObject()
+		{
+			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1340);
+		}
+		static ::RPG::Client::RenderOptionsManager** StaticGet_s_RenderOptionsManager()
+		{
+			return (::RPG::Client::RenderOptionsManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1348);
+		}
+		static ::RPG::Client::SimulateSpeedController** StaticGet__s_SimulationController_k__BackingField()
+		{
+			return (::RPG::Client::SimulateSpeedController**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1350);
+		}
+		static ::RPG::Client::PSManager** StaticGet_s_PSManager()
+		{
+			return (::RPG::Client::PSManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1358);
+		}
+		static ::Class_1_40C8E2F7BA4DE994** StaticGet_s_ThirdPartSDKManager()
+		{
+			return (::Class_1_40C8E2F7BA4DE994**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1360);
+		}
+		static ::RPG::Client::ModuleManager** StaticGet_s_ModuleManager()
+		{
+			return (::RPG::Client::ModuleManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1368);
+		}
+		static ::RPG::Client::IFixGlobalExtendMemberManager** StaticGet_s_IFixGlobalExtendMemberManager()
+		{
+			return (::RPG::Client::IFixGlobalExtendMemberManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1370);
+		}
+		static ::RPG::Client::LoadingManager** StaticGet_s_LoadingManager()
+		{
+			return (::RPG::Client::LoadingManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1378);
+		}
+		static ::Class_1_B93C65313845AAEB** StaticGet_s_CustomLateUpdateManager()
+		{
+			return (::Class_1_B93C65313845AAEB**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1380);
+		}
+		static ::RPG::Client::EnvironmentSystem** StaticGet_s_EnvironmentSystem()
+		{
+			return (::RPG::Client::EnvironmentSystem**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1388);
+		}
+		static ::Class_1_7034D7C52E05781E** StaticGet_s_EntityTickLodManager()
+		{
+			return (::Class_1_7034D7C52E05781E**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1390);
 		}
 		static ::UnityEngine::Transform** StaticGet_s_UICache()
 		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1798);
+			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1398);
+		}
+		static ::RPG::Client::MonoEffectManager** StaticGet_s_MonoEffectManager()
+		{
+			return (::RPG::Client::MonoEffectManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13A0);
+		}
+		static ::RPG::Client::VietNam18DialogContext** StaticGet_VietNam18DialogContext()
+		{
+			return (::RPG::Client::VietNam18DialogContext**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13A8);
 		}
 		static ::Class_1_D2B8D50DD9833CFC** StaticGet_s_UI3DCameraOccluder()
 		{
-			return (::Class_1_D2B8D50DD9833CFC**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x17A0);
+			return (::Class_1_D2B8D50DD9833CFC**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13B0);
+		}
+		static ::RPG::Client::GamePlayLockManager** StaticGet_s_GamePlayLockManager()
+		{
+			return (::RPG::Client::GamePlayLockManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13B8);
+		}
+		static ::RPG::Client::PipelineCameraEngine** StaticGet_s_PipelineCamera()
+		{
+			return (::RPG::Client::PipelineCameraEngine**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13C0);
+		}
+		static ::UnityEngine::Camera** StaticGet_s_MainCamera()
+		{
+			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13C8);
+		}
+		static ::RPG::Client::RPGSDKAccountManager** StaticGet_s_AccountManager()
+		{
+			return (::RPG::Client::RPGSDKAccountManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13D0);
+		}
+		static ::RPG::Client::GlobalConfigManager** StaticGet_s_ConfigManager()
+		{
+			return (::RPG::Client::GlobalConfigManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13D8);
+		}
+		static ::Class_1_C8FB696C4B9416C3** StaticGet_s_EmotionLateUpdateManager()
+		{
+			return (::Class_1_C8FB696C4B9416C3**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13E0);
+		}
+		static ::RPG::Client::DialogueManager** StaticGet_s_DialogueManager()
+		{
+			return (::RPG::Client::DialogueManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13E8);
+		}
+		static ::UnityEngine::Camera** StaticGet_s_UI3DCamera()
+		{
+			return (::UnityEngine::Camera**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13F0);
+		}
+		static ::Class_1_6041ED8E42CCA413** StaticGet_s_CRPCameraManager()
+		{
+			return (::Class_1_6041ED8E42CCA413**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x13F8);
+		}
+		static ::Class_2_6821B2280D711A52** StaticGet_DebugInfoWidgetContext()
+		{
+			return (::Class_2_6821B2280D711A52**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1400);
+		}
+		static ::Class_2_DE2B33861A1AE2C3** StaticGet_LongPressHintDialogContext()
+		{
+			return (::Class_2_DE2B33861A1AE2C3**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1408);
+		}
+		static ::Class_1_F5228F8C22090BDC** StaticGet_s_FollowPointMappingManager()
+		{
+			return (::Class_1_F5228F8C22090BDC**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1410);
+		}
+		static ::Class_1_31B28970A5870409** StaticGet_s_AsyncProcessor()
+		{
+			return (::Class_1_31B28970A5870409**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1418);
 		}
 		static ::RPG::Client::NetworkManager** StaticGet_s_NetworkManager()
 		{
-			return (::RPG::Client::NetworkManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x17A8);
+			return (::RPG::Client::NetworkManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1420);
 		}
-		static ::System::Int32* StaticGet__DebugRandomCounter()
+		static ::Class_1_1D3775522860A581** StaticGet_s_CharacterEffectManager()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9E0);
+			return (::Class_1_1D3775522860A581**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1428);
 		}
-		static ::System::Int32* StaticGet_s_CustomUpdatePreloadTimeMs()
+		static ::Class_1_46C4AD3834C1EA18** StaticGet_s_CloudSupporter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9E4);
+			return (::Class_1_46C4AD3834C1EA18**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1430);
 		}
-		static ::System::Boolean* StaticGet_s_ReinstallPackage()
+		static ::UnityEngine::Transform** StaticGet_s_CharacterCache()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9E8);
+			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1438);
 		}
-		static ::System::Boolean* StaticGet_s_OpenEntityTickBalance()
+		static ::UnityEngine::GameObject** StaticGet_s_MainGameObject()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9E9);
+			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1440);
 		}
-		static ::System::Boolean* StaticGet_s_UseMapRotation()
+		static ::Class_1_F0D462198B262603** StaticGet_s_RdrMatCacheMgr()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9EA);
+			return (::Class_1_F0D462198B262603**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1448);
 		}
-		static ::System::Boolean* StaticGet__BaselineMode()
+		static ::Class_1_AB238635C71ABAA0** StaticGet_s_ShaderPropertyTransitionManager()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9EB);
+			return (::Class_1_AB238635C71ABAA0**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1450);
 		}
-		static ::System::Int32* StaticGet_s_LogicFrameRate()
+		static ::RPG::Client::SettingManager** StaticGet_s_SettingManager()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9EC);
+			return (::RPG::Client::SettingManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1458);
 		}
-		static ::System::Single* StaticGet_s_LogicFrameInterval()
+		static ::UnityEngine::Canvas** StaticGet_s_Canvas3D()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9F0);
+			return (::UnityEngine::Canvas**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1460);
 		}
-		static ::System::Boolean* StaticGet_s_OpenEntityTickLodByGM()
+		static ::Class_1_94DB5F1FACA13068** StaticGet_s_DynamicOptimizeCenter()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9F4);
+			return (::Class_1_94DB5F1FACA13068**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1468);
 		}
-		static ::System::Boolean* StaticGet_s_UseLogicFrame()
+		static ::RPG::GameCore::VersionData** StaticGet_s_VersionData()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9F5);
+			return (::RPG::GameCore::VersionData**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1470);
 		}
-		static ::System::Boolean* StaticGet_s_OpenEntityTickLodCheckRendererVisible()
+		static ::RPG::Client::GamePhaseManager** StaticGet_s_GamePhaseManager()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9F6);
+			return (::RPG::Client::GamePhaseManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1478);
 		}
-		static ::RPG::Client::StartUpReasonType* StaticGet_StartUpReasonType()
+		static ::RPG::Client::EffectPluginManager** StaticGet_s_EffectPluginManager()
 		{
-			return (::RPG::Client::StartUpReasonType*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9F8);
+			return (::RPG::Client::EffectPluginManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1480);
 		}
-		static ::System::Single* StaticGet_s_FirstUIDisplayedTimestamp()
+		static ::Class_1_FDDA284A31AE5159** StaticGet_s_AttachPointManager()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9FC);
+			return (::Class_1_FDDA284A31AE5159**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1488);
+		}
+		static ::Class_1_06E015556A5BEF64** StaticGet_s_MultiplayerManager()
+		{
+			return (::Class_1_06E015556A5BEF64**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1490);
+		}
+		static ::Class_1_88DC60C54E5C3B07** StaticGet_s_PhaseModeManager()
+		{
+			return (::Class_1_88DC60C54E5C3B07**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1498);
+		}
+		static ::Class_1_0FE8866DA7E9C099** StaticGet_s_RuntimeAtlasManager()
+		{
+			return (::Class_1_0FE8866DA7E9C099**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14A0);
+		}
+		static ::Class_1_D2B8D50DD9833CFC** StaticGet_s_MainCameraOccluder()
+		{
+			return (::Class_1_D2B8D50DD9833CFC**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14A8);
+		}
+		static ::RPG::Client::AssetMgr** StaticGet_s_AssetMgr()
+		{
+			return (::RPG::Client::AssetMgr**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14B0);
+		}
+		static ::Class_2_04AC45AC06EB04C7** StaticGet_BetaHintDialogContext()
+		{
+			return (::Class_2_04AC45AC06EB04C7**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14B8);
+		}
+		static ::Class_1_8E325EC9057215AB** StaticGet_s_ThreadSchedulerManager()
+		{
+			return (::Class_1_8E325EC9057215AB**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14C0);
+		}
+		static ::Class_1_21F37629863F4674** StaticGet_s_VirtualServerManager()
+		{
+			return (::Class_1_21F37629863F4674**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14C8);
+		}
+		static ::RPG::Client::LocalizationManager** StaticGet_s_LocalizationManager()
+		{
+			return (::RPG::Client::LocalizationManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14D0);
+		}
+		static ::RPG::Client::ResolutionController** StaticGet_s_ResolutionController()
+		{
+			return (::RPG::Client::ResolutionController**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14D8);
+		}
+		static ::Class_3_6E8B2FCA74824121** StaticGet_s_GamePlayAssetLoader()
+		{
+			return (::Class_3_6E8B2FCA74824121**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14E0);
+		}
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>** StaticGet__HideInteractiveUIReasons()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::HideInteractiveUIReason>**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14E8);
+		}
+		static ::RPG::Client::CameraManager** StaticGet_s_CameraManager()
+		{
+			return (::RPG::Client::CameraManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14F0);
+		}
+		static ::UnityEngine::GameObject** StaticGet_s_EasytouchGameObject()
+		{
+			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x14F8);
+		}
+		static ::RPG::Client::InControlActionsManager** StaticGet_s_InControlActionsManager()
+		{
+			return (::RPG::Client::InControlActionsManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1500);
+		}
+		static ::Class_1_CB35F14FEF4E91E1** StaticGet_s_TimelineManager()
+		{
+			return (::Class_1_CB35F14FEF4E91E1**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1508);
+		}
+		static ::UnityEngine::Transform** StaticGet_s_UI3DRoot()
+		{
+			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1510);
+		}
+		static ::Class_1_7B4E9156998275BE** StaticGet_s_DiContainer()
+		{
+			return (::Class_1_7B4E9156998275BE**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1518);
+		}
+		static ::Class_1_1C0124822CFB2AD3** StaticGet_s_MotionManager()
+		{
+			return (::Class_1_1C0124822CFB2AD3**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1520);
+		}
+		static ::Class_2_204B0797FD6E1A9C** StaticGet_s_StackCameraManager()
+		{
+			return (::Class_2_204B0797FD6E1A9C**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1528);
+		}
+		static ::RPG::Client::PlayGoManager** StaticGet_s_PlayGoManager()
+		{
+			return (::RPG::Client::PlayGoManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1530);
+		}
+		static ::Class_1_34E3B780DA1AE78E** StaticGet_s_MaterialBlockEffectManager()
+		{
+			return (::Class_1_34E3B780DA1AE78E**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1538);
+		}
+		static ::RPG::Client::UIManager** StaticGet_s_UIManager()
+		{
+			return (::RPG::Client::UIManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1540);
+		}
+		static ::RPG::Client::TimeManager** StaticGet_s_TimeManager()
+		{
+			return (::RPG::Client::TimeManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1548);
+		}
+		static ::RPG::Client::LuaSystem** StaticGet_s_LuaSystem()
+		{
+			return (::RPG::Client::LuaSystem**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1550);
+		}
+		static ::RPG::Client::ClientOnlyCommonConfig** StaticGet_s_ClientOnlyCommonConfig()
+		{
+			return (::RPG::Client::ClientOnlyCommonConfig**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1558);
+		}
+		static ::Class_1_F11BD9383D17B528** StaticGet_s_Tween()
+		{
+			return (::Class_1_F11BD9383D17B528**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1560);
+		}
+		static ::UnityEngine::Transform** StaticGet_s_UIRoot()
+		{
+			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1568);
+		}
+		static ::RPG::Client::InputSettingKeyConflictManager** StaticGet_s_InputSettingKeyConflictManager()
+		{
+			return (::RPG::Client::InputSettingKeyConflictManager**)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x1570);
 		}
 		static ::System::Single* StaticGet_s_LogoUIDisplayedTimestamp()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0xA00);
-		}
-		static ::System::Boolean* StaticGet__s_BattleClientOnlyRandom_k__BackingField()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0xA04);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9B0);
 		}
 		static ::System::Boolean* StaticGet_s_OpenEntityTickLod()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0xA05);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9B4);
 		}
-		static ::System::Boolean* StaticGet_s_ShowLevelSelectUI()
+		static ::System::Boolean* StaticGet_s_OpenEntityTickLodByGM()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0xA06);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9B5);
+		}
+		static ::System::Boolean* StaticGet__s_BattleClientOnlyRandom_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9B6);
+		}
+		static ::System::Boolean* StaticGet__BaselineMode()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9B7);
+		}
+		static ::System::Int32* StaticGet__DebugRandomCounter()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9B8);
+		}
+		static ::System::Boolean* StaticGet_s_OpenEntityTickLodCheckRendererVisible()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9BC);
+		}
+		static ::System::Boolean* StaticGet_s_OpenEntityTickBalance()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9BD);
 		}
 		static ::System::Boolean* StaticGet_s_Inited()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0xA07);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9BE);
+		}
+		static ::System::Boolean* StaticGet_s_ShowLevelSelectUI()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9BF);
+		}
+		static ::System::Boolean* StaticGet_s_UseMapRotation()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9C0);
+		}
+		static ::System::Boolean* StaticGet_s_ReinstallPackage()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9C1);
+		}
+		static ::System::Boolean* StaticGet_s_UseLogicFrame()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9C2);
+		}
+		static ::System::Single* StaticGet_s_LogicFrameInterval()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9C4);
+		}
+		static ::System::Single* StaticGet_s_FirstUIDisplayedTimestamp()
+		{
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9C8);
+		}
+		static ::System::Int32* StaticGet_s_LogicFrameRate()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9CC);
+		}
+		static ::RPG::Client::StartUpReasonType* StaticGet_StartUpReasonType()
+		{
+			return (::RPG::Client::StartUpReasonType*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9D0);
+		}
+		static ::System::Int32* StaticGet_s_CustomUpdatePreloadTimeMs()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GlobalVars_TypeDefinitionIndex)->GetStaticField(0x9D4);
 		}
 		// static const ::System::String* installVersionFileName; // 0x0
 		// static const ::System::String* installVersionTmpFileName; // 0x0

@@ -4,26 +4,26 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CFA8B0)
-#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF9F90)
+#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF9890)
+#define SYSTEM_NET_NETWORKINFORMATION_MIBIPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF8EB0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MibIPGlobalProperties_TypeDefinitionIndex = 2930;
+	inline static constexpr unsigned int MibIPGlobalProperties_TypeDefinitionIndex = 2934;
 
 	class MibIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_wsChars()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MibIPGlobalProperties_TypeDefinitionIndex)->GetStaticField(0x25A50);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(MibIPGlobalProperties_TypeDefinitionIndex)->GetStaticField(0x2D480);
 		}
-		::System::String* UdpFile; // 0x10
-		::System::String* StatisticsFile; // 0x18
-		::System::String* Tcp6File; // 0x20
-		::System::String* StatisticsFileIPv6; // 0x28
-		::System::String* Udp6File; // 0x30
-		::System::String* TcpFile; // 0x38
+		::System::String* Tcp6File; // 0x10
+		::System::String* StatisticsFileIPv6; // 0x18
+		::System::String* UdpFile; // 0x20
+		::System::String* Udp6File; // 0x28
+		::System::String* TcpFile; // 0x30
+		::System::String* StatisticsFile; // 0x38
 
 		::System::Void _ctor(::System::String* a1)
 		{

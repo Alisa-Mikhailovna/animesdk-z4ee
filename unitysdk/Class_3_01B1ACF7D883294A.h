@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvPlayerEnableIdleShow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_01B1ACF7D883294A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162E9820)
-#define CLASS_3_01B1ACF7D883294A__CTOR_OFFSET UNITYSDK_OFFSET(0x162E97F0)
+#define CLASS_3_01B1ACF7D883294A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x143DD950)
+#define CLASS_3_01B1ACF7D883294A__CTOR_OFFSET UNITYSDK_OFFSET(0x143DD920)
 
-inline static constexpr unsigned int Class_3_01B1ACF7D883294A_TypeDefinitionIndex = 49067;
+inline static constexpr unsigned int Class_3_01B1ACF7D883294A_TypeDefinitionIndex = 50080;
 
 class Class_3_01B1ACF7D883294A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvPlayerEnableIdleShow*>
 {

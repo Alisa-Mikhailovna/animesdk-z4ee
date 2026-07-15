@@ -7,34 +7,34 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_A88C3AAF0DD46F4C;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A089A20)
-#define RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08A690)
+#define RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3ABA60)
+#define RPG_GAMECORE_DICECOMBATCAMPAIGNCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3AC6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatCampaignConfigRow_TypeDefinitionIndex = 10838;
+	inline static constexpr unsigned int DiceCombatCampaignConfigRow_TypeDefinitionIndex = 10888;
 
 	class DiceCombatCampaignConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>* RuleGroupMapList; // 0x10
-		::Il2CppArray<::System::UInt32>* DisplayProgress; // 0x18
-		::System::String* ProgressIMGPath; // 0x20
-		::System::String* IMGPath; // 0x28
-		::System::String* MainPageIMGPath; // 0x30
-		::System::String* MainPageSilhouettePath; // 0x38
-		::System::UInt32 SubMissonID; // 0x40
-		::RPG::Client::TextID LoseBattle; // 0x48
-		::RPG::Client::TextID EnterProgress; // 0x58
-		::RPG::Client::TextID Name; // 0x68
-		::System::UInt32 GroupEntityID; // 0x78
-		::System::Boolean MustLose; // 0x7C
-		::System::Boolean ExitMainPage; // 0x7D
-		::RPG::Client::TextID ProgressTitle; // 0x80
-		::RPG::Client::TextID WinBattle; // 0x90
-		::RPG::Client::TextID ExitProgress; // 0xA0
-		::System::UInt32 DiceCampaignID; // 0xB0
-		::System::UInt32 Progress; // 0xB4
+		::System::String* ProgressIMGPath; // 0x10
+		::System::String* MainPageIMGPath; // 0x18
+		::System::String* MainPageSilhouettePath; // 0x20
+		::Il2CppArray<::System::UInt32>* DisplayProgress; // 0x28
+		::System::String* IMGPath; // 0x30
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C*>* RuleGroupMapList; // 0x38
+		::RPG::Client::TextID WinBattle; // 0x40
+		::RPG::Client::TextID LoseBattle; // 0x50
+		::RPG::Client::TextID Name; // 0x60
+		::System::Boolean MustLose; // 0x70
+		::System::Boolean ExitMainPage; // 0x71
+		::RPG::Client::TextID EnterProgress; // 0x78
+		::RPG::Client::TextID ExitProgress; // 0x88
+		::System::UInt32 SubMissonID; // 0x98
+		::System::UInt32 DiceCampaignID; // 0x9C
+		::System::UInt32 Progress; // 0xA0
+		::System::UInt32 GroupEntityID; // 0xA4
+		::RPG::Client::TextID ProgressTitle; // 0xA8
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaskSlider_FlashLoopAnimName_TypeDefinitionIndex = 67821;
+	inline static constexpr unsigned int MonoMaskSlider_FlashLoopAnimName_TypeDefinitionIndex = 69305;
 
 	enum class MonoMaskSlider_FlashLoopAnimName : ::System::Int32
 	{

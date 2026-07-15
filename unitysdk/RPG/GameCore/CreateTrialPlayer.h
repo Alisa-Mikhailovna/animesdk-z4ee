@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CREATETRIALPLAYER_METHOD_3_37157B4A27469102_OFFSET UNITYSDK_OFFSET(0x19B224D0)
-#define RPG_GAMECORE_CREATETRIALPLAYER_METHOD_3_935B4D0CD84E5342_OFFSET UNITYSDK_OFFSET(0x19B22440)
-#define RPG_GAMECORE_CREATETRIALPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B224A0)
+#define RPG_GAMECORE_CREATETRIALPLAYER_METHOD_3_37157B4A27469102_OFFSET UNITYSDK_OFFSET(0x1B38E0D0)
+#define RPG_GAMECORE_CREATETRIALPLAYER_METHOD_3_B516C93BFE0395E6_OFFSET UNITYSDK_OFFSET(0x1B38E080)
+#define RPG_GAMECORE_CREATETRIALPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38E0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateTrialPlayer_TypeDefinitionIndex = 20386;
+	inline static constexpr unsigned int CreateTrialPlayer_TypeDefinitionIndex = 20801;
 
 	class CreateTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATETRIALPLAYER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_935B4D0CD84E5342(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateTrialPlayer*& a2)
+		static ::System::Void Method_3_B516C93BFE0395E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateTrialPlayer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateTrialPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATETRIALPLAYER_METHOD_3_935B4D0CD84E5342_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateTrialPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATETRIALPLAYER_METHOD_3_B516C93BFE0395E6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_37157B4A27469102(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateTrialPlayer* a2)

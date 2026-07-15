@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_97E659ED8D5D259C_20.h"
+#include "unitysdk/Class_1_97E659ED8D5D259C_21.h"
 
-#define CLASS_2_A78FC80A78B3367C_GET_TOTALROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0x13571910)
-#define CLASS_2_A78FC80A78B3367C__CTOR_OFFSET UNITYSDK_OFFSET(0x13571920)
+#define CLASS_2_A78FC80A78B3367C_GET_TOTALROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0xC4EA200)
+#define CLASS_2_A78FC80A78B3367C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4EA210)
 
-inline static constexpr unsigned int Class_2_A78FC80A78B3367C_TypeDefinitionIndex = 74103;
+inline static constexpr unsigned int Class_2_A78FC80A78B3367C_TypeDefinitionIndex = 76487;
 
-class Class_2_A78FC80A78B3367C : public ::Class_1_97E659ED8D5D259C_20
+class Class_2_A78FC80A78B3367C : public ::Class_1_97E659ED8D5D259C_21
 {
 public:
 	::System::Int32 _TotalRoundCount_k__BackingField; // 0x18

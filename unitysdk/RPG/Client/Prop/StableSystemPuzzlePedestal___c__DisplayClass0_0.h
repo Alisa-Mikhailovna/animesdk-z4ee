@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Prop { class StableSystemPuzzlePillarAndPedestal; }
 
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12C8A3A0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL___C__DISPLAYCLASS0_0__INITPEDESTAL_B__0_OFFSET UNITYSDK_OFFSET(0x12C8A740)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD22EAE0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL___C__DISPLAYCLASS0_0__INITPEDESTAL_B__0_OFFSET UNITYSDK_OFFSET(0xD22EEA0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzlePedestal___c__DisplayClass0_0_TypeDefinitionIndex = 73395;
+	inline static constexpr unsigned int StableSystemPuzzlePedestal___c__DisplayClass0_0_TypeDefinitionIndex = 74920;
 
 	class StableSystemPuzzlePedestal___c__DisplayClass0_0 : public ::System::Object
 	{

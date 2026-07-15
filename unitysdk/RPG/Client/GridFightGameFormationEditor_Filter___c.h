@@ -9,49 +9,49 @@ namespace RPG::Client { class GridFightRole; }
 namespace RPG::GameCore { class GridFightTraitBaseConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D34770)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18D347B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__INITEQUIPS_B__25_0_OFFSET UNITYSDK_OFFSET(0x18D348B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__INITROLES_B__24_0_OFFSET UNITYSDK_OFFSET(0x18D34840)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_1_OFFSET UNITYSDK_OFFSET(0x18D347C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_2_OFFSET UNITYSDK_OFFSET(0x18D347E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_4_OFFSET UNITYSDK_OFFSET(0x18D34800)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_5_OFFSET UNITYSDK_OFFSET(0x18D34820)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC72D450)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC72D490)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__INITEQUIPS_B__25_0_OFFSET UNITYSDK_OFFSET(0xC72D590)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C__INITROLES_B__24_0_OFFSET UNITYSDK_OFFSET(0xC72D520)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_1_OFFSET UNITYSDK_OFFSET(0xC72D4A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_2_OFFSET UNITYSDK_OFFSET(0xC72D4C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_4_OFFSET UNITYSDK_OFFSET(0xC72D4E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___C___CTOR_B__16_5_OFFSET UNITYSDK_OFFSET(0xC72D500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex = 60436;
+	inline static constexpr unsigned int GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex = 61727;
 
 	class GridFightGameFormationEditor_Filter___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightGameFormationEditor_Filter___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightGameFormationEditor_Filter___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x2C8F0);
-		}
-		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>** StaticGet___9__16_2()
-		{
-			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x2C8F8);
-		}
-		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>** StaticGet___9__16_5()
-		{
-			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x2C900);
-		}
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemConfig*, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>** StaticGet___9__25_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemConfig*, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x2C908);
-		}
 		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::Boolean>** StaticGet___9__16_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x2C910);
-		}
-		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::Boolean>** StaticGet___9__16_4()
-		{
-			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x2C918);
+			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x26A20);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>** StaticGet___9__24_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x2C920);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x26A28);
+		}
+		static ::RPG::Client::GridFightGameFormationEditor_Filter___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightGameFormationEditor_Filter___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x26A30);
+		}
+		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::Boolean>** StaticGet___9__16_4()
+		{
+			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x26A38);
+		}
+		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>** StaticGet___9__16_2()
+		{
+			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x26A40);
+		}
+		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>** StaticGet___9__16_5()
+		{
+			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x26A48);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightEquipItemConfig*, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>** StaticGet___9__25_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemConfig*, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameFormationEditor_Filter___c_TypeDefinitionIndex)->GetStaticField(0x26A50);
 		}
 
 		static ::System::Void _cctor()

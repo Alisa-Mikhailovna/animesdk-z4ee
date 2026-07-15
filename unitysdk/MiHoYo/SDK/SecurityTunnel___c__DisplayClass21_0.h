@@ -6,13 +6,13 @@
 namespace MiHoYo::SDK { class SecurityTunnel; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA0630)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS21_0__RETRYCONNECT_B__0_OFFSET UNITYSDK_OFFSET(0x18CAE7E0)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS21_0__RETRYCONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x18CAEE60)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB5A4E0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS21_0__RETRYCONNECT_B__0_OFFSET UNITYSDK_OFFSET(0xAB69440)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS21_0__RETRYCONNECT_B__1_OFFSET UNITYSDK_OFFSET(0xAB69B20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass21_0_TypeDefinitionIndex = 43828;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass21_0_TypeDefinitionIndex = 44690;
 
 	class SecurityTunnel___c__DisplayClass21_0 : public ::System::Object
 	{

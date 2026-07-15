@@ -6,13 +6,13 @@ namespace System::Runtime::Remoting::Activation { class IActivator; }
 namespace System::Runtime::Remoting::Activation { class IConstructionCallMessage; }
 namespace System::Runtime::Remoting::Activation { class IConstructionReturnMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_CONTEXTLEVELACTIVATOR_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x197109E0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_CONTEXTLEVELACTIVATOR_GET_NEXTACTIVATOR_OFFSET UNITYSDK_OFFSET(0x197109D0)
-#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_CONTEXTLEVELACTIVATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1970FD50)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_CONTEXTLEVELACTIVATOR_ACTIVATE_OFFSET UNITYSDK_OFFSET(0x1A1BA360)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_CONTEXTLEVELACTIVATOR_GET_NEXTACTIVATOR_OFFSET UNITYSDK_OFFSET(0x1A1BA350)
+#define SYSTEM_RUNTIME_REMOTING_ACTIVATION_CONTEXTLEVELACTIVATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B94E0)
 
 namespace System::Runtime::Remoting::Activation
 {
-	inline static constexpr unsigned int ContextLevelActivator_TypeDefinitionIndex = 1271;
+	inline static constexpr unsigned int ContextLevelActivator_TypeDefinitionIndex = 1273;
 
 	class ContextLevelActivator : public ::System::Object
 	{

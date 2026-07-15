@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CharacterHeadResetLookAtSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7C4EF2B2499F3128_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15371C70)
-#define CLASS_3_7C4EF2B2499F3128__CTOR_OFFSET UNITYSDK_OFFSET(0x15371C40)
+#define CLASS_3_7C4EF2B2499F3128_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB73AC70)
+#define CLASS_3_7C4EF2B2499F3128__CTOR_OFFSET UNITYSDK_OFFSET(0xB73AC40)
 
-inline static constexpr unsigned int Class_3_7C4EF2B2499F3128_TypeDefinitionIndex = 54202;
+inline static constexpr unsigned int Class_3_7C4EF2B2499F3128_TypeDefinitionIndex = 55425;
 
 class Class_3_7C4EF2B2499F3128 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CharacterHeadResetLookAtSpeed*>
 {

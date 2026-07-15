@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 
-#define CLASS_1_12A80CADF6AA54FC_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x14FE1AF0)
+#define CLASS_1_12A80CADF6AA54FC_1__CCTOR_OFFSET UNITYSDK_OFFSET(0x15583520)
 
-inline static constexpr unsigned int Class_1_12A80CADF6AA54FC_1_TypeDefinitionIndex = 53776;
+inline static constexpr unsigned int Class_1_12A80CADF6AA54FC_1_TypeDefinitionIndex = 54996;
 
 class Class_1_12A80CADF6AA54FC_1 : public ::System::Object
 {
 public:
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_12A80CADF6AA54FC_1_TypeDefinitionIndex)->GetStaticField(0x44600);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_12A80CADF6AA54FC_1_TypeDefinitionIndex)->GetStaticField(0x3C350);
 	}
 	static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_Field_1_1()
 	{
-		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_12A80CADF6AA54FC_1_TypeDefinitionIndex)->GetStaticField(0x44610);
+		return (::UnityEngine::ConsoleVariableBoolProperty*)Il2CppClass::FromTypeDefinitionIndex(Class_1_12A80CADF6AA54FC_1_TypeDefinitionIndex)->GetStaticField(0x3C360);
 	}
 
 	static ::System::Void _cctor()

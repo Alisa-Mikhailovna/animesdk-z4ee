@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_FD893FD36F6A3A6D.h"
+#include "unitysdk/Class_1_FD893FD36F6A3A6D_2.h"
 #include "unitysdk/RPG/Client/LittleGame/MovieAchievementType.h"
 
 class Class_1_D33B7D6901AE39E9;
 namespace RPG::Client { class AchievementData; }
 namespace RPG::GameCore { class MovieGameConstConfig; }
 
-#define CLASS_2_2A411AB6D777A56A_METHOD_2_F8EC267083B75509_OFFSET UNITYSDK_OFFSET(0x153926B0)
-#define CLASS_2_2A411AB6D777A56A__CTOR_OFFSET UNITYSDK_OFFSET(0x15392530)
+#define CLASS_2_2A411AB6D777A56A_METHOD_2_F8EC267083B75509_OFFSET UNITYSDK_OFFSET(0x1477FB60)
+#define CLASS_2_2A411AB6D777A56A__CTOR_OFFSET UNITYSDK_OFFSET(0x1477F9E0)
 
-inline static constexpr unsigned int Class_2_2A411AB6D777A56A_TypeDefinitionIndex = 71175;
+inline static constexpr unsigned int Class_2_2A411AB6D777A56A_TypeDefinitionIndex = 72688;
 
-class Class_2_2A411AB6D777A56A : public ::Class_1_FD893FD36F6A3A6D
+class Class_2_2A411AB6D777A56A : public ::Class_1_FD893FD36F6A3A6D_2
 {
 public:
-	::RPG::GameCore::MovieGameConstConfig* Field_2_0; // 0x18
+	::RPG::Client::AchievementData* Field_2_0; // 0x18
 	::RPG::Client::AchievementData* Field_2_1; // 0x20
 	::RPG::Client::AchievementData* Field_2_2; // 0x28
-	::RPG::Client::AchievementData* Field_2_3; // 0x30
+	::RPG::GameCore::MovieGameConstConfig* Field_2_3; // 0x30
 	::RPG::Client::AchievementData* Field_2_4; // 0x38
 	::RPG::Client::AchievementData* Field_2_5; // 0x40
 	::RPG::Client::AchievementData* Field_2_6; // 0x48

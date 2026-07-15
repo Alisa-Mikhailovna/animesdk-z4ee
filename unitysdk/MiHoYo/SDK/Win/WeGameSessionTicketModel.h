@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_WEGAMESESSIONTICKETMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3EDAA0)
+#define MIHOYO_SDK_WIN_WEGAMESESSIONTICKETMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB37D0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int WeGameSessionTicketModel_TypeDefinitionIndex = 9137;
+	inline static constexpr unsigned int WeGameSessionTicketModel_TypeDefinitionIndex = 9149;
 
 	class WeGameSessionTicketModel : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 
 namespace System { class Type; }
 
-#define CLASS_2_2B5D33C75C48332B_9_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15635EB0)
-#define CLASS_2_2B5D33C75C48332B_9__CTOR_OFFSET UNITYSDK_OFFSET(0x15635EC0)
+#define CLASS_2_2B5D33C75C48332B_9_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x14A56600)
+#define CLASS_2_2B5D33C75C48332B_9__CTOR_OFFSET UNITYSDK_OFFSET(0x14A56610)
 
-inline static constexpr unsigned int Class_2_2B5D33C75C48332B_9_TypeDefinitionIndex = 46836;
+inline static constexpr unsigned int Class_2_2B5D33C75C48332B_9_TypeDefinitionIndex = 47801;
 
 class Class_2_2B5D33C75C48332B_9 : public ::System::Attribute
 {

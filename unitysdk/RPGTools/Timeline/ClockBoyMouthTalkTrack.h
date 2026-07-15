@@ -7,13 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199B5780)
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199B58C0)
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199B59A0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCB5620)
+#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB5760)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ClockBoyMouthTalkTrack_TypeDefinitionIndex = 45338;
+	inline static constexpr unsigned int ClockBoyMouthTalkTrack_TypeDefinitionIndex = 46262;
 
 	class ClockBoyMouthTalkTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

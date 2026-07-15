@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define CLASS_1_1B9BBF1B9A8CC806_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x130404B0)
-#define CLASS_1_1B9BBF1B9A8CC806_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x1300D450)
-#define CLASS_1_1B9BBF1B9A8CC806__CTOR_OFFSET UNITYSDK_OFFSET(0x1300D310)
+#define CLASS_1_1B9BBF1B9A8CC806_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1A3470B0)
+#define CLASS_1_1B9BBF1B9A8CC806_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x1A30FB10)
+#define CLASS_1_1B9BBF1B9A8CC806__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30FA60)
 
-inline static constexpr unsigned int Class_1_1B9BBF1B9A8CC806_TypeDefinitionIndex = 38575;
+inline static constexpr unsigned int Class_1_1B9BBF1B9A8CC806_TypeDefinitionIndex = 39383;
 
 class Class_1_1B9BBF1B9A8CC806 : public ::System::Object
 {
 public:
 	::System::String* Field_1_0; // 0x10
 	::System::UInt16 Field_1_1; // 0x18
-	::Class_1_1B9BBF1B9A8CC806_Flags Field_1_2; // 0x1A
-	::System::UInt16 Field_1_3; // 0x1C
-	::System::UInt16 Field_1_4; // 0x1E
-	::System::UInt32 Field_1_5; // 0x20
+	::System::UInt16 Field_1_2; // 0x1A
+	::System::UInt32 Field_1_3; // 0x1C
+	::Class_1_1B9BBF1B9A8CC806_Flags Field_1_4; // 0x20
+	::System::UInt16 Field_1_5; // 0x22
 
 	::System::Void _ctor()
 	{

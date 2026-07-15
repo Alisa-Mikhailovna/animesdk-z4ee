@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesPropertyModifier; }
 
-#define RPG_GAMECORE_CHENLINGFESBUFF_METHOD_2_4C48E304A81978F6_OFFSET UNITYSDK_OFFSET(0x1A4FC320)
-#define RPG_GAMECORE_CHENLINGFESBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FC540)
+#define RPG_GAMECORE_CHENLINGFESBUFF_METHOD_2_4C48E304A81978F6_OFFSET UNITYSDK_OFFSET(0x1B335DA0)
+#define RPG_GAMECORE_CHENLINGFESBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B335FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesBuff_TypeDefinitionIndex = 17542;
+	inline static constexpr unsigned int ChenLingFesBuff_TypeDefinitionIndex = 17715;
 
 	class ChenLingFesBuff : public ::RPG::GameCore::JsonConfig
 	{

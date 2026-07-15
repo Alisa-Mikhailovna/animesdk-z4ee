@@ -11,13 +11,13 @@ namespace RPG::GameCore { class LittleGameNavInfo; }
 namespace RPG::GameCore { class LittleGameRequireMissionInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E6C540)
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E6C4F0)
-#define RPG_GAMECORE_LEVELLITTLEGAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6C530)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B55BF20)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B55BED0)
+#define RPG_GAMECORE_LEVELLITTLEGAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B55BF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLittleGameInfo_TypeDefinitionIndex = 16482;
+	inline static constexpr unsigned int LevelLittleGameInfo_TypeDefinitionIndex = 16644;
 
 	class LevelLittleGameInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

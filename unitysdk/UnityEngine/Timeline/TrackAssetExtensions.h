@@ -5,12 +5,12 @@
 namespace UnityEngine::Timeline { class GroupTrack; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define UNITYENGINE_TIMELINE_TRACKASSETEXTENSIONS_GETGROUP_OFFSET UNITYSDK_OFFSET(0x18BABEA0)
-#define UNITYENGINE_TIMELINE_TRACKASSETEXTENSIONS_SETGROUP_OFFSET UNITYSDK_OFFSET(0x18BB4080)
+#define UNITYENGINE_TIMELINE_TRACKASSETEXTENSIONS_GETGROUP_OFFSET UNITYSDK_OFFSET(0x1CFCF050)
+#define UNITYENGINE_TIMELINE_TRACKASSETEXTENSIONS_SETGROUP_OFFSET UNITYSDK_OFFSET(0x1CFD8C80)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackAssetExtensions_TypeDefinitionIndex = 35899;
+	inline static constexpr unsigned int TrackAssetExtensions_TypeDefinitionIndex = 36681;
 
 	class TrackAssetExtensions : public ::System::Object
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PreloadItem; }
 
-#define RPG_GAMECORE_PRELOADITEMLIST_METHOD_2_39697ADA98BDC767_OFFSET UNITYSDK_OFFSET(0x1A2D11B0)
-#define RPG_GAMECORE_PRELOADITEMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2D1270)
+#define RPG_GAMECORE_PRELOADITEMLIST_METHOD_2_39697ADA98BDC767_OFFSET UNITYSDK_OFFSET(0x1B6D8910)
+#define RPG_GAMECORE_PRELOADITEMLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D89D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadItemList_TypeDefinitionIndex = 15542;
+	inline static constexpr unsigned int PreloadItemList_TypeDefinitionIndex = 15713;
 
 	class PreloadItemList : public ::RPG::GameCore::JsonConfig
 	{

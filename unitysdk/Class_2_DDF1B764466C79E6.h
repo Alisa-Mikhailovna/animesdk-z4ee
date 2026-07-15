@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
@@ -8,17 +8,17 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace RPG::GameCore { class ChimeraDuelCreateChimeraNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_DDF1B764466C79E6_METHOD_2_16E792B668863BDD_OFFSET UNITYSDK_OFFSET(0x13C34530)
-#define CLASS_2_DDF1B764466C79E6__CTOR_OFFSET UNITYSDK_OFFSET(0x13C345B0)
+#define CLASS_2_DDF1B764466C79E6_METHOD_2_16E792B668863BDD_OFFSET UNITYSDK_OFFSET(0x155DFC30)
+#define CLASS_2_DDF1B764466C79E6__CTOR_OFFSET UNITYSDK_OFFSET(0x155DFCB0)
 
-inline static constexpr unsigned int Class_2_DDF1B764466C79E6_TypeDefinitionIndex = 72195;
+inline static constexpr unsigned int Class_2_DDF1B764466C79E6_TypeDefinitionIndex = 73720;
 
-class Class_2_DDF1B764466C79E6 : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_DDF1B764466C79E6 : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
-	::RPG::GameCore::ChimeraDuelCreateChimeraNode* Field_2_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_2_0; // 0x10
 	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Field_2_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_2_2; // 0x20
+	::RPG::GameCore::ChimeraDuelCreateChimeraNode* Field_2_2; // 0x20
 
 	::System::Void _ctor()
 	{

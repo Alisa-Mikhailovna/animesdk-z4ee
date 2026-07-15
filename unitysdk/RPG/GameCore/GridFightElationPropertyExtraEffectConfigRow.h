@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC83B50)
-#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC83C80)
+#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D73B0)
+#define RPG_GAMECORE_GRIDFIGHTELATIONPROPERTYEXTRAEFFECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D74E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightElationPropertyExtraEffectConfigRow_TypeDefinitionIndex = 13061;
+	inline static constexpr unsigned int GridFightElationPropertyExtraEffectConfigRow_TypeDefinitionIndex = 13211;
 
 	class GridFightElationPropertyExtraEffectConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x10
-		::System::UInt32 ExtraEffectID; // 0x14
+		::System::UInt32 ExtraEffectID; // 0x10
+		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x14
 
 		::System::Void _ctor()
 		{

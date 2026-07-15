@@ -6,12 +6,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define AKTIMELINERTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x196D2760)
-#define AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x196D2C60)
-#define AKTIMELINERTPCTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x196D3070)
-#define AKTIMELINERTPCTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x196D3150)
+#define AKTIMELINERTPCTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D240BC0)
+#define AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1D241230)
+#define AKTIMELINERTPCTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2417F0)
 
-inline static constexpr unsigned int AkTimelineRtpcTrack_TypeDefinitionIndex = 41262;
+inline static constexpr unsigned int AkTimelineRtpcTrack_TypeDefinitionIndex = 42077;
 
 class AkTimelineRtpcTrack : public ::UnityEngine::Timeline::TrackAsset
 {
@@ -29,10 +28,5 @@ public:
 	::System::Void OnValidate()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTIMELINERTPCTRACK_ONVALIDATE_OFFSET))(this);
-	}
-
-	::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-	{
-		return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + AKTIMELINERTPCTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 	}
 };

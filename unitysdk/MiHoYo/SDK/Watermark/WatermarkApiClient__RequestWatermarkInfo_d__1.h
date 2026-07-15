@@ -8,28 +8,28 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19E3CDA0)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19E3CED0)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19E3CF30)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19E3CEE0)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E3CD90)
-#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3CBD0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19E4A8C0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19E4AA80)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19E4AAE0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19E4AA90)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19E4A8B0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKAPICLIENT__REQUESTWATERMARKINFO_D__1__CTOR_OFFSET UNITYSDK_OFFSET(0x19E4A6F0)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkApiClient__RequestWatermarkInfo_d__1_TypeDefinitionIndex = 8522;
+	inline static constexpr unsigned int WatermarkApiClient__RequestWatermarkInfo_d__1_TypeDefinitionIndex = 8534;
 
 	class WatermarkApiClient__RequestWatermarkInfo_d__1 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::MiHoYo::SDK::Watermark::WatermarkRequest* body; // 0x18
-		::System::Action_1<::System::String*>* responseCallback; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x28
+		::MiHoYo::SDK::Watermark::WatermarkRequest* body; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x18
+		::System::Action* timeoutCallback; // 0x20
+		::System::Action_1<::System::String*>* responseCallback; // 0x28
 		::System::String* _url_5__1; // 0x30
-		::System::Action* timeoutCallback; // 0x38
-		::System::Int32 __1__state; // 0x40
-		::System::Single timeoutSecond; // 0x44
+		::System::Object* __2__current; // 0x38
+		::System::Single timeoutSecond; // 0x40
+		::System::Int32 __1__state; // 0x44
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

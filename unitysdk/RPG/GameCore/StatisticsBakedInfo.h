@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STATISTICSBAKEDINFO_METHOD_2_B1EEADF184974F8B_OFFSET UNITYSDK_OFFSET(0x1934D0F0)
-#define RPG_GAMECORE_STATISTICSBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1934D1B0)
+#define RPG_GAMECORE_STATISTICSBAKEDINFO_METHOD_2_B1EEADF184974F8B_OFFSET UNITYSDK_OFFSET(0x1B90DC00)
+#define RPG_GAMECORE_STATISTICSBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90DCC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatisticsBakedInfo_TypeDefinitionIndex = 15898;
+	inline static constexpr unsigned int StatisticsBakedInfo_TypeDefinitionIndex = 16072;
 
 	class StatisticsBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

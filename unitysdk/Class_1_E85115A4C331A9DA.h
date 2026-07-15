@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_948;
+class Class_0_16E4307DCC419505_990;
 namespace RPG::GameCore { class CharacterReplaceMaterialRenderList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_E85115A4C331A9DA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14045B60)
-#define CLASS_1_E85115A4C331A9DA_METHOD_1_57D5ED2C4C06D908_OFFSET UNITYSDK_OFFSET(0x14044E30)
-#define CLASS_1_E85115A4C331A9DA_METHOD_1_87C639547921B854_OFFSET UNITYSDK_OFFSET(0x14045440)
-#define CLASS_1_E85115A4C331A9DA_METHOD_1_A4D63F63E7FDEA56_OFFSET UNITYSDK_OFFSET(0x14045170)
-#define CLASS_1_E85115A4C331A9DA_METHOD_1_F04C04E6DB6D6224_OFFSET UNITYSDK_OFFSET(0x140457C0)
-#define CLASS_1_E85115A4C331A9DA__CTOR_OFFSET UNITYSDK_OFFSET(0x14044D90)
+#define CLASS_1_E85115A4C331A9DA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x152338E0)
+#define CLASS_1_E85115A4C331A9DA_METHOD_1_87C639547921B854_OFFSET UNITYSDK_OFFSET(0x15233120)
+#define CLASS_1_E85115A4C331A9DA_METHOD_1_A4D63F63E7FDEA56_OFFSET UNITYSDK_OFFSET(0x15232DA0)
+#define CLASS_1_E85115A4C331A9DA_METHOD_1_EAD10B3E55E2C4C5_OFFSET UNITYSDK_OFFSET(0x152329B0)
+#define CLASS_1_E85115A4C331A9DA_METHOD_1_F04C04E6DB6D6224_OFFSET UNITYSDK_OFFSET(0x152334A0)
+#define CLASS_1_E85115A4C331A9DA__CTOR_OFFSET UNITYSDK_OFFSET(0x15232900)
 
-inline static constexpr unsigned int Class_1_E85115A4C331A9DA_TypeDefinitionIndex = 64663;
+inline static constexpr unsigned int Class_1_E85115A4C331A9DA_TypeDefinitionIndex = 66064;
 
 class Class_1_E85115A4C331A9DA : public ::System::Object
 {
 public:
-	::RPG::GameCore::CharacterReplaceMaterialRenderList* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* Field_1_1; // 0x18
-	::Class_0_16E4307DCC419505_948* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_990* Field_1_1; // 0x18
+	::RPG::GameCore::CharacterReplaceMaterialRenderList* Field_1_2; // 0x20
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_948* a1, ::RPG::GameCore::CharacterReplaceMaterialRenderList* a2)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_990* a1, ::RPG::GameCore::CharacterReplaceMaterialRenderList* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_948*, ::RPG::GameCore::CharacterReplaceMaterialRenderList*))((::PBYTE)hIl2Cpp + CLASS_1_E85115A4C331A9DA__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_990*, ::RPG::GameCore::CharacterReplaceMaterialRenderList*))((::PBYTE)hIl2Cpp + CLASS_1_E85115A4C331A9DA__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_57D5ED2C4C06D908()
+	::System::Void Method_1_EAD10B3E55E2C4C5()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E85115A4C331A9DA_METHOD_1_57D5ED2C4C06D908_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E85115A4C331A9DA_METHOD_1_EAD10B3E55E2C4C5_OFFSET))(this);
 	}
 
 	::System::Void Dispose()

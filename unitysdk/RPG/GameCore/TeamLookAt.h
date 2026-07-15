@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEAMLOOKAT_METHOD_3_1C8405416D93B38D_OFFSET UNITYSDK_OFFSET(0x16D12240)
-#define RPG_GAMECORE_TEAMLOOKAT_METHOD_3_6420D5667890140E_OFFSET UNITYSDK_OFFSET(0x16D121C0)
-#define RPG_GAMECORE_TEAMLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x16D12210)
+#define RPG_GAMECORE_TEAMLOOKAT_METHOD_3_02A798B34DDE9818_OFFSET UNITYSDK_OFFSET(0x1B966B30)
+#define RPG_GAMECORE_TEAMLOOKAT_METHOD_3_1C8405416D93B38D_OFFSET UNITYSDK_OFFSET(0x1B966B70)
+#define RPG_GAMECORE_TEAMLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B966B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLookAt_TypeDefinitionIndex = 21225;
+	inline static constexpr unsigned int TeamLookAt_TypeDefinitionIndex = 21640;
 
 	class TeamLookAt : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMLOOKAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6420D5667890140E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamLookAt*& a2)
+		static ::System::Void Method_3_02A798B34DDE9818(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamLookAt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMLOOKAT_METHOD_3_6420D5667890140E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeamLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMLOOKAT_METHOD_3_02A798B34DDE9818_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1C8405416D93B38D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeamLookAt* a2)

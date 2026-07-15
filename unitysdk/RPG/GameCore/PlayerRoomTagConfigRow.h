@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A771FF0)
-#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A772170)
+#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6D4EB0)
+#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D5030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRoomTagConfigRow_TypeDefinitionIndex = 13822;
+	inline static constexpr unsigned int PlayerRoomTagConfigRow_TypeDefinitionIndex = 13970;
 
 	class PlayerRoomTagConfigRow : public ::System::Object
 	{

@@ -10,12 +10,12 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PARALLELABILITY_METHOD_2_EB4C0F572024977D_OFFSET UNITYSDK_OFFSET(0x19D12EA0)
-#define RPG_GAMECORE_PARALLELABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19D131D0)
+#define RPG_GAMECORE_PARALLELABILITY_METHOD_2_EB4C0F572024977D_OFFSET UNITYSDK_OFFSET(0x1B686BB0)
+#define RPG_GAMECORE_PARALLELABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B686EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelAbility_TypeDefinitionIndex = 21450;
+	inline static constexpr unsigned int ParallelAbility_TypeDefinitionIndex = 21870;
 
 	class ParallelAbility : public ::RPG::GameCore::JsonConfig
 	{

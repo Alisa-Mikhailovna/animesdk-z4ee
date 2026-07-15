@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_JOYPADTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x14C76BD0)
+#define MIHOYO_SDK_JOYPADTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2CA40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JoyPadType_TypeDefinitionIndex = 7528;
+	inline static constexpr unsigned int JoyPadType_TypeDefinitionIndex = 7534;
 
 	class JoyPadType : public ::System::Object
 	{

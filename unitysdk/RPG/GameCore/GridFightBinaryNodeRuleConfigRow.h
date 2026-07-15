@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC7DFA0)
-#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC7E110)
+#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D2FD0)
+#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D3140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBinaryNodeRuleConfigRow_TypeDefinitionIndex = 12973;
+	inline static constexpr unsigned int GridFightBinaryNodeRuleConfigRow_TypeDefinitionIndex = 13121;
 
 	class GridFightBinaryNodeRuleConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Quality; // 0x10
+		::System::UInt32 ID; // 0x10
 		::System::UInt32 PerformLevel; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 Quality; // 0x18
 
 		::System::Void _ctor()
 		{

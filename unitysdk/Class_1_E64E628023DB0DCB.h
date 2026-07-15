@@ -5,34 +5,32 @@
 
 namespace System { class String; }
 
-#define CLASS_1_E64E628023DB0DCB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B4C5050)
-#define CLASS_1_E64E628023DB0DCB_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B4C4FB0)
-#define CLASS_1_E64E628023DB0DCB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B4C51E0)
-#define CLASS_1_E64E628023DB0DCB_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1B4C5330)
-#define CLASS_1_E64E628023DB0DCB_GET_DEFAULTSEVERITY_OFFSET UNITYSDK_OFFSET(0x1B4C5340)
-#define CLASS_1_E64E628023DB0DCB_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1B4C5300)
-#define CLASS_1_E64E628023DB0DCB_GET_HELPLINKURI_OFFSET UNITYSDK_OFFSET(0x1B4C5310)
-#define CLASS_1_E64E628023DB0DCB_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B4C52E0)
-#define CLASS_1_E64E628023DB0DCB_GET_ISENABLEDBYDEFAULT_OFFSET UNITYSDK_OFFSET(0x1B4C5350)
-#define CLASS_1_E64E628023DB0DCB_GET_MESSAGEFORMAT_OFFSET UNITYSDK_OFFSET(0x1B4C5320)
-#define CLASS_1_E64E628023DB0DCB_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1B4C52F0)
-#define CLASS_1_E64E628023DB0DCB__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C4F70)
-#define CLASS_1_E64E628023DB0DCB___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B4C5360)
-#define CLASS_1_E64E628023DB0DCB___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B4C5370)
+#define CLASS_1_E64E628023DB0DCB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A4152B0)
+#define CLASS_1_E64E628023DB0DCB_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A415210)
+#define CLASS_1_E64E628023DB0DCB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A415440)
+#define CLASS_1_E64E628023DB0DCB_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1A415590)
+#define CLASS_1_E64E628023DB0DCB_GET_DEFAULTSEVERITY_OFFSET UNITYSDK_OFFSET(0x1A4155A0)
+#define CLASS_1_E64E628023DB0DCB_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1A415560)
+#define CLASS_1_E64E628023DB0DCB_GET_HELPLINKURI_OFFSET UNITYSDK_OFFSET(0x1A415570)
+#define CLASS_1_E64E628023DB0DCB_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A415540)
+#define CLASS_1_E64E628023DB0DCB_GET_ISENABLEDBYDEFAULT_OFFSET UNITYSDK_OFFSET(0x1A4155B0)
+#define CLASS_1_E64E628023DB0DCB_GET_MESSAGEFORMAT_OFFSET UNITYSDK_OFFSET(0x1A415580)
+#define CLASS_1_E64E628023DB0DCB_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1A415550)
+#define CLASS_1_E64E628023DB0DCB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4151D0)
 
-inline static constexpr unsigned int Class_1_E64E628023DB0DCB_TypeDefinitionIndex = 38631;
+inline static constexpr unsigned int Class_1_E64E628023DB0DCB_TypeDefinitionIndex = 39439;
 
 class Class_1_E64E628023DB0DCB : public ::System::Object
 {
 public:
-	::System::String* _Description_k__BackingField; // 0x10
-	::System::String* _HelpLinkUri_k__BackingField; // 0x18
-	::System::String* _Id_k__BackingField; // 0x20
-	::System::String* _Category_k__BackingField; // 0x28
-	::System::String* _Title_k__BackingField; // 0x30
-	::System::String* _MessageFormat_k__BackingField; // 0x38
-	::System::Boolean _IsEnabledByDefault_k__BackingField; // 0x40
-	::RPG::Client::CompilerFramework::DiagnosticSeverity _DefaultSeverity_k__BackingField; // 0x44
+	::System::String* _Category_k__BackingField; // 0x10
+	::System::String* _Description_k__BackingField; // 0x18
+	::System::String* _HelpLinkUri_k__BackingField; // 0x20
+	::System::String* _MessageFormat_k__BackingField; // 0x28
+	::System::String* _Id_k__BackingField; // 0x30
+	::System::String* _Title_k__BackingField; // 0x38
+	::RPG::Client::CompilerFramework::DiagnosticSeverity _DefaultSeverity_k__BackingField; // 0x40
+	::System::Boolean _IsEnabledByDefault_k__BackingField; // 0x44
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::RPG::Client::CompilerFramework::DiagnosticSeverity a5, ::System::Boolean a6, ::System::String* a7, ::System::String* a8)
 	{
@@ -92,15 +90,5 @@ public:
 	::System::Boolean get_IsEnabledByDefault()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E64E628023DB0DCB_GET_ISENABLEDBYDEFAULT_OFFSET))(this);
-	}
-
-	::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_E64E628023DB0DCB___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
-	}
-
-	::System::Int32 __iFixBaseProxy_GetHashCode()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E64E628023DB0DCB___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
 	}
 };

@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class LittleGameSmartObjectConfig; }
 namespace System { class String; }
 
-#define CLASS_1_B587CAF66AB56ABD__CTOR_OFFSET UNITYSDK_OFFSET(0x12B63890)
+#define CLASS_1_B587CAF66AB56ABD__CTOR_OFFSET UNITYSDK_OFFSET(0xB276AF0)
 
-inline static constexpr unsigned int Class_1_B587CAF66AB56ABD_TypeDefinitionIndex = 71777;
+inline static constexpr unsigned int Class_1_B587CAF66AB56ABD_TypeDefinitionIndex = 73302;
 
 class Class_1_B587CAF66AB56ABD : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::RPG::GameCore::LittleGameSmartObjectConfig* Field_1_1; // 0x18
+	::RPG::GameCore::LittleGameSmartObjectConfig* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
 	::System::Int32 Field_1_2; // 0x20
 
 	::System::Void _ctor()

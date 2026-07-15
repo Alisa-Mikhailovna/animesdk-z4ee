@@ -10,44 +10,44 @@ namespace RPG::Client { class FantasticStoryParagraphData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18264E10)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18264E40)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSLOTBUFFDATA_B__37_0_OFFSET UNITYSDK_OFFSET(0x18264E90)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDBUFFDATA_B__35_0_OFFSET UNITYSDK_OFFSET(0x18264E70)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDBUFFSLOTDATA_B__36_0_OFFSET UNITYSDK_OFFSET(0x18264E80)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDCHAPTERDATA_B__33_0_OFFSET UNITYSDK_OFFSET(0x18264E50)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDPARAGRAPHDATA_B__34_0_OFFSET UNITYSDK_OFFSET(0x18264E60)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC43A470)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC43A4A0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSLOTBUFFDATA_B__37_0_OFFSET UNITYSDK_OFFSET(0xC43A4F0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDBUFFDATA_B__35_0_OFFSET UNITYSDK_OFFSET(0xC43A4D0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDBUFFSLOTDATA_B__36_0_OFFSET UNITYSDK_OFFSET(0xC43A4E0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDCHAPTERDATA_B__33_0_OFFSET UNITYSDK_OFFSET(0xC43A4B0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__GETSORTEDPARAGRAPHDATA_B__34_0_OFFSET UNITYSDK_OFFSET(0xC43A4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FantasticStoryActivityModule___c_TypeDefinitionIndex = 59769;
+	inline static constexpr unsigned int FantasticStoryActivityModule___c_TypeDefinitionIndex = 61054;
 
 	class FantasticStoryActivityModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffData*>, ::System::UInt32>** StaticGet___9__35_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x168A0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x2020);
 		}
 		static ::RPG::Client::FantasticStoryActivityModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::FantasticStoryActivityModule___c**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x168A8);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffSlotData*>, ::System::UInt32>** StaticGet___9__36_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffSlotData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x168B0);
-		}
-		static ::System::Comparison_1<::RPG::Client::FantasticStoryBuffData*>** StaticGet___9__37_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::FantasticStoryBuffData*>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x168B8);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryChapterData*>, ::System::UInt32>** StaticGet___9__33_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryChapterData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x168C0);
+			return (::RPG::Client::FantasticStoryActivityModule___c**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x2028);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryParagraphData*>, ::System::UInt32>** StaticGet___9__34_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryParagraphData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x168C8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryParagraphData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x2030);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffSlotData*>, ::System::UInt32>** StaticGet___9__36_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryBuffSlotData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x2038);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryChapterData*>, ::System::UInt32>** StaticGet___9__33_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::FantasticStoryChapterData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x2040);
+		}
+		static ::System::Comparison_1<::RPG::Client::FantasticStoryBuffData*>** StaticGet___9__37_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::FantasticStoryBuffData*>**)Il2CppClass::FromTypeDefinitionIndex(FantasticStoryActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x2048);
 		}
 
 		static ::System::Void _cctor()

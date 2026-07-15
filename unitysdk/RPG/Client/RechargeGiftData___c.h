@@ -8,34 +8,34 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1749DA70)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1749DAA0)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_0_OFFSET UNITYSDK_OFFSET(0x1749DAB0)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_1_OFFSET UNITYSDK_OFFSET(0x1749DAD0)
-#define RPG_CLIENT_RECHARGEGIFTDATA___C___CTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1749DAF0)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2C9610)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2C9640)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_0_OFFSET UNITYSDK_OFFSET(0xD2C9650)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C__GET_STATUS_B__22_1_OFFSET UNITYSDK_OFFSET(0xD2C9670)
+#define RPG_CLIENT_RECHARGEGIFTDATA___C___CTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0xD2C9690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeGiftData___c_TypeDefinitionIndex = 62441;
+	inline static constexpr unsigned int RechargeGiftData___c_TypeDefinitionIndex = 63807;
 
 	class RechargeGiftData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RechargeGiftData___c** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>** StaticGet___9__48_0()
 		{
-			return (::RPG::Client::RechargeGiftData___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x27420);
+			return (::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x1C6B0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x27428);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x1C6B8);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>** StaticGet___9__22_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x27430);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::RechargeGiftRewardData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x1C6C0);
 		}
-		static ::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>** StaticGet___9__48_0()
+		static ::RPG::Client::RechargeGiftData___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::RechargeGiftRewardData*, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::ItemConfig*>*>**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x27438);
+			return (::RPG::Client::RechargeGiftData___c**)Il2CppClass::FromTypeDefinitionIndex(RechargeGiftData___c_TypeDefinitionIndex)->GetStaticField(0x1C6C8);
 		}
 
 		static ::System::Void _cctor()

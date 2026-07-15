@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/FocusChangeDirection.h"
 
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x19F9B780)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x19F9B7E0)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F9B8A0)
-#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9B840)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1D0F6550)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1D0F65B0)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0F6670)
+#define UNITYENGINE_UIELEMENTS_VISUALELEMENTFOCUSCHANGEDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F6610)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VisualElementFocusChangeDirection_TypeDefinitionIndex = 6159;
+	inline static constexpr unsigned int VisualElementFocusChangeDirection_TypeDefinitionIndex = 6164;
 
 	class VisualElementFocusChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection
 	{
 	public:
-		static ::UnityEngine::UIElements::VisualElementFocusChangeDirection** StaticGet_s_Left()
-		{
-			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)Il2CppClass::FromTypeDefinitionIndex(VisualElementFocusChangeDirection_TypeDefinitionIndex)->GetStaticField(0x2970);
-		}
 		static ::UnityEngine::UIElements::VisualElementFocusChangeDirection** StaticGet_s_Right()
 		{
-			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)Il2CppClass::FromTypeDefinitionIndex(VisualElementFocusChangeDirection_TypeDefinitionIndex)->GetStaticField(0x2978);
+			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)Il2CppClass::FromTypeDefinitionIndex(VisualElementFocusChangeDirection_TypeDefinitionIndex)->GetStaticField(0x4CB30);
+		}
+		static ::UnityEngine::UIElements::VisualElementFocusChangeDirection** StaticGet_s_Left()
+		{
+			return (::UnityEngine::UIElements::VisualElementFocusChangeDirection**)Il2CppClass::FromTypeDefinitionIndex(VisualElementFocusChangeDirection_TypeDefinitionIndex)->GetStaticField(0x4CB38);
 		}
 
 		::System::Void _ctor(::System::Int32 a1)

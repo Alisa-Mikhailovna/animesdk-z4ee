@@ -9,22 +9,22 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_9E5A5CA7520DE0C6_METHOD_1_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x156488D0)
-#define CLASS_1_9E5A5CA7520DE0C6_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x15648CF0)
-#define CLASS_1_9E5A5CA7520DE0C6_METHOD_1_C25915EA4337085E_OFFSET UNITYSDK_OFFSET(0x15648DA0)
+#define CLASS_1_9E5A5CA7520DE0C6_METHOD_1_2566AD459572DFC3_OFFSET UNITYSDK_OFFSET(0x14A69CB0)
+#define CLASS_1_9E5A5CA7520DE0C6_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x14A6A0D0)
+#define CLASS_1_9E5A5CA7520DE0C6_METHOD_1_C25915EA4337085E_OFFSET UNITYSDK_OFFSET(0x14A6A180)
 
-inline static constexpr unsigned int Class_1_9E5A5CA7520DE0C6_TypeDefinitionIndex = 52744;
+inline static constexpr unsigned int Class_1_9E5A5CA7520DE0C6_TypeDefinitionIndex = 53955;
 
 class Class_1_9E5A5CA7520DE0C6 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_80CE1F3AD61937D0*>*>** StaticGet_Field_1_0()
+	static ::RPG::GameCore::CharacterSomatoCommonConfig** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_80CE1F3AD61937D0*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E5A5CA7520DE0C6_TypeDefinitionIndex)->GetStaticField(0x569C0);
+		return (::RPG::GameCore::CharacterSomatoCommonConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E5A5CA7520DE0C6_TypeDefinitionIndex)->GetStaticField(0x67D90);
 	}
-	static ::RPG::GameCore::CharacterSomatoCommonConfig** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_80CE1F3AD61937D0*>*>** StaticGet_Field_1_1()
 	{
-		return (::RPG::GameCore::CharacterSomatoCommonConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E5A5CA7520DE0C6_TypeDefinitionIndex)->GetStaticField(0x569C8);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_1_80CE1F3AD61937D0*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9E5A5CA7520DE0C6_TypeDefinitionIndex)->GetStaticField(0x67D98);
 	}
 
 	static ::System::Void Method_1_2566AD459572DFC3()

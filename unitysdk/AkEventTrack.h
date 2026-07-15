@@ -6,11 +6,10 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19DE3BF0)
-#define AKEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE40C0)
-#define AKEVENTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19DE41A0)
+#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1D1BEBC0)
+#define AKEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BF220)
 
-inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 41310;
+inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 42125;
 
 class AkEventTrack : public ::UnityEngine::Timeline::TrackAsset
 {
@@ -23,10 +22,5 @@ public:
 	::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 	{
 		return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + AKEVENTTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-	}
-
-	::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-	{
-		return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + AKEVENTTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 	}
 };

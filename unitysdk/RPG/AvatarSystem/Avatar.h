@@ -3,38 +3,38 @@
 #include "unitysdk/Struct_2_AAD4F4215611A944.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_359;
-class Class_0_16E4307DCC419505_360;
-class Class_1_090AB0EAA610410E;
+class Class_0_16E4307DCC419505_383;
+class Class_0_16E4307DCC419505_384;
+class Class_1_EFF03B82D1C2B1F6;
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 
-#define RPG_AVATARSYSTEM_AVATAR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17B79710)
-#define RPG_AVATARSYSTEM_AVATAR_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0x17B79230)
-#define RPG_AVATARSYSTEM_AVATAR_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x17B78B60)
-#define RPG_AVATARSYSTEM_AVATAR_GET_PROFILE_OFFSET UNITYSDK_OFFSET(0x17B78BA0)
-#define RPG_AVATARSYSTEM_AVATAR_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x17B78B80)
-#define RPG_AVATARSYSTEM_AVATAR_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0x17B78C20)
-#define RPG_AVATARSYSTEM_AVATAR_SET_PROFILE_OFFSET UNITYSDK_OFFSET(0x17B78BB0)
-#define RPG_AVATARSYSTEM_AVATAR_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x17B78B90)
-#define RPG_AVATARSYSTEM_AVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x17B78BC0)
-#define RPG_AVATARSYSTEM_AVATAR__INCREASEVERSION_OFFSET UNITYSDK_OFFSET(0x17B791D0)
+#define RPG_AVATARSYSTEM_AVATAR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA77020)
+#define RPG_AVATARSYSTEM_AVATAR_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xBA768D0)
+#define RPG_AVATARSYSTEM_AVATAR_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xBA76010)
+#define RPG_AVATARSYSTEM_AVATAR_GET_PROFILE_OFFSET UNITYSDK_OFFSET(0xBA76050)
+#define RPG_AVATARSYSTEM_AVATAR_GET_VERSION_OFFSET UNITYSDK_OFFSET(0xBA76030)
+#define RPG_AVATARSYSTEM_AVATAR_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xBA760D0)
+#define RPG_AVATARSYSTEM_AVATAR_SET_PROFILE_OFFSET UNITYSDK_OFFSET(0xBA76060)
+#define RPG_AVATARSYSTEM_AVATAR_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xBA76040)
+#define RPG_AVATARSYSTEM_AVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0xBA76070)
+#define RPG_AVATARSYSTEM_AVATAR__INCREASEVERSION_OFFSET UNITYSDK_OFFSET(0xBA76870)
 
 namespace RPG::AvatarSystem
 {
-	inline static constexpr unsigned int Avatar_TypeDefinitionIndex = 48514;
+	inline static constexpr unsigned int Avatar_TypeDefinitionIndex = 49527;
 
 	class Avatar : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::Type*, ::Class_0_16E4307DCC419505_359*>* _Components; // 0x10
-		::Class_1_090AB0EAA610410E* _Profile_k__BackingField; // 0x18
+		::Class_1_EFF03B82D1C2B1F6* _Profile_k__BackingField; // 0x10
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::Type*, ::Class_0_16E4307DCC419505_383*>* _Components; // 0x18
 		::Struct_2_AAD4F4215611A944 _Identifier_k__BackingField; // 0x20
 		::System::UInt32 _Version_k__BackingField; // 0x38
 
-		::System::Void _ctor(::Struct_2_AAD4F4215611A944& a1, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::Type*, ::Class_0_16E4307DCC419505_359*>* a2)
+		::System::Void _ctor(::Struct_2_AAD4F4215611A944& a1, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::Type*, ::Class_0_16E4307DCC419505_383*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_AAD4F4215611A944&, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::Type*, ::Class_0_16E4307DCC419505_359*>*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Struct_2_AAD4F4215611A944&, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::Type*, ::Class_0_16E4307DCC419505_383*>*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR__CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Struct_2_AAD4F4215611A944 get_Identifier()
@@ -52,24 +52,24 @@ namespace RPG::AvatarSystem
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_SET_VERSION_OFFSET))(this, a1);
 		}
 
-		::Class_1_090AB0EAA610410E* get_Profile()
+		::Class_1_EFF03B82D1C2B1F6* get_Profile()
 		{
-			return ((::Class_1_090AB0EAA610410E*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_GET_PROFILE_OFFSET))(this);
+			return ((::Class_1_EFF03B82D1C2B1F6*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_GET_PROFILE_OFFSET))(this);
 		}
 
-		::System::Void set_Profile(::Class_1_090AB0EAA610410E* a1)
+		::System::Void set_Profile(::Class_1_EFF03B82D1C2B1F6* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_090AB0EAA610410E*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_SET_PROFILE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_EFF03B82D1C2B1F6*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_SET_PROFILE_OFFSET))(this, a1);
 		}
 
-		::System::Void ImportProfile(::Class_1_090AB0EAA610410E* a1)
+		::System::Void ImportProfile(::Class_1_EFF03B82D1C2B1F6* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_090AB0EAA610410E*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_IMPORTPROFILE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_EFF03B82D1C2B1F6*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_IMPORTPROFILE_OFFSET))(this, a1);
 		}
 
-		::System::Void ExportProfile(::Class_0_16E4307DCC419505_360* a1)
+		::System::Void ExportProfile(::Class_0_16E4307DCC419505_384* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_360*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_EXPORTPROFILE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_384*))((::PBYTE)hIl2Cpp + RPG_AVATARSYSTEM_AVATAR_EXPORTPROFILE_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()

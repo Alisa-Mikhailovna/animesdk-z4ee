@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define CLASS_1_9E9E805FDD041FD9_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A266150)
-#define CLASS_1_9E9E805FDD041FD9__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2661A0)
+#define CLASS_1_9E9E805FDD041FD9_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8BCCD0)
+#define CLASS_1_9E9E805FDD041FD9__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8BCD20)
 
-inline static constexpr unsigned int Class_1_9E9E805FDD041FD9_TypeDefinitionIndex = 40247;
+inline static constexpr unsigned int Class_1_9E9E805FDD041FD9_TypeDefinitionIndex = 41062;
 
 class Class_1_9E9E805FDD041FD9 : public ::System::Object
 {

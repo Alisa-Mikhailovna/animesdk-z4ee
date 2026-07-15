@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableFieldEffectSoftZOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_727BEDC6816EF6BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168AB1A0)
-#define CLASS_3_727BEDC6816EF6BE__CTOR_OFFSET UNITYSDK_OFFSET(0x168AB170)
+#define CLASS_3_727BEDC6816EF6BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD14D30)
+#define CLASS_3_727BEDC6816EF6BE__CTOR_OFFSET UNITYSDK_OFFSET(0xAD14D00)
 
-inline static constexpr unsigned int Class_3_727BEDC6816EF6BE_TypeDefinitionIndex = 51414;
+inline static constexpr unsigned int Class_3_727BEDC6816EF6BE_TypeDefinitionIndex = 52524;
 
 class Class_3_727BEDC6816EF6BE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableFieldEffectSoftZOffset*>
 {

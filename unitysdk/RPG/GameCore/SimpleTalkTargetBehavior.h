@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR_METHOD_2_F2A4BF2EEBA41412_OFFSET UNITYSDK_OFFSET(0x1A010560)
-#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A010690)
+#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR_METHOD_2_F2A4BF2EEBA41412_OFFSET UNITYSDK_OFFSET(0x1B8D9B20)
+#define RPG_GAMECORE_SIMPLETALKTARGETBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D9C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkTargetBehavior_TypeDefinitionIndex = 19955;
+	inline static constexpr unsigned int SimpleTalkTargetBehavior_TypeDefinitionIndex = 20326;
 
 	class SimpleTalkTargetBehavior : public ::RPG::GameCore::JsonConfig
 	{

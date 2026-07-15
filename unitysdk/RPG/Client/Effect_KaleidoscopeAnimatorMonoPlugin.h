@@ -11,13 +11,13 @@ namespace RPG::Client::TAUtils { class Vector3AnimationCurve; }
 namespace RPG::Client::TAUtils { class Vector4AnimationCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_ANGLEMINMAXRADIUS_OFFSET UNITYSDK_OFFSET(0x14CCA050)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_TWISTANGLERADIUS_OFFSET UNITYSDK_OFFSET(0x14CCA0C0)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x14CCAB70)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_ANGLEMINMAXRADIUS_OFFSET UNITYSDK_OFFSET(0xC31F030)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_TWISTANGLERADIUS_OFFSET UNITYSDK_OFFSET(0xC31F0A0)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC31F9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorMonoPlugin_TypeDefinitionIndex = 65913;
+	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorMonoPlugin_TypeDefinitionIndex = 67338;
 
 	class Effect_KaleidoscopeAnimatorMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_KaleidoscopeAnimatorBehavior*>
 	{

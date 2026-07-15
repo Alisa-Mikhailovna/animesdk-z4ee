@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueKeywordData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184DA300)
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x184DA330)
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C___SORT_B__10_0_OFFSET UNITYSDK_OFFSET(0x184DA340)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD3B0070)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B00A0)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C___SORT_B__10_0_OFFSET UNITYSDK_OFFSET(0xD3B00B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueKeywordInfo___c_TypeDefinitionIndex = 62902;
+	inline static constexpr unsigned int RogueKeywordInfo___c_TypeDefinitionIndex = 64269;
 
 	class RogueKeywordInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::RogueKeywordData*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueKeywordData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueKeywordInfo___c_TypeDefinitionIndex)->GetStaticField(0x2E3F0);
+			return (::System::Comparison_1<::RPG::Client::RogueKeywordData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueKeywordInfo___c_TypeDefinitionIndex)->GetStaticField(0x25020);
 		}
 		static ::RPG::Client::RogueKeywordInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueKeywordInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueKeywordInfo___c_TypeDefinitionIndex)->GetStaticField(0x2E3F8);
+			return (::RPG::Client::RogueKeywordInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueKeywordInfo___c_TypeDefinitionIndex)->GetStaticField(0x25028);
 		}
 
 		static ::System::Void _cctor()

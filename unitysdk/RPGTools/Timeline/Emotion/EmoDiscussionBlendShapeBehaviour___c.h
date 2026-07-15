@@ -6,24 +6,24 @@ namespace RPG::Client { class EmoBlendShapesConfig_BlendShapesConfig; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x199CEF70)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x199CEFB0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__GET__GETBLENDNAMES_B__5_0_OFFSET UNITYSDK_OFFSET(0x199CEFC0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCCEA60)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCEAA0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__GET__GETBLENDNAMES_B__5_0_OFFSET UNITYSDK_OFFSET(0xDCCEAB0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex = 46025;
+	inline static constexpr unsigned int EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex = 46964;
 
 	class EmoDiscussionBlendShapeBehaviour___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::EmoBlendShapesConfig_BlendShapesConfig*, ::System::String*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::EmoBlendShapesConfig_BlendShapesConfig*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex)->GetStaticField(0xA0C0);
+			return (::System::Func_2<::RPG::Client::EmoBlendShapesConfig_BlendShapesConfig*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex)->GetStaticField(0x6B6A0);
 		}
 		static ::RPGTools::Timeline::Emotion::EmoDiscussionBlendShapeBehaviour___c** StaticGet___9()
 		{
-			return (::RPGTools::Timeline::Emotion::EmoDiscussionBlendShapeBehaviour___c**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex)->GetStaticField(0xA0C8);
+			return (::RPGTools::Timeline::Emotion::EmoDiscussionBlendShapeBehaviour___c**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex)->GetStaticField(0x6B6A8);
 		}
 
 		static ::System::Void _cctor()

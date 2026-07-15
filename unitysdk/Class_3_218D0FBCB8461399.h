@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareRotatableRegionLoadingState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_218D0FBCB8461399_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17F42A20)
-#define CLASS_3_218D0FBCB8461399__CTOR_OFFSET UNITYSDK_OFFSET(0x17F429F0)
+#define CLASS_3_218D0FBCB8461399_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14A3AD50)
+#define CLASS_3_218D0FBCB8461399__CTOR_OFFSET UNITYSDK_OFFSET(0x14A3AD20)
 
-inline static constexpr unsigned int Class_3_218D0FBCB8461399_TypeDefinitionIndex = 49538;
+inline static constexpr unsigned int Class_3_218D0FBCB8461399_TypeDefinitionIndex = 50592;
 
 class Class_3_218D0FBCB8461399 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareRotatableRegionLoadingState*>
 {

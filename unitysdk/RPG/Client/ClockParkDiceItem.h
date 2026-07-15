@@ -4,21 +4,21 @@
 
 namespace RPG::Client { class ClockParkSlotItem; }
 
-#define RPG_CLIENT_CLOCKPARKDICEITEM_GET_HASOWNERSLOT_OFFSET UNITYSDK_OFFSET(0x178234C0)
-#define RPG_CLIENT_CLOCKPARKDICEITEM_ONNEW_OFFSET UNITYSDK_OFFSET(0x178238A0)
-#define RPG_CLIENT_CLOCKPARKDICEITEM_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x178238E0)
-#define RPG_CLIENT_CLOCKPARKDICEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x17823930)
+#define RPG_CLIENT_CLOCKPARKDICEITEM_GET_HASOWNERSLOT_OFFSET UNITYSDK_OFFSET(0xC17D900)
+#define RPG_CLIENT_CLOCKPARKDICEITEM_ONNEW_OFFSET UNITYSDK_OFFSET(0xC17DD20)
+#define RPG_CLIENT_CLOCKPARKDICEITEM_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xC17DD60)
+#define RPG_CLIENT_CLOCKPARKDICEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC17DDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkDiceItem_TypeDefinitionIndex = 57490;
+	inline static constexpr unsigned int ClockParkDiceItem_TypeDefinitionIndex = 58752;
 
 	class ClockParkDiceItem : public ::System::Object
 	{
 	public:
 		::RPG::Client::ClockParkSlotItem* SlotRef; // 0x10
-		::System::UInt32 DiceValue; // 0x18
-		::System::Int32 DiceIndex; // 0x1C
+		::System::Int32 DiceIndex; // 0x18
+		::System::UInt32 DiceValue; // 0x1C
 
 		::System::Void _ctor()
 		{

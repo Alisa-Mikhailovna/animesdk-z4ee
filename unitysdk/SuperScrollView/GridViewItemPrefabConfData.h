@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SUPERSCROLLVIEW_GRIDVIEWITEMPREFABCONFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED50C0)
+#define SUPERSCROLLVIEW_GRIDVIEWITEMPREFABCONFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD6FA70)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int GridViewItemPrefabConfData_TypeDefinitionIndex = 44940;
+	inline static constexpr unsigned int GridViewItemPrefabConfData_TypeDefinitionIndex = 45858;
 
 	class GridViewItemPrefabConfData : public ::System::Object
 	{

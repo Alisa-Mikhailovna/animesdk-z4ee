@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSFORDEFAULTLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x17174AB0)
+#define RPG_CLIENT_RPGQUALITYSETTINGSFORDEFAULTLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD29D870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsForDefaultLevel_TypeDefinitionIndex = 63564;
+	inline static constexpr unsigned int RPGQualitySettingsForDefaultLevel_TypeDefinitionIndex = 64931;
 
 	class RPGQualitySettingsForDefaultLevel : public ::System::Object
 	{

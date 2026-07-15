@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190F13B0)
-#define RPG_GAMECORE_MUSEUMAREACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190F1B50)
+#define RPG_GAMECORE_MUSEUMAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B639FC0)
+#define RPG_GAMECORE_MUSEUMAREACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B63A760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumAreaConfigRow_TypeDefinitionIndex = 13542;
+	inline static constexpr unsigned int MuseumAreaConfigRow_TypeDefinitionIndex = 13690;
 
 	class MuseumAreaConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* MuseumAreaHintIcon; // 0x10
-		::System::String* MuseumAreaTabIcon; // 0x18
-		::System::String* FirstWorldText; // 0x20
+		::System::String* FirstWorldText; // 0x10
+		::System::String* MuseumAreaHintIcon; // 0x18
+		::System::String* MuseumAreaTabIcon; // 0x20
 		::RPG::Client::TextID MuseumAreaName; // 0x28
 		::RPG::Client::TextID AreaItemNoTextID; // 0x38
 		::System::UInt32 AreaID; // 0x48

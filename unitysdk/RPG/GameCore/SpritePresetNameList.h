@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPRITEPRESETNAMELIST_METHOD_2_47D407819B81FB41_OFFSET UNITYSDK_OFFSET(0x193319D0)
-#define RPG_GAMECORE_SPRITEPRESETNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19331AC0)
+#define RPG_GAMECORE_SPRITEPRESETNAMELIST_METHOD_2_47D407819B81FB41_OFFSET UNITYSDK_OFFSET(0x1B8F0980)
+#define RPG_GAMECORE_SPRITEPRESETNAMELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F0A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpritePresetNameList_TypeDefinitionIndex = 23091;
+	inline static constexpr unsigned int SpritePresetNameList_TypeDefinitionIndex = 23558;
 
 	class SpritePresetNameList : public ::RPG::GameCore::JsonConfig
 	{

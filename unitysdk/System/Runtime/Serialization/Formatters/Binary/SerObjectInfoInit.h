@@ -5,11 +5,11 @@
 namespace System::Collections { class Hashtable; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SerStack; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1746F2F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_SEROBJECTINFOINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2075D0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int SerObjectInfoInit_TypeDefinitionIndex = 1175;
+	inline static constexpr unsigned int SerObjectInfoInit_TypeDefinitionIndex = 1177;
 
 	class SerObjectInfoInit : public ::System::Object
 	{

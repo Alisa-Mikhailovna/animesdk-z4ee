@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class ByTargetContainerRatioInRect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_19C11554C812FDD3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16F8CD60)
-#define CLASS_3_19C11554C812FDD3__CTOR_OFFSET UNITYSDK_OFFSET(0x16F8CC80)
+#define CLASS_3_19C11554C812FDD3_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCDB1610)
+#define CLASS_3_19C11554C812FDD3__CTOR_OFFSET UNITYSDK_OFFSET(0xCDB1530)
 
-inline static constexpr unsigned int Class_3_19C11554C812FDD3_TypeDefinitionIndex = 49687;
+inline static constexpr unsigned int Class_3_19C11554C812FDD3_TypeDefinitionIndex = 50741;
 
 class Class_3_19C11554C812FDD3 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTargetContainerRatioInRect*>
 {

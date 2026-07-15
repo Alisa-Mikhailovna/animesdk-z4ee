@@ -3,12 +3,12 @@
 #include "unitysdk/SWRT/AABB.h"
 #include "unitysdk/System/Object.h"
 
-#define SWRT_BVH2_HNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x1B3C9D30)
-#define SWRT_BVH2_HNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C9D40)
+#define SWRT_BVH2_HNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x1AAC8390)
+#define SWRT_BVH2_HNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC83A0)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH2_HNode_TypeDefinitionIndex = 35164;
+	inline static constexpr unsigned int BVH2_HNode_TypeDefinitionIndex = 35946;
 
 	class BVH2_HNode : public ::System::Object
 	{

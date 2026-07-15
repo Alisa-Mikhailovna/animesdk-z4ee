@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17168860)
-#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17168AC0)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD2901A0)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOCAMERACONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xD290400)
 
 namespace RPG::Client::RPGDemo
 {
-	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 70582;
+	inline static constexpr unsigned int RPGDemoCameraController_Example_TypeDefinitionIndex = 72095;
 
 	class RPGDemoCameraController_Example : public ::UnityEngine::MonoBehaviour
 	{

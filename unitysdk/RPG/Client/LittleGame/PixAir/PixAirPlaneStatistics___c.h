@@ -5,24 +5,24 @@
 namespace RPG::Client::LittleGame::PixAir { class PixAirEquipStatistics; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A8569E0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A856A20)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A856A30)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A869B70)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A869BB0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1A869BC0)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 40260;
+	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 41075;
 
 	class PixAirPlaneStatistics___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>** StaticGet___9__7_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x4D060);
-		}
 		static ::RPG::Client::LittleGame::PixAir::PixAirPlaneStatistics___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::PixAir::PixAirPlaneStatistics___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x4D068);
+			return (::RPG::Client::LittleGame::PixAir::PixAirPlaneStatistics___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x49910);
+		}
+		static ::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>** StaticGet___9__7_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatistics___c_TypeDefinitionIndex)->GetStaticField(0x49918);
 		}
 
 		static ::System::Void _cctor()

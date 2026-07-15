@@ -7,11 +7,10 @@
 
 class AkPlatformInitSettings;
 
-#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x196DC910)
-#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x196DC960)
-#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS___IFIXBASEPROXY_COPYTO_OFFSET UNITYSDK_OFFSET(0x196DC9A0)
+#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1D24B480)
+#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D24B4D0)
 
-inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 41285;
+inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 42100;
 
 class AkiOSSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void CopyTo(::AkPlatformInitSettings* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_CopyTo(::AkPlatformInitSettings* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS___IFIXBASEPROXY_COPYTO_OFFSET))(this, a1);
 	}
 };

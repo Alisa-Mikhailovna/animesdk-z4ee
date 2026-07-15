@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MUTEENTITYSOUND_METHOD_3_6467977E62ECABC7_OFFSET UNITYSDK_OFFSET(0x190FE280)
-#define RPG_GAMECORE_MUTEENTITYSOUND_METHOD_3_C2E1DB7E860E92A3_OFFSET UNITYSDK_OFFSET(0x190FE200)
-#define RPG_GAMECORE_MUTEENTITYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x190FE250)
+#define RPG_GAMECORE_MUTEENTITYSOUND_METHOD_3_6467977E62ECABC7_OFFSET UNITYSDK_OFFSET(0x1B66A200)
+#define RPG_GAMECORE_MUTEENTITYSOUND_METHOD_3_DF0353ED8AEE20B0_OFFSET UNITYSDK_OFFSET(0x1B66A1C0)
+#define RPG_GAMECORE_MUTEENTITYSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66A1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuteEntitySound_TypeDefinitionIndex = 20972;
+	inline static constexpr unsigned int MuteEntitySound_TypeDefinitionIndex = 21387;
 
 	class MuteEntitySound : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUTEENTITYSOUND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C2E1DB7E860E92A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuteEntitySound*& a2)
+		static ::System::Void Method_3_DF0353ED8AEE20B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuteEntitySound*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuteEntitySound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUTEENTITYSOUND_METHOD_3_C2E1DB7E860E92A3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuteEntitySound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUTEENTITYSOUND_METHOD_3_DF0353ED8AEE20B0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6467977E62ECABC7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuteEntitySound* a2)

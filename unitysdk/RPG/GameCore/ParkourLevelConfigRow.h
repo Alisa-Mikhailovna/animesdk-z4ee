@@ -7,34 +7,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D15D90)
-#define RPG_GAMECORE_PARKOURLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D16410)
+#define RPG_GAMECORE_PARKOURLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B688F90)
+#define RPG_GAMECORE_PARKOURLEVELCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B689610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourLevelConfigRow_TypeDefinitionIndex = 11527;
+	inline static constexpr unsigned int ParkourLevelConfigRow_TypeDefinitionIndex = 11627;
 
 	class ParkourLevelConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* MinimapResPath; // 0x10
+		::System::String* GameAssetPath; // 0x10
 		::System::String* GameAssetPathOnClear; // 0x18
-		::Il2CppArray<::System::UInt32>* BGMIDList; // 0x20
-		::System::String* GameAssetPath; // 0x28
-		::System::String* TriggerCarTaskUnlock; // 0x30
+		::System::String* MinimapResPath; // 0x20
+		::System::String* TriggerCarTaskUnlock; // 0x28
+		::Il2CppArray<::System::UInt32>* BGMIDList; // 0x30
 		::System::UInt32 ID; // 0x38
-		::RPG::GameCore::ParkourLevelUnlockType UnlockType; // 0x3C
-		::System::UInt32 UnlockParam; // 0x40
-		::System::UInt32 TargetRank; // 0x44
-		::RPG::Client::TextID Desc; // 0x48
-		::RPG::Client::TextID Name; // 0x58
-		::System::Single MinimapAngle; // 0x68
-		::System::Single LevelRegionState; // 0x6C
-		::RPG::Client::TextID FinishDisplay; // 0x70
-		::System::UInt32 NextStorySubMissionID; // 0x80
-		::System::UInt32 RailBallLimit; // 0x84
-		::System::UInt32 LapCount; // 0x88
-		::System::Boolean StoryLevel; // 0x8C
+		::System::Single LevelRegionState; // 0x3C
+		::System::UInt32 TargetRank; // 0x40
+		::System::Boolean StoryLevel; // 0x44
+		::RPG::GameCore::ParkourLevelUnlockType UnlockType; // 0x48
+		::System::UInt32 UnlockParam; // 0x4C
+		::RPG::Client::TextID Desc; // 0x50
+		::System::UInt32 RailBallLimit; // 0x60
+		::System::UInt32 NextStorySubMissionID; // 0x64
+		::RPG::Client::TextID Name; // 0x68
+		::RPG::Client::TextID FinishDisplay; // 0x78
+		::System::Single MinimapAngle; // 0x88
+		::System::UInt32 LapCount; // 0x8C
 
 		::System::Void _ctor()
 		{

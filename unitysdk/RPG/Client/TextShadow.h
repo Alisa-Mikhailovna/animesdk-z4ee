@@ -7,17 +7,15 @@
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_TEXTSHADOW_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0x1420C100)
-#define RPG_CLIENT_TEXTSHADOW_METHOD_8_D27386107860D10C_OFFSET UNITYSDK_OFFSET(0x1420C750)
-#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x1420C210)
-#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1420C1C0)
-#define RPG_CLIENT_TEXTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1420C110)
-#define RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x1420DB20)
-#define RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1420DAD0)
+#define RPG_CLIENT_TEXTSHADOW_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0xD6876A0)
+#define RPG_CLIENT_TEXTSHADOW_METHOD_8_D27386107860D10C_OFFSET UNITYSDK_OFFSET(0xD687AB0)
+#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xD6877E0)
+#define RPG_CLIENT_TEXTSHADOW_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xD687790)
+#define RPG_CLIENT_TEXTSHADOW__CTOR_OFFSET UNITYSDK_OFFSET(0xD6876E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextShadow_TypeDefinitionIndex = 67911;
+	inline static constexpr unsigned int TextShadow_TypeDefinitionIndex = 69397;
 
 	class TextShadow : public ::RPG::Client::TextOutline
 	{
@@ -51,16 +49,6 @@ namespace RPG::Client
 		::System::Void Method_8_D27386107860D10C(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW_METHOD_8_D27386107860D10C_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_ModifyMesh(::UnityEngine::UI::VertexHelper* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_ModifyMesh_1(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTSHADOW___IFIXBASEPROXY_MODIFYMESH_1_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsSplitDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_275D3E0968983648_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163C4A40)
-#define CLASS_3_275D3E0968983648__CTOR_OFFSET UNITYSDK_OFFSET(0x163C4A10)
+#define CLASS_3_275D3E0968983648_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14490E20)
+#define CLASS_3_275D3E0968983648__CTOR_OFFSET UNITYSDK_OFFSET(0x14490DF0)
 
-inline static constexpr unsigned int Class_3_275D3E0968983648_TypeDefinitionIndex = 51119;
+inline static constexpr unsigned int Class_3_275D3E0968983648_TypeDefinitionIndex = 52209;
 
 class Class_3_275D3E0968983648 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsSplitDamage*>
 {

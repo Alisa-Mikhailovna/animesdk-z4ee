@@ -9,27 +9,27 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ParseRecord; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x17472760)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17473DC0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17473660)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP_FIXUP_OFFSET UNITYSDK_OFFSET(0x1A20AD30)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A20C5D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_VALUEFIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20BE70)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1188;
+	inline static constexpr unsigned int ValueFixup_TypeDefinitionIndex = 1190;
 
 	class ValueFixup : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MemberInfo** StaticGet_valueInfo()
 		{
-			return (::System::Reflection::MemberInfo**)Il2CppClass::FromTypeDefinitionIndex(ValueFixup_TypeDefinitionIndex)->GetStaticField(0xE430);
+			return (::System::Reflection::MemberInfo**)Il2CppClass::FromTypeDefinitionIndex(ValueFixup_TypeDefinitionIndex)->GetStaticField(0x19050);
 		}
-		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x10
+		::Il2CppArray<::System::Int32>* indexMap; // 0x10
 		::System::Object* memberObject; // 0x18
 		::System::Array* arrayObj; // 0x20
 		::System::String* memberName; // 0x28
-		::System::Object* header; // 0x30
-		::Il2CppArray<::System::Int32>* indexMap; // 0x38
+		::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo; // 0x30
+		::System::Object* header; // 0x38
 		::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum; // 0x40
 
 		::System::Void _ctor(::System::Array* a1, ::Il2CppArray<::System::Int32>* a2)

@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByTotalHPFromMonsterID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2387560EA9142C77_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1573D590)
-#define CLASS_3_2387560EA9142C77__CTOR_OFFSET UNITYSDK_OFFSET(0x1573D4B0)
+#define CLASS_3_2387560EA9142C77_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149B2CC0)
+#define CLASS_3_2387560EA9142C77__CTOR_OFFSET UNITYSDK_OFFSET(0x149B2BE0)
 
-inline static constexpr unsigned int Class_3_2387560EA9142C77_TypeDefinitionIndex = 51813;
+inline static constexpr unsigned int Class_3_2387560EA9142C77_TypeDefinitionIndex = 52961;
 
 class Class_3_2387560EA9142C77 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByTotalHPFromMonsterID*>
 {

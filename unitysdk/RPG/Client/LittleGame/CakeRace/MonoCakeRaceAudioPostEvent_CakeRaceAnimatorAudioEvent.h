@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent_CakeRaceAnimatorAudioEvent_TypeDefinitionIndex = 72503;
+	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent_CakeRaceAnimatorAudioEvent_TypeDefinitionIndex = 74028;
 
 	struct alignas(8) MonoCakeRaceAudioPostEvent_CakeRaceAnimatorAudioEvent
 	{

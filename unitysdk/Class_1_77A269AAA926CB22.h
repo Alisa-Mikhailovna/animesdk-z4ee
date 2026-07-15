@@ -12,43 +12,43 @@ namespace RPG::Client { class ClockParkEffectResult; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 template <typename T> class Class_1_64C1E63642C4A2DF;
 
-#define CLASS_1_77A269AAA926CB22_METHOD_1_2A0D1697C89F84C7_OFFSET UNITYSDK_OFFSET(0x12026150)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_42B0C217A2746D86_OFFSET UNITYSDK_OFFSET(0x12026A40)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_4BE99DDCF7F1FD88_OFFSET UNITYSDK_OFFSET(0x12026690)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_55694FB07FC8EEEB_OFFSET UNITYSDK_OFFSET(0x12026830)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_5901C15C49D0EC61_OFFSET UNITYSDK_OFFSET(0x12026E30)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_6A13801F6FA23C1B_OFFSET UNITYSDK_OFFSET(0x12027490)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_8912747379CF63B5_OFFSET UNITYSDK_OFFSET(0x120261E0)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_AD1572BA8ED1280C_OFFSET UNITYSDK_OFFSET(0x12027100)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_B7CCB99AAB7A4C8B_OFFSET UNITYSDK_OFFSET(0x12027790)
-#define CLASS_1_77A269AAA926CB22_METHOD_1_E824431C22EF9361_OFFSET UNITYSDK_OFFSET(0x120264F0)
-#define CLASS_1_77A269AAA926CB22__CCTOR_OFFSET UNITYSDK_OFFSET(0x12027840)
-#define CLASS_1_77A269AAA926CB22__CTOR_OFFSET UNITYSDK_OFFSET(0x120277E0)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_2A0D1697C89F84C7_OFFSET UNITYSDK_OFFSET(0xB743F50)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_42B0C217A2746D86_OFFSET UNITYSDK_OFFSET(0xB744840)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_4BE99DDCF7F1FD88_OFFSET UNITYSDK_OFFSET(0xB744490)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_55694FB07FC8EEEB_OFFSET UNITYSDK_OFFSET(0xB744630)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_5901C15C49D0EC61_OFFSET UNITYSDK_OFFSET(0xB744C30)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_6A13801F6FA23C1B_OFFSET UNITYSDK_OFFSET(0xB745290)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_8912747379CF63B5_OFFSET UNITYSDK_OFFSET(0xB743FE0)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_AD1572BA8ED1280C_OFFSET UNITYSDK_OFFSET(0xB744F00)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_B7CCB99AAB7A4C8B_OFFSET UNITYSDK_OFFSET(0xB745590)
+#define CLASS_1_77A269AAA926CB22_METHOD_1_E824431C22EF9361_OFFSET UNITYSDK_OFFSET(0xB7442F0)
+#define CLASS_1_77A269AAA926CB22__CCTOR_OFFSET UNITYSDK_OFFSET(0xB745640)
+#define CLASS_1_77A269AAA926CB22__CTOR_OFFSET UNITYSDK_OFFSET(0xB7455E0)
 
-inline static constexpr unsigned int Class_1_77A269AAA926CB22_TypeDefinitionIndex = 57476;
+inline static constexpr unsigned int Class_1_77A269AAA926CB22_TypeDefinitionIndex = 58738;
 
 class Class_1_77A269AAA926CB22 : public ::System::Object
 {
 public:
 	static ::RPG::Client::ClockParkEffectResult** StaticGet_Field_1_0()
 	{
-		return (::RPG::Client::ClockParkEffectResult**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0x264D0);
+		return (::RPG::Client::ClockParkEffectResult**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0xD380);
 	}
-	static ::Class_1_64C1E63642C4A2DF<::RPG::Client::ClockParkActionDataItem*>** StaticGet_Field_1_1()
+	static ::RPG::Client::ClockParkEffectResult** StaticGet_Field_1_1()
 	{
-		return (::Class_1_64C1E63642C4A2DF<::RPG::Client::ClockParkActionDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0x264D8);
+		return (::RPG::Client::ClockParkEffectResult**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0xD388);
 	}
 	static ::RPG::Client::ClockParkEffectResult** StaticGet_Field_1_2()
 	{
-		return (::RPG::Client::ClockParkEffectResult**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0x264E0);
+		return (::RPG::Client::ClockParkEffectResult**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0xD390);
 	}
-	static ::RPG::Client::ClockParkEffectResult** StaticGet_Field_1_3()
+	static ::Class_1_64C1E63642C4A2DF<::RPG::Client::ClockParkActionDataItem*>** StaticGet_Field_1_3()
 	{
-		return (::RPG::Client::ClockParkEffectResult**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0x264E8);
+		return (::Class_1_64C1E63642C4A2DF<::RPG::Client::ClockParkActionDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_77A269AAA926CB22_TypeDefinitionIndex)->GetStaticField(0xD398);
 	}
 	::RPG::Client::ClockParkEffectResult* Field_1_4; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::ClockParkActionDataItem*>* Field_1_5; // 0x18
-	::RPG::Client::ClockParkEffectResult* Field_1_6; // 0x20
+	::RPG::Client::ClockParkEffectResult* Field_1_5; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::ClockParkActionDataItem*>* Field_1_6; // 0x20
 
 	::System::Void _ctor()
 	{

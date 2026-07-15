@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class GridFightEquipItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONEQUIPOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18D34930)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONEQUIPOPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC72D610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationEquipOption_TypeDefinitionIndex = 60428;
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationEquipOption_TypeDefinitionIndex = 61719;
 
 	class GridFightGameFormationEditor_GridFightGameFormationEquipOption : public ::System::Object
 	{

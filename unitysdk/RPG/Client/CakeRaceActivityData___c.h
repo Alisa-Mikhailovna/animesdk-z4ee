@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CAKERACEACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185EE830)
-#define RPG_CLIENT_CAKERACEACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185EE870)
-#define RPG_CLIENT_CAKERACEACTIVITYDATA___C___GOTOENTRANCEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0x185EE880)
+#define RPG_CLIENT_CAKERACEACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF13C90)
+#define RPG_CLIENT_CAKERACEACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF13CD0)
+#define RPG_CLIENT_CAKERACEACTIVITYDATA___C___GOTOENTRANCEPAGE_B__5_1_OFFSET UNITYSDK_OFFSET(0xBF13CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceActivityData___c_TypeDefinitionIndex = 57599;
+	inline static constexpr unsigned int CakeRaceActivityData___c_TypeDefinitionIndex = 58861;
 
 	class CakeRaceActivityData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::CakeRaceActivityData___c** StaticGet___9()
-		{
-			return (::RPG::Client::CakeRaceActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceActivityData___c_TypeDefinitionIndex)->GetStaticField(0x639A0);
-		}
 		static ::System::Action** StaticGet___9__5_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceActivityData___c_TypeDefinitionIndex)->GetStaticField(0x639A8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceActivityData___c_TypeDefinitionIndex)->GetStaticField(0x5DB80);
+		}
+		static ::RPG::Client::CakeRaceActivityData___c** StaticGet___9()
+		{
+			return (::RPG::Client::CakeRaceActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceActivityData___c_TypeDefinitionIndex)->GetStaticField(0x5DB88);
 		}
 
 		static ::System::Void _cctor()

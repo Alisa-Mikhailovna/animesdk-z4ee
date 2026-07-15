@@ -8,13 +8,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_9C072F47C9660DE6_OFFSET UNITYSDK_OFFSET(0x19A39850)
-#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_F020E81F9A1CD2AD_OFFSET UNITYSDK_OFFSET(0x19A398E0)
-#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A398B0)
+#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_74D65921677ECB80_OFFSET UNITYSDK_OFFSET(0x1B9925B0)
+#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_F020E81F9A1CD2AD_OFFSET UNITYSDK_OFFSET(0x1B992600)
+#define RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9925F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAnimStateOnModifierCustomEvent_TypeDefinitionIndex = 21874;
+	inline static constexpr unsigned int TriggerAnimStateOnModifierCustomEvent_TypeDefinitionIndex = 22301;
 
 	class TriggerAnimStateOnModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9C072F47C9660DE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*& a2)
+		static ::System::Void Method_3_74D65921677ECB80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_9C072F47C9660DE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMSTATEONMODIFIERCUSTOMEVENT_METHOD_3_74D65921677ECB80_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F020E81F9A1CD2AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent* a2)

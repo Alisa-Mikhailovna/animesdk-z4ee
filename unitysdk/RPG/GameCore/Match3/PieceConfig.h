@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_PIECECONFIG_METHOD_2_C4895AD839409AFE_OFFSET UNITYSDK_OFFSET(0x1998F350)
-#define RPG_GAMECORE_MATCH3_PIECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1998F4C0)
+#define RPG_GAMECORE_MATCH3_PIECECONFIG_METHOD_2_C4895AD839409AFE_OFFSET UNITYSDK_OFFSET(0x1B5C8CE0)
+#define RPG_GAMECORE_MATCH3_PIECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C8E50)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int PieceConfig_TypeDefinitionIndex = 23507;
+	inline static constexpr unsigned int PieceConfig_TypeDefinitionIndex = 23996;
 
 	class PieceConfig : public ::RPG::GameCore::JsonConfig
 	{

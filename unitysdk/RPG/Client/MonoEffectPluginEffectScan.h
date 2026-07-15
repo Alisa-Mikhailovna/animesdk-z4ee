@@ -4,13 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_METHOD_8_489E0B827662C211_OFFSET UNITYSDK_OFFSET(0x15A45410)
-#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_METHOD_8_D78B51BFDA4B8B32_OFFSET UNITYSDK_OFFSET(0x15A45A00)
-#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN__CTOR_OFFSET UNITYSDK_OFFSET(0x15A458C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_METHOD_8_489E0B827662C211_OFFSET UNITYSDK_OFFSET(0xCCB9C80)
+#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN__CTOR_OFFSET UNITYSDK_OFFSET(0xCCBA130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginEffectScan_TypeDefinitionIndex = 65455;
+	inline static constexpr unsigned int MonoEffectPluginEffectScan_TypeDefinitionIndex = 66868;
 
 	class MonoEffectPluginEffectScan : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
@@ -42,11 +41,6 @@ namespace RPG::Client
 		::System::Void Method_8_489E0B827662C211()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_METHOD_8_489E0B827662C211_OFFSET))(this);
-		}
-
-		::System::Void Method_8_D78B51BFDA4B8B32()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_METHOD_8_D78B51BFDA4B8B32_OFFSET))(this);
 		}
 	};
 }

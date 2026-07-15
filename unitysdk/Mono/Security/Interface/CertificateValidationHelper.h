@@ -6,23 +6,23 @@ namespace Mono::Security::Interface { class ICertificateValidator2; }
 namespace Mono::Security::Interface { class MonoTlsProvider; }
 namespace Mono::Security::Interface { class MonoTlsSettings; }
 
-#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x19CC2630)
-#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CC2590)
+#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x19F227A0)
+#define MONO_SECURITY_INTERFACE_CERTIFICATEVALIDATIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F22700)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int CertificateValidationHelper_TypeDefinitionIndex = 2276;
+	inline static constexpr unsigned int CertificateValidationHelper_TypeDefinitionIndex = 2280;
 
 	class CertificateValidationHelper : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_supportsTrustAnchors()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x8A20);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x7700);
 		}
 		static ::System::Boolean* StaticGet_noX509Chain()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x8A21);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CertificateValidationHelper_TypeDefinitionIndex)->GetStaticField(0x7701);
 		}
 
 		static ::System::Void _cctor()

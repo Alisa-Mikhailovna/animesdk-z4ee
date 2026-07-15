@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STARTCHIMERAWORKROUND_METHOD_3_4ED8441665218448_OFFSET UNITYSDK_OFFSET(0x19348470)
-#define RPG_GAMECORE_STARTCHIMERAWORKROUND_METHOD_3_9401EE6F1DAD0751_OFFSET UNITYSDK_OFFSET(0x193483F0)
-#define RPG_GAMECORE_STARTCHIMERAWORKROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19348440)
+#define RPG_GAMECORE_STARTCHIMERAWORKROUND_METHOD_3_4ED8441665218448_OFFSET UNITYSDK_OFFSET(0x1B9094A0)
+#define RPG_GAMECORE_STARTCHIMERAWORKROUND_METHOD_3_7327A13E01ECEBE3_OFFSET UNITYSDK_OFFSET(0x1B909460)
+#define RPG_GAMECORE_STARTCHIMERAWORKROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B909490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartChimeraWorkRound_TypeDefinitionIndex = 20514;
+	inline static constexpr unsigned int StartChimeraWorkRound_TypeDefinitionIndex = 20929;
 
 	class StartChimeraWorkRound : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTCHIMERAWORKROUND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9401EE6F1DAD0751(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartChimeraWorkRound*& a2)
+		static ::System::Void Method_3_7327A13E01ECEBE3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartChimeraWorkRound*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartChimeraWorkRound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTCHIMERAWORKROUND_METHOD_3_9401EE6F1DAD0751_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartChimeraWorkRound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTCHIMERAWORKROUND_METHOD_3_7327A13E01ECEBE3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4ED8441665218448(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartChimeraWorkRound* a2)

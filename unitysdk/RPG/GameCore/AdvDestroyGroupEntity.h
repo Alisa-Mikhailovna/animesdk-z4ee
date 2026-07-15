@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVDESTROYGROUPENTITY_METHOD_3_6734656274AFE3CC_OFFSET UNITYSDK_OFFSET(0x1955F430)
-#define RPG_GAMECORE_ADVDESTROYGROUPENTITY_METHOD_3_FF5340F62945CD5D_OFFSET UNITYSDK_OFFSET(0x1955F4B0)
-#define RPG_GAMECORE_ADVDESTROYGROUPENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1955F480)
+#define RPG_GAMECORE_ADVDESTROYGROUPENTITY_METHOD_3_7A88BA049B28285E_OFFSET UNITYSDK_OFFSET(0x1B14E790)
+#define RPG_GAMECORE_ADVDESTROYGROUPENTITY_METHOD_3_FF5340F62945CD5D_OFFSET UNITYSDK_OFFSET(0x1B14E7D0)
+#define RPG_GAMECORE_ADVDESTROYGROUPENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B14E7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvDestroyGroupEntity_TypeDefinitionIndex = 19148;
+	inline static constexpr unsigned int AdvDestroyGroupEntity_TypeDefinitionIndex = 19504;
 
 	class AdvDestroyGroupEntity : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYGROUPENTITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6734656274AFE3CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDestroyGroupEntity*& a2)
+		static ::System::Void Method_3_7A88BA049B28285E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDestroyGroupEntity*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDestroyGroupEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYGROUPENTITY_METHOD_3_6734656274AFE3CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDestroyGroupEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDESTROYGROUPENTITY_METHOD_3_7A88BA049B28285E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FF5340F62945CD5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDestroyGroupEntity* a2)

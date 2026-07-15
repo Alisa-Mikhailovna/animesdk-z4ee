@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_1805F7E419C041B6_OFFSET UNITYSDK_OFFSET(0x19D13D30)
-#define RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_3956DD3B8FC1BA5D_OFFSET UNITYSDK_OFFSET(0x19D13E70)
-#define RPG_GAMECORE_PARAMCLAMPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D13DF0)
+#define RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_DD6FEEA78A5410A3_OFFSET UNITYSDK_OFFSET(0x1B6878E0)
+#define RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_F266B0202DA1CB87_OFFSET UNITYSDK_OFFSET(0x1B687880)
+#define RPG_GAMECORE_PARAMCLAMPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6878D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamClampConfig_TypeDefinitionIndex = 16224;
+	inline static constexpr unsigned int ParamClampConfig_TypeDefinitionIndex = 16408;
 
 	class ParamClampConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMCLAMPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_1805F7E419C041B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamClampConfig*& a2)
+		static ::System::Void Method_4_F266B0202DA1CB87(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamClampConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamClampConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_1805F7E419C041B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamClampConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_F266B0202DA1CB87_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3956DD3B8FC1BA5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamClampConfig* a2)
+		static ::System::Void Method_4_DD6FEEA78A5410A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamClampConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamClampConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_3956DD3B8FC1BA5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamClampConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMCLAMPCONFIG_METHOD_4_DD6FEEA78A5410A3_OFFSET))(a1, a2);
 		}
 	};
 }

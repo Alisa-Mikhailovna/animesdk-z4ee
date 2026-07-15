@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowPropSceneObjClickHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F9166D82F84FD216_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12044440)
-#define CLASS_3_F9166D82F84FD216__CTOR_OFFSET UNITYSDK_OFFSET(0x12044410)
+#define CLASS_3_F9166D82F84FD216_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7630A0)
+#define CLASS_3_F9166D82F84FD216__CTOR_OFFSET UNITYSDK_OFFSET(0xB763070)
 
-inline static constexpr unsigned int Class_3_F9166D82F84FD216_TypeDefinitionIndex = 49802;
+inline static constexpr unsigned int Class_3_F9166D82F84FD216_TypeDefinitionIndex = 50857;
 
 class Class_3_F9166D82F84FD216 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowPropSceneObjClickHint*>
 {

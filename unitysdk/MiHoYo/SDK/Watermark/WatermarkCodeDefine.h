@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKCODEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3CF40)
+#define MIHOYO_SDK_WATERMARK_WATERMARKCODEDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E4AAF0)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkCodeDefine_TypeDefinitionIndex = 8525;
+	inline static constexpr unsigned int WatermarkCodeDefine_TypeDefinitionIndex = 8537;
 
 	class WatermarkCodeDefine : public ::System::Object
 	{

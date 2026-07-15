@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_RADIALBLURPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x372FBC0)
-#define RPG_CUSTOMRP_PPFILTERSTACK_RADIALBLURPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x372FB50)
+#define RPG_CUSTOMRP_PPFILTERSTACK_RADIALBLURPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x155380)
+#define RPG_CUSTOMRP_PPFILTERSTACK_RADIALBLURPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x155310)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_RadialBlurParameter_TypeDefinitionIndex = 48478;
+	inline static constexpr unsigned int PPFilterStack_RadialBlurParameter_TypeDefinitionIndex = 49491;
 
 	struct alignas(4) PPFilterStack_RadialBlurParameter
 	{

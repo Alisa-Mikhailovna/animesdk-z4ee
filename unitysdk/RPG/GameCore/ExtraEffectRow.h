@@ -7,22 +7,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EXTRAEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3FF810)
-#define RPG_GAMECORE_EXTRAEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FFFB0)
+#define RPG_GAMECORE_EXTRAEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B405720)
+#define RPG_GAMECORE_EXTRAEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B405EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExtraEffectRow_TypeDefinitionIndex = 12633;
+	inline static constexpr unsigned int ExtraEffectRow_TypeDefinitionIndex = 12770;
 
 	class ExtraEffectRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParamList; // 0x10
-		::System::String* ExtraEffectIconPath; // 0x18
-		::RPG::Client::TextID ExtraEffectName; // 0x20
-		::RPG::Client::TextID ExtraEffectDesc; // 0x30
-		::System::UInt32 ExtraEffectType; // 0x40
-		::System::UInt32 ExtraEffectID; // 0x44
+		::System::String* ExtraEffectIconPath; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParamList; // 0x18
+		::System::UInt32 ExtraEffectID; // 0x20
+		::System::UInt32 ExtraEffectType; // 0x24
+		::RPG::Client::TextID ExtraEffectName; // 0x28
+		::RPG::Client::TextID ExtraEffectDesc; // 0x38
 
 		::System::Void _ctor()
 		{

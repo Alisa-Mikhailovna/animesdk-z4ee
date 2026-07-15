@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_SETTARGETTRANSFORMARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5C900)
+#define RPGTOOLS_TIMELINE_SETTARGETTRANSFORMARGUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xDD18390)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetTargetTransformArgument_TypeDefinitionIndex = 45697;
+	inline static constexpr unsigned int SetTargetTransformArgument_TypeDefinitionIndex = 46635;
 
 	class SetTargetTransformArgument : public ::System::Object
 	{

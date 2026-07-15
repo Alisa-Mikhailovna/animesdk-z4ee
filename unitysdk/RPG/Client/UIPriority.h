@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPriority_TypeDefinitionIndex = 68214;
+	inline static constexpr unsigned int UIPriority_TypeDefinitionIndex = 69703;
 
 	enum class UIPriority : ::System::Int32
 	{

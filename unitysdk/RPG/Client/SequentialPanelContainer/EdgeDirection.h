@@ -3,7 +3,7 @@
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int EdgeDirection_TypeDefinitionIndex = 69786;
+	inline static constexpr unsigned int EdgeDirection_TypeDefinitionIndex = 71309;
 
 	enum class EdgeDirection : ::System::Int32
 	{

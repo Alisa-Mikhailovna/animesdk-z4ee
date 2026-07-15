@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByDamageSourceContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_32F24BEDEA0E5443_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13F2D0E0)
-#define CLASS_3_32F24BEDEA0E5443__CTOR_OFFSET UNITYSDK_OFFSET(0x13F2D0B0)
+#define CLASS_3_32F24BEDEA0E5443_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA31300)
+#define CLASS_3_32F24BEDEA0E5443__CTOR_OFFSET UNITYSDK_OFFSET(0xBA312D0)
 
-inline static constexpr unsigned int Class_3_32F24BEDEA0E5443_TypeDefinitionIndex = 51043;
+inline static constexpr unsigned int Class_3_32F24BEDEA0E5443_TypeDefinitionIndex = 52128;
 
 class Class_3_32F24BEDEA0E5443 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByDamageSourceContainBehaviorFlag*>
 {

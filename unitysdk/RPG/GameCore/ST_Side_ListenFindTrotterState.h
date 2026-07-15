@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE_METHOD_4_5E2DE80A0AB6546D_OFFSET UNITYSDK_OFFSET(0x1A173D80)
-#define RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE_METHOD_4_9970E3BE71C44C01_OFFSET UNITYSDK_OFFSET(0x1A1832E0)
-#define RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A173D20)
+#define RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE_METHOD_4_441A8CE2D37B8AA8_OFFSET UNITYSDK_OFFSET(0x1B7E2F50)
+#define RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE_METHOD_4_5E2DE80A0AB6546D_OFFSET UNITYSDK_OFFSET(0x1B7E2FA0)
+#define RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E2F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_ListenFindTrotterState_TypeDefinitionIndex = 19008;
+	inline static constexpr unsigned int ST_Side_ListenFindTrotterState_TypeDefinitionIndex = 19359;
 
 	class ST_Side_ListenFindTrotterState : public ::RPG::GameCore::STTaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9970E3BE71C44C01(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ListenFindTrotterState*& a2)
+		static ::System::Void Method_4_441A8CE2D37B8AA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ListenFindTrotterState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_ListenFindTrotterState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE_METHOD_4_9970E3BE71C44C01_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_ListenFindTrotterState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_LISTENFINDTROTTERSTATE_METHOD_4_441A8CE2D37B8AA8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_5E2DE80A0AB6546D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ListenFindTrotterState* a2)

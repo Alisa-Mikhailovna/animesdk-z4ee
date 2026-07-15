@@ -18,58 +18,58 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_TEXTICONS_CLEAR_OFFSET UNITYSDK_OFFSET(0x14201420)
-#define RPG_CLIENT_TEXTICONS_CULL_OFFSET UNITYSDK_OFFSET(0x14201360)
-#define RPG_CLIENT_TEXTICONS_GET_ICONS_OFFSET UNITYSDK_OFFSET(0x141FEC70)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_1AD65660482C5A23_OFFSET UNITYSDK_OFFSET(0x14205530)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x141FEF60)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_5CD32D1F374D28BF_OFFSET UNITYSDK_OFFSET(0x142047D0)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_66CC9828DB1F478F_OFFSET UNITYSDK_OFFSET(0x14201C80)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_9799E6C85CA57A57_OFFSET UNITYSDK_OFFSET(0x142036C0)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0x141FF9A0)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_C1BDB0F7E3797524_OFFSET UNITYSDK_OFFSET(0x14202F70)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_EC0BCC59F80EF3FE_OFFSET UNITYSDK_OFFSET(0x142018F0)
-#define RPG_CLIENT_TEXTICONS_METHOD_5_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0x14200D70)
-#define RPG_CLIENT_TEXTICONS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x141FF160)
-#define RPG_CLIENT_TEXTICONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x141FEC90)
-#define RPG_CLIENT_TEXTICONS_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0x142013C0)
-#define RPG_CLIENT_TEXTICONS_SET_ICONS_OFFSET UNITYSDK_OFFSET(0x141FEC80)
-#define RPG_CLIENT_TEXTICONS_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x141FFB20)
-#define RPG_CLIENT_TEXTICONS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x14201130)
-#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_0_OFFSET UNITYSDK_OFFSET(0x14205760)
-#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_1_OFFSET UNITYSDK_OFFSET(0x142057B0)
-#define RPG_CLIENT_TEXTICONS__CTOR_OFFSET UNITYSDK_OFFSET(0x14205720)
+#define RPG_CLIENT_TEXTICONS_CLEAR_OFFSET UNITYSDK_OFFSET(0xD67BB40)
+#define RPG_CLIENT_TEXTICONS_CULL_OFFSET UNITYSDK_OFFSET(0xD67BA80)
+#define RPG_CLIENT_TEXTICONS_GET_ICONS_OFFSET UNITYSDK_OFFSET(0xD679200)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xD679590)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_1AD65660482C5A23_OFFSET UNITYSDK_OFFSET(0xD67FF00)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xD67A1D0)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_9799E6C85CA57A57_OFFSET UNITYSDK_OFFSET(0xD67E020)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_E3C6744E0B066898_OFFSET UNITYSDK_OFFSET(0xD67F160)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_E876C8B6D3B840A6_OFFSET UNITYSDK_OFFSET(0xD67C550)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_EC0BCC59F80EF3FE_OFFSET UNITYSDK_OFFSET(0xD67C1C0)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0xD67B490)
+#define RPG_CLIENT_TEXTICONS_METHOD_5_F740F753EED2BABD_OFFSET UNITYSDK_OFFSET(0xD67D730)
+#define RPG_CLIENT_TEXTICONS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD679800)
+#define RPG_CLIENT_TEXTICONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD679290)
+#define RPG_CLIENT_TEXTICONS_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0xD67BAE0)
+#define RPG_CLIENT_TEXTICONS_SET_ICONS_OFFSET UNITYSDK_OFFSET(0xD679240)
+#define RPG_CLIENT_TEXTICONS_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0xD67A3C0)
+#define RPG_CLIENT_TEXTICONS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD67B850)
+#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_0_OFFSET UNITYSDK_OFFSET(0xD680130)
+#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_1_OFFSET UNITYSDK_OFFSET(0xD680180)
+#define RPG_CLIENT_TEXTICONS__CTOR_OFFSET UNITYSDK_OFFSET(0xD6800F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_TypeDefinitionIndex = 67903;
+	inline static constexpr unsigned int TextIcons_TypeDefinitionIndex = 69389;
 
 	class TextIcons : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet_Field_5_0()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>** StaticGet_Field_5_0()
 		{
-			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4E3E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423E0);
 		}
-		static ::UnityEngine::Mesh** StaticGet_Field_5_1()
+		static ::UnityEngine::Material** StaticGet_Field_5_1()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4E3E8);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423E8);
 		}
-		static ::UnityEngine::Material** StaticGet_Field_5_2()
+		static ::UnityEngine::Texture** StaticGet_Field_5_2()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4E3F0);
+			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423F0);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>** StaticGet_Field_5_3()
+		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet_Field_5_3()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4E3F8);
+			return (::Il2CppArray<::UnityEngine::UIVertex>**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x423F8);
 		}
-		static ::UnityEngine::Texture** StaticGet_Field_5_4()
+		static ::UnityEngine::Mesh** StaticGet_Field_5_4()
 		{
-			return (::UnityEngine::Texture**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x4E400);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0x42400);
 		}
 		static ::System::Int32* StaticGet_Field_5_5()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0xEF80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextIcons_TypeDefinitionIndex)->GetStaticField(0xA750);
 		}
 		// static const ::System::Int32 Field_5_6 = 0x4; // 0x0
 		::Il2CppArray<::UnityEngine::Sprite*>* m_Icons; // 0x18
@@ -145,14 +145,14 @@ namespace RPG::Client
 			return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_EC0BCC59F80EF3FE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_66CC9828DB1F478F()
+		::System::Void Method_5_E876C8B6D3B840A6()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_66CC9828DB1F478F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_E876C8B6D3B840A6_OFFSET))(this);
 		}
 
-		::System::Void Method_5_5CD32D1F374D28BF(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Pooled::PooledList_1<::System::Int32>* a3)
+		::System::Void Method_5_E3C6744E0B066898(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Pooled::PooledList_1<::System::Int32>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_5CD32D1F374D28BF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_E3C6744E0B066898_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_5_9799E6C85CA57A57(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Pooled::PooledList_1<::System::Int32>* a3)
@@ -160,14 +160,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_9799E6C85CA57A57_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void Method_5_33ACA6CB2ABC73F7()
+		static ::System::Void Method_5_151E25A63D14DDB0()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_33ACA6CB2ABC73F7_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_151E25A63D14DDB0_OFFSET))();
 		}
 
-		static ::System::Void Method_5_A1ADC999CFACEB89()
+		static ::System::Void Method_5_508D4DD02D3DB74E()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_A1ADC999CFACEB89_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_508D4DD02D3DB74E_OFFSET))();
 		}
 
 		static ::System::Void Method_5_1AD65660482C5A23(::UnityEngine::Texture2D* a1)
@@ -175,9 +175,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_1AD65660482C5A23_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_5_C1BDB0F7E3797524(::Il2CppArray<::RPG::Client::TextIcons_Struct_2_126A1A9085C0C7D8>*& a1, ::Il2CppArray<::UnityEngine::Sprite*>* a2)
+		static ::System::Boolean Method_5_F740F753EED2BABD(::Il2CppArray<::RPG::Client::TextIcons_Struct_2_126A1A9085C0C7D8>*& a1, ::Il2CppArray<::UnityEngine::Sprite*>* a2)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::RPG::Client::TextIcons_Struct_2_126A1A9085C0C7D8>*&, ::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_C1BDB0F7E3797524_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::Il2CppArray<::RPG::Client::TextIcons_Struct_2_126A1A9085C0C7D8>*&, ::Il2CppArray<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTICONS_METHOD_5_F740F753EED2BABD_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean _BuildIconAtlas_b__13_0(::System::Int32 a1)

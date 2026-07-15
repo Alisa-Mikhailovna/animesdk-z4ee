@@ -6,29 +6,29 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace TMPro { class TMP_SpriteCharacter; }
 namespace TMPro { class TMP_SpriteGlyph; }
 
-#define TMPRO_TMP_SPRITEASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x155ED170)
-#define TMPRO_TMP_SPRITEASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x155ED1B0)
-#define TMPRO_TMP_SPRITEASSET___C__SORTCHARACTERTABLE_B__40_0_OFFSET UNITYSDK_OFFSET(0x155ED1E0)
-#define TMPRO_TMP_SPRITEASSET___C__SORTGLYPHTABLE_B__39_0_OFFSET UNITYSDK_OFFSET(0x155ED1C0)
+#define TMPRO_TMP_SPRITEASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF54030)
+#define TMPRO_TMP_SPRITEASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF54070)
+#define TMPRO_TMP_SPRITEASSET___C__SORTCHARACTERTABLE_B__40_0_OFFSET UNITYSDK_OFFSET(0x1CF540A0)
+#define TMPRO_TMP_SPRITEASSET___C__SORTGLYPHTABLE_B__39_0_OFFSET UNITYSDK_OFFSET(0x1CF54080)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteAsset___c_TypeDefinitionIndex = 41018;
+	inline static constexpr unsigned int TMP_SpriteAsset___c_TypeDefinitionIndex = 41833;
 
 	class TMP_SpriteAsset___c : public ::System::Object
 	{
 	public:
-		static ::TMPro::TMP_SpriteAsset___c** StaticGet___9()
+		static ::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>** StaticGet___9__39_0()
 		{
-			return (::TMPro::TMP_SpriteAsset___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_SpriteAsset___c_TypeDefinitionIndex)->GetStaticField(0x537B0);
+			return (::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_SpriteAsset___c_TypeDefinitionIndex)->GetStaticField(0x53E70);
 		}
 		static ::System::Func_2<::TMPro::TMP_SpriteCharacter*, ::System::UInt32>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::TMPro::TMP_SpriteCharacter*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_SpriteAsset___c_TypeDefinitionIndex)->GetStaticField(0x537B8);
+			return (::System::Func_2<::TMPro::TMP_SpriteCharacter*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_SpriteAsset___c_TypeDefinitionIndex)->GetStaticField(0x53E78);
 		}
-		static ::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>** StaticGet___9__39_0()
+		static ::TMPro::TMP_SpriteAsset___c** StaticGet___9()
 		{
-			return (::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_SpriteAsset___c_TypeDefinitionIndex)->GetStaticField(0x537C0);
+			return (::TMPro::TMP_SpriteAsset___c**)Il2CppClass::FromTypeDefinitionIndex(TMP_SpriteAsset___c_TypeDefinitionIndex)->GetStaticField(0x53E80);
 		}
 
 		static ::System::Void _cctor()

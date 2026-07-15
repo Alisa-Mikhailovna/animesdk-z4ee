@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3F7F80)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F8680)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3FDF10)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3FE600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildTutorialConfigRow_TypeDefinitionIndex = 10993;
+	inline static constexpr unsigned int EvolveBuildTutorialConfigRow_TypeDefinitionIndex = 11043;
 
 	class EvolveBuildTutorialConfigRow : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PS4BINDMOBILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1742D0C0)
+#define MIHOYO_SDK_PS4BINDMOBILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DB76C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PS4BindMobileConfig_TypeDefinitionIndex = 7872;
+	inline static constexpr unsigned int PS4BindMobileConfig_TypeDefinitionIndex = 7878;
 
 	class PS4BindMobileConfig : public ::System::Object
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMSETPARAMETER_METHOD_3_408F2AD73C812A87_OFFSET UNITYSDK_OFFSET(0x18BDB900)
-#define RPG_GAMECORE_ANIMSETPARAMETER_METHOD_3_A6135AD40564B013_OFFSET UNITYSDK_OFFSET(0x18BDB9F0)
-#define RPG_GAMECORE_ANIMSETPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDB940)
+#define RPG_GAMECORE_ANIMSETPARAMETER_METHOD_3_A6135AD40564B013_OFFSET UNITYSDK_OFFSET(0x1B1A5450)
+#define RPG_GAMECORE_ANIMSETPARAMETER_METHOD_3_A63EF374B969ECDB_OFFSET UNITYSDK_OFFSET(0x1B1A5310)
+#define RPG_GAMECORE_ANIMSETPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A53C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimSetParameter_TypeDefinitionIndex = 19455;
+	inline static constexpr unsigned int AnimSetParameter_TypeDefinitionIndex = 19813;
 
 	class AnimSetParameter : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMSETPARAMETER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_408F2AD73C812A87(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimSetParameter*& a2)
+		static ::System::Void Method_3_A63EF374B969ECDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimSetParameter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimSetParameter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMSETPARAMETER_METHOD_3_408F2AD73C812A87_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimSetParameter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMSETPARAMETER_METHOD_3_A63EF374B969ECDB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A6135AD40564B013(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimSetParameter* a2)

@@ -8,39 +8,39 @@ namespace System::Xml::Schema { class ContentValidator; }
 namespace System::Xml::Schema { class XmlSchemaAnyAttribute; }
 namespace System::Xml::Schema { class XmlSchemaParticle; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CREATEANYTYPE_OFFSET UNITYSDK_OFFSET(0x1847A500)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPECONTENTVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1847ABD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPE_OFFSET UNITYSDK_OFFSET(0x1847B2C0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_CONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1847B320)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETATTRIBUTEWILDCARD_OFFSET UNITYSDK_OFFSET(0x1847B340)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETCONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1847B330)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SET_ISMIXED_OFFSET UNITYSDK_OFFSET(0x1847ABA0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1847A1B0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1847AAB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_CREATEANYTYPE_OFFSET UNITYSDK_OFFSET(0x1CB73EF0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPECONTENTVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1CB745A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_ANYTYPE_OFFSET UNITYSDK_OFFSET(0x1CB74CE0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_GET_CONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1CB74D40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETATTRIBUTEWILDCARD_OFFSET UNITYSDK_OFFSET(0x1CB74D60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SETCONTENTTYPEPARTICLE_OFFSET UNITYSDK_OFFSET(0x1CB74D50)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE_SET_ISMIXED_OFFSET UNITYSDK_OFFSET(0x1CB74570)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB73BB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACOMPLEXTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB74480)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaComplexType_TypeDefinitionIndex = 2179;
+	inline static constexpr unsigned int XmlSchemaComplexType_TypeDefinitionIndex = 2183;
 
 	class XmlSchemaComplexType : public ::System::Xml::Schema::XmlSchemaType
 	{
 	public:
-		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_anyTypeSkip()
-		{
-			return (::System::Xml::Schema::XmlSchemaComplexType**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaComplexType_TypeDefinitionIndex)->GetStaticField(0x15B50);
-		}
 		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_anyTypeLax()
 		{
-			return (::System::Xml::Schema::XmlSchemaComplexType**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaComplexType_TypeDefinitionIndex)->GetStaticField(0x15B58);
+			return (::System::Xml::Schema::XmlSchemaComplexType**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaComplexType_TypeDefinitionIndex)->GetStaticField(0x23100);
 		}
 		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_untypedAnyType()
 		{
-			return (::System::Xml::Schema::XmlSchemaComplexType**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaComplexType_TypeDefinitionIndex)->GetStaticField(0x15B60);
+			return (::System::Xml::Schema::XmlSchemaComplexType**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaComplexType_TypeDefinitionIndex)->GetStaticField(0x23108);
+		}
+		static ::System::Xml::Schema::XmlSchemaComplexType** StaticGet_anyTypeSkip()
+		{
+			return (::System::Xml::Schema::XmlSchemaComplexType**)Il2CppClass::FromTypeDefinitionIndex(XmlSchemaComplexType_TypeDefinitionIndex)->GetStaticField(0x23110);
 		}
 		::System::Xml::Schema::XmlSchemaAnyAttribute* attributeWildcard; // 0x40
 		::System::Xml::Schema::XmlSchemaParticle* contentTypeParticle; // 0x48
-		::System::Byte pvFlags; // 0x50
-		::System::Xml::Schema::XmlSchemaDerivationMethod block; // 0x54
+		::System::Xml::Schema::XmlSchemaDerivationMethod block; // 0x50
+		::System::Byte pvFlags; // 0x54
 
 		static ::System::Void _cctor()
 		{

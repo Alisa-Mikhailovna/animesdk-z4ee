@@ -5,24 +5,24 @@
 namespace RPG::Client { class GpuParticleOccluder; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CALCULATEOBBAABBINTERSECTIONS_B__56_0_OFFSET UNITYSDK_OFFSET(0x13BC2050)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13BC2000)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13BC2040)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CALCULATEOBBAABBINTERSECTIONS_B__56_0_OFFSET UNITYSDK_OFFSET(0x144DBE90)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x144DBE40)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x144DBE80)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty___c_TypeDefinitionIndex = 46782;
+	inline static constexpr unsigned int EnviroGpuParticleProperty___c_TypeDefinitionIndex = 47747;
 
 	class EnviroGpuParticleProperty___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>** StaticGet___9__56_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0x3FDE0);
-		}
 		static ::EnviromentSystem::EnviroGpuParticleProperty___c** StaticGet___9()
 		{
-			return (::EnviromentSystem::EnviroGpuParticleProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0x3FDE8);
+			return (::EnviromentSystem::EnviroGpuParticleProperty___c**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0x379D0);
+		}
+		static ::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>** StaticGet___9__56_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty___c_TypeDefinitionIndex)->GetStaticField(0x379D8);
 		}
 
 		static ::System::Void _cctor()

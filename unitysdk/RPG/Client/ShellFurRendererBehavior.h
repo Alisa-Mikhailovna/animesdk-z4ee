@@ -9,92 +9,83 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1754F790)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x1754F0C0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1754F260)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_39FD7185C859CEAD_OFFSET UNITYSDK_OFFSET(0x1754F2F0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x1754EF80)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x1754F730)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1754EF10)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x1754FE40)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x1754FEA0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x1754FF00)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x1754FFC0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x17550020)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET UNITYSDK_OFFSET(0x17550080)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1754FDE0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0x1754E4D0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0x1754F150)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_9681042564541CD6_2_OFFSET UNITYSDK_OFFSET(0x1754F1E0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1754E430)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_AFDC576A9606B859_OFFSET UNITYSDK_OFFSET(0x1754E590)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x1754F670)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1754F2A0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x1754EFE0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x1754FF60)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0x1754F7D0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1754FCE0)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1754FC70)
-#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x175500E0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xD4F0910)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xD4F0240)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD4F03E0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_39FD7185C859CEAD_OFFSET UNITYSDK_OFFSET(0xD4F0470)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xD4F0100)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xD4F08B0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD4F0090)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0xD4EF650)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0xD4F02D0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_9681042564541CD6_2_OFFSET UNITYSDK_OFFSET(0xD4F0360)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD4EF5B0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_AFDC576A9606B859_OFFSET UNITYSDK_OFFSET(0xD4EF710)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xD4F07F0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD4F0420)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xD4F0160)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xD4F0950)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xD4F0EC0)
+#define RPG_CLIENT_SHELLFURRENDERERBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD4F0E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShellFurRendererBehavior_TypeDefinitionIndex = 66325;
+	inline static constexpr unsigned int ShellFurRendererBehavior_TypeDefinitionIndex = 67750;
 
 	class ShellFurRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__FurLength_ID()
+		static ::System::Int32* StaticGet__WindDir_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2C0);
-		}
-		static ::System::Int32* StaticGet__WindNoiseScale_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2C4);
-		}
-		static ::System::Int32* StaticGet__NoiseMap_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2C8);
-		}
-		static ::System::Int32* StaticGet__RootColor_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2CC);
-		}
-		static ::System::Int32* StaticGet__SmoothnessScale_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2D0);
-		}
-		static ::System::Int32* StaticGet__TopColor_ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84D0);
 		}
 		static ::System::Int32* StaticGet__RootSmoothnessScale_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84D4);
 		}
-		static ::System::Int32* StaticGet__MainTex_ID()
+		static ::System::Int32* StaticGet__RootColor_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2DC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84D8);
 		}
 		static ::System::Int32* StaticGet__FurDither_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2E0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84DC);
 		}
-		static ::System::Int32* StaticGet__WindDir_ID()
+		static ::System::Int32* StaticGet__NoiseMap_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2E4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84E0);
 		}
-		static ::System::Int32* StaticGet__QTangent_Off_ID()
+		static ::System::Int32* StaticGet__WindNoiseScale_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2E8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84E4);
+		}
+		static ::System::Int32* StaticGet__FurLength_ID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84E8);
+		}
+		static ::System::Int32* StaticGet__TopColor_ID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84EC);
+		}
+		static ::System::Int32* StaticGet__MainTex_ID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84F0);
+		}
+		static ::System::Int32* StaticGet__SmoothnessScale_ID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84F4);
 		}
 		static ::System::Int32* StaticGet__FurDitherID_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2EC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84F8);
+		}
+		static ::System::Int32* StaticGet__QTangent_Off_ID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x84FC);
 		}
 		static ::System::Int32* StaticGet__FurMaskTex_ID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0xC2F0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ShellFurRendererBehavior_TypeDefinitionIndex)->GetStaticField(0x8500);
 		}
 		::System::Boolean hasUpdateRenderMatrix; // 0x38
 		::UnityEngine::Mesh* m_Mesh; // 0x40
@@ -191,51 +182,6 @@ namespace RPG::Client
 		::RPG::Client::ShellFurRendererMonoPlugin* get__OwnerMonoPlugin()
 		{
 			return ((::RPG::Client::ShellFurRendererMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_1()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_2()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_3()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
-		}
-
-		::System::Boolean Method_3_F0E307B84478A272()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_4()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_5()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_6()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERBEHAVIOR___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 		}
 	};
 }

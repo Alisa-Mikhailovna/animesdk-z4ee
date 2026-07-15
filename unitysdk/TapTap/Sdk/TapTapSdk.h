@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define TAPTAP_SDK_TAPTAPSDK_GET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x1B46EE50)
-#define TAPTAP_SDK_TAPTAPSDK_SDKINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B46EEC0)
-#define TAPTAP_SDK_TAPTAPSDK_SET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x1B46EE80)
-#define TAPTAP_SDK_TAPTAPSDK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B46EF10)
+#define TAPTAP_SDK_TAPTAPSDK_GET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x1CD8F5B0)
+#define TAPTAP_SDK_TAPTAPSDK_SDKINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD8F620)
+#define TAPTAP_SDK_TAPTAPSDK_SET_CLIENTID_OFFSET UNITYSDK_OFFSET(0x1CD8F5E0)
+#define TAPTAP_SDK_TAPTAPSDK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD8F670)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int TapTapSdk_TypeDefinitionIndex = 7075;
+	inline static constexpr unsigned int TapTapSdk_TypeDefinitionIndex = 7081;
 
 	class TapTapSdk : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_VERSION()
+		static ::System::String** StaticGet__ClientId_k__BackingField()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TapTapSdk_TypeDefinitionIndex)->GetStaticField(0x540);
 		}
-		static ::System::String** StaticGet__ClientId_k__BackingField()
+		static ::System::String** StaticGet_VERSION()
 		{
 			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TapTapSdk_TypeDefinitionIndex)->GetStaticField(0x548);
 		}

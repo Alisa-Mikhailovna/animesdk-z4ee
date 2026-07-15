@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19547F70)
-#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19548620)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B136ED0)
+#define RPG_GAMECORE_ACTIVITYTELEVISIONQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B137580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityTelevisionQuestRow_TypeDefinitionIndex = 11899;
+	inline static constexpr unsigned int ActivityTelevisionQuestRow_TypeDefinitionIndex = 12031;
 
 	class ActivityTelevisionQuestRow : public ::System::Object
 	{

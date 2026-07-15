@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_GETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1746D760)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_SETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1746D800)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1746D8A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1746D890)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_GETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1A205500)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE_SETCACHEDVALUE_OFFSET UNITYSDK_OFFSET(0x1A2055A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A205640)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_NAMECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A205630)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int NameCache_TypeDefinitionIndex = 1187;
+	inline static constexpr unsigned int NameCache_TypeDefinitionIndex = 1189;
 
 	class NameCache : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Object*>** StaticGet_ht()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NameCache_TypeDefinitionIndex)->GetStaticField(0xDFC0);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(NameCache_TypeDefinitionIndex)->GetStaticField(0x18DA0);
 		}
 		::System::String* name; // 0x10
 

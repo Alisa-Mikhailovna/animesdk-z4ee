@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_COPYCMDCMP_EQUALS_OFFSET UNITYSDK_OFFSET(0x374EF60)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_COPYCMDCMP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x374EF70)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_COPYCMDCMP_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A41430)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_COPYCMDCMP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3A41440)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyCmdCmp_TypeDefinitionIndex = 5975;
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_CopyCmdCmp_TypeDefinitionIndex = 5980;
 
 	struct alignas(1) RuntimeAtlasManager_RuntimeAtlas_CopyCmdCmp
 	{

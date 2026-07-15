@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STORYATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19352CC0)
-#define RPG_GAMECORE_STORYATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19352F40)
+#define RPG_GAMECORE_STORYATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B913380)
+#define RPG_GAMECORE_STORYATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B913600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryAtlasRow_TypeDefinitionIndex = 12076;
+	inline static constexpr unsigned int StoryAtlasRow_TypeDefinitionIndex = 12208;
 
 	class StoryAtlasRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Story; // 0x10
-		::System::Int32 SortID; // 0x20
-		::System::UInt32 AvatarID; // 0x24
+		::System::UInt32 StoryID; // 0x10
+		::System::UInt32 AvatarID; // 0x14
+		::RPG::Client::TextID Story; // 0x18
 		::System::UInt32 Unlock; // 0x28
 		::System::UInt32 ReplaceID; // 0x2C
-		::System::UInt32 StoryID; // 0x30
+		::System::Int32 SortID; // 0x30
 
 		::System::Void _ctor()
 		{

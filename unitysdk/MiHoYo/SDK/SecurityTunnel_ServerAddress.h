@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_SERVERADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x385C9D0)
-#define MIHOYO_SDK_SECURITYTUNNEL_SERVERADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x385CA50)
+#define MIHOYO_SDK_SECURITYTUNNEL_SERVERADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x2CF90)
+#define MIHOYO_SDK_SECURITYTUNNEL_SERVERADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2D010)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ServerAddress_TypeDefinitionIndex = 43799;
+	inline static constexpr unsigned int SecurityTunnel_ServerAddress_TypeDefinitionIndex = 44661;
 
 	struct alignas(8) SecurityTunnel_ServerAddress
 	{

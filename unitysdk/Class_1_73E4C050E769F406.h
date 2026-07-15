@@ -7,19 +7,19 @@ namespace RPG::Client { class UIController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_73E4C050E769F406_METHOD_1_515532DD37B179A7_OFFSET UNITYSDK_OFFSET(0x14EE2680)
-#define CLASS_1_73E4C050E769F406_METHOD_1_78C62398E94F0FB1_OFFSET UNITYSDK_OFFSET(0x14EE29D0)
-#define CLASS_1_73E4C050E769F406_METHOD_1_92F06F6AE7B67C06_OFFSET UNITYSDK_OFFSET(0x14EE26E0)
-#define CLASS_1_73E4C050E769F406__CTOR_OFFSET UNITYSDK_OFFSET(0x14EE2AD0)
+#define CLASS_1_73E4C050E769F406_METHOD_1_515532DD37B179A7_OFFSET UNITYSDK_OFFSET(0xCAB7330)
+#define CLASS_1_73E4C050E769F406_METHOD_1_78C62398E94F0FB1_OFFSET UNITYSDK_OFFSET(0xCAB7680)
+#define CLASS_1_73E4C050E769F406_METHOD_1_92F06F6AE7B67C06_OFFSET UNITYSDK_OFFSET(0xCAB7390)
+#define CLASS_1_73E4C050E769F406__CTOR_OFFSET UNITYSDK_OFFSET(0xCAB7780)
 
-inline static constexpr unsigned int Class_1_73E4C050E769F406_TypeDefinitionIndex = 66964;
+inline static constexpr unsigned int Class_1_73E4C050E769F406_TypeDefinitionIndex = 68408;
 
 class Class_1_73E4C050E769F406 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::RPG::Client::UIController* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_2EB1F8F44CF44F1F*>* Field_1_2; // 0x20
+	::RPG::Client::UIController* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_2EB1F8F44CF44F1F*>* Field_1_1; // 0x18
+	::UnityEngine::Transform* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

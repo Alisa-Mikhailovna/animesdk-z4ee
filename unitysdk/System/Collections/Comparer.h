@@ -7,27 +7,27 @@ namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x19A185D0)
-#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x19A19DC0)
-#define SYSTEM_COLLECTIONS_COMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A19E60)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19A19BB0)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19A19C10)
-#define SYSTEM_COLLECTIONS_COMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A19BA0)
+#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x19FAD6D0)
+#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x19FB01F0)
+#define SYSTEM_COLLECTIONS_COMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FB0290)
+#define SYSTEM_COLLECTIONS_COMPARER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19FAFF80)
+#define SYSTEM_COLLECTIONS_COMPARER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19FB0040)
+#define SYSTEM_COLLECTIONS_COMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FAFF70)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int Comparer_TypeDefinitionIndex = 1457;
+	inline static constexpr unsigned int Comparer_TypeDefinitionIndex = 1461;
 
 	class Comparer : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Comparer** StaticGet_DefaultInvariant()
-		{
-			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x3C80);
-		}
 		static ::System::Collections::Comparer** StaticGet_Default()
 		{
-			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x3C88);
+			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x39C0);
+		}
+		static ::System::Collections::Comparer** StaticGet_DefaultInvariant()
+		{
+			return (::System::Collections::Comparer**)Il2CppClass::FromTypeDefinitionIndex(Comparer_TypeDefinitionIndex)->GetStaticField(0x39C8);
 		}
 		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
 

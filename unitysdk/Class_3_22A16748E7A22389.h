@@ -6,12 +6,11 @@ namespace RPG::GameCore { class BindSwitchPhotoGraphFuncBtn; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_22A16748E7A22389_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1573DAB0)
-#define CLASS_3_22A16748E7A22389_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1573DC10)
-#define CLASS_3_22A16748E7A22389__CTOR_OFFSET UNITYSDK_OFFSET(0x1573DA90)
-#define CLASS_3_22A16748E7A22389___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1573DFE0)
+#define CLASS_3_22A16748E7A22389_DISPOSE_OFFSET UNITYSDK_OFFSET(0x149B31E0)
+#define CLASS_3_22A16748E7A22389_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149B3340)
+#define CLASS_3_22A16748E7A22389__CTOR_OFFSET UNITYSDK_OFFSET(0x149B31C0)
 
-inline static constexpr unsigned int Class_3_22A16748E7A22389_TypeDefinitionIndex = 49132;
+inline static constexpr unsigned int Class_3_22A16748E7A22389_TypeDefinitionIndex = 50147;
 
 class Class_3_22A16748E7A22389 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*>
 {
@@ -32,10 +31,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_22A16748E7A22389_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_22A16748E7A22389___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_29.h"
+#include "unitysdk/Enum_3_ED790DAC948A65A9_30.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client::Tutorial { class ITutorialGuideCollection; }
 namespace RPG::Client::Tutorial { class TutorialGuideGroupData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_CREATEGUIDEGROUPDATA_OFFSET UNITYSDK_OFFSET(0x17FD7130)
-#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_CREATE_OFFSET UNITYSDK_OFFSET(0x17FD66E0)
-#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17FD6DC0)
-#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDECOLLECTION_OFFSET UNITYSDK_OFFSET(0x17FD6E60)
-#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDEGROUPDATA_OFFSET UNITYSDK_OFFSET(0x17FD7030)
-#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_INIT_OFFSET UNITYSDK_OFFSET(0x17FD6730)
-#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x17FD6720)
+#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_CREATEGUIDEGROUPDATA_OFFSET UNITYSDK_OFFSET(0xD75B4E0)
+#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_CREATE_OFFSET UNITYSDK_OFFSET(0xD75A9F0)
+#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD75B0D0)
+#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDECOLLECTION_OFFSET UNITYSDK_OFFSET(0xD75B170)
+#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDEGROUPDATA_OFFSET UNITYSDK_OFFSET(0xD75B3A0)
+#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_INIT_OFFSET UNITYSDK_OFFSET(0xD75AA40)
+#define RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xD75AA30)
 
 namespace RPG::Client::Tutorial
 {
-	inline static constexpr unsigned int TutorialGuideService_TypeDefinitionIndex = 73515;
+	inline static constexpr unsigned int TutorialGuideService_TypeDefinitionIndex = 75040;
 
 	class TutorialGuideService : public ::System::Object
 	{
@@ -44,19 +44,19 @@ namespace RPG::Client::Tutorial
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_DISPOSE_OFFSET))(this);
 		}
 
-		::RPG::Client::Tutorial::ITutorialGuideCollection* GetGuideCollection(::Enum_3_ED790DAC948A65A9_29 a1)
+		::RPG::Client::Tutorial::ITutorialGuideCollection* GetGuideCollection(::Enum_3_ED790DAC948A65A9_30 a1)
 		{
-			return ((::RPG::Client::Tutorial::ITutorialGuideCollection*(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_29))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDECOLLECTION_OFFSET))(this, a1);
+			return ((::RPG::Client::Tutorial::ITutorialGuideCollection*(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_30))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDECOLLECTION_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Tutorial::TutorialGuideGroupData* GetGuideGroupData(::Enum_3_ED790DAC948A65A9_29 a1, ::System::UInt32 a2)
+		::RPG::Client::Tutorial::TutorialGuideGroupData* GetGuideGroupData(::Enum_3_ED790DAC948A65A9_30 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Tutorial::TutorialGuideGroupData*(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_29, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDEGROUPDATA_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Tutorial::TutorialGuideGroupData*(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_30, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_GETGUIDEGROUPDATA_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Tutorial::TutorialGuideGroupData* CreateGuideGroupData(::Enum_3_ED790DAC948A65A9_29 a1, ::System::UInt32 a2)
+		::RPG::Client::Tutorial::TutorialGuideGroupData* CreateGuideGroupData(::Enum_3_ED790DAC948A65A9_30 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::Tutorial::TutorialGuideGroupData*(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_29, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_CREATEGUIDEGROUPDATA_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Tutorial::TutorialGuideGroupData*(*)(::PVOID, ::Enum_3_ED790DAC948A65A9_30, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIAL_TUTORIALGUIDESERVICE_CREATEGUIDEGROUPDATA_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SelectRubikGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E53B22E729E113C3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16EADAA0)
-#define CLASS_3_E53B22E729E113C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16EADAE0)
-#define CLASS_3_E53B22E729E113C3__CTOR_OFFSET UNITYSDK_OFFSET(0x16EADA70)
-#define CLASS_3_E53B22E729E113C3___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16EAE130)
+#define CLASS_3_E53B22E729E113C3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15508AB0)
+#define CLASS_3_E53B22E729E113C3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15508AF0)
+#define CLASS_3_E53B22E729E113C3__CTOR_OFFSET UNITYSDK_OFFSET(0x15508A80)
 
-inline static constexpr unsigned int Class_3_E53B22E729E113C3_TypeDefinitionIndex = 54658;
+inline static constexpr unsigned int Class_3_E53B22E729E113C3_TypeDefinitionIndex = 55883;
 
 class Class_3_E53B22E729E113C3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SelectRubikGroup*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E53B22E729E113C3_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E53B22E729E113C3___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

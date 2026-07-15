@@ -10,23 +10,21 @@ namespace UnityEngine::UI { class ContentSizeFitter; }
 namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x18855A20)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x188559F0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18855600)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x188553E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x18855A90)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x18855A30)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0C5AD0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C5AA0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC0C5820)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC0C5720)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesToastScoreAddControl_TypeDefinitionIndex = 74018;
+	inline static constexpr unsigned int ChenLingFesToastScoreAddControl_TypeDefinitionIndex = 76400;
 
 	class ChenLingFesToastScoreAddControl : public ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet__NumInitialColor()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesToastScoreAddControl_TypeDefinitionIndex)->GetStaticField(0x14070);
+			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesToastScoreAddControl_TypeDefinitionIndex)->GetStaticField(0x10AB0);
 		}
 		// static const ::System::String* PREFAB_PATH; // 0x0
 		// static const ::System::Single Duration; // 0x0
@@ -54,16 +52,6 @@ namespace RPG::Client::ChenLingFes
 		::System::Void _OnBindViewModel()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL__ONBINDVIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__OnInitializeComponent()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__OnBindViewModel()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESTOASTSCOREADDCONTROL___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET))(this);
 		}
 	};
 }

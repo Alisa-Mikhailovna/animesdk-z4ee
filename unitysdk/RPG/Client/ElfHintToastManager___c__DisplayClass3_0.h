@@ -6,13 +6,13 @@ namespace RPG::Client { class ElfRestaurantProgressData; }
 namespace RPG::Client { class UserPrefs; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C51840)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS3_0___CHECKEMPLOYEEMANAGEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x16C51D40)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS3_0___CHECKEMPLOYEEMANAGEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0x16C51EE0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC383F80)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS3_0___CHECKEMPLOYEEMANAGEHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xC3844C0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS3_0___CHECKEMPLOYEEMANAGEHINTS_B__1_OFFSET UNITYSDK_OFFSET(0xC384660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass3_0_TypeDefinitionIndex = 59624;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass3_0_TypeDefinitionIndex = 60909;
 
 	class ElfHintToastManager___c__DisplayClass3_0 : public ::System::Object
 	{

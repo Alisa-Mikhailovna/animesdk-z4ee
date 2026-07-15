@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_HIPPLENACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x165D8C20)
-#define RPG_CLIENT_HIPPLENACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x165D8C60)
-#define RPG_CLIENT_HIPPLENACTIVITYDATA___C___HASRESIDENTREWARDSTOTAKE_B__5_0_OFFSET UNITYSDK_OFFSET(0x165D8C70)
+#define RPG_CLIENT_HIPPLENACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8BE750)
+#define RPG_CLIENT_HIPPLENACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC8BE790)
+#define RPG_CLIENT_HIPPLENACTIVITYDATA___C___HASRESIDENTREWARDSTOTAKE_B__5_0_OFFSET UNITYSDK_OFFSET(0xC8BE7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HipplenActivityData___c_TypeDefinitionIndex = 57532;
+	inline static constexpr unsigned int HipplenActivityData___c_TypeDefinitionIndex = 58794;
 
 	class HipplenActivityData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HipplenActivityData___c_TypeDefinitionIndex)->GetStaticField(0x3A9B0);
-		}
 		static ::RPG::Client::HipplenActivityData___c** StaticGet___9()
 		{
-			return (::RPG::Client::HipplenActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(HipplenActivityData___c_TypeDefinitionIndex)->GetStaticField(0x3A9B8);
+			return (::RPG::Client::HipplenActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(HipplenActivityData___c_TypeDefinitionIndex)->GetStaticField(0x325C0);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HipplenActivityData___c_TypeDefinitionIndex)->GetStaticField(0x325C8);
 		}
 
 		static ::System::Void _cctor()

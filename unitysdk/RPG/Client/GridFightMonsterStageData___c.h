@@ -7,29 +7,29 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19774320)
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19774360)
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_0_OFFSET UNITYSDK_OFFSET(0x19774370)
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_1_OFFSET UNITYSDK_OFFSET(0x19774380)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC797BC0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC797C00)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xC797C10)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_1_OFFSET UNITYSDK_OFFSET(0xC797C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterStageData___c_TypeDefinitionIndex = 60837;
+	inline static constexpr unsigned int GridFightMonsterStageData___c_TypeDefinitionIndex = 62137;
 
 	class GridFightMonsterStageData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::List_1<::RPG::Client::GridFightMonsterData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightMonsterData*>*>** StaticGet___9__2_0()
+		static ::RPG::Client::GridFightMonsterStageData___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::RPG::Client::GridFightMonsterData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightMonsterData*>*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterStageData___c_TypeDefinitionIndex)->GetStaticField(0x307A0);
+			return (::RPG::Client::GridFightMonsterStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterStageData___c_TypeDefinitionIndex)->GetStaticField(0x2A580);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::UInt32>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterStageData___c_TypeDefinitionIndex)->GetStaticField(0x307A8);
+			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterStageData___c_TypeDefinitionIndex)->GetStaticField(0x2A588);
 		}
-		static ::RPG::Client::GridFightMonsterStageData___c** StaticGet___9()
+		static ::System::Func_2<::System::Collections::Generic::List_1<::RPG::Client::GridFightMonsterData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightMonsterData*>*>** StaticGet___9__2_0()
 		{
-			return (::RPG::Client::GridFightMonsterStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterStageData___c_TypeDefinitionIndex)->GetStaticField(0x307B0);
+			return (::System::Func_2<::System::Collections::Generic::List_1<::RPG::Client::GridFightMonsterData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightMonsterData*>*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterStageData___c_TypeDefinitionIndex)->GetStaticField(0x2A590);
 		}
 
 		static ::System::Void _cctor()

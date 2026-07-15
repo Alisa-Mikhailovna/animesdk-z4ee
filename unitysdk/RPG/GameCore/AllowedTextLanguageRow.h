@@ -6,37 +6,37 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BD9440)
-#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BDA010)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1A2E90)
+#define RPG_GAMECORE_ALLOWEDTEXTLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A3A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AllowedTextLanguageRow_TypeDefinitionIndex = 12035;
+	inline static constexpr unsigned int AllowedTextLanguageRow_TypeDefinitionIndex = 12167;
 
 	class AllowedTextLanguageRow : public ::System::Object
 	{
 	public:
-		::System::String* PSFont; // 0x10
-		::System::String* SDKkey; // 0x18
-		::System::String* NoLeading; // 0x20
-		::System::String* Ellipsis; // 0x28
-		::System::String* LanguageCultureCode; // 0x30
-		::System::String* PSFontName; // 0x38
-		::System::String* FontName; // 0x40
-		::System::String* CondensedFont; // 0x48
-		::System::String* Font; // 0x50
-		::System::String* TextLanguageKey; // 0x58
-		::System::String* LogoImgPath; // 0x60
-		::System::String* CondensedFontName; // 0x68
-		::System::Single TextureScale; // 0x70
-		::System::UInt32 LanguageType; // 0x74
+		::System::String* NoLeading; // 0x10
+		::System::String* Ellipsis; // 0x18
+		::System::String* LogoImgPath; // 0x20
+		::System::String* CondensedFont; // 0x28
+		::System::String* Font; // 0x30
+		::System::String* LanguageCultureCode; // 0x38
+		::System::String* TextLanguageKey; // 0x40
+		::System::String* SDKkey; // 0x48
+		::System::String* CondensedFontName; // 0x50
+		::System::String* PSFontName; // 0x58
+		::System::String* PSFont; // 0x60
+		::System::String* FontName; // 0x68
+		::System::Single RubyStrRatio; // 0x70
+		::System::Single TextureScale; // 0x74
 		::RPG::Client::TextID ShowString; // 0x78
-		::System::Single RubyStrRatio; // 0x88
+		::System::UInt32 LanguageType; // 0x88
 		::System::UInt32 FontGrowSize; // 0x8C
-		::System::Boolean Justify; // 0x90
+		::System::Boolean RubyHoldAlignSpace; // 0x90
 		::System::Boolean ReplaceSpaceWithNBSPInRuby; // 0x91
-		::System::Boolean NoWrap; // 0x92
-		::System::Boolean RubyHoldAlignSpace; // 0x93
+		::System::Boolean Justify; // 0x92
+		::System::Boolean NoWrap; // 0x93
 
 		::System::Void _ctor()
 		{

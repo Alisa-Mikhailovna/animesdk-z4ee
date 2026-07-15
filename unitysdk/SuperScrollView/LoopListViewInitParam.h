@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SUPERSCROLLVIEW_LOOPLISTVIEWINITPARAM_COPYDEFAULTINITPARAM_OFFSET UNITYSDK_OFFSET(0x13F07C80)
-#define SUPERSCROLLVIEW_LOOPLISTVIEWINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED8840)
+#define SUPERSCROLLVIEW_LOOPLISTVIEWINITPARAM_COPYDEFAULTINITPARAM_OFFSET UNITYSDK_OFFSET(0xDDA0D30)
+#define SUPERSCROLLVIEW_LOOPLISTVIEWINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDDA0D90)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopListViewInitParam_TypeDefinitionIndex = 44951;
+	inline static constexpr unsigned int LoopListViewInitParam_TypeDefinitionIndex = 45869;
 
 	class LoopListViewInitParam : public ::System::Object
 	{
 	public:
-		::System::Single mSnapVecThreshold; // 0x10
-		::System::Single mDistanceForRecycle0; // 0x14
-		::System::Boolean mMovePanelUseViewPortSize; // 0x18
-		::System::Boolean mForbidAutoScrollWhenItemSelected; // 0x19
-		::System::Single mDistanceForNew1; // 0x1C
+		::System::Single mSmoothDumpRate; // 0x10
+		::System::Single mSnapVecThreshold; // 0x14
+		::System::Single mSnapFinishCallbackThreshold; // 0x18
+		::System::Single mDistanceForNew0; // 0x1C
 		::System::Single mItemDefaultWithPaddingSize; // 0x20
-		::System::Single mSmoothDumpRate; // 0x24
+		::System::Single mDistanceForRecycle0; // 0x24
 		::System::Single mDistanceForRecycle1; // 0x28
-		::System::Single mDistanceForNew0; // 0x2C
-		::System::Single mSnapFinishThreshold; // 0x30
-		::System::Single mSnapFinishCallbackThreshold; // 0x34
+		::System::Single mSnapFinishThreshold; // 0x2C
+		::System::Boolean mForbidAutoScrollWhenItemSelected; // 0x30
+		::System::Boolean mMovePanelUseViewPortSize; // 0x31
+		::System::Single mDistanceForNew1; // 0x34
 
 		::System::Void _ctor()
 		{

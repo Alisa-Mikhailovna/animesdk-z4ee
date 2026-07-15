@@ -6,10 +6,10 @@
 class Class_1_89AD82AEAD720173;
 namespace RPG::GameCore { class FiveDimCustomVisibilityConfig; }
 
-#define CLASS_1_A2FAAB6381CC34E3_CLEAR_OFFSET UNITYSDK_OFFSET(0x18A36890)
-#define CLASS_1_A2FAAB6381CC34E3__CTOR_OFFSET UNITYSDK_OFFSET(0x18A368F0)
+#define CLASS_1_A2FAAB6381CC34E3_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A9B71E0)
+#define CLASS_1_A2FAAB6381CC34E3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9B7240)
 
-inline static constexpr unsigned int Class_1_A2FAAB6381CC34E3_TypeDefinitionIndex = 39894;
+inline static constexpr unsigned int Class_1_A2FAAB6381CC34E3_TypeDefinitionIndex = 40706;
 
 class Class_1_A2FAAB6381CC34E3 : public ::System::Object
 {

@@ -7,19 +7,19 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_9B635DC3F867E2EE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1423E280)
-#define CLASS_1_9B635DC3F867E2EE__CTOR_OFFSET UNITYSDK_OFFSET(0x1423E2D0)
+#define CLASS_1_9B635DC3F867E2EE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBD38890)
+#define CLASS_1_9B635DC3F867E2EE__CTOR_OFFSET UNITYSDK_OFFSET(0xBD388E0)
 
-inline static constexpr unsigned int Class_1_9B635DC3F867E2EE_TypeDefinitionIndex = 50185;
+inline static constexpr unsigned int Class_1_9B635DC3F867E2EE_TypeDefinitionIndex = 51267;
 
 class Class_1_9B635DC3F867E2EE : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::System::Int32 Field_1_1; // 0x18
-	::RPG::GameCore::EntityTypeMask Field_1_2; // 0x20
-	::RPG::GameCore::TeamTypeMask Field_1_3; // 0x28
-	::RPG::GameCore::RtStackSkillTargetRedirectPhase Field_1_4; // 0x2C
+	::RPG::GameCore::RtStackSkillTargetRedirectPhase Field_1_1; // 0x18
+	::System::Int32 Field_1_2; // 0x1C
+	::RPG::GameCore::EntityTypeMask Field_1_3; // 0x20
+	::RPG::GameCore::TeamTypeMask Field_1_4; // 0x28
 
 	::System::Void _ctor()
 	{

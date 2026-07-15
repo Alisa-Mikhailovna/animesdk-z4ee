@@ -11,20 +11,15 @@
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_EFBC640159FD58B3_METHOD_2_D85A542D4381A291_OFFSET UNITYSDK_OFFSET(0x178D4AE0)
-#define CLASS_2_EFBC640159FD58B3_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x178D4D70)
-#define CLASS_2_EFBC640159FD58B3_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x178D4C90)
-#define CLASS_2_EFBC640159FD58B3_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x178D4F10)
-#define CLASS_2_EFBC640159FD58B3_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x178D4F90)
-#define CLASS_2_EFBC640159FD58B3_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x178D4E20)
-#define CLASS_2_EFBC640159FD58B3__CTOR_OFFSET UNITYSDK_OFFSET(0x178D5070)
-#define CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x178D5090)
-#define CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x178D5080)
-#define CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x178D50B0)
-#define CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x178D50C0)
-#define CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x178D50A0)
+#define CLASS_2_EFBC640159FD58B3_METHOD_2_D85A542D4381A291_OFFSET UNITYSDK_OFFSET(0x14AAA3B0)
+#define CLASS_2_EFBC640159FD58B3_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x14AAA640)
+#define CLASS_2_EFBC640159FD58B3_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x14AAA560)
+#define CLASS_2_EFBC640159FD58B3_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x14AAA7E0)
+#define CLASS_2_EFBC640159FD58B3_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x14AAA860)
+#define CLASS_2_EFBC640159FD58B3_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x14AAA6F0)
+#define CLASS_2_EFBC640159FD58B3__CTOR_OFFSET UNITYSDK_OFFSET(0x14AAA940)
 
-inline static constexpr unsigned int Class_2_EFBC640159FD58B3_TypeDefinitionIndex = 45052;
+inline static constexpr unsigned int Class_2_EFBC640159FD58B3_TypeDefinitionIndex = 45970;
 
 class Class_2_EFBC640159FD58B3 : public ::UnityEngine::Playables::PlayableBehaviour
 {
@@ -38,9 +33,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3__CTOR_OFFSET))(this);
 	}
 
-	static ::UnityEngine::Playables::ScriptPlayable_1<::Class_2_EFBC640159FD58B3*> Method_2_D85A542D4381A291(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::Class_2_EFBC640159FD58B3_Enum_3_63A4A17A448E4213_1 a3)
+	static ::UnityEngine::Playables::ScriptPlayable_1<::Class_2_EFBC640159FD58B3*> Method_2_D85A542D4381A291(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::Class_2_EFBC640159FD58B3_Enum_3_63A4A17A448E4213 a3)
 	{
-		return ((::UnityEngine::Playables::ScriptPlayable_1<::Class_2_EFBC640159FD58B3*>(*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::Class_2_EFBC640159FD58B3_Enum_3_63A4A17A448E4213_1))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3_METHOD_2_D85A542D4381A291_OFFSET))(a1, a2, a3);
+		return ((::UnityEngine::Playables::ScriptPlayable_1<::Class_2_EFBC640159FD58B3*>(*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::Class_2_EFBC640159FD58B3_Enum_3_63A4A17A448E4213))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3_METHOD_2_D85A542D4381A291_OFFSET))(a1, a2, a3);
 	}
 
 	::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -66,30 +61,5 @@ public:
 	::System::Void OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3_ONPLAYABLEDESTROY_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnGraphStart(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONGRAPHSTART_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_EFBC640159FD58B3___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET))(this, a1);
 	}
 };

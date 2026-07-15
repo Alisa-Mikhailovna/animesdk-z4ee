@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDevice.h"
 
-#define INCONTROL_TOUCHINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x12A1D950)
+#define INCONTROL_TOUCHINPUTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x199ED8F0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchInputDevice_TypeDefinitionIndex = 37923;
+	inline static constexpr unsigned int TouchInputDevice_TypeDefinitionIndex = 38731;
 
 	class TouchInputDevice : public ::InControl::InputDevice
 	{

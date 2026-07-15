@@ -7,11 +7,11 @@ namespace RPG::Client::Motions { class MonoTextMotion; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOSPINESTORYCONTROLLER_ASIDEDIALOG_ISVALID_OFFSET UNITYSDK_OFFSET(0x38332A0)
+#define RPG_CLIENT_MONOSPINESTORYCONTROLLER_ASIDEDIALOG_ISVALID_OFFSET UNITYSDK_OFFSET(0x14DD00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSpineStoryController_AsideDialog_TypeDefinitionIndex = 56348;
+	inline static constexpr unsigned int MonoSpineStoryController_AsideDialog_TypeDefinitionIndex = 57587;
 
 	struct alignas(8) MonoSpineStoryController_AsideDialog
 	{

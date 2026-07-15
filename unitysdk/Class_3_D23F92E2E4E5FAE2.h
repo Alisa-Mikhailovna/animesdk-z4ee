@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class DisableSummonUnitGather; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D23F92E2E4E5FAE2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CA5600)
-#define CLASS_3_D23F92E2E4E5FAE2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CA5640)
-#define CLASS_3_D23F92E2E4E5FAE2__CTOR_OFFSET UNITYSDK_OFFSET(0x15CA55D0)
-#define CLASS_3_D23F92E2E4E5FAE2___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CA5880)
+#define CLASS_3_D23F92E2E4E5FAE2_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE531D80)
+#define CLASS_3_D23F92E2E4E5FAE2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE531DC0)
+#define CLASS_3_D23F92E2E4E5FAE2__CTOR_OFFSET UNITYSDK_OFFSET(0xE531D50)
 
-inline static constexpr unsigned int Class_3_D23F92E2E4E5FAE2_TypeDefinitionIndex = 54284;
+inline static constexpr unsigned int Class_3_D23F92E2E4E5FAE2_TypeDefinitionIndex = 55507;
 
 class Class_3_D23F92E2E4E5FAE2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DisableSummonUnitGather*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D23F92E2E4E5FAE2_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D23F92E2E4E5FAE2___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

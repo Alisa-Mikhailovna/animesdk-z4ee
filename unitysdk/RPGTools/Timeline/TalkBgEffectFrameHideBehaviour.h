@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class TalkBgEffectFrameHideClip; }
 
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B69A00)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B69A20)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B69A10)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B69AB0)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B69AC0)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD28260)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD28280)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD28270)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD28310)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkBgEffectFrameHideBehaviour_TypeDefinitionIndex = 45650;
+	inline static constexpr unsigned int TalkBgEffectFrameHideBehaviour_TypeDefinitionIndex = 46588;
 
 	class TalkBgEffectFrameHideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMEHIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

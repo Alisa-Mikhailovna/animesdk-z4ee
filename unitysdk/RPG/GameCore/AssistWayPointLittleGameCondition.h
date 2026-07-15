@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION_METHOD_2_92B244F6798D7BEE_OFFSET UNITYSDK_OFFSET(0x18BE55E0)
-#define RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION_METHOD_2_F943FA07782D44CC_OFFSET UNITYSDK_OFFSET(0x18BE54E0)
-#define RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE55D0)
+#define RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION_METHOD_2_4CCBABD89BE71E07_OFFSET UNITYSDK_OFFSET(0x1B1B0BE0)
+#define RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION_METHOD_2_F943FA07782D44CC_OFFSET UNITYSDK_OFFSET(0x1B1B0AE0)
+#define RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B0BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointLittleGameCondition_TypeDefinitionIndex = 18054;
+	inline static constexpr unsigned int AssistWayPointLittleGameCondition_TypeDefinitionIndex = 18258;
 
 	class AssistWayPointLittleGameCondition : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointLittleGameCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION_METHOD_2_F943FA07782D44CC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_92B244F6798D7BEE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointLittleGameCondition*& a2)
+		static ::System::Void Method_2_4CCBABD89BE71E07(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointLittleGameCondition*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointLittleGameCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION_METHOD_2_92B244F6798D7BEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointLittleGameCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTLITTLEGAMECONDITION_METHOD_2_4CCBABD89BE71E07_OFFSET))(a1, a2);
 		}
 	};
 }

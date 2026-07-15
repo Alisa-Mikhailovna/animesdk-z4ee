@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD_METHOD_4_6FBB206563BF146F_OFFSET UNITYSDK_OFFSET(0x1A16D770)
-#define RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD_METHOD_4_B019DA1D362CFE20_OFFSET UNITYSDK_OFFSET(0x1A181C40)
-#define RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A16D720)
+#define RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD_METHOD_4_653768EACA90C2F2_OFFSET UNITYSDK_OFFSET(0x1B7DE470)
+#define RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD_METHOD_4_6FBB206563BF146F_OFFSET UNITYSDK_OFFSET(0x1B7DE540)
+#define RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7DE530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_NavigateToAward_TypeDefinitionIndex = 21211;
+	inline static constexpr unsigned int ST_Main_NavigateToAward_TypeDefinitionIndex = 21626;
 
 	class ST_Main_NavigateToAward : public ::RPG::GameCore::STTaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B019DA1D362CFE20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_NavigateToAward*& a2)
+		static ::System::Void Method_4_653768EACA90C2F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_NavigateToAward*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_NavigateToAward*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD_METHOD_4_B019DA1D362CFE20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_NavigateToAward*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_NAVIGATETOAWARD_METHOD_4_653768EACA90C2F2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_6FBB206563BF146F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_NavigateToAward* a2)

@@ -5,26 +5,26 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ADVENTURESTATIC_WALLDETECTPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1688D890)
-#define RPG_GAMECORE_ADVENTURESTATIC_WALLDETECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1688C640)
+#define RPG_GAMECORE_ADVENTURESTATIC_WALLDETECTPARAMS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD991C90)
+#define RPG_GAMECORE_ADVENTURESTATIC_WALLDETECTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xD990700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureStatic_WallDetectParams_TypeDefinitionIndex = 55148;
+	inline static constexpr unsigned int AdventureStatic_WallDetectParams_TypeDefinitionIndex = 56381;
 
 	class AdventureStatic_WallDetectParams : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::AdventureStatic_WallDetectParams** StaticGet_Default()
 		{
-			return (::RPG::GameCore::AdventureStatic_WallDetectParams**)Il2CppClass::FromTypeDefinitionIndex(AdventureStatic_WallDetectParams_TypeDefinitionIndex)->GetStaticField(0x61BF0);
+			return (::RPG::GameCore::AdventureStatic_WallDetectParams**)Il2CppClass::FromTypeDefinitionIndex(AdventureStatic_WallDetectParams_TypeDefinitionIndex)->GetStaticField(0x5E080);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* ExcludeTransformList; // 0x10
-		::System::Single MaxSlopeAngle; // 0x18
-		::System::Single LineLength; // 0x1C
-		::System::Int32 Count; // 0x20
+		::System::Int32 Count; // 0x18
+		::System::Single MaxSlopeAngle; // 0x1C
+		::System::Single StartHeight; // 0x20
 		::System::Single HeightStep; // 0x24
-		::System::Single StartHeight; // 0x28
+		::System::Single LineLength; // 0x28
 
 		::System::Void _ctor()
 		{

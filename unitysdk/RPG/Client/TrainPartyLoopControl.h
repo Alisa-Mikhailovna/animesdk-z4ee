@@ -7,12 +7,12 @@ namespace Cinemachine { class CinemachineDollyCart; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRAINPARTYLOOPCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x185A42F0)
-#define RPG_CLIENT_TRAINPARTYLOOPCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x185A44F0)
+#define RPG_CLIENT_TRAINPARTYLOOPCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD729050)
+#define RPG_CLIENT_TRAINPARTYLOOPCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD729250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyLoopControl_TypeDefinitionIndex = 56306;
+	inline static constexpr unsigned int TrainPartyLoopControl_TypeDefinitionIndex = 57545;
 
 	class TrainPartyLoopControl : public ::UnityEngine::MonoBehaviour
 	{

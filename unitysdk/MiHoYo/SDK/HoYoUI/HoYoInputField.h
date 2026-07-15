@@ -1,18 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/InputField.h"
+#include "unitysdk/UnityEngine/UI/Selectable_SelectionState.h"
 
 namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
-#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_APPLYGLOBALSKIN_OFFSET UNITYSDK_OFFSET(0x1939D2C0)
-#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_APPLYLOCALSKIN_OFFSET UNITYSDK_OFFSET(0x1939D5F0)
-#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_AWAKE_OFFSET UNITYSDK_OFFSET(0x1939D600)
-#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_GET_UIMETA_OFFSET UNITYSDK_OFFSET(0x1939D2B0)
-#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1939D6D0)
+#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_APPLYGLOBALSKIN_OFFSET UNITYSDK_OFFSET(0xAAC7780)
+#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_APPLYLOCALSKIN_OFFSET UNITYSDK_OFFSET(0xAAC7980)
+#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_AWAKE_OFFSET UNITYSDK_OFFSET(0xAAC7B90)
+#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_DOSTATETRANSITION_OFFSET UNITYSDK_OFFSET(0xAAC7A90)
+#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_GET_UIMETA_OFFSET UNITYSDK_OFFSET(0xAAC7770)
+#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_START_OFFSET UNITYSDK_OFFSET(0xAAC7990)
+#define MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0xAAC7CF0)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int HoYoInputField_TypeDefinitionIndex = 44072;
+	inline static constexpr unsigned int HoYoInputField_TypeDefinitionIndex = 44934;
 
 	class HoYoInputField : public ::UnityEngine::UI::InputField
 	{
@@ -37,6 +40,16 @@ namespace MiHoYo::SDK::HoYoUI
 		::System::Void ApplyLocalSkin()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_APPLYLOCALSKIN_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_START_OFFSET))(this);
+		}
+
+		::System::Void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Selectable_SelectionState, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOINPUTFIELD_DOSTATETRANSITION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Awake()

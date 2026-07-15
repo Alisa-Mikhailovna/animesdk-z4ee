@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class FateHouguDataItem; }
 
-#define RPG_CLIENT_FATEHOUGUINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABB950)
-#define RPG_CLIENT_FATEHOUGUINFO___C__DISPLAYCLASS5_0__REMOVEHOUGU_B__0_OFFSET UNITYSDK_OFFSET(0x18ABB980)
+#define RPG_CLIENT_FATEHOUGUINFO___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC46E790)
+#define RPG_CLIENT_FATEHOUGUINFO___C__DISPLAYCLASS5_0__REMOVEHOUGU_B__0_OFFSET UNITYSDK_OFFSET(0xC46E820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateHouguInfo___c__DisplayClass5_0_TypeDefinitionIndex = 59877;
+	inline static constexpr unsigned int FateHouguInfo___c__DisplayClass5_0_TypeDefinitionIndex = 61162;
 
 	class FateHouguInfo___c__DisplayClass5_0 : public ::System::Object
 	{

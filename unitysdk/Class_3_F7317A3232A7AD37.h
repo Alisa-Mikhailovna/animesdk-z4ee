@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class LevelEntityRef; }
 namespace RPG::GameCore { class LittleGameLevelVariable; }
 
-#define CLASS_3_F7317A3232A7AD37_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x166672D0)
-#define CLASS_3_F7317A3232A7AD37_METHOD_3_946A54FF330353F1_OFFSET UNITYSDK_OFFSET(0x16667370)
-#define CLASS_3_F7317A3232A7AD37_METHOD_3_E942A4C350694BAC_OFFSET UNITYSDK_OFFSET(0x16667210)
-#define CLASS_3_F7317A3232A7AD37__CTOR_OFFSET UNITYSDK_OFFSET(0x16667350)
+#define CLASS_3_F7317A3232A7AD37_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x154766E0)
+#define CLASS_3_F7317A3232A7AD37_METHOD_3_E942A4C350694BAC_OFFSET UNITYSDK_OFFSET(0x15476620)
+#define CLASS_3_F7317A3232A7AD37__CTOR_OFFSET UNITYSDK_OFFSET(0x15476760)
 
-inline static constexpr unsigned int Class_3_F7317A3232A7AD37_TypeDefinitionIndex = 71075;
+inline static constexpr unsigned int Class_3_F7317A3232A7AD37_TypeDefinitionIndex = 72588;
 
 class Class_3_F7317A3232A7AD37 : public ::RPG::Client::LittleGame::LevelVariable_1<::RPG::GameCore::LevelEntityRef*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Boolean IsValueEqualsTo(::RPG::GameCore::LevelEntityRef* a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelEntityRef*))((::PBYTE)hIl2Cpp + CLASS_3_F7317A3232A7AD37_ISVALUEEQUALSTO_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_3_946A54FF330353F1(::RPG::GameCore::LittleGameLevelVariable* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LittleGameLevelVariable*))((::PBYTE)hIl2Cpp + CLASS_3_F7317A3232A7AD37_METHOD_3_946A54FF330353F1_OFFSET))(this, a1);
 	}
 };

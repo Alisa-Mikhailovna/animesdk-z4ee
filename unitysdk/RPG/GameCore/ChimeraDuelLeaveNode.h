@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELLEAVENODE_METHOD_3_1FE28DA51C1EAC67_OFFSET UNITYSDK_OFFSET(0x1A512C70)
-#define RPG_GAMECORE_CHIMERADUELLEAVENODE_METHOD_3_85AD2B36A3E9DDE3_OFFSET UNITYSDK_OFFSET(0x1A512B90)
-#define RPG_GAMECORE_CHIMERADUELLEAVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A512C20)
+#define RPG_GAMECORE_CHIMERADUELLEAVENODE_METHOD_3_1FE28DA51C1EAC67_OFFSET UNITYSDK_OFFSET(0x1B34BA10)
+#define RPG_GAMECORE_CHIMERADUELLEAVENODE_METHOD_3_F3A11E641E368B5B_OFFSET UNITYSDK_OFFSET(0x1B34B9B0)
+#define RPG_GAMECORE_CHIMERADUELLEAVENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34BA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelLeaveNode_TypeDefinitionIndex = 15186;
+	inline static constexpr unsigned int ChimeraDuelLeaveNode_TypeDefinitionIndex = 15350;
 
 	class ChimeraDuelLeaveNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEAVENODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_85AD2B36A3E9DDE3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelLeaveNode*& a2)
+		static ::System::Void Method_3_F3A11E641E368B5B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelLeaveNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelLeaveNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEAVENODE_METHOD_3_85AD2B36A3E9DDE3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelLeaveNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELLEAVENODE_METHOD_3_F3A11E641E368B5B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1FE28DA51C1EAC67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelLeaveNode* a2)

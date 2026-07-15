@@ -7,20 +7,20 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_CONTEXTRESTORESINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1971CFC0)
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_CONTEXTRESTORESINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1971CD20)
-#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_CONTEXTRESTORESINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1971CD10)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_CONTEXTRESTORESINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A1C91C0)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_CONTEXTRESTORESINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A1C8F00)
+#define SYSTEM_RUNTIME_REMOTING_CONTEXTS_CROSSCONTEXTCHANNEL_CONTEXTRESTORESINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C8EF0)
 
 namespace System::Runtime::Remoting::Contexts
 {
-	inline static constexpr unsigned int CrossContextChannel_ContextRestoreSink_TypeDefinitionIndex = 1242;
+	inline static constexpr unsigned int CrossContextChannel_ContextRestoreSink_TypeDefinitionIndex = 1244;
 
 	class CrossContextChannel_ContextRestoreSink : public ::System::Object
 	{
 	public:
 		::System::Runtime::Remoting::Contexts::Context* _context; // 0x10
-		::System::Runtime::Remoting::Messaging::IMessage* _call; // 0x18
-		::System::Runtime::Remoting::Messaging::IMessageSink* _next; // 0x20
+		::System::Runtime::Remoting::Messaging::IMessageSink* _next; // 0x18
+		::System::Runtime::Remoting::Messaging::IMessage* _call; // 0x20
 
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* a1, ::System::Runtime::Remoting::Contexts::Context* a2, ::System::Runtime::Remoting::Messaging::IMessage* a3)
 		{

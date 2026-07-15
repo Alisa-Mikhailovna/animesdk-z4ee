@@ -6,9 +6,9 @@ class CarFlowRoadMapPosition;
 class CarStateParam;
 namespace UnityEngine { class GameObject; }
 
-#define CAR__CTOR_OFFSET UNITYSDK_OFFSET(0x14E393E0)
+#define CAR__CTOR_OFFSET UNITYSDK_OFFSET(0xD05BCA0)
 
-inline static constexpr unsigned int Car_TypeDefinitionIndex = 44427;
+inline static constexpr unsigned int Car_TypeDefinitionIndex = 45297;
 
 class Car : public ::System::Object
 {

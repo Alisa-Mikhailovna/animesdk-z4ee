@@ -5,24 +5,24 @@
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18001750)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18001790)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__MAKEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x180017A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA6F070)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6F0B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__MAKEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CA6F0C0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DelegateHelpers___c_TypeDefinitionIndex = 3649;
+	inline static constexpr unsigned int DelegateHelpers___c_TypeDefinitionIndex = 3653;
 
 	class DelegateHelpers___c : public ::System::Object
 	{
 	public:
-		static ::System::Linq::Expressions::Interpreter::DelegateHelpers___c** StaticGet___9()
-		{
-			return (::System::Linq::Expressions::Interpreter::DelegateHelpers___c**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x2B7E0);
-		}
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x2B7E8);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x32C10);
+		}
+		static ::System::Linq::Expressions::Interpreter::DelegateHelpers___c** StaticGet___9()
+		{
+			return (::System::Linq::Expressions::Interpreter::DelegateHelpers___c**)Il2CppClass::FromTypeDefinitionIndex(DelegateHelpers___c_TypeDefinitionIndex)->GetStaticField(0x32C18);
 		}
 
 		static ::System::Void _cctor()

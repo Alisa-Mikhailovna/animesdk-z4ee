@@ -5,10 +5,10 @@
 class Class_1_7686EC5B8E7BB729;
 namespace RPG::GameCore { class CakeRaceBuffConfig; }
 
-#define CLASS_1_D8C7E5539A252BC5___C__DISPLAYCLASS7_0__ADDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x192014B0)
-#define CLASS_1_D8C7E5539A252BC5___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19200FA0)
+#define CLASS_1_D8C7E5539A252BC5___C__DISPLAYCLASS7_0__ADDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1A68C400)
+#define CLASS_1_D8C7E5539A252BC5___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68BEF0)
 
-inline static constexpr unsigned int Class_1_D8C7E5539A252BC5___c__DisplayClass7_0_TypeDefinitionIndex = 34959;
+inline static constexpr unsigned int Class_1_D8C7E5539A252BC5___c__DisplayClass7_0_TypeDefinitionIndex = 35741;
 
 class Class_1_D8C7E5539A252BC5___c__DisplayClass7_0 : public ::System::Object
 {

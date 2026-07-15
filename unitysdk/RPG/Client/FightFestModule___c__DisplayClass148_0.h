@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class FightFestCoachSkill; }
 
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS148_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16B85140)
-#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS148_0__GETCOACHSKILLS_B__0_OFFSET UNITYSDK_OFFSET(0x16B87BD0)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS148_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5D9900)
+#define RPG_CLIENT_FIGHTFESTMODULE___C__DISPLAYCLASS148_0__GETCOACHSKILLS_B__0_OFFSET UNITYSDK_OFFSET(0xC5D9910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestModule___c__DisplayClass148_0_TypeDefinitionIndex = 59985;
+	inline static constexpr unsigned int FightFestModule___c__DisplayClass148_0_TypeDefinitionIndex = 61270;
 
 	class FightFestModule___c__DisplayClass148_0 : public ::System::Object
 	{

@@ -9,18 +9,18 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_253F4BEA35E6A1BB_CLEAR_OFFSET UNITYSDK_OFFSET(0x15D0AF60)
-#define CLASS_1_253F4BEA35E6A1BB_METHOD_1_37D0382D0C30A2DC_OFFSET UNITYSDK_OFFSET(0x15D0B040)
-#define CLASS_1_253F4BEA35E6A1BB_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x15D0AFE0)
-#define CLASS_1_253F4BEA35E6A1BB__CTOR_OFFSET UNITYSDK_OFFSET(0x15D0B0B0)
+#define CLASS_1_253F4BEA35E6A1BB_CLEAR_OFFSET UNITYSDK_OFFSET(0x151E5CC0)
+#define CLASS_1_253F4BEA35E6A1BB_METHOD_1_37D0382D0C30A2DC_OFFSET UNITYSDK_OFFSET(0x151E5DA0)
+#define CLASS_1_253F4BEA35E6A1BB_METHOD_1_AA2D3E889C8A52CA_OFFSET UNITYSDK_OFFSET(0x151E5D40)
+#define CLASS_1_253F4BEA35E6A1BB__CTOR_OFFSET UNITYSDK_OFFSET(0x151E5E10)
 
-inline static constexpr unsigned int Class_1_253F4BEA35E6A1BB_TypeDefinitionIndex = 55859;
+inline static constexpr unsigned int Class_1_253F4BEA35E6A1BB_TypeDefinitionIndex = 57098;
 
 class Class_1_253F4BEA35E6A1BB : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* Field_1_1; // 0x18
+	::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
 	::UnityEngine::GameObject* Field_1_2; // 0x20
 	::System::String* Field_1_3; // 0x28
 	::System::UInt32 Field_1_4; // 0x30

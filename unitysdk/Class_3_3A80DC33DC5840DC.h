@@ -5,10 +5,10 @@
 class Class_1_D93F8AE271D8A728;
 namespace RPG::Client::LittleGameShare { class ST_ByRandom; }
 
-#define CLASS_3_3A80DC33DC5840DC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16919010)
-#define CLASS_3_3A80DC33DC5840DC__CTOR_OFFSET UNITYSDK_OFFSET(0x16918FF0)
+#define CLASS_3_3A80DC33DC5840DC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1A530870)
+#define CLASS_3_3A80DC33DC5840DC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A530850)
 
-inline static constexpr unsigned int Class_3_3A80DC33DC5840DC_TypeDefinitionIndex = 34784;
+inline static constexpr unsigned int Class_3_3A80DC33DC5840DC_TypeDefinitionIndex = 35454;
 
 class Class_3_3A80DC33DC5840DC : public ::RPG::Client::LittleGameShare::STPredicateTask_1<::RPG::Client::LittleGameShare::ST_ByRandom*>
 {

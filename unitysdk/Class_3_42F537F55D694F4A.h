@@ -8,19 +8,19 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_42F537F55D694F4A_METHOD_3_8CF25708B8860116_OFFSET UNITYSDK_OFFSET(0x14ABA770)
-#define CLASS_3_42F537F55D694F4A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14ABA3C0)
-#define CLASS_3_42F537F55D694F4A__CCTOR_OFFSET UNITYSDK_OFFSET(0x14ABA980)
-#define CLASS_3_42F537F55D694F4A__CTOR_OFFSET UNITYSDK_OFFSET(0x14ABA390)
+#define CLASS_3_42F537F55D694F4A_METHOD_3_8CF25708B8860116_OFFSET UNITYSDK_OFFSET(0x154E7170)
+#define CLASS_3_42F537F55D694F4A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154E6DB0)
+#define CLASS_3_42F537F55D694F4A__CCTOR_OFFSET UNITYSDK_OFFSET(0x154E7380)
+#define CLASS_3_42F537F55D694F4A__CTOR_OFFSET UNITYSDK_OFFSET(0x154E6D80)
 
-inline static constexpr unsigned int Class_3_42F537F55D694F4A_TypeDefinitionIndex = 54543;
+inline static constexpr unsigned int Class_3_42F537F55D694F4A_TypeDefinitionIndex = 55767;
 
 class Class_3_42F537F55D694F4A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetVisibility*>
 {
 public:
 	static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_Field_3_0()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_42F537F55D694F4A_TypeDefinitionIndex)->GetStaticField(0x3BDB0);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_42F537F55D694F4A_TypeDefinitionIndex)->GetStaticField(0x34A00);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropSetVisibility* a2)

@@ -3,9 +3,9 @@
 #include "unitysdk/Class_1_68C7EAEDA46C0580_PlayerMoveState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_68C7EAEDA46C0580__CTOR_OFFSET UNITYSDK_OFFSET(0x152BF2D0)
+#define CLASS_1_68C7EAEDA46C0580__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8135D0)
 
-inline static constexpr unsigned int Class_1_68C7EAEDA46C0580_TypeDefinitionIndex = 39805;
+inline static constexpr unsigned int Class_1_68C7EAEDA46C0580_TypeDefinitionIndex = 40614;
 
 class Class_1_68C7EAEDA46C0580 : public ::System::Object
 {

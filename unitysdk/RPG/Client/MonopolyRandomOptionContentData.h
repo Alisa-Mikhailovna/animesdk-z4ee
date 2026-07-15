@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1699A2D0)
-#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1699A370)
+#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCD6AF10)
+#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD6AFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyRandomOptionContentData_TypeDefinitionIndex = 61978;
+	inline static constexpr unsigned int MonopolyRandomOptionContentData_TypeDefinitionIndex = 63343;
 
 	class MonopolyRandomOptionContentData : public ::System::Object
 	{

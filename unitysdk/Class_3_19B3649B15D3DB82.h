@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StackAIUpperGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_19B3649B15D3DB82_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1471E1C0)
-#define CLASS_3_19B3649B15D3DB82__CTOR_OFFSET UNITYSDK_OFFSET(0x1471E190)
+#define CLASS_3_19B3649B15D3DB82_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149E3E70)
+#define CLASS_3_19B3649B15D3DB82__CTOR_OFFSET UNITYSDK_OFFSET(0x149E3E40)
 
-inline static constexpr unsigned int Class_3_19B3649B15D3DB82_TypeDefinitionIndex = 44903;
+inline static constexpr unsigned int Class_3_19B3649B15D3DB82_TypeDefinitionIndex = 45821;
 
 class Class_3_19B3649B15D3DB82 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackAIUpperGroup*>
 {

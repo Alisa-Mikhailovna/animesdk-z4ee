@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define HIPPLENBUILDERTIMEASSET_TIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17220110)
+#define HIPPLENBUILDERTIMEASSET_TIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14BDEE60)
 
-inline static constexpr unsigned int HipplenBuilderTimeAsset_TimeConfig_TypeDefinitionIndex = 44574;
+inline static constexpr unsigned int HipplenBuilderTimeAsset_TimeConfig_TypeDefinitionIndex = 45446;
 
 class HipplenBuilderTimeAsset_TimeConfig : public ::System::Object
 {

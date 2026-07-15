@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PuzzleAnimatorParam; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_METHOD_3_7C52AF8FBC5B3ECF_OFFSET UNITYSDK_OFFSET(0x19A9C760)
-#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_METHOD_3_A3A5E93D664782CB_OFFSET UNITYSDK_OFFSET(0x19A9C8B0)
-#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9C820)
+#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_METHOD_3_914E95E81E6BBC69_OFFSET UNITYSDK_OFFSET(0x1B6F5F50)
+#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_METHOD_3_A3A5E93D664782CB_OFFSET UNITYSDK_OFFSET(0x1B6F5FD0)
+#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F5FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleSetAnimatorParams_TypeDefinitionIndex = 21003;
+	inline static constexpr unsigned int PuzzleSetAnimatorParams_TypeDefinitionIndex = 21418;
 
 	class PuzzleSetAnimatorParams : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUZZLESETANIMATORPARAMS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7C52AF8FBC5B3ECF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PuzzleSetAnimatorParams*& a2)
+		static ::System::Void Method_3_914E95E81E6BBC69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PuzzleSetAnimatorParams*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PuzzleSetAnimatorParams*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUZZLESETANIMATORPARAMS_METHOD_3_7C52AF8FBC5B3ECF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PuzzleSetAnimatorParams*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUZZLESETANIMATORPARAMS_METHOD_3_914E95E81E6BBC69_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A3A5E93D664782CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PuzzleSetAnimatorParams* a2)

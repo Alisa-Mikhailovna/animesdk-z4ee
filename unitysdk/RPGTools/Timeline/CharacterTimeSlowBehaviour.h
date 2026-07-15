@@ -8,22 +8,21 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class CharacterTimeSlowClip; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x199B3E60)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_METHOD_2_487F31113A7365D2_OFFSET UNITYSDK_OFFSET(0x199B40A0)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B3E80)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199B3FC0)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x199B3E70)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199B4180)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B4190)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199B41A0)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDCB4100)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_METHOD_2_91CF93963147DE87_OFFSET UNITYSDK_OFFSET(0xDCB4360)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCB4120)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDCB4280)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDCB4110)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB4450)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterTimeSlowBehaviour_TypeDefinitionIndex = 45327;
+	inline static constexpr unsigned int CharacterTimeSlowBehaviour_TypeDefinitionIndex = 46251;
 
 	class CharacterTimeSlowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
+		// static const ::System::Single MaxTimeScale; // 0x0
 		::System::Single TimeScale; // 0x10
 		::RPGTools::Timeline::CharacterTimeSlowClip* _Clip_k__BackingField; // 0x18
 		::RPG::GameCore::GameEntity* _TargetEntity; // 0x20
@@ -54,19 +53,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_487F31113A7365D2(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
+		::System::Void Method_2_91CF93963147DE87(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_METHOD_2_487F31113A7365D2_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERTIMESLOWBEHAVIOUR_METHOD_2_91CF93963147DE87_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

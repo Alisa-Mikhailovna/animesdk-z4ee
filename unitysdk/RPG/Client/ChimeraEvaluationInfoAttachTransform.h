@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_CHIMERAEVALUATIONINFOATTACHTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1828B3C0)
+#define RPG_CLIENT_CHIMERAEVALUATIONINFOATTACHTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xC141450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraEvaluationInfoAttachTransform_TypeDefinitionIndex = 67716;
+	inline static constexpr unsigned int ChimeraEvaluationInfoAttachTransform_TypeDefinitionIndex = 69200;
 
 	class ChimeraEvaluationInfoAttachTransform : public ::UnityEngine::MonoBehaviour
 	{

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HEARTDIALEMOBLACKLIST_METHOD_3_A3C49DDF4524DE54_OFFSET UNITYSDK_OFFSET(0x1A1D30D0)
-#define RPG_GAMECORE_HEARTDIALEMOBLACKLIST_METHOD_3_D891CBFD0D9BC5F1_OFFSET UNITYSDK_OFFSET(0x1A1D3150)
-#define RPG_GAMECORE_HEARTDIALEMOBLACKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D3120)
+#define RPG_GAMECORE_HEARTDIALEMOBLACKLIST_METHOD_3_0FE307F96E25581C_OFFSET UNITYSDK_OFFSET(0x1B502C90)
+#define RPG_GAMECORE_HEARTDIALEMOBLACKLIST_METHOD_3_D891CBFD0D9BC5F1_OFFSET UNITYSDK_OFFSET(0x1B502CD0)
+#define RPG_GAMECORE_HEARTDIALEMOBLACKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B502CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialEmoBlackList_TypeDefinitionIndex = 20054;
+	inline static constexpr unsigned int HeartDialEmoBlackList_TypeDefinitionIndex = 20426;
 
 	class HeartDialEmoBlackList : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALEMOBLACKLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A3C49DDF4524DE54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeartDialEmoBlackList*& a2)
+		static ::System::Void Method_3_0FE307F96E25581C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeartDialEmoBlackList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeartDialEmoBlackList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALEMOBLACKLIST_METHOD_3_A3C49DDF4524DE54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeartDialEmoBlackList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEARTDIALEMOBLACKLIST_METHOD_3_0FE307F96E25581C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D891CBFD0D9BC5F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeartDialEmoBlackList* a2)

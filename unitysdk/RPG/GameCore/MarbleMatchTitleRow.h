@@ -7,26 +7,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEMATCHTITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C3AFB0)
-#define RPG_GAMECORE_MARBLEMATCHTITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3B430)
+#define RPG_GAMECORE_MARBLEMATCHTITLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5BB210)
+#define RPG_GAMECORE_MARBLEMATCHTITLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5BB690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMatchTitleRow_TypeDefinitionIndex = 11366;
+	inline static constexpr unsigned int MarbleMatchTitleRow_TypeDefinitionIndex = 11466;
 
 	class MarbleMatchTitleRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* Param; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::MarbleTitleValue ValueType; // 0x1C
+		::RPG::GameCore::MarbleTitleCondition Condition; // 0x18
+		::System::Int32 PVPScore; // 0x1C
 		::RPG::Client::TextID Desc; // 0x20
-		::System::Int32 PVPScore; // 0x30
-		::System::Int32 Quality; // 0x34
-		::System::Int32 CompareValue; // 0x38
-		::RPG::GameCore::MarbleTitleCondition Condition; // 0x3C
+		::RPG::Client::TextID Name; // 0x30
 		::System::Int32 Priority; // 0x40
-		::RPG::Client::TextID Name; // 0x48
+		::RPG::GameCore::MarbleTitleValue ValueType; // 0x44
+		::System::Int32 Quality; // 0x48
+		::System::Int32 CompareValue; // 0x4C
+		::System::UInt32 ID; // 0x50
 
 		::System::Void _ctor()
 		{

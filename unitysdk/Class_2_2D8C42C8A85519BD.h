@@ -5,29 +5,26 @@
 namespace RPG::GameCore { class SwitchBattleArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_2D8C42C8A85519BD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13E83A40)
-#define CLASS_2_2D8C42C8A85519BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13E83AE0)
-#define CLASS_2_2D8C42C8A85519BD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13E83A90)
-#define CLASS_2_2D8C42C8A85519BD_TICK_OFFSET UNITYSDK_OFFSET(0x13E83E60)
-#define CLASS_2_2D8C42C8A85519BD__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E84170)
-#define CLASS_2_2D8C42C8A85519BD__CTOR_OFFSET UNITYSDK_OFFSET(0x13E83A20)
+#define CLASS_2_2D8C42C8A85519BD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1260A790)
+#define CLASS_2_2D8C42C8A85519BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1260A830)
+#define CLASS_2_2D8C42C8A85519BD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1260A7E0)
+#define CLASS_2_2D8C42C8A85519BD_TICK_OFFSET UNITYSDK_OFFSET(0x1260AE70)
+#define CLASS_2_2D8C42C8A85519BD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1260B2F0)
+#define CLASS_2_2D8C42C8A85519BD__CTOR_OFFSET UNITYSDK_OFFSET(0x1260A770)
 
-inline static constexpr unsigned int Class_2_2D8C42C8A85519BD_TypeDefinitionIndex = 51998;
+inline static constexpr unsigned int Class_2_2D8C42C8A85519BD_TypeDefinitionIndex = 53153;
 
 class Class_2_2D8C42C8A85519BD : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	static ::System::Boolean* StaticGet_Field_2_0()
+	static ::System::Single* StaticGet_Field_2_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_2D8C42C8A85519BD_TypeDefinitionIndex)->GetStaticField(0x8CF0);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_2_2D8C42C8A85519BD_TypeDefinitionIndex)->GetStaticField(0x5900);
 	}
-	static ::System::Single* StaticGet_Field_2_1()
-	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_2_2D8C42C8A85519BD_TypeDefinitionIndex)->GetStaticField(0x8CF4);
-	}
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x18
-	::RPG::GameCore::SwitchBattleArea* Field_2_3; // 0x20
-	::System::Boolean Field_2_4; // 0x28
+	::RPG::GameCore::SwitchBattleArea* Field_2_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
+	::System::Boolean Field_2_3; // 0x28
+	::System::Boolean Field_2_4; // 0x29
 	::System::Single Field_2_5; // 0x2C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchBattleArea* a2)

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETLEVEL_METHOD_3_895507202C200CBE_OFFSET UNITYSDK_OFFSET(0x1A7903E0)
-#define RPG_GAMECORE_SETLEVEL_METHOD_3_E777FEB59BD32382_OFFSET UNITYSDK_OFFSET(0x1A7904B0)
-#define RPG_GAMECORE_SETLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A790460)
+#define RPG_GAMECORE_SETLEVEL_METHOD_3_E777FEB59BD32382_OFFSET UNITYSDK_OFFSET(0x1B8A79D0)
+#define RPG_GAMECORE_SETLEVEL_METHOD_3_F64B3161F4373005_OFFSET UNITYSDK_OFFSET(0x1B8A7930)
+#define RPG_GAMECORE_SETLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A7990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLevel_TypeDefinitionIndex = 22373;
+	inline static constexpr unsigned int SetLevel_TypeDefinitionIndex = 22815;
 
 	class SetLevel : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLEVEL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_895507202C200CBE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLevel*& a2)
+		static ::System::Void Method_3_F64B3161F4373005(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLevel*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLevel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLEVEL_METHOD_3_895507202C200CBE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLevel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLEVEL_METHOD_3_F64B3161F4373005_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E777FEB59BD32382(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLevel* a2)

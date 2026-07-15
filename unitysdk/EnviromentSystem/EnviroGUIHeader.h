@@ -4,14 +4,13 @@
 
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_METHOD_2_42B2BB88AE2FB02E_OFFSET UNITYSDK_OFFSET(0x13BBA8A0)
-#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_METHOD_2_E7B58F15867D5BA9_OFFSET UNITYSDK_OFFSET(0x13BBA920)
-#define ENVIROMENTSYSTEM_ENVIROGUIHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13BBA830)
-#define ENVIROMENTSYSTEM_ENVIROGUIHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x13BBA540)
+#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_METHOD_2_42B2BB88AE2FB02E_OFFSET UNITYSDK_OFFSET(0x144D4B80)
+#define ENVIROMENTSYSTEM_ENVIROGUIHEADER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x144D4B10)
+#define ENVIROMENTSYSTEM_ENVIROGUIHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x144D46D0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGUIHeader_TypeDefinitionIndex = 46800;
+	inline static constexpr unsigned int EnviroGUIHeader_TypeDefinitionIndex = 47765;
 
 	class EnviroGUIHeader : public ::EnviromentSystem::EnviroProperty
 	{
@@ -29,11 +28,6 @@ namespace EnviromentSystem
 		::System::Void Method_2_42B2BB88AE2FB02E(::EnviromentSystem::EnviroProperty* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGUIHEADER_METHOD_2_42B2BB88AE2FB02E_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_2_E7B58F15867D5BA9(::EnviromentSystem::EnviroProperty* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGUIHEADER_METHOD_2_E7B58F15867D5BA9_OFFSET))(this, a1);
 		}
 	};
 }

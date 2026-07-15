@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameLevelCurveInfo; }
 
-#define RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG_METHOD_3_A0949AEE208F04F0_OFFSET UNITYSDK_OFFSET(0x1A129CC0)
-#define RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG_METHOD_3_BD459CE6711B96BC_OFFSET UNITYSDK_OFFSET(0x1A126FC0)
-#define RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A126FA0)
+#define RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG_METHOD_3_4CEA8A3BAF2A1BB9_OFFSET UNITYSDK_OFFSET(0x1B585D80)
+#define RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG_METHOD_3_BD459CE6711B96BC_OFFSET UNITYSDK_OFFSET(0x1B585E30)
+#define RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B585E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameCurveInfoConfig_TypeDefinitionIndex = 17940;
+	inline static constexpr unsigned int LittleGameCurveInfoConfig_TypeDefinitionIndex = 18119;
 
 	class LittleGameCurveInfoConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0949AEE208F04F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameCurveInfoConfig*& a2)
+		static ::System::Void Method_3_4CEA8A3BAF2A1BB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameCurveInfoConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameCurveInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG_METHOD_3_A0949AEE208F04F0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameCurveInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECURVEINFOCONFIG_METHOD_3_4CEA8A3BAF2A1BB9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BD459CE6711B96BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameCurveInfoConfig* a2)

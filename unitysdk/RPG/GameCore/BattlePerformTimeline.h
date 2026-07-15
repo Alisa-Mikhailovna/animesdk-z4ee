@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMTIMELINE_METHOD_3_04DEECB3CCBED62E_OFFSET UNITYSDK_OFFSET(0x195D2F70)
-#define RPG_GAMECORE_BATTLEPERFORMTIMELINE_METHOD_3_96E79C9F540580FF_OFFSET UNITYSDK_OFFSET(0x195D2EF0)
-#define RPG_GAMECORE_BATTLEPERFORMTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x195D2F40)
+#define RPG_GAMECORE_BATTLEPERFORMTIMELINE_METHOD_3_04DEECB3CCBED62E_OFFSET UNITYSDK_OFFSET(0x1B202290)
+#define RPG_GAMECORE_BATTLEPERFORMTIMELINE_METHOD_3_0D8F9034ED15A3ED_OFFSET UNITYSDK_OFFSET(0x1B202250)
+#define RPG_GAMECORE_BATTLEPERFORMTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B202280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformTimeline_TypeDefinitionIndex = 22109;
+	inline static constexpr unsigned int BattlePerformTimeline_TypeDefinitionIndex = 22546;
 
 	class BattlePerformTimeline : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMTIMELINE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_96E79C9F540580FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformTimeline*& a2)
+		static ::System::Void Method_3_0D8F9034ED15A3ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformTimeline*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMTIMELINE_METHOD_3_96E79C9F540580FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMTIMELINE_METHOD_3_0D8F9034ED15A3ED_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_04DEECB3CCBED62E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformTimeline* a2)

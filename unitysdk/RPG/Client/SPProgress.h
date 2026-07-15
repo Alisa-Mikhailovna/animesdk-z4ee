@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/UI/Graphic.h"
+#include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_SPPROGRESS_GET_COLOR2_OFFSET UNITYSDK_OFFSET(0x176D3080)
-#define RPG_CLIENT_SPPROGRESS_GET_FILLAMOUNT2_OFFSET UNITYSDK_OFFSET(0x176D31C0)
-#define RPG_CLIENT_SPPROGRESS_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0x176D3120)
-#define RPG_CLIENT_SPPROGRESS_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0x176D32F0)
-#define RPG_CLIENT_SPPROGRESS_GET_USESECONDFILL_OFFSET UNITYSDK_OFFSET(0x176D3260)
-#define RPG_CLIENT_SPPROGRESS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x176D35A0)
-#define RPG_CLIENT_SPPROGRESS_SET_COLOR2_OFFSET UNITYSDK_OFFSET(0x176D3090)
-#define RPG_CLIENT_SPPROGRESS_SET_FILLAMOUNT2_OFFSET UNITYSDK_OFFSET(0x176D31D0)
-#define RPG_CLIENT_SPPROGRESS_SET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0x176D3130)
-#define RPG_CLIENT_SPPROGRESS_SET_USESECONDFILL_OFFSET UNITYSDK_OFFSET(0x176D3270)
-#define RPG_CLIENT_SPPROGRESS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x176D3390)
-#define RPG_CLIENT_SPPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x176D3630)
-#define RPG_CLIENT_SPPROGRESS__REFRESH_OFFSET UNITYSDK_OFFSET(0x176D33E0)
-#define RPG_CLIENT_SPPROGRESS___IFIXBASEPROXY_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0x176D36D0)
-#define RPG_CLIENT_SPPROGRESS___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x176D36F0)
-#define RPG_CLIENT_SPPROGRESS___IFIXBASEPROXY_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x176D36E0)
+#define RPG_CLIENT_SPPROGRESS_GET_COLOR2_OFFSET UNITYSDK_OFFSET(0xD4D27D0)
+#define RPG_CLIENT_SPPROGRESS_GET_FILLAMOUNT2_OFFSET UNITYSDK_OFFSET(0xD4D2B00)
+#define RPG_CLIENT_SPPROGRESS_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD4D2A20)
+#define RPG_CLIENT_SPPROGRESS_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD4D28C0)
+#define RPG_CLIENT_SPPROGRESS_GET_MATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0xD4D2CB0)
+#define RPG_CLIENT_SPPROGRESS_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0xD4D2D40)
+#define RPG_CLIENT_SPPROGRESS_GET_USESECONDFILL_OFFSET UNITYSDK_OFFSET(0xD4D2BE0)
+#define RPG_CLIENT_SPPROGRESS_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD4D3280)
+#define RPG_CLIENT_SPPROGRESS_SET_COLOR2_OFFSET UNITYSDK_OFFSET(0xD4D2830)
+#define RPG_CLIENT_SPPROGRESS_SET_FILLAMOUNT2_OFFSET UNITYSDK_OFFSET(0xD4D2B50)
+#define RPG_CLIENT_SPPROGRESS_SET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD4D2A70)
+#define RPG_CLIENT_SPPROGRESS_SET_MATERIAL_OFFSET UNITYSDK_OFFSET(0xD4D2F20)
+#define RPG_CLIENT_SPPROGRESS_SET_USESECONDFILL_OFFSET UNITYSDK_OFFSET(0xD4D2C30)
+#define RPG_CLIENT_SPPROGRESS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD4D2F70)
+#define RPG_CLIENT_SPPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0xD4D3310)
+#define RPG_CLIENT_SPPROGRESS__REFRESH_OFFSET UNITYSDK_OFFSET(0xD4D2FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SPProgress_TypeDefinitionIndex = 67875;
+	inline static constexpr unsigned int SPProgress_TypeDefinitionIndex = 69359;
 
-	class SPProgress : public ::UnityEngine::UI::Graphic
+	class SPProgress : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		::System::Single m_FillAmount; // 0xA0
-		::System::Single m_FillAmount2; // 0xA4
-		::System::Boolean m_UseSecondFill; // 0xA8
-		::UnityEngine::Color m_Color2; // 0xAC
-		::UnityEngine::Material* m_MaterialInstance; // 0xC0
-		::System::Int32 m_Color2ID; // 0xC8
-		::System::Int32 m_FillAmountID; // 0xCC
-		::System::Int32 m_FillAmount2ID; // 0xD0
-		::System::Int32 m_Fill2ID; // 0xD4
+		::System::Single m_FillAmount; // 0xF0
+		::System::Single m_FillAmount2; // 0xF4
+		::System::Boolean m_UseSecondFill; // 0xF8
+		::UnityEngine::Color m_Color2; // 0xFC
+		::UnityEngine::Material* m_MaterialInstance; // 0x110
+		::System::Int32 m_Color2ID; // 0x118
+		::System::Int32 m_FillAmountID; // 0x11C
+		::System::Int32 m_FillAmount2ID; // 0x120
+		::System::Int32 m_Fill2ID; // 0x124
 
 		::System::Void _ctor()
 		{
@@ -89,6 +89,16 @@ namespace RPG::Client
 			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS_GET_MATERIALFORRENDERING_OFFSET))(this);
 		}
 
+		::UnityEngine::Material* get_material()
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS_GET_MATERIAL_OFFSET))(this);
+		}
+
+		::System::Void set_material(::UnityEngine::Material* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS_SET_MATERIAL_OFFSET))(this, a1);
+		}
+
 		::System::Void UpdateMaterial()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS_UPDATEMATERIAL_OFFSET))(this);
@@ -104,19 +114,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS_ONDESTROY_OFFSET))(this);
 		}
 
-		::UnityEngine::Material* __iFixBaseProxy_get_materialForRendering()
+		::UnityEngine::Material* get_MaterialInstance()
 		{
-			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS___IFIXBASEPROXY_GET_MATERIALFORRENDERING_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_UpdateMaterial()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS___IFIXBASEPROXY_UPDATEMATERIAL_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnDestroy()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS___IFIXBASEPROXY_ONDESTROY_OFFSET))(this);
+			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPPROGRESS_GET_MATERIALINSTANCE_OFFSET))(this);
 		}
 	};
 }

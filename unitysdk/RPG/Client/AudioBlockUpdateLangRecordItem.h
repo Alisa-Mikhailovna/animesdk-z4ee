@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIOBLOCKUPDATELANGRECORDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1597D900)
+#define RPG_CLIENT_AUDIOBLOCKUPDATELANGRECORDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBD6F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioBlockUpdateLangRecordItem_TypeDefinitionIndex = 57218;
+	inline static constexpr unsigned int AudioBlockUpdateLangRecordItem_TypeDefinitionIndex = 58476;
 
 	class AudioBlockUpdateLangRecordItem : public ::System::Object
 	{

@@ -7,15 +7,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_267CC138EDD7174E_OFFSET UNITYSDK_OFFSET(0x18FD7470)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_296A228274D95D7B_OFFSET UNITYSDK_OFFSET(0x18FD74F0)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_5BB3B1E2FD82AE15_OFFSET UNITYSDK_OFFSET(0x18FD7280)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_698F455628C9FEDB_OFFSET UNITYSDK_OFFSET(0x18FD71B0)
-#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD7230)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_0779FF7553A40484_OFFSET UNITYSDK_OFFSET(0x1B2513F0)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_5BB3B1E2FD82AE15_OFFSET UNITYSDK_OFFSET(0x1B2511D0)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_C192279374D87A70_OFFSET UNITYSDK_OFFSET(0x1B251190)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_D23EB7C988D2EBEB_OFFSET UNITYSDK_OFFSET(0x1B2513C0)
+#define RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2511C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareHeartDialScriptStep_TypeDefinitionIndex = 20674;
+	inline static constexpr unsigned int ByCompareHeartDialScriptStep_TypeDefinitionIndex = 21089;
 
 	class ByCompareHeartDialScriptStep : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_698F455628C9FEDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareHeartDialScriptStep*& a2)
+		static ::System::Void Method_4_C192279374D87A70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareHeartDialScriptStep*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareHeartDialScriptStep*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_698F455628C9FEDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareHeartDialScriptStep*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_C192279374D87A70_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_5BB3B1E2FD82AE15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareHeartDialScriptStep* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareHeartDialScriptStep*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_5BB3B1E2FD82AE15_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_267CC138EDD7174E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptStep*& a2)
+		static ::System::Void Method_4_D23EB7C988D2EBEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptStep*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptStep*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_267CC138EDD7174E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptStep*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_D23EB7C988D2EBEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_296A228274D95D7B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptStep* a2)
+		static ::System::Void Method_4_0779FF7553A40484(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareHeartDialScriptStep* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptStep*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_296A228274D95D7B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareHeartDialScriptStep*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREHEARTDIALSCRIPTSTEP_METHOD_4_0779FF7553A40484_OFFSET))(a1, a2);
 		}
 	};
 }

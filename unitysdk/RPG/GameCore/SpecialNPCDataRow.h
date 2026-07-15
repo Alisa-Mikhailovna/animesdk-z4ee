@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPECIALNPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1932F040)
-#define RPG_GAMECORE_SPECIALNPCDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1932FBB0)
+#define RPG_GAMECORE_SPECIALNPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8EE050)
+#define RPG_GAMECORE_SPECIALNPCDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8EEBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialNPCDataRow_TypeDefinitionIndex = 14392;
+	inline static constexpr unsigned int SpecialNPCDataRow_TypeDefinitionIndex = 14540;
 
 	class SpecialNPCDataRow : public ::System::Object
 	{
 	public:
 		::System::String* PrefabPath; // 0x10
 		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x18
-		::System::String* ConfigEntityPath; // 0x20
-		::System::String* JsonPath; // 0x28
+		::System::String* JsonPath; // 0x20
+		::System::String* ConfigEntityPath; // 0x28
 		::System::UInt32 ID; // 0x30
 
 		::System::Void _ctor()

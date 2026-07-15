@@ -9,13 +9,13 @@ namespace RPG::GameCore { class StreamingSceneObjLodScaleVolumeComponentData; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_39B166AF9FEA40EF_OFFSET UNITYSDK_OFFSET(0x19342430)
-#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_5875E3BE0F78DB0F_OFFSET UNITYSDK_OFFSET(0x19342190)
-#define RPG_GAMECORE_STAGEVOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19342420)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_5875E3BE0F78DB0F_OFFSET UNITYSDK_OFFSET(0x1B903040)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_BC482C8128371606_OFFSET UNITYSDK_OFFSET(0x1B903310)
+#define RPG_GAMECORE_STAGEVOLUMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9032D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVolumeConfig_TypeDefinitionIndex = 18165;
+	inline static constexpr unsigned int StageVolumeConfig_TypeDefinitionIndex = 18398;
 
 	class StageVolumeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_5875E3BE0F78DB0F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_39B166AF9FEA40EF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageVolumeConfig*& a2)
+		static ::System::Void Method_2_BC482C8128371606(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageVolumeConfig*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageVolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_39B166AF9FEA40EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageVolumeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOLUMECONFIG_METHOD_2_BC482C8128371606_OFFSET))(a1, a2);
 		}
 	};
 }

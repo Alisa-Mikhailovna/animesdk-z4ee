@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER_METHOD_3_42B3EC61249E690A_OFFSET UNITYSDK_OFFSET(0x1988E850)
-#define RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER_METHOD_3_A90264EB663E8783_OFFSET UNITYSDK_OFFSET(0x1988E8D0)
-#define RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1988E8A0)
+#define RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER_METHOD_3_63F268E8126B5A18_OFFSET UNITYSDK_OFFSET(0x1B0FEF20)
+#define RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER_METHOD_3_A90264EB663E8783_OFFSET UNITYSDK_OFFSET(0x1B0FEF60)
+#define RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0FEF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveFMChannelReceiver_TypeDefinitionIndex = 19437;
+	inline static constexpr unsigned int ActiveFMChannelReceiver_TypeDefinitionIndex = 19795;
 
 	class ActiveFMChannelReceiver : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_42B3EC61249E690A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveFMChannelReceiver*& a2)
+		static ::System::Void Method_3_63F268E8126B5A18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveFMChannelReceiver*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveFMChannelReceiver*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER_METHOD_3_42B3EC61249E690A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveFMChannelReceiver*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFMCHANNELRECEIVER_METHOD_3_63F268E8126B5A18_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A90264EB663E8783(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveFMChannelReceiver* a2)

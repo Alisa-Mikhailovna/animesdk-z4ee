@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableFreelookCameraDragMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C36B7CE4B70A0051_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF44F030)
-#define CLASS_3_C36B7CE4B70A0051__CTOR_OFFSET UNITYSDK_OFFSET(0xF44F000)
+#define CLASS_3_C36B7CE4B70A0051_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C83200)
+#define CLASS_3_C36B7CE4B70A0051__CTOR_OFFSET UNITYSDK_OFFSET(0x10C831D0)
 
-inline static constexpr unsigned int Class_3_C36B7CE4B70A0051_TypeDefinitionIndex = 54304;
+inline static constexpr unsigned int Class_3_C36B7CE4B70A0051_TypeDefinitionIndex = 55527;
 
 class Class_3_C36B7CE4B70A0051 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableFreelookCameraDragMode*>
 {

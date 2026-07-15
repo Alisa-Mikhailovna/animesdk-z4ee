@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_TUPLEELEMENTNAMESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1970BBC0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_TUPLEELEMENTNAMESATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B4370)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int TupleElementNamesAttribute_TypeDefinitionIndex = 1339;
+	inline static constexpr unsigned int TupleElementNamesAttribute_TypeDefinitionIndex = 1341;
 
 	class TupleElementNamesAttribute : public ::System::Attribute
 	{

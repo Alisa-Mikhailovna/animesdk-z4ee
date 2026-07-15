@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1957E9C0)
-#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__DISPLAYCLASS6_0__HANDLEROLEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1957FA00)
+#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6C2E90)
+#define RPG_CLIENT_GRIDFIGHTBONUSRESULTDATA___C__DISPLAYCLASS6_0__HANDLEROLEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xC6C4180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBonusResultData___c__DisplayClass6_0_TypeDefinitionIndex = 60215;
+	inline static constexpr unsigned int GridFightBonusResultData___c__DisplayClass6_0_TypeDefinitionIndex = 61503;
 
 	class GridFightBonusResultData___c__DisplayClass6_0 : public ::System::Object
 	{

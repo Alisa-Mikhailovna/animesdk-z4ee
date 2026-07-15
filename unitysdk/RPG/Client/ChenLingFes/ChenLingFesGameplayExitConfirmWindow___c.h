@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AF9F10)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AF9F50)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC090C70)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYEXITCONFIRMWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC090CB0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayExitConfirmWindow___c_TypeDefinitionIndex = 73968;
+	inline static constexpr unsigned int ChenLingFesGameplayExitConfirmWindow___c_TypeDefinitionIndex = 76350;
 
 	class ChenLingFesGameplayExitConfirmWindow___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayExitConfirmWindow___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayExitConfirmWindow___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayExitConfirmWindow___c_TypeDefinitionIndex)->GetStaticField(0x682E0);
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayExitConfirmWindow___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayExitConfirmWindow___c_TypeDefinitionIndex)->GetStaticField(0x5EDD0);
 		}
 
 		static ::System::Void _cctor()

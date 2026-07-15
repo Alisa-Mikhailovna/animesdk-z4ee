@@ -5,12 +5,12 @@
 
 namespace RPG::Client { class BoxingClubLevelInstance; }
 
-#define RPG_CLIENT_BOXINGCLUBMODULE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182D1D10)
-#define RPG_CLIENT_BOXINGCLUBMODULE___C__DISPLAYCLASS29_0__GETBOXINGCLUBLEVELINSTANCEBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x182D46A0)
+#define RPG_CLIENT_BOXINGCLUBMODULE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBECFAE0)
+#define RPG_CLIENT_BOXINGCLUBMODULE___C__DISPLAYCLASS29_0__GETBOXINGCLUBLEVELINSTANCEBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xBED2780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoxingClubModule___c__DisplayClass29_0_TypeDefinitionIndex = 58897;
+	inline static constexpr unsigned int BoxingClubModule___c__DisplayClass29_0_TypeDefinitionIndex = 60168;
 
 	class BoxingClubModule___c__DisplayClass29_0 : public ::System::Object
 	{

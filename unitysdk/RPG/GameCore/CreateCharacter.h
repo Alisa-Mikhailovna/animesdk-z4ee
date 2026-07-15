@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_257A5D364EFC27C5_OFFSET UNITYSDK_OFFSET(0x19B1E340)
-#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_C76A0B7408ED1B01_OFFSET UNITYSDK_OFFSET(0x19B1E3E0)
-#define RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1E3A0)
+#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_AFB1AAB8CC21D8DC_OFFSET UNITYSDK_OFFSET(0x1B38A350)
+#define RPG_GAMECORE_CREATECHARACTER_METHOD_3_C76A0B7408ED1B01_OFFSET UNITYSDK_OFFSET(0x1B38A3B0)
+#define RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38A390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 19674;
+	inline static constexpr unsigned int CreateCharacter_TypeDefinitionIndex = 20033;
 
 	class CreateCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -42,9 +42,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_257A5D364EFC27C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCharacter*& a2)
+		static ::System::Void Method_3_AFB1AAB8CC21D8DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER_METHOD_3_257A5D364EFC27C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECHARACTER_METHOD_3_AFB1AAB8CC21D8DC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C76A0B7408ED1B01(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCharacter* a2)

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_CLIENT_ST_PARKOUR_SWITCHROAD_METHOD_4_23D1A0E75276F8FB_OFFSET UNITYSDK_OFFSET(0x1987C9C0)
-#define RPG_CLIENT_ST_PARKOUR_SWITCHROAD_METHOD_4_24E28BE7C123299D_OFFSET UNITYSDK_OFFSET(0x1987CAA0)
-#define RPG_CLIENT_ST_PARKOUR_SWITCHROAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1987CA40)
+#define RPG_CLIENT_ST_PARKOUR_SWITCHROAD_METHOD_4_24E28BE7C123299D_OFFSET UNITYSDK_OFFSET(0x1B0ECE20)
+#define RPG_CLIENT_ST_PARKOUR_SWITCHROAD_METHOD_4_8B94C91ABFA772B8_OFFSET UNITYSDK_OFFSET(0x1B0ECDD0)
+#define RPG_CLIENT_ST_PARKOUR_SWITCHROAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0ECE10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ST_Parkour_SwitchRoad_TypeDefinitionIndex = 9941;
+	inline static constexpr unsigned int ST_Parkour_SwitchRoad_TypeDefinitionIndex = 9956;
 
 	class ST_Parkour_SwitchRoad : public ::RPG::GameCore::STTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SWITCHROAD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_23D1A0E75276F8FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_SwitchRoad*& a2)
+		static ::System::Void Method_4_8B94C91ABFA772B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_SwitchRoad*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_SwitchRoad*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SWITCHROAD_METHOD_4_23D1A0E75276F8FB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_SwitchRoad*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SWITCHROAD_METHOD_4_8B94C91ABFA772B8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_24E28BE7C123299D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_SwitchRoad* a2)

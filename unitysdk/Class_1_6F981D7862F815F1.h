@@ -5,10 +5,10 @@
 
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_6F981D7862F815F1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1680C290)
-#define CLASS_1_6F981D7862F815F1__CTOR_OFFSET UNITYSDK_OFFSET(0x1680C310)
+#define CLASS_1_6F981D7862F815F1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8E2A20)
+#define CLASS_1_6F981D7862F815F1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8E2AA0)
 
-inline static constexpr unsigned int Class_1_6F981D7862F815F1_TypeDefinitionIndex = 39306;
+inline static constexpr unsigned int Class_1_6F981D7862F815F1_TypeDefinitionIndex = 40115;
 
 class Class_1_6F981D7862F815F1 : public ::System::Object
 {

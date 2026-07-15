@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_GAMECORE_SHOWGUIDEFOLLOW3D_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1A003700)
-#define RPG_GAMECORE_SHOWGUIDEFOLLOW3D_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A003680)
-#define RPG_GAMECORE_SHOWGUIDEFOLLOW3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0036D0)
+#define RPG_GAMECORE_SHOWGUIDEFOLLOW3D_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B8CDE80)
+#define RPG_GAMECORE_SHOWGUIDEFOLLOW3D_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8CDE40)
+#define RPG_GAMECORE_SHOWGUIDEFOLLOW3D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8CDE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideFollow3D_TypeDefinitionIndex = 23011;
+	inline static constexpr unsigned int ShowGuideFollow3D_TypeDefinitionIndex = 23478;
 
 	class ShowGuideFollow3D : public ::RPG::GameCore::TaskConfig
 	{

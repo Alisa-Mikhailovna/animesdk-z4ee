@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL_METHOD_3_6C915625339E18B7_OFFSET UNITYSDK_OFFSET(0x19AAA210)
-#define RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL_METHOD_3_F52BE6704689EEB6_OFFSET UNITYSDK_OFFSET(0x19AAA190)
-#define RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAA1E0)
+#define RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL_METHOD_3_1013F8225C54C5A6_OFFSET UNITYSDK_OFFSET(0x1B704190)
+#define RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL_METHOD_3_6C915625339E18B7_OFFSET UNITYSDK_OFFSET(0x1B7041D0)
+#define RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7041C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectMonsterIDFromPool_TypeDefinitionIndex = 22007;
+	inline static constexpr unsigned int RandomSelectMonsterIDFromPool_TypeDefinitionIndex = 22441;
 
 	class RandomSelectMonsterIDFromPool : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F52BE6704689EEB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectMonsterIDFromPool*& a2)
+		static ::System::Void Method_3_1013F8225C54C5A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectMonsterIDFromPool*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectMonsterIDFromPool*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL_METHOD_3_F52BE6704689EEB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectMonsterIDFromPool*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTMONSTERIDFROMPOOL_METHOD_3_1013F8225C54C5A6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6C915625339E18B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectMonsterIDFromPool* a2)

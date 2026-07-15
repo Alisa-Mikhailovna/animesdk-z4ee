@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_511CDFCB0C002552___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x145DAC50)
-#define CLASS_2_511CDFCB0C002552___C__CTOR_OFFSET UNITYSDK_OFFSET(0x145DAC90)
-#define CLASS_2_511CDFCB0C002552___C___SETUPAREA2TEAM_B__9_0_OFFSET UNITYSDK_OFFSET(0x145DACA0)
+#define CLASS_2_511CDFCB0C002552___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD6E900)
+#define CLASS_2_511CDFCB0C002552___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD6E940)
+#define CLASS_2_511CDFCB0C002552___C___SETUPAREA2TEAM_B__9_0_OFFSET UNITYSDK_OFFSET(0xBD6E950)
 
-inline static constexpr unsigned int Class_2_511CDFCB0C002552___c_TypeDefinitionIndex = 52505;
+inline static constexpr unsigned int Class_2_511CDFCB0C002552___c_TypeDefinitionIndex = 53709;
 
 class Class_2_511CDFCB0C002552___c : public ::System::Object
 {
 public:
 	static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet___9__9_0()
 	{
-		return (::System::Action_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_511CDFCB0C002552___c_TypeDefinitionIndex)->GetStaticField(0x50640);
+		return (::System::Action_1<::RPG::GameCore::GameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_511CDFCB0C002552___c_TypeDefinitionIndex)->GetStaticField(0x52110);
 	}
 	static ::Class_2_511CDFCB0C002552___c** StaticGet___9()
 	{
-		return (::Class_2_511CDFCB0C002552___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_511CDFCB0C002552___c_TypeDefinitionIndex)->GetStaticField(0x50648);
+		return (::Class_2_511CDFCB0C002552___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_511CDFCB0C002552___c_TypeDefinitionIndex)->GetStaticField(0x52118);
 	}
 
 	static ::System::Void _cctor()

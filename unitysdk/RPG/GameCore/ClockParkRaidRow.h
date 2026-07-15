@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKRAIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A318160)
-#define RPG_GAMECORE_CLOCKPARKRAIDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A318710)
+#define RPG_GAMECORE_CLOCKPARKRAIDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B367790)
+#define RPG_GAMECORE_CLOCKPARKRAIDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B367D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkRaidRow_TypeDefinitionIndex = 10751;
+	inline static constexpr unsigned int ClockParkRaidRow_TypeDefinitionIndex = 10801;
 
 	class ClockParkRaidRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 RaidMapinfo; // 0x10
-		::System::UInt32 RaidUnlockProgress; // 0x14
-		::System::UInt32 RaidID; // 0x18
+		::System::UInt32 RaidID; // 0x14
+		::System::UInt32 RaidUnlockProgress; // 0x18
 
 		::System::Void _ctor()
 		{

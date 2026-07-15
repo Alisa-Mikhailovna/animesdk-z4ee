@@ -9,24 +9,24 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_1E09750255DA725C_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x14F13BB0)
-#define CLASS_1_1E09750255DA725C_METHOD_1_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0x14F13BD0)
-#define CLASS_1_1E09750255DA725C_METHOD_1_9FBC136CEE32F2B0_OFFSET UNITYSDK_OFFSET(0x14F13D10)
-#define CLASS_1_1E09750255DA725C_METHOD_1_AC2B072F6EDFA2FE_OFFSET UNITYSDK_OFFSET(0x14F13C50)
-#define CLASS_1_1E09750255DA725C_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x14F13BC0)
-#define CLASS_1_1E09750255DA725C__CTOR_OFFSET UNITYSDK_OFFSET(0x14F13EE0)
+#define CLASS_1_1E09750255DA725C_GET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x15174A00)
+#define CLASS_1_1E09750255DA725C_METHOD_1_941C404C800CB723_OFFSET UNITYSDK_OFFSET(0x15174A20)
+#define CLASS_1_1E09750255DA725C_METHOD_1_9FBC136CEE32F2B0_OFFSET UNITYSDK_OFFSET(0x15174B60)
+#define CLASS_1_1E09750255DA725C_METHOD_1_AC2B072F6EDFA2FE_OFFSET UNITYSDK_OFFSET(0x15174AA0)
+#define CLASS_1_1E09750255DA725C_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x15174A10)
+#define CLASS_1_1E09750255DA725C__CTOR_OFFSET UNITYSDK_OFFSET(0x15174D30)
 
-inline static constexpr unsigned int Class_1_1E09750255DA725C_TypeDefinitionIndex = 51506;
+inline static constexpr unsigned int Class_1_1E09750255DA725C_TypeDefinitionIndex = 52648;
 
 class Class_1_1E09750255DA725C : public ::System::Object
 {
 public:
 	::System::String* _LockKey_k__BackingField; // 0x10
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
-	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_2; // 0x20
-	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_3; // 0x22
-	::RPG::GameCore::ActionDelayChangeReasonMask Field_1_4; // 0x24
-	::System::Boolean Field_1_5; // 0x26
+	::RPG::GameCore::ActionDelayChangeReasonMask Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x22
+	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_4; // 0x24
+	::RPG::GameCore::ActionDelayChangeTypeMask Field_1_5; // 0x26
 
 	::System::Void _ctor()
 	{

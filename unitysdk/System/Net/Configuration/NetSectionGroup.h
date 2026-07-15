@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationSectionGroup.h"
 
-#define SYSTEM_NET_CONFIGURATION_NETSECTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18199BF0)
+#define SYSTEM_NET_CONFIGURATION_NETSECTIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCADCD0)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int NetSectionGroup_TypeDefinitionIndex = 3070;
+	inline static constexpr unsigned int NetSectionGroup_TypeDefinitionIndex = 3074;
 
 	class NetSectionGroup : public ::System::Configuration::ConfigurationSectionGroup
 	{

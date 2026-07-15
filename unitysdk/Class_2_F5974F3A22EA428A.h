@@ -9,12 +9,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_F5974F3A22EA428A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x143927E0)
-#define CLASS_2_F5974F3A22EA428A__CTOR_OFFSET UNITYSDK_OFFSET(0x143927C0)
-#define CLASS_2_F5974F3A22EA428A__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0x14392830)
-#define CLASS_2_F5974F3A22EA428A___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x143929D0)
+#define CLASS_2_F5974F3A22EA428A_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8F36D0)
+#define CLASS_2_F5974F3A22EA428A__CTOR_OFFSET UNITYSDK_OFFSET(0xB8F36B0)
+#define CLASS_2_F5974F3A22EA428A__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xB8F3720)
 
-inline static constexpr unsigned int Class_2_F5974F3A22EA428A_TypeDefinitionIndex = 71402;
+inline static constexpr unsigned int Class_2_F5974F3A22EA428A_TypeDefinitionIndex = 72927;
 
 class Class_2_F5974F3A22EA428A : public ::RPG::Client::LittleGame::SimpleEffectService_1<::Class_2_B9E8C2EEAA5C96EC*>
 {
@@ -34,10 +33,5 @@ public:
 	::System::Void _SetEffectParamLittleGameEntity(::Class_2_B9E8C2EEAA5C96EC* a1, ::RPG::Client::TriggerEffectParams* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_2_B9E8C2EEAA5C96EC*, ::RPG::Client::TriggerEffectParams*))((::PBYTE)hIl2Cpp + CLASS_2_F5974F3A22EA428A__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F5974F3A22EA428A___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

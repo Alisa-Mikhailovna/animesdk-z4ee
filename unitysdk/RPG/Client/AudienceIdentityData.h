@@ -6,14 +6,13 @@
 namespace RPG::Client { class AudienceFeatureData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIENCEIDENTITYDATA_METHOD_1_DB5B838B087C7494_OFFSET UNITYSDK_OFFSET(0x17E6C780)
-#define RPG_CLIENT_AUDIENCEIDENTITYDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17E6E550)
-#define RPG_CLIENT_AUDIENCEIDENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6E590)
-#define RPG_CLIENT_AUDIENCEIDENTITYDATA___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17E6E5A0)
+#define RPG_CLIENT_AUDIENCEIDENTITYDATA_METHOD_1_DB5B838B087C7494_OFFSET UNITYSDK_OFFSET(0xBDBB160)
+#define RPG_CLIENT_AUDIENCEIDENTITYDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBDBCF30)
+#define RPG_CLIENT_AUDIENCEIDENTITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBCF70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceIdentityData_TypeDefinitionIndex = 64646;
+	inline static constexpr unsigned int AudienceIdentityData_TypeDefinitionIndex = 66047;
 
 	class AudienceIdentityData : public ::System::Object
 	{
@@ -34,11 +33,6 @@ namespace RPG::Client
 		::RPG::Client::AudienceFeatureData* Method_1_DB5B838B087C7494(::RPG::GameCore::NPCBodySize a1)
 		{
 			return ((::RPG::Client::AudienceFeatureData*(*)(::PVOID, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEIDENTITYDATA_METHOD_1_DB5B838B087C7494_OFFSET))(this, a1);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEIDENTITYDATA___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

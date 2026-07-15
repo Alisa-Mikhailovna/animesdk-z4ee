@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesToastContainerControl_ToastMoveAnimState_TypeDefinitionIndex = 74012;
+	inline static constexpr unsigned int ChenLingFesToastContainerControl_ToastMoveAnimState_TypeDefinitionIndex = 76394;
 
 	struct alignas(4) ChenLingFesToastContainerControl_ToastMoveAnimState
 	{

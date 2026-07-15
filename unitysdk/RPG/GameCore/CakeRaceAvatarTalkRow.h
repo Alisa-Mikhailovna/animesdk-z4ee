@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEAVATARTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E7B770)
-#define RPG_GAMECORE_CAKERACEAVATARTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E7BA00)
+#define RPG_GAMECORE_CAKERACEAVATARTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2F54A0)
+#define RPG_GAMECORE_CAKERACEAVATARTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2F5730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceAvatarTalkRow_TypeDefinitionIndex = 10586;
+	inline static constexpr unsigned int CakeRaceAvatarTalkRow_TypeDefinitionIndex = 10636;
 
 	class CakeRaceAvatarTalkRow : public ::System::Object
 	{
 	public:
 		::System::String* FemaleAvatarIcon; // 0x10
 		::System::String* AvatarIcon; // 0x18
-		::RPG::Client::TextID AvatarName; // 0x20
+		::RPG::Client::TextID TalkText; // 0x20
 		::System::UInt32 AvatarTalkID; // 0x30
-		::RPG::Client::TextID TalkText; // 0x38
+		::RPG::Client::TextID AvatarName; // 0x38
 
 		::System::Void _ctor()
 		{

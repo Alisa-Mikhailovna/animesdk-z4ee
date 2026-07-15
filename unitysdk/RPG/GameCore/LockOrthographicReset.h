@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOCKORTHOGRAPHICRESET_METHOD_3_3C6365E725D03223_OFFSET UNITYSDK_OFFSET(0x19C13D80)
-#define RPG_GAMECORE_LOCKORTHOGRAPHICRESET_METHOD_3_D682325F179F371A_OFFSET UNITYSDK_OFFSET(0x19C13E00)
-#define RPG_GAMECORE_LOCKORTHOGRAPHICRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C13DD0)
+#define RPG_GAMECORE_LOCKORTHOGRAPHICRESET_METHOD_3_11904F4974A5B191_OFFSET UNITYSDK_OFFSET(0x1B595390)
+#define RPG_GAMECORE_LOCKORTHOGRAPHICRESET_METHOD_3_D682325F179F371A_OFFSET UNITYSDK_OFFSET(0x1B5953E0)
+#define RPG_GAMECORE_LOCKORTHOGRAPHICRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5953D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockOrthographicReset_TypeDefinitionIndex = 19693;
+	inline static constexpr unsigned int LockOrthographicReset_TypeDefinitionIndex = 20052;
 
 	class LockOrthographicReset : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKORTHOGRAPHICRESET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3C6365E725D03223(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockOrthographicReset*& a2)
+		static ::System::Void Method_3_11904F4974A5B191(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockOrthographicReset*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockOrthographicReset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKORTHOGRAPHICRESET_METHOD_3_3C6365E725D03223_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockOrthographicReset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKORTHOGRAPHICRESET_METHOD_3_11904F4974A5B191_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D682325F179F371A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockOrthographicReset* a2)

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYCREATEPREFAB_METHOD_3_205195CB41E630CE_OFFSET UNITYSDK_OFFSET(0x19A265F0)
-#define RPG_GAMECORE_TRAINPARTYCREATEPREFAB_METHOD_3_CF18F1BDFC64377F_OFFSET UNITYSDK_OFFSET(0x19A266B0)
-#define RPG_GAMECORE_TRAINPARTYCREATEPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x19A26660)
+#define RPG_GAMECORE_TRAINPARTYCREATEPREFAB_METHOD_3_55B129CFF445A7D2_OFFSET UNITYSDK_OFFSET(0x1B97FB10)
+#define RPG_GAMECORE_TRAINPARTYCREATEPREFAB_METHOD_3_CF18F1BDFC64377F_OFFSET UNITYSDK_OFFSET(0x1B97FBA0)
+#define RPG_GAMECORE_TRAINPARTYCREATEPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97FB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCreatePrefab_TypeDefinitionIndex = 21138;
+	inline static constexpr unsigned int TrainPartyCreatePrefab_TypeDefinitionIndex = 21553;
 
 	class TrainPartyCreatePrefab : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEPREFAB__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_205195CB41E630CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreatePrefab*& a2)
+		static ::System::Void Method_3_55B129CFF445A7D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreatePrefab*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreatePrefab*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEPREFAB_METHOD_3_205195CB41E630CE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyCreatePrefab*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCREATEPREFAB_METHOD_3_55B129CFF445A7D2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CF18F1BDFC64377F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyCreatePrefab* a2)

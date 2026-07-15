@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_NATIVENAMEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B578EF0)
-#define UNITYENGINE_BINDINGS_NATIVENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B578F00)
+#define UNITYENGINE_BINDINGS_NATIVENAMEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1D0C9BB0)
+#define UNITYENGINE_BINDINGS_NATIVENAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C9BC0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeNameAttribute_TypeDefinitionIndex = 3709;
+	inline static constexpr unsigned int NativeNameAttribute_TypeDefinitionIndex = 3713;
 
 	class NativeNameAttribute : public ::System::Attribute
 	{

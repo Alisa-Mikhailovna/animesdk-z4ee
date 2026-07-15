@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_1FFF7094239D9B4A_OFFSET UNITYSDK_OFFSET(0x1A001E90)
-#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_40DEED2365CA5863_OFFSET UNITYSDK_OFFSET(0x1A001F50)
-#define RPG_GAMECORE_SHOWFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A001F00)
+#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_40DEED2365CA5863_OFFSET UNITYSDK_OFFSET(0x1B8CC880)
+#define RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_96CF03E4D4A588AE_OFFSET UNITYSDK_OFFSET(0x1B8CC810)
+#define RPG_GAMECORE_SHOWFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8CC860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowFuncBtn_TypeDefinitionIndex = 19357;
+	inline static constexpr unsigned int ShowFuncBtn_TypeDefinitionIndex = 19713;
 
 	class ShowFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWFUNCBTN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1FFF7094239D9B4A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowFuncBtn*& a2)
+		static ::System::Void Method_3_96CF03E4D4A588AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowFuncBtn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_1FFF7094239D9B4A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWFUNCBTN_METHOD_3_96CF03E4D4A588AE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_40DEED2365CA5863(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowFuncBtn* a2)

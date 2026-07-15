@@ -4,30 +4,30 @@
 
 namespace System { class String; }
 
-#define ZXING_ONED_CODE39READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13CDB4E0)
+#define ZXING_ONED_CODE39READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2EA200)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code39Reader_TypeDefinitionIndex = 6483;
+	inline static constexpr unsigned int Code39Reader_TypeDefinitionIndex = 6488;
 
 	class Code39Reader : public ::ZXing::OneD::OneDReader
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
+		static ::System::String** StaticGet_CHECK_DIGIT_STRING()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x3E00);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x21F0);
 		}
 		static ::System::String** StaticGet_ALPHABET_STRING()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x3E08);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x21F8);
 		}
-		static ::System::String** StaticGet_CHECK_DIGIT_STRING()
+		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x3E10);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x2200);
 		}
 		static ::System::Int32* StaticGet_ASTERISK_ENCODING()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0x2640);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Code39Reader_TypeDefinitionIndex)->GetStaticField(0xE40);
 		}
 
 		static ::System::Void _cctor()

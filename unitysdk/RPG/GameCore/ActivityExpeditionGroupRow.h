@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198A1E80)
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198A2000)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B112360)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1124E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityExpeditionGroupRow_TypeDefinitionIndex = 11002;
+	inline static constexpr unsigned int ActivityExpeditionGroupRow_TypeDefinitionIndex = 11052;
 
 	class ActivityExpeditionGroupRow : public ::System::Object
 	{

@@ -7,7 +7,7 @@ namespace RPG::GameCore { class PerformanceSortedItem; }
 
 namespace RPG::Client::MissionReplayData
 {
-	inline static constexpr unsigned int IMissionReplayPerformanceData_TypeDefinitionIndex = 69730;
+	inline static constexpr unsigned int IMissionReplayPerformanceData_TypeDefinitionIndex = 71253;
 
 	class IMissionReplayPerformanceData
 	{

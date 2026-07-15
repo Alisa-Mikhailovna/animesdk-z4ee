@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERFORCERUSH_METHOD_3_6D2F0D8FA00DE9FC_OFFSET UNITYSDK_OFFSET(0x1A7651E0)
-#define RPG_GAMECORE_PLAYERFORCERUSH_METHOD_3_7EE4A192377F088D_OFFSET UNITYSDK_OFFSET(0x1A765160)
-#define RPG_GAMECORE_PLAYERFORCERUSH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7651B0)
+#define RPG_GAMECORE_PLAYERFORCERUSH_METHOD_3_6D2F0D8FA00DE9FC_OFFSET UNITYSDK_OFFSET(0x1B6CC980)
+#define RPG_GAMECORE_PLAYERFORCERUSH_METHOD_3_A3EBA306CBAC4577_OFFSET UNITYSDK_OFFSET(0x1B6CC940)
+#define RPG_GAMECORE_PLAYERFORCERUSH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CC970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerForceRush_TypeDefinitionIndex = 18881;
+	inline static constexpr unsigned int PlayerForceRush_TypeDefinitionIndex = 19231;
 
 	class PlayerForceRush : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERFORCERUSH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7EE4A192377F088D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerForceRush*& a2)
+		static ::System::Void Method_3_A3EBA306CBAC4577(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerForceRush*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerForceRush*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERFORCERUSH_METHOD_3_7EE4A192377F088D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerForceRush*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERFORCERUSH_METHOD_3_A3EBA306CBAC4577_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6D2F0D8FA00DE9FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerForceRush* a2)

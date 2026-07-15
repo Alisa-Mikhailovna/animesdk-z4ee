@@ -4,11 +4,11 @@
 
 namespace RPG::AvatarSystem { class AvatarServant; }
 
-#define RPG_CLIENT_AVATARSERVANTEXTENSIONS_GETSERVANTID_OFFSET UNITYSDK_OFFSET(0x179F3660)
+#define RPG_CLIENT_AVATARSERVANTEXTENSIONS_GETSERVANTID_OFFSET UNITYSDK_OFFSET(0xBE0EE00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarServantExtensions_TypeDefinitionIndex = 58543;
+	inline static constexpr unsigned int AvatarServantExtensions_TypeDefinitionIndex = 59814;
 
 	class AvatarServantExtensions : public ::System::Object
 	{

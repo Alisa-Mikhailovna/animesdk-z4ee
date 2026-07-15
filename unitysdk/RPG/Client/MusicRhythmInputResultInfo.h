@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/Client/NoteInputResult.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MUSICRHYTHMINPUTRESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1875A270)
+#define RPG_CLIENT_MUSICRHYTHMINPUTRESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCE10140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmInputResultInfo_TypeDefinitionIndex = 56248;
+	inline static constexpr unsigned int MusicRhythmInputResultInfo_TypeDefinitionIndex = 57487;
 
 	class MusicRhythmInputResultInfo : public ::System::Object
 	{
 	public:
 		::System::Single DeltaTime; // 0x10
-		::RPG::Client::NoteInputResult Result; // 0x14
-		::System::Int32 NoteIndex; // 0x18
-		::System::Int32 GroupIndex; // 0x1C
-		::System::Single MusicTime; // 0x20
-		::System::Boolean PassMiss; // 0x24
-		::System::Boolean LongInput; // 0x25
-		::System::Boolean KeyUp; // 0x26
-		::System::Boolean Active; // 0x27
+		::System::Single MusicTime; // 0x14
+		::System::Int32 GroupIndex; // 0x18
+		::System::Boolean PassMiss; // 0x1C
+		::System::Boolean KeyUp; // 0x1D
+		::System::Boolean LongInput; // 0x1E
+		::System::Boolean Active; // 0x1F
+		::RPG::Client::NoteInputResult Result; // 0x20
+		::System::Int32 NoteIndex; // 0x24
 
 		::System::Void _ctor()
 		{

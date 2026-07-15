@@ -5,22 +5,22 @@
 namespace Microsoft::CSharp { class CodeDomProvider; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALIDSTART_OFFSET UNITYSDK_OFFSET(0x184897E0)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET UNITYSDK_OFFSET(0x18489750)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEPASCAL_OFFSET UNITYSDK_OFFSET(0x184890C0)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEVALID_OFFSET UNITYSDK_OFFSET(0x18489310)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18489860)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALIDSTART_OFFSET UNITYSDK_OFFSET(0x1CB842F0)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CB84260)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEPASCAL_OFFSET UNITYSDK_OFFSET(0x1CB83C80)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEVALID_OFFSET UNITYSDK_OFFSET(0x1CB83E20)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB84370)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int CodeIdentifier_TypeDefinitionIndex = 1968;
+	inline static constexpr unsigned int CodeIdentifier_TypeDefinitionIndex = 1972;
 
 	class CodeIdentifier : public ::System::Object
 	{
 	public:
 		static ::Microsoft::CSharp::CodeDomProvider** StaticGet_csharp()
 		{
-			return (::Microsoft::CSharp::CodeDomProvider**)Il2CppClass::FromTypeDefinitionIndex(CodeIdentifier_TypeDefinitionIndex)->GetStaticField(0x16C40);
+			return (::Microsoft::CSharp::CodeDomProvider**)Il2CppClass::FromTypeDefinitionIndex(CodeIdentifier_TypeDefinitionIndex)->GetStaticField(0x240C0);
 		}
 
 		static ::System::Void _cctor()

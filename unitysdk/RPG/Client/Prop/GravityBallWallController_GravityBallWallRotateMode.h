@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int GravityBallWallController_GravityBallWallRotateMode_TypeDefinitionIndex = 73119;
+	inline static constexpr unsigned int GravityBallWallController_GravityBallWallRotateMode_TypeDefinitionIndex = 74644;
 
 	enum class GravityBallWallController_GravityBallWallRotateMode : ::System::Int32
 	{

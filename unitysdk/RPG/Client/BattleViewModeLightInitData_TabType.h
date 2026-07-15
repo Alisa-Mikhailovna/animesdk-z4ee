@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleViewModeLightInitData_TabType_TypeDefinitionIndex = 67351;
+	inline static constexpr unsigned int BattleViewModeLightInitData_TabType_TypeDefinitionIndex = 68820;
 
 	enum class BattleViewModeLightInitData_TabType : ::System::Int32
 	{

@@ -4,27 +4,27 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_114;
+class Class_1_43BD383C98B4C0C5_117;
 
-#define RPG_GAMECORE_ENTITYREVIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xEA44650)
-#define RPG_GAMECORE_ENTITYREVIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xEA44610)
-#define RPG_GAMECORE_ENTITYREVIVE_GET_ISFROMDEATH_OFFSET UNITYSDK_OFFSET(0xEA446A0)
-#define RPG_GAMECORE_ENTITYREVIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xEA44600)
+#define RPG_GAMECORE_ENTITYREVIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDA4DF50)
+#define RPG_GAMECORE_ENTITYREVIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDA4DF10)
+#define RPG_GAMECORE_ENTITYREVIVE_GET_ISFROMDEATH_OFFSET UNITYSDK_OFFSET(0xDA4DFA0)
+#define RPG_GAMECORE_ENTITYREVIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4DF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRevive_TypeDefinitionIndex = 52927;
+	inline static constexpr unsigned int EntityRevive_TypeDefinitionIndex = 54139;
 
 	class EntityRevive : public ::System::Object
 	{
 	public:
-		::Class_1_43BD383C98B4C0C5_114* Param; // 0x10
+		::Class_1_43BD383C98B4C0C5_117* Param; // 0x10
 		::System::UInt32 _EntityRuntimeID; // 0x18
 		::RPG::GameCore::AliveState FromState; // 0x1C
 
-		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::AliveState a2, ::Class_1_43BD383C98B4C0C5_114* a3)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::AliveState a2, ::Class_1_43BD383C98B4C0C5_117* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::AliveState, ::Class_1_43BD383C98B4C0C5_114*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYREVIVE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::AliveState, ::Class_1_43BD383C98B4C0C5_117*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYREVIVE__CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()

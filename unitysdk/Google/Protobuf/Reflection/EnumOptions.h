@@ -13,57 +13,57 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class UninterpretedOption; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x178A3610)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x178A05F0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x178A31B0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x178A3150)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x178A0D30)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x178A3050)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x178A30D0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x178A2D80)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x178A30C0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x178A3140)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x178A2D20)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x178A36D0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x178A16E0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x178A2F00)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x178A30B0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x178A3130)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x178A3410)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x178A3470)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x178A3900)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x178A2F60)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x178A1690)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x197E5100)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x197E2000)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x197E4B00)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x197E4AA0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x197E25E0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x197E49A0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x197E4A20)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x197E4670)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x197E4A10)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x197E4A90)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x197E4610)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x197E51C0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x197E2EC0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x197E4850)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x197E4A00)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x197E4A80)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x197E4E40)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x197E4EA0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x197E53F0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x197E48B0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x197E2E70)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumOptions_TypeDefinitionIndex = 5500;
+	inline static constexpr unsigned int EnumOptions_TypeDefinitionIndex = 5505;
 
 	class EnumOptions : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>**)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0x3A1B0);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>** StaticGet__repeated_uninterpretedOption_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>**)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0x3A1B8);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>**)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0x42B90);
+		}
+		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>**)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0x42B98);
 		}
 		static ::System::Boolean* StaticGet_AllowAliasDefaultValue()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0xB4B0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0xA980);
 		}
 		static ::System::Boolean* StaticGet_DeprecatedDefaultValue()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0xB4B1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0xA981);
 		}
-		::Google::Protobuf::ExtensionSet_1<::Google::Protobuf::Reflection::EnumOptions*>* _extensions; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x20
-		::System::Boolean deprecated_; // 0x28
-		::System::Boolean allowAlias_; // 0x29
-		::System::Int32 _hasBits0; // 0x2C
+		::Google::Protobuf::ExtensionSet_1<::Google::Protobuf::Reflection::EnumOptions*>* _extensions; // 0x20
+		::System::Int32 _hasBits0; // 0x28
+		::System::Boolean allowAlias_; // 0x2C
+		::System::Boolean deprecated_; // 0x2D
 
 		::System::Void _ctor()
 		{

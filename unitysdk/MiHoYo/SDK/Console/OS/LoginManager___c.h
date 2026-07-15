@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16192680)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x161926C0)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__OPENUSERCENTER_G__CALLBACK_20_2_OFFSET UNITYSDK_OFFSET(0x161926D0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C2DF10)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2DF50)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__OPENUSERCENTER_G__CALLBACK_20_2_OFFSET UNITYSDK_OFFSET(0x19C2DF60)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManager___c_TypeDefinitionIndex = 8739;
+	inline static constexpr unsigned int LoginManager___c_TypeDefinitionIndex = 8751;
 
 	class LoginManager___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::OS::LoginManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::OS::LoginManager___c**)Il2CppClass::FromTypeDefinitionIndex(LoginManager___c_TypeDefinitionIndex)->GetStaticField(0x10F30);
+			return (::MiHoYo::SDK::Console::OS::LoginManager___c**)Il2CppClass::FromTypeDefinitionIndex(LoginManager___c_TypeDefinitionIndex)->GetStaticField(0x1ADD0);
 		}
 
 		static ::System::Void _cctor()

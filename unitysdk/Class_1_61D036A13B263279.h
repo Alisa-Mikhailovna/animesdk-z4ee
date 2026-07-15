@@ -6,19 +6,19 @@
 
 namespace RPG::GameCore { class LevelSmartObjectCommonPointInfo; }
 
-#define CLASS_1_61D036A13B263279_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0x14A0D3B0)
-#define CLASS_1_61D036A13B263279_METHOD_1_413F493333BF3391_OFFSET UNITYSDK_OFFSET(0x14A0D3E0)
-#define CLASS_1_61D036A13B263279_METHOD_1_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x14A0D3C0)
-#define CLASS_1_61D036A13B263279__CTOR_OFFSET UNITYSDK_OFFSET(0x14A0D170)
+#define CLASS_1_61D036A13B263279_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0x1472D670)
+#define CLASS_1_61D036A13B263279_METHOD_1_413F493333BF3391_OFFSET UNITYSDK_OFFSET(0x1472D6A0)
+#define CLASS_1_61D036A13B263279_METHOD_1_D37FAD0A6AA04B25_OFFSET UNITYSDK_OFFSET(0x1472D680)
+#define CLASS_1_61D036A13B263279__CTOR_OFFSET UNITYSDK_OFFSET(0x1472D430)
 
-inline static constexpr unsigned int Class_1_61D036A13B263279_TypeDefinitionIndex = 48725;
+inline static constexpr unsigned int Class_1_61D036A13B263279_TypeDefinitionIndex = 49738;
 
 class Class_1_61D036A13B263279 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x1C
-	::UnityEngine::Quaternion Field_1_2; // 0x20
+	::UnityEngine::Quaternion Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x20
+	::UnityEngine::Vector3 Field_1_2; // 0x24
 
 	::System::Void _ctor(::RPG::GameCore::LevelSmartObjectCommonPointInfo* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 	{

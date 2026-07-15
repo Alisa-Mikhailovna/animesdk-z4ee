@@ -7,13 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C51B00)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C51BB0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C51BC0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD00210)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD002C0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ColorGradingTimelineTrack_TypeDefinitionIndex = 45829;
+	inline static constexpr unsigned int ColorGradingTimelineTrack_TypeDefinitionIndex = 46768;
 
 	class ColorGradingTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINETRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_COLORGRADINGTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceUIType_TypeDefinitionIndex = 71028;
+	inline static constexpr unsigned int CakeRaceUIType_TypeDefinitionIndex = 72541;
 
 	enum class CakeRaceUIType : ::System::Int32
 	{

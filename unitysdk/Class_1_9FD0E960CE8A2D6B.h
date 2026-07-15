@@ -7,11 +7,11 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_9FD0E960CE8A2D6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x150927B0)
-#define CLASS_1_9FD0E960CE8A2D6B_TICK_OFFSET UNITYSDK_OFFSET(0x15092890)
-#define CLASS_1_9FD0E960CE8A2D6B__CTOR_OFFSET UNITYSDK_OFFSET(0x150927A0)
+#define CLASS_1_9FD0E960CE8A2D6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x14412850)
+#define CLASS_1_9FD0E960CE8A2D6B_TICK_OFFSET UNITYSDK_OFFSET(0x14412930)
+#define CLASS_1_9FD0E960CE8A2D6B__CTOR_OFFSET UNITYSDK_OFFSET(0x14412840)
 
-inline static constexpr unsigned int Class_1_9FD0E960CE8A2D6B_TypeDefinitionIndex = 72188;
+inline static constexpr unsigned int Class_1_9FD0E960CE8A2D6B_TypeDefinitionIndex = 73713;
 
 class Class_1_9FD0E960CE8A2D6B : public ::System::Object
 {

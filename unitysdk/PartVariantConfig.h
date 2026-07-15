@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Material; }
 
-#define PARTVARIANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x156E4E50)
+#define PARTVARIANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA32A40)
 
-inline static constexpr unsigned int PartVariantConfig_TypeDefinitionIndex = 35142;
+inline static constexpr unsigned int PartVariantConfig_TypeDefinitionIndex = 35924;
 
 class PartVariantConfig : public ::System::Object
 {

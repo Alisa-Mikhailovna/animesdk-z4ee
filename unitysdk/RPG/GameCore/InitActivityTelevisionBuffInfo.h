@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_88B8A4C07C8BD7F7_OFFSET UNITYSDK_OFFSET(0x19AE2AC0)
-#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_ECC229761E172FFF_OFFSET UNITYSDK_OFFSET(0x19AE2A40)
-#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE2A90)
+#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_1D204AA55EF0B322_OFFSET UNITYSDK_OFFSET(0x1B532130)
+#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_88B8A4C07C8BD7F7_OFFSET UNITYSDK_OFFSET(0x1B532170)
+#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B532160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InitActivityTelevisionBuffInfo_TypeDefinitionIndex = 21976;
+	inline static constexpr unsigned int InitActivityTelevisionBuffInfo_TypeDefinitionIndex = 22410;
 
 	class InitActivityTelevisionBuffInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ECC229761E172FFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitActivityTelevisionBuffInfo*& a2)
+		static ::System::Void Method_3_1D204AA55EF0B322(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitActivityTelevisionBuffInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitActivityTelevisionBuffInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_ECC229761E172FFF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitActivityTelevisionBuffInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_1D204AA55EF0B322_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_88B8A4C07C8BD7F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitActivityTelevisionBuffInfo* a2)

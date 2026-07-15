@@ -5,12 +5,12 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0x184F5F00)
-#define RPG_CLIENT_ROGUEMAGICSENDPACKETCMD__CTOR_OFFSET UNITYSDK_OFFSET(0x184E0BA0)
+#define RPG_CLIENT_ROGUEMAGICSENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0xD3CEE90)
+#define RPG_CLIENT_ROGUEMAGICSENDPACKETCMD__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B6FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicSendPacketCmd_TypeDefinitionIndex = 63046;
+	inline static constexpr unsigned int RogueMagicSendPacketCmd_TypeDefinitionIndex = 64413;
 
 	class RogueMagicSendPacketCmd : public ::System::Object
 	{

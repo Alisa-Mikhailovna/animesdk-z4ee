@@ -5,14 +5,14 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_C4B000B71ED01017_CLEAR_OFFSET UNITYSDK_OFFSET(0x16D87800)
-#define CLASS_1_C4B000B71ED01017_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x16D877E0)
-#define CLASS_1_C4B000B71ED01017_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x16D877C0)
-#define CLASS_1_C4B000B71ED01017_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x16D877F0)
-#define CLASS_1_C4B000B71ED01017_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x16D877D0)
-#define CLASS_1_C4B000B71ED01017__CTOR_OFFSET UNITYSDK_OFFSET(0x16D87870)
+#define CLASS_1_C4B000B71ED01017_CLEAR_OFFSET UNITYSDK_OFFSET(0xB1F8D50)
+#define CLASS_1_C4B000B71ED01017_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xB1F8D30)
+#define CLASS_1_C4B000B71ED01017_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xB1F8D10)
+#define CLASS_1_C4B000B71ED01017_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xB1F8D40)
+#define CLASS_1_C4B000B71ED01017_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xB1F8D20)
+#define CLASS_1_C4B000B71ED01017__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F8DC0)
 
-inline static constexpr unsigned int Class_1_C4B000B71ED01017_TypeDefinitionIndex = 50305;
+inline static constexpr unsigned int Class_1_C4B000B71ED01017_TypeDefinitionIndex = 51387;
 
 class Class_1_C4B000B71ED01017 : public ::System::Object
 {
@@ -21,12 +21,12 @@ public:
 	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
 	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
 	::RPG::GameCore::FixPoint Field_1_3; // 0x28
-	::System::Boolean _LockDamageZero_k__BackingField; // 0x30
-	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x31
+	::System::Boolean Field_1_4; // 0x30
+	::System::Boolean _LockDamageZero_k__BackingField; // 0x31
 	::System::Boolean Field_1_6; // 0x32
 	::System::Boolean Field_1_7; // 0x33
 	::System::Boolean Field_1_8; // 0x34
-	::System::Boolean Field_1_9; // 0x35
+	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x35
 
 	::System::Void _ctor()
 	{

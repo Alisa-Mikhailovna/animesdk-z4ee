@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class NPCCancelRideClip; }
 
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C43F60)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C43F80)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C43F70)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C44050)
-#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C44060)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDCF0F80)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCF0FA0)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDCF0F90)
+#define RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCF1070)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NPCCancelRideBehaviour_TypeDefinitionIndex = 45493;
+	inline static constexpr unsigned int NPCCancelRideBehaviour_TypeDefinitionIndex = 46427;
 
 	class NPCCancelRideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCCANCELRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,29 +6,29 @@ namespace RPG::Client::ActivityMarble { class MarbleSealData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17BB83B0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17BB83F0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GETSHOPMARBLELIST_B__7_0_OFFSET UNITYSDK_OFFSET(0x17BB8400)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GET_HASNEWTOBUY_B__16_0_OFFSET UNITYSDK_OFFSET(0x17BB84F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBC18AF0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBC18B30)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GETSHOPMARBLELIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xBC18B40)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GET_HASNEWTOBUY_B__16_0_OFFSET UNITYSDK_OFFSET(0xBC18C90)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarbleSealManager___c_TypeDefinitionIndex = 69743;
+	inline static constexpr unsigned int MarbleSealManager___c_TypeDefinitionIndex = 71266;
 
 	class MarbleSealManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealManager___c_TypeDefinitionIndex)->GetStaticField(0x52B70);
-		}
-		static ::RPG::Client::ActivityMarble::MarbleSealManager___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityMarble::MarbleSealManager___c**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealManager___c_TypeDefinitionIndex)->GetStaticField(0x52B78);
+			return (::System::Func_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealManager___c_TypeDefinitionIndex)->GetStaticField(0x42C60);
 		}
 		static ::System::Comparison_1<::RPG::Client::ActivityMarble::MarbleSealData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityMarble::MarbleSealData*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealManager___c_TypeDefinitionIndex)->GetStaticField(0x52B80);
+			return (::System::Comparison_1<::RPG::Client::ActivityMarble::MarbleSealData*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealManager___c_TypeDefinitionIndex)->GetStaticField(0x42C68);
+		}
+		static ::RPG::Client::ActivityMarble::MarbleSealManager___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityMarble::MarbleSealManager___c**)Il2CppClass::FromTypeDefinitionIndex(MarbleSealManager___c_TypeDefinitionIndex)->GetStaticField(0x42C70);
 		}
 
 		static ::System::Void _cctor()

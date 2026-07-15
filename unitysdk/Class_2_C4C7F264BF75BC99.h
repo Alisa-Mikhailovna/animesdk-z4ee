@@ -7,24 +7,24 @@ namespace RPG::GameCore { class AdvCharacterSteerToInputDir; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_C4C7F264BF75BC99_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168D3950)
-#define CLASS_2_C4C7F264BF75BC99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168D3990)
-#define CLASS_2_C4C7F264BF75BC99_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x168D4180)
-#define CLASS_2_C4C7F264BF75BC99_TICK_OFFSET UNITYSDK_OFFSET(0x168D3BA0)
-#define CLASS_2_C4C7F264BF75BC99__CTOR_OFFSET UNITYSDK_OFFSET(0x168D3900)
+#define CLASS_2_C4C7F264BF75BC99_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD401C0)
+#define CLASS_2_C4C7F264BF75BC99_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD40200)
+#define CLASS_2_C4C7F264BF75BC99_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAD40AC0)
+#define CLASS_2_C4C7F264BF75BC99_TICK_OFFSET UNITYSDK_OFFSET(0xAD404E0)
+#define CLASS_2_C4C7F264BF75BC99__CTOR_OFFSET UNITYSDK_OFFSET(0xAD40170)
 
-inline static constexpr unsigned int Class_2_C4C7F264BF75BC99_TypeDefinitionIndex = 48941;
+inline static constexpr unsigned int Class_2_C4C7F264BF75BC99_TypeDefinitionIndex = 49954;
 
 class Class_2_C4C7F264BF75BC99 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::AdvCharacterSteerToInputDir* Field_2_0; // 0x18
+	::RPG::GameCore::AdventureCharacterController* Field_2_0; // 0x18
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::GameCore::AdventureCharacterController* Field_2_2; // 0x28
+	::RPG::GameCore::AdvCharacterSteerToInputDir* Field_2_2; // 0x28
 	::System::Single Field_2_3; // 0x30
-	::UnityEngine::Vector3 Field_2_4; // 0x34
-	::System::Boolean Field_2_5; // 0x40
-	::System::Int32 Field_2_6; // 0x44
+	::System::Boolean Field_2_4; // 0x34
+	::System::Int32 Field_2_5; // 0x38
+	::UnityEngine::Vector3 Field_2_6; // 0x3C
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvCharacterSteerToInputDir* a2)
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELD2016ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xA6B5920)
-#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELD2016ANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xA6B6B60)
+#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELD2016ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x19A5FAA0)
+#define INCONTROL_UNITYDEVICEPROFILES_NVIDIASHIELD2016ANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A60C70)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int NVidiaShield2016AndroidUnityProfile_TypeDefinitionIndex = 38010;
+	inline static constexpr unsigned int NVidiaShield2016AndroidUnityProfile_TypeDefinitionIndex = 38818;
 
 	class NVidiaShield2016AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

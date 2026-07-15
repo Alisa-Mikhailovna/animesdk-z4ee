@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TAROTEXPERIMENTSENTENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x180BECE0)
+#define RPG_CLIENT_TAROTEXPERIMENTSENTENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xD62FBF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotExperimentSentence_TypeDefinitionIndex = 63678;
+	inline static constexpr unsigned int TarotExperimentSentence_TypeDefinitionIndex = 65047;
 
 	class TarotExperimentSentence : public ::System::Object
 	{

@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialSetMonopolyToastPauseState; }
 
-#define CLASS_2_3800DBF7216E9883_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16D952A0)
-#define CLASS_2_3800DBF7216E9883_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D951D0)
-#define CLASS_2_3800DBF7216E9883_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16D95250)
-#define CLASS_2_3800DBF7216E9883_TICK_OFFSET UNITYSDK_OFFSET(0x16D95310)
-#define CLASS_2_3800DBF7216E9883__CTOR_OFFSET UNITYSDK_OFFSET(0x16D951C0)
+#define CLASS_2_3800DBF7216E9883_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB207130)
+#define CLASS_2_3800DBF7216E9883_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB207060)
+#define CLASS_2_3800DBF7216E9883_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2070E0)
+#define CLASS_2_3800DBF7216E9883_TICK_OFFSET UNITYSDK_OFFSET(0xB2071A0)
+#define CLASS_2_3800DBF7216E9883__CTOR_OFFSET UNITYSDK_OFFSET(0xB207050)
 
-inline static constexpr unsigned int Class_2_3800DBF7216E9883_TypeDefinitionIndex = 54963;
+inline static constexpr unsigned int Class_2_3800DBF7216E9883_TypeDefinitionIndex = 56196;
 
 class Class_2_3800DBF7216E9883 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TutorialSetMonopolyToastPauseState* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::TutorialSetMonopolyToastPauseState* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TutorialSetMonopolyToastPauseState* a2)
 	{

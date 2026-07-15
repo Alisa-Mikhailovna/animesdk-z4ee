@@ -1,12 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_CustomRuleType.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_InVisionRefreshState.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_NpcConflictRefreshState.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_RegionRefreshState.h"
+#include "unitysdk/RPG/Client/RuntimeGroupManager_HoYoGroupUnit_SpaceConflictRefreshState.h"
+#include "unitysdk/RPG/GameCore/GroupCategory.h"
+#include "unitysdk/RPG/GameCore/HoYoGroupType.h"
+#include "unitysdk/Struct_2_CC45B4503679E14E_47.h"
+#include "unitysdk/Struct_2_CC45B4503679E14E_49.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_43BD383C98B4C0C5_141_METHOD_1_AD125F4F7EE61610_OFFSET UNITYSDK_OFFSET(0x145C2070)
-#define CLASS_1_43BD383C98B4C0C5_141_METHOD_1_FFBC3E5986CAC663_OFFSET UNITYSDK_OFFSET(0x145C20F0)
-#define CLASS_1_43BD383C98B4C0C5_141__CTOR_OFFSET UNITYSDK_OFFSET(0x145C20E0)
+namespace RPG::GameCore { class RuntimeGroupInfo; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_141_TypeDefinitionIndex = 58306;
+#define CLASS_1_43BD383C98B4C0C5_141__CTOR_OFFSET UNITYSDK_OFFSET(0xF1E04D0)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_141_TypeDefinitionIndex = 59281;
 
 class Class_1_43BD383C98B4C0C5_141 : public ::System::Object
 {
@@ -14,15 +26,5 @@ public:
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_141__CTOR_OFFSET))(this);
-	}
-
-	static ::Class_1_43BD383C98B4C0C5_141* Method_1_AD125F4F7EE61610()
-	{
-		return ((::Class_1_43BD383C98B4C0C5_141*(*)())((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_141_METHOD_1_AD125F4F7EE61610_OFFSET))();
-	}
-
-	::System::Void Method_1_FFBC3E5986CAC663()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_141_METHOD_1_FFBC3E5986CAC663_OFFSET))(this);
 	}
 };

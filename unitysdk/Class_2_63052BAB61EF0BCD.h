@@ -8,34 +8,32 @@ class Class_2_38BE07B1D66262C2;
 class Class_2_792B76992050D353;
 namespace RPG::Client::Prop { class ChimeraDuelNpcModelView; }
 
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x150AE1E0)
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_3C927B51D2142A24_OFFSET UNITYSDK_OFFSET(0x150AEAE0)
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x150AEA80)
-#define CLASS_2_63052BAB61EF0BCD_METHOD_2_D43B99F9545128F5_OFFSET UNITYSDK_OFFSET(0x150AE410)
-#define CLASS_2_63052BAB61EF0BCD__CCTOR_OFFSET UNITYSDK_OFFSET(0x150AEA30)
-#define CLASS_2_63052BAB61EF0BCD__CTOR_OFFSET UNITYSDK_OFFSET(0x150AE1D0)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_28EB11670A8E5A86_OFFSET UNITYSDK_OFFSET(0x1442F170)
+#define CLASS_2_63052BAB61EF0BCD_METHOD_2_D43B99F9545128F5_OFFSET UNITYSDK_OFFSET(0x1442F3A0)
+#define CLASS_2_63052BAB61EF0BCD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1442F9C0)
+#define CLASS_2_63052BAB61EF0BCD__CTOR_OFFSET UNITYSDK_OFFSET(0x1442F160)
 
-inline static constexpr unsigned int Class_2_63052BAB61EF0BCD_TypeDefinitionIndex = 72774;
+inline static constexpr unsigned int Class_2_63052BAB61EF0BCD_TypeDefinitionIndex = 74299;
 
 class Class_2_63052BAB61EF0BCD : public ::Class_1_FD611945730E269E
 {
 public:
 	static ::System::Int32* StaticGet_Field_2_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0xB4F0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0x8330);
 	}
 	static ::System::Int32* StaticGet_Field_2_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0xB4F4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_2_63052BAB61EF0BCD_TypeDefinitionIndex)->GetStaticField(0x8334);
 	}
-	::Class_2_38BE07B1D66262C2* Field_2_2; // 0x18
-	::RPG::Client::Prop::ChimeraDuelNpcModelView* Field_2_3; // 0x20
-	::Class_2_792B76992050D353* Field_2_4; // 0x28
-	::System::Boolean Field_2_5; // 0x30
-	::System::Single Field_2_6; // 0x34
-	::UnityEngine::Vector3 Field_2_7; // 0x38
-	::System::Single Field_2_8; // 0x44
-	::UnityEngine::Quaternion Field_2_9; // 0x48
+	::Class_2_792B76992050D353* Field_2_2; // 0x18
+	::Class_2_38BE07B1D66262C2* Field_2_3; // 0x20
+	::RPG::Client::Prop::ChimeraDuelNpcModelView* Field_2_4; // 0x28
+	::UnityEngine::Quaternion Field_2_5; // 0x30
+	::System::Single Field_2_6; // 0x40
+	::System::Boolean Field_2_7; // 0x44
+	::UnityEngine::Vector3 Field_2_8; // 0x48
+	::System::Single Field_2_9; // 0x54
 
 	::System::Void _ctor(::Class_2_792B76992050D353* a1, ::Class_2_38BE07B1D66262C2* a2)
 	{
@@ -55,15 +53,5 @@ public:
 	::System::Void Method_2_D43B99F9545128F5(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_63052BAB61EF0BCD_METHOD_2_D43B99F9545128F5_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_5790A55946AA509D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_63052BAB61EF0BCD_METHOD_2_5790A55946AA509D_OFFSET))(this);
-	}
-
-	::System::Void Method_2_3C927B51D2142A24(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_63052BAB61EF0BCD_METHOD_2_3C927B51D2142A24_OFFSET))(this, a1);
 	}
 };

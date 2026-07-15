@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Timeline { class AnimationPlayableAsset; }
 
-#define UNITYENGINE_TIMELINE_ANIMATIONPLAYABLEASSET_ANIMATIONPLAYABLEASSETUPGRADE_CONVERTROTATIONTOEULER_OFFSET UNITYSDK_OFFSET(0x18B8C8C0)
+#define UNITYENGINE_TIMELINE_ANIMATIONPLAYABLEASSET_ANIMATIONPLAYABLEASSETUPGRADE_CONVERTROTATIONTOEULER_OFFSET UNITYSDK_OFFSET(0x1CFACCF0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationPlayableAsset_AnimationPlayableAssetUpgrade_TypeDefinitionIndex = 35835;
+	inline static constexpr unsigned int AnimationPlayableAsset_AnimationPlayableAssetUpgrade_TypeDefinitionIndex = 36617;
 
 	class AnimationPlayableAsset_AnimationPlayableAssetUpgrade : public ::System::Object
 	{

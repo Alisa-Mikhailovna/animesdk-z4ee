@@ -5,14 +5,13 @@
 
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x18C594D0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x18C59450)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY__CTOR_OFFSET UNITYSDK_OFFSET(0x18C594E0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY___IFIXBASEPROXY_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x18C594F0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xCF2BC80)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xCF2BC00)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY__CTOR_OFFSET UNITYSDK_OFFSET(0xCF2BC90)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourItemSkillEnergy_TypeDefinitionIndex = 69226;
+	inline static constexpr unsigned int MonoParkourItemSkillEnergy_TypeDefinitionIndex = 70747;
 
 	class MonoParkourItemSkillEnergy : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
@@ -32,11 +31,6 @@ namespace RPG::Client::ParkourGame
 		::RPG::Client::ParkourGame::ItemType get_ItemType()
 		{
 			return ((::RPG::Client::ParkourGame::ItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY_GET_ITEMTYPE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnTriggered(::RPG::Client::ParkourGame::MonoParkourCharacter* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourCharacter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMSKILLENERGY___IFIXBASEPROXY_ONTRIGGERED_OFFSET))(this, a1);
 		}
 	};
 }

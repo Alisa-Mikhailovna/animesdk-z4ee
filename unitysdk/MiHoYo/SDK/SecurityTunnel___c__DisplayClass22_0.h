@@ -3,12 +3,12 @@
 #include "unitysdk/MiHoYo/SDK/SecurityTunnel_ServerAddress.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA1240)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS22_0__SAFECONNECT_B__1_OFFSET UNITYSDK_OFFSET(0x18CAEF40)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB5B1D0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS22_0__SAFECONNECT_B__1_OFFSET UNITYSDK_OFFSET(0xAB69C00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass22_0_TypeDefinitionIndex = 43829;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass22_0_TypeDefinitionIndex = 44691;
 
 	class SecurityTunnel___c__DisplayClass22_0 : public ::System::Object
 	{

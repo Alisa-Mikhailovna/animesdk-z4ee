@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValue; }
 
-#define RPG_GAMECORE_MEMORYVISIONPUZZLEINIT_METHOD_3_4ED02B48D73ECBB1_OFFSET UNITYSDK_OFFSET(0x1A628A60)
-#define RPG_GAMECORE_MEMORYVISIONPUZZLEINIT_METHOD_3_9CDEE3880690CA0E_OFFSET UNITYSDK_OFFSET(0x1A6289D0)
-#define RPG_GAMECORE_MEMORYVISIONPUZZLEINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A628A30)
+#define RPG_GAMECORE_MEMORYVISIONPUZZLEINIT_METHOD_3_036C121232C8F7C4_OFFSET UNITYSDK_OFFSET(0x1B5EAFA0)
+#define RPG_GAMECORE_MEMORYVISIONPUZZLEINIT_METHOD_3_4ED02B48D73ECBB1_OFFSET UNITYSDK_OFFSET(0x1B5EAFF0)
+#define RPG_GAMECORE_MEMORYVISIONPUZZLEINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5EAFE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MemoryVisionPuzzleInit_TypeDefinitionIndex = 19916;
+	inline static constexpr unsigned int MemoryVisionPuzzleInit_TypeDefinitionIndex = 20281;
 
 	class MemoryVisionPuzzleInit : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MEMORYVISIONPUZZLEINIT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9CDEE3880690CA0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MemoryVisionPuzzleInit*& a2)
+		static ::System::Void Method_3_036C121232C8F7C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MemoryVisionPuzzleInit*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MemoryVisionPuzzleInit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MEMORYVISIONPUZZLEINIT_METHOD_3_9CDEE3880690CA0E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MemoryVisionPuzzleInit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MEMORYVISIONPUZZLEINIT_METHOD_3_036C121232C8F7C4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4ED02B48D73ECBB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MemoryVisionPuzzleInit* a2)

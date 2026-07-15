@@ -6,20 +6,20 @@
 namespace RPG::Client { class ComponentAssetLoader_Class_1_A733C3439371489B; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_11229CDACBC0338D_METHOD_1_A9824D5ECA42BAF4_OFFSET UNITYSDK_OFFSET(0x178484A0)
-#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_11229CDACBC0338D_METHOD_1_FD15B3DA4E61B9D2_OFFSET UNITYSDK_OFFSET(0x17848D50)
-#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_11229CDACBC0338D__CCTOR_OFFSET UNITYSDK_OFFSET(0x17848E10)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_11229CDACBC0338D_METHOD_1_A9824D5ECA42BAF4_OFFSET UNITYSDK_OFFSET(0xC1A2CE0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_11229CDACBC0338D_METHOD_1_FD15B3DA4E61B9D2_OFFSET UNITYSDK_OFFSET(0xC1A3610)
+#define RPG_CLIENT_COMPONENTASSETLOADER_CLASS_1_11229CDACBC0338D__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1A36D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentAssetLoader_Class_1_11229CDACBC0338D_TypeDefinitionIndex = 63977;
+	inline static constexpr unsigned int ComponentAssetLoader_Class_1_11229CDACBC0338D_TypeDefinitionIndex = 65348;
 
 	class ComponentAssetLoader_Class_1_11229CDACBC0338D : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::RPG::Client::ComponentAssetLoader_Class_1_A733C3439371489B*>** StaticGet_Field_1_0()
 		{
-			return (::Il2CppArray<::RPG::Client::ComponentAssetLoader_Class_1_A733C3439371489B*>**)Il2CppClass::FromTypeDefinitionIndex(ComponentAssetLoader_Class_1_11229CDACBC0338D_TypeDefinitionIndex)->GetStaticField(0x68C30);
+			return (::Il2CppArray<::RPG::Client::ComponentAssetLoader_Class_1_A733C3439371489B*>**)Il2CppClass::FromTypeDefinitionIndex(ComponentAssetLoader_Class_1_11229CDACBC0338D_TypeDefinitionIndex)->GetStaticField(0x63E40);
 		}
 
 		static ::System::Void _cctor()

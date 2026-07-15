@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A413D20)
-#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A414560)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B412850)
+#define RPG_GAMECORE_FIGHTFESTCOACHSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B413090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestCoachSkillRow_TypeDefinitionIndex = 12652;
+	inline static constexpr unsigned int FightFestCoachSkillRow_TypeDefinitionIndex = 12789;
 
 	class FightFestCoachSkillRow : public ::System::Object
 	{
@@ -21,10 +21,10 @@ namespace RPG::GameCore
 		::RPG::Client::TextID UnlockDesc; // 0x18
 		::RPG::Client::TextID CoachSkillName; // 0x28
 		::RPG::Client::TextID CoachSkillExtraDesc; // 0x38
-		::RPG::GameCore::FightFestCoachType CoachType; // 0x48
-		::System::UInt32 MazeBuffID; // 0x4C
+		::System::UInt32 MazeBuffID; // 0x48
+		::System::UInt32 SortWeight; // 0x4C
 		::System::UInt32 CoachItemID; // 0x50
-		::System::UInt32 SortWeight; // 0x54
+		::RPG::GameCore::FightFestCoachType CoachType; // 0x54
 
 		::System::Void _ctor()
 		{

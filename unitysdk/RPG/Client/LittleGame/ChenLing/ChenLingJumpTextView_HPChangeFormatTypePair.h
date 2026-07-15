@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_HPCHANGEFORMATTYPEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E1C120)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGJUMPTEXTVIEW_HPCHANGEFORMATTYPEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0xC977B30)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingJumpTextView_HPChangeFormatTypePair_TypeDefinitionIndex = 72494;
+	inline static constexpr unsigned int ChenLingJumpTextView_HPChangeFormatTypePair_TypeDefinitionIndex = 74019;
 
 	class ChenLingJumpTextView_HPChangeFormatTypePair : public ::System::Object
 	{

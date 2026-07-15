@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAWORKROUNDOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A309F40)
-#define RPG_GAMECORE_CHIMERAWORKROUNDOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30A0A0)
+#define RPG_GAMECORE_CHIMERAWORKROUNDOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3598D0)
+#define RPG_GAMECORE_CHIMERAWORKROUNDOPTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B359A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkRoundOptionRow_TypeDefinitionIndex = 12395;
+	inline static constexpr unsigned int ChimeraWorkRoundOptionRow_TypeDefinitionIndex = 12528;
 
 	class ChimeraWorkRoundOptionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 OptionID; // 0x18
-		::RPG::GameCore::ChimeraWorkRoundOptionType Type; // 0x1C
+		::RPG::GameCore::ChimeraWorkRoundOptionType Type; // 0x18
+		::System::UInt32 OptionID; // 0x1C
 
 		::System::Void _ctor()
 		{

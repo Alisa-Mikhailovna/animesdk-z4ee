@@ -4,10 +4,10 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CFC41C1E202F76CF_1_CLONE_OFFSET UNITYSDK_OFFSET(0x19202A10)
-#define CLASS_1_CFC41C1E202F76CF_1__CTOR_OFFSET UNITYSDK_OFFSET(0x192029B0)
+#define CLASS_1_CFC41C1E202F76CF_1_CLONE_OFFSET UNITYSDK_OFFSET(0x1A68D8F0)
+#define CLASS_1_CFC41C1E202F76CF_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A68D890)
 
-inline static constexpr unsigned int Class_1_CFC41C1E202F76CF_1_TypeDefinitionIndex = 34358;
+inline static constexpr unsigned int Class_1_CFC41C1E202F76CF_1_TypeDefinitionIndex = 34740;
 
 class Class_1_CFC41C1E202F76CF_1 : public ::System::Object
 {

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define COLLECTIONS_POOLED_SPINLOCKWITHNOCRITICALREGION_ENTER_OFFSET UNITYSDK_OFFSET(0x3931700)
-#define COLLECTIONS_POOLED_SPINLOCKWITHNOCRITICALREGION_EXIT_OFFSET UNITYSDK_OFFSET(0x3964890)
+#define COLLECTIONS_POOLED_SPINLOCKWITHNOCRITICALREGION_ENTER_OFFSET UNITYSDK_OFFSET(0x39E2890)
+#define COLLECTIONS_POOLED_SPINLOCKWITHNOCRITICALREGION_EXIT_OFFSET UNITYSDK_OFFSET(0x39E2960)
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int SpinLockWithNoCriticalRegion_TypeDefinitionIndex = 5107;
+	inline static constexpr unsigned int SpinLockWithNoCriticalRegion_TypeDefinitionIndex = 5112;
 
 	struct alignas(4) SpinLockWithNoCriticalRegion
 	{

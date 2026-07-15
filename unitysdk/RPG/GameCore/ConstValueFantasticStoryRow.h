@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B14580)
-#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B14B00)
+#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B380AE0)
+#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B381060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstValueFantasticStoryRow_TypeDefinitionIndex = 11016;
+	inline static constexpr unsigned int ConstValueFantasticStoryRow_TypeDefinitionIndex = 11066;
 
 	class ConstValueFantasticStoryRow : public ::System::Object
 	{
 	public:
-		::System::String* Value; // 0x10
-		::System::String* ConstValueName; // 0x18
+		::System::String* ConstValueName; // 0x10
+		::System::String* Value; // 0x18
 
 		::System::Void _ctor()
 		{

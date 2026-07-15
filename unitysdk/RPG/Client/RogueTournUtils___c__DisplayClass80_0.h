@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188CF7B0)
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS80_0___DELAYEDPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x188CFEA0)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD49F330)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS80_0___DELAYEDPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xD49FD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass80_0_TypeDefinitionIndex = 63445;
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass80_0_TypeDefinitionIndex = 64812;
 
 	class RogueTournUtils___c__DisplayClass80_0 : public ::System::Object
 	{

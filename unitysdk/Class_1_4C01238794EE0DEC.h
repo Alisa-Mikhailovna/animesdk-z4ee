@@ -5,11 +5,10 @@
 
 namespace System { class String; }
 
-#define CLASS_1_4C01238794EE0DEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C326B0)
-#define CLASS_1_4C01238794EE0DEC__CTOR_OFFSET UNITYSDK_OFFSET(0x15C32720)
-#define CLASS_1_4C01238794EE0DEC___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C32730)
+#define CLASS_1_4C01238794EE0DEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x125F39F0)
+#define CLASS_1_4C01238794EE0DEC__CTOR_OFFSET UNITYSDK_OFFSET(0x125F3A60)
 
-inline static constexpr unsigned int Class_1_4C01238794EE0DEC_TypeDefinitionIndex = 74429;
+inline static constexpr unsigned int Class_1_4C01238794EE0DEC_TypeDefinitionIndex = 76819;
 
 class Class_1_4C01238794EE0DEC : public ::System::Object
 {
@@ -24,8 +23,8 @@ public:
 	::System::UInt64 Field_1_7; // 0x48
 	::System::UInt64 Field_1_8; // 0x50
 	::System::UInt64 Field_1_9; // 0x58
-	::RPG::Client::Patch::PatchType Field_1_10; // 0x60
-	::System::UInt64 Field_1_11; // 0x68
+	::System::UInt64 Field_1_10; // 0x60
+	::RPG::Client::Patch::PatchType Field_1_11; // 0x68
 
 	::System::Void _ctor()
 	{
@@ -35,10 +34,5 @@ public:
 	::System::String* ToString()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4C01238794EE0DEC_TOSTRING_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_4C01238794EE0DEC___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION_METHOD_3_EE396846DFF3D721_OFFSET UNITYSDK_OFFSET(0x1A3AA620)
-#define RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION_METHOD_3_F8D0237B93034E2D_OFFSET UNITYSDK_OFFSET(0x1A3AA540)
-#define RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AA600)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION_METHOD_3_4D70F002E817EDA4_OFFSET UNITYSDK_OFFSET(0x1B44EA90)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION_METHOD_3_EE396846DFF3D721_OFFSET UNITYSDK_OFFSET(0x1B44EB40)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44EB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTriggerSelfEventAction_TypeDefinitionIndex = 17748;
+	inline static constexpr unsigned int FiveDimTriggerSelfEventAction_TypeDefinitionIndex = 17922;
 
 	class FiveDimTriggerSelfEventAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F8D0237B93034E2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerSelfEventAction*& a2)
+		static ::System::Void Method_3_4D70F002E817EDA4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerSelfEventAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTriggerSelfEventAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION_METHOD_3_F8D0237B93034E2D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTriggerSelfEventAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGERSELFEVENTACTION_METHOD_3_4D70F002E817EDA4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EE396846DFF3D721(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerSelfEventAction* a2)

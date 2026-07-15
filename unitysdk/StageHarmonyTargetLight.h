@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define STAGEHARMONYTARGETLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECE760)
+#define STAGEHARMONYTARGETLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xDD68330)
 
-inline static constexpr unsigned int StageHarmonyTargetLight_TypeDefinitionIndex = 44833;
+inline static constexpr unsigned int StageHarmonyTargetLight_TypeDefinitionIndex = 45750;
 
 class StageHarmonyTargetLight : public ::System::Object
 {

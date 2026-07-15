@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SetSummonUnitAttach; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EED208C55D4DEECC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16F64450)
-#define CLASS_3_EED208C55D4DEECC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16F64490)
-#define CLASS_3_EED208C55D4DEECC__CTOR_OFFSET UNITYSDK_OFFSET(0x16F64420)
-#define CLASS_3_EED208C55D4DEECC___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16F646D0)
+#define CLASS_3_EED208C55D4DEECC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x145A4420)
+#define CLASS_3_EED208C55D4DEECC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145A4460)
+#define CLASS_3_EED208C55D4DEECC__CTOR_OFFSET UNITYSDK_OFFSET(0x145A43F0)
 
-inline static constexpr unsigned int Class_3_EED208C55D4DEECC_TypeDefinitionIndex = 54729;
+inline static constexpr unsigned int Class_3_EED208C55D4DEECC_TypeDefinitionIndex = 55954;
 
 class Class_3_EED208C55D4DEECC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetSummonUnitAttach*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EED208C55D4DEECC_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_EED208C55D4DEECC___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

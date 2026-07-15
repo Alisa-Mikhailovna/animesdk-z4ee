@@ -4,12 +4,12 @@
 
 namespace System { class Type; }
 
-#define MESSAGEPACK_UNIONATTRIBUTE_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1B57E6D0)
-#define MESSAGEPACK_UNIONATTRIBUTE_GET_SUBTYPE_OFFSET UNITYSDK_OFFSET(0x1B57E6E0)
+#define MESSAGEPACK_UNIONATTRIBUTE_GET_KEY_OFFSET UNITYSDK_OFFSET(0x19AD3740)
+#define MESSAGEPACK_UNIONATTRIBUTE_GET_SUBTYPE_OFFSET UNITYSDK_OFFSET(0x19AD3750)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int UnionAttribute_TypeDefinitionIndex = 6543;
+	inline static constexpr unsigned int UnionAttribute_TypeDefinitionIndex = 6548;
 
 	class UnionAttribute : public ::System::Attribute
 	{

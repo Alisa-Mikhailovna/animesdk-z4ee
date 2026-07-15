@@ -4,24 +4,24 @@
 
 namespace System { class String; }
 
-#define AKUTILITIES_SHORTIDGENERATOR_COMPUTE_OFFSET UNITYSDK_OFFSET(0x196D60F0)
-#define AKUTILITIES_SHORTIDGENERATOR_GET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x196D84F0)
-#define AKUTILITIES_SHORTIDGENERATOR_SET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x196D8480)
-#define AKUTILITIES_SHORTIDGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x196D8380)
-#define AKUTILITIES_SHORTIDGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x196D8670)
+#define AKUTILITIES_SHORTIDGENERATOR_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1D2448F0)
+#define AKUTILITIES_SHORTIDGENERATOR_GET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x1D246DF0)
+#define AKUTILITIES_SHORTIDGENERATOR_SET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x1D246D80)
+#define AKUTILITIES_SHORTIDGENERATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D246C80)
+#define AKUTILITIES_SHORTIDGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D246F70)
 
-inline static constexpr unsigned int AkUtilities_ShortIDGenerator_TypeDefinitionIndex = 41235;
+inline static constexpr unsigned int AkUtilities_ShortIDGenerator_TypeDefinitionIndex = 42050;
 
 class AkUtilities_ShortIDGenerator : public ::System::Object
 {
 public:
-	static ::System::Byte* StaticGet_s_hashSize()
-	{
-		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AkUtilities_ShortIDGenerator_TypeDefinitionIndex)->GetStaticField(0x10140);
-	}
 	static ::System::UInt32* StaticGet_s_mask()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(AkUtilities_ShortIDGenerator_TypeDefinitionIndex)->GetStaticField(0x10144);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(AkUtilities_ShortIDGenerator_TypeDefinitionIndex)->GetStaticField(0x10840);
+	}
+	static ::System::Byte* StaticGet_s_hashSize()
+	{
+		return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AkUtilities_ShortIDGenerator_TypeDefinitionIndex)->GetStaticField(0x10844);
 	}
 	// static const ::System::UInt32 s_prime32 = 0x1000193; // 0x0
 	// static const ::System::UInt32 s_offsetBasis32 = 0x811C9DC5; // 0x0

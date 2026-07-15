@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION_METHOD_2_6D6E3022221223AD_OFFSET UNITYSDK_OFFSET(0x1A4FE970)
-#define RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION_METHOD_2_7889284E1542B0D1_OFFSET UNITYSDK_OFFSET(0x1A4FE7F0)
-#define RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FE960)
+#define RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION_METHOD_2_7889284E1542B0D1_OFFSET UNITYSDK_OFFSET(0x1B338220)
+#define RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION_METHOD_2_B21B4715732DE9BA_OFFSET UNITYSDK_OFFSET(0x1B3383A0)
+#define RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B338390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesPredicateItemCondition_TypeDefinitionIndex = 20311;
+	inline static constexpr unsigned int ChenLingFesPredicateItemCondition_TypeDefinitionIndex = 20705;
 
 	class ChenLingFesPredicateItemCondition : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesPredicateItemCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION_METHOD_2_7889284E1542B0D1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_6D6E3022221223AD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ChenLingFesPredicateItemCondition*& a2)
+		static ::System::Void Method_2_B21B4715732DE9BA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ChenLingFesPredicateItemCondition*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ChenLingFesPredicateItemCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION_METHOD_2_6D6E3022221223AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ChenLingFesPredicateItemCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESPREDICATEITEMCONDITION_METHOD_2_B21B4715732DE9BA_OFFSET))(a1, a2);
 		}
 	};
 }

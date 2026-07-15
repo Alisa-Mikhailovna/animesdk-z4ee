@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LogSamplerTypeDefine; }
 
-#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_METHOD_2_D294CBFDD60B4565_OFFSET UNITYSDK_OFFSET(0x19C166F0)
-#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19C167E0)
+#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST_METHOD_2_D294CBFDD60B4565_OFFSET UNITYSDK_OFFSET(0x1B597A30)
+#define RPG_GAMECORE_LOGSAMPLERTYPEDEFINELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B597B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogSamplerTypeDefineList_TypeDefinitionIndex = 17259;
+	inline static constexpr unsigned int LogSamplerTypeDefineList_TypeDefinitionIndex = 17430;
 
 	class LogSamplerTypeDefineList : public ::RPG::GameCore::JsonConfig
 	{

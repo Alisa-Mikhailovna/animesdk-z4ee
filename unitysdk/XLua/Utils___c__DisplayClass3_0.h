@@ -5,13 +5,13 @@
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC7F00)
-#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__0_OFFSET UNITYSDK_OFFSET(0xFAD6170)
-#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__1_OFFSET UNITYSDK_OFFSET(0xFAD6200)
+#define XLUA_UTILS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14381B10)
+#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__0_OFFSET UNITYSDK_OFFSET(0x14393C80)
+#define XLUA_UTILS___C__DISPLAYCLASS3_0__GENFIELDGETTER_B__1_OFFSET UNITYSDK_OFFSET(0x14393D70)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass3_0_TypeDefinitionIndex = 47052;
+	inline static constexpr unsigned int Utils___c__DisplayClass3_0_TypeDefinitionIndex = 48018;
 
 	class Utils___c__DisplayClass3_0 : public ::System::Object
 	{

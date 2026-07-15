@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/Client/LittleGame/PixAir/PixAirEquipInteractionType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPINTERACTIONNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x188848A0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPINTERACTIONNOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E3010)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipInteractionNotifyData_TypeDefinitionIndex = 71813;
+	inline static constexpr unsigned int PixAirEquipInteractionNotifyData_TypeDefinitionIndex = 73338;
 
 	class PixAirEquipInteractionNotifyData : public ::System::Object
 	{
 	public:
-		::System::Int32 FromEquipID; // 0x10
-		::RPG::Client::LittleGame::PixAir::PixAirEquipInteractionType InteractionType; // 0x14
-		::System::Int32 ToEquipRuntimeUniqueID; // 0x18
-		::System::Int32 ToEquipID; // 0x1C
-		::System::Int32 FromEquipRuntimeUniqueID; // 0x20
+		::System::Int32 ToEquipRuntimeUniqueID; // 0x10
+		::System::Int32 FromEquipRuntimeUniqueID; // 0x14
+		::RPG::Client::LittleGame::PixAir::PixAirEquipInteractionType InteractionType; // 0x18
+		::System::Int32 FromEquipID; // 0x1C
+		::System::Int32 ToEquipID; // 0x20
 
 		::System::Void _ctor()
 		{

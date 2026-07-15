@@ -5,22 +5,22 @@
 namespace RPG::GameCore { class IdleLiveAvatarPropertyConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_75A0CA533FCD01A7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15891B10)
-#define CLASS_1_75A0CA533FCD01A7___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15891B50)
-#define CLASS_1_75A0CA533FCD01A7___C___REGISTERPROPERTYFORMULAS_B__8_0_OFFSET UNITYSDK_OFFSET(0x15891B60)
+#define CLASS_1_75A0CA533FCD01A7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB479710)
+#define CLASS_1_75A0CA533FCD01A7___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB479750)
+#define CLASS_1_75A0CA533FCD01A7___C___REGISTERPROPERTYFORMULAS_B__8_0_OFFSET UNITYSDK_OFFSET(0xB479760)
 
-inline static constexpr unsigned int Class_1_75A0CA533FCD01A7___c_TypeDefinitionIndex = 69998;
+inline static constexpr unsigned int Class_1_75A0CA533FCD01A7___c_TypeDefinitionIndex = 71521;
 
 class Class_1_75A0CA533FCD01A7___c : public ::System::Object
 {
 public:
 	static ::Class_1_75A0CA533FCD01A7___c** StaticGet___9()
 	{
-		return (::Class_1_75A0CA533FCD01A7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75A0CA533FCD01A7___c_TypeDefinitionIndex)->GetStaticField(0x2B00);
+		return (::Class_1_75A0CA533FCD01A7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75A0CA533FCD01A7___c_TypeDefinitionIndex)->GetStaticField(0x68D00);
 	}
 	static ::System::Func_2<::RPG::GameCore::IdleLiveAvatarPropertyConfigRow*, ::System::Boolean>** StaticGet___9__8_0()
 	{
-		return (::System::Func_2<::RPG::GameCore::IdleLiveAvatarPropertyConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75A0CA533FCD01A7___c_TypeDefinitionIndex)->GetStaticField(0x2B08);
+		return (::System::Func_2<::RPG::GameCore::IdleLiveAvatarPropertyConfigRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_75A0CA533FCD01A7___c_TypeDefinitionIndex)->GetStaticField(0x68D08);
 	}
 
 	static ::System::Void _cctor()

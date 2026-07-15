@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOOLVARIABLECONFIG_METHOD_2_5502569308AEC2E4_OFFSET UNITYSDK_OFFSET(0x195E2E90)
-#define RPG_GAMECORE_BOOLVARIABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195E2FF0)
+#define RPG_GAMECORE_BOOLVARIABLECONFIG_METHOD_2_5502569308AEC2E4_OFFSET UNITYSDK_OFFSET(0x1B212A30)
+#define RPG_GAMECORE_BOOLVARIABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B212B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoolVariableConfig_TypeDefinitionIndex = 14723;
+	inline static constexpr unsigned int BoolVariableConfig_TypeDefinitionIndex = 14883;
 
 	class BoolVariableConfig : public ::RPG::GameCore::JsonConfig
 	{

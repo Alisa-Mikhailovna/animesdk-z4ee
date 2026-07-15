@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DisableRogueTitanBless; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EBC9ADB9A0939E64_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148F2550)
-#define CLASS_3_EBC9ADB9A0939E64__CTOR_OFFSET UNITYSDK_OFFSET(0x148F2520)
+#define CLASS_3_EBC9ADB9A0939E64_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB595660)
+#define CLASS_3_EBC9ADB9A0939E64__CTOR_OFFSET UNITYSDK_OFFSET(0xB595630)
 
-inline static constexpr unsigned int Class_3_EBC9ADB9A0939E64_TypeDefinitionIndex = 51404;
+inline static constexpr unsigned int Class_3_EBC9ADB9A0939E64_TypeDefinitionIndex = 52514;
 
 class Class_3_EBC9ADB9A0939E64 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DisableRogueTitanBless*>
 {

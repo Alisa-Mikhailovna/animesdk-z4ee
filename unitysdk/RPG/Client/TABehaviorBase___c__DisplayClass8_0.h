@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1809DCF0)
-#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0x1809E1F0)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD5FB890)
+#define RPG_CLIENT_TABEHAVIORBASE___C__DISPLAYCLASS8_0__PRELOADDEPENDENTASSET_B__0_OFFSET UNITYSDK_OFFSET(0xD5FBC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 66184;
+	inline static constexpr unsigned int TABehaviorBase___c__DisplayClass8_0_TypeDefinitionIndex = 67609;
 
 	class TABehaviorBase___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::System::Action* completeCallback; // 0x10
-		::RPG::Client::TABehaviorBase* __4__this; // 0x18
-		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x20
+		::RPG::Client::TABehaviorBase* __4__this; // 0x10
+		::System::Action_1<::UnityEngine::Object*>* __9__0; // 0x18
+		::System::Action* completeCallback; // 0x20
 		::System::Int32 taskCount; // 0x28
 
 		::System::Void _ctor()

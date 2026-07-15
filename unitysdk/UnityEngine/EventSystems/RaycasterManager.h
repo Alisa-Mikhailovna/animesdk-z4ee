@@ -5,21 +5,21 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class BaseRaycaster; }
 
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER_ADDRAYCASTER_OFFSET UNITYSDK_OFFSET(0x183B95C0)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER_GETRAYCASTERS_OFFSET UNITYSDK_OFFSET(0x183C1260)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER_REMOVERAYCASTERS_OFFSET UNITYSDK_OFFSET(0x183B9790)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x183C1290)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER_ADDRAYCASTER_OFFSET UNITYSDK_OFFSET(0x1D0FCC70)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER_GETRAYCASTERS_OFFSET UNITYSDK_OFFSET(0x1D105940)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER_REMOVERAYCASTERS_OFFSET UNITYSDK_OFFSET(0x1D0FCDC0)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D105970)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int RaycasterManager_TypeDefinitionIndex = 6105;
+	inline static constexpr unsigned int RaycasterManager_TypeDefinitionIndex = 6110;
 
 	class RaycasterManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>** StaticGet_s_Raycasters()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>**)Il2CppClass::FromTypeDefinitionIndex(RaycasterManager_TypeDefinitionIndex)->GetStaticField(0x3ECE0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>**)Il2CppClass::FromTypeDefinitionIndex(RaycasterManager_TypeDefinitionIndex)->GetStaticField(0x471C0);
 		}
 
 		static ::System::Void _cctor()

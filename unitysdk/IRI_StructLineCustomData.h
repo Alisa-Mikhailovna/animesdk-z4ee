@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define IRI_STRUCTLINECUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14062450)
+#define IRI_STRUCTLINECUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15252F70)
 
-inline static constexpr unsigned int IRI_StructLineCustomData_TypeDefinitionIndex = 44522;
+inline static constexpr unsigned int IRI_StructLineCustomData_TypeDefinitionIndex = 45394;
 
 class IRI_StructLineCustomData : public ::UnityEngine::MonoBehaviour
 {

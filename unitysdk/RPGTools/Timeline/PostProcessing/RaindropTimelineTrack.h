@@ -6,13 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19B4F820)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19B4F9D0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19B4FAB0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDD09F90)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD0A140)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int RaindropTimelineTrack_TypeDefinitionIndex = 45876;
+	inline static constexpr unsigned int RaindropTimelineTrack_TypeDefinitionIndex = 46815;
 
 	class RaindropTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

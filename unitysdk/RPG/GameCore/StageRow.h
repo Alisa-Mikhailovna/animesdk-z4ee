@@ -15,60 +15,60 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define RPG_GAMECORE_STAGEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x19339AA0)
-#define RPG_GAMECORE_STAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1933A4B0)
-#define RPG_GAMECORE_STAGEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x193405F0)
-#define RPG_GAMECORE_STAGEROW_GETCHALLENGESTORYTYPE_OFFSET UNITYSDK_OFFSET(0x19340C30)
-#define RPG_GAMECORE_STAGEROW_GET_PROCESSEDSUBLEVELGRAPHLIST_OFFSET UNITYSDK_OFFSET(0x19340C60)
-#define RPG_GAMECORE_STAGEROW_GET_PROCESSEDTEMPLATEVARIABLES_OFFSET UNITYSDK_OFFSET(0x19341220)
-#define RPG_GAMECORE_STAGEROW_PARSETEMPLATEVARIABLE_OFFSET UNITYSDK_OFFSET(0x193413A0)
-#define RPG_GAMECORE_STAGEROW_RESET_OFFSET UNITYSDK_OFFSET(0x19340650)
-#define RPG_GAMECORE_STAGEROW_TRYGETSTAGECONFIGSTRING_OFFSET UNITYSDK_OFFSET(0x193406B0)
-#define RPG_GAMECORE_STAGEROW_TRYGETSTAGECONFIGUINTARRAY_OFFSET UNITYSDK_OFFSET(0x19340960)
-#define RPG_GAMECORE_STAGEROW_TRYGETSTAGECONFIGUINT_OFFSET UNITYSDK_OFFSET(0x193407B0)
-#define RPG_GAMECORE_STAGEROW__CCTOR_OFFSET UNITYSDK_OFFSET(0x19341550)
-#define RPG_GAMECORE_STAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193405E0)
-#define RPG_GAMECORE_STAGEROW__TRYADDSTR_OFFSET UNITYSDK_OFFSET(0x19341190)
+#define RPG_GAMECORE_STAGEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B8F9B70)
+#define RPG_GAMECORE_STAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8FA570)
+#define RPG_GAMECORE_STAGEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B900E10)
+#define RPG_GAMECORE_STAGEROW_GETCHALLENGESTORYTYPE_OFFSET UNITYSDK_OFFSET(0x1B901440)
+#define RPG_GAMECORE_STAGEROW_GET_PROCESSEDSUBLEVELGRAPHLIST_OFFSET UNITYSDK_OFFSET(0x1B901470)
+#define RPG_GAMECORE_STAGEROW_GET_PROCESSEDTEMPLATEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1B901A30)
+#define RPG_GAMECORE_STAGEROW_PARSETEMPLATEVARIABLE_OFFSET UNITYSDK_OFFSET(0x1B901BB0)
+#define RPG_GAMECORE_STAGEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B900E70)
+#define RPG_GAMECORE_STAGEROW_TRYGETSTAGECONFIGSTRING_OFFSET UNITYSDK_OFFSET(0x1B900EB0)
+#define RPG_GAMECORE_STAGEROW_TRYGETSTAGECONFIGUINTARRAY_OFFSET UNITYSDK_OFFSET(0x1B901160)
+#define RPG_GAMECORE_STAGEROW_TRYGETSTAGECONFIGUINT_OFFSET UNITYSDK_OFFSET(0x1B900FB0)
+#define RPG_GAMECORE_STAGEROW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B901D60)
+#define RPG_GAMECORE_STAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B900E00)
+#define RPG_GAMECORE_STAGEROW__TRYADDSTR_OFFSET UNITYSDK_OFFSET(0x1B9019A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRow_TypeDefinitionIndex = 14406;
+	inline static constexpr unsigned int StageRow_TypeDefinitionIndex = 14554;
 
 	class StageRow : public ::System::Object
 	{
 	public:
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_RegexFloat()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(StageRow_TypeDefinitionIndex)->GetStaticField(0x4D710);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(StageRow_TypeDefinitionIndex)->GetStaticField(0x3210);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_RegexInteger()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(StageRow_TypeDefinitionIndex)->GetStaticField(0x4D718);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(StageRow_TypeDefinitionIndex)->GetStaticField(0x3218);
 		}
-		::Il2CppArray<::System::String*>* LevelWinCondition; // 0x10
-		::System::String* LevelGraphPath; // 0x18
-		::Il2CppArray<::System::String*>* StageAbilityConfig; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _ProcessedTemplateVariables; // 0x28
-		::Il2CppArray<::System::String*>* LevelLoseCondition; // 0x30
-		::Il2CppArray<::Class_1_D6A07C122FCF6261*>* SubLevelGraphs; // 0x38
-		::Il2CppArray<::Class_1_0B6050F6F316691E*>* StageConfigData; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::String*>*>* _ProcessedCustomStringList; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::String*>*>* _ProcessedSubLevelGraphList; // 0x50
-		::Il2CppArray<::RPG::GameCore::StageMonsterWave*>* MonsterList; // 0x58
-		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x60
-		::RPG::Client::TextID StageName; // 0x68
-		::RPG::GameCore::StageType StageType; // 0x78
-		::System::Boolean ResetBattleSpeed; // 0x7C
-		::System::Boolean Release; // 0x7D
-		::System::Boolean ForbidAutoBattle; // 0x7E
-		::System::Single MonsterWarningRatio; // 0x80
-		::System::UInt32 StageID; // 0x84
-		::System::UInt32 BattleScoringGroup; // 0x88
-		::System::Boolean ForbidViewMode; // 0x8C
-		::System::Boolean ForbidExitBattle; // 0x8D
-		::System::UInt32 HardLevelGroup; // 0x90
-		::System::UInt32 Level; // 0x94
-		::System::UInt32 EliteGroup; // 0x98
+		::Il2CppArray<::System::String*>* StageAbilityConfig; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::String*>*>* _ProcessedSubLevelGraphList; // 0x18
+		::Il2CppArray<::RPG::GameCore::StageMonsterWave*>* MonsterList; // 0x20
+		::System::String* LevelGraphPath; // 0x28
+		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _ProcessedTemplateVariables; // 0x38
+		::Il2CppArray<::System::String*>* LevelWinCondition; // 0x40
+		::Il2CppArray<::Class_1_0B6050F6F316691E*>* StageConfigData; // 0x48
+		::Il2CppArray<::System::String*>* LevelLoseCondition; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::String*>*>* _ProcessedCustomStringList; // 0x58
+		::Il2CppArray<::Class_1_D6A07C122FCF6261*>* SubLevelGraphs; // 0x60
+		::System::UInt32 Level; // 0x68
+		::System::Single MonsterWarningRatio; // 0x6C
+		::RPG::GameCore::StageType StageType; // 0x70
+		::System::UInt32 HardLevelGroup; // 0x74
+		::System::Boolean ForbidExitBattle; // 0x78
+		::System::Boolean Release; // 0x79
+		::System::Boolean ForbidViewMode; // 0x7A
+		::System::Boolean ResetBattleSpeed; // 0x7B
+		::System::Boolean ForbidAutoBattle; // 0x7C
+		::RPG::Client::TextID StageName; // 0x80
+		::System::UInt32 BattleScoringGroup; // 0x90
+		::System::UInt32 EliteGroup; // 0x94
+		::System::UInt32 StageID; // 0x98
 
 		::System::Void _ctor()
 		{

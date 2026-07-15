@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_3C3F1DB80DDD2778_OFFSET UNITYSDK_OFFSET(0x1A411320)
-#define RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_BB28B4C562F08E88_OFFSET UNITYSDK_OFFSET(0x1A411380)
-#define RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A411370)
+#define RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_135CE51B455911B1_OFFSET UNITYSDK_OFFSET(0x1B40FAC0)
+#define RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_66A753CD36F1B77D_OFFSET UNITYSDK_OFFSET(0x1B40F9A0)
+#define RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40FAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateTextDynamicParamTraitName_TypeDefinitionIndex = 15820;
+	inline static constexpr unsigned int FateTextDynamicParamTraitName_TypeDefinitionIndex = 15994;
 
 	class FateTextDynamicParamTraitName : public ::RPG::GameCore::TextDynamicParamBase
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3C3F1DB80DDD2778(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateTextDynamicParamTraitName*& a2)
+		static ::System::Void Method_3_66A753CD36F1B77D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateTextDynamicParamTraitName*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateTextDynamicParamTraitName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_3C3F1DB80DDD2778_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateTextDynamicParamTraitName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_66A753CD36F1B77D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BB28B4C562F08E88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateTextDynamicParamTraitName* a2)
+		static ::System::Void Method_3_135CE51B455911B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateTextDynamicParamTraitName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateTextDynamicParamTraitName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_BB28B4C562F08E88_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateTextDynamicParamTraitName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATETEXTDYNAMICPARAMTRAITNAME_METHOD_3_135CE51B455911B1_OFFSET))(a1, a2);
 		}
 	};
 }

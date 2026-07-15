@@ -14,12 +14,12 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security { class IPermission; }
 
-#define SYSTEM_SECURITY_SECURITYEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x142D7340)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x142D7480)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x142D2C90)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x142D7010)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x142D7260)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x142D6F00)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x19FE2270)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19FE23B0)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19FDD060)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19FE1F50)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x19FE2190)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE1E40)
 
 namespace System::Security
 {
@@ -28,17 +28,17 @@ namespace System::Security
 	class SecurityException : public ::System::SystemException
 	{
 	public:
-		::System::Reflection::AssemblyName* _assembly; // 0x88
-		::System::Type* permissionType; // 0x90
-		::System::String* permissionState; // 0x98
-		::System::String* _refused; // 0xA0
+		::System::Type* permissionType; // 0x88
+		::System::Object* _demanded; // 0x90
+		::System::Reflection::MethodInfo* _method; // 0x98
+		::System::Object* _permitset; // 0xA0
 		::System::Security::IPermission* _firstperm; // 0xA8
-		::System::Reflection::MethodInfo* _method; // 0xB0
-		::System::Object* _demanded; // 0xB8
-		::System::Object* _denyset; // 0xC0
-		::System::String* _url; // 0xC8
-		::System::String* _granted; // 0xD0
-		::System::Object* _permitset; // 0xD8
+		::System::String* _granted; // 0xB0
+		::System::String* permissionState; // 0xB8
+		::System::String* _refused; // 0xC0
+		::System::Object* _denyset; // 0xC8
+		::System::Reflection::AssemblyName* _assembly; // 0xD0
+		::System::String* _url; // 0xD8
 		::System::Security::Permissions::SecurityAction _action; // 0xE0
 		::System::Security::SecurityZone _zone; // 0xE4
 

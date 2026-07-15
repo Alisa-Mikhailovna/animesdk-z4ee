@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1062;
+class Class_0_16E4307DCC419505_1106;
 namespace RPG::Client { class UIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_36EF8C2CE98EB276__CTOR_OFFSET UNITYSDK_OFFSET(0x16C04C10)
+#define CLASS_1_36EF8C2CE98EB276__CTOR_OFFSET UNITYSDK_OFFSET(0x137E6BB0)
 
-inline static constexpr unsigned int Class_1_36EF8C2CE98EB276_TypeDefinitionIndex = 68277;
+inline static constexpr unsigned int Class_1_36EF8C2CE98EB276_TypeDefinitionIndex = 69766;
 
 class Class_1_36EF8C2CE98EB276 : public ::System::Object
 {
 public:
 	::RPG::Client::UIController* Field_1_0; // 0x10
-	::Class_0_16E4307DCC419505_1062* Field_1_1; // 0x18
+	::System::Action_1<::Class_1_36EF8C2CE98EB276*>* Field_1_1; // 0x18
 	::RPG::Client::UIController* Field_1_2; // 0x20
-	::RPG::Client::UIController* Field_1_3; // 0x28
-	::System::Action_1<::Class_1_36EF8C2CE98EB276*>* Field_1_4; // 0x30
+	::Class_0_16E4307DCC419505_1106* Field_1_3; // 0x28
+	::RPG::Client::UIController* Field_1_4; // 0x30
 	::System::Boolean Field_1_5; // 0x38
 	::System::Boolean Field_1_6; // 0x39
 

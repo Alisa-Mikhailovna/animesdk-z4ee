@@ -8,29 +8,29 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKBANKMANAGER_DOUNLOADBANKS_OFFSET UNITYSDK_OFFSET(0x19DCC770)
-#define AKBANKMANAGER_ISBANKLOADED_OFFSET UNITYSDK_OFFSET(0x19DCD7B0)
-#define AKBANKMANAGER_LOADBANKASYNC_OFFSET UNITYSDK_OFFSET(0x19DBF040)
-#define AKBANKMANAGER_LOADBANK_OFFSET UNITYSDK_OFFSET(0x19DBEC10)
-#define AKBANKMANAGER_LOADINITBANK_OFFSET UNITYSDK_OFFSET(0x19DCCFB0)
-#define AKBANKMANAGER_RELOADALLBANKS_OFFSET UNITYSDK_OFFSET(0x19DCCA30)
-#define AKBANKMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x19DCC920)
-#define AKBANKMANAGER_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x19DBF430)
-#define AKBANKMANAGER_UNLOADINITBANK_OFFSET UNITYSDK_OFFSET(0x19DCCE60)
-#define AKBANKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DCD990)
+#define AKBANKMANAGER_DOUNLOADBANKS_OFFSET UNITYSDK_OFFSET(0x1D1A70B0)
+#define AKBANKMANAGER_ISBANKLOADED_OFFSET UNITYSDK_OFFSET(0x1D1A8360)
+#define AKBANKMANAGER_LOADBANKASYNC_OFFSET UNITYSDK_OFFSET(0x1D199D40)
+#define AKBANKMANAGER_LOADBANK_OFFSET UNITYSDK_OFFSET(0x1D1998F0)
+#define AKBANKMANAGER_LOADINITBANK_OFFSET UNITYSDK_OFFSET(0x1D1A7A80)
+#define AKBANKMANAGER_RELOADALLBANKS_OFFSET UNITYSDK_OFFSET(0x1D1A73F0)
+#define AKBANKMANAGER_RESET_OFFSET UNITYSDK_OFFSET(0x1D1A72E0)
+#define AKBANKMANAGER_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1D19A150)
+#define AKBANKMANAGER_UNLOADINITBANK_OFFSET UNITYSDK_OFFSET(0x1D1A7930)
+#define AKBANKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1A8540)
 
-inline static constexpr unsigned int AkBankManager_TypeDefinitionIndex = 41198;
+inline static constexpr unsigned int AkBankManager_TypeDefinitionIndex = 42013;
 
 class AkBankManager : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::AkBankManager_BankHandle*>** StaticGet_BanksToUnload()
-	{
-		return (::System::Collections::Generic::List_1<::AkBankManager_BankHandle*>**)Il2CppClass::FromTypeDefinitionIndex(AkBankManager_TypeDefinitionIndex)->GetStaticField(0x56BA0);
-	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::AkBankManager_BankHandle*>** StaticGet_m_BankHandles()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::AkBankManager_BankHandle*>**)Il2CppClass::FromTypeDefinitionIndex(AkBankManager_TypeDefinitionIndex)->GetStaticField(0x56BA8);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::AkBankManager_BankHandle*>**)Il2CppClass::FromTypeDefinitionIndex(AkBankManager_TypeDefinitionIndex)->GetStaticField(0x5BFC0);
+	}
+	static ::System::Collections::Generic::List_1<::AkBankManager_BankHandle*>** StaticGet_BanksToUnload()
+	{
+		return (::System::Collections::Generic::List_1<::AkBankManager_BankHandle*>**)Il2CppClass::FromTypeDefinitionIndex(AkBankManager_TypeDefinitionIndex)->GetStaticField(0x5BFC8);
 	}
 
 	static ::System::Void _cctor()

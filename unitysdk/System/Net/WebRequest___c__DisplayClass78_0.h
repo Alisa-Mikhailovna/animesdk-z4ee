@@ -7,12 +7,12 @@ namespace System::Net { class WebRequest; }
 namespace System::Security::Principal { class WindowsIdentity; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18966320)
-#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x18967550)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD2F050)
+#define SYSTEM_NET_WEBREQUEST___C__DISPLAYCLASS78_0__GETREQUESTSTREAMASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1CD30470)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebRequest___c__DisplayClass78_0_TypeDefinitionIndex = 2759;
+	inline static constexpr unsigned int WebRequest___c__DisplayClass78_0_TypeDefinitionIndex = 2763;
 
 	class WebRequest___c__DisplayClass78_0 : public ::System::Object
 	{

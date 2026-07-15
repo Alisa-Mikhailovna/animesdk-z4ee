@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKMATREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x177C2380)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKMATREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0xBAF28D0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackMatReference_TypeDefinitionIndex = 69203;
+	inline static constexpr unsigned int AlleyPackMatReference_TypeDefinitionIndex = 70724;
 
 	class AlleyPackMatReference : public ::UnityEngine::MonoBehaviour
 	{

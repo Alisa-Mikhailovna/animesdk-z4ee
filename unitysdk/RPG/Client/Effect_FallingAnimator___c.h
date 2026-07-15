@@ -5,29 +5,29 @@
 namespace RPG::Client { class Effect_FallingAnimator_ParticleData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14CBBF70)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CBBFB0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__INIT_B__44_0_OFFSET UNITYSDK_OFFSET(0x14CBC0B0)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__UPDATE_B__43_0_OFFSET UNITYSDK_OFFSET(0x14CBBFC0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3091F0)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC309230)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__INIT_B__44_0_OFFSET UNITYSDK_OFFSET(0xC309330)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR___C__UPDATE_B__43_0_OFFSET UNITYSDK_OFFSET(0xC309240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FallingAnimator___c_TypeDefinitionIndex = 65894;
+	inline static constexpr unsigned int Effect_FallingAnimator___c_TypeDefinitionIndex = 67311;
 
 	class Effect_FallingAnimator___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::Effect_FallingAnimator_ParticleData*, ::System::Int32>** StaticGet___9__44_0()
+		static ::RPG::Client::Effect_FallingAnimator___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::Effect_FallingAnimator_ParticleData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_FallingAnimator___c_TypeDefinitionIndex)->GetStaticField(0xB910);
+			return (::RPG::Client::Effect_FallingAnimator___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_FallingAnimator___c_TypeDefinitionIndex)->GetStaticField(0x680F0);
 		}
 		static ::System::Func_2<::RPG::Client::Effect_FallingAnimator_ParticleData*, ::System::Boolean>** StaticGet___9__43_0()
 		{
-			return (::System::Func_2<::RPG::Client::Effect_FallingAnimator_ParticleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_FallingAnimator___c_TypeDefinitionIndex)->GetStaticField(0xB918);
+			return (::System::Func_2<::RPG::Client::Effect_FallingAnimator_ParticleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_FallingAnimator___c_TypeDefinitionIndex)->GetStaticField(0x680F8);
 		}
-		static ::RPG::Client::Effect_FallingAnimator___c** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::Effect_FallingAnimator_ParticleData*, ::System::Int32>** StaticGet___9__44_0()
 		{
-			return (::RPG::Client::Effect_FallingAnimator___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_FallingAnimator___c_TypeDefinitionIndex)->GetStaticField(0xB920);
+			return (::System::Func_2<::RPG::Client::Effect_FallingAnimator_ParticleData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_FallingAnimator___c_TypeDefinitionIndex)->GetStaticField(0x68100);
 		}
 
 		static ::System::Void _cctor()

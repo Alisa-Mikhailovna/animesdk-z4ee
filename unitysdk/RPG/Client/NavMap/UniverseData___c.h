@@ -5,24 +5,24 @@
 namespace RPG::Client::NavMap { class WorldData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15606FE0)
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15607020)
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__36_0_OFFSET UNITYSDK_OFFSET(0x15607030)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE78A70)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE78AB0)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__37_0_OFFSET UNITYSDK_OFFSET(0xCE78AC0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int UniverseData___c_TypeDefinitionIndex = 69683;
+	inline static constexpr unsigned int UniverseData___c_TypeDefinitionIndex = 71206;
 
 	class UniverseData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>** StaticGet___9__36_0()
-		{
-			return (::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x65D80);
-		}
 		static ::RPG::Client::NavMap::UniverseData___c** StaticGet___9()
 		{
-			return (::RPG::Client::NavMap::UniverseData___c**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x65D88);
+			return (::RPG::Client::NavMap::UniverseData___c**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x635B0);
+		}
+		static ::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>** StaticGet___9__37_0()
+		{
+			return (::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(UniverseData___c_TypeDefinitionIndex)->GetStaticField(0x635B8);
 		}
 
 		static ::System::Void _cctor()
@@ -35,9 +35,9 @@ namespace RPG::Client::NavMap
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get_ShowWorlds_b__36_0(::RPG::Client::NavMap::WorldData* a1)
+		::System::Boolean _get_ShowWorlds_b__37_0(::RPG::Client::NavMap::WorldData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::WorldData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__36_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::NavMap::WorldData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__37_0_OFFSET))(this, a1);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGachaResultItemType_TypeDefinitionIndex = 70132;
+	inline static constexpr unsigned int IdleLiveGachaResultItemType_TypeDefinitionIndex = 71655;
 
 	enum class IdleLiveGachaResultItemType : ::System::Int32
 	{

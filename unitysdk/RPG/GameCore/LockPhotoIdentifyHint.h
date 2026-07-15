@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT_METHOD_3_5F9AEE6D549C9167_OFFSET UNITYSDK_OFFSET(0x19C13F40)
-#define RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT_METHOD_3_6ACD847E9B2AEC5B_OFFSET UNITYSDK_OFFSET(0x19C14050)
-#define RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C14020)
+#define RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT_METHOD_3_6ACD847E9B2AEC5B_OFFSET UNITYSDK_OFFSET(0x1B5955F0)
+#define RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT_METHOD_3_8A1148B1DE6C615E_OFFSET UNITYSDK_OFFSET(0x1B595520)
+#define RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5955E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockPhotoIdentifyHint_TypeDefinitionIndex = 20442;
+	inline static constexpr unsigned int LockPhotoIdentifyHint_TypeDefinitionIndex = 20857;
 
 	class LockPhotoIdentifyHint : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5F9AEE6D549C9167(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockPhotoIdentifyHint*& a2)
+		static ::System::Void Method_3_8A1148B1DE6C615E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockPhotoIdentifyHint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockPhotoIdentifyHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT_METHOD_3_5F9AEE6D549C9167_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockPhotoIdentifyHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKPHOTOIDENTIFYHINT_METHOD_3_8A1148B1DE6C615E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6ACD847E9B2AEC5B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockPhotoIdentifyHint* a2)

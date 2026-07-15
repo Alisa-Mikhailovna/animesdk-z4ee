@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C361F0)
-#define RPG_GAMECORE_MARBLEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C36360)
+#define RPG_GAMECORE_MARBLEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5B6500)
+#define RPG_GAMECORE_MARBLEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B6670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleEmojiRow_TypeDefinitionIndex = 11353;
+	inline static constexpr unsigned int MarbleEmojiRow_TypeDefinitionIndex = 11453;
 
 	class MarbleEmojiRow : public ::System::Object
 	{
 	public:
 		::System::String* EmojiPath; // 0x10
-		::System::UInt32 GroupID; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 GroupID; // 0x1C
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetPhotoGraphTargets; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B2E71897A9B89F78_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x178DADD0)
-#define CLASS_3_B2E71897A9B89F78__CTOR_OFFSET UNITYSDK_OFFSET(0x178DADA0)
+#define CLASS_3_B2E71897A9B89F78_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14AB06A0)
+#define CLASS_3_B2E71897A9B89F78__CTOR_OFFSET UNITYSDK_OFFSET(0x14AB0670)
 
-inline static constexpr unsigned int Class_3_B2E71897A9B89F78_TypeDefinitionIndex = 49728;
+inline static constexpr unsigned int Class_3_B2E71897A9B89F78_TypeDefinitionIndex = 50782;
 
 class Class_3_B2E71897A9B89F78 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetPhotoGraphTargets*>
 {

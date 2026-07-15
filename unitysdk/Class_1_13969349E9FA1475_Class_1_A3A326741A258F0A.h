@@ -6,15 +6,15 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_13969349E9FA1475_CLASS_1_A3A326741A258F0A__CTOR_OFFSET UNITYSDK_OFFSET(0x175DE210)
+#define CLASS_1_13969349E9FA1475_CLASS_1_A3A326741A258F0A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A587F30)
 
-inline static constexpr unsigned int Class_1_13969349E9FA1475_Class_1_A3A326741A258F0A_TypeDefinitionIndex = 34974;
+inline static constexpr unsigned int Class_1_13969349E9FA1475_Class_1_A3A326741A258F0A_TypeDefinitionIndex = 35756;
 
 class Class_1_13969349E9FA1475_Class_1_A3A326741A258F0A : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Collections::Generic::HashSet_1<::RPG::GameCore::CakeRaceRegionTag>* Field_1_1; // 0x18
+	::System::Collections::Generic::HashSet_1<::RPG::GameCore::CakeRaceRegionTag>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
 	::System::UInt32 Field_1_2; // 0x20
 	::System::UInt32 Field_1_3; // 0x24
 	::System::Int32 Field_1_4; // 0x28

@@ -3,22 +3,21 @@
 #include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B734F0)
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B73450)
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B734A0)
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B73540)
-#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B73550)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xDAD8640)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDAD85A0)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDAD85F0)
+#define RPG_GAMECORE_LEVELINFINITEINFOCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xDAD8690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInfiniteInfoChange_TypeDefinitionIndex = 52979;
+	inline static constexpr unsigned int LevelInfiniteInfoChange_TypeDefinitionIndex = 54192;
 
 	class LevelInfiniteInfoChange : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::System::Int32 CurrentWaveIndex; // 0x18
-		::System::Int32 TotalSummonCount; // 0x1C
-		::System::Int32 TotalMonsterCount; // 0x20
+		::System::Int32 TotalMonsterCount; // 0x18
+		::System::Int32 CurrentWaveIndex; // 0x1C
+		::System::Int32 TotalSummonCount; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -38,11 +37,6 @@ namespace RPG::GameCore
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEINFOCHANGE_CLEAR_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Clear()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINFINITEINFOCHANGE___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 		}
 	};
 }

@@ -3,24 +3,24 @@
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/CakeRaceBaseNtfMessage_1.h"
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/CakeRaceMsgId.h"
 
-class Class_1_3D780034EB92FF7C;
-class Class_1_4665C41CBBCB4602;
-class Class_1_D40936EF3BF54118_32;
+class Class_1_12024D1A45412239;
+class Class_1_3F5064ADB89DA8D3_2;
+class Class_1_D40936EF3BF54118_30;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_416B12CFEB291691_OFFSET UNITYSDK_OFFSET(0x180317D0)
-#define CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_D2EDCCCF37B5B6E5_OFFSET UNITYSDK_OFFSET(0x180315B0)
-#define CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_F5D02CB63424FC5A_OFFSET UNITYSDK_OFFSET(0x180315C0)
-#define CLASS_4_E8F4610EF0D87EE0_6__CTOR_OFFSET UNITYSDK_OFFSET(0x18031880)
+#define CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_416B12CFEB291691_OFFSET UNITYSDK_OFFSET(0x14CFF460)
+#define CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_D2EDCCCF37B5B6E5_OFFSET UNITYSDK_OFFSET(0x14CFF400)
+#define CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_F5D02CB63424FC5A_OFFSET UNITYSDK_OFFSET(0x14CFF410)
+#define CLASS_4_E8F4610EF0D87EE0_6__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFF510)
 
-inline static constexpr unsigned int Class_4_E8F4610EF0D87EE0_6_TypeDefinitionIndex = 72586;
+inline static constexpr unsigned int Class_4_E8F4610EF0D87EE0_6_TypeDefinitionIndex = 74111;
 
-class Class_4_E8F4610EF0D87EE0_6 : public ::RPG::Client::LittleGame::CakeRace::CakeRaceBaseNtfMessage_1<::Class_1_D40936EF3BF54118_32*>
+class Class_4_E8F4610EF0D87EE0_6 : public ::RPG::Client::LittleGame::CakeRace::CakeRaceBaseNtfMessage_1<::Class_1_D40936EF3BF54118_30*>
 {
 public:
-	::System::Void _ctor(::Class_1_3D780034EB92FF7C* a1)
+	::System::Void _ctor(::Class_1_3F5064ADB89DA8D3_2* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_3D780034EB92FF7C*))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_6__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_3F5064ADB89DA8D3_2*))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_6__CTOR_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId Method_4_D2EDCCCF37B5B6E5()
@@ -28,13 +28,13 @@ public:
 		return ((::RPG::Client::LittleGameShare::CakeRaceCore::CakeRaceMsgId(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_D2EDCCCF37B5B6E5_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::Class_1_4665C41CBBCB4602*>* Method_4_F5D02CB63424FC5A()
+	::System::Collections::Generic::IEnumerable_1<::Class_1_12024D1A45412239*>* Method_4_F5D02CB63424FC5A()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::Class_1_4665C41CBBCB4602*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_F5D02CB63424FC5A_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::Class_1_12024D1A45412239*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_F5D02CB63424FC5A_OFFSET))(this);
 	}
 
-	static ::Class_4_E8F4610EF0D87EE0_6* Method_4_416B12CFEB291691(::Class_1_3D780034EB92FF7C* a1)
+	static ::Class_4_E8F4610EF0D87EE0_6* Method_4_416B12CFEB291691(::Class_1_3F5064ADB89DA8D3_2* a1)
 	{
-		return ((::Class_4_E8F4610EF0D87EE0_6*(*)(::Class_1_3D780034EB92FF7C*))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_416B12CFEB291691_OFFSET))(a1);
+		return ((::Class_4_E8F4610EF0D87EE0_6*(*)(::Class_1_3F5064ADB89DA8D3_2*))((::PBYTE)hIl2Cpp + CLASS_4_E8F4610EF0D87EE0_6_METHOD_4_416B12CFEB291691_OFFSET))(a1);
 	}
 };

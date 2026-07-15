@@ -5,7 +5,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int PowerChangeUiData_TypeDefinitionIndex = 70302;
+	inline static constexpr unsigned int PowerChangeUiData_TypeDefinitionIndex = 71825;
 
 	struct alignas(8) PowerChangeUiData
 	{

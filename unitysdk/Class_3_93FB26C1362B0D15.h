@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCharacterStealthState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_93FB26C1362B0D15_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15448920)
-#define CLASS_3_93FB26C1362B0D15__CTOR_OFFSET UNITYSDK_OFFSET(0x154488F0)
+#define CLASS_3_93FB26C1362B0D15_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14674E80)
+#define CLASS_3_93FB26C1362B0D15__CTOR_OFFSET UNITYSDK_OFFSET(0x14674E50)
 
-inline static constexpr unsigned int Class_3_93FB26C1362B0D15_TypeDefinitionIndex = 49746;
+inline static constexpr unsigned int Class_3_93FB26C1362B0D15_TypeDefinitionIndex = 50800;
 
 class Class_3_93FB26C1362B0D15 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterStealthState*>
 {

@@ -6,11 +6,11 @@
 
 namespace RPG::Client { class TimeSpaceCrisscrossDebugBehavior; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSDEBUGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1642A270)
+#define RPG_CLIENT_TIMESPACECRISSCROSSDEBUGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD6B96F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossDebugMonoPlugin_TypeDefinitionIndex = 65640;
+	inline static constexpr unsigned int TimeSpaceCrisscrossDebugMonoPlugin_TypeDefinitionIndex = 67057;
 
 	class TimeSpaceCrisscrossDebugMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TimeSpaceCrisscrossDebugBehavior*>
 	{

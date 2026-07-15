@@ -8,13 +8,12 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F6D921FAC2989366_1_METHOD_1_7EA8BB1E68CEF446_OFFSET UNITYSDK_OFFSET(0x14AC4E10)
-#define CLASS_1_F6D921FAC2989366_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14AC4CE0)
-#define CLASS_1_F6D921FAC2989366_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x14AC4D70)
-#define CLASS_1_F6D921FAC2989366_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14AC4C60)
-#define CLASS_1_F6D921FAC2989366_1___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14AC4F10)
+#define CLASS_1_F6D921FAC2989366_1_METHOD_1_7EA8BB1E68CEF446_OFFSET UNITYSDK_OFFSET(0x154F2880)
+#define CLASS_1_F6D921FAC2989366_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x154F2750)
+#define CLASS_1_F6D921FAC2989366_1_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x154F27E0)
+#define CLASS_1_F6D921FAC2989366_1__CTOR_OFFSET UNITYSDK_OFFSET(0x154F26D0)
 
-inline static constexpr unsigned int Class_1_F6D921FAC2989366_1_TypeDefinitionIndex = 62622;
+inline static constexpr unsigned int Class_1_F6D921FAC2989366_1_TypeDefinitionIndex = 63989;
 
 class Class_1_F6D921FAC2989366_1 : public ::System::Object
 {
@@ -39,10 +38,5 @@ public:
 	::System::Collections::Generic::IList_1<::RPG::Client::RogueBuffData*>* Method_1_7EA8BB1E68CEF446()
 	{
 		return ((::System::Collections::Generic::IList_1<::RPG::Client::RogueBuffData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F6D921FAC2989366_1_METHOD_1_7EA8BB1E68CEF446_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F6D921FAC2989366_1___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

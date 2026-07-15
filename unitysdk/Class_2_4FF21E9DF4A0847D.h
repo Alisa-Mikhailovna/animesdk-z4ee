@@ -13,47 +13,47 @@ class Class_3_CD04D3296DF4C842_3;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class GameObject; }
-template <typename T> class Class_1_463D937AB9C3D339;
+template <typename T> class Class_1_2E4F8309DC17256A;
 
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_1E177F3649666696_OFFSET UNITYSDK_OFFSET(0x15DE91B0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_21006967C36DBF40_OFFSET UNITYSDK_OFFSET(0x15DE9B50)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_21B34F764C8BD391_OFFSET UNITYSDK_OFFSET(0x15DE99D0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x15DEA800)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_4D851AEC7175AA9E_OFFSET UNITYSDK_OFFSET(0x15DEA770)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_574A09DA8A3AFF53_OFFSET UNITYSDK_OFFSET(0x15DE98C0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_59D8B43CCE79F27D_OFFSET UNITYSDK_OFFSET(0x15DE9230)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_65DCE21F154236CC_OFFSET UNITYSDK_OFFSET(0x15DE8F40)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_683CCBEDFDA370EF_OFFSET UNITYSDK_OFFSET(0x15DE92C0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_91474EDB15D97CE9_OFFSET UNITYSDK_OFFSET(0x15DE9410)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x15DE97B0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_BFBBE8A6FE167A6A_OFFSET UNITYSDK_OFFSET(0x15DE8EC0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_C712DA9DE6D47EDC_OFFSET UNITYSDK_OFFSET(0x15DE94C0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x15DE9990)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15DE9930)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x15DEA720)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x15DE98D0)
-#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_F7BA13C72A6B3F58_OFFSET UNITYSDK_OFFSET(0x15DE95F0)
-#define CLASS_2_4FF21E9DF4A0847D__CCTOR_OFFSET UNITYSDK_OFFSET(0x15DEA850)
-#define CLASS_2_4FF21E9DF4A0847D__CTOR_OFFSET UNITYSDK_OFFSET(0x15DE9120)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_1E177F3649666696_OFFSET UNITYSDK_OFFSET(0x1531E0E0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_21006967C36DBF40_OFFSET UNITYSDK_OFFSET(0x1531EA60)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x1531F730)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_4D851AEC7175AA9E_OFFSET UNITYSDK_OFFSET(0x1531F6A0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_574A09DA8A3AFF53_OFFSET UNITYSDK_OFFSET(0x1531E7E0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_59D8B43CCE79F27D_OFFSET UNITYSDK_OFFSET(0x1531E160)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_65DCE21F154236CC_OFFSET UNITYSDK_OFFSET(0x1531DE70)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_683CCBEDFDA370EF_OFFSET UNITYSDK_OFFSET(0x1531E1F0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_91474EDB15D97CE9_OFFSET UNITYSDK_OFFSET(0x1531E330)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x1531E6D0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_BFBBE8A6FE167A6A_OFFSET UNITYSDK_OFFSET(0x1531DDF0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_C712DA9DE6D47EDC_OFFSET UNITYSDK_OFFSET(0x1531E3E0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x1531E8B0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1531E850)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_E9A575D18A0748D9_OFFSET UNITYSDK_OFFSET(0x1531F650)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x1531E7F0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_F2C8A9D880BBBF6E_OFFSET UNITYSDK_OFFSET(0x1531E8F0)
+#define CLASS_2_4FF21E9DF4A0847D_METHOD_2_F7BA13C72A6B3F58_OFFSET UNITYSDK_OFFSET(0x1531E510)
+#define CLASS_2_4FF21E9DF4A0847D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1531F780)
+#define CLASS_2_4FF21E9DF4A0847D__CTOR_OFFSET UNITYSDK_OFFSET(0x1531E050)
 
-inline static constexpr unsigned int Class_2_4FF21E9DF4A0847D_TypeDefinitionIndex = 46303;
+inline static constexpr unsigned int Class_2_4FF21E9DF4A0847D_TypeDefinitionIndex = 47268;
 
 class Class_2_4FF21E9DF4A0847D : public ::Class_1_DC0A8D11AB967235
 {
 public:
 	static ::System::Collections::Generic::Queue_1<::Class_2_4FF21E9DF4A0847D*>** StaticGet_Field_2_0()
 	{
-		return (::System::Collections::Generic::Queue_1<::Class_2_4FF21E9DF4A0847D*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4FF21E9DF4A0847D_TypeDefinitionIndex)->GetStaticField(0x28E90);
+		return (::System::Collections::Generic::Queue_1<::Class_2_4FF21E9DF4A0847D*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4FF21E9DF4A0847D_TypeDefinitionIndex)->GetStaticField(0x24E50);
 	}
-	::Class_3_CD04D3296DF4C842_3* Field_2_1; // 0x38
-	::Class_1_E3144EBBA3CB68CA_Class_3_50D343C44D28BEFB_1* Field_2_2; // 0x40
-	::System::String* Field_2_3; // 0x48
-	::Class_1_463D937AB9C3D339<::System::Int32>* Field_2_4; // 0x50
-	::UnityEngine::GameObject* Field_2_5; // 0x58
-	::System::Collections::Generic::HashSet_1_Enumerator<::System::Int32> Field_2_6; // 0x60
+	::System::Collections::Generic::HashSet_1_Enumerator<::System::Int32> Field_2_1; // 0x38
+	::Class_3_CD04D3296DF4C842_3* Field_2_2; // 0x50
+	::Class_1_E3144EBBA3CB68CA_Class_3_50D343C44D28BEFB_1* Field_2_3; // 0x58
+	::System::String* Field_2_4; // 0x60
+	::UnityEngine::GameObject* Field_2_5; // 0x68
+	::Class_1_2E4F8309DC17256A<::System::Int32>* Field_2_6; // 0x70
 	::ScenenLightManager::LightOp Field_2_7; // 0x78
-	::System::Boolean Field_2_8; // 0x7C
-	::System::Int32 Field_2_9; // 0x80
+	::System::Int32 Field_2_8; // 0x7C
+	::System::Boolean Field_2_9; // 0x80
 	::System::Int32 Field_2_10; // 0x84
 
 	::System::Void _ctor()
@@ -81,24 +81,24 @@ public:
 		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_3_CD04D3296DF4C842_3*))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_1E177F3649666696_OFFSET))(a1);
 	}
 
-	static ::Class_2_4FF21E9DF4A0847D* Method_2_59D8B43CCE79F27D(::Class_1_463D937AB9C3D339<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Boolean a3, ::System::Boolean a4)
+	static ::Class_2_4FF21E9DF4A0847D* Method_2_59D8B43CCE79F27D(::Class_1_2E4F8309DC17256A<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Boolean a3, ::System::Boolean a4)
 	{
-		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_463D937AB9C3D339<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_59D8B43CCE79F27D_OFFSET))(a1, a2, a3, a4);
+		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_2E4F8309DC17256A<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_59D8B43CCE79F27D_OFFSET))(a1, a2, a3, a4);
 	}
 
-	static ::Class_2_4FF21E9DF4A0847D* Method_2_91474EDB15D97CE9(::Class_1_463D937AB9C3D339<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Int32 a3, ::UnityEngine::GameObject* a4, ::System::Boolean a5, ::System::Boolean a6)
+	static ::Class_2_4FF21E9DF4A0847D* Method_2_91474EDB15D97CE9(::Class_1_2E4F8309DC17256A<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Int32 a3, ::UnityEngine::GameObject* a4, ::System::Boolean a5, ::System::Boolean a6)
 	{
-		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_463D937AB9C3D339<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Int32, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_91474EDB15D97CE9_OFFSET))(a1, a2, a3, a4, a5, a6);
+		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_2E4F8309DC17256A<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Int32, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_91474EDB15D97CE9_OFFSET))(a1, a2, a3, a4, a5, a6);
 	}
 
-	static ::Class_2_4FF21E9DF4A0847D* Method_2_683CCBEDFDA370EF(::Class_1_463D937AB9C3D339<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Int32 a3, ::UnityEngine::GameObject* a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Boolean a7)
+	static ::Class_2_4FF21E9DF4A0847D* Method_2_683CCBEDFDA370EF(::Class_1_2E4F8309DC17256A<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Int32 a3, ::UnityEngine::GameObject* a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Boolean a7)
 	{
-		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_463D937AB9C3D339<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_683CCBEDFDA370EF_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_2E4F8309DC17256A<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_683CCBEDFDA370EF_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 	}
 
-	static ::Class_2_4FF21E9DF4A0847D* Method_2_C712DA9DE6D47EDC(::Class_1_463D937AB9C3D339<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Int32 a3, ::UnityEngine::GameObject* a4, ::System::Int32 a5, ::UnityEngine::Vector4 a6, ::System::Boolean a7, ::System::Boolean a8)
+	static ::Class_2_4FF21E9DF4A0847D* Method_2_C712DA9DE6D47EDC(::Class_1_2E4F8309DC17256A<::System::Int32>* a1, ::ScenenLightManager::LightOp a2, ::System::Int32 a3, ::UnityEngine::GameObject* a4, ::System::Int32 a5, ::UnityEngine::Vector4 a6, ::System::Boolean a7, ::System::Boolean a8)
 	{
-		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_463D937AB9C3D339<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32, ::UnityEngine::Vector4, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_C712DA9DE6D47EDC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+		return ((::Class_2_4FF21E9DF4A0847D*(*)(::Class_1_2E4F8309DC17256A<::System::Int32>*, ::ScenenLightManager::LightOp, ::System::Int32, ::UnityEngine::GameObject*, ::System::Int32, ::UnityEngine::Vector4, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_C712DA9DE6D47EDC_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 	}
 
 	::System::Void Method_2_F7BA13C72A6B3F58()
@@ -131,9 +131,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_21B34F764C8BD391()
+	::System::Boolean Method_2_F2C8A9D880BBBF6E()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_21B34F764C8BD391_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4FF21E9DF4A0847D_METHOD_2_F2C8A9D880BBBF6E_OFFSET))(this);
 	}
 
 	::ScenenLightManager::AfterExecOperation Method_2_21006967C36DBF40(::Class_1_E3144EBBA3CB68CA* a1)

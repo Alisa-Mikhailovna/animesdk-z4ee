@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWITCHCLIENTRAIDMAP_METHOD_3_5B4DCFE82AAB3B2D_OFFSET UNITYSDK_OFFSET(0x1985C9B0)
-#define RPG_GAMECORE_SWITCHCLIENTRAIDMAP_METHOD_3_6E9F99E215D95926_OFFSET UNITYSDK_OFFSET(0x1985C930)
-#define RPG_GAMECORE_SWITCHCLIENTRAIDMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1985C980)
+#define RPG_GAMECORE_SWITCHCLIENTRAIDMAP_METHOD_3_5B4DCFE82AAB3B2D_OFFSET UNITYSDK_OFFSET(0x1B92D530)
+#define RPG_GAMECORE_SWITCHCLIENTRAIDMAP_METHOD_3_A73869FA995ABB94_OFFSET UNITYSDK_OFFSET(0x1B92D4E0)
+#define RPG_GAMECORE_SWITCHCLIENTRAIDMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92D520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchClientRaidMap_TypeDefinitionIndex = 20354;
+	inline static constexpr unsigned int SwitchClientRaidMap_TypeDefinitionIndex = 20769;
 
 	class SwitchClientRaidMap : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCLIENTRAIDMAP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6E9F99E215D95926(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchClientRaidMap*& a2)
+		static ::System::Void Method_3_A73869FA995ABB94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchClientRaidMap*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchClientRaidMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCLIENTRAIDMAP_METHOD_3_6E9F99E215D95926_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchClientRaidMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCLIENTRAIDMAP_METHOD_3_A73869FA995ABB94_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5B4DCFE82AAB3B2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchClientRaidMap* a2)

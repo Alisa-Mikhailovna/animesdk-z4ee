@@ -7,12 +7,12 @@ namespace RPG::Client { class MuseumModule; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18742770)
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS24_0___REFRESHPHASEUNLOCKMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1874CAE0)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF7480)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS24_0___REFRESHPHASEUNLOCKMISSIONDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCE02990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumModule___c__DisplayClass24_0_TypeDefinitionIndex = 62028;
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass24_0_TypeDefinitionIndex = 63393;
 
 	class MuseumModule___c__DisplayClass24_0 : public ::System::Object
 	{

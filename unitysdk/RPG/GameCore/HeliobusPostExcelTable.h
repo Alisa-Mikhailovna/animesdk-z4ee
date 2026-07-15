@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19ABC280)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19ABC150)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19ABBE40)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19ABC0F0)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19ABC3D0)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19ABBEC0)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19ABC410)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ABC5E0)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19ABCC50)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19ABCF70)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19ABC540)
-#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19ABC4A0)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B50C040)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B50BF10)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B50BC00)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B50BEB0)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B50C190)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B50BC80)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B50C1D0)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B50C3A0)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B50CA10)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B50CD30)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B50C300)
+#define RPG_GAMECORE_HELIOBUSPOSTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B50C260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusPostExcelTable_TypeDefinitionIndex = 13098;
+	inline static constexpr unsigned int HeliobusPostExcelTable_TypeDefinitionIndex = 13246;
 
 	class HeliobusPostExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CEF0);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x25030);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CEF8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HeliobusPostRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HeliobusPostRow*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x25038);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x25040);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::HeliobusPostRow*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x3CF00);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x9350);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0xA140);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0x9351);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HeliobusPostExcelTable_TypeDefinitionIndex)->GetStaticField(0xA141);
 		}
 
 		static ::System::Void _cctor()

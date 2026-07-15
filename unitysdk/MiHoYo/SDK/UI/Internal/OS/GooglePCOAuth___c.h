@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI::Internal::OS { class GooglePCOAuth; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E2FAD0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2FB10)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__SHOW_B__29_0_OFFSET UNITYSDK_OFFSET(0x19E2FB20)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E3B790)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3B7D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH___C__SHOW_B__29_0_OFFSET UNITYSDK_OFFSET(0x19E3B7E0)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int GooglePCOAuth___c_TypeDefinitionIndex = 8356;
+	inline static constexpr unsigned int GooglePCOAuth___c_TypeDefinitionIndex = 8368;
 
 	class GooglePCOAuth___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>** StaticGet___9__29_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0x239D0);
-		}
 		static ::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth___c**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0x239D8);
+			return (::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth___c**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0x2AD90);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>** StaticGet___9__29_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth*>**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth___c_TypeDefinitionIndex)->GetStaticField(0x2AD98);
 		}
 
 		static ::System::Void _cctor()

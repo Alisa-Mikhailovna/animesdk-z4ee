@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BOOKLETLUAPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x182C5F30)
+#define RPG_CLIENT_BOOKLETLUAPANELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xBEC38C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletLuaPanelParam_TypeDefinitionIndex = 67634;
+	inline static constexpr unsigned int BookletLuaPanelParam_TypeDefinitionIndex = 69118;
 
 	class BookletLuaPanelParam : public ::System::Object
 	{
 	public:
-		::System::String* PanelClassPath; // 0x10
-		::UnityEngine::Transform* Root; // 0x18
-		::System::String* BinderClassPath; // 0x20
+		::System::String* BinderClassPath; // 0x10
+		::System::String* PanelClassPath; // 0x18
+		::UnityEngine::Transform* Root; // 0x20
 		::System::UInt32 ID; // 0x28
 
 		::System::Void _ctor()

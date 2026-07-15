@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PUNKLORDRARECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A9BC00)
-#define RPG_GAMECORE_PUNKLORDRARECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9BD80)
+#define RPG_GAMECORE_PUNKLORDRARECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6F5450)
+#define RPG_GAMECORE_PUNKLORDRARECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F55D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordRareConfigRow_TypeDefinitionIndex = 11731;
+	inline static constexpr unsigned int PunkLordRareConfigRow_TypeDefinitionIndex = 11831;
 
 	class PunkLordRareConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PunkLordMonsterRare MonsterRare; // 0x10
-		::RPG::GameCore::PunkLordGroupType GroupType; // 0x14
-		::System::UInt32 Weight; // 0x18
+		::System::UInt32 Weight; // 0x10
+		::RPG::GameCore::PunkLordMonsterRare MonsterRare; // 0x14
+		::RPG::GameCore::PunkLordGroupType GroupType; // 0x18
 
 		::System::Void _ctor()
 		{

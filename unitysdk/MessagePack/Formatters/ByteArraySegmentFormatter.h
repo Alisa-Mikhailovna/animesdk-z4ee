@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FF47A0)
-#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FF4700)
-#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FF4870)
-#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF46F0)
+#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE1D70)
+#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE1CD0)
+#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AE1E40)
+#define MESSAGEPACK_FORMATTERS_BYTEARRAYSEGMENTFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE1CC0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ByteArraySegmentFormatter_TypeDefinitionIndex = 7330;
+	inline static constexpr unsigned int ByteArraySegmentFormatter_TypeDefinitionIndex = 7336;
 
 	class ByteArraySegmentFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::ByteArraySegmentFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::ByteArraySegmentFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteArraySegmentFormatter_TypeDefinitionIndex)->GetStaticField(0x82B0);
+			return (::MessagePack::Formatters::ByteArraySegmentFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteArraySegmentFormatter_TypeDefinitionIndex)->GetStaticField(0xAF00);
 		}
 
 		::System::Void _ctor()

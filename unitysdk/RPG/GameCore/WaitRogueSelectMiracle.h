@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITROGUESELECTMIRACLE_METHOD_3_577888128C9BDBD3_OFFSET UNITYSDK_OFFSET(0x1B3214E0)
-#define RPG_GAMECORE_WAITROGUESELECTMIRACLE_METHOD_3_D157F91051DB9083_OFFSET UNITYSDK_OFFSET(0x1B321570)
-#define RPG_GAMECORE_WAITROGUESELECTMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B321540)
+#define RPG_GAMECORE_WAITROGUESELECTMIRACLE_METHOD_3_11A19154C24B677F_OFFSET UNITYSDK_OFFSET(0x1B9EE3E0)
+#define RPG_GAMECORE_WAITROGUESELECTMIRACLE_METHOD_3_D157F91051DB9083_OFFSET UNITYSDK_OFFSET(0x1B9EE430)
+#define RPG_GAMECORE_WAITROGUESELECTMIRACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9EE420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitRogueSelectMiracle_TypeDefinitionIndex = 19347;
+	inline static constexpr unsigned int WaitRogueSelectMiracle_TypeDefinitionIndex = 19703;
 
 	class WaitRogueSelectMiracle : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUESELECTMIRACLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_577888128C9BDBD3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueSelectMiracle*& a2)
+		static ::System::Void Method_3_11A19154C24B677F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueSelectMiracle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueSelectMiracle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUESELECTMIRACLE_METHOD_3_577888128C9BDBD3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueSelectMiracle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUESELECTMIRACLE_METHOD_3_11A19154C24B677F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D157F91051DB9083(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueSelectMiracle* a2)

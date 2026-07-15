@@ -6,20 +6,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCheckpointRecover; }
 namespace System { class Object; }
 
-#define CLASS_2_85B6D33D8FEC6115_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1515C5B0)
-#define CLASS_2_85B6D33D8FEC6115_METHOD_2_015EED32BD477392_OFFSET UNITYSDK_OFFSET(0x1515C6D0)
-#define CLASS_2_85B6D33D8FEC6115_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1515C650)
-#define CLASS_2_85B6D33D8FEC6115_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1515C810)
-#define CLASS_2_85B6D33D8FEC6115_TICK_OFFSET UNITYSDK_OFFSET(0x1515C5F0)
-#define CLASS_2_85B6D33D8FEC6115__CTOR_OFFSET UNITYSDK_OFFSET(0x1515C5A0)
+#define CLASS_2_85B6D33D8FEC6115_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB66EA60)
+#define CLASS_2_85B6D33D8FEC6115_METHOD_2_FC27F62E1756DC9B_OFFSET UNITYSDK_OFFSET(0xB66EB80)
+#define CLASS_2_85B6D33D8FEC6115_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB66EB00)
+#define CLASS_2_85B6D33D8FEC6115_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB66ECC0)
+#define CLASS_2_85B6D33D8FEC6115_TICK_OFFSET UNITYSDK_OFFSET(0xB66EAA0)
+#define CLASS_2_85B6D33D8FEC6115__CTOR_OFFSET UNITYSDK_OFFSET(0xB66EA50)
 
-inline static constexpr unsigned int Class_2_85B6D33D8FEC6115_TypeDefinitionIndex = 54912;
+inline static constexpr unsigned int Class_2_85B6D33D8FEC6115_TypeDefinitionIndex = 56144;
 
 class Class_2_85B6D33D8FEC6115 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TriggerCheckpointRecover* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::TriggerCheckpointRecover* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerCheckpointRecover* a2)
 	{
@@ -41,9 +41,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_85B6D33D8FEC6115_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_2_015EED32BD477392(::System::Object* a1)
+	::System::Void Method_2_FC27F62E1756DC9B(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_85B6D33D8FEC6115_METHOD_2_015EED32BD477392_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_85B6D33D8FEC6115_METHOD_2_FC27F62E1756DC9B_OFFSET))(this, a1);
 	}
 
 	::System::Void OnTaskReset()

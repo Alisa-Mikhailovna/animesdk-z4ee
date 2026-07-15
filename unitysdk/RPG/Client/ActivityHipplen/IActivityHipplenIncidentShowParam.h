@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int IActivityHipplenIncidentShowParam_TypeDefinitionIndex = 70427;
+	inline static constexpr unsigned int IActivityHipplenIncidentShowParam_TypeDefinitionIndex = 71950;
 
 	class IActivityHipplenIncidentShowParam
 	{

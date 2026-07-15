@@ -16,21 +16,21 @@ namespace EnviromentSystemV2Space { class LayoutVector4PropertyData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_B247C6D88E785B91_OFFSET UNITYSDK_OFFSET(0x139189D0)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_D760CBAEA5983162_OFFSET UNITYSDK_OFFSET(0x13918C30)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1391A010)
-#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x13919EA0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_B247C6D88E785B91_OFFSET UNITYSDK_OFFSET(0x14519220)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE_METHOD_3_D760CBAEA5983162_OFFSET UNITYSDK_OFFSET(0x14519480)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1451A860)
+#define ENVIROMENTSYSTEMV2SPACE_ENVDYNAMICPROPLAYOUTPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1451A6F0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 46558;
+	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 47523;
 
 	class EnvDynamicPropLayoutProfile : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>** StaticGet__tempList()
 		{
-			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)Il2CppClass::FromTypeDefinitionIndex(EnvDynamicPropLayoutProfile_TypeDefinitionIndex)->GetStaticField(0x442F0);
+			return (::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutPropertyDataBase*>**)Il2CppClass::FromTypeDefinitionIndex(EnvDynamicPropLayoutProfile_TypeDefinitionIndex)->GetStaticField(0x38CC0);
 		}
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutIntPropertyData*>* intPropertyDatas; // 0x18
 		::System::Collections::Generic::List_1<::EnviromentSystemV2Space::LayoutFloatPropertyData*>* floatPropertyDatas; // 0x20

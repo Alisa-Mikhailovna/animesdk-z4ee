@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_CASESENSITIVESTRINGDICTIONARY_ADD_OFFSET UNITYSDK_OFFSET(0x18E8F9C0)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_CASESENSITIVESTRINGDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8F900)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_CASESENSITIVESTRINGDICTIONARY_ADD_OFFSET UNITYSDK_OFFSET(0x1CC60850)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_CASESENSITIVESTRINGDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC60790)
 
 namespace System::Collections::Specialized
 {
-	inline static constexpr unsigned int CaseSensitiveStringDictionary_TypeDefinitionIndex = 2975;
+	inline static constexpr unsigned int CaseSensitiveStringDictionary_TypeDefinitionIndex = 2979;
 
 	class CaseSensitiveStringDictionary : public ::System::Collections::Specialized::StringDictionary
 	{

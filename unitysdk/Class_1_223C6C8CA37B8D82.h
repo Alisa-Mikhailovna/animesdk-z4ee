@@ -4,23 +4,23 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_223C6C8CA37B8D82_METHOD_1_1F3CF16FCA0EE777_OFFSET UNITYSDK_OFFSET(0x135A0C80)
-#define CLASS_1_223C6C8CA37B8D82_METHOD_1_453CC46056EAF924_OFFSET UNITYSDK_OFFSET(0x135A08F0)
-#define CLASS_1_223C6C8CA37B8D82_METHOD_1_F1CB09DE05971972_OFFSET UNITYSDK_OFFSET(0x135A07F0)
-#define CLASS_1_223C6C8CA37B8D82__CCTOR_OFFSET UNITYSDK_OFFSET(0x135A1110)
+#define CLASS_1_223C6C8CA37B8D82_METHOD_1_1F3CF16FCA0EE777_OFFSET UNITYSDK_OFFSET(0x1BA7AC40)
+#define CLASS_1_223C6C8CA37B8D82_METHOD_1_453CC46056EAF924_OFFSET UNITYSDK_OFFSET(0x1BA7A8B0)
+#define CLASS_1_223C6C8CA37B8D82_METHOD_1_F1CB09DE05971972_OFFSET UNITYSDK_OFFSET(0x1BA7A7B0)
+#define CLASS_1_223C6C8CA37B8D82__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA7B0D0)
 
-inline static constexpr unsigned int Class_1_223C6C8CA37B8D82_TypeDefinitionIndex = 6644;
+inline static constexpr unsigned int Class_1_223C6C8CA37B8D82_TypeDefinitionIndex = 6649;
 
 class Class_1_223C6C8CA37B8D82 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::Single>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x4850);
+		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x3100);
 	}
 	static ::Il2CppArray<::System::Single>** StaticGet_Field_1_1()
 	{
-		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x4858);
+		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_223C6C8CA37B8D82_TypeDefinitionIndex)->GetStaticField(0x3108);
 	}
 	// static const ::System::Int32 Field_1_2 = 0x5; // 0x0
 

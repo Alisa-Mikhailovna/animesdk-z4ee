@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SkillDataPropertyModifyItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT_METHOD_3_7AE2F18BE876FE89_OFFSET UNITYSDK_OFFSET(0x196B0660)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT_METHOD_3_98CD216EA66114D1_OFFSET UNITYSDK_OFFSET(0x196B0590)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x196B0610)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT_METHOD_3_288A74FE15143C3A_OFFSET UNITYSDK_OFFSET(0x1B612550)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT_METHOD_3_7AE2F18BE876FE89_OFFSET UNITYSDK_OFFSET(0x1B6125F0)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6125B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySkillPropertyBySlot_TypeDefinitionIndex = 22273;
+	inline static constexpr unsigned int ModifySkillPropertyBySlot_TypeDefinitionIndex = 22714;
 
 	class ModifySkillPropertyBySlot : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_98CD216EA66114D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyBySlot*& a2)
+		static ::System::Void Method_3_288A74FE15143C3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyBySlot*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyBySlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT_METHOD_3_98CD216EA66114D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyBySlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYSLOT_METHOD_3_288A74FE15143C3A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7AE2F18BE876FE89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyBySlot* a2)

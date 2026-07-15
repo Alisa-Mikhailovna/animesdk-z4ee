@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DRINKMAKERLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A0ABEC0)
-#define RPG_GAMECORE_DRINKMAKERLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0ABFD0)
+#define RPG_GAMECORE_DRINKMAKERLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3C63E0)
+#define RPG_GAMECORE_DRINKMAKERLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C64F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerLayerRow_TypeDefinitionIndex = 12534;
+	inline static constexpr unsigned int DrinkMakerLayerRow_TypeDefinitionIndex = 12671;
 
 	class DrinkMakerLayerRow : public ::System::Object
 	{

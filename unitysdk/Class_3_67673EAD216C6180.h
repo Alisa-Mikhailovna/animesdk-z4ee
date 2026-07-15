@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowExpandElationItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_67673EAD216C6180_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14644180)
-#define CLASS_3_67673EAD216C6180__CTOR_OFFSET UNITYSDK_OFFSET(0x14644150)
+#define CLASS_3_67673EAD216C6180_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB50E1C0)
+#define CLASS_3_67673EAD216C6180__CTOR_OFFSET UNITYSDK_OFFSET(0xB50E190)
 
-inline static constexpr unsigned int Class_3_67673EAD216C6180_TypeDefinitionIndex = 52709;
+inline static constexpr unsigned int Class_3_67673EAD216C6180_TypeDefinitionIndex = 53919;
 
 class Class_3_67673EAD216C6180 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowExpandElationItem*>
 {

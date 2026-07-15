@@ -7,19 +7,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CREATEMMT_B__0_OFFSET UNITYSDK_OFFSET(0x18671ED0)
-#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186717E0)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CREATEMMT_B__0_OFFSET UNITYSDK_OFFSET(0x19D47140)
+#define MIHOYO_SDK_MMTMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D469E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MmtManager___c__DisplayClass13_0_TypeDefinitionIndex = 7980;
+	inline static constexpr unsigned int MmtManager___c__DisplayClass13_0_TypeDefinitionIndex = 7990;
 
 	class MmtManager___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::String* actionType; // 0x10
-		::System::Action_2<::System::Int32, ::System::String*>* callback; // 0x18
-		::MiHoYo::SDK::MmtManager* __4__this; // 0x20
+		::System::Action_2<::System::Int32, ::System::String*>* callback; // 0x10
+		::MiHoYo::SDK::MmtManager* __4__this; // 0x18
+		::System::String* actionType; // 0x20
 
 		::System::Void _ctor()
 		{

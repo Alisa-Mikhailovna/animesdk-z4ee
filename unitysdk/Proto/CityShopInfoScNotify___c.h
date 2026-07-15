@@ -4,20 +4,20 @@
 
 namespace Proto { class CityShopInfoScNotify; }
 
-#define PROTO_CITYSHOPINFOSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A43B920)
-#define PROTO_CITYSHOPINFOSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A43B960)
-#define PROTO_CITYSHOPINFOSCNOTIFY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1A43B970)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC64200)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC64240)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1BC64250)
 
 namespace Proto
 {
-	inline static constexpr unsigned int CityShopInfoScNotify___c_TypeDefinitionIndex = 32405;
+	inline static constexpr unsigned int CityShopInfoScNotify___c_TypeDefinitionIndex = 32781;
 
 	class CityShopInfoScNotify___c : public ::System::Object
 	{
 	public:
 		static ::Proto::CityShopInfoScNotify___c** StaticGet___9()
 		{
-			return (::Proto::CityShopInfoScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(CityShopInfoScNotify___c_TypeDefinitionIndex)->GetStaticField(0x3C110);
+			return (::Proto::CityShopInfoScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(CityShopInfoScNotify___c_TypeDefinitionIndex)->GetStaticField(0x3C200);
 		}
 
 		static ::System::Void _cctor()

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelNPCStillConfigData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELNPCSTILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E71850)
-#define RPG_GAMECORE_LEVELNPCSTILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E71930)
+#define RPG_GAMECORE_LEVELNPCSTILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B562310)
+#define RPG_GAMECORE_LEVELNPCSTILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5623F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCStillConfig_TypeDefinitionIndex = 16419;
+	inline static constexpr unsigned int LevelNPCStillConfig_TypeDefinitionIndex = 16581;
 
 	class LevelNPCStillConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_F9FBCC956DFCF137_1.h"
 
-class Class_1_5816B66AC6910205;
+class Class_1_EFDEDB2BC2764B7D;
 namespace RPG::GameCore { class MarbleAbsorbTeammates; }
 
-#define CLASS_2_2E92E10FABEF47D0_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1983EBC0)
-#define CLASS_2_2E92E10FABEF47D0_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1983EC40)
-#define CLASS_2_2E92E10FABEF47D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1983EBB0)
+#define CLASS_2_2E92E10FABEF47D0_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1A9DFA60)
+#define CLASS_2_2E92E10FABEF47D0_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1A9DFAE0)
+#define CLASS_2_2E92E10FABEF47D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9DFA50)
 
-inline static constexpr unsigned int Class_2_2E92E10FABEF47D0_TypeDefinitionIndex = 39733;
+inline static constexpr unsigned int Class_2_2E92E10FABEF47D0_TypeDefinitionIndex = 40542;
 
 class Class_2_2E92E10FABEF47D0 : public ::Class_1_F9FBCC956DFCF137_1
 {
 public:
 	::RPG::GameCore::MarbleAbsorbTeammates* Field_2_0; // 0x18
 
-	::System::Void _ctor(::RPG::GameCore::MarbleAbsorbTeammates* a1, ::Class_1_5816B66AC6910205* a2)
+	::System::Void _ctor(::RPG::GameCore::MarbleAbsorbTeammates* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleAbsorbTeammates*, ::Class_1_5816B66AC6910205*))((::PBYTE)hIl2Cpp + CLASS_2_2E92E10FABEF47D0__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleAbsorbTeammates*, ::Class_1_EFDEDB2BC2764B7D*))((::PBYTE)hIl2Cpp + CLASS_2_2E92E10FABEF47D0__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Method_2_A3FAE12D7B6ACD62()

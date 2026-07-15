@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddActivityMazeBuffBinding; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6A05564F3B595E28_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13C3B720)
-#define CLASS_3_6A05564F3B595E28__CTOR_OFFSET UNITYSDK_OFFSET(0x13C3B6F0)
+#define CLASS_3_6A05564F3B595E28_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155E6EE0)
+#define CLASS_3_6A05564F3B595E28__CTOR_OFFSET UNITYSDK_OFFSET(0x155E6EB0)
 
-inline static constexpr unsigned int Class_3_6A05564F3B595E28_TypeDefinitionIndex = 51235;
+inline static constexpr unsigned int Class_3_6A05564F3B595E28_TypeDefinitionIndex = 52327;
 
 class Class_3_6A05564F3B595E28 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddActivityMazeBuffBinding*>
 {

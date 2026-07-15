@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA_METHOD_3_0C717D1873635530_OFFSET UNITYSDK_OFFSET(0x19D0A1A0)
-#define RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA_METHOD_3_338AF0F3B50C3AAD_OFFSET UNITYSDK_OFFSET(0x19D0A050)
-#define RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D0A110)
+#define RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA_METHOD_3_0C717D1873635530_OFFSET UNITYSDK_OFFSET(0x1B67EDD0)
+#define RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA_METHOD_3_5882EE9EC9BE0046_OFFSET UNITYSDK_OFFSET(0x1B67ED50)
+#define RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67EDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpticalIllusionSwitchCamera_TypeDefinitionIndex = 21000;
+	inline static constexpr unsigned int OpticalIllusionSwitchCamera_TypeDefinitionIndex = 21415;
 
 	class OpticalIllusionSwitchCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_338AF0F3B50C3AAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionSwitchCamera*& a2)
+		static ::System::Void Method_3_5882EE9EC9BE0046(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionSwitchCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionSwitchCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA_METHOD_3_338AF0F3B50C3AAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionSwitchCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSWITCHCAMERA_METHOD_3_5882EE9EC9BE0046_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0C717D1873635530(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionSwitchCamera* a2)

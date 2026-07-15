@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-class Class_3_053C1CB69E9A09EB;
+class Class_3_E572CFD9F39A06D6;
 namespace System { class String; }
 
-#define WATERINTERACTOR_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE291320)
-#define WATERINTERACTOR_TRIGGERWAVE_OFFSET UNITYSDK_OFFSET(0xE2912C0)
-#define WATERINTERACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE291370)
-#define WATERINTERACTOR___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE2913A0)
+#define WATERINTERACTOR_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDDC89F0)
+#define WATERINTERACTOR_TRIGGERWAVE_OFFSET UNITYSDK_OFFSET(0xDDC8990)
+#define WATERINTERACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDDC8A40)
 
-inline static constexpr unsigned int WaterInteractor_TypeDefinitionIndex = 44777;
+inline static constexpr unsigned int WaterInteractor_TypeDefinitionIndex = 45694;
 
-class WaterInteractor : public ::RPG::Client::TAMonoPlugin_1<::Class_3_053C1CB69E9A09EB*>
+class WaterInteractor : public ::RPG::Client::TAMonoPlugin_1<::Class_3_E572CFD9F39A06D6*>
 {
 public:
 	::System::Single radius; // 0x30
@@ -36,10 +35,5 @@ public:
 	::System::String* GetTickLodTemplateName()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WATERINTERACTOR_GETTICKLODTEMPLATENAME_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WATERINTERACTOR___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 	}
 };

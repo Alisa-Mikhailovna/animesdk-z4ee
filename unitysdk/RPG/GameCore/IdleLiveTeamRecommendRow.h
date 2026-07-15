@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-class Class_1_A88C3AAF0DD46F4C_6;
+class Class_1_A88C3AAF0DD46F4C_8;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ADBE80)
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADC110)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B52B6A0)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52B930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11197;
+	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11297;
 
 	class IdleLiveTeamRecommendRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_6*>* TeamMember; // 0x10
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_8*>* TeamMember; // 0x10
 		::System::String* DisplayCondition; // 0x18
 		::RPG::Client::TextID Desc; // 0x20
 		::System::UInt32 ID; // 0x30

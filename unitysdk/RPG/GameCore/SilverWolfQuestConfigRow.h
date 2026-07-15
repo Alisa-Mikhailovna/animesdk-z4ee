@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A00EFA0)
-#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00F190)
+#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8D8670)
+#define RPG_GAMECORE_SILVERWOLFQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D8860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolfQuestConfigRow_TypeDefinitionIndex = 11778;
+	inline static constexpr unsigned int SilverWolfQuestConfigRow_TypeDefinitionIndex = 11878;
 
 	class SilverWolfQuestConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* FigurePath; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::UInt32 RaidID; // 0x20
+		::System::UInt32 QuestID; // 0x20
 		::System::UInt32 HardLevel; // 0x24
-		::System::UInt32 QuestID; // 0x28
+		::System::UInt32 RaidID; // 0x28
 
 		::System::Void _ctor()
 		{

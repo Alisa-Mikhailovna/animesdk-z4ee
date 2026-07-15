@@ -7,28 +7,28 @@ namespace System { class String; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Texture3D; }
 
-#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_0C247A24E7FC3289_OFFSET UNITYSDK_OFFSET(0x159DC9F0)
-#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x159DC910)
-#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_A3769EE9A8F58984_OFFSET UNITYSDK_OFFSET(0x159DCB70)
-#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0x159DC8B0)
-#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0x159DC840)
+#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_0C247A24E7FC3289_OFFSET UNITYSDK_OFFSET(0xADB45F0)
+#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xADB4510)
+#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_A3769EE9A8F58984_OFFSET UNITYSDK_OFFSET(0xADB4770)
+#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0xADB44B0)
+#define CLASS_1_FA4DA56C3A0BC9BB_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0xADB4440)
 
-inline static constexpr unsigned int Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex = 46202;
+inline static constexpr unsigned int Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex = 47167;
 
 class Class_1_FA4DA56C3A0BC9BB : public ::System::Object
 {
 public:
 	static ::UnityEngine::Texture3D** StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::Texture3D**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex)->GetStaticField(0x524D0);
+		return (::UnityEngine::Texture3D**)Il2CppClass::FromTypeDefinitionIndex(Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex)->GetStaticField(0x4E9A0);
 	}
 	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex)->GetStaticField(0xF5C0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex)->GetStaticField(0xDBF0);
 	}
 	static ::System::Boolean* StaticGet_Field_1_2()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex)->GetStaticField(0xF5C1);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FA4DA56C3A0BC9BB_TypeDefinitionIndex)->GetStaticField(0xDBF1);
 	}
 	// static const ::UnityEngine::HideFlags Field_1_3; // 0x0
 	// static const ::System::Int32 Field_1_4 = 0x23; // 0x0

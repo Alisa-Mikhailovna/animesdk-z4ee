@@ -9,23 +9,23 @@ namespace RPG::Client::Timeline { class ManaVideoMixerBehaviour; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPG_CLIENT_TIMELINE_MANAVIDEOMIXERBEHAVIOUR__PROCESSFRAMEONSEEKING_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x37CE1B0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOMIXERBEHAVIOUR__PROCESSFRAMEONSEEKING_D__26_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x35C9FE0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOMIXERBEHAVIOUR__PROCESSFRAMEONSEEKING_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x152AE0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOMIXERBEHAVIOUR__PROCESSFRAMEONSEEKING_D__26_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x152AF0)
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoMixerBehaviour__ProcessFrameOnSeeking_d__26_TypeDefinitionIndex = 68505;
+	inline static constexpr unsigned int ManaVideoMixerBehaviour__ProcessFrameOnSeeking_d__26_TypeDefinitionIndex = 69999;
 
 	struct alignas(8) ManaVideoMixerBehaviour__ProcessFrameOnSeeking_d__26
 	{
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
-		::UnityEngine::Timeline::TimelineClip* activeClip; // 0x30
-		::RPG::Client::Timeline::ManaVideoClip* clip; // 0x38
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x40
+		::UnityEngine::Timeline::TimelineClip* activeClip; // 0x10
+		::RPG::Client::Timeline::ManaVideoClip* clip; // 0x18
+		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x20
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x28
 		::RPG::Client::Timeline::ManaVideoMixerBehaviour* __4__this; // 0x48
 		::System::Double frameTime; // 0x50
-		::System::Boolean _movieInfoReplaced_5__2; // 0x58
-		::System::Int32 __1__state; // 0x5C
+		::System::Int32 __1__state; // 0x58
+		::System::Boolean _movieInfoReplaced_5__2; // 0x5C
 
 		::System::Void MoveNext()
 		{

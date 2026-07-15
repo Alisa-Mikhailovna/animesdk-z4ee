@@ -4,19 +4,19 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ID_OFFSET UNITYSDK_OFFSET(0x18479F80)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x18479F90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA_GET_ID_OFFSET UNITYSDK_OFFSET(0x1CB73980)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB73990)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchema_TypeDefinitionIndex = 2172;
+	inline static constexpr unsigned int XmlSchema_TypeDefinitionIndex = 2176;
 
 	class XmlSchema : public ::System::Xml::Schema::XmlSchemaObject
 	{
 	public:
 		static ::System::Int32* StaticGet_globalIdCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(XmlSchema_TypeDefinitionIndex)->GetStaticField(0x7EE0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(XmlSchema_TypeDefinitionIndex)->GetStaticField(0x6EF0);
 		}
 		::System::String* id; // 0x10
 

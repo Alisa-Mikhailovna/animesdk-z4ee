@@ -8,18 +8,18 @@ namespace RPG::GameCore { class AvatarSkillTreeRow; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace System { class String; }
 
-#define CLASS_1_A2B569C8E16CE41A___C__DISPLAYCLASS2_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15315680)
-#define CLASS_1_A2B569C8E16CE41A___C__DISPLAYCLASS2_0__CREATEITEM_B__1_OFFSET UNITYSDK_OFFSET(0x15315770)
-#define CLASS_1_A2B569C8E16CE41A___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15315280)
+#define CLASS_1_A2B569C8E16CE41A___C__DISPLAYCLASS2_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x11FA0CE0)
+#define CLASS_1_A2B569C8E16CE41A___C__DISPLAYCLASS2_0__CREATEITEM_B__1_OFFSET UNITYSDK_OFFSET(0x11FA0E20)
+#define CLASS_1_A2B569C8E16CE41A___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11FA08E0)
 
-inline static constexpr unsigned int Class_1_A2B569C8E16CE41A___c__DisplayClass2_0_TypeDefinitionIndex = 61328;
+inline static constexpr unsigned int Class_1_A2B569C8E16CE41A___c__DisplayClass2_0_TypeDefinitionIndex = 62670;
 
 class Class_1_A2B569C8E16CE41A___c__DisplayClass2_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ICharacterSkillRowData* skillData; // 0x10
+	::RPG::Client::SkillTreeGrowthGuideItem* item; // 0x10
 	::RPG::GameCore::AvatarSkillTreeRow* skillTreeRow; // 0x18
-	::RPG::Client::SkillTreeGrowthGuideItem* item; // 0x20
+	::RPG::GameCore::ICharacterSkillRowData* skillData; // 0x20
 	::Class_1_A2B569C8E16CE41A* __4__this; // 0x28
 
 	::System::Void _ctor()

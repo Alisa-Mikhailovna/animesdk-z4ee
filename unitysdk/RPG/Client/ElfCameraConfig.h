@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define RPG_CLIENT_ELFCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x156DD870)
+#define RPG_CLIENT_ELFCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC3636B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfCameraConfig_TypeDefinitionIndex = 59611;
+	inline static constexpr unsigned int ElfCameraConfig_TypeDefinitionIndex = 60896;
 
 	class ElfCameraConfig : public ::UnityEngine::MonoBehaviour
 	{

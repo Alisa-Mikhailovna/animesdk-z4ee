@@ -4,12 +4,12 @@
 
 namespace System::Threading { class ManualResetEvent; }
 
-#define MONO_NET_CFNETWORK_GETPROXYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18E78BD0)
-#define MONO_NET_CFNETWORK_GETPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E78B90)
+#define MONO_NET_CFNETWORK_GETPROXYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CC49220)
+#define MONO_NET_CFNETWORK_GETPROXYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC491E0)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFNetwork_GetProxyData_TypeDefinitionIndex = 2407;
+	inline static constexpr unsigned int CFNetwork_GetProxyData_TypeDefinitionIndex = 2411;
 
 	class CFNetwork_GetProxyData : public ::System::Object
 	{

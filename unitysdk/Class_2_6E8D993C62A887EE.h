@@ -13,34 +13,34 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_6E8D993C62A887EE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E09680)
-#define CLASS_2_6E8D993C62A887EE_METHOD_2_019BE49D6AE7D0EA_OFFSET UNITYSDK_OFFSET(0x15E09B90)
-#define CLASS_2_6E8D993C62A887EE_METHOD_2_142C872A468D65DC_OFFSET UNITYSDK_OFFSET(0x15E0A0C0)
-#define CLASS_2_6E8D993C62A887EE_METHOD_2_1B7062170F12239E_OFFSET UNITYSDK_OFFSET(0x15E0A470)
-#define CLASS_2_6E8D993C62A887EE_METHOD_2_4867A7D59311A354_OFFSET UNITYSDK_OFFSET(0x15E09CC0)
-#define CLASS_2_6E8D993C62A887EE_METHOD_2_7D3EF3C6B6273FCA_OFFSET UNITYSDK_OFFSET(0x15E09F80)
-#define CLASS_2_6E8D993C62A887EE_METHOD_2_99A5FB3E84B54B3D_OFFSET UNITYSDK_OFFSET(0x15E0A500)
-#define CLASS_2_6E8D993C62A887EE_METHOD_2_CC1F4B7E56F37345_OFFSET UNITYSDK_OFFSET(0x15E0A410)
-#define CLASS_2_6E8D993C62A887EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E09740)
-#define CLASS_2_6E8D993C62A887EE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E09C10)
-#define CLASS_2_6E8D993C62A887EE_TICK_OFFSET UNITYSDK_OFFSET(0x15E09C60)
-#define CLASS_2_6E8D993C62A887EE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15E0A5D0)
-#define CLASS_2_6E8D993C62A887EE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E09630)
+#define CLASS_2_6E8D993C62A887EE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1533FC00)
+#define CLASS_2_6E8D993C62A887EE_METHOD_2_019BE49D6AE7D0EA_OFFSET UNITYSDK_OFFSET(0x15340220)
+#define CLASS_2_6E8D993C62A887EE_METHOD_2_142C872A468D65DC_OFFSET UNITYSDK_OFFSET(0x153407B0)
+#define CLASS_2_6E8D993C62A887EE_METHOD_2_1B7062170F12239E_OFFSET UNITYSDK_OFFSET(0x15340B60)
+#define CLASS_2_6E8D993C62A887EE_METHOD_2_7D3EF3C6B6273FCA_OFFSET UNITYSDK_OFFSET(0x15340670)
+#define CLASS_2_6E8D993C62A887EE_METHOD_2_99A5FB3E84B54B3D_OFFSET UNITYSDK_OFFSET(0x15340BF0)
+#define CLASS_2_6E8D993C62A887EE_METHOD_2_CC1F4B7E56F37345_OFFSET UNITYSDK_OFFSET(0x15340B00)
+#define CLASS_2_6E8D993C62A887EE_METHOD_2_FDA1EA1E46601E2F_OFFSET UNITYSDK_OFFSET(0x15340350)
+#define CLASS_2_6E8D993C62A887EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1533FCC0)
+#define CLASS_2_6E8D993C62A887EE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x153402A0)
+#define CLASS_2_6E8D993C62A887EE_TICK_OFFSET UNITYSDK_OFFSET(0x153402F0)
+#define CLASS_2_6E8D993C62A887EE__CCTOR_OFFSET UNITYSDK_OFFSET(0x15340CC0)
+#define CLASS_2_6E8D993C62A887EE__CTOR_OFFSET UNITYSDK_OFFSET(0x1533FBB0)
 
-inline static constexpr unsigned int Class_2_6E8D993C62A887EE_TypeDefinitionIndex = 49707;
+inline static constexpr unsigned int Class_2_6E8D993C62A887EE_TypeDefinitionIndex = 50761;
 
 class Class_2_6E8D993C62A887EE : public ::Class_1_5F51D4049EA87B7B
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropState, ::System::UInt32>** StaticGet_Field_2_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropState, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_6E8D993C62A887EE_TypeDefinitionIndex)->GetStaticField(0x29BF0);
+		return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::PropState, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_6E8D993C62A887EE_TypeDefinitionIndex)->GetStaticField(0x276F0);
 	}
-	::RPG::GameCore::PropsReqInteractByColonyMirrorTakenDiff* Field_2_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x20
-	::RPG::GameCore::MazePuzzleOrigamiColonyRow* Field_2_3; // 0x28
-	::System::Collections::Generic::List_1<::RPG::Client::MapPropDef*>* Field_2_4; // 0x30
-	::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* Field_2_5; // 0x38
+	::RPG::GameCore::MazePuzzleOrigamiColonyRow* Field_2_1; // 0x18
+	::RPG::GameCore::PropsReqInteractByColonyMirrorTakenDiff* Field_2_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_3; // 0x28
+	::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* Field_2_4; // 0x30
+	::System::Collections::Generic::List_1<::RPG::Client::MapPropDef*>* Field_2_5; // 0x38
 	::System::UInt32 Field_2_6; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropsReqInteractByColonyMirrorTakenDiff* a2)
@@ -73,9 +73,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_6E8D993C62A887EE_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_4867A7D59311A354(::System::UInt16 a1, ::System::Object* a2)
+	::System::Void Method_2_FDA1EA1E46601E2F(::System::UInt16 a1, ::System::Object* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_6E8D993C62A887EE_METHOD_2_4867A7D59311A354_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::UInt16, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_6E8D993C62A887EE_METHOD_2_FDA1EA1E46601E2F_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_019BE49D6AE7D0EA(::RPG::GameCore::MazePuzzleOrigamiRow* a1, ::RPG::Client::MapDef* a2)

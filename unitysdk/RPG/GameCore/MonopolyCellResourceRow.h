@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196B3070)
-#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196B31F0)
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B614E50)
+#define RPG_GAMECORE_MONOPOLYCELLRESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B614FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCellResourceRow_TypeDefinitionIndex = 11515;
+	inline static constexpr unsigned int MonopolyCellResourceRow_TypeDefinitionIndex = 11615;
 
 	class MonopolyCellResourceRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::GameCore::MonopolyCellPeformanceType Type; // 0x18
-		::System::UInt32 ResourceID; // 0x1C
+		::System::UInt32 ResourceID; // 0x18
+		::RPG::GameCore::MonopolyCellPeformanceType Type; // 0x1C
 
 		::System::Void _ctor()
 		{

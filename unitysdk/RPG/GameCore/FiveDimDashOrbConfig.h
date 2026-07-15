@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDashBasicConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_METHOD_3_7E15FBC442BEAF38_OFFSET UNITYSDK_OFFSET(0x199E97A0)
-#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_METHOD_3_E6D3B3A2514DFB1E_OFFSET UNITYSDK_OFFSET(0x199E9730)
-#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199E9780)
+#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_METHOD_3_3618558A8D5D850D_OFFSET UNITYSDK_OFFSET(0x1B4282A0)
+#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG_METHOD_3_7E15FBC442BEAF38_OFFSET UNITYSDK_OFFSET(0x1B4282E0)
+#define RPG_GAMECORE_FIVEDIMDASHORBCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4282D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDashOrbConfig_TypeDefinitionIndex = 17668;
+	inline static constexpr unsigned int FiveDimDashOrbConfig_TypeDefinitionIndex = 17842;
 
 	class FiveDimDashOrbConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDASHORBCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E6D3B3A2514DFB1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDashOrbConfig*& a2)
+		static ::System::Void Method_3_3618558A8D5D850D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDashOrbConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDashOrbConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDASHORBCONFIG_METHOD_3_E6D3B3A2514DFB1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDashOrbConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDASHORBCONFIG_METHOD_3_3618558A8D5D850D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7E15FBC442BEAF38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDashOrbConfig* a2)

@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_EXPERIMENTAL_VIDEO_VIDEOCLIPPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x38FEC90)
-#define UNITYENGINE_EXPERIMENTAL_VIDEO_VIDEOCLIPPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x7D49D0)
+#define UNITYENGINE_EXPERIMENTAL_VIDEO_VIDEOCLIPPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A22930)
+#define UNITYENGINE_EXPERIMENTAL_VIDEO_VIDEOCLIPPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2D156E0)
 
 namespace UnityEngine::Experimental::Video
 {
-	inline static constexpr unsigned int VideoClipPlayable_TypeDefinitionIndex = 6289;
+	inline static constexpr unsigned int VideoClipPlayable_TypeDefinitionIndex = 6294;
 
 	struct alignas(8) VideoClipPlayable
 	{

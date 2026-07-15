@@ -6,22 +6,22 @@
 namespace Proto { class MonopolyActionResult; }
 namespace System { class String; }
 
-#define CLASS_1_5ABB41FE29707534_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0xA90EDF0)
-#define CLASS_1_5ABB41FE29707534_SET_BUFFID_OFFSET UNITYSDK_OFFSET(0xA90EE00)
-#define CLASS_1_5ABB41FE29707534_TRIGGER_OFFSET UNITYSDK_OFFSET(0xA90EB60)
-#define CLASS_1_5ABB41FE29707534__CTOR_OFFSET UNITYSDK_OFFSET(0xA90ED00)
+#define CLASS_1_5ABB41FE29707534_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0xEB75150)
+#define CLASS_1_5ABB41FE29707534_SET_BUFFID_OFFSET UNITYSDK_OFFSET(0xEB75160)
+#define CLASS_1_5ABB41FE29707534_TRIGGER_OFFSET UNITYSDK_OFFSET(0xEB74EC0)
+#define CLASS_1_5ABB41FE29707534__CTOR_OFFSET UNITYSDK_OFFSET(0xEB75060)
 
-inline static constexpr unsigned int Class_1_5ABB41FE29707534_TypeDefinitionIndex = 61914;
+inline static constexpr unsigned int Class_1_5ABB41FE29707534_TypeDefinitionIndex = 63279;
 
 class Class_1_5ABB41FE29707534 : public ::System::Object
 {
 public:
 	// static const ::System::String* Field_1_0; // 0x0
 	::System::UInt32 Field_1_1; // 0x10
-	::RPG::Client::MonopolyEffectShowType Field_1_2; // 0x14
-	::System::UInt32 Field_1_3; // 0x18
-	::System::UInt32 Field_1_4; // 0x1C
-	::System::UInt32 _BuffID_k__BackingField; // 0x20
+	::System::UInt32 Field_1_2; // 0x14
+	::System::UInt32 _BuffID_k__BackingField; // 0x18
+	::RPG::Client::MonopolyEffectShowType Field_1_4; // 0x1C
+	::System::UInt32 Field_1_5; // 0x20
 
 	::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 	{

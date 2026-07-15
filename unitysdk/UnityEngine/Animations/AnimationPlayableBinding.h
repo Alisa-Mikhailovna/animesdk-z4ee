@@ -8,12 +8,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEBINDING_CREATEANIMATIONOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B42E420)
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEBINDING_CREATE_OFFSET UNITYSDK_OFFSET(0x1B42E370)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEBINDING_CREATEANIMATIONOUTPUT_OFFSET UNITYSDK_OFFSET(0x1CFE92B0)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEBINDING_CREATE_OFFSET UNITYSDK_OFFSET(0x1CFE9200)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationPlayableBinding_TypeDefinitionIndex = 5166;
+	inline static constexpr unsigned int AnimationPlayableBinding_TypeDefinitionIndex = 5171;
 
 	class AnimationPlayableBinding : public ::System::Object
 	{

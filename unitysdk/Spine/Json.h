@@ -4,11 +4,11 @@
 
 namespace System::IO { class TextReader; }
 
-#define SPINE_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x12B88F70)
+#define SPINE_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C9339F0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Json_TypeDefinitionIndex = 36737;
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 37519;
 
 	class Json : public ::System::Object
 	{

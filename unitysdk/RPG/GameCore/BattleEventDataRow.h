@@ -6,27 +6,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x17662750)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17662A00)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x176626D0)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_RESET_OFFSET UNITYSDK_OFFSET(0x17662730)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17662CE0)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B1F77F0)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1F7AA0)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B1F7770)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B1F77D0)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F7D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventDataRow_TypeDefinitionIndex = 12239;
+	inline static constexpr unsigned int BattleEventDataRow_TypeDefinitionIndex = 12373;
 
 	class BattleEventDataRow : public ::System::Object
 	{
 	public:
-		::System::String* Prefab; // 0x10
-		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x18
-		::System::String* BEActionBarPrefab; // 0x20
-		::System::String* LevelAreaPrefab; // 0x28
-		::System::String* BasePoint; // 0x30
-		::System::String* Config; // 0x38
-		::System::UInt32 BattleEventID; // 0x40
-		::System::Boolean IsSPReserved; // 0x44
+		::System::String* BasePoint; // 0x10
+		::System::String* Prefab; // 0x18
+		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x20
+		::System::String* Config; // 0x28
+		::System::String* BEActionBarPrefab; // 0x30
+		::System::String* LevelAreaPrefab; // 0x38
+		::System::Boolean IsSPReserved; // 0x40
+		::System::UInt32 BattleEventID; // 0x44
 
 		::System::Void _ctor()
 		{

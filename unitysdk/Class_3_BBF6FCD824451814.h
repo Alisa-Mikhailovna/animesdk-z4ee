@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueCurrentSkillUseParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BBF6FCD824451814_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159DE530)
-#define CLASS_3_BBF6FCD824451814__CTOR_OFFSET UNITYSDK_OFFSET(0x159DE450)
+#define CLASS_3_BBF6FCD824451814_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xADB7BF0)
+#define CLASS_3_BBF6FCD824451814__CTOR_OFFSET UNITYSDK_OFFSET(0xADB7B10)
 
-inline static constexpr unsigned int Class_3_BBF6FCD824451814_TypeDefinitionIndex = 51821;
+inline static constexpr unsigned int Class_3_BBF6FCD824451814_TypeDefinitionIndex = 52969;
 
 class Class_3_BBF6FCD824451814 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueCurrentSkillUseParam*>
 {

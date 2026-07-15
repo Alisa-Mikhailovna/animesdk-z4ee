@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERTEAMAPPEAR_METHOD_3_3089BA7EF910CDE9_OFFSET UNITYSDK_OFFSET(0x190E8E40)
-#define RPG_GAMECORE_MONSTERTEAMAPPEAR_METHOD_3_5CB0C45CEF095730_OFFSET UNITYSDK_OFFSET(0x190E8EC0)
-#define RPG_GAMECORE_MONSTERTEAMAPPEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x190E8E90)
+#define RPG_GAMECORE_MONSTERTEAMAPPEAR_METHOD_3_57BCAEEF757CFD73_OFFSET UNITYSDK_OFFSET(0x1B631A90)
+#define RPG_GAMECORE_MONSTERTEAMAPPEAR_METHOD_3_5CB0C45CEF095730_OFFSET UNITYSDK_OFFSET(0x1B631AD0)
+#define RPG_GAMECORE_MONSTERTEAMAPPEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B631AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterTeamAppear_TypeDefinitionIndex = 22118;
+	inline static constexpr unsigned int MonsterTeamAppear_TypeDefinitionIndex = 22555;
 
 	class MonsterTeamAppear : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERTEAMAPPEAR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3089BA7EF910CDE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterTeamAppear*& a2)
+		static ::System::Void Method_3_57BCAEEF757CFD73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterTeamAppear*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterTeamAppear*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERTEAMAPPEAR_METHOD_3_3089BA7EF910CDE9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterTeamAppear*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERTEAMAPPEAR_METHOD_3_57BCAEEF757CFD73_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5CB0C45CEF095730(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterTeamAppear* a2)

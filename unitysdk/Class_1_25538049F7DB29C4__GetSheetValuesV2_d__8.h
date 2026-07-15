@@ -9,19 +9,19 @@ namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x37508B0)
-#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2_D__8_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xB2D940)
+#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2_D__8_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2D0EC10)
+#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2_D__8_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2D0EC20)
 
-inline static constexpr unsigned int Class_1_25538049F7DB29C4__GetSheetValuesV2_d__8_TypeDefinitionIndex = 46861;
+inline static constexpr unsigned int Class_1_25538049F7DB29C4__GetSheetValuesV2_d__8_TypeDefinitionIndex = 47826;
 
 struct alignas(8) Class_1_25538049F7DB29C4__GetSheetValuesV2_d__8
 {
-	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*> __t__builder; // 0x10
-	::System::String* docID; // 0x28
-	::System::String* rangeAddress; // 0x30
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x38
-	::System::String* sheetID; // 0x40
-	::Class_1_25538049F7DB29C4* __4__this; // 0x48
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x10
+	::System::String* sheetID; // 0x18
+	::System::String* docID; // 0x20
+	::System::String* rangeAddress; // 0x28
+	::Class_1_25538049F7DB29C4* __4__this; // 0x30
+	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppArray<::Il2CppArray<::Newtonsoft::Json::Linq::JToken*>*>*> __t__builder; // 0x38
 	::System::Int32 __1__state; // 0x50
 
 	::System::Void MoveNext()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropInitFastDeliverPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_976F1AB3FBE6A861_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161D06D0)
-#define CLASS_3_976F1AB3FBE6A861__CTOR_OFFSET UNITYSDK_OFFSET(0x161D06A0)
+#define CLASS_3_976F1AB3FBE6A861_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6C5D80)
+#define CLASS_3_976F1AB3FBE6A861__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C5D50)
 
-inline static constexpr unsigned int Class_3_976F1AB3FBE6A861_TypeDefinitionIndex = 54523;
+inline static constexpr unsigned int Class_3_976F1AB3FBE6A861_TypeDefinitionIndex = 55747;
 
 class Class_3_976F1AB3FBE6A861 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropInitFastDeliverPuzzle*>
 {

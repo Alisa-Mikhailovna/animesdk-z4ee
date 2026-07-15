@@ -8,12 +8,12 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHRESULTPREDICATE_METHOD_2_AF51F552ABD7F2CC_OFFSET UNITYSDK_OFFSET(0x19D384A0)
-#define RPG_GAMECORE_PHOTOGRAPHRESULTPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D386D0)
+#define RPG_GAMECORE_PHOTOGRAPHRESULTPREDICATE_METHOD_2_AF51F552ABD7F2CC_OFFSET UNITYSDK_OFFSET(0x1B6AB270)
+#define RPG_GAMECORE_PHOTOGRAPHRESULTPREDICATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6AB4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphResultPredicate_TypeDefinitionIndex = 20431;
+	inline static constexpr unsigned int PhotoGraphResultPredicate_TypeDefinitionIndex = 20846;
 
 	class PhotoGraphResultPredicate : public ::RPG::GameCore::JsonConfig
 	{

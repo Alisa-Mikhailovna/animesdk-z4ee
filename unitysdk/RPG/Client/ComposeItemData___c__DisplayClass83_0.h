@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ComposeItemMaterial; }
 
-#define RPG_CLIENT_COMPOSEITEMDATA___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1784D320)
-#define RPG_CLIENT_COMPOSEITEMDATA___C__DISPLAYCLASS83_0___MERGEMATERIALLISTKIND_B__0_OFFSET UNITYSDK_OFFSET(0x1784DCC0)
+#define RPG_CLIENT_COMPOSEITEMDATA___C__DISPLAYCLASS83_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A8510)
+#define RPG_CLIENT_COMPOSEITEMDATA___C__DISPLAYCLASS83_0___MERGEMATERIALLISTKIND_B__0_OFFSET UNITYSDK_OFFSET(0xC1A9180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComposeItemData___c__DisplayClass83_0_TypeDefinitionIndex = 61475;
+	inline static constexpr unsigned int ComposeItemData___c__DisplayClass83_0_TypeDefinitionIndex = 62837;
 
 	class ComposeItemData___c__DisplayClass83_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/FightSoftStopReason.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_7106F96B8B34508F_METHOD_1_5775F1311C3D4507_OFFSET UNITYSDK_OFFSET(0x168DD690)
-#define CLASS_1_7106F96B8B34508F__CTOR_OFFSET UNITYSDK_OFFSET(0x168DD6E0)
+#define CLASS_1_7106F96B8B34508F_METHOD_1_5775F1311C3D4507_OFFSET UNITYSDK_OFFSET(0x1A4E2C60)
+#define CLASS_1_7106F96B8B34508F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4E2CB0)
 
-inline static constexpr unsigned int Class_1_7106F96B8B34508F_TypeDefinitionIndex = 34993;
+inline static constexpr unsigned int Class_1_7106F96B8B34508F_TypeDefinitionIndex = 35775;
 
 class Class_1_7106F96B8B34508F : public ::System::Object
 {

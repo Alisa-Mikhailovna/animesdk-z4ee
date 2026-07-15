@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1618CF40)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS3_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1618D9B0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C28450)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__DISPLAYCLASS3_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x19C28EB0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManagerCX___c__DisplayClass3_0_TypeDefinitionIndex = 8733;
+	inline static constexpr unsigned int BindManagerCX___c__DisplayClass3_0_TypeDefinitionIndex = 8745;
 
 	class BindManagerCX___c__DisplayClass3_0 : public ::System::Object
 	{

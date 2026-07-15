@@ -5,31 +5,37 @@
 
 namespace RPG::Client { class BaseGachaGroupData; }
 namespace RPG::Client { class GachaItemData; }
+namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GACHAMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16007620)
-#define RPG_CLIENT_GACHAMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16007660)
-#define RPG_CLIENT_GACHAMODULE___C__GETSORTEDGACHAITEMDATAS_B__27_0_OFFSET UNITYSDK_OFFSET(0x16007670)
-#define RPG_CLIENT_GACHAMODULE___C__REFRESHGACHAPOOLSDATA_B__32_0_OFFSET UNITYSDK_OFFSET(0x16007680)
+#define RPG_CLIENT_GACHAMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC676830)
+#define RPG_CLIENT_GACHAMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC676860)
+#define RPG_CLIENT_GACHAMODULE___C__GETSORTEDGACHAITEMDATAS_B__28_0_OFFSET UNITYSDK_OFFSET(0xC676870)
+#define RPG_CLIENT_GACHAMODULE___C__REFRESHGACHAPOOLSDATA_B__33_0_OFFSET UNITYSDK_OFFSET(0xC676880)
+#define RPG_CLIENT_GACHAMODULE___C___GETLINKEDGACHAGROUPORDER_B__63_0_OFFSET UNITYSDK_OFFSET(0xC6768C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaModule___c_TypeDefinitionIndex = 60098;
+	inline static constexpr unsigned int GachaModule___c_TypeDefinitionIndex = 61383;
 
 	class GachaModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GachaItemData*, ::RPG::Client::GachaItemData*>** StaticGet___9__27_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>, ::System::Boolean>** StaticGet___9__33_0()
 		{
-			return (::System::Func_2<::RPG::Client::GachaItemData*, ::RPG::Client::GachaItemData*>**)Il2CppClass::FromTypeDefinitionIndex(GachaModule___c_TypeDefinitionIndex)->GetStaticField(0x262D0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GachaModule___c_TypeDefinitionIndex)->GetStaticField(0x1CB40);
 		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>, ::System::Boolean>** StaticGet___9__32_0()
+		static ::System::Func_2<::RPG::Client::GachaItemData*, ::RPG::Client::GachaItemData*>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GachaModule___c_TypeDefinitionIndex)->GetStaticField(0x262D8);
+			return (::System::Func_2<::RPG::Client::GachaItemData*, ::RPG::Client::GachaItemData*>**)Il2CppClass::FromTypeDefinitionIndex(GachaModule___c_TypeDefinitionIndex)->GetStaticField(0x1CB48);
 		}
 		static ::RPG::Client::GachaModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::GachaModule___c**)Il2CppClass::FromTypeDefinitionIndex(GachaModule___c_TypeDefinitionIndex)->GetStaticField(0x262E0);
+			return (::RPG::Client::GachaModule___c**)Il2CppClass::FromTypeDefinitionIndex(GachaModule___c_TypeDefinitionIndex)->GetStaticField(0x1CB50);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__63_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GachaModule___c_TypeDefinitionIndex)->GetStaticField(0x1CB58);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +48,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::GachaItemData* _GetSortedGachaItemDatas_b__27_0(::RPG::Client::GachaItemData* a1)
+		::RPG::Client::GachaItemData* _GetSortedGachaItemDatas_b__28_0(::RPG::Client::GachaItemData* a1)
 		{
-			return ((::RPG::Client::GachaItemData*(*)(::PVOID, ::RPG::Client::GachaItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__GETSORTEDGACHAITEMDATAS_B__27_0_OFFSET))(this, a1);
+			return ((::RPG::Client::GachaItemData*(*)(::PVOID, ::RPG::Client::GachaItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__GETSORTEDGACHAITEMDATAS_B__28_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _RefreshGachaPoolsData_b__32_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*> a1)
+		::System::Boolean _RefreshGachaPoolsData_b__33_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*> a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__REFRESHGACHAPOOLSDATA_B__32_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::BaseGachaGroupData*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C__REFRESHGACHAPOOLSDATA_B__33_0_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 __GetLinkedGachaGroupOrder_b__63_0(::RPG::GameCore::DynamicValue* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHAMODULE___C___GETLINKEDGACHAGROUPORDER_B__63_0_OFFSET))(this, a1);
 		}
 	};
 }

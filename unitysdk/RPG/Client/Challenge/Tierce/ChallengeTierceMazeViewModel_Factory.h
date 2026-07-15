@@ -7,12 +7,12 @@ class Class_1_5F4D64A4B97E38F9;
 namespace RPG::Client { class ChallengeData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceMazeViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x181AA230)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x181AA220)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xBF56490)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEMAZEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xBF56480)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceMazeViewModel_Factory_TypeDefinitionIndex = 74246;
+	inline static constexpr unsigned int ChallengeTierceMazeViewModel_Factory_TypeDefinitionIndex = 76630;
 
 	class ChallengeTierceMazeViewModel_Factory : public ::System::Object
 	{

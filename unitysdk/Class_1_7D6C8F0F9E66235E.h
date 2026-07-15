@@ -4,9 +4,9 @@
 
 namespace RPG::Client { class SilverWolfGroupData; }
 
-#define CLASS_1_7D6C8F0F9E66235E_METHOD_1_C353FE146CD18176_OFFSET UNITYSDK_OFFSET(0x142B3FF0)
+#define CLASS_1_7D6C8F0F9E66235E_METHOD_1_C353FE146CD18176_OFFSET UNITYSDK_OFFSET(0x14B546E0)
 
-inline static constexpr unsigned int Class_1_7D6C8F0F9E66235E_TypeDefinitionIndex = 63584;
+inline static constexpr unsigned int Class_1_7D6C8F0F9E66235E_TypeDefinitionIndex = 64951;
 
 class Class_1_7D6C8F0F9E66235E : public ::System::Object
 {

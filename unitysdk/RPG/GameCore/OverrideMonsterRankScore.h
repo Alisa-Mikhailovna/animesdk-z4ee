@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE_METHOD_3_50A7EB165F97B595_OFFSET UNITYSDK_OFFSET(0x19D0E040)
-#define RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE_METHOD_3_54B4AE323B130B14_OFFSET UNITYSDK_OFFSET(0x19D0DFC0)
-#define RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D0E010)
+#define RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE_METHOD_3_3E20E4509584B14C_OFFSET UNITYSDK_OFFSET(0x1B682B40)
+#define RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE_METHOD_3_50A7EB165F97B595_OFFSET UNITYSDK_OFFSET(0x1B682B80)
+#define RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B682B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideMonsterRankScore_TypeDefinitionIndex = 22414;
+	inline static constexpr unsigned int OverrideMonsterRankScore_TypeDefinitionIndex = 22856;
 
 	class OverrideMonsterRankScore : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_54B4AE323B130B14(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideMonsterRankScore*& a2)
+		static ::System::Void Method_3_3E20E4509584B14C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideMonsterRankScore*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideMonsterRankScore*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE_METHOD_3_54B4AE323B130B14_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideMonsterRankScore*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMONSTERRANKSCORE_METHOD_3_3E20E4509584B14C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_50A7EB165F97B595(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideMonsterRankScore* a2)

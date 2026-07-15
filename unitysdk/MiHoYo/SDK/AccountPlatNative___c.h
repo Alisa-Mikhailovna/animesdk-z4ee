@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x144CD170)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x144CD1A0)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__HOYOSDKINTERNALPLUGINUICALLBACK_B__35_0_OFFSET UNITYSDK_OFFSET(0x144CD1C0)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__INSTANCE_B__12_0_OFFSET UNITYSDK_OFFSET(0x144CD1B0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAA8B9C0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAA8B9F0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__HOYOSDKINTERNALPLUGINUICALLBACK_B__36_0_OFFSET UNITYSDK_OFFSET(0xAA8BA10)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__INSTANCE_B__12_0_OFFSET UNITYSDK_OFFSET(0xAA8BA00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative___c_TypeDefinitionIndex = 43499;
+	inline static constexpr unsigned int AccountPlatNative___c_TypeDefinitionIndex = 44360;
 
 	class AccountPlatNative___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::AccountPlatNative___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::AccountPlatNative___c**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___c_TypeDefinitionIndex)->GetStaticField(0x9EF0);
-		}
-		static ::System::Action** StaticGet___9__35_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___c_TypeDefinitionIndex)->GetStaticField(0x9EF8);
-		}
 		static ::System::Action** StaticGet___9__12_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___c_TypeDefinitionIndex)->GetStaticField(0x9F00);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___c_TypeDefinitionIndex)->GetStaticField(0x9AF0);
+		}
+		static ::MiHoYo::SDK::AccountPlatNative___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::AccountPlatNative___c**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___c_TypeDefinitionIndex)->GetStaticField(0x9AF8);
+		}
+		static ::System::Action** StaticGet___9__36_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatNative___c_TypeDefinitionIndex)->GetStaticField(0x9B00);
 		}
 
 		static ::System::Void _cctor()
@@ -44,9 +44,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE___C__INSTANCE_B__12_0_OFFSET))(this);
 		}
 
-		::System::Void _HoYoSDKInternalPluginUICallback_b__35_0()
+		::System::Void _HoYoSDKInternalPluginUICallback_b__36_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE___C__HOYOSDKINTERNALPLUGINUICALLBACK_B__35_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE___C__HOYOSDKINTERNALPLUGINUICALLBACK_B__36_0_OFFSET))(this);
 		}
 	};
 }

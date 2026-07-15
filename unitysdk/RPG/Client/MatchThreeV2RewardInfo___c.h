@@ -5,29 +5,29 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188E5910)
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188E5950)
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__GET__RESIDENTREWARDQUESTIDS_B__1_0_OFFSET UNITYSDK_OFFSET(0x188E5960)
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__HASRESIDENTREWARDTOTAKE_B__8_0_OFFSET UNITYSDK_OFFSET(0x188E59C0)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB82700)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB82740)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__GET__RESIDENTREWARDQUESTIDS_B__1_0_OFFSET UNITYSDK_OFFSET(0xCB82750)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__HASRESIDENTREWARDTOTAKE_B__8_0_OFFSET UNITYSDK_OFFSET(0xCB827B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2RewardInfo___c_TypeDefinitionIndex = 61705;
+	inline static constexpr unsigned int MatchThreeV2RewardInfo___c_TypeDefinitionIndex = 63067;
 
 	class MatchThreeV2RewardInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MatchThreeV2RewardInfo___c** StaticGet___9()
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::RPG::Client::MatchThreeV2RewardInfo___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x52460);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x4D110);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x52468);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x4D118);
 		}
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__1_0()
+		static ::RPG::Client::MatchThreeV2RewardInfo___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x52470);
+			return (::RPG::Client::MatchThreeV2RewardInfo___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2RewardInfo___c_TypeDefinitionIndex)->GetStaticField(0x4D120);
 		}
 
 		static ::System::Void _cctor()

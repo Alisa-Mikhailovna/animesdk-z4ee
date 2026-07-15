@@ -5,18 +5,18 @@
 class Class_3_4CB5CE11B4BA988E;
 namespace System { class String; }
 
-#define CLASS_3_4CB5CE11B4BA988E___C__DISPLAYCLASS4_0__CREATESINGLENPC_B__0_OFFSET UNITYSDK_OFFSET(0x14C30DC0)
-#define CLASS_3_4CB5CE11B4BA988E___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C30930)
+#define CLASS_3_4CB5CE11B4BA988E___C__DISPLAYCLASS4_0__CREATESINGLENPC_B__0_OFFSET UNITYSDK_OFFSET(0xDE9E3B0)
+#define CLASS_3_4CB5CE11B4BA988E___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE9DF60)
 
-inline static constexpr unsigned int Class_3_4CB5CE11B4BA988E___c__DisplayClass4_0_TypeDefinitionIndex = 54250;
+inline static constexpr unsigned int Class_3_4CB5CE11B4BA988E___c__DisplayClass4_0_TypeDefinitionIndex = 55473;
 
 class Class_3_4CB5CE11B4BA988E___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::System::String* defaultState; // 0x10
-	::Class_3_4CB5CE11B4BA988E* __4__this; // 0x18
-	::System::UInt32 groupID; // 0x20
-	::System::UInt32 npcID; // 0x24
+	::Class_3_4CB5CE11B4BA988E* __4__this; // 0x10
+	::System::String* defaultState; // 0x18
+	::System::UInt32 npcID; // 0x20
+	::System::UInt32 groupID; // 0x24
 
 	::System::Void _ctor()
 	{

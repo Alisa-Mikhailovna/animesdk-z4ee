@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_2670985A37556FEA;
-class Class_1_43BD383C98B4C0C5_107;
+class Class_1_43BD383C98B4C0C5_110;
 
-#define CLASS_1_89306F51165107EE___C__DISPLAYCLASS3_0__COMPILEENTRY_B__0_OFFSET UNITYSDK_OFFSET(0x12B52610)
-#define CLASS_1_89306F51165107EE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12B522F0)
+#define CLASS_1_89306F51165107EE___C__DISPLAYCLASS3_0__COMPILEENTRY_B__0_OFFSET UNITYSDK_OFFSET(0xB264630)
+#define CLASS_1_89306F51165107EE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB264310)
 
-inline static constexpr unsigned int Class_1_89306F51165107EE___c__DisplayClass3_0_TypeDefinitionIndex = 61069;
+inline static constexpr unsigned int Class_1_89306F51165107EE___c__DisplayClass3_0_TypeDefinitionIndex = 62389;
 
 class Class_1_89306F51165107EE___c__DisplayClass3_0 : public ::System::Object
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_89306F51165107EE___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean _CompileEntry_b__0(::Class_1_43BD383C98B4C0C5_107* a1)
+	::System::Boolean _CompileEntry_b__0(::Class_1_43BD383C98B4C0C5_110* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_107*))((::PBYTE)hIl2Cpp + CLASS_1_89306F51165107EE___C__DISPLAYCLASS3_0__COMPILEENTRY_B__0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_110*))((::PBYTE)hIl2Cpp + CLASS_1_89306F51165107EE___C__DISPLAYCLASS3_0__COMPILEENTRY_B__0_OFFSET))(this, a1);
 	}
 };

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MapDistrictDef; }
 
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS128_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176C6C00)
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS128_0___REMOVELOCALLEGACYDISTRICT_B__0_OFFSET UNITYSDK_OFFSET(0x176C9A60)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS128_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4C4300)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS128_0___REMOVELOCALLEGACYDISTRICT_B__0_OFFSET UNITYSDK_OFFSET(0xD4C7760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass128_0_TypeDefinitionIndex = 58054;
+	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass128_0_TypeDefinitionIndex = 59320;
 
 	class RuntimeGroupManager___c__DisplayClass128_0 : public ::System::Object
 	{

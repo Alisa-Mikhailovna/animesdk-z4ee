@@ -6,19 +6,19 @@ namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0__CLIENTCREATENPC_B__0_OFFSET UNITYSDK_OFFSET(0xEA43D10)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEA23A00)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0__CLIENTCREATENPC_B__0_OFFSET UNITYSDK_OFFSET(0xDA4D7C0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA2B850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass8_0_TypeDefinitionIndex = 53993;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass8_0_TypeDefinitionIndex = 55212;
 
 	class EntityManagerExtension___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::EntityManager* pManager; // 0x10
+		::RPG::GameCore::GameEntity* pEntity; // 0x10
 		::System::String* strCharacterName; // 0x18
-		::RPG::GameCore::GameEntity* pEntity; // 0x20
+		::RPG::GameCore::EntityManager* pManager; // 0x20
 
 		::System::Void _ctor()
 		{

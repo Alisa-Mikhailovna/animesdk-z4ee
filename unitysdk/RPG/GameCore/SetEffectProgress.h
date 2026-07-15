@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETEFFECTPROGRESS_METHOD_3_0C2D611C08AF3533_OFFSET UNITYSDK_OFFSET(0x1A787540)
-#define RPG_GAMECORE_SETEFFECTPROGRESS_METHOD_3_64AED65B8EEBE741_OFFSET UNITYSDK_OFFSET(0x1A7875C0)
-#define RPG_GAMECORE_SETEFFECTPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A787590)
+#define RPG_GAMECORE_SETEFFECTPROGRESS_METHOD_3_64AED65B8EEBE741_OFFSET UNITYSDK_OFFSET(0x1B89F620)
+#define RPG_GAMECORE_SETEFFECTPROGRESS_METHOD_3_C384BD8CEA887248_OFFSET UNITYSDK_OFFSET(0x1B89F5E0)
+#define RPG_GAMECORE_SETEFFECTPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89F610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEffectProgress_TypeDefinitionIndex = 22446;
+	inline static constexpr unsigned int SetEffectProgress_TypeDefinitionIndex = 22896;
 
 	class SetEffectProgress : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTPROGRESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0C2D611C08AF3533(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectProgress*& a2)
+		static ::System::Void Method_3_C384BD8CEA887248(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectProgress*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTPROGRESS_METHOD_3_0C2D611C08AF3533_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTPROGRESS_METHOD_3_C384BD8CEA887248_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_64AED65B8EEBE741(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectProgress* a2)

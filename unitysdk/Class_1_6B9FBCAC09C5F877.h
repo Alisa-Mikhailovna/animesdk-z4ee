@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/RtPropertyModifyData.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_6B9FBCAC09C5F877_EQUALS_OFFSET UNITYSDK_OFFSET(0x1444F2B0)
-#define CLASS_1_6B9FBCAC09C5F877__CTOR_OFFSET UNITYSDK_OFFSET(0x1444F330)
+#define CLASS_1_6B9FBCAC09C5F877_EQUALS_OFFSET UNITYSDK_OFFSET(0x152F9C00)
+#define CLASS_1_6B9FBCAC09C5F877__CTOR_OFFSET UNITYSDK_OFFSET(0x152F9C80)
 
-inline static constexpr unsigned int Class_1_6B9FBCAC09C5F877_TypeDefinitionIndex = 50722;
+inline static constexpr unsigned int Class_1_6B9FBCAC09C5F877_TypeDefinitionIndex = 51804;
 
 class Class_1_6B9FBCAC09C5F877 : public ::System::Object
 {

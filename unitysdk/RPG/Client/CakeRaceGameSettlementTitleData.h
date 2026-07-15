@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4BC858D7C27E10ED_23;
+class Class_1_F487A56015EDF324_6;
 namespace RPG::Client { class CakeRaceCatDataItem; }
 namespace RPG::Client { class CakeRaceTitleData; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18F9CD80)
-#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_GET_CATDATA_OFFSET UNITYSDK_OFFSET(0x18F9D070)
-#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_GET_TITLEDATA_OFFSET UNITYSDK_OFFSET(0x18F9CE60)
-#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_GET_TITLEVALUELIST_OFFSET UNITYSDK_OFFSET(0x18F9D150)
-#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F9D160)
-#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA__INIT_OFFSET UNITYSDK_OFFSET(0x18F9D1C0)
+#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xBF266F0)
+#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_GET_CATDATA_OFFSET UNITYSDK_OFFSET(0xBF268B0)
+#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_GET_TITLEDATA_OFFSET UNITYSDK_OFFSET(0xBF267D0)
+#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_GET_TITLEVALUELIST_OFFSET UNITYSDK_OFFSET(0xBF26990)
+#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBF269D0)
+#define RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA__INIT_OFFSET UNITYSDK_OFFSET(0xBF26A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceGameSettlementTitleData_TypeDefinitionIndex = 59013;
+	inline static constexpr unsigned int CakeRaceGameSettlementTitleData_TypeDefinitionIndex = 60284;
 
 	class CakeRaceGameSettlementTitleData : public ::System::Object
 	{
 	public:
-		::Class_1_4BC858D7C27E10ED_23* _FightCakeRaceTitle; // 0x10
+		::Class_1_F487A56015EDF324_6* _FightCakeRaceTitle; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* _TitleValueList; // 0x18
 
-		::System::Void _ctor(::Class_1_4BC858D7C27E10ED_23* a1)
+		::System::Void _ctor(::Class_1_F487A56015EDF324_6* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4BC858D7C27E10ED_23*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_F487A56015EDF324_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA__CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::CakeRaceTitleData* get_TitleData()
@@ -45,9 +45,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_GET_TITLEVALUELIST_OFFSET))(this);
 		}
 
-		static ::RPG::Client::CakeRaceGameSettlementTitleData* Create(::Class_1_4BC858D7C27E10ED_23* a1)
+		static ::RPG::Client::CakeRaceGameSettlementTitleData* Create(::Class_1_F487A56015EDF324_6* a1)
 		{
-			return ((::RPG::Client::CakeRaceGameSettlementTitleData*(*)(::Class_1_4BC858D7C27E10ED_23*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::CakeRaceGameSettlementTitleData*(*)(::Class_1_F487A56015EDF324_6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEGAMESETTLEMENTTITLEDATA_CREATE_OFFSET))(a1);
 		}
 
 		::System::Void _Init()

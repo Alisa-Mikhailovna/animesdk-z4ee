@@ -5,13 +5,12 @@
 namespace RPG::GameCore { class ST_Main_LittleGame_DoNothing; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CF185E9F34510F6E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CA58E0)
-#define CLASS_3_CF185E9F34510F6E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15CA5960)
-#define CLASS_3_CF185E9F34510F6E_TICK_OFFSET UNITYSDK_OFFSET(0x15CA59B0)
-#define CLASS_3_CF185E9F34510F6E__CTOR_OFFSET UNITYSDK_OFFSET(0x15CA58C0)
-#define CLASS_3_CF185E9F34510F6E___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x15CA5A30)
+#define CLASS_3_CF185E9F34510F6E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5322C0)
+#define CLASS_3_CF185E9F34510F6E_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE532340)
+#define CLASS_3_CF185E9F34510F6E_TICK_OFFSET UNITYSDK_OFFSET(0xE532390)
+#define CLASS_3_CF185E9F34510F6E__CTOR_OFFSET UNITYSDK_OFFSET(0xE5322A0)
 
-inline static constexpr unsigned int Class_3_CF185E9F34510F6E_TypeDefinitionIndex = 48758;
+inline static constexpr unsigned int Class_3_CF185E9F34510F6E_TypeDefinitionIndex = 49771;
 
 class Class_3_CF185E9F34510F6E : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_LittleGame_DoNothing*>
 {
@@ -36,10 +35,5 @@ public:
 	::System::Void Tick(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_CF185E9F34510F6E_TICK_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_CF185E9F34510F6E___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

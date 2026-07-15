@@ -5,13 +5,12 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_RESET_OFFSET UNITYSDK_OFFSET(0x35CCFB0)
-#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x35CD000)
-#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x35CD010)
+#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_RESET_OFFSET UNITYSDK_OFFSET(0x156490)
+#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1564E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkTrigger_DialogueGroupInfo_TypeDefinitionIndex = 53743;
+	inline static constexpr unsigned int TalkTrigger_DialogueGroupInfo_TypeDefinitionIndex = 54962;
 
 	struct alignas(4) TalkTrigger_DialogueGroupInfo
 	{
@@ -27,11 +26,6 @@ namespace RPG::GameCore
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_TOSTRING_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

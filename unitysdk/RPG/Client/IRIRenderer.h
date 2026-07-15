@@ -3,48 +3,48 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_BABA01B6D912C22A;
+class Class_1_B947D336595B4072;
 namespace RPG::Client { class IRIManager; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_IRIRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0x165E0620)
-#define RPG_CLIENT_IRIRENDERER_GET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x165E0C10)
-#define RPG_CLIENT_IRIRENDERER_METHOD_5_3A7AB6A3EF7DB649_OFFSET UNITYSDK_OFFSET(0x165E0670)
-#define RPG_CLIENT_IRIRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x165E0AE0)
-#define RPG_CLIENT_IRIRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x165E09B0)
-#define RPG_CLIENT_IRIRENDERER_SET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0x165E0C20)
-#define RPG_CLIENT_IRIRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x165E0C60)
-#define RPG_CLIENT_IRIRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x165E0C30)
+#define RPG_CLIENT_IRIRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8C7910)
+#define RPG_CLIENT_IRIRENDERER_GET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xC8C7F00)
+#define RPG_CLIENT_IRIRENDERER_METHOD_5_3A7AB6A3EF7DB649_OFFSET UNITYSDK_OFFSET(0xC8C7960)
+#define RPG_CLIENT_IRIRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC8C7DD0)
+#define RPG_CLIENT_IRIRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC8C7CA0)
+#define RPG_CLIENT_IRIRENDERER_SET_UPDATETRANSFORM_OFFSET UNITYSDK_OFFSET(0xC8C7F10)
+#define RPG_CLIENT_IRIRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC8C7F50)
+#define RPG_CLIENT_IRIRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C7F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRIRenderer_TypeDefinitionIndex = 64448;
+	inline static constexpr unsigned int IRIRenderer_TypeDefinitionIndex = 65819;
 
 	class IRIRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>** StaticGet_Field_5_0()
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>** StaticGet_Field_5_0()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x3ACB0);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x32970);
 		}
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>** StaticGet_Field_5_1()
+		static ::RPG::Client::IRIManager** StaticGet_Field_5_1()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x3ACB8);
+			return (::RPG::Client::IRIManager**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x32978);
 		}
-		static ::RPG::Client::IRIManager** StaticGet_Field_5_2()
+		static ::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>** StaticGet_Field_5_2()
 		{
-			return (::RPG::Client::IRIManager**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x3ACC0);
+			return (::System::Collections::Generic::List_1<::RPG::Client::IRIRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x32980);
 		}
 		static ::System::Boolean* StaticGet_UseGlobalVolume()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0xB5C0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(IRIRenderer_TypeDefinitionIndex)->GetStaticField(0x8800);
 		}
 		::System::String* DataAssetPath; // 0x18
 		::System::Boolean _UpdateTransform_k__BackingField; // 0x20
-		::Class_1_BABA01B6D912C22A* Field_5_6; // 0x28
+		::Class_1_B947D336595B4072* Field_5_6; // 0x28
 		::System::UInt64 Field_5_7; // 0x30
 		::UnityEngine::Collider* Field_5_8; // 0x38
 		::UnityEngine::Vector3 Field_5_9; // 0x40

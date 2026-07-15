@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatAttackConfig; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE_METHOD_3_43B981B7F31C2E21_OFFSET UNITYSDK_OFFSET(0x1A09F850)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE_METHOD_3_B4568984BFC4DF08_OFFSET UNITYSDK_OFFSET(0x1A09AE50)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A09AE00)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE_METHOD_3_A0895AC58997B076_OFFSET UNITYSDK_OFFSET(0x1B3B9120)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE_METHOD_3_B4568984BFC4DF08_OFFSET UNITYSDK_OFFSET(0x1B3B9180)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B9170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_StrikeBackDamage_TypeDefinitionIndex = 15277;
+	inline static constexpr unsigned int DiceCombatTaskConfig_StrikeBackDamage_TypeDefinitionIndex = 15441;
 
 	class DiceCombatTaskConfig_StrikeBackDamage : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_43B981B7F31C2E21(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage*& a2)
+		static ::System::Void Method_3_A0895AC58997B076(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE_METHOD_3_43B981B7F31C2E21_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_STRIKEBACKDAMAGE_METHOD_3_A0895AC58997B076_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B4568984BFC4DF08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_StrikeBackDamage* a2)

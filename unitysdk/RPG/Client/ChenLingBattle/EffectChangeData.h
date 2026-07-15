@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_EA5A5E4D07C4CF2B_2;
+class Class_1_EA5A5E4D07C4CF2B_4;
 namespace RPG::Client::ChenLingBattle { class GridIndex; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYDEATH_OFFSET UNITYSDK_OFFSET(0x18DC5B10)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYEFFECT_OFFSET UNITYSDK_OFFSET(0x18DC5A70)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYGRID_OFFSET UNITYSDK_OFFSET(0x18DC5BB0)
-#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC5A50)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYDEATH_OFFSET UNITYSDK_OFFSET(0xC05A140)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYEFFECT_OFFSET UNITYSDK_OFFSET(0xC05A0A0)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYGRID_OFFSET UNITYSDK_OFFSET(0xC05A1E0)
+#define RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC05A080)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int EffectChangeData_TypeDefinitionIndex = 70820;
+	inline static constexpr unsigned int EffectChangeData_TypeDefinitionIndex = 72333;
 
 	class EffectChangeData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChenLingBattle::GridIndex* GridIndex; // 0x10
-		::System::Boolean IsLevelUp; // 0x18
-		::System::UInt32 ChangeValue; // 0x1C
-		::System::UInt64 EffectUniqueID; // 0x20
-		::System::UInt32 EntityUniqueID; // 0x28
+		::System::UInt64 EffectUniqueID; // 0x18
+		::System::UInt32 EntityUniqueID; // 0x20
+		::System::Boolean IsLevelUp; // 0x24
+		::System::UInt32 ChangeValue; // 0x28
 
 		::System::Void _ctor(::System::UInt64 a1, ::System::UInt32 a2, ::RPG::Client::ChenLingBattle::GridIndex* a3, ::System::UInt32 a4, ::System::Boolean a5)
 		{
@@ -38,9 +38,9 @@ namespace RPG::Client::ChenLingBattle
 			return ((::RPG::Client::ChenLingBattle::EffectChangeData*(*)(::System::UInt64, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYDEATH_OFFSET))(a1, a2, a3);
 		}
 
-		static ::RPG::Client::ChenLingBattle::EffectChangeData* CreateByGrid(::System::UInt64 a1, ::Class_1_EA5A5E4D07C4CF2B_2* a2, ::System::UInt32 a3, ::System::Boolean a4)
+		static ::RPG::Client::ChenLingBattle::EffectChangeData* CreateByGrid(::System::UInt64 a1, ::Class_1_EA5A5E4D07C4CF2B_4* a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::RPG::Client::ChenLingBattle::EffectChangeData*(*)(::System::UInt64, ::Class_1_EA5A5E4D07C4CF2B_2*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYGRID_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::Client::ChenLingBattle::EffectChangeData*(*)(::System::UInt64, ::Class_1_EA5A5E4D07C4CF2B_4*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_EFFECTCHANGEDATA_CREATEBYGRID_OFFSET))(a1, a2, a3, a4);
 		}
 	};
 }

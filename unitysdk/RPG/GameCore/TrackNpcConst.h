@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TrackNpcVisionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRACKNPCCONST_METHOD_2_D6AF175270B821ED_OFFSET UNITYSDK_OFFSET(0x16D228A0)
-#define RPG_GAMECORE_TRACKNPCCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x16D22980)
+#define RPG_GAMECORE_TRACKNPCCONST_METHOD_2_D6AF175270B821ED_OFFSET UNITYSDK_OFFSET(0x1B979A60)
+#define RPG_GAMECORE_TRACKNPCCONST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B979B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcConst_TypeDefinitionIndex = 15468;
+	inline static constexpr unsigned int TrackNpcConst_TypeDefinitionIndex = 15639;
 
 	class TrackNpcConst : public ::RPG::GameCore::JsonConfig
 	{

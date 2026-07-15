@@ -6,11 +6,11 @@
 namespace RPG::CustomRP { class ReflectionSetting_SSGISettingData; }
 namespace RPG::CustomRP { class ReflectionSetting_SSRSettingData; }
 
-#define RPG_CUSTOMRP_REFLECTIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1582C410)
+#define RPG_CUSTOMRP_REFLECTIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAB4F90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReflectionSetting_TypeDefinitionIndex = 35525;
+	inline static constexpr unsigned int ReflectionSetting_TypeDefinitionIndex = 36307;
 
 	class ReflectionSetting : public ::System::Object
 	{

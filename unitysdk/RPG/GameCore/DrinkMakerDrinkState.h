@@ -11,239 +11,239 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_ADDINGREDIENT_OFFSET UNITYSDK_OFFSET(0xEA154D0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_BINDPHYICE_OFFSET UNITYSDK_OFFSET(0xEA176E0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_CLEARINGREDIENTS_OFFSET UNITYSDK_OFFSET(0xEA167C0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETCURRENTCUPMODEL_OFFSET UNITYSDK_OFFSET(0xEA16970)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETDRINKMAKERGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xEA14D50)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETLIQUIDLOCALHEIGHT_OFFSET UNITYSDK_OFFSET(0xEA17630)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETLIQUIDTOTALHEIGHT_OFFSET UNITYSDK_OFFSET(0xEA17690)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETLIQUIDWORLDHEIGHT_OFFSET UNITYSDK_OFFSET(0xEA17590)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETMAXCAPACITY_OFFSET UNITYSDK_OFFSET(0xEA15290)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET_ADDINGINGREDIENT_OFFSET UNITYSDK_OFFSET(0xEA14CE0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET_INGREDIENTLIST_OFFSET UNITYSDK_OFFSET(0xEA14CA0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET_MIXLAYER_OFFSET UNITYSDK_OFFSET(0xEA14CC0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET__OPERATING_OFFSET UNITYSDK_OFFSET(0xEA14CF0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_MIX_OFFSET UNITYSDK_OFFSET(0xEA15D70)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_PREVIEW_OFFSET UNITYSDK_OFFSET(0xEA177D0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_RESET_OFFSET UNITYSDK_OFFSET(0xEA14BF0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SELECTCUP_OFFSET UNITYSDK_OFFSET(0xEA14EB0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SETMEASURINGCUPEFF_OFFSET UNITYSDK_OFFSET(0xEA15790)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SET_INGREDIENTLIST_OFFSET UNITYSDK_OFFSET(0xEA14CB0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SET_MIXLAYER_OFFSET UNITYSDK_OFFSET(0xEA14CD0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SWITCHDECORATION_OFFSET UNITYSDK_OFFSET(0xEA15410)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SWITCHICE_OFFSET UNITYSDK_OFFSET(0xEA15350)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_TICKADDINGREDIENTHEIGHT_OFFSET UNITYSDK_OFFSET(0xEA173E0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_TICKANIMATION_OFFSET UNITYSDK_OFFSET(0xEA169B0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0xEA178F0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xEA14B30)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__ONADDINGREDIENTEND_OFFSET UNITYSDK_OFFSET(0xEA174F0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__ONMIXEND_OFFSET UNITYSDK_OFFSET(0xEA17540)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__PREVIEWTICKANIMATION_OFFSET UNITYSDK_OFFSET(0xEA17340)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHLIQUIDCOLOR_OFFSET UNITYSDK_OFFSET(0xEA15EF0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHLIQUIDHEIGHT_OFFSET UNITYSDK_OFFSET(0xEA162F0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHLIQUID_OFFSET UNITYSDK_OFFSET(0xEA152E0)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHMIXFACTOR_OFFSET UNITYSDK_OFFSET(0xEA16640)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__RESETMIXFACTOR_OFFSET UNITYSDK_OFFSET(0xEA16870)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKADDINGREDIENT_OFFSET UNITYSDK_OFFSET(0xEA16F40)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKDEFAULTMIXING_OFFSET UNITYSDK_OFFSET(0xEA16A50)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKMIXING_OFFSET UNITYSDK_OFFSET(0xEA17030)
-#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKSURFACEDISTRIBEDSTATE_OFFSET UNITYSDK_OFFSET(0xEA16CD0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_ADDINGREDIENT_OFFSET UNITYSDK_OFFSET(0xDA1D450)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_BINDPHYICE_OFFSET UNITYSDK_OFFSET(0xDA1F670)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_CLEARINGREDIENTS_OFFSET UNITYSDK_OFFSET(0xDA1E750)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETCURRENTCUPMODEL_OFFSET UNITYSDK_OFFSET(0xDA1E900)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETDRINKMAKERGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xDA1CC80)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETLIQUIDLOCALHEIGHT_OFFSET UNITYSDK_OFFSET(0xDA1F5C0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETLIQUIDTOTALHEIGHT_OFFSET UNITYSDK_OFFSET(0xDA1F620)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETLIQUIDWORLDHEIGHT_OFFSET UNITYSDK_OFFSET(0xDA1F520)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GETMAXCAPACITY_OFFSET UNITYSDK_OFFSET(0xDA1D210)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET_ADDINGINGREDIENT_OFFSET UNITYSDK_OFFSET(0xDA1CC10)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET_INGREDIENTLIST_OFFSET UNITYSDK_OFFSET(0xDA1CBD0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET_MIXLAYER_OFFSET UNITYSDK_OFFSET(0xDA1CBF0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_GET__OPERATING_OFFSET UNITYSDK_OFFSET(0xDA1CC20)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_MIX_OFFSET UNITYSDK_OFFSET(0xDA1DD00)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_PREVIEW_OFFSET UNITYSDK_OFFSET(0xDA1F760)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_RESET_OFFSET UNITYSDK_OFFSET(0xDA1CB20)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SELECTCUP_OFFSET UNITYSDK_OFFSET(0xDA1CDE0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SETMEASURINGCUPEFF_OFFSET UNITYSDK_OFFSET(0xDA1D720)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SET_INGREDIENTLIST_OFFSET UNITYSDK_OFFSET(0xDA1CBE0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SET_MIXLAYER_OFFSET UNITYSDK_OFFSET(0xDA1CC00)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SWITCHDECORATION_OFFSET UNITYSDK_OFFSET(0xDA1D390)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_SWITCHICE_OFFSET UNITYSDK_OFFSET(0xDA1D2D0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_TICKADDINGREDIENTHEIGHT_OFFSET UNITYSDK_OFFSET(0xDA1F370)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE_TICKANIMATION_OFFSET UNITYSDK_OFFSET(0xDA1E940)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA1F880)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xDA1CA60)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__ONADDINGREDIENTEND_OFFSET UNITYSDK_OFFSET(0xDA1F480)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__ONMIXEND_OFFSET UNITYSDK_OFFSET(0xDA1F4D0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__PREVIEWTICKANIMATION_OFFSET UNITYSDK_OFFSET(0xDA1F2D0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHLIQUIDCOLOR_OFFSET UNITYSDK_OFFSET(0xDA1DE80)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHLIQUIDHEIGHT_OFFSET UNITYSDK_OFFSET(0xDA1E280)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHLIQUID_OFFSET UNITYSDK_OFFSET(0xDA1D260)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__REFRESHMIXFACTOR_OFFSET UNITYSDK_OFFSET(0xDA1E5D0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__RESETMIXFACTOR_OFFSET UNITYSDK_OFFSET(0xDA1E800)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKADDINGREDIENT_OFFSET UNITYSDK_OFFSET(0xDA1EED0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKDEFAULTMIXING_OFFSET UNITYSDK_OFFSET(0xDA1E9E0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKMIXING_OFFSET UNITYSDK_OFFSET(0xDA1EFC0)
+#define RPG_GAMECORE_DRINKMAKERDRINKSTATE__TICKSURFACEDISTRIBEDSTATE_OFFSET UNITYSDK_OFFSET(0xDA1EC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerDrinkState_TypeDefinitionIndex = 49333;
+	inline static constexpr unsigned int DrinkMakerDrinkState_TypeDefinitionIndex = 50348;
 
 	class DrinkMakerDrinkState : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer2()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x65200);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer3()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x65208);
-		}
-		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet__SP_Liquid()
-		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x65210);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer5()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x65218);
-		}
 		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer1()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x65220);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x60C30);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Mix()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x65228);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x60C38);
+		}
+		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet__SP_Liquid()
+		{
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x60C40);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer4()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x65230);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x60C48);
 		}
-		static ::System::Int32* StaticGet__SP_Surface_DisturbedState_Mix()
+		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13450);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x60C50);
 		}
-		static ::System::Int32* StaticGet__SP_Layer5_On()
+		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer5()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13454);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x60C58);
 		}
-		static ::System::Int32* StaticGet__SP_Layer5_Height()
+		static ::Il2CppArray<::System::Int32>** StaticGet__SP_Layer3()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13458);
-		}
-		static ::System::Int32* StaticGet__SP_Layer4_On()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x1345C);
-		}
-		static ::System::Int32* StaticGet__SP_Layer5_Attr2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13460);
-		}
-		static ::System::Int32* StaticGet__SP_Layer2_Height()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13464);
-		}
-		static ::System::Int32* StaticGet__SP_Layer5_Color()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13468);
-		}
-		static ::System::Int32* StaticGet__SP_Surface_DisturbedState_AddLiquid()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x1346C);
-		}
-		static ::System::Int32* StaticGet__SP_Layer3_Height()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13470);
-		}
-		static ::System::Int32* StaticGet__SP_Mix_45()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13474);
-		}
-		static ::System::Int32* StaticGet__SP_Mix_12()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13478);
-		}
-		static ::System::Int32* StaticGet__SP_Layer1_Attr1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x1347C);
-		}
-		static ::System::Int32* StaticGet__SP_Mix_34()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13480);
-		}
-		static ::System::Int32* StaticGet__SP_Layer4_Attr1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13484);
-		}
-		static ::System::Int32* StaticGet__SP_Layer1_Color()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13488);
-		}
-		static ::System::Int32* StaticGet__SP_Mix_23()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x1348C);
-		}
-		static ::System::Int32* StaticGet__SP_Layer2_On()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13490);
-		}
-		static ::System::Int32* StaticGet__SP_Layer5_Attr1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13494);
-		}
-		static ::System::Int32* StaticGet__SP_Layer3_On()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x13498);
-		}
-		static ::System::Int32* StaticGet__SP_Liquid_MinHeight()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x1349C);
-		}
-		static ::System::Int32* StaticGet__SP_Layer4_Height()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134A0);
-		}
-		static ::System::Int32* StaticGet__SP_Layer1_Height()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134A4);
-		}
-		static ::System::Int32* StaticGet__SP_Layer4_Attr2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134A8);
-		}
-		static ::System::Int32* StaticGet__SP_Layer1_On()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134AC);
-		}
-		static ::System::Int32* StaticGet__SP_Layer4_Color()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134B0);
-		}
-		static ::System::Int32* StaticGet__SP_Layer3_Color()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134B4);
-		}
-		static ::System::Int32* StaticGet__SP_Layer2_Color()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134B8);
-		}
-		static ::System::Int32* StaticGet__SP_Layer2_Attr2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134BC);
-		}
-		static ::System::Int32* StaticGet__SP_Layer1_Attr2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134C0);
-		}
-		static ::System::Int32* StaticGet__SP_Layer2_Attr1()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134C4);
-		}
-		static ::System::Int32* StaticGet__SP_Liquid_HeightFactor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134C8);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x60C60);
 		}
 		static ::System::Int32* StaticGet__SP_Layer3_Attr2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134CC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CA0);
 		}
-		static ::System::Int32* StaticGet__SP_Liquid_MaxHeight()
+		static ::System::Int32* StaticGet__SP_Layer5_Height()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134D0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CA4);
+		}
+		static ::System::Int32* StaticGet__SP_Layer2_Height()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CA8);
+		}
+		static ::System::Int32* StaticGet__SP_Layer4_On()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CAC);
+		}
+		static ::System::Int32* StaticGet__SP_Layer4_Height()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CB0);
 		}
 		static ::System::Int32* StaticGet__SP_Layer3_Attr1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134D4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CB4);
+		}
+		static ::System::Int32* StaticGet__SP_Layer4_Attr1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CB8);
+		}
+		static ::System::Int32* StaticGet__SP_Layer4_Color()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CBC);
+		}
+		static ::System::Int32* StaticGet__SP_Surface_DisturbedState_AddLiquid()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CC0);
+		}
+		static ::System::Int32* StaticGet__SP_Layer5_Color()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CC4);
+		}
+		static ::System::Int32* StaticGet__SP_Mix_12()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CC8);
+		}
+		static ::System::Int32* StaticGet__SP_Liquid_MaxHeight()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CCC);
+		}
+		static ::System::Int32* StaticGet__SP_Layer3_On()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CD0);
+		}
+		static ::System::Int32* StaticGet__SP_Layer3_Color()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CD4);
+		}
+		static ::System::Int32* StaticGet__SP_Layer1_Attr2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CD8);
+		}
+		static ::System::Int32* StaticGet__SP_Mix_45()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CDC);
+		}
+		static ::System::Int32* StaticGet__SP_Liquid_HeightFactor()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CE0);
+		}
+		static ::System::Int32* StaticGet__SP_Layer2_Color()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CE4);
+		}
+		static ::System::Int32* StaticGet__SP_Layer4_Attr2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CE8);
+		}
+		static ::System::Int32* StaticGet__SP_Liquid_MinHeight()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CEC);
+		}
+		static ::System::Int32* StaticGet__SP_Mix_34()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CF0);
+		}
+		static ::System::Int32* StaticGet__SP_Layer2_Attr1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CF4);
+		}
+		static ::System::Int32* StaticGet__SP_Layer1_On()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CF8);
+		}
+		static ::System::Int32* StaticGet__SP_Layer2_On()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10CFC);
+		}
+		static ::System::Int32* StaticGet__SP_Layer2_Attr2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D00);
 		}
 		static ::System::Int32* StaticGet__SP_Surface_DisturbedState_Mode()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x134D8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D04);
 		}
-		::System::Collections::Generic::List_1<::System::UInt32>* _IngredientList_k__BackingField; // 0x10
-		::UnityEngine::Transform* _IceSimParentNode; // 0x18
+		static ::System::Int32* StaticGet__SP_Layer3_Height()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D08);
+		}
+		static ::System::Int32* StaticGet__SP_Surface_DisturbedState_Mix()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D0C);
+		}
+		static ::System::Int32* StaticGet__SP_Layer1_Height()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D10);
+		}
+		static ::System::Int32* StaticGet__SP_Layer5_On()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D14);
+		}
+		static ::System::Int32* StaticGet__SP_Layer1_Color()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D18);
+		}
+		static ::System::Int32* StaticGet__SP_Layer5_Attr1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D1C);
+		}
+		static ::System::Int32* StaticGet__SP_Layer1_Attr1()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D20);
+		}
+		static ::System::Int32* StaticGet__SP_Mix_23()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D24);
+		}
+		static ::System::Int32* StaticGet__SP_Layer5_Attr2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerDrinkState_TypeDefinitionIndex)->GetStaticField(0x10D28);
+		}
+		::UnityEngine::Transform* _IceSimParentNode; // 0x10
+		::UnityEngine::Material* _CurrentLiquidMaterial; // 0x18
 		::System::Collections::Generic::List_1<::Class_1_8A0D924C14430663_2*>* _MixFactor; // 0x20
-		::UnityEngine::GameObject* _CurrentCupModel; // 0x28
-		::RPG::Client::DrinkMakerGlobalConfig* _GlobalConfig; // 0x30
-		::RPG::GameCore::DrinkMakerCupRow* _CurrentCupRow; // 0x38
-		::UnityEngine::Material* _CurrentLiquidMaterial; // 0x40
-		::System::Single _MixTime; // 0x48
-		::System::Single _LiquidMeshHighestPoint; // 0x4C
-		::System::Boolean _Mixing; // 0x50
-		::System::Boolean _AddingIngredient; // 0x51
-		::System::Int32 _MixLayer_k__BackingField; // 0x54
-		::System::Single _AddIngredientTime; // 0x58
-		::System::Single _LastLayerHeight; // 0x5C
+		::RPG::Client::DrinkMakerGlobalConfig* _GlobalConfig; // 0x28
+		::RPG::GameCore::DrinkMakerCupRow* _CurrentCupRow; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* _IngredientList_k__BackingField; // 0x38
+		::UnityEngine::GameObject* _CurrentCupModel; // 0x40
+		::System::Single _SurfaceDistribedStateTimer; // 0x48
+		::System::Int32 _MixLayer_k__BackingField; // 0x4C
+		::System::Single _LastLayerHeight; // 0x50
+		::System::Single LastMixTime; // 0x54
+		::System::Boolean _Mixing; // 0x58
+		::System::Boolean _AddingIngredient; // 0x59
+		::System::Single _AddIngredientTime; // 0x5C
 		::System::Single _TotalLiquidHeightRatio; // 0x60
-		::System::Single _SurfaceDistribedStateTimer; // 0x64
+		::System::Single _LiquidMeshLowestPoint; // 0x64
 		::System::Int32 _SurfaceDistribedState; // 0x68
-		::System::Single LastMixTime; // 0x6C
-		::System::Single _LiquidMeshLowestPoint; // 0x70
+		::System::Single _LiquidMeshHighestPoint; // 0x6C
+		::System::Single _MixTime; // 0x70
 
 		::System::Void _ctor()
 		{

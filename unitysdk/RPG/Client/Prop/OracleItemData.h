@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/Prop/OracleItemColor.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_ORACLEITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15B20900)
+#define RPG_CLIENT_PROP_ORACLEITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD1C1F30)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OracleItemData_TypeDefinitionIndex = 73250;
+	inline static constexpr unsigned int OracleItemData_TypeDefinitionIndex = 74775;
 
 	class OracleItemData : public ::System::Object
 	{

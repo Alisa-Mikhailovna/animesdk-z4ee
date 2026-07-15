@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_METHOD_3_3143EB70B9C054BC_OFFSET UNITYSDK_OFFSET(0x19348770)
-#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_METHOD_3_F7136761A55A8627_OFFSET UNITYSDK_OFFSET(0x193487F0)
-#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x193487C0)
+#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_METHOD_3_11BB7B87F698D212_OFFSET UNITYSDK_OFFSET(0x1B909760)
+#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_METHOD_3_F7136761A55A8627_OFFSET UNITYSDK_OFFSET(0x1B9097A0)
+#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B909790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartDialogueEntityInteract_TypeDefinitionIndex = 19255;
+	inline static constexpr unsigned int StartDialogueEntityInteract_TypeDefinitionIndex = 19611;
 
 	class StartDialogueEntityInteract : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3143EB70B9C054BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartDialogueEntityInteract*& a2)
+		static ::System::Void Method_3_11BB7B87F698D212(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartDialogueEntityInteract*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartDialogueEntityInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_METHOD_3_3143EB70B9C054BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartDialogueEntityInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_METHOD_3_11BB7B87F698D212_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F7136761A55A8627(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartDialogueEntityInteract* a2)

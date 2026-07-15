@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE_METHOD_4_062E9B2EE0CFA8BC_OFFSET UNITYSDK_OFFSET(0x1B321B00)
-#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE_METHOD_4_FDDF2901365F4CCA_OFFSET UNITYSDK_OFFSET(0x1B321A20)
-#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B321AA0)
+#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE_METHOD_4_062E9B2EE0CFA8BC_OFFSET UNITYSDK_OFFSET(0x1B9EE860)
+#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE_METHOD_4_844974462BCC9E69_OFFSET UNITYSDK_OFFSET(0x1B9EE810)
+#define RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9EE850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitRogueTournCollectionBoothUpdate_TypeDefinitionIndex = 20887;
+	inline static constexpr unsigned int WaitRogueTournCollectionBoothUpdate_TypeDefinitionIndex = 21302;
 
 	class WaitRogueTournCollectionBoothUpdate : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_FDDF2901365F4CCA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueTournCollectionBoothUpdate*& a2)
+		static ::System::Void Method_4_844974462BCC9E69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueTournCollectionBoothUpdate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueTournCollectionBoothUpdate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE_METHOD_4_FDDF2901365F4CCA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitRogueTournCollectionBoothUpdate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITROGUETOURNCOLLECTIONBOOTHUPDATE_METHOD_4_844974462BCC9E69_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_062E9B2EE0CFA8BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitRogueTournCollectionBoothUpdate* a2)

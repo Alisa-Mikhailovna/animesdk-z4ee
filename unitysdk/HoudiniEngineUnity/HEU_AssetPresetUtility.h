@@ -5,24 +5,24 @@
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_ASSETPRESETUTILITY_LOADPRESETFILEINTOASSETANDCOOK_OFFSET UNITYSDK_OFFSET(0x1368BC30)
-#define HOUDINIENGINEUNITY_HEU_ASSETPRESETUTILITY_SAVEASSETPRESETTOFILE_OFFSET UNITYSDK_OFFSET(0x1368B890)
-#define HOUDINIENGINEUNITY_HEU_ASSETPRESETUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1368C120)
+#define HOUDINIENGINEUNITY_HEU_ASSETPRESETUTILITY_LOADPRESETFILEINTOASSETANDCOOK_OFFSET UNITYSDK_OFFSET(0x19838D10)
+#define HOUDINIENGINEUNITY_HEU_ASSETPRESETUTILITY_SAVEASSETPRESETTOFILE_OFFSET UNITYSDK_OFFSET(0x19838850)
+#define HOUDINIENGINEUNITY_HEU_ASSETPRESETUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19839340)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetPresetUtility_TypeDefinitionIndex = 37408;
+	inline static constexpr unsigned int HEU_AssetPresetUtility_TypeDefinitionIndex = 38216;
 
 	class HEU_AssetPresetUtility : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_PRESET_IDENTIFIER()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(HEU_AssetPresetUtility_TypeDefinitionIndex)->GetStaticField(0x9B70);
+			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(HEU_AssetPresetUtility_TypeDefinitionIndex)->GetStaticField(0xBDA0);
 		}
 		static ::System::Int32* StaticGet_PRESET_VERSION()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_AssetPresetUtility_TypeDefinitionIndex)->GetStaticField(0x4160);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HEU_AssetPresetUtility_TypeDefinitionIndex)->GetStaticField(0x4720);
 		}
 
 		static ::System::Void _cctor()

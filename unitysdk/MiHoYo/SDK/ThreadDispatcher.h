@@ -6,22 +6,22 @@ namespace MiHoYo::SDK { class ThreadDispatcher_MainThreadDispatcher; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_THREADDISPATCHER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16A3D5B0)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0x16A58B60)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0x16A58AB0)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x16A3D6C0)
-#define MIHOYO_SDK_THREADDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x16A589E0)
+#define MIHOYO_SDK_THREADDISPATCHER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19DFE280)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0x19E1A550)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0x19E1A4A0)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x19DFE390)
+#define MIHOYO_SDK_THREADDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1A3D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadDispatcher_TypeDefinitionIndex = 7973;
+	inline static constexpr unsigned int ThreadDispatcher_TypeDefinitionIndex = 7983;
 
 	class ThreadDispatcher : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::ThreadDispatcher** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::ThreadDispatcher**)Il2CppClass::FromTypeDefinitionIndex(ThreadDispatcher_TypeDefinitionIndex)->GetStaticField(0x1BCD0);
+			return (::MiHoYo::SDK::ThreadDispatcher**)Il2CppClass::FromTypeDefinitionIndex(ThreadDispatcher_TypeDefinitionIndex)->GetStaticField(0x29C40);
 		}
 		::MiHoYo::SDK::ThreadDispatcher_MainThreadDispatcher* mainThreadDispatcher; // 0x10
 

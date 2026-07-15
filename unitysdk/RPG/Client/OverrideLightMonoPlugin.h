@@ -7,11 +7,11 @@
 namespace RPG::Client { class OverrideLightBehavior; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_OVERRIDELIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x16FEB780)
+#define RPG_CLIENT_OVERRIDELIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCF14300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OverrideLightMonoPlugin_TypeDefinitionIndex = 65726;
+	inline static constexpr unsigned int OverrideLightMonoPlugin_TypeDefinitionIndex = 67143;
 
 	class OverrideLightMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::OverrideLightBehavior*>
 	{

@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+#include "unitysdk/Enum_3_75A1C8C41006A504.h"
 #include "unitysdk/System/Object.h"
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_CLEAR_OFFSET UNITYSDK_OFFSET(0x19573580)
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_HASREWARD_OFFSET UNITYSDK_OFFSET(0x195735E0)
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_SRCTYPE_OFFSET UNITYSDK_OFFSET(0x19573570)
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS__CTOR_OFFSET UNITYSDK_OFFSET(0x19573640)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_CLEAR_OFFSET UNITYSDK_OFFSET(0xC6B5800)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_HASREWARD_OFFSET UNITYSDK_OFFSET(0xC6B5870)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_SRCTYPE_OFFSET UNITYSDK_OFFSET(0xC6B57B0)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS__CTOR_OFFSET UNITYSDK_OFFSET(0xC6B58D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBattleResultBonus_TypeDefinitionIndex = 60216;
+	inline static constexpr unsigned int GridFightBattleResultBonus_TypeDefinitionIndex = 61504;
 
 	class GridFightBattleResultBonus : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* OrbAdds; // 0x10
-		::System::Int32 RoleNumAdd; // 0x18
-		::System::Int32 ExpAdd; // 0x1C
-		::System::Int32 GoldAdd; // 0x20
+		::System::Int32 GoldAdd; // 0x18
+		::System::Int32 RoleNumAdd; // 0x1C
+		::System::Int32 ExpAdd; // 0x20
 		::System::Int32 LevelAdd; // 0x24
 
 		::System::Void _ctor()
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_75A5C8C4100A8E33_1 get_SrcType()
+		::Enum_3_75A1C8C41006A504 get_SrcType()
 		{
-			return ((::Enum_3_75A5C8C4100A8E33_1(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_SRCTYPE_OFFSET))(this);
+			return ((::Enum_3_75A1C8C41006A504(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_SRCTYPE_OFFSET))(this);
 		}
 
 		::System::Void Clear()

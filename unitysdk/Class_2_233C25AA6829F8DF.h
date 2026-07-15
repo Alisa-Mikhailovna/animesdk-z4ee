@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_26684305CEECE64E.h"
+#include "unitysdk/Class_1_E559374AC4E5AD13.h"
 
 class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionEnableTargetLockCat; }
 
-#define CLASS_2_233C25AA6829F8DF_METHOD_2_126643199A9CA1E8_OFFSET UNITYSDK_OFFSET(0x159109A0)
-#define CLASS_2_233C25AA6829F8DF__CTOR_OFFSET UNITYSDK_OFFSET(0x15910990)
+#define CLASS_2_233C25AA6829F8DF_METHOD_2_126643199A9CA1E8_OFFSET UNITYSDK_OFFSET(0x1A5BFE90)
+#define CLASS_2_233C25AA6829F8DF__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5BFE80)
 
-inline static constexpr unsigned int Class_2_233C25AA6829F8DF_TypeDefinitionIndex = 35042;
+inline static constexpr unsigned int Class_2_233C25AA6829F8DF_TypeDefinitionIndex = 35824;
 
-class Class_2_233C25AA6829F8DF : public ::Class_1_26684305CEECE64E
+class Class_2_233C25AA6829F8DF : public ::Class_1_E559374AC4E5AD13
 {
 public:
 	::RPG::GameCore::CakeRaceActionEnableTargetLockCat* Field_2_0; // 0x10

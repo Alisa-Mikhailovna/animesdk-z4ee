@@ -4,9 +4,9 @@
 
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define CLASS_1_23874EFD5333C67D_METHOD_1_7E33E56AE97993D6_OFFSET UNITYSDK_OFFSET(0x17F30D90)
+#define CLASS_1_23874EFD5333C67D_METHOD_1_7E33E56AE97993D6_OFFSET UNITYSDK_OFFSET(0x14A281D0)
 
-inline static constexpr unsigned int Class_1_23874EFD5333C67D_TypeDefinitionIndex = 58759;
+inline static constexpr unsigned int Class_1_23874EFD5333C67D_TypeDefinitionIndex = 60030;
 
 class Class_1_23874EFD5333C67D : public ::System::Object
 {

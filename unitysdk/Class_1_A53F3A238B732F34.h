@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/AdvEffectParamSource.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_A53F3A238B732F34__CTOR_OFFSET UNITYSDK_OFFSET(0x1352D540)
+#define CLASS_1_A53F3A238B732F34__CTOR_OFFSET UNITYSDK_OFFSET(0xB99F7A0)
 
-inline static constexpr unsigned int Class_1_A53F3A238B732F34_TypeDefinitionIndex = 65368;
+inline static constexpr unsigned int Class_1_A53F3A238B732F34_TypeDefinitionIndex = 66780;
 
 class Class_1_A53F3A238B732F34 : public ::System::Object
 {

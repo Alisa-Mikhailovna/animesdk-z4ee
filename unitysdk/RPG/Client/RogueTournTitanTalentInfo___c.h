@@ -5,24 +5,24 @@
 namespace RPG::Client { class RogueTournTitanTalentNodeData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188C3830)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188C3860)
-#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x188C3870)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD490520)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD490550)
+#define RPG_CLIENT_ROGUETOURNTITANTALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xD490560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournTitanTalentInfo___c_TypeDefinitionIndex = 63487;
+	inline static constexpr unsigned int RogueTournTitanTalentInfo___c_TypeDefinitionIndex = 64854;
 
 	class RogueTournTitanTalentInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournTitanTalentInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournTitanTalentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x3A560);
-		}
 		static ::System::Comparison_1<::RPG::Client::RogueTournTitanTalentNodeData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournTitanTalentNodeData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x3A568);
+			return (::System::Comparison_1<::RPG::Client::RogueTournTitanTalentNodeData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x2EC30);
+		}
+		static ::RPG::Client::RogueTournTitanTalentInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournTitanTalentInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournTitanTalentInfo___c_TypeDefinitionIndex)->GetStaticField(0x2EC38);
 		}
 
 		static ::System::Void _cctor()

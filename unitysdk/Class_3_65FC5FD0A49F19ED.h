@@ -5,10 +5,10 @@
 namespace RPG::Client { class ParkourGameAddPlayerSkillPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_65FC5FD0A49F19ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16398ED0)
-#define CLASS_3_65FC5FD0A49F19ED__CTOR_OFFSET UNITYSDK_OFFSET(0x16398EA0)
+#define CLASS_3_65FC5FD0A49F19ED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14455450)
+#define CLASS_3_65FC5FD0A49F19ED__CTOR_OFFSET UNITYSDK_OFFSET(0x14455420)
 
-inline static constexpr unsigned int Class_3_65FC5FD0A49F19ED_TypeDefinitionIndex = 49593;
+inline static constexpr unsigned int Class_3_65FC5FD0A49F19ED_TypeDefinitionIndex = 50647;
 
 class Class_3_65FC5FD0A49F19ED : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::Client::ParkourGameAddPlayerSkillPoint*>
 {

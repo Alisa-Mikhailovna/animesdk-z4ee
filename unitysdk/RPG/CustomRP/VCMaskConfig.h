@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_VCMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C3980)
+#define RPG_CUSTOMRP_VCMASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC19C0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VCMaskConfig_TypeDefinitionIndex = 35363;
+	inline static constexpr unsigned int VCMaskConfig_TypeDefinitionIndex = 36144;
 
 	class VCMaskConfig : public ::System::Object
 	{

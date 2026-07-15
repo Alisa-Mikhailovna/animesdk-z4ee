@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_QAADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A9CA50)
-#define RPG_GAMECORE_QAADVENTUREPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9CCE0)
+#define RPG_GAMECORE_QAADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6F6170)
+#define RPG_GAMECORE_QAADVENTUREPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F6400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QAAdventurePlayerRow_TypeDefinitionIndex = 18112;
+	inline static constexpr unsigned int QAAdventurePlayerRow_TypeDefinitionIndex = 18316;
 
 	class QAAdventurePlayerRow : public ::RPG::GameCore::JsonConfig
 	{

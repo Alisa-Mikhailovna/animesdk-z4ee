@@ -4,12 +4,12 @@
 
 namespace System::Net::NetworkInformation { class NetworkInterface; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x17CFAD00)
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x17CFAF60)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1CCF9CD0)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF9EB0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int NetworkInterfaceFactory_TypeDefinitionIndex = 2943;
+	inline static constexpr unsigned int NetworkInterfaceFactory_TypeDefinitionIndex = 2947;
 
 	class NetworkInterfaceFactory : public ::System::Object
 	{

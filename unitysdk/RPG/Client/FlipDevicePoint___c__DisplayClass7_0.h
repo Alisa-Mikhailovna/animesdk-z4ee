@@ -7,12 +7,12 @@
 class Class_1_303D5A33D1401D59;
 namespace System { class String; }
 
-#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x159477E0)
-#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0__ONSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15947CC0)
+#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC61E3F0)
+#define RPG_CLIENT_FLIPDEVICEPOINT___C__DISPLAYCLASS7_0__ONSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xC61E940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlipDevicePoint___c__DisplayClass7_0_TypeDefinitionIndex = 68471;
+	inline static constexpr unsigned int FlipDevicePoint___c__DisplayClass7_0_TypeDefinitionIndex = 69965;
 
 	class FlipDevicePoint___c__DisplayClass7_0 : public ::System::Object
 	{

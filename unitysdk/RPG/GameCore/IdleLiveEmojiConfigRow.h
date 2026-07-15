@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_981D4BAE18B257E9;
 
-#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD5250)
-#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD53A0)
+#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B524A70)
+#define RPG_GAMECORE_IDLELIVEEMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B524BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEmojiConfigRow_TypeDefinitionIndex = 11185;
+	inline static constexpr unsigned int IdleLiveEmojiConfigRow_TypeDefinitionIndex = 11285;
 
 	class IdleLiveEmojiConfigRow : public ::System::Object
 	{
 	public:
 		::Class_1_981D4BAE18B257E9* TextNumRange; // 0x10
-		::System::Single Interval; // 0x18
-		::System::UInt32 EmojiPhaseID; // 0x1C
+		::System::UInt32 EmojiPhaseID; // 0x18
+		::System::Single Interval; // 0x1C
 
 		::System::Void _ctor()
 		{

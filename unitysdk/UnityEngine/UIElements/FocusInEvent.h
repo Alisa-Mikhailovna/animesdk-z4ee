@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/FocusEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_FOCUSINEVENT_INIT_OFFSET UNITYSDK_OFFSET(0x19F87B40)
-#define UNITYENGINE_UIELEMENTS_FOCUSINEVENT_LOCALINIT_OFFSET UNITYSDK_OFFSET(0x19F87B80)
-#define UNITYENGINE_UIELEMENTS_FOCUSINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F87B90)
+#define UNITYENGINE_UIELEMENTS_FOCUSINEVENT_INIT_OFFSET UNITYSDK_OFFSET(0x1D0E22B0)
+#define UNITYENGINE_UIELEMENTS_FOCUSINEVENT_LOCALINIT_OFFSET UNITYSDK_OFFSET(0x1D0E22F0)
+#define UNITYENGINE_UIELEMENTS_FOCUSINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E2300)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int FocusInEvent_TypeDefinitionIndex = 6197;
+	inline static constexpr unsigned int FocusInEvent_TypeDefinitionIndex = 6202;
 
 	class FocusInEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusInEvent*>
 	{

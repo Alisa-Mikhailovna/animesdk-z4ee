@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD6760)
-#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD6A00)
+#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B525F80)
+#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B526220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEventSentenceRow_TypeDefinitionIndex = 11195;
+	inline static constexpr unsigned int IdleLiveEventSentenceRow_TypeDefinitionIndex = 11295;
 
 	class IdleLiveEventSentenceRow : public ::System::Object
 	{
 	public:
 		::System::String* FigurePath; // 0x10
-		::System::UInt32 SectionID; // 0x18
-		::System::UInt32 Index; // 0x1C
+		::System::UInt32 Index; // 0x18
+		::System::UInt32 SectionID; // 0x1C
 		::RPG::Client::TextID Sentence; // 0x20
 		::RPG::Client::TextID Name; // 0x30
 

@@ -4,11 +4,11 @@
 
 namespace RPG::Client::Mono { class FiveDimChildPresetItem; }
 
-#define RPG_CLIENT_MONO_FIVEDIMCHILDPRESETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12A27DD0)
+#define RPG_CLIENT_MONO_FIVEDIMCHILDPRESETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCC2EA70)
 
 namespace RPG::Client::Mono
 {
-	inline static constexpr unsigned int FiveDimChildPresetInfo_TypeDefinitionIndex = 70597;
+	inline static constexpr unsigned int FiveDimChildPresetInfo_TypeDefinitionIndex = 72110;
 
 	class FiveDimChildPresetInfo : public ::UnityEngine::MonoBehaviour
 	{

@@ -7,13 +7,12 @@ namespace RPG::Client { class QuaternionRotationControlBehavior; }
 namespace RPG::Client { class QuaternionRotationControlBehavior_SingleRotation; }
 namespace System { class String; }
 
-#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1715B3E0)
-#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1715B430)
-#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1715B4E0)
+#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD281CC0)
+#define RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD281D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QuaternionRotationControlMonoPlugin_TypeDefinitionIndex = 66173;
+	inline static constexpr unsigned int QuaternionRotationControlMonoPlugin_TypeDefinitionIndex = 67598;
 
 	class QuaternionRotationControlMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::QuaternionRotationControlBehavior*>
 	{
@@ -33,11 +32,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_QUATERNIONROTATIONCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

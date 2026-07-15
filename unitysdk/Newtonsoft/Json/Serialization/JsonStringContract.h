@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSTRINGCONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x158C5740)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSTRINGCONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2C6340)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonStringContract_TypeDefinitionIndex = 9393;
+	inline static constexpr unsigned int JsonStringContract_TypeDefinitionIndex = 9405;
 
 	class JsonStringContract : public ::Newtonsoft::Json::Serialization::JsonPrimitiveContract
 	{

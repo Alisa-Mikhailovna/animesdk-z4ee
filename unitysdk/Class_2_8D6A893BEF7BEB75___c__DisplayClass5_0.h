@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_581;
+class Class_0_16E4307DCC419505_616;
 class Class_2_8D6A893BEF7BEB75;
 
-#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14BFD670)
-#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS5_0___ONDATASTARTINGBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0x14BFEB60)
+#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB83090)
+#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS5_0___ONDATASTARTINGBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xDB84880)
 
-inline static constexpr unsigned int Class_2_8D6A893BEF7BEB75___c__DisplayClass5_0_TypeDefinitionIndex = 55705;
+inline static constexpr unsigned int Class_2_8D6A893BEF7BEB75___c__DisplayClass5_0_TypeDefinitionIndex = 56942;
 
 class Class_2_8D6A893BEF7BEB75___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_581* data; // 0x10
-	::Class_2_8D6A893BEF7BEB75* __4__this; // 0x18
+	::Class_2_8D6A893BEF7BEB75* __4__this; // 0x10
+	::Class_0_16E4307DCC419505_616* data; // 0x18
 
 	::System::Void _ctor()
 	{

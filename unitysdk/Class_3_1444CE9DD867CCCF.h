@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DisableBattleTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1444CE9DD867CCCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1659BE70)
-#define CLASS_3_1444CE9DD867CCCF__CTOR_OFFSET UNITYSDK_OFFSET(0x1659BE40)
+#define CLASS_3_1444CE9DD867CCCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAFA6BB0)
+#define CLASS_3_1444CE9DD867CCCF__CTOR_OFFSET UNITYSDK_OFFSET(0xAFA6B80)
 
-inline static constexpr unsigned int Class_3_1444CE9DD867CCCF_TypeDefinitionIndex = 54280;
+inline static constexpr unsigned int Class_3_1444CE9DD867CCCF_TypeDefinitionIndex = 55503;
 
 class Class_3_1444CE9DD867CCCF : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DisableBattleTarget*>
 {

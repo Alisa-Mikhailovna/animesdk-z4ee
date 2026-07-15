@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C2BC00)
-#define RPG_GAMECORE_MAPSPACETYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2C2F0)
+#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5AD110)
+#define RPG_GAMECORE_MAPSPACETYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AD800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapSpaceTypeConfigRow_TypeDefinitionIndex = 13340;
+	inline static constexpr unsigned int MapSpaceTypeConfigRow_TypeDefinitionIndex = 13488;
 
 	class MapSpaceTypeConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::GameCore::MapSpaceType MapSpaceType; // 0x18
-		::System::Int32 SortID; // 0x1C
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::GameCore::MapSpaceType MapSpaceType; // 0x28
+		::System::Int32 SortID; // 0x2C
 
 		::System::Void _ctor()
 		{

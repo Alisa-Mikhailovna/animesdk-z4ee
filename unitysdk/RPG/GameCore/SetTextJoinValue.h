@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTEXTJOINVALUE_METHOD_3_BE4C70C796BD237F_OFFSET UNITYSDK_OFFSET(0x1A7A1710)
-#define RPG_GAMECORE_SETTEXTJOINVALUE_METHOD_3_D35CB075C8E7E801_OFFSET UNITYSDK_OFFSET(0x1A7A1790)
-#define RPG_GAMECORE_SETTEXTJOINVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A1760)
+#define RPG_GAMECORE_SETTEXTJOINVALUE_METHOD_3_0B50AEAE101E53EA_OFFSET UNITYSDK_OFFSET(0x1B8B7320)
+#define RPG_GAMECORE_SETTEXTJOINVALUE_METHOD_3_D35CB075C8E7E801_OFFSET UNITYSDK_OFFSET(0x1B8B7360)
+#define RPG_GAMECORE_SETTEXTJOINVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B7350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTextJoinValue_TypeDefinitionIndex = 19735;
+	inline static constexpr unsigned int SetTextJoinValue_TypeDefinitionIndex = 20094;
 
 	class SetTextJoinValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEXTJOINVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BE4C70C796BD237F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTextJoinValue*& a2)
+		static ::System::Void Method_3_0B50AEAE101E53EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTextJoinValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTextJoinValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEXTJOINVALUE_METHOD_3_BE4C70C796BD237F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTextJoinValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEXTJOINVALUE_METHOD_3_0B50AEAE101E53EA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D35CB075C8E7E801(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTextJoinValue* a2)

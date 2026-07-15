@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F4070)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x1B3F7980)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x1B3F8140)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19CBA110)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x19CBDBC0)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS43_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x19CBE3C0)
 
 namespace MiHoYo::SDK::Windows::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass43_0_TypeDefinitionIndex = 8294;
+	inline static constexpr unsigned int BindManager___c__DisplayClass43_0_TypeDefinitionIndex = 8306;
 
 	class BindManager___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x10
-		::System::Action_1<::System::String*>* __9__1; // 0x18
-		::System::String* account; // 0x20
-		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x28
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x30
+		::System::String* account; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x18
+		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x28
+		::System::Action_1<::System::String*>* __9__1; // 0x30
 		::System::Boolean forceTokenRefresh; // 0x38
 
 		::System::Void _ctor()

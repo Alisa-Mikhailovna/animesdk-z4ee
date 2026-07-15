@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_A903F0EBD5B198AE_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x193078C0)
-#define CLASS_1_A903F0EBD5B198AE__CTOR_OFFSET UNITYSDK_OFFSET(0x19307C50)
+#define CLASS_1_A903F0EBD5B198AE_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1AB96EF0)
+#define CLASS_1_A903F0EBD5B198AE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB97280)
 
-inline static constexpr unsigned int Class_1_A903F0EBD5B198AE_TypeDefinitionIndex = 12059;
+inline static constexpr unsigned int Class_1_A903F0EBD5B198AE_TypeDefinitionIndex = 12191;
 
 class Class_1_A903F0EBD5B198AE : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::String*>* Field_1_0; // 0x10
-	::Il2CppArray<::System::String*>* Field_1_1; // 0x18
-	::Il2CppArray<::System::Single>* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::System::String* Field_1_4; // 0x30
+	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::Il2CppArray<::System::String*>* Field_1_3; // 0x28
+	::Il2CppArray<::System::Single>* Field_1_4; // 0x30
 	::System::Single Field_1_5; // 0x38
 	::System::Single Field_1_6; // 0x3C
 	::System::Single Field_1_7; // 0x40

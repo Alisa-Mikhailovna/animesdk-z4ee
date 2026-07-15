@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_F66A0BACF26821D1_OFFSET UNITYSDK_OFFSET(0x19A3B990)
-#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_FD422308C2686178_OFFSET UNITYSDK_OFFSET(0x19A3BA10)
-#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3B9E0)
+#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_759F334F1D297A1B_OFFSET UNITYSDK_OFFSET(0x1B9943E0)
+#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_FD422308C2686178_OFFSET UNITYSDK_OFFSET(0x1B994420)
+#define RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B994410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerCommonActiveSkillAbility_TypeDefinitionIndex = 21461;
+	inline static constexpr unsigned int TriggerCommonActiveSkillAbility_TypeDefinitionIndex = 21881;
 
 	class TriggerCommonActiveSkillAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F66A0BACF26821D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCommonActiveSkillAbility*& a2)
+		static ::System::Void Method_3_759F334F1D297A1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCommonActiveSkillAbility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCommonActiveSkillAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_F66A0BACF26821D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCommonActiveSkillAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCOMMONACTIVESKILLABILITY_METHOD_3_759F334F1D297A1B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FD422308C2686178(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCommonActiveSkillAbility* a2)

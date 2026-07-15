@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_56608EA3240EF69A_OFFSET UNITYSDK_OFFSET(0x19FFF8D0)
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_EECD9ECA405762B9_OFFSET UNITYSDK_OFFSET(0x19FFF950)
-#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFF920)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_8E4973BF9C021076_OFFSET UNITYSDK_OFFSET(0x1B8CA5E0)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_EECD9ECA405762B9_OFFSET UNITYSDK_OFFSET(0x1B8CA630)
+#define RPG_GAMECORE_SHOWENTERPASSWORDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8CA620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEnterPasswordPage_TypeDefinitionIndex = 20731;
+	inline static constexpr unsigned int ShowEnterPasswordPage_TypeDefinitionIndex = 21146;
 
 	class ShowEnterPasswordPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_56608EA3240EF69A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnterPasswordPage*& a2)
+		static ::System::Void Method_3_8E4973BF9C021076(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnterPasswordPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnterPasswordPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_56608EA3240EF69A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnterPasswordPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENTERPASSWORDPAGE_METHOD_3_8E4973BF9C021076_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EECD9ECA405762B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnterPasswordPage* a2)

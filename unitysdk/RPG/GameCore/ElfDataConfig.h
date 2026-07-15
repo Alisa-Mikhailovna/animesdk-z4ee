@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELFDATACONFIG_METHOD_3_937B6BCD668E260A_OFFSET UNITYSDK_OFFSET(0x19D6A240)
-#define RPG_GAMECORE_ELFDATACONFIG_METHOD_3_B5D8A73788BD8BF1_OFFSET UNITYSDK_OFFSET(0x19D6A120)
-#define RPG_GAMECORE_ELFDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6A220)
+#define RPG_GAMECORE_ELFDATACONFIG_METHOD_3_073E8ABE1A9F2486_OFFSET UNITYSDK_OFFSET(0x1B3D9BE0)
+#define RPG_GAMECORE_ELFDATACONFIG_METHOD_3_937B6BCD668E260A_OFFSET UNITYSDK_OFFSET(0x1B3D9CB0)
+#define RPG_GAMECORE_ELFDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D9CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfDataConfig_TypeDefinitionIndex = 17574;
+	inline static constexpr unsigned int ElfDataConfig_TypeDefinitionIndex = 17747;
 
 	class ElfDataConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFDATACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B5D8A73788BD8BF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfDataConfig*& a2)
+		static ::System::Void Method_3_073E8ABE1A9F2486(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfDataConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfDataConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFDATACONFIG_METHOD_3_B5D8A73788BD8BF1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfDataConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFDATACONFIG_METHOD_3_073E8ABE1A9F2486_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_937B6BCD668E260A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfDataConfig* a2)

@@ -8,39 +8,39 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1835D090)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1835D0D0)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_0_OFFSET UNITYSDK_OFFSET(0x1835D120)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_1_OFFSET UNITYSDK_OFFSET(0x1835D140)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_0_OFFSET UNITYSDK_OFFSET(0x1835D0E0)
-#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_1_OFFSET UNITYSDK_OFFSET(0x1835D100)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B56A20)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B56A60)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_0_OFFSET UNITYSDK_OFFSET(0x19B56AB0)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORINT32_B__3_1_OFFSET UNITYSDK_OFFSET(0x19B56AD0)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_0_OFFSET UNITYSDK_OFFSET(0x19B56A70)
+#define MIHOYO_SDK_PROTOBUF_FIELDCODEC___C__FORSTRING_B__0_1_OFFSET UNITYSDK_OFFSET(0x19B56A90)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec___c_TypeDefinitionIndex = 33908;
+	inline static constexpr unsigned int FieldCodec___c_TypeDefinitionIndex = 34279;
 
 	class FieldCodec___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>** StaticGet___9__3_1()
 		{
-			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x47ED0);
+			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x4A5C0);
 		}
 		static ::MiHoYo::SDK::Protobuf::FieldCodec___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::FieldCodec___c**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x47ED8);
-		}
-		static ::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x47EE0);
+			return (::MiHoYo::SDK::Protobuf::FieldCodec___c**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x4A5C8);
 		}
 		static ::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>** StaticGet___9__0_1()
 		{
-			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x47EE8);
+			return (::System::Action_2<::MiHoYo::SDK::Protobuf::CodedOutputStream*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x4A5D0);
+		}
+		static ::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x4A5D8);
 		}
 		static ::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::Int32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x47EF0);
+			return (::System::Func_2<::MiHoYo::SDK::Protobuf::CodedInputStream*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(FieldCodec___c_TypeDefinitionIndex)->GetStaticField(0x4A5E0);
 		}
 
 		static ::System::Void _cctor()

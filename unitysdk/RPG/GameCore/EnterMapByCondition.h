@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ENTERMAPBYCONDITION_METHOD_3_13262A11FB9E7773_OFFSET UNITYSDK_OFFSET(0x19D7B220)
-#define RPG_GAMECORE_ENTERMAPBYCONDITION_METHOD_3_25195C2185A886F5_OFFSET UNITYSDK_OFFSET(0x19D7B1A0)
-#define RPG_GAMECORE_ENTERMAPBYCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19D7B1F0)
+#define RPG_GAMECORE_ENTERMAPBYCONDITION_METHOD_3_13262A11FB9E7773_OFFSET UNITYSDK_OFFSET(0x1B3EA160)
+#define RPG_GAMECORE_ENTERMAPBYCONDITION_METHOD_3_CFEE30E0600DA810_OFFSET UNITYSDK_OFFSET(0x1B3EA120)
+#define RPG_GAMECORE_ENTERMAPBYCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3EA150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterMapByCondition_TypeDefinitionIndex = 19155;
+	inline static constexpr unsigned int EnterMapByCondition_TypeDefinitionIndex = 19511;
 
 	class EnterMapByCondition : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMAPBYCONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_25195C2185A886F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterMapByCondition*& a2)
+		static ::System::Void Method_3_CFEE30E0600DA810(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterMapByCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterMapByCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMAPBYCONDITION_METHOD_3_25195C2185A886F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterMapByCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERMAPBYCONDITION_METHOD_3_CFEE30E0600DA810_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_13262A11FB9E7773(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterMapByCondition* a2)

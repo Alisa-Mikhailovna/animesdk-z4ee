@@ -5,13 +5,13 @@
 class Class_1_5878A2422EE7CDFB;
 namespace RPG::GameCore { class LevelMinimapVolume; }
 
-#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x1794EFE0)
-#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0x1794EFF0)
-#define RPG_CLIENT_MINIMAPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1794F000)
+#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0xCBCCB60)
+#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0xCBCCB70)
+#define RPG_CLIENT_MINIMAPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCBCCB80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 64088;
+	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 65459;
 
 	class MinimapInspector : public ::UnityEngine::MonoBehaviour
 	{

@@ -11,31 +11,31 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1521B480)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1521D0B0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_INDEXOFFIELDRELATIVE_OFFSET UNITYSDK_OFFSET(0x1521DF90)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_REGISTER_OFFSET UNITYSDK_OFFSET(0x1521DDE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_SETFIELD_OFFSET UNITYSDK_OFFSET(0x1521B8B0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1521D140)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1A402150)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1A403D60)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_INDEXOFFIELDRELATIVE_OFFSET UNITYSDK_OFFSET(0x1A404C40)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_REGISTER_OFFSET UNITYSDK_OFFSET(0x1A404A90)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_SETFIELD_OFFSET UNITYSDK_OFFSET(0x1A402570)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A403DF0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurvePoint_FieldTypes_TypeDefinitionIndex = 34098;
+	inline static constexpr unsigned int BGCurvePoint_FieldTypes_TypeDefinitionIndex = 34469;
 
 	class BGCurvePoint_FieldTypes : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Type*>** StaticGet_type2Type()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4E9E0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>** StaticGet_type2fieldSetter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4E9E8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4F760);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>** StaticGet_type2fieldGetter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4E9F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::BansheeGz::BGSpline::Curve::BGCurvePoint_FieldsValues*, ::System::Int32, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4F768);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Type*>** StaticGet_type2Type()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::BansheeGz::BGSpline::Curve::BGCurvePointField_TypeEnum, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(BGCurvePoint_FieldTypes_TypeDefinitionIndex)->GetStaticField(0x4F770);
 		}
 
 		static ::System::Void _cctor()

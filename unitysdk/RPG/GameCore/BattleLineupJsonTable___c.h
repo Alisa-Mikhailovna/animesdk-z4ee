@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class AvatarLineupKeyLevelConfig; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x141A7340)
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x141A7380)
-#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__LOADAVATARPRESETCONFIG_B__4_0_OFFSET UNITYSDK_OFFSET(0x141A7390)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD9BC4A0)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD9BC4E0)
+#define RPG_GAMECORE_BATTLELINEUPJSONTABLE___C__LOADAVATARPRESETCONFIG_B__4_0_OFFSET UNITYSDK_OFFSET(0xD9BC4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupJsonTable___c_TypeDefinitionIndex = 52741;
+	inline static constexpr unsigned int BattleLineupJsonTable___c_TypeDefinitionIndex = 53952;
 
 	class BattleLineupJsonTable___c : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::BattleLineupJsonTable___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::BattleLineupJsonTable___c**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x62EB0);
+			return (::RPG::GameCore::BattleLineupJsonTable___c**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x5F230);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x62EB8);
+			return (::System::Comparison_1<::RPG::GameCore::AvatarLineupKeyLevelConfig*>**)Il2CppClass::FromTypeDefinitionIndex(BattleLineupJsonTable___c_TypeDefinitionIndex)->GetStaticField(0x5F238);
 		}
 
 		static ::System::Void _cctor()

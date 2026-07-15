@@ -3,19 +3,19 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TEXTREPLYUIDATA_GET_MAINTEXT_OFFSET UNITYSDK_OFFSET(0x1420C0D0)
-#define RPG_CLIENT_TEXTREPLYUIDATA_GET_NEXTCONTENTID_OFFSET UNITYSDK_OFFSET(0x1420C0E0)
-#define RPG_CLIENT_TEXTREPLYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1420C0F0)
+#define RPG_CLIENT_TEXTREPLYUIDATA_GET_MAINTEXT_OFFSET UNITYSDK_OFFSET(0xD687670)
+#define RPG_CLIENT_TEXTREPLYUIDATA_GET_NEXTCONTENTID_OFFSET UNITYSDK_OFFSET(0xD687680)
+#define RPG_CLIENT_TEXTREPLYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD687690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextReplyUiData_TypeDefinitionIndex = 57553;
+	inline static constexpr unsigned int TextReplyUiData_TypeDefinitionIndex = 58815;
 
 	class TextReplyUiData : public ::System::Object
 	{
 	public:
-		::System::UInt32 _NextContentId_k__BackingField; // 0x10
-		::RPG::Client::TextID _MainText_k__BackingField; // 0x18
+		::RPG::Client::TextID _MainText_k__BackingField; // 0x10
+		::System::UInt32 _NextContentId_k__BackingField; // 0x20
 
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::TextID a2)
 		{

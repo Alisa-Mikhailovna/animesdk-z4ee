@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPERFORMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1120C0)
-#define RPG_GAMECORE_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A112270)
+#define RPG_GAMECORE_LEVELPERFORMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5707D0)
+#define RPG_GAMECORE_LEVELPERFORMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B570980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 17414;
+	inline static constexpr unsigned int LevelPerformConfig_TypeDefinitionIndex = 17587;
 
 	class LevelPerformConfig : public ::RPG::GameCore::JsonConfig
 	{

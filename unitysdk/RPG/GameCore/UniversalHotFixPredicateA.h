@@ -5,15 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_4EEB52F53202998D_OFFSET UNITYSDK_OFFSET(0x19A66760)
-#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_98AAC565E88CD82A_OFFSET UNITYSDK_OFFSET(0x19A68AA0)
-#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_CE9BB1B918055424_OFFSET UNITYSDK_OFFSET(0x19A67800)
-#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_F227E96BD6183F66_OFFSET UNITYSDK_OFFSET(0x19A68B20)
-#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA__CTOR_OFFSET UNITYSDK_OFFSET(0x19A66710)
+#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_021E248F8B2D32CE_OFFSET UNITYSDK_OFFSET(0x1B9C3DF0)
+#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_2DD9321C794D948C_OFFSET UNITYSDK_OFFSET(0x1B9C5180)
+#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_4EEB52F53202998D_OFFSET UNITYSDK_OFFSET(0x1B9C2AE0)
+#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_A9BA77B408EE34A8_OFFSET UNITYSDK_OFFSET(0x1B9C51B0)
+#define RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C2AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniversalHotFixPredicateA_TypeDefinitionIndex = 22088;
+	inline static constexpr unsigned int UniversalHotFixPredicateA_TypeDefinitionIndex = 22524;
 
 	class UniversalHotFixPredicateA : public ::RPG::GameCore::UniversalHotFixBasePredicate
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_98AAC565E88CD82A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniversalHotFixPredicateA*& a2)
+		static ::System::Void Method_5_2DD9321C794D948C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniversalHotFixPredicateA*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniversalHotFixPredicateA*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_98AAC565E88CD82A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniversalHotFixPredicateA*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_2DD9321C794D948C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_5_4EEB52F53202998D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniversalHotFixPredicateA* a2)
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniversalHotFixPredicateA*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_4EEB52F53202998D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_CE9BB1B918055424(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixPredicateA*& a2)
+		static ::System::Void Method_5_021E248F8B2D32CE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixPredicateA*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixPredicateA*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_CE9BB1B918055424_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixPredicateA*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_021E248F8B2D32CE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_F227E96BD6183F66(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixPredicateA* a2)
+		static ::System::Void Method_5_A9BA77B408EE34A8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixPredicateA* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixPredicateA*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_F227E96BD6183F66_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixPredicateA*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXPREDICATEA_METHOD_5_A9BA77B408EE34A8_OFFSET))(a1, a2);
 		}
 	};
 }

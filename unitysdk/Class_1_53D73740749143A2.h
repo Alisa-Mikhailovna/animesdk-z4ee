@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/GameCore/CakeRaceTriggerEventType.h"
 #include "unitysdk/System/Object.h"
 
+class Class_1_11AE5D13DB0DB102;
 class Class_1_7D0B754E2D8CECAF;
-class Class_1_BB4E40BB81EEDE3B;
 class Class_3_FA020C2C23A72B3F;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_53D73740749143A2_METHOD_1_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0x159F7540)
-#define CLASS_1_53D73740749143A2_METHOD_1_7EA2AAAE7B6580AD_OFFSET UNITYSDK_OFFSET(0x159F77E0)
-#define CLASS_1_53D73740749143A2_METHOD_1_8EDC5B702148C1D6_OFFSET UNITYSDK_OFFSET(0x159F7410)
-#define CLASS_1_53D73740749143A2__CTOR_OFFSET UNITYSDK_OFFSET(0x159F74E0)
+#define CLASS_1_53D73740749143A2_METHOD_1_25EC451C0EA68F53_OFFSET UNITYSDK_OFFSET(0xADD0830)
+#define CLASS_1_53D73740749143A2_METHOD_1_7EA2AAAE7B6580AD_OFFSET UNITYSDK_OFFSET(0xADD0AD0)
+#define CLASS_1_53D73740749143A2_METHOD_1_8EDC5B702148C1D6_OFFSET UNITYSDK_OFFSET(0xADD0700)
+#define CLASS_1_53D73740749143A2__CTOR_OFFSET UNITYSDK_OFFSET(0xADD07D0)
 
-inline static constexpr unsigned int Class_1_53D73740749143A2_TypeDefinitionIndex = 70981;
+inline static constexpr unsigned int Class_1_53D73740749143A2_TypeDefinitionIndex = 72494;
 
 class Class_1_53D73740749143A2 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_BB4E40BB81EEDE3B*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_11AE5D13DB0DB102*>* Field_1_0; // 0x10
 	::RPG::GameCore::CakeRaceTriggerEventType Field_1_1; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::CakeRaceTriggerEventType a1)

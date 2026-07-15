@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANMEMBERINFO_METHOD_2_875B81C417367745_OFFSET UNITYSDK_OFFSET(0x18E75820)
-#define RPG_GAMECORE_LEVELPEDESTRIANMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E75970)
+#define RPG_GAMECORE_LEVELPEDESTRIANMEMBERINFO_METHOD_2_875B81C417367745_OFFSET UNITYSDK_OFFSET(0x1B56C930)
+#define RPG_GAMECORE_LEVELPEDESTRIANMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56CA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianMemberInfo_TypeDefinitionIndex = 16434;
+	inline static constexpr unsigned int LevelPedestrianMemberInfo_TypeDefinitionIndex = 16596;
 
 	class LevelPedestrianMemberInfo : public ::RPG::GameCore::JsonConfig
 	{

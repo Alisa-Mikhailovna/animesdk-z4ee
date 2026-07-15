@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ITEMMULTIMATERIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E54F90)
-#define RPG_GAMECORE_ITEMMULTIMATERIALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E55160)
+#define RPG_GAMECORE_ITEMMULTIMATERIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B544510)
+#define RPG_GAMECORE_ITEMMULTIMATERIALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5446E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemMultiMaterialConfigRow_TypeDefinitionIndex = 13244;
+	inline static constexpr unsigned int ItemMultiMaterialConfigRow_TypeDefinitionIndex = 13392;
 
 	class ItemMultiMaterialConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 ItemID; // 0x10
-		::System::UInt32 ExchangeRare2; // 0x14
-		::System::UInt32 ExchangeRare3; // 0x18
-		::RPG::GameCore::ItemSubType ItemSubType; // 0x1C
-		::System::UInt32 ExchangeRare4; // 0x20
+		::System::UInt32 ExchangeRare3; // 0x14
+		::System::UInt32 ExchangeRare4; // 0x18
+		::System::UInt32 ExchangeRare2; // 0x1C
+		::RPG::GameCore::ItemSubType ItemSubType; // 0x20
 
 		::System::Void _ctor()
 		{

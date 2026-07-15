@@ -5,22 +5,22 @@
 namespace RPG::Client { class PlanetFesMiniGameBetUp; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_4ECC2E283DA13D24___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1646F900)
-#define CLASS_1_4ECC2E283DA13D24___C__CREATEBETUPS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1646F940)
-#define CLASS_1_4ECC2E283DA13D24___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1646F930)
+#define CLASS_1_4ECC2E283DA13D24___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14885FF0)
+#define CLASS_1_4ECC2E283DA13D24___C__CREATEBETUPS_B__1_0_OFFSET UNITYSDK_OFFSET(0x14886030)
+#define CLASS_1_4ECC2E283DA13D24___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14886020)
 
-inline static constexpr unsigned int Class_1_4ECC2E283DA13D24___c_TypeDefinitionIndex = 62293;
+inline static constexpr unsigned int Class_1_4ECC2E283DA13D24___c_TypeDefinitionIndex = 63659;
 
 class Class_1_4ECC2E283DA13D24___c : public ::System::Object
 {
 public:
 	static ::System::Comparison_1<::RPG::Client::PlanetFesMiniGameBetUp*>** StaticGet___9__1_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesMiniGameBetUp*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ECC2E283DA13D24___c_TypeDefinitionIndex)->GetStaticField(0x61B20);
+		return (::System::Comparison_1<::RPG::Client::PlanetFesMiniGameBetUp*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ECC2E283DA13D24___c_TypeDefinitionIndex)->GetStaticField(0x600C0);
 	}
 	static ::Class_1_4ECC2E283DA13D24___c** StaticGet___9()
 	{
-		return (::Class_1_4ECC2E283DA13D24___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ECC2E283DA13D24___c_TypeDefinitionIndex)->GetStaticField(0x61B28);
+		return (::Class_1_4ECC2E283DA13D24___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_4ECC2E283DA13D24___c_TypeDefinitionIndex)->GetStaticField(0x600C8);
 	}
 
 	static ::System::Void _cctor()

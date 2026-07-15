@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PROPSTATEMATCHCONFIG_METHOD_2_0C394121D7B478D3_OFFSET UNITYSDK_OFFSET(0x19A977B0)
-#define RPG_GAMECORE_PROPSTATEMATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A978D0)
+#define RPG_GAMECORE_PROPSTATEMATCHCONFIG_METHOD_2_0C394121D7B478D3_OFFSET UNITYSDK_OFFSET(0x1B6F16C0)
+#define RPG_GAMECORE_PROPSTATEMATCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F17E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateMatchConfig_TypeDefinitionIndex = 20811;
+	inline static constexpr unsigned int PropStateMatchConfig_TypeDefinitionIndex = 21226;
 
 	class PropStateMatchConfig : public ::RPG::GameCore::JsonConfig
 	{

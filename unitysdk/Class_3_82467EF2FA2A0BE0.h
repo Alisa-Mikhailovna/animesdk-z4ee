@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class ForcePlayerLockAdventureTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_82467EF2FA2A0BE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13C59E80)
-#define CLASS_3_82467EF2FA2A0BE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13C59EC0)
-#define CLASS_3_82467EF2FA2A0BE0__CTOR_OFFSET UNITYSDK_OFFSET(0x13C59E50)
-#define CLASS_3_82467EF2FA2A0BE0___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13C5A220)
+#define CLASS_3_82467EF2FA2A0BE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15607690)
+#define CLASS_3_82467EF2FA2A0BE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156076D0)
+#define CLASS_3_82467EF2FA2A0BE0__CTOR_OFFSET UNITYSDK_OFFSET(0x15607660)
 
-inline static constexpr unsigned int Class_3_82467EF2FA2A0BE0_TypeDefinitionIndex = 49456;
+inline static constexpr unsigned int Class_3_82467EF2FA2A0BE0_TypeDefinitionIndex = 50506;
 
 class Class_3_82467EF2FA2A0BE0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForcePlayerLockAdventureTarget*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_82467EF2FA2A0BE0_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_82467EF2FA2A0BE0___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

@@ -5,19 +5,19 @@
 namespace RPG::Client::ActivityMarble { class MarbleMatchContext; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BB5970)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO___C__DISPLAYCLASS6_0__STARTPVEMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x17BB63C0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO___C__DISPLAYCLASS6_0__STARTPVEMATCH_B__1_OFFSET UNITYSDK_OFFSET(0x17BB64F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC15BA0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO___C__DISPLAYCLASS6_0__STARTPVEMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xBC16800)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPLAYERPROGRESSINFO___C__DISPLAYCLASS6_0__STARTPVEMATCH_B__1_OFFSET UNITYSDK_OFFSET(0xBC16930)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePlayerProgressInfo___c__DisplayClass6_0_TypeDefinitionIndex = 69764;
+	inline static constexpr unsigned int MarblePlayerProgressInfo___c__DisplayClass6_0_TypeDefinitionIndex = 71287;
 
 	class MarblePlayerProgressInfo___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityMarble::MarbleMatchContext* context; // 0x10
-		::System::Action* __9__1; // 0x18
+		::System::Action* __9__1; // 0x10
+		::RPG::Client::ActivityMarble::MarbleMatchContext* context; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_ALERTCOMPLIANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172359A0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x172359E0)
-#define MIHOYO_SDK_ALERTCOMPLIANCE___C__SHOW_B__23_1_OFFSET UNITYSDK_OFFSET(0x172359F0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BA0F70)
+#define MIHOYO_SDK_ALERTCOMPLIANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA0FB0)
+#define MIHOYO_SDK_ALERTCOMPLIANCE___C__SHOW_B__23_1_OFFSET UNITYSDK_OFFSET(0x19BA0FC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AlertCompliance___c_TypeDefinitionIndex = 7941;
+	inline static constexpr unsigned int AlertCompliance___c_TypeDefinitionIndex = 7947;
 
 	class AlertCompliance___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__23_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance___c_TypeDefinitionIndex)->GetStaticField(0xC540);
-		}
 		static ::MiHoYo::SDK::AlertCompliance___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::AlertCompliance___c**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance___c_TypeDefinitionIndex)->GetStaticField(0xC548);
+			return (::MiHoYo::SDK::AlertCompliance___c**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance___c_TypeDefinitionIndex)->GetStaticField(0xF280);
+		}
+		static ::System::Action** StaticGet___9__23_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AlertCompliance___c_TypeDefinitionIndex)->GetStaticField(0xF288);
 		}
 
 		static ::System::Void _cctor()

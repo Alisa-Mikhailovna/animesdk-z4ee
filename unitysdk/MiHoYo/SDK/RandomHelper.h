@@ -4,21 +4,21 @@
 
 namespace System { class Random; }
 
-#define MIHOYO_SDK_RANDOMHELPER_RANDINT64_OFFSET UNITYSDK_OFFSET(0x18C95B20)
-#define MIHOYO_SDK_RANDOMHELPER_RANDOMNUMBER_OFFSET UNITYSDK_OFFSET(0x18C95BC0)
-#define MIHOYO_SDK_RANDOMHELPER_RANDUINT64_OFFSET UNITYSDK_OFFSET(0x18C95A50)
-#define MIHOYO_SDK_RANDOMHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18C95C50)
+#define MIHOYO_SDK_RANDOMHELPER_RANDINT64_OFFSET UNITYSDK_OFFSET(0xAB4EE80)
+#define MIHOYO_SDK_RANDOMHELPER_RANDOMNUMBER_OFFSET UNITYSDK_OFFSET(0xAB4EF80)
+#define MIHOYO_SDK_RANDOMHELPER_RANDUINT64_OFFSET UNITYSDK_OFFSET(0xAB4ED30)
+#define MIHOYO_SDK_RANDOMHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB4F080)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RandomHelper_TypeDefinitionIndex = 43544;
+	inline static constexpr unsigned int RandomHelper_TypeDefinitionIndex = 44405;
 
 	class RandomHelper : public ::System::Object
 	{
 	public:
 		static ::System::Random** StaticGet_random()
 		{
-			return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(RandomHelper_TypeDefinitionIndex)->GetStaticField(0x128A0);
+			return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(RandomHelper_TypeDefinitionIndex)->GetStaticField(0x1B560);
 		}
 
 		static ::System::Void _cctor()

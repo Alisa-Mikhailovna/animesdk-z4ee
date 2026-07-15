@@ -6,24 +6,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DE5AF0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE5B30)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__SYNCINTERACTDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x17DE5B40)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD418E60)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD418EA0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__SYNCINTERACTDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0xD418EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefInfo___c_TypeDefinitionIndex = 63163;
+	inline static constexpr unsigned int RogueTournBuildRefInfo___c_TypeDefinitionIndex = 64530;
 
 	class RogueTournBuildRefInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournBuildRefInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournBuildRefInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x330F0);
-		}
 		static ::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x330F8);
+			return (::System::Func_2<::System::String*, ::RPG::Client::MongoObjectId>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x29500);
+		}
+		static ::RPG::Client::RogueTournBuildRefInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournBuildRefInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefInfo___c_TypeDefinitionIndex)->GetStaticField(0x29508);
 		}
 
 		static ::System::Void _cctor()

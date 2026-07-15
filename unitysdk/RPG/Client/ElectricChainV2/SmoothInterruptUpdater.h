@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ElectricChainV2/SmoothUpdater.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER_GET__WEIGHT_OFFSET UNITYSDK_OFFSET(0x156DC170)
-#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x156DC1D0)
-#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER___IFIXBASEPROXY_GET__WEIGHT_OFFSET UNITYSDK_OFFSET(0x156DC330)
+#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER_GET__WEIGHT_OFFSET UNITYSDK_OFFSET(0xC361D40)
+#define RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0xC361DA0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int SmoothInterruptUpdater_TypeDefinitionIndex = 68686;
+	inline static constexpr unsigned int SmoothInterruptUpdater_TypeDefinitionIndex = 70184;
 
 	class SmoothInterruptUpdater : public ::RPG::Client::ElectricChainV2::SmoothUpdater
 	{
@@ -21,11 +20,6 @@ namespace RPG::Client::ElectricChainV2
 		::System::Single get__weight()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER_GET__WEIGHT_OFFSET))(this);
-		}
-
-		::System::Single __iFixBaseProxy_get__weight()
-		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_SMOOTHINTERRUPTUPDATER___IFIXBASEPROXY_GET__WEIGHT_OFFSET))(this);
 		}
 	};
 }

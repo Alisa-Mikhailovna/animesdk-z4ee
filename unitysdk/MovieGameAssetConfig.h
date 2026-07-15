@@ -5,9 +5,9 @@
 namespace RPG::Client::LittleGame { class MovieBossConfig; }
 namespace RPG::Client::LittleGame { class MovieGameLevelConfig; }
 
-#define MOVIEGAMEASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7E3F0)
+#define MOVIEGAMEASSETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F1850)
 
-inline static constexpr unsigned int MovieGameAssetConfig_TypeDefinitionIndex = 44490;
+inline static constexpr unsigned int MovieGameAssetConfig_TypeDefinitionIndex = 45362;
 
 class MovieGameAssetConfig : public ::UnityEngine::ScriptableObject
 {

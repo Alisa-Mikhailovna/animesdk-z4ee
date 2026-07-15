@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TITANATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D1DF10)
-#define RPG_GAMECORE_TITANATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D1E1C0)
+#define RPG_GAMECORE_TITANATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B975400)
+#define RPG_GAMECORE_TITANATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9756B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasRow_TypeDefinitionIndex = 14533;
+	inline static constexpr unsigned int TitanAtlasRow_TypeDefinitionIndex = 14691;
 
 	class TitanAtlasRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID TitanName; // 0x10
-		::System::UInt32 TitanGroupID; // 0x20
-		::System::UInt32 TitanID; // 0x24
+		::System::UInt32 TitanID; // 0x10
+		::System::UInt32 TitanGroupID; // 0x14
+		::RPG::Client::TextID TitanName; // 0x18
 		::RPG::Client::TextID TitanDesc; // 0x28
-		::System::UInt32 TitanVoicePoolID; // 0x38
-		::System::UInt32 ChangeUnlockID; // 0x3C
+		::System::UInt32 ChangeUnlockID; // 0x38
+		::System::UInt32 TitanVoicePoolID; // 0x3C
 
 		::System::Void _ctor()
 		{

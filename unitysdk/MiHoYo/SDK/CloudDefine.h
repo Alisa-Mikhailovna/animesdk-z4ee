@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUDDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1724BCD0)
+#define MIHOYO_SDK_CLOUDDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB97D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CloudDefine_TypeDefinitionIndex = 7880;
+	inline static constexpr unsigned int CloudDefine_TypeDefinitionIndex = 7886;
 
 	class CloudDefine : public ::System::Object
 	{

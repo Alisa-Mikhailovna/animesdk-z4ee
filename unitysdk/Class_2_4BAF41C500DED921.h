@@ -7,12 +7,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4BAF41C500DED921_METHOD_2_0A32ABCEA39CED97_OFFSET UNITYSDK_OFFSET(0x172EEC30)
-#define CLASS_2_4BAF41C500DED921_METHOD_2_E240D159E3150659_OFFSET UNITYSDK_OFFSET(0x172EECB0)
-#define CLASS_2_4BAF41C500DED921_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x172EEDB0)
-#define CLASS_2_4BAF41C500DED921__CTOR_OFFSET UNITYSDK_OFFSET(0x172EEBB0)
+#define CLASS_2_4BAF41C500DED921_METHOD_2_0A32ABCEA39CED97_OFFSET UNITYSDK_OFFSET(0x1483B780)
+#define CLASS_2_4BAF41C500DED921_METHOD_2_E240D159E3150659_OFFSET UNITYSDK_OFFSET(0x1483B800)
+#define CLASS_2_4BAF41C500DED921__CTOR_OFFSET UNITYSDK_OFFSET(0x1483B700)
 
-inline static constexpr unsigned int Class_2_4BAF41C500DED921_TypeDefinitionIndex = 73505;
+inline static constexpr unsigned int Class_2_4BAF41C500DED921_TypeDefinitionIndex = 75030;
 
 class Class_2_4BAF41C500DED921 : public ::Class_1_8EE73BB839E63837
 {
@@ -32,10 +31,5 @@ public:
 	::System::Boolean Method_2_E240D159E3150659()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4BAF41C500DED921_METHOD_2_E240D159E3150659_OFFSET))(this);
-	}
-
-	::System::Boolean Method_2_F0E307B84478A272()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4BAF41C500DED921_METHOD_2_F0E307B84478A272_OFFSET))(this);
 	}
 };

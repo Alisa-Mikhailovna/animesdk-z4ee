@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENTERFLOOR_METHOD_3_0157EBAF621AC9A9_OFFSET UNITYSDK_OFFSET(0x19D7A700)
-#define RPG_GAMECORE_ENTERFLOOR_METHOD_3_1972C19BE2F191A0_OFFSET UNITYSDK_OFFSET(0x19D7A780)
-#define RPG_GAMECORE_ENTERFLOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19D7A750)
+#define RPG_GAMECORE_ENTERFLOOR_METHOD_3_1972C19BE2F191A0_OFFSET UNITYSDK_OFFSET(0x1B3E97A0)
+#define RPG_GAMECORE_ENTERFLOOR_METHOD_3_DF1322DF5CB97D1B_OFFSET UNITYSDK_OFFSET(0x1B3E9760)
+#define RPG_GAMECORE_ENTERFLOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E9790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnterFloor_TypeDefinitionIndex = 20355;
+	inline static constexpr unsigned int EnterFloor_TypeDefinitionIndex = 20770;
 
 	class EnterFloor : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERFLOOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0157EBAF621AC9A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterFloor*& a2)
+		static ::System::Void Method_3_DF1322DF5CB97D1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterFloor*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterFloor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERFLOOR_METHOD_3_0157EBAF621AC9A9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnterFloor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTERFLOOR_METHOD_3_DF1322DF5CB97D1B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1972C19BE2F191A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnterFloor* a2)

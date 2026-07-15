@@ -7,19 +7,19 @@ class Class_1_7A22A3DBEEDD1F80;
 class Class_1_B1429A4347DAE014;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1952CE60)
-#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1952D0E0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B11BFD0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINCIDENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11C250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenIncidentRow_TypeDefinitionIndex = 11137;
+	inline static constexpr unsigned int ActivityHipplenIncidentRow_TypeDefinitionIndex = 11237;
 
 	class ActivityHipplenIncidentRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ExpectedBasicList; // 0x10
+		::System::String* PerformanceJsonConfigPath; // 0x10
 		::Il2CppArray<::System::Single>* ExpectedRatioProbability; // 0x18
-		::System::String* PerformanceJsonConfigPath; // 0x20
+		::Il2CppArray<::System::UInt32>* ExpectedBasicList; // 0x20
 		::Il2CppArray<::Class_1_B1429A4347DAE014*>* EffectList; // 0x28
 		::System::UInt32 ID; // 0x30
 		::RPG::GameCore::HipplenIncidentType Type; // 0x34

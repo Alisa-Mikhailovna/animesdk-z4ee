@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PARALLELCONFIG_METHOD_4_66389981FB5DCE1B_OFFSET UNITYSDK_OFFSET(0x19D133E0)
-#define RPG_GAMECORE_PARALLELCONFIG_METHOD_4_F6859C3893A4E872_OFFSET UNITYSDK_OFFSET(0x19D13460)
-#define RPG_GAMECORE_PARALLELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D13430)
+#define RPG_GAMECORE_PARALLELCONFIG_METHOD_4_89A27707399BD8E9_OFFSET UNITYSDK_OFFSET(0x1B687090)
+#define RPG_GAMECORE_PARALLELCONFIG_METHOD_4_F6859C3893A4E872_OFFSET UNITYSDK_OFFSET(0x1B6870D0)
+#define RPG_GAMECORE_PARALLELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6870C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelConfig_TypeDefinitionIndex = 22477;
+	inline static constexpr unsigned int ParallelConfig_TypeDefinitionIndex = 22927;
 
 	class ParallelConfig : public ::RPG::GameCore::CompositeConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_66389981FB5DCE1B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParallelConfig*& a2)
+		static ::System::Void Method_4_89A27707399BD8E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParallelConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParallelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELCONFIG_METHOD_4_66389981FB5DCE1B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParallelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARALLELCONFIG_METHOD_4_89A27707399BD8E9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_F6859C3893A4E872(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParallelConfig* a2)

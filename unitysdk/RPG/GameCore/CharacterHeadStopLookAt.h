@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT_METHOD_3_552FC41D6E8FB3E5_OFFSET UNITYSDK_OFFSET(0x1A1406D0)
-#define RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT_METHOD_3_743CD257A4E0D1A6_OFFSET UNITYSDK_OFFSET(0x1A140640)
-#define RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1406A0)
+#define RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT_METHOD_3_552FC41D6E8FB3E5_OFFSET UNITYSDK_OFFSET(0x1B31B4A0)
+#define RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT_METHOD_3_AE099C39AD5CD730_OFFSET UNITYSDK_OFFSET(0x1B31B450)
+#define RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31B490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterHeadStopLookAt_TypeDefinitionIndex = 19721;
+	inline static constexpr unsigned int CharacterHeadStopLookAt_TypeDefinitionIndex = 20080;
 
 	class CharacterHeadStopLookAt : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_743CD257A4E0D1A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterHeadStopLookAt*& a2)
+		static ::System::Void Method_3_AE099C39AD5CD730(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterHeadStopLookAt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterHeadStopLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT_METHOD_3_743CD257A4E0D1A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterHeadStopLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERHEADSTOPLOOKAT_METHOD_3_AE099C39AD5CD730_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_552FC41D6E8FB3E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterHeadStopLookAt* a2)

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NOTETEMPLATECONFIG_METHOD_2_01D04ABCF38A68AC_OFFSET UNITYSDK_OFFSET(0x19108160)
-#define RPG_GAMECORE_NOTETEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x191081A0)
+#define RPG_GAMECORE_NOTETEMPLATECONFIG_METHOD_2_01D04ABCF38A68AC_OFFSET UNITYSDK_OFFSET(0x1B674C70)
+#define RPG_GAMECORE_NOTETEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B674CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NoteTemplateConfig_TypeDefinitionIndex = 16111;
+	inline static constexpr unsigned int NoteTemplateConfig_TypeDefinitionIndex = 16295;
 
 	class NoteTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

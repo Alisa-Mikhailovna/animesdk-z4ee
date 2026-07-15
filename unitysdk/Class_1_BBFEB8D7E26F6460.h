@@ -6,18 +6,18 @@ namespace RPG::GameCore { class CinemachineVirtualCameraTemplateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_BBFEB8D7E26F6460_METHOD_1_02C397CA36AD5822_OFFSET UNITYSDK_OFFSET(0x157339B0)
-#define CLASS_1_BBFEB8D7E26F6460_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x15733910)
-#define CLASS_1_BBFEB8D7E26F6460_METHOD_1_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0x15733720)
+#define CLASS_1_BBFEB8D7E26F6460_METHOD_1_02C397CA36AD5822_OFFSET UNITYSDK_OFFSET(0x149A8480)
+#define CLASS_1_BBFEB8D7E26F6460_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x149A83E0)
+#define CLASS_1_BBFEB8D7E26F6460_METHOD_1_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0x149A81F0)
 
-inline static constexpr unsigned int Class_1_BBFEB8D7E26F6460_TypeDefinitionIndex = 68452;
+inline static constexpr unsigned int Class_1_BBFEB8D7E26F6460_TypeDefinitionIndex = 69946;
 
 class Class_1_BBFEB8D7E26F6460 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BBFEB8D7E26F6460_TypeDefinitionIndex)->GetStaticField(0x51250);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BBFEB8D7E26F6460_TypeDefinitionIndex)->GetStaticField(0x641D0);
 	}
 
 	static ::System::Void Method_1_D799715F2EF979EA()

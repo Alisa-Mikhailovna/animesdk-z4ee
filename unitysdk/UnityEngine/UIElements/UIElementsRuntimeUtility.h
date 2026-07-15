@@ -8,35 +8,35 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UIElements { class EventDispatcher; }
 namespace UnityEngine::UIElements { class Panel; }
 
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY_REPAINTOVERLAYPANELS_OFFSET UNITYSDK_OFFSET(0x19F97C60)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F98120)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY_REPAINTOVERLAYPANELS_OFFSET UNITYSDK_OFFSET(0x1D0F29C0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSRUNTIMEUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0F2E80)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int UIElementsRuntimeUtility_TypeDefinitionIndex = 6151;
+	inline static constexpr unsigned int UIElementsRuntimeUtility_TypeDefinitionIndex = 6156;
 
 	class UIElementsRuntimeUtility : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>** StaticGet_panelsIteration()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>**)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x4C900);
+		}
 		static ::UnityEngine::UIElements::EventDispatcher** StaticGet_s_RuntimeDispatcher()
 		{
-			return (::UnityEngine::UIElements::EventDispatcher**)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x27D0);
+			return (::UnityEngine::UIElements::EventDispatcher**)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x4C908);
 		}
 		static ::System::String** StaticGet_s_RepaintProfilerMarkerName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x27D8);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>** StaticGet_panelsIteration()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>**)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x27E0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x4C910);
 		}
 		static ::System::Boolean* StaticGet_s_RegisteredPlayerloopCallback()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x1070);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0xD4C0);
 		}
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_RepaintProfilerMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0x1078);
+			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(UIElementsRuntimeUtility_TypeDefinitionIndex)->GetStaticField(0xD4C8);
 		}
 
 		static ::System::Void _cctor()

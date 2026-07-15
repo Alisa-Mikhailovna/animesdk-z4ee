@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterHUDType.h"
 #include "unitysdk/RPG/GameCore/CharacterSomatoType.h"
+#include "unitysdk/RPG/GameCore/CrosshairLayoutType.h"
 #include "unitysdk/RPG/GameCore/CrosshairType.h"
 #include "unitysdk/RPG/GameCore/ResilienceEnum.h"
 #include "unitysdk/RPG/GameCore/SpecialSkillButtonGroupType.h"
@@ -15,13 +16,13 @@ namespace RPG::GameCore { class LocationConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_094C8096E8739648_OFFSET UNITYSDK_OFFSET(0x1A133510)
-#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_87795E0FA3DBA95A_OFFSET UNITYSDK_OFFSET(0x1A133840)
-#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1337A0)
+#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_094C8096E8739648_OFFSET UNITYSDK_OFFSET(0x1B30E5D0)
+#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM_METHOD_3_87795E0FA3DBA95A_OFFSET UNITYSDK_OFFSET(0x1B30E8E0)
+#define RPG_GAMECORE_CHANGECHARACTERCONFIGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B30E840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterConfigParam_TypeDefinitionIndex = 22387;
+	inline static constexpr unsigned int ChangeCharacterConfigParam_TypeDefinitionIndex = 22829;
 
 	class ChangeCharacterConfigParam : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,12 +38,16 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::EffectAdaptionConfig*>* EffectAdaptionList; // 0x58
 		::System::String* GraphEmotionAsset; // 0x60
 		::Il2CppArray<::System::String*>* AnimEventConfigList; // 0x68
-		::RPG::MVector3 HudOffset; // 0x70
-		::System::Single HudOffsetBlendTime; // 0x7C
-		::System::Int32 ViewModeExtraEffectID; // 0x80
-		::RPG::GameCore::CrosshairType CrosshairType; // 0x84
-		::RPG::GameCore::SpecialSkillButtonGroupType SpecialSkillButtonGroupType; // 0x88
-		::RPG::GameCore::CharacterHUDType HUDType; // 0x8C
+		::System::String* AnimEventPreloadTag; // 0x70
+		::RPG::MVector3 HudOffset; // 0x78
+		::System::String* CustomHUDAttachPointName; // 0x88
+		::System::Single HudOffsetBlendTime; // 0x90
+		::System::Int32 ViewModeExtraEffectID; // 0x94
+		::RPG::GameCore::CrosshairType CrosshairType; // 0x98
+		::RPG::GameCore::CrosshairLayoutType CrosshairLayout; // 0x9C
+		::RPG::GameCore::CrosshairType MainCrosshairType; // 0xA0
+		::RPG::GameCore::SpecialSkillButtonGroupType SpecialSkillButtonGroupType; // 0xA4
+		::RPG::GameCore::CharacterHUDType HUDType; // 0xA8
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetCharacterVisibleInViewMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7690C54399AAB34A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F4C6D0)
-#define CLASS_3_7690C54399AAB34A__CTOR_OFFSET UNITYSDK_OFFSET(0x17F4C6A0)
+#define CLASS_3_7690C54399AAB34A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A45F00)
+#define CLASS_3_7690C54399AAB34A__CTOR_OFFSET UNITYSDK_OFFSET(0x14A45ED0)
 
-inline static constexpr unsigned int Class_3_7690C54399AAB34A_TypeDefinitionIndex = 54685;
+inline static constexpr unsigned int Class_3_7690C54399AAB34A_TypeDefinitionIndex = 55910;
 
 class Class_3_7690C54399AAB34A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharacterVisibleInViewMode*>
 {

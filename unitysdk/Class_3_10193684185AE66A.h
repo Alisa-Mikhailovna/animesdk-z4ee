@@ -6,11 +6,11 @@ namespace RPG::GameCore { class EnablePlayerPlayIdleShow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_3_10193684185AE66A_METHOD_3_91B230CF1BA4E824_OFFSET UNITYSDK_OFFSET(0x16E84B00)
-#define CLASS_3_10193684185AE66A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E849E0)
-#define CLASS_3_10193684185AE66A__CTOR_OFFSET UNITYSDK_OFFSET(0x16E849B0)
+#define CLASS_3_10193684185AE66A_METHOD_3_2472FC4695028AF0_OFFSET UNITYSDK_OFFSET(0xD381ED0)
+#define CLASS_3_10193684185AE66A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD381DB0)
+#define CLASS_3_10193684185AE66A__CTOR_OFFSET UNITYSDK_OFFSET(0xD381D80)
 
-inline static constexpr unsigned int Class_3_10193684185AE66A_TypeDefinitionIndex = 49342;
+inline static constexpr unsigned int Class_3_10193684185AE66A_TypeDefinitionIndex = 50357;
 
 class Class_3_10193684185AE66A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnablePlayerPlayIdleShow*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_10193684185AE66A_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	static ::System::Void Method_3_91B230CF1BA4E824(::System::Object* a1)
+	static ::System::Void Method_3_2472FC4695028AF0(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_10193684185AE66A_METHOD_3_91B230CF1BA4E824_OFFSET))(a1);
+		return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_10193684185AE66A_METHOD_3_2472FC4695028AF0_OFFSET))(a1);
 	}
 };

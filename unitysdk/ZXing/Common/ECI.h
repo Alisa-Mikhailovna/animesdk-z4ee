@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZXING_COMMON_ECI_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x13CC4210)
-#define ZXING_COMMON_ECI__CTOR_OFFSET UNITYSDK_OFFSET(0x13CC40D0)
+#define ZXING_COMMON_ECI_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D2D2020)
+#define ZXING_COMMON_ECI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D1E90)
 
 namespace ZXing::Common
 {
-	inline static constexpr unsigned int ECI_TypeDefinitionIndex = 6409;
+	inline static constexpr unsigned int ECI_TypeDefinitionIndex = 6414;
 
 	class ECI : public ::System::Object
 	{

@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_TUTORIALGUIDEWEAKCONFIGWRAPPER_GET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x17FE0ED0)
-#define RPG_CLIENT_TUTORIALGUIDEWEAKCONFIGWRAPPER_SET_LIFETIME_OFFSET UNITYSDK_OFFSET(0x17FE0EE0)
-#define RPG_CLIENT_TUTORIALGUIDEWEAKCONFIGWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x17FDC7B0)
+#define RPG_CLIENT_TUTORIALGUIDEWEAKCONFIGWRAPPER_GET_LIFETIME_OFFSET UNITYSDK_OFFSET(0xD766C10)
+#define RPG_CLIENT_TUTORIALGUIDEWEAKCONFIGWRAPPER_SET_LIFETIME_OFFSET UNITYSDK_OFFSET(0xD766C20)
+#define RPG_CLIENT_TUTORIALGUIDEWEAKCONFIGWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xD7617C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideWeakConfigWrapper_TypeDefinitionIndex = 63824;
+	inline static constexpr unsigned int TutorialGuideWeakConfigWrapper_TypeDefinitionIndex = 65193;
 
 	class TutorialGuideWeakConfigWrapper : public ::RPG::Client::TutorialGuideTextConfigWrapper
 	{

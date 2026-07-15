@@ -7,18 +7,18 @@ namespace RootMotion::FinalIK { class GroundPhysicsHelper_SphereCastDelegate; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedGameMode___O_TypeDefinitionIndex = 50054;
+	inline static constexpr unsigned int TurnBasedGameMode___O_TypeDefinitionIndex = 51136;
 
 	class TurnBasedGameMode___O : public ::System::Object
 	{
 	public:
-		static ::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate** StaticGet__1___BattleCapsuleCast()
-		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___O_TypeDefinitionIndex)->GetStaticField(0x2870);
-		}
 		static ::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate** StaticGet__0___BattleSphereCast()
 		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___O_TypeDefinitionIndex)->GetStaticField(0x2878);
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___O_TypeDefinitionIndex)->GetStaticField(0x681E0);
+		}
+		static ::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate** StaticGet__1___BattleCapsuleCast()
+		{
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___O_TypeDefinitionIndex)->GetStaticField(0x681E8);
 		}
 	};
 }

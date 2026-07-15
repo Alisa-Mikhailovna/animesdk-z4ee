@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SFXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A163180)
-#define RPG_GAMECORE_SFXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A163360)
+#define RPG_GAMECORE_SFXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7CB920)
+#define RPG_GAMECORE_SFXCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7CBB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SFXConfigRow_TypeDefinitionIndex = 14351;
+	inline static constexpr unsigned int SFXConfigRow_TypeDefinitionIndex = 14499;
 
 	class SFXConfigRow : public ::System::Object
 	{

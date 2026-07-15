@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define UIMOVEANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE27FE10)
-#define UIMOVEANIMATION_START_OFFSET UNITYSDK_OFFSET(0xE27FC50)
-#define UIMOVEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xE2800A0)
+#define UIMOVEANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDDB7350)
+#define UIMOVEANIMATION_START_OFFSET UNITYSDK_OFFSET(0xDDB7190)
+#define UIMOVEANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xDDB75E0)
 
-inline static constexpr unsigned int UIMoveAnimation_TypeDefinitionIndex = 44621;
+inline static constexpr unsigned int UIMoveAnimation_TypeDefinitionIndex = 45493;
 
 class UIMoveAnimation : public ::UnityEngine::MonoBehaviour
 {

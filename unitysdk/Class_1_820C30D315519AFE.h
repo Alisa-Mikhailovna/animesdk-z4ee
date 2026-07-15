@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_874;
+class Class_0_16E4307DCC419505_912;
 namespace RPG::GameCore { class RogueTournWeeklyDisplayRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_820C30D315519AFE_GET_HYPERPARAMS_OFFSET UNITYSDK_OFFSET(0x14724000)
-#define CLASS_1_820C30D315519AFE_METHOD_1_335E9336B4B017B6_OFFSET UNITYSDK_OFFSET(0x14723DB0)
-#define CLASS_1_820C30D315519AFE_METHOD_1_73C20AB211F3C819_OFFSET UNITYSDK_OFFSET(0x14723E10)
-#define CLASS_1_820C30D315519AFE_METHOD_1_CD5C08A2521794A0_OFFSET UNITYSDK_OFFSET(0x14724010)
-#define CLASS_1_820C30D315519AFE__CTOR_OFFSET UNITYSDK_OFFSET(0x14723D30)
+#define CLASS_1_820C30D315519AFE_GET_HYPERPARAMS_OFFSET UNITYSDK_OFFSET(0x149E9C20)
+#define CLASS_1_820C30D315519AFE_METHOD_1_335E9336B4B017B6_OFFSET UNITYSDK_OFFSET(0x149E99D0)
+#define CLASS_1_820C30D315519AFE_METHOD_1_73C20AB211F3C819_OFFSET UNITYSDK_OFFSET(0x149E9A30)
+#define CLASS_1_820C30D315519AFE_METHOD_1_CD5C08A2521794A0_OFFSET UNITYSDK_OFFSET(0x149E9C30)
+#define CLASS_1_820C30D315519AFE__CTOR_OFFSET UNITYSDK_OFFSET(0x149E9950)
 
-inline static constexpr unsigned int Class_1_820C30D315519AFE_TypeDefinitionIndex = 63502;
+inline static constexpr unsigned int Class_1_820C30D315519AFE_TypeDefinitionIndex = 64869;
 
 class Class_1_820C30D315519AFE : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_874*>* _HyperParams_k__BackingField; // 0x10
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_912*>* _HyperParams_k__BackingField; // 0x10
 	::System::UInt32 Field_1_1; // 0x18
 
 	::System::Void _ctor(::System::UInt32 a1)
@@ -36,9 +36,9 @@ public:
 		return ((::RPG::GameCore::RogueTournWeeklyDisplayRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_820C30D315519AFE_METHOD_1_335E9336B4B017B6_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_874*>* get_HyperParams()
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_912*>* get_HyperParams()
 	{
-		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_874*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_820C30D315519AFE_GET_HYPERPARAMS_OFFSET))(this);
+		return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_912*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_820C30D315519AFE_GET_HYPERPARAMS_OFFSET))(this);
 	}
 
 	::System::String* Method_1_CD5C08A2521794A0()

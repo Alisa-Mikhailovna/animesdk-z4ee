@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/GameModeParamNotifyType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_88CC6B0B7FF7BDD7_CLEAR_OFFSET UNITYSDK_OFFSET(0x16E84FD0)
-#define CLASS_1_88CC6B0B7FF7BDD7__CTOR_OFFSET UNITYSDK_OFFSET(0x16E85010)
+#define CLASS_1_88CC6B0B7FF7BDD7_CLEAR_OFFSET UNITYSDK_OFFSET(0xD382350)
+#define CLASS_1_88CC6B0B7FF7BDD7__CTOR_OFFSET UNITYSDK_OFFSET(0xD382390)
 
-inline static constexpr unsigned int Class_1_88CC6B0B7FF7BDD7_TypeDefinitionIndex = 51595;
+inline static constexpr unsigned int Class_1_88CC6B0B7FF7BDD7_TypeDefinitionIndex = 52737;
 
 class Class_1_88CC6B0B7FF7BDD7 : public ::System::Object
 {

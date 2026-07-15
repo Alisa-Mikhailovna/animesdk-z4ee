@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BUFFCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195ECE50)
-#define RPG_GAMECORE_BUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195ECF70)
+#define RPG_GAMECORE_BUFFCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B21C800)
+#define RPG_GAMECORE_BUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B21C920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BuffConfig_TypeDefinitionIndex = 12437;
+	inline static constexpr unsigned int BuffConfig_TypeDefinitionIndex = 12574;
 
 	class BuffConfig : public ::System::Object
 	{

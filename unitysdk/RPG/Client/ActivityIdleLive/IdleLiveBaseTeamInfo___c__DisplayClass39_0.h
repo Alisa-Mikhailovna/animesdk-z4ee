@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18558560)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS39_0___UPDATETEAMPOS_B__0_OFFSET UNITYSDK_OFFSET(0x185596A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB7A010)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS39_0___UPDATETEAMPOS_B__0_OFFSET UNITYSDK_OFFSET(0xBB7B330)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass39_0_TypeDefinitionIndex = 69970;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass39_0_TypeDefinitionIndex = 71493;
 
 	class IdleLiveBaseTeamInfo___c__DisplayClass39_0 : public ::System::Object
 	{

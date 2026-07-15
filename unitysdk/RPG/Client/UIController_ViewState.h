@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIController_ViewState_TypeDefinitionIndex = 68211;
+	inline static constexpr unsigned int UIController_ViewState_TypeDefinitionIndex = 69700;
 
 	enum class UIController_ViewState : ::System::Int32
 	{

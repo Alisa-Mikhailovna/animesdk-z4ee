@@ -6,25 +6,25 @@
 namespace Spine { class Attachment; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x14D3B890)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14D5B1F0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x14D4D9D0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x14D56B00)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x14D4DCC0)
-#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14D432A0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C995CE0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C9B6B70)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_GEOMETRYNOTEQUAL_OFFSET UNITYSDK_OFFSET(0x1C9A8800)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SETWITHSUBSET_OFFSET UNITYSDK_OFFSET(0x1C9B2010)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION_SET_OFFSET UNITYSDK_OFFSET(0x1C9A8AF0)
+#define SPINE_UNITY_SKELETONRENDERERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DA50)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 41467;
+	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 42282;
 
 	class SkeletonRendererInstruction : public ::System::Object
 	{
 	public:
-		::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* submeshInstructions; // 0x10
-		::Spine::ExposedList_1<::Spine::Attachment*>* attachments; // 0x18
-		::System::Boolean hasActiveClipping; // 0x20
-		::System::Boolean immutableTriangles; // 0x21
-		::System::Int32 rawVertexCount; // 0x24
+		::Spine::ExposedList_1<::Spine::Attachment*>* attachments; // 0x10
+		::Spine::ExposedList_1<::Spine::Unity::SubmeshInstruction>* submeshInstructions; // 0x18
+		::System::Int32 rawVertexCount; // 0x20
+		::System::Boolean immutableTriangles; // 0x24
+		::System::Boolean hasActiveClipping; // 0x25
 
 		::System::Void _ctor()
 		{

@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/ActionBarUIStatus.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_945ACFB1FEBC7A2C_21;
+class Class_1_945ACFB1FEBC7A2C_23;
 namespace System { class String; }
 
-#define CLASS_1_1FFDD73C4573633F__CTOR_OFFSET UNITYSDK_OFFSET(0x13FAD290)
+#define CLASS_1_1FFDD73C4573633F__CTOR_OFFSET UNITYSDK_OFFSET(0x1462A220)
 
-inline static constexpr unsigned int Class_1_1FFDD73C4573633F_TypeDefinitionIndex = 68438;
+inline static constexpr unsigned int Class_1_1FFDD73C4573633F_TypeDefinitionIndex = 69932;
 
 class Class_1_1FFDD73C4573633F : public ::System::Object
 {
 public:
 	::System::String* Field_1_0; // 0x10
-	::Il2CppArray<::Class_1_945ACFB1FEBC7A2C_21*>* Field_1_1; // 0x18
+	::Il2CppArray<::Class_1_945ACFB1FEBC7A2C_23*>* Field_1_1; // 0x18
 	::RPG::GameCore::ActionBarUIStatus Field_1_2; // 0x20
 	::System::Boolean Field_1_3; // 0x24
 

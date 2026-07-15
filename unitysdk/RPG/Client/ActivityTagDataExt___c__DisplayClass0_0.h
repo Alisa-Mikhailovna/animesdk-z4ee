@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActivityTagData; }
 
-#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0__CONTAINSTAG_B__0_OFFSET UNITYSDK_OFFSET(0x1677C110)
-#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1677C100)
+#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0__CONTAINSTAG_B__0_OFFSET UNITYSDK_OFFSET(0xBC80100)
+#define RPG_CLIENT_ACTIVITYTAGDATAEXT___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC800F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTagDataExt___c__DisplayClass0_0_TypeDefinitionIndex = 57697;
+	inline static constexpr unsigned int ActivityTagDataExt___c__DisplayClass0_0_TypeDefinitionIndex = 58963;
 
 	class ActivityTagDataExt___c__DisplayClass0_0 : public ::System::Object
 	{

@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class BattleChangeAvatar_EnterStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C5369723D8A09625_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14229D40)
-#define CLASS_3_C5369723D8A09625_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14229D80)
-#define CLASS_3_C5369723D8A09625__CTOR_OFFSET UNITYSDK_OFFSET(0x14229D10)
-#define CLASS_3_C5369723D8A09625___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14229E20)
+#define CLASS_3_C5369723D8A09625_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBABF290)
+#define CLASS_3_C5369723D8A09625_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBABF2D0)
+#define CLASS_3_C5369723D8A09625__CTOR_OFFSET UNITYSDK_OFFSET(0xBABF260)
 
-inline static constexpr unsigned int Class_3_C5369723D8A09625_TypeDefinitionIndex = 51283;
+inline static constexpr unsigned int Class_3_C5369723D8A09625_TypeDefinitionIndex = 52389;
 
 class Class_3_C5369723D8A09625 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::BattleChangeAvatar_EnterStage*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C5369723D8A09625_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C5369723D8A09625___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

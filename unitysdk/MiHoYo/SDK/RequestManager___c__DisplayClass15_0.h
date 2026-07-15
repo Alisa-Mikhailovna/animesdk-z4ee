@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A3FF90)
-#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__GETMOBILEVERIFYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x16A46D50)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E00C20)
+#define MIHOYO_SDK_REQUESTMANAGER___C__DISPLAYCLASS15_0__GETMOBILEVERIFYCODE_B__0_OFFSET UNITYSDK_OFFSET(0x19E08420)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RequestManager___c__DisplayClass15_0_TypeDefinitionIndex = 8006;
+	inline static constexpr unsigned int RequestManager___c__DisplayClass15_0_TypeDefinitionIndex = 8016;
 
 	class RequestManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::String* mobile; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
-		::System::String* url; // 0x20
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
+		::System::String* url; // 0x18
+		::System::String* mobile; // 0x20
 
 		::System::Void _ctor()
 		{

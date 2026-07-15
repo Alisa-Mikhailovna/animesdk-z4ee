@@ -5,18 +5,18 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client::UI3DGame { class MonopolyGameController; }
 
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17FF7770)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__ONUIENTERTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x17FFACD0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD77FD60)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__ONUIENTERTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xD783460)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonopolyGameController___c__DisplayClass23_0_TypeDefinitionIndex = 70545;
+	inline static constexpr unsigned int MonopolyGameController___c__DisplayClass23_0_TypeDefinitionIndex = 72068;
 
 	class MonopolyGameController___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::UI3DGame::MonopolyGameController* __4__this; // 0x10
-		::RPG::Client::AdventurePhase* adventurePhase; // 0x18
+		::RPG::Client::AdventurePhase* adventurePhase; // 0x10
+		::RPG::Client::UI3DGame::MonopolyGameController* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

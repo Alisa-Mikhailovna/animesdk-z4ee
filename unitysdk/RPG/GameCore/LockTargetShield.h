@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKTARGETSHIELD_METHOD_3_6CC22598BF4C0FF1_OFFSET UNITYSDK_OFFSET(0x19C14D40)
-#define RPG_GAMECORE_LOCKTARGETSHIELD_METHOD_3_FD131076F05BFA9D_OFFSET UNITYSDK_OFFSET(0x19C14CC0)
-#define RPG_GAMECORE_LOCKTARGETSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x19C14D10)
+#define RPG_GAMECORE_LOCKTARGETSHIELD_METHOD_3_1B0358055202FAEE_OFFSET UNITYSDK_OFFSET(0x1B596130)
+#define RPG_GAMECORE_LOCKTARGETSHIELD_METHOD_3_6CC22598BF4C0FF1_OFFSET UNITYSDK_OFFSET(0x1B596170)
+#define RPG_GAMECORE_LOCKTARGETSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B596160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockTargetShield_TypeDefinitionIndex = 22331;
+	inline static constexpr unsigned int LockTargetShield_TypeDefinitionIndex = 22773;
 
 	class LockTargetShield : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKTARGETSHIELD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FD131076F05BFA9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockTargetShield*& a2)
+		static ::System::Void Method_3_1B0358055202FAEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockTargetShield*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockTargetShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKTARGETSHIELD_METHOD_3_FD131076F05BFA9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockTargetShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKTARGETSHIELD_METHOD_3_1B0358055202FAEE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6CC22598BF4C0FF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockTargetShield* a2)

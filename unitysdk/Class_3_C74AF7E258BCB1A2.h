@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyVersusBarProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C74AF7E258BCB1A2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E25610)
-#define CLASS_3_C74AF7E258BCB1A2__CTOR_OFFSET UNITYSDK_OFFSET(0x15E255E0)
+#define CLASS_3_C74AF7E258BCB1A2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1454F170)
+#define CLASS_3_C74AF7E258BCB1A2__CTOR_OFFSET UNITYSDK_OFFSET(0x1454F140)
 
-inline static constexpr unsigned int Class_3_C74AF7E258BCB1A2_TypeDefinitionIndex = 52118;
+inline static constexpr unsigned int Class_3_C74AF7E258BCB1A2_TypeDefinitionIndex = 53275;
 
 class Class_3_C74AF7E258BCB1A2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyVersusBarProperty*>
 {

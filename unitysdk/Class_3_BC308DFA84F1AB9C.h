@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_17282789426EAD93.h"
+#include "unitysdk/Class_2_5F69A1738A3628CB.h"
 #include "unitysdk/RPG/Client/PlanetFesFloatingController_CoinAmount.h"
 
 namespace RPG::Client { class PlanetFesFloatingController; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_BC308DFA84F1AB9C_METHOD_3_1F2113491D806203_OFFSET UNITYSDK_OFFSET(0x1546C630)
-#define CLASS_3_BC308DFA84F1AB9C_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1546C7D0)
-#define CLASS_3_BC308DFA84F1AB9C_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1546C6D0)
-#define CLASS_3_BC308DFA84F1AB9C__CTOR_OFFSET UNITYSDK_OFFSET(0x1546C850)
-#define CLASS_3_BC308DFA84F1AB9C__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1546C860)
-#define CLASS_3_BC308DFA84F1AB9C___IFIXBASEPROXY_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x1546C8D0)
-#define CLASS_3_BC308DFA84F1AB9C___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1546C870)
+#define CLASS_3_BC308DFA84F1AB9C_METHOD_3_1F2113491D806203_OFFSET UNITYSDK_OFFSET(0xB07BA70)
+#define CLASS_3_BC308DFA84F1AB9C_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB07BC10)
+#define CLASS_3_BC308DFA84F1AB9C_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB07BB10)
+#define CLASS_3_BC308DFA84F1AB9C__CTOR_OFFSET UNITYSDK_OFFSET(0xB07BC90)
+#define CLASS_3_BC308DFA84F1AB9C__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB07BCA0)
 
-inline static constexpr unsigned int Class_3_BC308DFA84F1AB9C_TypeDefinitionIndex = 69545;
+inline static constexpr unsigned int Class_3_BC308DFA84F1AB9C_TypeDefinitionIndex = 71068;
 
-class Class_3_BC308DFA84F1AB9C : public ::Class_2_17282789426EAD93
+class Class_3_BC308DFA84F1AB9C : public ::Class_2_5F69A1738A3628CB
 {
 public:
-	::System::String* Field_3_0; // 0x28
-	::UnityEngine::Transform* Field_3_1; // 0x30
+	::UnityEngine::Transform* Field_3_0; // 0x28
+	::System::String* Field_3_1; // 0x30
 	::RPG::Client::PlanetFesFloatingController_CoinAmount Field_3_2; // 0x38
 
 	::System::Void _ctor()
@@ -47,15 +45,5 @@ public:
 	::System::Void _OnExecute_b__1_0()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BC308DFA84F1AB9C__ONEXECUTE_B__1_0_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BC308DFA84F1AB9C___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnClear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BC308DFA84F1AB9C___IFIXBASEPROXY_ONCLEAR_OFFSET))(this);
 	}
 };

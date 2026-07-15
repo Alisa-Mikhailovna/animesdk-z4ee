@@ -17,7 +17,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleTriggerProxyBase_1_TypeDefinitionIndex = 73404;
+	inline static constexpr unsigned int PuzzleTriggerProxyBase_1_TypeDefinitionIndex = 74929;
 
 	template <typename T>
 	class PuzzleTriggerProxyBase_1 : public ::System::Object

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG_METHOD_2_3F05A9D1F5F4D0B8_OFFSET UNITYSDK_OFFSET(0x19ACA480)
-#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACA710)
+#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG_METHOD_2_3F05A9D1F5F4D0B8_OFFSET UNITYSDK_OFFSET(0x1B519CC0)
+#define RPG_GAMECORE_HIPPLENMOVINGGOODSEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B519F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenMovingGoodsEventConfig_TypeDefinitionIndex = 15950;
+	inline static constexpr unsigned int HipplenMovingGoodsEventConfig_TypeDefinitionIndex = 16132;
 
 	class HipplenMovingGoodsEventConfig : public ::RPG::GameCore::JsonConfig
 	{

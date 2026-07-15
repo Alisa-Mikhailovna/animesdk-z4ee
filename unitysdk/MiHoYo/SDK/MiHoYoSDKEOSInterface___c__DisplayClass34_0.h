@@ -6,18 +6,18 @@ namespace Epic::OnlineServices::Ecom { class CheckoutCallbackInfo; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x193BCE50)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS34_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x193BF060)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAE8EA0)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS34_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0xAAEB460)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass34_0_TypeDefinitionIndex = 43719;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass34_0_TypeDefinitionIndex = 44581;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:
-		::System::String* payTrace; // 0x10
-		::System::Action_3<::System::Int32, ::System::String*, ::System::String*>* callback; // 0x18
+		::System::Action_3<::System::Int32, ::System::String*, ::System::String*>* callback; // 0x10
+		::System::String* payTrace; // 0x18
 
 		::System::Void _ctor()
 		{

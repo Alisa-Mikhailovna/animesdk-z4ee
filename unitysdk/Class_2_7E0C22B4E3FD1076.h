@@ -3,15 +3,15 @@
 #include "unitysdk/Class_1_11826CF7B776C859.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_0_16E4307DCC419505_401;
+class Class_0_16E4307DCC419505_425;
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define CLASS_2_7E0C22B4E3FD1076_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x161E0AB0)
-#define CLASS_2_7E0C22B4E3FD1076__CTOR_OFFSET UNITYSDK_OFFSET(0x161E0A30)
+#define CLASS_2_7E0C22B4E3FD1076_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xB6D65A0)
+#define CLASS_2_7E0C22B4E3FD1076__CTOR_OFFSET UNITYSDK_OFFSET(0xB6D6520)
 
-inline static constexpr unsigned int Class_2_7E0C22B4E3FD1076_TypeDefinitionIndex = 68306;
+inline static constexpr unsigned int Class_2_7E0C22B4E3FD1076_TypeDefinitionIndex = 69795;
 
 class Class_2_7E0C22B4E3FD1076 : public ::Class_1_11826CF7B776C859
 {
@@ -23,8 +23,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Reflection::MethodInfo*, ::RPG::GameCore::EventType, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_7E0C22B4E3FD1076__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Void InternalInvoke(::Class_0_16E4307DCC419505_401* a1)
+	::System::Void InternalInvoke(::Class_0_16E4307DCC419505_425* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_401*))((::PBYTE)hIl2Cpp + CLASS_2_7E0C22B4E3FD1076_INTERNALINVOKE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + CLASS_2_7E0C22B4E3FD1076_INTERNALINVOKE_OFFSET))(this, a1);
 	}
 };

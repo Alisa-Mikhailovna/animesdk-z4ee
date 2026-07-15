@@ -1,0 +1,113 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+#include "unitysdk/RPG/Client/FateRin/Card/FateRinHandbookCardTabType.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
+
+class Class_1_DD62B922D9C7B62B;
+class Class_1_F248B058F5A06B98;
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client::FateRin { class ViewModelEventHandler; }
+namespace System { class String; }
+
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_ADD_ONSELECTSTATECHANGE_OFFSET UNITYSDK_OFFSET(0xC4B2F10)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_ISINSELECTSTATE_OFFSET UNITYSDK_OFFSET(0xC4B2EF0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC4B2DF0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_OWNERTYPE_OFFSET UNITYSDK_OFFSET(0xC4B2DA0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_TABICONPATH_OFFSET UNITYSDK_OFFSET(0xC4B2E50)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_TABREPORTNAME_OFFSET UNITYSDK_OFFSET(0xC4B2FD0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_TABTYPE_OFFSET UNITYSDK_OFFSET(0xC4B2CD0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_UISTATE_OFFSET UNITYSDK_OFFSET(0xC4B2ED0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_REMOVE_ONSELECTSTATECHANGE_OFFSET UNITYSDK_OFFSET(0xC4B2F70)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SETSELECTSTATE_OFFSET UNITYSDK_OFFSET(0xC4B2D20)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SET_ISINSELECTSTATE_OFFSET UNITYSDK_OFFSET(0xC4B2F00)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SET_TABREPORTNAME_OFFSET UNITYSDK_OFFSET(0xC4B2FE0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SET_UISTATE_OFFSET UNITYSDK_OFFSET(0xC4B2EE0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B2B10)
+
+namespace RPG::Client::FateRin::Card
+{
+	inline static constexpr unsigned int FateRinHandbookCardAvatarTabViewModel_TypeDefinitionIndex = 76227;
+
+	class FateRinHandbookCardAvatarTabViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::System::String* _UIState_k__BackingField; // 0x20
+		::RPG::Client::FateRin::ViewModelEventHandler* OnSelectStateChange; // 0x28
+		::System::String* _TabReportName_k__BackingField; // 0x30
+		::RPG::AvatarSystem::IAvatar* _AvatarModel; // 0x38
+		::Class_1_DD62B922D9C7B62B* _Model; // 0x40
+		::System::Boolean _IsInSelectState_k__BackingField; // 0x48
+
+		::System::Void _ctor(::Class_1_DD62B922D9C7B62B* a1, ::Class_1_F248B058F5A06B98* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_DD62B922D9C7B62B*, ::Class_1_F248B058F5A06B98*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SetSelectState(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SETSELECTSTATE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::FateRin::Card::FateRinHandbookCardTabType get_TabType()
+		{
+			return ((::RPG::Client::FateRin::Card::FateRinHandbookCardTabType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_TABTYPE_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FateRinHouguOwnerType get_OwnerType()
+		{
+			return ((::RPG::GameCore::FateRinHouguOwnerType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_OWNERTYPE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_TabIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_TABICONPATH_OFFSET))(this);
+		}
+
+		::System::String* get_UIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_UISTATE_OFFSET))(this);
+		}
+
+		::System::Void set_UIState(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SET_UISTATE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsInSelectState()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_ISINSELECTSTATE_OFFSET))(this);
+		}
+
+		::System::Void set_IsInSelectState(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SET_ISINSELECTSTATE_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnSelectStateChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_ADD_ONSELECTSTATECHANGE_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnSelectStateChange(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_REMOVE_ONSELECTSTATECHANGE_OFFSET))(this, a1);
+		}
+
+		::System::String* get_TabReportName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_GET_TABREPORTNAME_OFFSET))(this);
+		}
+
+		::System::Void set_TabReportName(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINHANDBOOKCARDAVATARTABVIEWMODEL_SET_TABREPORTNAME_OFFSET))(this, a1);
+		}
+	};
+}

@@ -10,22 +10,22 @@ namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETANYSTATICMETHODVALIDATED_OFFSET UNITYSDK_OFFSET(0x17A91730)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETPARAMETERSCACHED_OFFSET UNITYSDK_OFFSET(0x17A90A20)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x17A91960)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_MATCHESARGUMENTTYPES_OFFSET UNITYSDK_OFFSET(0x17A917D0)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A91B00)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETANYSTATICMETHODVALIDATED_OFFSET UNITYSDK_OFFSET(0x1CA1E1C0)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETPARAMETERSCACHED_OFFSET UNITYSDK_OFFSET(0x1CA1D130)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x1CA1E400)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_MATCHESARGUMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1CA1E260)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA1E780)
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 3677;
+	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 3681;
 
 	class TypeExtensions : public ::System::Object
 	{
 	public:
 		static ::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*>** StaticGet_s_paramInfoCache()
 		{
-			return (::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x2A0E0);
+			return (::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x312E0);
 		}
 
 		static ::System::Void _cctor()

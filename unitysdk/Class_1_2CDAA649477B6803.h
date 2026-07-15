@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_2CDAA649477B6803__CTOR_OFFSET UNITYSDK_OFFSET(0x1442A280)
+#define CLASS_1_2CDAA649477B6803__CTOR_OFFSET UNITYSDK_OFFSET(0x152D2840)
 
-inline static constexpr unsigned int Class_1_2CDAA649477B6803_TypeDefinitionIndex = 55721;
+inline static constexpr unsigned int Class_1_2CDAA649477B6803_TypeDefinitionIndex = 56958;
 
 class Class_1_2CDAA649477B6803 : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::String*>* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
 	::System::String* Field_1_2; // 0x20
-	::System::Collections::Generic::HashSet_1<::System::String*>* Field_1_3; // 0x28
+	::System::String* Field_1_3; // 0x28
 	::System::Int64 Field_1_4; // 0x30
 	::System::Int64 Field_1_5; // 0x38
 	::System::Int64 Field_1_6; // 0x40

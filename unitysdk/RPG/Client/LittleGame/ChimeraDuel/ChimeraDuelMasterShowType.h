@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelMasterShowType_TypeDefinitionIndex = 72175;
+	inline static constexpr unsigned int ChimeraDuelMasterShowType_TypeDefinitionIndex = 73700;
 
 	enum class ChimeraDuelMasterShowType : ::System::Int32
 	{

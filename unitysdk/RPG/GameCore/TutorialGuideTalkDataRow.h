@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A5D8F0)
-#define RPG_GAMECORE_TUTORIALGUIDETALKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A5E290)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9BA0F0)
+#define RPG_GAMECORE_TUTORIALGUIDETALKDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BAA90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideTalkDataRow_TypeDefinitionIndex = 14617;
+	inline static constexpr unsigned int TutorialGuideTalkDataRow_TypeDefinitionIndex = 14775;
 
 	class TutorialGuideTalkDataRow : public ::System::Object
 	{

@@ -6,19 +6,19 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17AD1050)
-#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17AD1040)
+#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCCFEF00)
+#define RPG_CLIENT_MONOJIGSAWFRAMEIKBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0xCCFEEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoJigsawFrameIKBaker_TypeDefinitionIndex = 64187;
+	inline static constexpr unsigned int MonoJigsawFrameIKBaker_TypeDefinitionIndex = 65558;
 
 	class MonoJigsawFrameIKBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::String** StaticGet_AnimatorPoseState()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoJigsawFrameIKBaker_TypeDefinitionIndex)->GetStaticField(0x169C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(MonoJigsawFrameIKBaker_TypeDefinitionIndex)->GetStaticField(0x5050);
 		}
 		::UnityEngine::Transform* BodyEffectorTarget; // 0x18
 		::System::Single MaxBodyEffectorHeight; // 0x20

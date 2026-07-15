@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTTRIGGERRANGE_METHOD_2_55C4DA3C96B48945_OFFSET UNITYSDK_OFFSET(0x19D66B00)
-#define RPG_GAMECORE_EFFECTTRIGGERRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D66C80)
+#define RPG_GAMECORE_EFFECTTRIGGERRANGE_METHOD_2_55C4DA3C96B48945_OFFSET UNITYSDK_OFFSET(0x1B3D6620)
+#define RPG_GAMECORE_EFFECTTRIGGERRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D67A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectTriggerRange_TypeDefinitionIndex = 21639;
+	inline static constexpr unsigned int EffectTriggerRange_TypeDefinitionIndex = 22062;
 
 	class EffectTriggerRange : public ::RPG::GameCore::JsonConfig
 	{

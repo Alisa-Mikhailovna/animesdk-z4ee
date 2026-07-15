@@ -7,17 +7,17 @@ class Class_1_B22AC0D349544E67;
 namespace RPG::Client { class BaseGameFlow; }
 namespace System { class Exception; }
 
-#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x147A74A0)
-#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x147A74F0)
-#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x147A75E0)
+#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DB1B0)
+#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xB5DB200)
+#define CLASS_1_B22AC0D349544E67___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xB5DB2F0)
 
-inline static constexpr unsigned int Class_1_B22AC0D349544E67___c__DisplayClass4_0_TypeDefinitionIndex = 70157;
+inline static constexpr unsigned int Class_1_B22AC0D349544E67___c__DisplayClass4_0_TypeDefinitionIndex = 71680;
 
 class Class_1_B22AC0D349544E67___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_1_29ADE9724E15BDC9* gameFlowPrepareService; // 0x10
-	::Class_1_B22AC0D349544E67* __4__this; // 0x18
+	::Class_1_B22AC0D349544E67* __4__this; // 0x10
+	::Class_1_29ADE9724E15BDC9* gameFlowPrepareService; // 0x18
 	::System::Boolean needShowStageProgressPage; // 0x20
 
 	::System::Void _ctor()

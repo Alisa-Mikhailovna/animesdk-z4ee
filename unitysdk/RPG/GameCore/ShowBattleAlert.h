@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_5809B16CE295D7F9_OFFSET UNITYSDK_OFFSET(0x19FFB830)
-#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_CCB15AAADD3B0F6D_OFFSET UNITYSDK_OFFSET(0x19FFB7B0)
-#define RPG_GAMECORE_SHOWBATTLEALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFB800)
+#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_40196635ED83E004_OFFSET UNITYSDK_OFFSET(0x1B8C6A30)
+#define RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_5809B16CE295D7F9_OFFSET UNITYSDK_OFFSET(0x1B8C6A70)
+#define RPG_GAMECORE_SHOWBATTLEALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C6A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleAlert_TypeDefinitionIndex = 21676;
+	inline static constexpr unsigned int ShowBattleAlert_TypeDefinitionIndex = 22103;
 
 	class ShowBattleAlert : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CCB15AAADD3B0F6D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAlert*& a2)
+		static ::System::Void Method_3_40196635ED83E004(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAlert*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAlert*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_CCB15AAADD3B0F6D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleAlert*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEALERT_METHOD_3_40196635ED83E004_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5809B16CE295D7F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleAlert* a2)

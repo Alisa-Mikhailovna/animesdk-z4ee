@@ -8,36 +8,36 @@ namespace UnityEngine::Rendering { class BAGraphAsset; }
 namespace UnityEngine::Rendering { class BAGraphLayerTemplate; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define BAWALKSTOPLAYERGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x156DFBB0)
-#define BAWALKSTOPLAYERGRAPH_GETWALKSTOPSTATE_OFFSET UNITYSDK_OFFSET(0x156DFAE0)
-#define BAWALKSTOPLAYERGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x156DF8C0)
-#define BAWALKSTOPLAYERGRAPH_INITCONDITIONS_OFFSET UNITYSDK_OFFSET(0x156DF8D0)
-#define BAWALKSTOPLAYERGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x156DF2C0)
-#define BAWALKSTOPLAYERGRAPH_SETSTATECLIP_OFFSET UNITYSDK_OFFSET(0x156DFB00)
-#define BAWALKSTOPLAYERGRAPH_STARTSTATE_OFFSET UNITYSDK_OFFSET(0x156DFAC0)
-#define BAWALKSTOPLAYERGRAPH_TOSTOP_OFFSET UNITYSDK_OFFSET(0x156DFB80)
-#define BAWALKSTOPLAYERGRAPH_TOWALK_OFFSET UNITYSDK_OFFSET(0x156DFB50)
-#define BAWALKSTOPLAYERGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x156DF270)
+#define BAWALKSTOPLAYERGRAPH_GETGRAPH_OFFSET UNITYSDK_OFFSET(0x1AA2D730)
+#define BAWALKSTOPLAYERGRAPH_GETWALKSTOPSTATE_OFFSET UNITYSDK_OFFSET(0x1AA2D660)
+#define BAWALKSTOPLAYERGRAPH_GET_OFFSET UNITYSDK_OFFSET(0x1AA2D420)
+#define BAWALKSTOPLAYERGRAPH_INITCONDITIONS_OFFSET UNITYSDK_OFFSET(0x1AA2D430)
+#define BAWALKSTOPLAYERGRAPH_INIT_OFFSET UNITYSDK_OFFSET(0x1AA2CE20)
+#define BAWALKSTOPLAYERGRAPH_SETSTATECLIP_OFFSET UNITYSDK_OFFSET(0x1AA2D680)
+#define BAWALKSTOPLAYERGRAPH_STARTSTATE_OFFSET UNITYSDK_OFFSET(0x1AA2D640)
+#define BAWALKSTOPLAYERGRAPH_TOSTOP_OFFSET UNITYSDK_OFFSET(0x1AA2D700)
+#define BAWALKSTOPLAYERGRAPH_TOWALK_OFFSET UNITYSDK_OFFSET(0x1AA2D6D0)
+#define BAWALKSTOPLAYERGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2CDD0)
 
-inline static constexpr unsigned int BAWalkStopLayerGraph_TypeDefinitionIndex = 35138;
+inline static constexpr unsigned int BAWalkStopLayerGraph_TypeDefinitionIndex = 35920;
 
 class BAWalkStopLayerGraph : public ::System::Object
 {
 public:
 	static ::BAWalkStopLayerGraph** StaticGet__Graph()
 	{
-		return (::BAWalkStopLayerGraph**)Il2CppClass::FromTypeDefinitionIndex(BAWalkStopLayerGraph_TypeDefinitionIndex)->GetStaticField(0x5BF00);
+		return (::BAWalkStopLayerGraph**)Il2CppClass::FromTypeDefinitionIndex(BAWalkStopLayerGraph_TypeDefinitionIndex)->GetStaticField(0x61340);
 	}
-	::UnityEngine::Rendering::BAGraphAsset* _walkStopGraph; // 0x10
-	::Il2CppArray<::UnityEngine::Rendering::BANodeHash>* playNode; // 0x18
-	::UnityEngine::Rendering::BANodeHash idleCondNode; // 0x20
-	::UnityEngine::Rendering::BAParamRef _IsMoveCond; // 0x28
-	::UnityEngine::Rendering::BAParamRef _WalkStopTimeCond; // 0x2C
-	::UnityEngine::Rendering::BAParamRef _StopIdleTimeCond; // 0x30
-	::UnityEngine::Rendering::BANodeHash walkStopLCondNode; // 0x34
+	::Il2CppArray<::UnityEngine::Rendering::BANodeHash>* playNode; // 0x10
+	::UnityEngine::Rendering::BAGraphAsset* _walkStopGraph; // 0x18
+	::UnityEngine::Rendering::BANodeHash walkCondNode; // 0x20
+	::UnityEngine::Rendering::BANodeHash stateGroupNode; // 0x28
+	::UnityEngine::Rendering::BAParamRef _WalkStopTimeCond; // 0x30
+	::UnityEngine::Rendering::BANodeHash idleCondNode; // 0x34
 	::UnityEngine::Rendering::BANodeHash walkStopRCondNode; // 0x3C
-	::UnityEngine::Rendering::BANodeHash stateGroupNode; // 0x44
-	::UnityEngine::Rendering::BANodeHash walkCondNode; // 0x4C
+	::UnityEngine::Rendering::BANodeHash walkStopLCondNode; // 0x44
+	::UnityEngine::Rendering::BAParamRef _StopIdleTimeCond; // 0x4C
+	::UnityEngine::Rendering::BAParamRef _IsMoveCond; // 0x50
 
 	::System::Void _ctor()
 	{

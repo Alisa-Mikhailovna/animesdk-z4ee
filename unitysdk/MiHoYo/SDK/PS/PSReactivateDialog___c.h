@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::PS { class PSReactivateDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1741DF80)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1741DFC0)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C__SHOW_B__8_0_OFFSET UNITYSDK_OFFSET(0x1741DFD0)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DA6C40)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19DA6C80)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG___C__SHOW_B__8_0_OFFSET UNITYSDK_OFFSET(0x19DA6C90)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSReactivateDialog___c_TypeDefinitionIndex = 8599;
+	inline static constexpr unsigned int PSReactivateDialog___c_TypeDefinitionIndex = 8611;
 
 	class PSReactivateDialog___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PS::PSReactivateDialog___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::PS::PSReactivateDialog___c**)Il2CppClass::FromTypeDefinitionIndex(PSReactivateDialog___c_TypeDefinitionIndex)->GetStaticField(0x188F0);
-		}
 		static ::System::Action_1<::MiHoYo::SDK::PS::PSReactivateDialog*>** StaticGet___9__8_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PS::PSReactivateDialog*>**)Il2CppClass::FromTypeDefinitionIndex(PSReactivateDialog___c_TypeDefinitionIndex)->GetStaticField(0x188F8);
+			return (::System::Action_1<::MiHoYo::SDK::PS::PSReactivateDialog*>**)Il2CppClass::FromTypeDefinitionIndex(PSReactivateDialog___c_TypeDefinitionIndex)->GetStaticField(0x26380);
+		}
+		static ::MiHoYo::SDK::PS::PSReactivateDialog___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::PS::PSReactivateDialog___c**)Il2CppClass::FromTypeDefinitionIndex(PSReactivateDialog___c_TypeDefinitionIndex)->GetStaticField(0x26388);
 		}
 
 		static ::System::Void _cctor()

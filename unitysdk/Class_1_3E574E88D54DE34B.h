@@ -8,33 +8,33 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleRunOut; }
 namespace System { class Action; }
 
-#define CLASS_1_3E574E88D54DE34B_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1700D8D0)
-#define CLASS_1_3E574E88D54DE34B_METHOD_1_0F76D2A38DFBC84F_OFFSET UNITYSDK_OFFSET(0x1700CA20)
-#define CLASS_1_3E574E88D54DE34B_METHOD_1_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0x1700D410)
-#define CLASS_1_3E574E88D54DE34B_METHOD_1_66F42CE2EDA79734_OFFSET UNITYSDK_OFFSET(0x1700CAC0)
-#define CLASS_1_3E574E88D54DE34B_METHOD_1_8106DDAA0FA0226C_OFFSET UNITYSDK_OFFSET(0x1700D090)
-#define CLASS_1_3E574E88D54DE34B_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x1700D880)
-#define CLASS_1_3E574E88D54DE34B_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1700D8E0)
-#define CLASS_1_3E574E88D54DE34B__CTOR_OFFSET UNITYSDK_OFFSET(0x1700C7F0)
+#define CLASS_1_3E574E88D54DE34B_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xAF5EC00)
+#define CLASS_1_3E574E88D54DE34B_METHOD_1_0F76D2A38DFBC84F_OFFSET UNITYSDK_OFFSET(0xAF5DD50)
+#define CLASS_1_3E574E88D54DE34B_METHOD_1_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0xAF5E740)
+#define CLASS_1_3E574E88D54DE34B_METHOD_1_66F42CE2EDA79734_OFFSET UNITYSDK_OFFSET(0xAF5DDF0)
+#define CLASS_1_3E574E88D54DE34B_METHOD_1_8106DDAA0FA0226C_OFFSET UNITYSDK_OFFSET(0xAF5E3C0)
+#define CLASS_1_3E574E88D54DE34B_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xAF5EBB0)
+#define CLASS_1_3E574E88D54DE34B_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xAF5EC10)
+#define CLASS_1_3E574E88D54DE34B__CTOR_OFFSET UNITYSDK_OFFSET(0xAF5DB10)
 
-inline static constexpr unsigned int Class_1_3E574E88D54DE34B_TypeDefinitionIndex = 72960;
+inline static constexpr unsigned int Class_1_3E574E88D54DE34B_TypeDefinitionIndex = 74485;
 
 class Class_1_3E574E88D54DE34B : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
+	::RPG::Client::Prop::ChimeraBattlePuzzleBoard* Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x20
 	::System::Single Field_1_3; // 0x24
-	::System::Single Field_1_4; // 0x28
+	::Class_1_3E574E88D54DE34B_RunOutStage Field_1_4; // 0x28
 	::System::Single Field_1_5; // 0x2C
 	::System::Single Field_1_6; // 0x30
-	::UnityEngine::Vector3 Field_1_7; // 0x34
-	::System::Single Field_1_8; // 0x40
+	::System::UInt32 Field_1_7; // 0x34
+	::UnityEngine::Vector3 Field_1_8; // 0x38
 	::System::Single Field_1_9; // 0x44
-	::System::Single Field_1_10; // 0x48
-	::System::Boolean _IsFinished_k__BackingField; // 0x4C
-	::Class_1_3E574E88D54DE34B_RunOutStage Field_1_12; // 0x50
+	::System::Boolean _IsFinished_k__BackingField; // 0x48
+	::System::Single Field_1_11; // 0x4C
+	::System::Single Field_1_12; // 0x50
 
 	::System::Void _ctor(::RPG::GameCore::ChimeraBattleRunOut* a1, ::System::UInt32 a2, ::System::Int32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4, ::System::Action* a5)
 	{

@@ -4,23 +4,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1B79A0)
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMERANDOMRECORDARR_OFFSET UNITYSDK_OFFSET(0x1A1B7C40)
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMEWEIGHTARR_OFFSET UNITYSDK_OFFSET(0x1A1B7BE0)
-#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B7BD0)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E7470)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMERANDOMRECORDARR_OFFSET UNITYSDK_OFFSET(0x1B4E7710)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW_GETRUNTIMEWEIGHTARR_OFFSET UNITYSDK_OFFSET(0x1B4E76B0)
+#define RPG_GAMECORE_GRIDFIGHTRANDOMBONUSPOOLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E76A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRandomBonusPoolConfigRow_TypeDefinitionIndex = 12781;
+	inline static constexpr unsigned int GridFightRandomBonusPoolConfigRow_TypeDefinitionIndex = 12918;
 
 	class GridFightRandomBonusPoolConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* BonusList; // 0x10
-		::Il2CppArray<::System::UInt32>* BonusWeightList; // 0x18
+		::Il2CppArray<::System::UInt32>* BonusWeightList; // 0x10
+		::Il2CppArray<::System::UInt32>* _RuntimeRandomWeightArr; // 0x18
 		::Il2CppArray<::System::UInt32>* BonusMaxNumberList; // 0x20
-		::Il2CppArray<::System::UInt32>* _RuntimeRandomWeightArr; // 0x28
-		::Il2CppArray<::System::UInt32>* _RuntimeRandomRecordArr; // 0x30
+		::Il2CppArray<::System::UInt32>* _RuntimeRandomRecordArr; // 0x28
+		::Il2CppArray<::System::UInt32>* BonusList; // 0x30
 		::System::UInt32 RandomBonusID; // 0x38
 		::System::UInt32 TotalValue; // 0x3C
 

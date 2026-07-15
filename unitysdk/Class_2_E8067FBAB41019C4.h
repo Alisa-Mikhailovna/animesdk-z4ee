@@ -8,15 +8,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define CLASS_2_E8067FBAB41019C4_METHOD_2_2C6BB5BD685E1939_OFFSET UNITYSDK_OFFSET(0x1589A2B0)
-#define CLASS_2_E8067FBAB41019C4_METHOD_2_DB51C66BCC16DD6E_OFFSET UNITYSDK_OFFSET(0x1589A300)
-#define CLASS_2_E8067FBAB41019C4_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1589A650)
-#define CLASS_2_E8067FBAB41019C4_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1589A880)
-#define CLASS_2_E8067FBAB41019C4__CTOR_OFFSET UNITYSDK_OFFSET(0x1589A950)
-#define CLASS_2_E8067FBAB41019C4___IFIXBASEPROXY_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1589A960)
-#define CLASS_2_E8067FBAB41019C4___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1589A970)
+#define CLASS_2_E8067FBAB41019C4_METHOD_2_2C6BB5BD685E1939_OFFSET UNITYSDK_OFFSET(0xB482DE0)
+#define CLASS_2_E8067FBAB41019C4_METHOD_2_DB51C66BCC16DD6E_OFFSET UNITYSDK_OFFSET(0xB482E30)
+#define CLASS_2_E8067FBAB41019C4_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xB483180)
+#define CLASS_2_E8067FBAB41019C4_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB4833B0)
+#define CLASS_2_E8067FBAB41019C4__CTOR_OFFSET UNITYSDK_OFFSET(0xB483480)
 
-inline static constexpr unsigned int Class_2_E8067FBAB41019C4_TypeDefinitionIndex = 45366;
+inline static constexpr unsigned int Class_2_E8067FBAB41019C4_TypeDefinitionIndex = 46295;
 
 class Class_2_E8067FBAB41019C4 : public ::UnityEngine::Playables::PlayableBehaviour
 {
@@ -48,15 +46,5 @@ public:
 	::System::Void OnGraphStop(::UnityEngine::Playables::Playable a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E8067FBAB41019C4_ONGRAPHSTOP_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnGraphStart(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E8067FBAB41019C4___IFIXBASEPROXY_ONGRAPHSTART_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E8067FBAB41019C4___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
 	}
 };

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideEndTransferType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8AEB663FC2D4696B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1462D970)
-#define CLASS_3_8AEB663FC2D4696B__CTOR_OFFSET UNITYSDK_OFFSET(0x1462D940)
+#define CLASS_3_8AEB663FC2D4696B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4EB660)
+#define CLASS_3_8AEB663FC2D4696B__CTOR_OFFSET UNITYSDK_OFFSET(0xB4EB630)
 
-inline static constexpr unsigned int Class_3_8AEB663FC2D4696B_TypeDefinitionIndex = 49588;
+inline static constexpr unsigned int Class_3_8AEB663FC2D4696B_TypeDefinitionIndex = 50642;
 
 class Class_3_8AEB663FC2D4696B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideEndTransferType*>
 {

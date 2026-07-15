@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenEffectSource.h"
+#include "unitysdk/RPG/Client/NavMap/NavVertexType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_1151;
-namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1152_TypeDefinitionIndex = 70363;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1152_TypeDefinitionIndex = 71133;
 
 class Class_0_16E4307DCC419505_1152
 {

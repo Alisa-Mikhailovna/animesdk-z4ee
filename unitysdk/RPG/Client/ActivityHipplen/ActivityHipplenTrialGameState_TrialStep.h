@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenTrialGameState_TrialStep_TypeDefinitionIndex = 70401;
+	inline static constexpr unsigned int ActivityHipplenTrialGameState_TrialStep_TypeDefinitionIndex = 71924;
 
 	enum class ActivityHipplenTrialGameState_TrialStep : ::System::Int32
 	{

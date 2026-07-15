@@ -6,20 +6,20 @@ namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class MatchThreePiece; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19742B60)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS19_0__DOMATCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0x19742B70)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS19_0__DOMATCHPIECE_B__1_OFFSET UNITYSDK_OFFSET(0x19742B90)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB396C0)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS19_0__DOMATCHPIECE_B__0_OFFSET UNITYSDK_OFFSET(0xCB41F70)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS19_0__DOMATCHPIECE_B__1_OFFSET UNITYSDK_OFFSET(0xCB41F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass19_0_TypeDefinitionIndex = 61604;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass19_0_TypeDefinitionIndex = 62966;
 
 	class MatchThreeBoard___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onFinish; // 0x10
-		::RPG::Client::MatchThreePiece* piece; // 0x18
-		::RPG::Client::MatchThreeBoard* __4__this; // 0x20
+		::RPG::Client::MatchThreeBoard* __4__this; // 0x10
+		::System::Action* onFinish; // 0x18
+		::RPG::Client::MatchThreePiece* piece; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -5,13 +5,12 @@
 namespace RPG::Client { class MeshRendererOverrideBoundBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17929A50)
-#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17929AA0)
-#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17929AB0)
+#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCBA4DF0)
+#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA4E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MeshRendererOverrideBoundMonoPlugin_TypeDefinitionIndex = 66094;
+	inline static constexpr unsigned int MeshRendererOverrideBoundMonoPlugin_TypeDefinitionIndex = 67519;
 
 	class MeshRendererOverrideBoundMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MeshRendererOverrideBoundBehavior*>
 	{
@@ -26,11 +25,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 namespace RPG::Client { class BasePhaseContext; }
 
-#define RPG_CLIENT_BASEPHASE_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0x17A113B0)
-#define RPG_CLIENT_BASEPHASE_SETCONTEXT_OFFSET UNITYSDK_OFFSET(0x17A11360)
-#define RPG_CLIENT_BASEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A113F0)
+#define RPG_CLIENT_BASEPHASE_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xBE2F610)
+#define RPG_CLIENT_BASEPHASE_SETCONTEXT_OFFSET UNITYSDK_OFFSET(0xBE2F5C0)
+#define RPG_CLIENT_BASEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0xBE2F650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePhase_TypeDefinitionIndex = 57137;
+	inline static constexpr unsigned int BasePhase_TypeDefinitionIndex = 58395;
 
 	class BasePhase : public ::System::Object
 	{

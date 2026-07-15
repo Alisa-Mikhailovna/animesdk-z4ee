@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19C0FC80)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19C0FB10)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19C0F800)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19C0FAB0)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19C0FDD0)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19C0F880)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19C0FE10)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C0FFE0)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19C101D0)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C104F0)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19C0FF40)
-#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19C0FEA0)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B591510)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B5913A0)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B591090)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B591340)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B591660)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B591110)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5916A0)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B591870)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B591A60)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B591D80)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B5917D0)
+#define RPG_GAMECORE_LOADINGWORLDIMAGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B591730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingWorldImageExcelTable_TypeDefinitionIndex = 13321;
+	inline static constexpr unsigned int LoadingWorldImageExcelTable_TypeDefinitionIndex = 13469;
 
 	class LoadingWorldImageExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingWorldImageRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingWorldImageRow*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x458C0);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x292F0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x458C8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x292F8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingWorldImageRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LoadingWorldImageRow*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x29300);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x98E0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x458D0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0x98E1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0xB300);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LoadingWorldImageExcelTable_TypeDefinitionIndex)->GetStaticField(0xB301);
 		}
 
 		static ::System::Void _cctor()

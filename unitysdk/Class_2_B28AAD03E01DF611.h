@@ -6,20 +6,19 @@ class Class_1_52DF42E136544C98;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_B28AAD03E01DF611_METHOD_2_34D5F4DBE622AF88_OFFSET UNITYSDK_OFFSET(0x16BEDB80)
-#define CLASS_2_B28AAD03E01DF611__CTOR_OFFSET UNITYSDK_OFFSET(0x16BEDE20)
-#define CLASS_2_B28AAD03E01DF611__ONBIND_OFFSET UNITYSDK_OFFSET(0x16BED9D0)
-#define CLASS_2_B28AAD03E01DF611___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x16BEDE50)
+#define CLASS_2_B28AAD03E01DF611_METHOD_2_34D5F4DBE622AF88_OFFSET UNITYSDK_OFFSET(0xB96E4F0)
+#define CLASS_2_B28AAD03E01DF611__CTOR_OFFSET UNITYSDK_OFFSET(0xB96E790)
+#define CLASS_2_B28AAD03E01DF611__ONBIND_OFFSET UNITYSDK_OFFSET(0xB96E340)
 
-inline static constexpr unsigned int Class_2_B28AAD03E01DF611_TypeDefinitionIndex = 66679;
+inline static constexpr unsigned int Class_2_B28AAD03E01DF611_TypeDefinitionIndex = 68116;
 
 class Class_2_B28AAD03E01DF611 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::UnityEngine::Transform* Field_2_0; // 0x60
+	::UnityEngine::UI::Text* Field_2_0; // 0x60
 	::UnityEngine::Transform* Field_2_1; // 0x68
 	::UnityEngine::Transform* Field_2_2; // 0x70
-	::UnityEngine::UI::Text* Field_2_3; // 0x78
+	::UnityEngine::Transform* Field_2_3; // 0x78
 
 	::System::Void _ctor()
 	{
@@ -34,10 +33,5 @@ public:
 	::System::Void Method_2_34D5F4DBE622AF88(::Class_1_52DF42E136544C98* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_1_52DF42E136544C98*))((::PBYTE)hIl2Cpp + CLASS_2_B28AAD03E01DF611_METHOD_2_34D5F4DBE622AF88_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_B28AAD03E01DF611___IFIXBASEPROXY__ONBIND_OFFSET))(this);
 	}
 };

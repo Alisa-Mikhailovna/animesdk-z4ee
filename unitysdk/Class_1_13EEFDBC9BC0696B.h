@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/TRFTwoState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_13EEFDBC9BC0696B__CTOR_OFFSET UNITYSDK_OFFSET(0x18617A30)
+#define CLASS_1_13EEFDBC9BC0696B__CTOR_OFFSET UNITYSDK_OFFSET(0x1A72FBD0)
 
-inline static constexpr unsigned int Class_1_13EEFDBC9BC0696B_TypeDefinitionIndex = 39476;
+inline static constexpr unsigned int Class_1_13EEFDBC9BC0696B_TypeDefinitionIndex = 40285;
 
 class Class_1_13EEFDBC9BC0696B : public ::System::Object
 {

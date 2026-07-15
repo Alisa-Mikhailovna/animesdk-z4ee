@@ -6,12 +6,12 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18889DE0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW___C__DISPLAYCLASS1_0___FIREEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1888AA00)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E88F0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRLASERVIEW___C__DISPLAYCLASS1_0___FIREEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC9E9440)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirLaserView___c__DisplayClass1_0_TypeDefinitionIndex = 71847;
+	inline static constexpr unsigned int PixAirLaserView___c__DisplayClass1_0_TypeDefinitionIndex = 73372;
 
 	class PixAirLaserView___c__DisplayClass1_0 : public ::System::Object
 	{

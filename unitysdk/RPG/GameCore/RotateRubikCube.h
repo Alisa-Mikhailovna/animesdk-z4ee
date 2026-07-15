@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROTATERUBIKCUBE_METHOD_3_86692DEE3E8759B0_OFFSET UNITYSDK_OFFSET(0x194115A0)
-#define RPG_GAMECORE_ROTATERUBIKCUBE_METHOD_3_ADB4E86F69813BC2_OFFSET UNITYSDK_OFFSET(0x19411520)
-#define RPG_GAMECORE_ROTATERUBIKCUBE__CTOR_OFFSET UNITYSDK_OFFSET(0x19411570)
+#define RPG_GAMECORE_ROTATERUBIKCUBE_METHOD_3_86692DEE3E8759B0_OFFSET UNITYSDK_OFFSET(0x1B7A6540)
+#define RPG_GAMECORE_ROTATERUBIKCUBE_METHOD_3_C73F15FE5BF34901_OFFSET UNITYSDK_OFFSET(0x1B7A64F0)
+#define RPG_GAMECORE_ROTATERUBIKCUBE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7A6530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotateRubikCube_TypeDefinitionIndex = 20919;
+	inline static constexpr unsigned int RotateRubikCube_TypeDefinitionIndex = 21334;
 
 	class RotateRubikCube : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATERUBIKCUBE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ADB4E86F69813BC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotateRubikCube*& a2)
+		static ::System::Void Method_3_C73F15FE5BF34901(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotateRubikCube*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotateRubikCube*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATERUBIKCUBE_METHOD_3_ADB4E86F69813BC2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotateRubikCube*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATERUBIKCUBE_METHOD_3_C73F15FE5BF34901_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_86692DEE3E8759B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotateRubikCube* a2)

@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_DECIMALTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x175F5580)
-#define SYSTEM_DIAGNOSTICS_TRACING_DECIMALTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x175F5530)
-#define SYSTEM_DIAGNOSTICS_TRACING_DECIMALTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x175F5740)
+#define SYSTEM_DIAGNOSTICS_TRACING_DECIMALTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1A0C6920)
+#define SYSTEM_DIAGNOSTICS_TRACING_DECIMALTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x1A0C68D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_DECIMALTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C6AE0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int DecimalTypeInfo_TypeDefinitionIndex = 1645;
+	inline static constexpr unsigned int DecimalTypeInfo_TypeDefinitionIndex = 1649;
 
 	class DecimalTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::System::Decimal>
 	{

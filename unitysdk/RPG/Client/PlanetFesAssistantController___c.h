@@ -5,24 +5,24 @@
 class Class_1_A794720E3EA5DFF0;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D0F960)
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18D0F9A0)
-#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0x18D0F9B0)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFF11F0)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF1230)
+#define RPG_CLIENT_PLANETFESASSISTANTCONTROLLER___C___INITMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0xCFF1240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAssistantController___c_TypeDefinitionIndex = 62154;
+	inline static constexpr unsigned int PlanetFesAssistantController___c_TypeDefinitionIndex = 63520;
 
 	class PlanetFesAssistantController___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>** StaticGet___9__6_0()
-		{
-			return (::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x8560);
-		}
 		static ::RPG::Client::PlanetFesAssistantController___c** StaticGet___9()
 		{
-			return (::RPG::Client::PlanetFesAssistantController___c**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x8568);
+			return (::RPG::Client::PlanetFesAssistantController___c**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x68F60);
+		}
+		static ::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>** StaticGet___9__6_0()
+		{
+			return (::System::Comparison_1<::Class_1_A794720E3EA5DFF0*>**)Il2CppClass::FromTypeDefinitionIndex(PlanetFesAssistantController___c_TypeDefinitionIndex)->GetStaticField(0x68F68);
 		}
 
 		static ::System::Void _cctor()

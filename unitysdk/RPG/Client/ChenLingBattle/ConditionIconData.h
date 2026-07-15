@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CONDITIONICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x35CCC90)
+#define RPG_CLIENT_CHENLINGBATTLE_CONDITIONICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x30100)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ConditionIconData_TypeDefinitionIndex = 70922;
+	inline static constexpr unsigned int ConditionIconData_TypeDefinitionIndex = 72435;
 
 	struct alignas(8) ConditionIconData
 	{

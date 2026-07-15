@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY_METHOD_3_0A3C2CE0B882C601_OFFSET UNITYSDK_OFFSET(0x18BB67B0)
-#define RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY_METHOD_3_EB6CA605AB7D0DA8_OFFSET UNITYSDK_OFFSET(0x18BB6730)
-#define RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x18BB6780)
+#define RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY_METHOD_3_0A3C2CE0B882C601_OFFSET UNITYSDK_OFFSET(0x1B1804D0)
+#define RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY_METHOD_3_CF2D85AE6E09261A_OFFSET UNITYSDK_OFFSET(0x1B180490)
+#define RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1804C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillTriggerAbility_TypeDefinitionIndex = 19093;
+	inline static constexpr unsigned int AdventureSkillTriggerAbility_TypeDefinitionIndex = 19448;
 
 	class AdventureSkillTriggerAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EB6CA605AB7D0DA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureSkillTriggerAbility*& a2)
+		static ::System::Void Method_3_CF2D85AE6E09261A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureSkillTriggerAbility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureSkillTriggerAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY_METHOD_3_EB6CA605AB7D0DA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureSkillTriggerAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESKILLTRIGGERABILITY_METHOD_3_CF2D85AE6E09261A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0A3C2CE0B882C601(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureSkillTriggerAbility* a2)

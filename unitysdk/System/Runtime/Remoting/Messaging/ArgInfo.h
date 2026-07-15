@@ -5,12 +5,12 @@
 
 namespace System::Reflection { class MethodBase; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET UNITYSDK_OFFSET(0x17442F10)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17442D50)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO_GETINOUTARGS_OFFSET UNITYSDK_OFFSET(0x1A1CD0A0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ARGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1CCC50)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int ArgInfo_TypeDefinitionIndex = 1288;
+	inline static constexpr unsigned int ArgInfo_TypeDefinitionIndex = 1290;
 
 	class ArgInfo : public ::System::Object
 	{

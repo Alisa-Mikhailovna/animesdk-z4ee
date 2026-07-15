@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK_READ_OFFSET UNITYSDK_OFFSET(0x17CF81C0)
-#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF8FC0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK_READ_OFFSET UNITYSDK_OFFSET(0x1CCF6F70)
+#define SYSTEM_NET_MONOCHUNKSTREAM_CHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF7EC0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int MonoChunkStream_Chunk_TypeDefinitionIndex = 2858;
+	inline static constexpr unsigned int MonoChunkStream_Chunk_TypeDefinitionIndex = 2862;
 
 	class MonoChunkStream_Chunk : public ::System::Object
 	{

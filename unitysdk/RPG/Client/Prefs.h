@@ -8,57 +8,57 @@ namespace RPG::Client { class UserPrefs; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PREFS_AUTOSAVE_OFFSET UNITYSDK_OFFSET(0x161FB870)
-#define RPG_CLIENT_PREFS_DELETEALL_OFFSET UNITYSDK_OFFSET(0x161FB8D0)
-#define RPG_CLIENT_PREFS_FORCESAVE_OFFSET UNITYSDK_OFFSET(0x161FB3F0)
-#define RPG_CLIENT_PREFS_GET_APP_OFFSET UNITYSDK_OFFSET(0x161E7510)
-#define RPG_CLIENT_PREFS_GET_PACKAGE_OFFSET UNITYSDK_OFFSET(0x161FB9B0)
-#define RPG_CLIENT_PREFS_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x161ED0F0)
-#define RPG_CLIENT_PREFS_GET_USER_OFFSET UNITYSDK_OFFSET(0x161E5340)
-#define RPG_CLIENT_PREFS_RECOVERFROMCLOUD_OFFSET UNITYSDK_OFFSET(0x161FBD90)
-#define RPG_CLIENT_PREFS_SET_APP_OFFSET UNITYSDK_OFFSET(0x161FB980)
-#define RPG_CLIENT_PREFS_SET_PACKAGE_OFFSET UNITYSDK_OFFSET(0x161FBD00)
-#define RPG_CLIENT_PREFS_SET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x161FB9A0)
-#define RPG_CLIENT_PREFS_SET_USER_OFFSET UNITYSDK_OFFSET(0x161FB990)
-#define RPG_CLIENT_PREFS_SWITCHTODEBUGPACKAGEPREFS_OFFSET UNITYSDK_OFFSET(0x161FB940)
-#define RPG_CLIENT_PREFS_TICKSAVE_OFFSET UNITYSDK_OFFSET(0x161FB430)
-#define RPG_CLIENT_PREFS__FORCESAVETOCLOUD_OFFSET UNITYSDK_OFFSET(0x161FB4F0)
-#define RPG_CLIENT_PREFS__FORCESAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0x161FB7A0)
+#define RPG_CLIENT_PREFS_AUTOSAVE_OFFSET UNITYSDK_OFFSET(0xD0BDA20)
+#define RPG_CLIENT_PREFS_DELETEALL_OFFSET UNITYSDK_OFFSET(0xD0BDA80)
+#define RPG_CLIENT_PREFS_FORCESAVE_OFFSET UNITYSDK_OFFSET(0xD0BD610)
+#define RPG_CLIENT_PREFS_GET_APP_OFFSET UNITYSDK_OFFSET(0xD0A8ED0)
+#define RPG_CLIENT_PREFS_GET_PACKAGE_OFFSET UNITYSDK_OFFSET(0xD0BDB60)
+#define RPG_CLIENT_PREFS_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0xD0AEF70)
+#define RPG_CLIENT_PREFS_GET_USER_OFFSET UNITYSDK_OFFSET(0xD0A6960)
+#define RPG_CLIENT_PREFS_RECOVERFROMCLOUD_OFFSET UNITYSDK_OFFSET(0xD0BDFB0)
+#define RPG_CLIENT_PREFS_SET_APP_OFFSET UNITYSDK_OFFSET(0xD0BDB30)
+#define RPG_CLIENT_PREFS_SET_PACKAGE_OFFSET UNITYSDK_OFFSET(0xD0BDF20)
+#define RPG_CLIENT_PREFS_SET_SETTINGS_OFFSET UNITYSDK_OFFSET(0xD0BDB50)
+#define RPG_CLIENT_PREFS_SET_USER_OFFSET UNITYSDK_OFFSET(0xD0BDB40)
+#define RPG_CLIENT_PREFS_SWITCHTODEBUGPACKAGEPREFS_OFFSET UNITYSDK_OFFSET(0xD0BDAF0)
+#define RPG_CLIENT_PREFS_TICKSAVE_OFFSET UNITYSDK_OFFSET(0xD0BD650)
+#define RPG_CLIENT_PREFS__FORCESAVETOCLOUD_OFFSET UNITYSDK_OFFSET(0xD0BD710)
+#define RPG_CLIENT_PREFS__FORCESAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0xD0BD950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Prefs_TypeDefinitionIndex = 55473;
+	inline static constexpr unsigned int Prefs_TypeDefinitionIndex = 56710;
 
 	class Prefs : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AppPrefs** StaticGet__PackagePrefs()
-		{
-			return (::RPG::Client::AppPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0xF270);
-		}
 		static ::RPG::Client::AppPrefs** StaticGet__AppPrefs()
 		{
-			return (::RPG::Client::AppPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0xF278);
-		}
-		static ::RPG::Client::SettingsPrefs** StaticGet__SettingsPrefs()
-		{
-			return (::RPG::Client::SettingsPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0xF280);
+			return (::RPG::Client::AppPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x2DB80);
 		}
 		static ::RPG::Client::UserPrefs** StaticGet__UserPrefs()
 		{
-			return (::RPG::Client::UserPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0xF288);
+			return (::RPG::Client::UserPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x2DB88);
 		}
-		static ::System::Boolean* StaticGet__NeedSave()
+		static ::RPG::Client::AppPrefs** StaticGet__PackagePrefs()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x4BC0);
+			return (::RPG::Client::AppPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x2DB90);
+		}
+		static ::RPG::Client::SettingsPrefs** StaticGet__SettingsPrefs()
+		{
+			return (::RPG::Client::SettingsPrefs**)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x2DB98);
 		}
 		static ::System::UInt32* StaticGet__UserID()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x4BC4);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x7E90);
 		}
 		static ::System::Single* StaticGet__LastSaveTime()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x4BC8);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x7E94);
+		}
+		static ::System::Boolean* StaticGet__NeedSave()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Prefs_TypeDefinitionIndex)->GetStaticField(0x7E98);
 		}
 		// static const ::System::Single AutoSaveInterval; // 0x0
 		// static const ::System::String* CloudSaveDataKey; // 0x0

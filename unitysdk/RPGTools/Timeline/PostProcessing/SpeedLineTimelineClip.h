@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::PostProcessing { class SpeedLineTimelineBehaviour; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B50A00)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD0B860)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineTimelineClip_TypeDefinitionIndex = 45886;
+	inline static constexpr unsigned int SpeedLineTimelineClip_TypeDefinitionIndex = 46825;
 
 	class SpeedLineTimelineClip : public ::RPGTools::Timeline::PostProcessing::BaseTimelineClip_1<::RPGTools::Timeline::PostProcessing::SpeedLineTimelineBehaviour*>
 	{

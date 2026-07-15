@@ -7,18 +7,18 @@ namespace RPG::Client { class OnAssetOperationDelegate; }
 namespace RPG::Client { class Wheel; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1772F8E0)
-#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__SETWHEELSICON_B__0_OFFSET UNITYSDK_OFFSET(0x1772FAE0)
+#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD8A6A10)
+#define RPG_CLIENT_WHEEL___C__DISPLAYCLASS6_0__SETWHEELSICON_B__0_OFFSET UNITYSDK_OFFSET(0xD8A6C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Wheel___c__DisplayClass6_0_TypeDefinitionIndex = 66179;
+	inline static constexpr unsigned int Wheel___c__DisplayClass6_0_TypeDefinitionIndex = 67604;
 
 	class Wheel___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::MeshRenderer* meshRenderer; // 0x10
-		::RPG::Client::OnAssetOperationDelegate* __9__0; // 0x18
+		::RPG::Client::OnAssetOperationDelegate* __9__0; // 0x10
+		::UnityEngine::MeshRenderer* meshRenderer; // 0x18
 		::RPG::Client::Wheel* __4__this; // 0x20
 		::System::Int32 i; // 0x28
 

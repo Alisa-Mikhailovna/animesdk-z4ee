@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18654A80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS10_0__TRYGETSLOTBYID_B__0_OFFSET UNITYSDK_OFFSET(0x18656900)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE0040)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__DISPLAYCLASS10_0__TRYGETSLOTBYID_B__0_OFFSET UNITYSDK_OFFSET(0xBBE1D10)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipSlotInfo___c__DisplayClass10_0_TypeDefinitionIndex = 70110;
+	inline static constexpr unsigned int SpEquipSlotInfo___c__DisplayClass10_0_TypeDefinitionIndex = 71633;
 
 	class SpEquipSlotInfo___c__DisplayClass10_0 : public ::System::Object
 	{

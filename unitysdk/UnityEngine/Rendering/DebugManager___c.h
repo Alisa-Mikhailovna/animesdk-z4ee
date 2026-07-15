@@ -6,30 +6,30 @@ namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugManager; }
 
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x195BA940)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x195BA970)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x195BA9A0)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_0_OFFSET UNITYSDK_OFFSET(0x195BA980)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_1_OFFSET UNITYSDK_OFFSET(0x195BA990)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEEAC80)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEEACB0)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1CEEACE0)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_0_OFFSET UNITYSDK_OFFSET(0x1CEEACC0)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_1_OFFSET UNITYSDK_OFFSET(0x1CEEACD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugManager___c_TypeDefinitionIndex = 33710;
+	inline static constexpr unsigned int DebugManager___c_TypeDefinitionIndex = 34081;
 
 	class DebugManager___c : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::DebugManager___c** StaticGet___9()
-		{
-			return (::UnityEngine::Rendering::DebugManager___c**)Il2CppClass::FromTypeDefinitionIndex(DebugManager___c_TypeDefinitionIndex)->GetStaticField(0x45FE0);
-		}
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__51_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DebugManager___c_TypeDefinitionIndex)->GetStaticField(0x45FE8);
+			return (::System::Action_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DebugManager___c_TypeDefinitionIndex)->GetStaticField(0x47FE0);
 		}
 		static ::System::Action** StaticGet___9__51_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(DebugManager___c_TypeDefinitionIndex)->GetStaticField(0x45FF0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(DebugManager___c_TypeDefinitionIndex)->GetStaticField(0x47FE8);
+		}
+		static ::UnityEngine::Rendering::DebugManager___c** StaticGet___9()
+		{
+			return (::UnityEngine::Rendering::DebugManager___c**)Il2CppClass::FromTypeDefinitionIndex(DebugManager___c_TypeDefinitionIndex)->GetStaticField(0x47FF0);
 		}
 
 		static ::System::Void _cctor()

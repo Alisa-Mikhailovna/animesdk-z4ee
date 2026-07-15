@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_UIPANELGROUP_METHOD_2_DCF6237C6FD54892_OFFSET UNITYSDK_OFFSET(0x19A63140)
-#define RPG_GAMECORE_UIPANELGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A63200)
+#define RPG_GAMECORE_UIPANELGROUP_METHOD_2_DCF6237C6FD54892_OFFSET UNITYSDK_OFFSET(0x1B9BF7F0)
+#define RPG_GAMECORE_UIPANELGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BF8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIPanelGroup_TypeDefinitionIndex = 16276;
+	inline static constexpr unsigned int UIPanelGroup_TypeDefinitionIndex = 16460;
 
 	class UIPanelGroup : public ::RPG::GameCore::JsonConfig
 	{

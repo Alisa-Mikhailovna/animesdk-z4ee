@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNFORMULAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19404990)
-#define RPG_GAMECORE_ROGUETOURNFORMULAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19405260)
+#define RPG_GAMECORE_ROGUETOURNFORMULAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B799B30)
+#define RPG_GAMECORE_ROGUETOURNFORMULAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79A400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournFormulaRow_TypeDefinitionIndex = 14270;
+	inline static constexpr unsigned int RogueTournFormulaRow_TypeDefinitionIndex = 14418;
 
 	class RogueTournFormulaRow : public ::System::Object
 	{
 	public:
 		::System::String* FormulaStoryJson; // 0x10
-		::System::Boolean IsInHandbook; // 0x18
-		::RPG::GameCore::RogueFormulaCategory FormulaCategory; // 0x1C
-		::System::UInt32 SubBuffTypeID; // 0x20
-		::System::UInt32 MazeBuffID; // 0x24
-		::System::UInt32 FormulaDisplayID; // 0x28
-		::RPG::GameCore::RogueTournMode TournMode; // 0x2C
-		::System::UInt32 MainBuffTypeID; // 0x30
-		::System::UInt32 FormulaID; // 0x34
-		::System::UInt32 SubBuffNum; // 0x38
-		::System::UInt32 MainBuffNum; // 0x3C
+		::System::UInt32 FormulaDisplayID; // 0x18
+		::System::Boolean IsInHandbook; // 0x1C
+		::System::UInt32 SubBuffNum; // 0x20
+		::System::UInt32 MainBuffNum; // 0x24
+		::System::UInt32 FormulaID; // 0x28
+		::RPG::GameCore::RogueFormulaCategory FormulaCategory; // 0x2C
+		::RPG::GameCore::RogueTournMode TournMode; // 0x30
+		::System::UInt32 SubBuffTypeID; // 0x34
+		::System::UInt32 MazeBuffID; // 0x38
+		::System::UInt32 MainBuffTypeID; // 0x3C
 
 		::System::Void _ctor()
 		{

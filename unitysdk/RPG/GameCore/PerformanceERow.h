@@ -9,29 +9,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x19D21D90)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D22140)
-#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x19D22D70)
-#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x19D22DD0)
-#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D22E00)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B694E00)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6951B0)
+#define RPG_GAMECORE_PERFORMANCEEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B695DD0)
+#define RPG_GAMECORE_PERFORMANCEEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B695E30)
+#define RPG_GAMECORE_PERFORMANCEEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B695E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13660;
+	inline static constexpr unsigned int PerformanceERow_TypeDefinitionIndex = 13808;
 
 	class PerformanceERow : public ::System::Object
 	{
 	public:
-		::System::String* PerformanceCharacter; // 0x10
-		::System::String* PerformancePath; // 0x18
-		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x20
-		::RPG::GameCore::StoryBlackType EndBlack; // 0x24
-		::System::UInt32 PlaneID; // 0x28
-		::System::UInt32 FloorID; // 0x2C
-		::System::Boolean EndWithCrack; // 0x30
-		::System::Boolean IsIntroDialogue; // 0x31
-		::RPG::GameCore::StoryBlackType StartBlack; // 0x34
-		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x38
+		::System::String* PerformancePath; // 0x10
+		::System::String* PerformanceCharacter; // 0x18
+		::RPG::GameCore::StoryBlackType StartBlack; // 0x20
+		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x24
+		::RPG::GameCore::PerformanceChangePlayerType ChangePlayerType; // 0x28
+		::System::UInt32 PlaneID; // 0x2C
+		::RPG::GameCore::StoryBlackType EndBlack; // 0x30
+		::System::UInt32 FloorID; // 0x34
+		::System::Boolean IsIntroDialogue; // 0x38
+		::System::Boolean EndWithCrack; // 0x39
 		::System::UInt32 PerformanceID; // 0x3C
 
 		::System::Void _ctor()

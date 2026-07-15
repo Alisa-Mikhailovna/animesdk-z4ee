@@ -5,12 +5,12 @@
 namespace RPG::Client::Challenge { class ChallengeAvatarLineupSlotControl; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBF640)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__3_OFFSET UNITYSDK_OFFSET(0x18FBF670)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF4A8E0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__3_OFFSET UNITYSDK_OFFSET(0xBF4A910)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeAvatarLineupSlotsControl___c__DisplayClass9_0_TypeDefinitionIndex = 74073;
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotsControl___c__DisplayClass9_0_TypeDefinitionIndex = 76455;
 
 	class ChallengeAvatarLineupSlotsControl___c__DisplayClass9_0 : public ::System::Object
 	{

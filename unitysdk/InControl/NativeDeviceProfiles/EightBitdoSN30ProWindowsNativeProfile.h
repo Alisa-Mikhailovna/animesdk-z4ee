@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSN30PROWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1524DDC0)
-#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSN30PROWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1524EEE0)
+#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSN30PROWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x199823D0)
+#define INCONTROL_NATIVEDEVICEPROFILES_EIGHTBITDOSN30PROWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19983490)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int EightBitdoSN30ProWindowsNativeProfile_TypeDefinitionIndex = 38337;
+	inline static constexpr unsigned int EightBitdoSN30ProWindowsNativeProfile_TypeDefinitionIndex = 39145;
 
 	class EightBitdoSN30ProWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

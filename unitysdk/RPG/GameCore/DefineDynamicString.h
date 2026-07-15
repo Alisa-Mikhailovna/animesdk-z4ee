@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_DEFINEDYNAMICSTRING_METHOD_3_0EE4FB4CE400DB65_OFFSET UNITYSDK_OFFSET(0x19B34320)
-#define RPG_GAMECORE_DEFINEDYNAMICSTRING_METHOD_3_FFDE990D250EE4D4_OFFSET UNITYSDK_OFFSET(0x19B343A0)
-#define RPG_GAMECORE_DEFINEDYNAMICSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x19B34370)
+#define RPG_GAMECORE_DEFINEDYNAMICSTRING_METHOD_3_CCBC2FB8991EB751_OFFSET UNITYSDK_OFFSET(0x1B3A0090)
+#define RPG_GAMECORE_DEFINEDYNAMICSTRING_METHOD_3_FFDE990D250EE4D4_OFFSET UNITYSDK_OFFSET(0x1B3A00D0)
+#define RPG_GAMECORE_DEFINEDYNAMICSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3A00C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DefineDynamicString_TypeDefinitionIndex = 21651;
+	inline static constexpr unsigned int DefineDynamicString_TypeDefinitionIndex = 22077;
 
 	class DefineDynamicString : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEFINEDYNAMICSTRING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0EE4FB4CE400DB65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DefineDynamicString*& a2)
+		static ::System::Void Method_3_CCBC2FB8991EB751(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DefineDynamicString*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DefineDynamicString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEFINEDYNAMICSTRING_METHOD_3_0EE4FB4CE400DB65_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DefineDynamicString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEFINEDYNAMICSTRING_METHOD_3_CCBC2FB8991EB751_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FFDE990D250EE4D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DefineDynamicString* a2)

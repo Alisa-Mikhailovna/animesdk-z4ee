@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A518280)
-#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5183D0)
+#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B350EA0)
+#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B350FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRecommendationRow_TypeDefinitionIndex = 10680;
+	inline static constexpr unsigned int ChimeraDuelRecommendationRow_TypeDefinitionIndex = 10730;
 
 	class ChimeraDuelRecommendationRow : public ::System::Object
 	{

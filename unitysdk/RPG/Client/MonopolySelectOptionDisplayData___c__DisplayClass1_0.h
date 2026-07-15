@@ -4,12 +4,12 @@
 
 class Class_1_36E937D84726B70A;
 
-#define RPG_CLIENT_MONOPOLYSELECTOPTIONDISPLAYDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1699A8C0)
-#define RPG_CLIENT_MONOPOLYSELECTOPTIONDISPLAYDATA___C__DISPLAYCLASS1_0__GETOPTIONRATIO_B__0_OFFSET UNITYSDK_OFFSET(0x1699A990)
+#define RPG_CLIENT_MONOPOLYSELECTOPTIONDISPLAYDATA___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCD6B160)
+#define RPG_CLIENT_MONOPOLYSELECTOPTIONDISPLAYDATA___C__DISPLAYCLASS1_0__GETOPTIONRATIO_B__0_OFFSET UNITYSDK_OFFSET(0xCD6B230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolySelectOptionDisplayData___c__DisplayClass1_0_TypeDefinitionIndex = 61980;
+	inline static constexpr unsigned int MonopolySelectOptionDisplayData___c__DisplayClass1_0_TypeDefinitionIndex = 63345;
 
 	class MonopolySelectOptionDisplayData___c__DisplayClass1_0 : public ::System::Object
 	{

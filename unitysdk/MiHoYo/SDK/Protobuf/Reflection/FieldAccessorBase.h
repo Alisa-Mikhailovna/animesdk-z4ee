@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1835F670)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1835FCE0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18371880)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x19B59660)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x19B59D20)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6DD70)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 34022;
+	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 34393;
 
 	class FieldAccessorBase : public ::System::Object
 	{

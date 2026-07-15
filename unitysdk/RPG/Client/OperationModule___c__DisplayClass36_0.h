@@ -5,20 +5,20 @@
 class Class_1_92B1BD6FC8375724;
 namespace System { class String; }
 
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16FE6510)
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0x16FE7EE0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF0F8B0)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS36_0__SETUPHTTPAUTHKEYPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xCF10F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 62099;
+	inline static constexpr unsigned int OperationModule___c__DisplayClass36_0_TypeDefinitionIndex = 63464;
 
 	class OperationModule___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::System::String* authKeyVer; // 0x10
-		::Class_1_92B1BD6FC8375724* req; // 0x18
-		::System::String* appID; // 0x20
-		::System::String* signType; // 0x28
+		::System::String* appID; // 0x10
+		::System::String* authKeyVer; // 0x18
+		::System::String* signType; // 0x20
+		::Class_1_92B1BD6FC8375724* req; // 0x28
 
 		::System::Void _ctor()
 		{

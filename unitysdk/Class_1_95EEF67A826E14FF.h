@@ -5,35 +5,35 @@
 #include "unitysdk/RPG/GameCore/FloatMessageType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_69D7459C7F6EC835;
+class Class_1_2AA304B71C6E8B6D;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_95EEF67A826E14FF_GET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x1573A2A0)
-#define CLASS_1_95EEF67A826E14FF_METHOD_1_12B9BCF82817FBA3_OFFSET UNITYSDK_OFFSET(0x1573A2C0)
-#define CLASS_1_95EEF67A826E14FF_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x1573A570)
-#define CLASS_1_95EEF67A826E14FF_METHOD_1_6AC96244C3E8E768_OFFSET UNITYSDK_OFFSET(0x1573A440)
-#define CLASS_1_95EEF67A826E14FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1573A530)
-#define CLASS_1_95EEF67A826E14FF_SET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x1573A2B0)
-#define CLASS_1_95EEF67A826E14FF__CTOR_OFFSET UNITYSDK_OFFSET(0x1573A5C0)
+#define CLASS_1_95EEF67A826E14FF_GET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x149AF8B0)
+#define CLASS_1_95EEF67A826E14FF_METHOD_1_12B9BCF82817FBA3_OFFSET UNITYSDK_OFFSET(0x149AF8D0)
+#define CLASS_1_95EEF67A826E14FF_METHOD_1_2AD3741D25035F49_OFFSET UNITYSDK_OFFSET(0x149AFA50)
+#define CLASS_1_95EEF67A826E14FF_METHOD_1_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x149AFC10)
+#define CLASS_1_95EEF67A826E14FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x149AFBD0)
+#define CLASS_1_95EEF67A826E14FF_SET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x149AF8C0)
+#define CLASS_1_95EEF67A826E14FF__CTOR_OFFSET UNITYSDK_OFFSET(0x149AFC60)
 
-inline static constexpr unsigned int Class_1_95EEF67A826E14FF_TypeDefinitionIndex = 66870;
+inline static constexpr unsigned int Class_1_95EEF67A826E14FF_TypeDefinitionIndex = 68312;
 
 class Class_1_95EEF67A826E14FF : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Class_1_69D7459C7F6EC835* Field_1_1; // 0x18
-	::Il2CppArray<::System::Object*>* Field_1_2; // 0x20
-	::RPG::GameCore::GameEntity* Field_1_3; // 0x28
-	::System::UInt32 _MergedCount_k__BackingField; // 0x30
-	::System::Single Field_1_5; // 0x34
-	::System::Single Field_1_6; // 0x38
-	::System::Boolean Field_1_7; // 0x3C
-	::System::Boolean Field_1_8; // 0x3D
-	::RPG::Client::TextID Field_1_9; // 0x40
-	::RPG::GameCore::FloatMessageType Field_1_10; // 0x50
-	::RPG::GameCore::EnumStatusType Field_1_11; // 0x54
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::Class_1_2AA304B71C6E8B6D* Field_1_2; // 0x20
+	::Il2CppArray<::System::Object*>* Field_1_3; // 0x28
+	::System::Boolean Field_1_4; // 0x30
+	::System::Boolean Field_1_5; // 0x31
+	::RPG::GameCore::EnumStatusType Field_1_6; // 0x34
+	::RPG::Client::TextID Field_1_7; // 0x38
+	::System::Single Field_1_8; // 0x48
+	::System::UInt32 _MergedCount_k__BackingField; // 0x4C
+	::System::Single Field_1_10; // 0x50
+	::RPG::GameCore::FloatMessageType Field_1_11; // 0x54
 
 	::System::Void _ctor()
 	{
@@ -65,8 +65,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_95EEF67A826E14FF_METHOD_1_3E7178C5ECF017DB_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_6AC96244C3E8E768(::Il2CppArray<::System::Object*>* a1)
+	::System::Boolean Method_1_2AD3741D25035F49(::Il2CppArray<::System::Object*>* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_1_95EEF67A826E14FF_METHOD_1_6AC96244C3E8E768_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_1_95EEF67A826E14FF_METHOD_1_2AD3741D25035F49_OFFSET))(this, a1);
 	}
 };

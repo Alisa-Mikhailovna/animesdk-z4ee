@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_782;
+class Class_0_16E4307DCC419505_817;
 namespace RPG::Client { class GridFightGridMoveValidateResult; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_VALIDATE_OFFSET UNITYSDK_OFFSET(0x17CA4880)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CA4E00)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA4DF0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__DEFAULTREASON_OFFSET UNITYSDK_OFFSET(0x17CA4D20)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_VALIDATE_OFFSET UNITYSDK_OFFSET(0xC76A010)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xC76A630)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC76A620)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR__DEFAULTREASON_OFFSET UNITYSDK_OFFSET(0xC76A550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_TypeDefinitionIndex = 60631;
+	inline static constexpr unsigned int GridFightGridOperationValidator_TypeDefinitionIndex = 61922;
 
 	class GridFightGridOperationValidator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_782*>** StaticGet__Constraits()
+		static ::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_817*>** StaticGet__Constraits()
 		{
-			return (::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_782*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGridOperationValidator_TypeDefinitionIndex)->GetStaticField(0x2E930);
+			return (::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_817*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGridOperationValidator_TypeDefinitionIndex)->GetStaticField(0x289D0);
 		}
 
 		::System::Void _ctor()

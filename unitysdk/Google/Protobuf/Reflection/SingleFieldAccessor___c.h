@@ -5,24 +5,24 @@
 namespace Google::Protobuf { class IMessage; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A37EFF0)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A37F030)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1A37F040)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1980F580)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1980F5C0)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1980F5D0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SingleFieldAccessor___c_TypeDefinitionIndex = 5574;
+	inline static constexpr unsigned int SingleFieldAccessor___c_TypeDefinitionIndex = 5579;
 
 	class SingleFieldAccessor___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::Reflection::SingleFieldAccessor___c** StaticGet___9()
-		{
-			return (::Google::Protobuf::Reflection::SingleFieldAccessor___c**)Il2CppClass::FromTypeDefinitionIndex(SingleFieldAccessor___c_TypeDefinitionIndex)->GetStaticField(0x3BCE0);
-		}
 		static ::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SingleFieldAccessor___c_TypeDefinitionIndex)->GetStaticField(0x3BCE8);
+			return (::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SingleFieldAccessor___c_TypeDefinitionIndex)->GetStaticField(0x43F90);
+		}
+		static ::Google::Protobuf::Reflection::SingleFieldAccessor___c** StaticGet___9()
+		{
+			return (::Google::Protobuf::Reflection::SingleFieldAccessor___c**)Il2CppClass::FromTypeDefinitionIndex(SingleFieldAccessor___c_TypeDefinitionIndex)->GetStaticField(0x43F98);
 		}
 
 		static ::System::Void _cctor()

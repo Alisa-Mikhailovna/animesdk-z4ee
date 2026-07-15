@@ -5,18 +5,18 @@
 class Class_1_D707BE2AC47F299A;
 namespace RPG::Client::Challenge { class ChallengeAvatarLineupSlotControl; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBF020)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0___BINDLACKEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x18FBF120)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF4A2B0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0___BINDLACKEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xBF4A370)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass14_0_TypeDefinitionIndex = 74071;
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass14_0_TypeDefinitionIndex = 76453;
 
 	class ChallengeAvatarLineupSlotControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::ChallengeAvatarLineupSlotControl* __4__this; // 0x10
-		::Class_1_D707BE2AC47F299A* vm; // 0x18
+		::Class_1_D707BE2AC47F299A* vm; // 0x10
+		::RPG::Client::Challenge::ChallengeAvatarLineupSlotControl* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

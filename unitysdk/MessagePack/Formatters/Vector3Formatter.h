@@ -8,21 +8,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14005B70)
-#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x14005B00)
-#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14005DC0)
-#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14005AF0)
+#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AF3D90)
+#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AF3D20)
+#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AF3FE0)
+#define MESSAGEPACK_FORMATTERS_VECTOR3FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AF3D10)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Vector3Formatter_TypeDefinitionIndex = 7452;
+	inline static constexpr unsigned int Vector3Formatter_TypeDefinitionIndex = 7458;
 
 	class Vector3Formatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Vector3>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Vector3Formatter_TypeDefinitionIndex)->GetStaticField(0x8B90);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(Vector3Formatter_TypeDefinitionIndex)->GetStaticField(0xB940);
 		}
 
 		::System::Void _ctor()

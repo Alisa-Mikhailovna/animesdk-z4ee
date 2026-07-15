@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE_METHOD_3_73FE11397DD8D486_OFFSET UNITYSDK_OFFSET(0x1B3180C0)
-#define RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE_METHOD_3_980409FCC60114B5_OFFSET UNITYSDK_OFFSET(0x1B318140)
-#define RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B318110)
+#define RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE_METHOD_3_980409FCC60114B5_OFFSET UNITYSDK_OFFSET(0x1B9E6740)
+#define RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE_METHOD_3_BE566C19F0826FA4_OFFSET UNITYSDK_OFFSET(0x1B9E6700)
+#define RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E6730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitFloorSavedValueChange_TypeDefinitionIndex = 19564;
+	inline static constexpr unsigned int WaitFloorSavedValueChange_TypeDefinitionIndex = 19923;
 
 	class WaitFloorSavedValueChange : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_73FE11397DD8D486(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFloorSavedValueChange*& a2)
+		static ::System::Void Method_3_BE566C19F0826FA4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFloorSavedValueChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFloorSavedValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE_METHOD_3_73FE11397DD8D486_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFloorSavedValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFLOORSAVEDVALUECHANGE_METHOD_3_BE566C19F0826FA4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_980409FCC60114B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFloorSavedValueChange* a2)

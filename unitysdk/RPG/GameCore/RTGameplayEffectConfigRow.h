@@ -8,27 +8,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x19AA3A10)
-#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AA3D80)
-#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x19AA3990)
-#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_RESET_OFFSET UNITYSDK_OFFSET(0x19AA39F0)
-#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA4140)
+#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B6FDBC0)
+#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6FDF30)
+#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B6FDB40)
+#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B6FDBA0)
+#define RPG_GAMECORE_RTGAMEPLAYEFFECTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6FE2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RTGameplayEffectConfigRow_TypeDefinitionIndex = 13876;
+	inline static constexpr unsigned int RTGameplayEffectConfigRow_TypeDefinitionIndex = 14024;
 
 	class RTGameplayEffectConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::System::String* TargetType; // 0x18
-		::System::String* Icon; // 0x20
-		::System::String* GEName; // 0x28
-		::System::UInt32 ID; // 0x30
-		::RPG::Client::TextID Desc; // 0x38
-		::RPG::Client::TextID SimpleDesc; // 0x48
-		::RPG::Client::TextID Title; // 0x58
+		::System::String* GEName; // 0x18
+		::System::String* TargetType; // 0x20
+		::System::String* Icon; // 0x28
+		::RPG::Client::TextID Desc; // 0x30
+		::RPG::Client::TextID Title; // 0x40
+		::RPG::Client::TextID SimpleDesc; // 0x50
+		::System::UInt32 ID; // 0x60
 
 		::System::Void _ctor()
 		{

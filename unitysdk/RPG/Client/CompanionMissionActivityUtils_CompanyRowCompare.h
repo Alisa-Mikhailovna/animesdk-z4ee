@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class ActivityBannerCompanyMissionRow; }
 
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_COMPANYROWCOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0x17845E10)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_COMPANYROWCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0x17845A00)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_COMPANYROWCOMPARE_COMPARE_OFFSET UNITYSDK_OFFSET(0xC1A0970)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_COMPANYROWCOMPARE__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A0510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CompanionMissionActivityUtils_CompanyRowCompare_TypeDefinitionIndex = 59460;
+	inline static constexpr unsigned int CompanionMissionActivityUtils_CompanyRowCompare_TypeDefinitionIndex = 60744;
 
 	class CompanionMissionActivityUtils_CompanyRowCompare : public ::System::Object
 	{

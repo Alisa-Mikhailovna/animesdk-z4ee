@@ -6,24 +6,24 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1_CLEAR_OFFSET UNITYSDK_OFFSET(0x148C6060)
-#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1_METHOD_1_5915AF106ADC73EB_OFFSET UNITYSDK_OFFSET(0x148C5BF0)
-#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1_METHOD_1_7B5E3B36CA129EB3_OFFSET UNITYSDK_OFFSET(0x148C4C90)
-#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1__CTOR_OFFSET UNITYSDK_OFFSET(0x148C60B0)
+#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1_CLEAR_OFFSET UNITYSDK_OFFSET(0x14B8E720)
+#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1_METHOD_1_5915AF106ADC73EB_OFFSET UNITYSDK_OFFSET(0x14B8E2B0)
+#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1_METHOD_1_7B5E3B36CA129EB3_OFFSET UNITYSDK_OFFSET(0x14B8D360)
+#define CLASS_1_80793F5E162C6353_CLASS_1_B601576051DF7BD1__CTOR_OFFSET UNITYSDK_OFFSET(0x14B8E770)
 
-inline static constexpr unsigned int Class_1_80793F5E162C6353_Class_1_B601576051DF7BD1_TypeDefinitionIndex = 56763;
+inline static constexpr unsigned int Class_1_80793F5E162C6353_Class_1_B601576051DF7BD1_TypeDefinitionIndex = 58010;
 
 class Class_1_80793F5E162C6353_Class_1_B601576051DF7BD1 : public ::System::Object
 {
 public:
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x2C
-	::System::Boolean Field_1_5; // 0x2D
-	::System::Boolean Field_1_6; // 0x2E
-	::System::Boolean Field_1_7; // 0x2F
+	::UnityEngine::Transform* Field_1_1; // 0x18
+	::System::String* Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x28
+	::System::Boolean Field_1_4; // 0x29
+	::System::Boolean Field_1_5; // 0x2A
+	::System::Boolean Field_1_6; // 0x2B
+	::System::Single Field_1_7; // 0x2C
 
 	::System::Void _ctor()
 	{

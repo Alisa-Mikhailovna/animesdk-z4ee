@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1952F030)
-#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1952F3A0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B11E1A0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENWORKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11E510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenWorkRow_TypeDefinitionIndex = 11125;
+	inline static constexpr unsigned int ActivityHipplenWorkRow_TypeDefinitionIndex = 11225;
 
 	class ActivityHipplenWorkRow : public ::System::Object
 	{
 	public:
 		::System::String* WorkSmallIcon; // 0x10
 		::System::String* WorkIcon; // 0x18
-		::RPG::Client::TextID WorkTitle; // 0x20
-		::RPG::GameCore::HipplenWorkType Type; // 0x30
-		::System::UInt32 ID; // 0x34
-		::RPG::Client::TextID WorkDesc; // 0x38
-		::System::UInt32 Cost; // 0x48
-		::System::UInt32 Param; // 0x4C
+		::RPG::Client::TextID WorkDesc; // 0x20
+		::System::UInt32 Cost; // 0x30
+		::RPG::GameCore::HipplenWorkType Type; // 0x34
+		::RPG::Client::TextID WorkTitle; // 0x38
+		::System::UInt32 Param; // 0x48
+		::System::UInt32 ID; // 0x4C
 
 		::System::Void _ctor()
 		{

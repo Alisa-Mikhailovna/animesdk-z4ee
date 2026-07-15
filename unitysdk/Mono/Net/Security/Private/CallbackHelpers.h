@@ -7,13 +7,13 @@ namespace Mono::Security::Interface { class MonoRemoteCertificateValidationCallb
 namespace System::Net::Security { class LocalCertSelectionCallback; }
 namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x18E80B10)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOPUBLIC_OFFSET UNITYSDK_OFFSET(0x18E80A70)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_PUBLICTOMONO_OFFSET UNITYSDK_OFFSET(0x18E88DC0)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1CC51030)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOPUBLIC_OFFSET UNITYSDK_OFFSET(0x1CC50F90)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_PUBLICTOMONO_OFFSET UNITYSDK_OFFSET(0x1CC59AA0)
 
 namespace Mono::Net::Security::Private
 {
-	inline static constexpr unsigned int CallbackHelpers_TypeDefinitionIndex = 2437;
+	inline static constexpr unsigned int CallbackHelpers_TypeDefinitionIndex = 2441;
 
 	class CallbackHelpers : public ::System::Object
 	{

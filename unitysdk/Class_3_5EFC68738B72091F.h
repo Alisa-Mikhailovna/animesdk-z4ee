@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddGridFightDropData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5EFC68738B72091F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14725370)
-#define CLASS_3_5EFC68738B72091F__CTOR_OFFSET UNITYSDK_OFFSET(0x14725340)
+#define CLASS_3_5EFC68738B72091F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x149EC560)
+#define CLASS_3_5EFC68738B72091F__CTOR_OFFSET UNITYSDK_OFFSET(0x149EC530)
 
-inline static constexpr unsigned int Class_3_5EFC68738B72091F_TypeDefinitionIndex = 51242;
+inline static constexpr unsigned int Class_3_5EFC68738B72091F_TypeDefinitionIndex = 52334;
 
 class Class_3_5EFC68738B72091F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddGridFightDropData*>
 {

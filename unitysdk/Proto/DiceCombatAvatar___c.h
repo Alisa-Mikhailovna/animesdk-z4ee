@@ -4,20 +4,20 @@
 
 namespace Proto { class DiceCombatAvatar; }
 
-#define PROTO_DICECOMBATAVATAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A43F080)
-#define PROTO_DICECOMBATAVATAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A43F0B0)
-#define PROTO_DICECOMBATAVATAR___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1A43F0C0)
+#define PROTO_DICECOMBATAVATAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC67AB0)
+#define PROTO_DICECOMBATAVATAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC67AE0)
+#define PROTO_DICECOMBATAVATAR___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1BC67AF0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DiceCombatAvatar___c_TypeDefinitionIndex = 24333;
+	inline static constexpr unsigned int DiceCombatAvatar___c_TypeDefinitionIndex = 24825;
 
 	class DiceCombatAvatar___c : public ::System::Object
 	{
 	public:
 		static ::Proto::DiceCombatAvatar___c** StaticGet___9()
 		{
-			return (::Proto::DiceCombatAvatar___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatAvatar___c_TypeDefinitionIndex)->GetStaticField(0x3C3C0);
+			return (::Proto::DiceCombatAvatar___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatAvatar___c_TypeDefinitionIndex)->GetStaticField(0x3C890);
 		}
 
 		static ::System::Void _cctor()

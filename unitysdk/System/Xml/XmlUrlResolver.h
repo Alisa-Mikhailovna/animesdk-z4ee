@@ -12,26 +12,26 @@ namespace System::Net::Cache { class RequestCachePolicy; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 namespace System::Xml { class XmlDownloadManager; }
 
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1B1F46A0)
-#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1B1F44F0)
-#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1B1F4420)
-#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1B1F4690)
-#define SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F44E0)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITYASYNC_OFFSET UNITYSDK_OFFSET(0x1CC34DC0)
+#define SYSTEM_XML_XMLURLRESOLVER_GETENTITY_OFFSET UNITYSDK_OFFSET(0x1CC34C10)
+#define SYSTEM_XML_XMLURLRESOLVER_GET_DOWNLOADMANAGER_OFFSET UNITYSDK_OFFSET(0x1CC34B40)
+#define SYSTEM_XML_XMLURLRESOLVER_RESOLVEURI_OFFSET UNITYSDK_OFFSET(0x1CC34DB0)
+#define SYSTEM_XML_XMLURLRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC34C00)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlUrlResolver_TypeDefinitionIndex = 1959;
+	inline static constexpr unsigned int XmlUrlResolver_TypeDefinitionIndex = 1963;
 
 	class XmlUrlResolver : public ::System::Xml::XmlResolver
 	{
 	public:
 		static ::System::Object** StaticGet_s_DownloadManager()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(XmlUrlResolver_TypeDefinitionIndex)->GetStaticField(0x1A130);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(XmlUrlResolver_TypeDefinitionIndex)->GetStaticField(0x276B0);
 		}
-		::System::Net::IWebProxy* _proxy; // 0x10
-		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x18
-		::System::Net::ICredentials* _credentials; // 0x20
+		::System::Net::Cache::RequestCachePolicy* _cachePolicy; // 0x10
+		::System::Net::ICredentials* _credentials; // 0x18
+		::System::Net::IWebProxy* _proxy; // 0x20
 
 		::System::Void _ctor()
 		{

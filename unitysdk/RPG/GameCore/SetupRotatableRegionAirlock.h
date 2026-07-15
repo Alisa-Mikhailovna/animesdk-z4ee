@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_METHOD_3_9AFA6C38688F4A27_OFFSET UNITYSDK_OFFSET(0x19FF28C0)
-#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_METHOD_3_AB68F75562E37422_OFFSET UNITYSDK_OFFSET(0x19FF2840)
-#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF2890)
+#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_METHOD_3_9AFA6C38688F4A27_OFFSET UNITYSDK_OFFSET(0x1B8BDD40)
+#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_METHOD_3_E5A8D2832A0F27D6_OFFSET UNITYSDK_OFFSET(0x1B8BDD00)
+#define RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BDD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupRotatableRegionAirlock_TypeDefinitionIndex = 20080;
+	inline static constexpr unsigned int SetupRotatableRegionAirlock_TypeDefinitionIndex = 20452;
 
 	class SetupRotatableRegionAirlock : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AB68F75562E37422(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupRotatableRegionAirlock*& a2)
+		static ::System::Void Method_3_E5A8D2832A0F27D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupRotatableRegionAirlock*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupRotatableRegionAirlock*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_METHOD_3_AB68F75562E37422_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupRotatableRegionAirlock*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPROTATABLEREGIONAIRLOCK_METHOD_3_E5A8D2832A0F27D6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9AFA6C38688F4A27(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupRotatableRegionAirlock* a2)

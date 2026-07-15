@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CUSTOMRP_MATERIALINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x12ADE180)
+#define RPG_CUSTOMRP_MATERIALINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD8CD1B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialInfo_TypeDefinitionIndex = 48487;
+	inline static constexpr unsigned int MaterialInfo_TypeDefinitionIndex = 49500;
 
 	class MaterialInfo : public ::System::Object
 	{

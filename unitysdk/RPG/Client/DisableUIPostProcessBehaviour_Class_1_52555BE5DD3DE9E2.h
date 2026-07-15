@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_CLASS_1_52555BE5DD3DE9E2__CTOR_OFFSET UNITYSDK_OFFSET(0x18CC7A10)
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_CLASS_1_52555BE5DD3DE9E2__CTOR_OFFSET UNITYSDK_OFFSET(0xC2ADFC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2_TypeDefinitionIndex = 67970;
+	inline static constexpr unsigned int DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2_TypeDefinitionIndex = 69456;
 
 	class DisableUIPostProcessBehaviour_Class_1_52555BE5DD3DE9E2 : public ::System::Object
 	{

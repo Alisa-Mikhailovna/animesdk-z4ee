@@ -7,13 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C43D60)
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C43E40)
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C43F20)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCF0DF0)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCF0EA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathTrack_TypeDefinitionIndex = 45138;
+	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathTrack_TypeDefinitionIndex = 46056;
 
 	class MoveVirtualCameraOnDollyPathTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEMAKEITEMDIE_METHOD_3_9F7A5747BE63354B_OFFSET UNITYSDK_OFFSET(0x19C391C0)
-#define RPG_GAMECORE_MARBLEMAKEITEMDIE_METHOD_3_E1E81ABE3DB72680_OFFSET UNITYSDK_OFFSET(0x19C392A0)
-#define RPG_GAMECORE_MARBLEMAKEITEMDIE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C39250)
+#define RPG_GAMECORE_MARBLEMAKEITEMDIE_METHOD_3_5E8504B4C26D6EF0_OFFSET UNITYSDK_OFFSET(0x1B5B94A0)
+#define RPG_GAMECORE_MARBLEMAKEITEMDIE_METHOD_3_E1E81ABE3DB72680_OFFSET UNITYSDK_OFFSET(0x1B5B9500)
+#define RPG_GAMECORE_MARBLEMAKEITEMDIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5B94F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMakeItemDie_TypeDefinitionIndex = 16016;
+	inline static constexpr unsigned int MarbleMakeItemDie_TypeDefinitionIndex = 16200;
 
 	class MarbleMakeItemDie : public ::RPG::GameCore::MarbleTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEMAKEITEMDIE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9F7A5747BE63354B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleMakeItemDie*& a2)
+		static ::System::Void Method_3_5E8504B4C26D6EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleMakeItemDie*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleMakeItemDie*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEMAKEITEMDIE_METHOD_3_9F7A5747BE63354B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleMakeItemDie*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEMAKEITEMDIE_METHOD_3_5E8504B4C26D6EF0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E1E81ABE3DB72680(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleMakeItemDie* a2)

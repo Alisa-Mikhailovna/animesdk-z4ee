@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Win { class AccountList; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14833180)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x148334A0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5A450)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__DISPLAYCLASS57_0__DELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x19E5A770)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountList___c__DisplayClass57_0_TypeDefinitionIndex = 8952;
+	inline static constexpr unsigned int AccountList___c__DisplayClass57_0_TypeDefinitionIndex = 8964;
 
 	class AccountList___c__DisplayClass57_0 : public ::System::Object
 	{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACHENTITYDEPARTED_METHOD_3_7612907818328953_OFFSET UNITYSDK_OFFSET(0x18BE78D0)
-#define RPG_GAMECORE_ATTACHENTITYDEPARTED_METHOD_3_A7409A602B16818A_OFFSET UNITYSDK_OFFSET(0x18BE7850)
-#define RPG_GAMECORE_ATTACHENTITYDEPARTED__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE78A0)
+#define RPG_GAMECORE_ATTACHENTITYDEPARTED_METHOD_3_5ACE9C44B10B4FC0_OFFSET UNITYSDK_OFFSET(0x1B1B3FE0)
+#define RPG_GAMECORE_ATTACHENTITYDEPARTED_METHOD_3_7612907818328953_OFFSET UNITYSDK_OFFSET(0x1B1B4020)
+#define RPG_GAMECORE_ATTACHENTITYDEPARTED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B4010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachEntityDeparted_TypeDefinitionIndex = 22320;
+	inline static constexpr unsigned int AttachEntityDeparted_TypeDefinitionIndex = 22762;
 
 	class AttachEntityDeparted : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHENTITYDEPARTED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A7409A602B16818A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachEntityDeparted*& a2)
+		static ::System::Void Method_3_5ACE9C44B10B4FC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachEntityDeparted*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachEntityDeparted*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHENTITYDEPARTED_METHOD_3_A7409A602B16818A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachEntityDeparted*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHENTITYDEPARTED_METHOD_3_5ACE9C44B10B4FC0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7612907818328953(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachEntityDeparted* a2)

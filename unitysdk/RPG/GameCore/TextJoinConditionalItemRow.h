@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D15770)
-#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D15930)
+#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B96CDD0)
+#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B96CF90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextJoinConditionalItemRow_TypeDefinitionIndex = 14520;
+	inline static constexpr unsigned int TextJoinConditionalItemRow_TypeDefinitionIndex = 14678;
 
 	class TextJoinConditionalItemRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID TextJoinText; // 0x10
-		::System::UInt32 UnlockID; // 0x20
-		::System::UInt32 TextJoinItemID; // 0x24
+		::System::UInt32 UnlockID; // 0x10
+		::System::UInt32 TextJoinItemID; // 0x14
+		::RPG::Client::TextID TextJoinText; // 0x18
 
 		::System::Void _ctor()
 		{

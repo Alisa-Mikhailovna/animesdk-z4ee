@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByAttackDamageData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5EC1F6BE68114973_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15091080)
-#define CLASS_3_5EC1F6BE68114973__CTOR_OFFSET UNITYSDK_OFFSET(0x15090FA0)
+#define CLASS_3_5EC1F6BE68114973_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14410A70)
+#define CLASS_3_5EC1F6BE68114973__CTOR_OFFSET UNITYSDK_OFFSET(0x14410990)
 
-inline static constexpr unsigned int Class_3_5EC1F6BE68114973_TypeDefinitionIndex = 51750;
+inline static constexpr unsigned int Class_3_5EC1F6BE68114973_TypeDefinitionIndex = 52896;
 
 class Class_3_5EC1F6BE68114973 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByAttackDamageData*>
 {

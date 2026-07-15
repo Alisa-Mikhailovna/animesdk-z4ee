@@ -5,10 +5,10 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_2C78656B7C04DBA7_CLEAR_OFFSET UNITYSDK_OFFSET(0x19441F70)
-#define CLASS_1_2C78656B7C04DBA7__CTOR_OFFSET UNITYSDK_OFFSET(0x19441FE0)
+#define CLASS_1_2C78656B7C04DBA7_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A919F30)
+#define CLASS_1_2C78656B7C04DBA7__CTOR_OFFSET UNITYSDK_OFFSET(0x1A919FA0)
 
-inline static constexpr unsigned int Class_1_2C78656B7C04DBA7_TypeDefinitionIndex = 39605;
+inline static constexpr unsigned int Class_1_2C78656B7C04DBA7_TypeDefinitionIndex = 40414;
 
 class Class_1_2C78656B7C04DBA7 : public ::System::Object
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_PROPERTYRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x171476B0)
+#define RPG_CLIENT_PROPERTYRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xD26DD80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropertyRecord_TypeDefinitionIndex = 67859;
+	inline static constexpr unsigned int PropertyRecord_TypeDefinitionIndex = 69343;
 
 	class PropertyRecord : public ::System::Object
 	{

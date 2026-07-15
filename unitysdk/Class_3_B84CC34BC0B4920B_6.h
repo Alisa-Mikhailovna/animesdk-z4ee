@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class TargetFetchDataViewUISelectLeave; }
+namespace RPG::GameCore { class TargetFetchAdvAITarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_B84CC34BC0B4920B_6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1414E340)
-#define CLASS_3_B84CC34BC0B4920B_6__CTOR_OFFSET UNITYSDK_OFFSET(0x1414E2F0)
+#define CLASS_3_B84CC34BC0B4920B_6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14AB76C0)
+#define CLASS_3_B84CC34BC0B4920B_6__CTOR_OFFSET UNITYSDK_OFFSET(0x14AB7650)
 
-inline static constexpr unsigned int Class_3_B84CC34BC0B4920B_6_TypeDefinitionIndex = 55379;
+inline static constexpr unsigned int Class_3_B84CC34BC0B4920B_6_TypeDefinitionIndex = 56576;
 
-class Class_3_B84CC34BC0B4920B_6 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchDataViewUISelectLeave*>
+class Class_3_B84CC34BC0B4920B_6 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchAdvAITarget*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TargetFetchDataViewUISelectLeave* a1)
+	::System::Void _ctor(::RPG::GameCore::TargetFetchAdvAITarget* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchDataViewUISelectLeave*))((::PBYTE)hIl2Cpp + CLASS_3_B84CC34BC0B4920B_6__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchAdvAITarget*))((::PBYTE)hIl2Cpp + CLASS_3_B84CC34BC0B4920B_6__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

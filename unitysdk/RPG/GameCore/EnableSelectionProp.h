@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ENABLESELECTIONPROP_METHOD_3_33A7BE17688EDE56_OFFSET UNITYSDK_OFFSET(0x19D768A0)
-#define RPG_GAMECORE_ENABLESELECTIONPROP_METHOD_3_BDA4EF74477F2470_OFFSET UNITYSDK_OFFSET(0x19D769F0)
-#define RPG_GAMECORE_ENABLESELECTIONPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x19D76960)
+#define RPG_GAMECORE_ENABLESELECTIONPROP_METHOD_3_24E9F680A9D09A60_OFFSET UNITYSDK_OFFSET(0x1B3E59A0)
+#define RPG_GAMECORE_ENABLESELECTIONPROP_METHOD_3_BDA4EF74477F2470_OFFSET UNITYSDK_OFFSET(0x1B3E5A20)
+#define RPG_GAMECORE_ENABLESELECTIONPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E59F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableSelectionProp_TypeDefinitionIndex = 20802;
+	inline static constexpr unsigned int EnableSelectionProp_TypeDefinitionIndex = 21217;
 
 	class EnableSelectionProp : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESELECTIONPROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_33A7BE17688EDE56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableSelectionProp*& a2)
+		static ::System::Void Method_3_24E9F680A9D09A60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableSelectionProp*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableSelectionProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESELECTIONPROP_METHOD_3_33A7BE17688EDE56_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableSelectionProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLESELECTIONPROP_METHOD_3_24E9F680A9D09A60_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BDA4EF74477F2470(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableSelectionProp* a2)

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETADVLOCKDISTANCE_METHOD_3_A04465E31E945A13_OFFSET UNITYSDK_OFFSET(0x1A1E1F40)
-#define RPG_GAMECORE_SETADVLOCKDISTANCE_METHOD_3_C37009FF65B60202_OFFSET UNITYSDK_OFFSET(0x1A1E1FC0)
-#define RPG_GAMECORE_SETADVLOCKDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E1F90)
+#define RPG_GAMECORE_SETADVLOCKDISTANCE_METHOD_3_8EB6AFF206610CC3_OFFSET UNITYSDK_OFFSET(0x1B883FC0)
+#define RPG_GAMECORE_SETADVLOCKDISTANCE_METHOD_3_C37009FF65B60202_OFFSET UNITYSDK_OFFSET(0x1B884000)
+#define RPG_GAMECORE_SETADVLOCKDISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B883FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAdvLockDistance_TypeDefinitionIndex = 19025;
+	inline static constexpr unsigned int SetAdvLockDistance_TypeDefinitionIndex = 19378;
 
 	class SetAdvLockDistance : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVLOCKDISTANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A04465E31E945A13(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvLockDistance*& a2)
+		static ::System::Void Method_3_8EB6AFF206610CC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvLockDistance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAdvLockDistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVLOCKDISTANCE_METHOD_3_A04465E31E945A13_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAdvLockDistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVLOCKDISTANCE_METHOD_3_8EB6AFF206610CC3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C37009FF65B60202(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvLockDistance* a2)

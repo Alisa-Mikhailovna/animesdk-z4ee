@@ -5,9 +5,9 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Jobs/TransformAccessArray.h"
 
-#define CLASS_1_BFFE93CD6F65906C_METHOD_1_3B8BF099801BBDB6_OFFSET UNITYSDK_OFFSET(0x14D9B9F0)
+#define CLASS_1_BFFE93CD6F65906C_METHOD_1_3B8BF099801BBDB6_OFFSET UNITYSDK_OFFSET(0xD8570C0)
 
-inline static constexpr unsigned int Class_1_BFFE93CD6F65906C_TypeDefinitionIndex = 68833;
+inline static constexpr unsigned int Class_1_BFFE93CD6F65906C_TypeDefinitionIndex = 70333;
 
 class Class_1_BFFE93CD6F65906C : public ::System::Object
 {

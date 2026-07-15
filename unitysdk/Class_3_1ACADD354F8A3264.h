@@ -8,18 +8,17 @@ class Class_1_3B1EA953A4067E26_1;
 class Class_1_E17CC0467667494B;
 class Class_2_C01BA129C3E40259;
 
-#define CLASS_3_1ACADD354F8A3264_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14AAA1E0)
-#define CLASS_3_1ACADD354F8A3264__CTOR_OFFSET UNITYSDK_OFFSET(0x14AAA050)
-#define CLASS_3_1ACADD354F8A3264___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14AAA260)
+#define CLASS_3_1ACADD354F8A3264_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154D65E0)
+#define CLASS_3_1ACADD354F8A3264__CTOR_OFFSET UNITYSDK_OFFSET(0x154D6450)
 
-inline static constexpr unsigned int Class_3_1ACADD354F8A3264_TypeDefinitionIndex = 70508;
+inline static constexpr unsigned int Class_3_1ACADD354F8A3264_TypeDefinitionIndex = 72031;
 
 class Class_3_1ACADD354F8A3264 : public ::RPG::Client::LittleGame::Services_1<::Class_2_C01BA129C3E40259*>
 {
 public:
 	::Class_1_E17CC0467667494B* Field_3_0; // 0x90
-	::Class_1_3B1EA953A4067E26_1* Field_3_1; // 0x98
-	::Class_1_07F3159234271541* Field_3_2; // 0xA0
+	::Class_1_07F3159234271541* Field_3_1; // 0x98
+	::Class_1_3B1EA953A4067E26_1* Field_3_2; // 0xA0
 	::Class_1_26B10E55247AB428* Field_3_3; // 0xA8
 
 	::System::Void _ctor(::Class_1_3B1EA953A4067E26_1* a1)
@@ -30,10 +29,5 @@ public:
 	::System::Void Dispose()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1ACADD354F8A3264_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1ACADD354F8A3264___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

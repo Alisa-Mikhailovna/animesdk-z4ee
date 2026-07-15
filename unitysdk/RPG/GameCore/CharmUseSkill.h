@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHARMUSESKILL_METHOD_3_B8DAE52D00A386B2_OFFSET UNITYSDK_OFFSET(0x1A148CA0)
-#define RPG_GAMECORE_CHARMUSESKILL_METHOD_3_ECC15B3979DD8470_OFFSET UNITYSDK_OFFSET(0x1A148BC0)
-#define RPG_GAMECORE_CHARMUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A148C40)
+#define RPG_GAMECORE_CHARMUSESKILL_METHOD_3_B8DAE52D00A386B2_OFFSET UNITYSDK_OFFSET(0x1B323730)
+#define RPG_GAMECORE_CHARMUSESKILL_METHOD_3_C005D7FAE21F8310_OFFSET UNITYSDK_OFFSET(0x1B323680)
+#define RPG_GAMECORE_CHARMUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3236F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharmUseSkill_TypeDefinitionIndex = 22374;
+	inline static constexpr unsigned int CharmUseSkill_TypeDefinitionIndex = 22816;
 
 	class CharmUseSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARMUSESKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ECC15B3979DD8470(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharmUseSkill*& a2)
+		static ::System::Void Method_3_C005D7FAE21F8310(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharmUseSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharmUseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARMUSESKILL_METHOD_3_ECC15B3979DD8470_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharmUseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARMUSESKILL_METHOD_3_C005D7FAE21F8310_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B8DAE52D00A386B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharmUseSkill* a2)

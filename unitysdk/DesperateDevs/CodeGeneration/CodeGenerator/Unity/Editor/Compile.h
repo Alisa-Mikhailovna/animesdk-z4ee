@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DESPERATEDEVS_CODEGENERATION_CODEGENERATOR_UNITY_EDITOR_COMPILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A18BDF0)
+#define DESPERATEDEVS_CODEGENERATION_CODEGENERATOR_UNITY_EDITOR_COMPILE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9EA740)
 
 namespace DesperateDevs::CodeGeneration::CodeGenerator::Unity::Editor
 {
-	inline static constexpr unsigned int Compile_TypeDefinitionIndex = 44386;
+	inline static constexpr unsigned int Compile_TypeDefinitionIndex = 45256;
 
 	class Compile : public ::System::Object
 	{

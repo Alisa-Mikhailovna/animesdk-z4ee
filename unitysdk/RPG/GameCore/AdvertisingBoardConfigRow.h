@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BB9F10)
-#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BBA150)
+#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B183A00)
+#define RPG_GAMECORE_ADVERTISINGBOARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B183C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvertisingBoardConfigRow_TypeDefinitionIndex = 11980;
+	inline static constexpr unsigned int AdvertisingBoardConfigRow_TypeDefinitionIndex = 12112;
 
 	class AdvertisingBoardConfigRow : public ::System::Object
 	{
 	public:
-		::System::Single Interval; // 0x10
+		::System::Boolean IsPlayerInvolved; // 0x10
+		::System::Boolean IsSwitch; // 0x11
 		::System::UInt32 AdvertisingBoardID; // 0x14
-		::System::Boolean IsSwitch; // 0x18
-		::System::Boolean IsPlayerInvolved; // 0x19
+		::System::Single Interval; // 0x18
 		::System::UInt32 VoiceID; // 0x1C
 
 		::System::Void _ctor()

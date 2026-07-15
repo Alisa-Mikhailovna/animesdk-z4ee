@@ -2,69 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_1_29ADE9724E15BDC9;
-class Class_3_2641F1F88DCFA311;
+class Class_3_DBCE1D6F45BA29F0;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_47673724FF3DE6A7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142A43C0)
-#define CLASS_3_47673724FF3DE6A7_METHOD_3_9FE8229FA80E064B_OFFSET UNITYSDK_OFFSET(0x142A4530)
-#define CLASS_3_47673724FF3DE6A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142A4400)
-#define CLASS_3_47673724FF3DE6A7_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x142A4930)
-#define CLASS_3_47673724FF3DE6A7_TICK_OFFSET UNITYSDK_OFFSET(0x142A4980)
-#define CLASS_3_47673724FF3DE6A7__CTOR_OFFSET UNITYSDK_OFFSET(0x142A4390)
-#define CLASS_3_47673724FF3DE6A7___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142A49E0)
-#define CLASS_3_47673724FF3DE6A7___IFIXBASEPROXY_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x142A4A20)
-#define CLASS_3_47673724FF3DE6A7___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x142A4A70)
+#define CLASS_3_47673724FF3DE6A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144B7600)
+#define CLASS_3_47673724FF3DE6A7__CTOR_OFFSET UNITYSDK_OFFSET(0x144B75D0)
 
-inline static constexpr unsigned int Class_3_47673724FF3DE6A7_TypeDefinitionIndex = 54368;
+inline static constexpr unsigned int Class_3_47673724FF3DE6A7_TypeDefinitionIndex = 50392;
 
-class Class_3_47673724FF3DE6A7 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_2641F1F88DCFA311*>
+class Class_3_47673724FF3DE6A7 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_DBCE1D6F45BA29F0*>
 {
 public:
-	::Class_3_2641F1F88DCFA311* Field_3_0; // 0x28
+	::Class_3_DBCE1D6F45BA29F0* Field_3_0; // 0x28
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_2641F1F88DCFA311* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_DBCE1D6F45BA29F0* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_2641F1F88DCFA311*))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7_DISPOSE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_DBCE1D6F45BA29F0*))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void Method_3_9FE8229FA80E064B(::Class_1_29ADE9724E15BDC9* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_29ADE9724E15BDC9*))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7_METHOD_3_9FE8229FA80E064B_OFFSET))(this, a1);
-	}
-
-	::System::Void OnTaskReset()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7_ONTASKRESET_OFFSET))(this);
-	}
-
-	::System::Void Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7_TICK_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnTaskReset()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7___IFIXBASEPROXY_ONTASKRESET_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_47673724FF3DE6A7___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

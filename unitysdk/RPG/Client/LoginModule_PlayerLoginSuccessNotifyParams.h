@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LOGINMODULE_PLAYERLOGINSUCCESSNOTIFYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x151A8EB0)
+#define RPG_CLIENT_LOGINMODULE_PLAYERLOGINSUCCESSNOTIFYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCA0CE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginModule_PlayerLoginSuccessNotifyParams_TypeDefinitionIndex = 61498;
+	inline static constexpr unsigned int LoginModule_PlayerLoginSuccessNotifyParams_TypeDefinitionIndex = 62860;
 
 	class LoginModule_PlayerLoginSuccessNotifyParams : public ::System::Object
 	{
 	public:
-		::System::Boolean IsRelay; // 0x10
-		::System::Int32 CurServerTimezone; // 0x14
-		::System::UInt64 ServerLoginRandomNum; // 0x18
+		::System::UInt64 ServerLoginRandomNum; // 0x10
+		::System::Int32 CurServerTimezone; // 0x18
+		::System::Boolean IsRelay; // 0x1C
 		::System::UInt64 ServerTimestampMs; // 0x20
 
 		::System::Void _ctor()

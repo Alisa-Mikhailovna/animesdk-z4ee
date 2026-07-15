@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_17282789426EAD93.h"
+#include "unitysdk/Class_2_5F69A1738A3628CB.h"
 
 namespace RPG::Client { class PlanetFesFloatingController; }
 
-#define CLASS_3_2C4BF47BA59ADAEF_METHOD_3_DBD36B60C537B341_OFFSET UNITYSDK_OFFSET(0x162F1DB0)
-#define CLASS_3_2C4BF47BA59ADAEF_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x162F1E40)
-#define CLASS_3_2C4BF47BA59ADAEF__CTOR_OFFSET UNITYSDK_OFFSET(0x162F1EA0)
-#define CLASS_3_2C4BF47BA59ADAEF___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x162F1EB0)
+#define CLASS_3_2C4BF47BA59ADAEF_METHOD_3_DBD36B60C537B341_OFFSET UNITYSDK_OFFSET(0x143E6660)
+#define CLASS_3_2C4BF47BA59ADAEF_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x143E66F0)
+#define CLASS_3_2C4BF47BA59ADAEF__CTOR_OFFSET UNITYSDK_OFFSET(0x143E6750)
 
-inline static constexpr unsigned int Class_3_2C4BF47BA59ADAEF_TypeDefinitionIndex = 69543;
+inline static constexpr unsigned int Class_3_2C4BF47BA59ADAEF_TypeDefinitionIndex = 71066;
 
-class Class_3_2C4BF47BA59ADAEF : public ::Class_2_17282789426EAD93
+class Class_3_2C4BF47BA59ADAEF : public ::Class_2_5F69A1738A3628CB
 {
 public:
 	::System::Int32 Field_3_0; // 0x28
@@ -29,10 +28,5 @@ public:
 	::System::Void OnExecute()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C4BF47BA59ADAEF_ONEXECUTE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C4BF47BA59ADAEF___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
 	}
 };

@@ -5,10 +5,10 @@
 class Class_1_CBD04A4E767294BB;
 namespace RPG::GameCore { class FiveDimSplineMoveConfig; }
 
-#define CLASS_1_71671727F8DF4D8D_CLEAR_OFFSET UNITYSDK_OFFSET(0x152F6BD0)
-#define CLASS_1_71671727F8DF4D8D__CTOR_OFFSET UNITYSDK_OFFSET(0x152F6C80)
+#define CLASS_1_71671727F8DF4D8D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A84C470)
+#define CLASS_1_71671727F8DF4D8D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A84C520)
 
-inline static constexpr unsigned int Class_1_71671727F8DF4D8D_TypeDefinitionIndex = 40142;
+inline static constexpr unsigned int Class_1_71671727F8DF4D8D_TypeDefinitionIndex = 40956;
 
 class Class_1_71671727F8DF4D8D : public ::System::Object
 {

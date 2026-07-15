@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ChenLingBattle { class IEntity; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18DBB5B0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__REMOVEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x18DC06A0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC04F9B0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS54_0__REMOVEENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xC054910)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass54_0_TypeDefinitionIndex = 70910;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass54_0_TypeDefinitionIndex = 72423;
 
 	class ChenLingBattleGameSession___c__DisplayClass54_0 : public ::System::Object
 	{

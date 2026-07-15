@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190D4540)
-#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190D4BC0)
+#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B61D500)
+#define RPG_GAMECORE_MONOPOLYPLAYERTALKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B61DB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyPlayerTalkConfigRow_TypeDefinitionIndex = 11513;
+	inline static constexpr unsigned int MonopolyPlayerTalkConfigRow_TypeDefinitionIndex = 11613;
 
 	class MonopolyPlayerTalkConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 Priority; // 0x14
-		::RPG::Client::TextID ContentTextID; // 0x18
+		::RPG::Client::TextID ContentTextID; // 0x10
+		::System::UInt32 Priority; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_ADVANCEDDESTROYPARAMS_RESET_OFFSET UNITYSDK_OFFSET(0x38334F0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERINSTANCE_ADVANCEDDESTROYPARAMS_RESET_OFFSET UNITYSDK_OFFSET(0x156600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierInstance_AdvancedDestroyParams_TypeDefinitionIndex = 52144;
+	inline static constexpr unsigned int TurnBasedModifierInstance_AdvancedDestroyParams_TypeDefinitionIndex = 52365;
 
 	struct alignas(8) TurnBasedModifierInstance_AdvancedDestroyParams
 	{

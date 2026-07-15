@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D2E90365D99FC7E6_6;
+class Class_1_D2E90365D99FC7E6_7;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_F585D693B2F4E4F1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1730FBC0)
-#define CLASS_2_F585D693B2F4E4F1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1730FC00)
-#define CLASS_2_F585D693B2F4E4F1___C__START_B__5_0_OFFSET UNITYSDK_OFFSET(0x1730FC10)
+#define CLASS_2_F585D693B2F4E4F1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1485D360)
+#define CLASS_2_F585D693B2F4E4F1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1485D3A0)
+#define CLASS_2_F585D693B2F4E4F1___C__START_B__5_0_OFFSET UNITYSDK_OFFSET(0x1485D3B0)
 
-inline static constexpr unsigned int Class_2_F585D693B2F4E4F1___c_TypeDefinitionIndex = 56405;
+inline static constexpr unsigned int Class_2_F585D693B2F4E4F1___c_TypeDefinitionIndex = 57644;
 
 class Class_2_F585D693B2F4E4F1___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_D2E90365D99FC7E6_6*, ::System::UInt32>** StaticGet___9__5_0()
+	static ::System::Func_2<::Class_1_D2E90365D99FC7E6_7*, ::System::UInt32>** StaticGet___9__5_0()
 	{
-		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_6*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F585D693B2F4E4F1___c_TypeDefinitionIndex)->GetStaticField(0x60940);
+		return (::System::Func_2<::Class_1_D2E90365D99FC7E6_7*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F585D693B2F4E4F1___c_TypeDefinitionIndex)->GetStaticField(0x5EEF0);
 	}
 	static ::Class_2_F585D693B2F4E4F1___c** StaticGet___9()
 	{
-		return (::Class_2_F585D693B2F4E4F1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F585D693B2F4E4F1___c_TypeDefinitionIndex)->GetStaticField(0x60948);
+		return (::Class_2_F585D693B2F4E4F1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_F585D693B2F4E4F1___c_TypeDefinitionIndex)->GetStaticField(0x5EEF8);
 	}
 
 	static ::System::Void _cctor()
@@ -33,8 +33,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F585D693B2F4E4F1___C__CTOR_OFFSET))(this);
 	}
 
-	::System::UInt32 _Start_b__5_0(::Class_1_D2E90365D99FC7E6_6* a1)
+	::System::UInt32 _Start_b__5_0(::Class_1_D2E90365D99FC7E6_7* a1)
 	{
-		return ((::System::UInt32(*)(::PVOID, ::Class_1_D2E90365D99FC7E6_6*))((::PBYTE)hIl2Cpp + CLASS_2_F585D693B2F4E4F1___C__START_B__5_0_OFFSET))(this, a1);
+		return ((::System::UInt32(*)(::PVOID, ::Class_1_D2E90365D99FC7E6_7*))((::PBYTE)hIl2Cpp + CLASS_2_F585D693B2F4E4F1___C__START_B__5_0_OFFSET))(this, a1);
 	}
 };

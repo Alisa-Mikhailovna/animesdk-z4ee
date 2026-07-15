@@ -7,75 +7,66 @@ namespace RPG::Client { class WorldSpaceTileParticlesMonoPlugin; }
 namespace UnityEngine { class ComputeBuffer; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0x12AD7220)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0x12AD62C0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x12AD7260)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x12AD6200)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x12AD6260)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0x12AD72A0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x12AD61A0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x12AD7440)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x12AD74A0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x12AD7500)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x12AD7560)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x12AD75C0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET UNITYSDK_OFFSET(0x12AD76E0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x12AD73E0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x12AD60A0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_90A07D9BC1B409B9_OFFSET UNITYSDK_OFFSET(0x12AD5960)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x12AD58D0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_E2BCD1B56132A826_OFFSET UNITYSDK_OFFSET(0x12AD59D0)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x12AD7680)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x12AD7310)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x12AD7300)
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR___IFIXBASEPROXY_LATETICK_OFFSET UNITYSDK_OFFSET(0x12AD7620)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xD8C6200)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xD8C4FF0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0xD8C4DB0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD8C6280)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xD8C4F30)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xD8C4F90)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xD8C62C0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD8C4ED0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_90A07D9BC1B409B9_OFFSET UNITYSDK_OFFSET(0xD8C44A0)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD8C4410)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_C38AA259F0B46320_OFFSET UNITYSDK_OFFSET(0xD8C4510)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8C6330)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD8C6320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorldSpaceTileParticlesBehavior_TypeDefinitionIndex = 66132;
+	inline static constexpr unsigned int WorldSpaceTileParticlesBehavior_TypeDefinitionIndex = 67557;
 
 	class WorldSpaceTileParticlesBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__BoundSizeID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114A0);
-		}
-		static ::System::Int32* StaticGet__ParticleVelocityID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114A4);
-		}
 		static ::System::Int32* StaticGet__FlickerFrequency()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114A8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5E0);
 		}
-		static ::System::Int32* StaticGet__ParticleColorID()
+		static ::System::Int32* StaticGet__BoundSizeID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114AC);
-		}
-		static ::System::Int32* StaticGet__BoundRotationID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114B0);
-		}
-		static ::System::Int32* StaticGet__BoundCenterID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114B4);
-		}
-		static ::System::Int32* StaticGet__RandomSeed()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114B8);
-		}
-		static ::System::Int32* StaticGet__RandomseedID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114BC);
-		}
-		static ::System::Int32* StaticGet__ParticleSize()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5E4);
 		}
 		static ::System::Int32* StaticGet__FogScale()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0x114C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5E8);
+		}
+		static ::System::Int32* StaticGet__ParticleColorID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5EC);
+		}
+		static ::System::Int32* StaticGet__BoundCenterID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5F0);
+		}
+		static ::System::Int32* StaticGet__BoundRotationID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5F4);
+		}
+		static ::System::Int32* StaticGet__RandomSeed()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5F8);
+		}
+		static ::System::Int32* StaticGet__ParticleVelocityID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF5FC);
+		}
+		static ::System::Int32* StaticGet__RandomseedID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF600);
+		}
+		static ::System::Int32* StaticGet__ParticleSize()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WorldSpaceTileParticlesBehavior_TypeDefinitionIndex)->GetStaticField(0xF604);
 		}
 		::Il2CppArray<::System::UInt32>* IndirectDrawArgs; // 0x38
 		::UnityEngine::ComputeBuffer* IndirectDrawArgsBuffer; // 0x40
@@ -102,9 +93,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_90A07D9BC1B409B9_OFFSET))(this);
 		}
 
-		::System::Void Method_3_89D1F247B9D324EE()
+		::System::Void Method_3_151E25A63D14DDB0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_89D1F247B9D324EE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_151E25A63D14DDB0_OFFSET))(this);
 		}
 
 		::System::Void Method_3_4343F372F34C05BF()
@@ -137,59 +128,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
 		}
 
-		::System::Void Method_3_E2BCD1B56132A826()
+		::System::Void Method_3_C38AA259F0B46320()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_E2BCD1B56132A826_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_C38AA259F0B46320_OFFSET))(this);
 		}
 
 		::RPG::Client::WorldSpaceTileParticlesMonoPlugin* get__Owner()
 		{
 			return ((::RPG::Client::WorldSpaceTileParticlesMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_GET__OWNER_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_1()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_2()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_3()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_4()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_5()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_LateTick(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR___IFIXBASEPROXY_LATETICK_OFFSET))(this, a1);
-		}
-
-		::System::Boolean Method_3_F0E307B84478A272()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_F0E307B84478A272_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_6()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESBEHAVIOR_METHOD_3_5790A55946AA509D_6_OFFSET))(this);
 		}
 	};
 }

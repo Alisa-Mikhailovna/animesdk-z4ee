@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x161FE090)
-#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x161FE0C0)
-#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0x161FE0D0)
+#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0C0960)
+#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD0C0990)
+#define RPG_CLIENT_PROGRESS_CAKERACEPROGRESSINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0xD0C09A0)
 
 namespace RPG::Client::Progress
 {
-	inline static constexpr unsigned int CakeRaceProgressInfo___c_TypeDefinitionIndex = 69850;
+	inline static constexpr unsigned int CakeRaceProgressInfo___c_TypeDefinitionIndex = 71373;
 
 	class CakeRaceProgressInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Converter_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Converter_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0xF410);
+			return (::System::Converter_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B5B0);
 		}
 		static ::RPG::Client::Progress::CakeRaceProgressInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::Progress::CakeRaceProgressInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0xF418);
+			return (::RPG::Client::Progress::CakeRaceProgressInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceProgressInfo___c_TypeDefinitionIndex)->GetStaticField(0x6B5B8);
 		}
 
 		static ::System::Void _cctor()

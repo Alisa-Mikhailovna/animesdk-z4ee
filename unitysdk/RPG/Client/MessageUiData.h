@@ -6,26 +6,26 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MESSAGEUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1793E470)
+#define RPG_CLIENT_MESSAGEUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBBB280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageUiData_TypeDefinitionIndex = 57554;
+	inline static constexpr unsigned int MessageUiData_TypeDefinitionIndex = 58816;
 
 	class MessageUiData : public ::System::Object
 	{
 	public:
 		::System::String* ContentImg; // 0x10
-		::System::String* SenderIcon; // 0x18
-		::System::String* SelfSenderName; // 0x20
-		::RPG::Client::TextID SenderName; // 0x28
+		::System::String* SelfSenderName; // 0x18
+		::System::String* SenderIcon; // 0x20
+		::RPG::GameCore::OfflineMessageSenderType SenderType; // 0x28
+		::System::Boolean OnlyShowText; // 0x2C
+		::System::Boolean OnlyShowImg; // 0x2D
+		::System::UInt32 NextContentId; // 0x30
+		::System::Int32 RelatedPrefabIndex; // 0x34
 		::System::Single Interval; // 0x38
-		::RPG::GameCore::OfflineMessageSenderType SenderType; // 0x3C
-		::System::UInt32 NextContentId; // 0x40
-		::RPG::Client::TextID ContentText; // 0x48
-		::System::Boolean OnlyShowText; // 0x58
-		::System::Boolean OnlyShowImg; // 0x59
-		::System::Int32 RelatedPrefabIndex; // 0x5C
+		::RPG::Client::TextID ContentText; // 0x40
+		::RPG::Client::TextID SenderName; // 0x50
 
 		::System::Void _ctor()
 		{

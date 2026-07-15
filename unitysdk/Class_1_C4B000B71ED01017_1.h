@@ -5,14 +5,14 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_C4B000B71ED01017_1_CLEAR_OFFSET UNITYSDK_OFFSET(0x145A0810)
-#define CLASS_1_C4B000B71ED01017_1_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x145A07F0)
-#define CLASS_1_C4B000B71ED01017_1_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x145A07D0)
-#define CLASS_1_C4B000B71ED01017_1_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0x145A0800)
-#define CLASS_1_C4B000B71ED01017_1_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0x145A07E0)
-#define CLASS_1_C4B000B71ED01017_1__CTOR_OFFSET UNITYSDK_OFFSET(0x145A0890)
+#define CLASS_1_C4B000B71ED01017_1_CLEAR_OFFSET UNITYSDK_OFFSET(0xAF0D970)
+#define CLASS_1_C4B000B71ED01017_1_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xAF0D950)
+#define CLASS_1_C4B000B71ED01017_1_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xAF0D930)
+#define CLASS_1_C4B000B71ED01017_1_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xAF0D960)
+#define CLASS_1_C4B000B71ED01017_1_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xAF0D940)
+#define CLASS_1_C4B000B71ED01017_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAF0D9F0)
 
-inline static constexpr unsigned int Class_1_C4B000B71ED01017_1_TypeDefinitionIndex = 51379;
+inline static constexpr unsigned int Class_1_C4B000B71ED01017_1_TypeDefinitionIndex = 52489;
 
 class Class_1_C4B000B71ED01017_1 : public ::System::Object
 {
@@ -21,12 +21,12 @@ public:
 	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
 	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
 	::RPG::GameCore::FixPoint Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x30
+	::System::Boolean _LockDamageZero_k__BackingField; // 0x30
 	::System::Boolean Field_1_5; // 0x31
-	::System::Boolean _LockDamageZero_k__BackingField; // 0x32
-	::System::Boolean Field_1_7; // 0x33
+	::System::Boolean Field_1_6; // 0x32
+	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x33
 	::System::Boolean Field_1_8; // 0x34
-	::System::Boolean _IsPropagateAttack_k__BackingField; // 0x35
+	::System::Boolean Field_1_9; // 0x35
 	::RPG::GameCore::FixPoint Field_1_10; // 0x38
 
 	::System::Void _ctor()

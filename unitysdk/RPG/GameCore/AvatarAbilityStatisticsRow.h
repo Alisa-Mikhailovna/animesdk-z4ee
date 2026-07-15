@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17626240)
-#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17626360)
+#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1BD480)
+#define RPG_GAMECORE_AVATARABILITYSTATISTICSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1BD5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarAbilityStatisticsRow_TypeDefinitionIndex = 12233;
+	inline static constexpr unsigned int AvatarAbilityStatisticsRow_TypeDefinitionIndex = 12367;
 
 	class AvatarAbilityStatisticsRow : public ::System::Object
 	{

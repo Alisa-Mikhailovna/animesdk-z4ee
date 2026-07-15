@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D444A0)
-#define RPG_GAMECORE_PIXAIRTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D44740)
+#define RPG_GAMECORE_PIXAIRTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B7080)
+#define RPG_GAMECORE_PIXAIRTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B7320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirTalentRow_TypeDefinitionIndex = 11595;
+	inline static constexpr unsigned int PixAirTalentRow_TypeDefinitionIndex = 11695;
 
 	class PixAirTalentRow : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* PreTalentList; // 0x10
 		::System::String* IconPath; // 0x18
 		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 UnlockScore; // 0x30
-		::System::UInt32 EffectID; // 0x34
-		::System::UInt32 TalentID; // 0x38
+		::System::UInt32 EffectID; // 0x30
+		::System::UInt32 TalentID; // 0x34
+		::System::UInt32 UnlockScore; // 0x38
 
 		::System::Void _ctor()
 		{

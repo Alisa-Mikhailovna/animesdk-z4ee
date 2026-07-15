@@ -6,18 +6,18 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RelicPresetApplyDetailViewModel; }
 namespace RPG::Client { class RelicPresetPlanData; }
 
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0__BUILDPLANVIEWMODELS_B__0_OFFSET UNITYSDK_OFFSET(0x14CEF3B0)
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14CEED70)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0__BUILDPLANVIEWMODELS_B__0_OFFSET UNITYSDK_OFFSET(0xD2EDCB0)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2ED670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 62498;
+	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 63864;
 
 	class RelicPresetApplyDetailViewModel___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RelicPresetApplyDetailViewModel* __4__this; // 0x10
-		::RPG::AvatarSystem::IAvatar* avatar; // 0x18
+		::RPG::AvatarSystem::IAvatar* avatar; // 0x10
+		::RPG::Client::RelicPresetApplyDetailViewModel* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

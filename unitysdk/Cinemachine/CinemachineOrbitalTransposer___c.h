@@ -6,24 +6,24 @@
 namespace Cinemachine { class CinemachineOrbitalTransposer; }
 namespace Cinemachine { class CinemachineOrbitalTransposer_UpdateHeadingDelegate; }
 
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15102720)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15102750)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x15102760)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x156E7520)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x156E7550)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x156E7560)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 36847;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 37629;
 
 	class CinemachineOrbitalTransposer___c : public ::System::Object
 	{
 	public:
 		static ::Cinemachine::CinemachineOrbitalTransposer___c** StaticGet___9()
 		{
-			return (::Cinemachine::CinemachineOrbitalTransposer___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x4FF0);
+			return (::Cinemachine::CinemachineOrbitalTransposer___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x2CF0);
 		}
 		static ::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate** StaticGet___9__36_0()
 		{
-			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x4FF8);
+			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x2CF8);
 		}
 
 		static ::System::Void _cctor()

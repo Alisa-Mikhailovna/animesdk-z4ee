@@ -6,18 +6,18 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 namespace System { class Exception; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53BA70)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS73_0__FINALLY_B__0_OFFSET UNITYSDK_OFFSET(0x1B53D020)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS73_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA2A6E0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS73_0__FINALLY_B__0_OFFSET UNITYSDK_OFFSET(0x1AA2BC60)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass73_0_TypeDefinitionIndex = 9581;
+	inline static constexpr unsigned int Promise___c__DisplayClass73_0_TypeDefinitionIndex = 9593;
 
 	class Promise___c__DisplayClass73_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* promise; // 0x10
-		::System::Action* onComplete; // 0x18
+		::System::Action* onComplete; // 0x10
+		::RPG::Client::Promises::Promise* promise; // 0x18
 
 		::System::Void _ctor()
 		{

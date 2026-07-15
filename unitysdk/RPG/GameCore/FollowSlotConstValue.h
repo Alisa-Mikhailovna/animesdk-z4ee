@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FollowSlotConfig; }
 
-#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_4DB188DF7CD9C0F4_OFFSET UNITYSDK_OFFSET(0x1A3AFD90)
-#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3AFF20)
+#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE_METHOD_2_4DB188DF7CD9C0F4_OFFSET UNITYSDK_OFFSET(0x1B4540E0)
+#define RPG_GAMECORE_FOLLOWSLOTCONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B454270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FollowSlotConstValue_TypeDefinitionIndex = 14847;
+	inline static constexpr unsigned int FollowSlotConstValue_TypeDefinitionIndex = 15009;
 
 	class FollowSlotConstValue : public ::RPG::GameCore::JsonConfig
 	{

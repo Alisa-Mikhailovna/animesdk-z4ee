@@ -5,21 +5,21 @@
 namespace RPG::Client::Prop { class FastDeliverPuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170D5490)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__ONPUZZLEFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x170D6680)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__ONPUZZLEFINISH_B__1_OFFSET UNITYSDK_OFFSET(0x170D6950)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__ONPUZZLEFINISH_B__2_OFFSET UNITYSDK_OFFSET(0x170D6B60)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD15FDB0)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__ONPUZZLEFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xD160D70)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__ONPUZZLEFINISH_B__1_OFFSET UNITYSDK_OFFSET(0xD161090)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS123_0__ONPUZZLEFINISH_B__2_OFFSET UNITYSDK_OFFSET(0xD1612A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass123_0_TypeDefinitionIndex = 73103;
+	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass123_0_TypeDefinitionIndex = 74628;
 
 	class FastDeliverPuzzleBoard___c__DisplayClass123_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::FastDeliverPuzzleBoard* __4__this; // 0x10
+		::System::Action* __9__1; // 0x10
 		::System::Action* __9__2; // 0x18
-		::System::Action* __9__1; // 0x20
+		::RPG::Client::Prop::FastDeliverPuzzleBoard* __4__this; // 0x20
 		::System::Boolean immediate; // 0x28
 
 		::System::Void _ctor()

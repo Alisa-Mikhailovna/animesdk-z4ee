@@ -6,20 +6,20 @@ class Class_1_FAF146B3D74C3C3F;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define CLASS_1_1345FFCC87DEA342_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x15533500)
-#define CLASS_1_1345FFCC87DEA342_METHOD_1_3B7145E79424FB75_OFFSET UNITYSDK_OFFSET(0x155336D0)
-#define CLASS_1_1345FFCC87DEA342_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15533680)
-#define CLASS_1_1345FFCC87DEA342_SET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0x15533510)
-#define CLASS_1_1345FFCC87DEA342__CTOR_OFFSET UNITYSDK_OFFSET(0x15533520)
+#define CLASS_1_1345FFCC87DEA342_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xB4166E0)
+#define CLASS_1_1345FFCC87DEA342_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xB4168C0)
+#define CLASS_1_1345FFCC87DEA342_METHOD_1_D70C8B847AF08ADE_OFFSET UNITYSDK_OFFSET(0xB416910)
+#define CLASS_1_1345FFCC87DEA342_SET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xB4166F0)
+#define CLASS_1_1345FFCC87DEA342__CTOR_OFFSET UNITYSDK_OFFSET(0xB416700)
 
-inline static constexpr unsigned int Class_1_1345FFCC87DEA342_TypeDefinitionIndex = 74459;
+inline static constexpr unsigned int Class_1_1345FFCC87DEA342_TypeDefinitionIndex = 76849;
 
 class Class_1_1345FFCC87DEA342 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::IEnumerator_1<::Class_1_FAF146B3D74C3C3F*>* Field_1_0; // 0x10
-	::System::Boolean _IsRunning_k__BackingField; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
+	::System::Int32 Field_1_1; // 0x18
+	::System::Boolean _IsRunning_k__BackingField; // 0x1C
 
 	::System::Void _ctor()
 	{
@@ -41,8 +41,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1345FFCC87DEA342_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void Method_1_3B7145E79424FB75()
+	::System::Void Method_1_D70C8B847AF08ADE()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1345FFCC87DEA342_METHOD_1_3B7145E79424FB75_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1345FFCC87DEA342_METHOD_1_D70C8B847AF08ADE_OFFSET))(this);
 	}
 };

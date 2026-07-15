@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A5001F0)
-#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5003A0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B339CD0)
+#define RPG_GAMECORE_CHENLINGGAMEBOYCHALLENGEPACKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B339E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingGameBoyChallengePackRow_TypeDefinitionIndex = 13431;
+	inline static constexpr unsigned int ChenLingGameBoyChallengePackRow_TypeDefinitionIndex = 13579;
 
 	class ChenLingGameBoyChallengePackRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 GameBoyChallengePackID; // 0x10
-		::System::UInt32 HardChallengeID; // 0x14
-		::System::UInt32 CheatChallengeID; // 0x18
-		::System::UInt32 RewardID; // 0x1C
+		::System::UInt32 CheatChallengeID; // 0x14
+		::System::UInt32 RewardID; // 0x18
+		::System::UInt32 HardChallengeID; // 0x1C
 
 		::System::Void _ctor()
 		{

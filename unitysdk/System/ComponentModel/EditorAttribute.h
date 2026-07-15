@@ -5,21 +5,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1816B390)
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1816B440)
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1816B300)
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1816B260)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CC74BB0)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CC74C60)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1CC74AC0)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC74A70)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EditorAttribute_TypeDefinitionIndex = 2577;
+	inline static constexpr unsigned int EditorAttribute_TypeDefinitionIndex = 2581;
 
 	class EditorAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* typeId; // 0x10
-		::System::String* typeName; // 0x18
-		::System::String* baseTypeName; // 0x20
+		::System::String* baseTypeName; // 0x10
+		::System::String* typeId; // 0x18
+		::System::String* typeName; // 0x20
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{

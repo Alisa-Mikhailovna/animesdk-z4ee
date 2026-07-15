@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINE___C__DISPLAYCLASS12_0__CHECKWORKDATAFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x186C4E80)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186C4DF0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINE___C__DISPLAYCLASS12_0__CHECKWORKDATAFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xBB389E0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENROUTINE___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB38950)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenRoutine___c__DisplayClass12_0_TypeDefinitionIndex = 70476;
+	inline static constexpr unsigned int ActivityHipplenRoutine___c__DisplayClass12_0_TypeDefinitionIndex = 71999;
 
 	class ActivityHipplenRoutine___c__DisplayClass12_0 : public ::System::Object
 	{

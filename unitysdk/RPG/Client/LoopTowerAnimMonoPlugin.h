@@ -9,13 +9,12 @@ namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x151CA6A0)
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x151CA6F0)
-#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x151CA700)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCA2E7F0)
+#define RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCA2E840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 66303;
+	inline static constexpr unsigned int LoopTowerAnimMonoPlugin_TypeDefinitionIndex = 67728;
 
 	class LoopTowerAnimMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LoopTowerAnimBehavior*>
 	{
@@ -41,11 +40,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPTOWERANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

@@ -6,16 +6,16 @@
 class Class_1_92BF2EC1F75CF80D;
 class Class_2_F3C45F1FC7349B6E;
 
-#define CLASS_1_92BF2EC1F75CF80D___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14330DA0)
-#define CLASS_1_92BF2EC1F75CF80D___C__DISPLAYCLASS27_0___FORCECATREPALCE_B__0_OFFSET UNITYSDK_OFFSET(0x143312A0)
+#define CLASS_1_92BF2EC1F75CF80D___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A47A770)
+#define CLASS_1_92BF2EC1F75CF80D___C__DISPLAYCLASS27_0___FORCECATREPALCE_B__0_OFFSET UNITYSDK_OFFSET(0x1A47ADC0)
 
-inline static constexpr unsigned int Class_1_92BF2EC1F75CF80D___c__DisplayClass27_0_TypeDefinitionIndex = 34955;
+inline static constexpr unsigned int Class_1_92BF2EC1F75CF80D___c__DisplayClass27_0_TypeDefinitionIndex = 35737;
 
 class Class_1_92BF2EC1F75CF80D___c__DisplayClass27_0 : public ::System::Object
 {
 public:
-	::Class_1_92BF2EC1F75CF80D* __4__this; // 0x10
-	::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* catsTargets; // 0x18
+	::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* catsTargets; // 0x10
+	::Class_1_92BF2EC1F75CF80D* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

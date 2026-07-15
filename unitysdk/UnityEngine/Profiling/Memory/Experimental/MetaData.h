@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_METADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3141A0)
+#define UNITYENGINE_PROFILING_MEMORY_EXPERIMENTAL_METADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03F520)
 
 namespace UnityEngine::Profiling::Memory::Experimental
 {
-	inline static constexpr unsigned int MetaData_TypeDefinitionIndex = 4502;
+	inline static constexpr unsigned int MetaData_TypeDefinitionIndex = 4507;
 
 	class MetaData : public ::System::Object
 	{

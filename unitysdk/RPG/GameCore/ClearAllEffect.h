@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLEARALLEFFECT_METHOD_3_80BDFA9A9A954E86_OFFSET UNITYSDK_OFFSET(0x1A30DC90)
-#define RPG_GAMECORE_CLEARALLEFFECT_METHOD_3_F3A37D4E791A27F2_OFFSET UNITYSDK_OFFSET(0x1A30DDA0)
-#define RPG_GAMECORE_CLEARALLEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30DD70)
+#define RPG_GAMECORE_CLEARALLEFFECT_METHOD_3_F3A37D4E791A27F2_OFFSET UNITYSDK_OFFSET(0x1B35D920)
+#define RPG_GAMECORE_CLEARALLEFFECT_METHOD_3_FE2734C91248796F_OFFSET UNITYSDK_OFFSET(0x1B35D850)
+#define RPG_GAMECORE_CLEARALLEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35D910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearAllEffect_TypeDefinitionIndex = 19133;
+	inline static constexpr unsigned int ClearAllEffect_TypeDefinitionIndex = 19489;
 
 	class ClearAllEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARALLEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_80BDFA9A9A954E86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearAllEffect*& a2)
+		static ::System::Void Method_3_FE2734C91248796F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearAllEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearAllEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARALLEFFECT_METHOD_3_80BDFA9A9A954E86_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearAllEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARALLEFFECT_METHOD_3_FE2734C91248796F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F3A37D4E791A27F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearAllEffect* a2)

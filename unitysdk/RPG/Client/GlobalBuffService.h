@@ -4,12 +4,12 @@
 
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define RPG_CLIENT_GLOBALBUFFSERVICE_GETAVATARFORGLOBALBUFFPROVIDER_OFFSET UNITYSDK_OFFSET(0x1601E7E0)
-#define RPG_CLIENT_GLOBALBUFFSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1601ECE0)
+#define RPG_CLIENT_GLOBALBUFFSERVICE_GETAVATARFORGLOBALBUFFPROVIDER_OFFSET UNITYSDK_OFFSET(0xC68ED70)
+#define RPG_CLIENT_GLOBALBUFFSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xC68F2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GlobalBuffService_TypeDefinitionIndex = 58712;
+	inline static constexpr unsigned int GlobalBuffService_TypeDefinitionIndex = 59983;
 
 	class GlobalBuffService : public ::System::Object
 	{

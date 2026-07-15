@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_CLIENT_SHOWATTACKTIMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x175516D0)
+#define RPG_CLIENT_SHOWATTACKTIMEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD4F28D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShowAttackTimeParam_TypeDefinitionIndex = 68440;
+	inline static constexpr unsigned int ShowAttackTimeParam_TypeDefinitionIndex = 69934;
 
 	class ShowAttackTimeParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::Int32 BaseAttackTime; // 0x20
-		::System::Int32 EnhancedAttackTime; // 0x24
+		::System::Int32 EnhancedAttackTime; // 0x20
+		::System::Int32 BaseAttackTime; // 0x24
 		::System::Boolean IsShow; // 0x28
 		::System::Boolean ShowInActionMode; // 0x29
 

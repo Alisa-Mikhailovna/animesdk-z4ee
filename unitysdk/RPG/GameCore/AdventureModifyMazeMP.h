@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFYMAZEMP_METHOD_3_3F3E8F94B17E7A8C_OFFSET UNITYSDK_OFFSET(0x19C0C980)
-#define RPG_GAMECORE_ADVENTUREMODIFYMAZEMP_METHOD_3_57A992A38412BF09_OFFSET UNITYSDK_OFFSET(0x19C0CA00)
-#define RPG_GAMECORE_ADVENTUREMODIFYMAZEMP__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0C9D0)
+#define RPG_GAMECORE_ADVENTUREMODIFYMAZEMP_METHOD_3_57A992A38412BF09_OFFSET UNITYSDK_OFFSET(0x1B17CB40)
+#define RPG_GAMECORE_ADVENTUREMODIFYMAZEMP_METHOD_3_F51FF543C5324A54_OFFSET UNITYSDK_OFFSET(0x1B17CB00)
+#define RPG_GAMECORE_ADVENTUREMODIFYMAZEMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17CB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifyMazeMP_TypeDefinitionIndex = 20531;
+	inline static constexpr unsigned int AdventureModifyMazeMP_TypeDefinitionIndex = 20946;
 
 	class AdventureModifyMazeMP : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFYMAZEMP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3F3E8F94B17E7A8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifyMazeMP*& a2)
+		static ::System::Void Method_3_F51FF543C5324A54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifyMazeMP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifyMazeMP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFYMAZEMP_METHOD_3_3F3E8F94B17E7A8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifyMazeMP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFYMAZEMP_METHOD_3_F51FF543C5324A54_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_57A992A38412BF09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifyMazeMP* a2)

@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define CAMERAPOSTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14E393C0)
+#define CAMERAPOSTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD05BC80)
 
-inline static constexpr unsigned int CameraPostion_TypeDefinitionIndex = 44448;
+inline static constexpr unsigned int CameraPostion_TypeDefinitionIndex = 45320;
 
 class CameraPostion : public ::System::Object
 {

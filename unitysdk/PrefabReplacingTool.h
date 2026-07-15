@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PREFABREPLACINGTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x17B78460)
+#define PREFABREPLACINGTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xBA75910)
 
-inline static constexpr unsigned int PrefabReplacingTool_TypeDefinitionIndex = 44850;
+inline static constexpr unsigned int PrefabReplacingTool_TypeDefinitionIndex = 45767;
 
 class PrefabReplacingTool : public ::UnityEngine::MonoBehaviour
 {

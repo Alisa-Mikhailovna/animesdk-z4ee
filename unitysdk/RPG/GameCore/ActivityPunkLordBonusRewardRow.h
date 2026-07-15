@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19535D70)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195363F0)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B124E90)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B125510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPunkLordBonusRewardRow_TypeDefinitionIndex = 11723;
+	inline static constexpr unsigned int ActivityPunkLordBonusRewardRow_TypeDefinitionIndex = 11823;
 
 	class ActivityPunkLordBonusRewardRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* DropList; // 0x10
-		::System::UInt32 BonusType; // 0x18
-		::System::UInt32 DisplayItemID; // 0x1C
+		::System::UInt32 DisplayItemID; // 0x18
+		::System::UInt32 BonusType; // 0x1C
 		::System::UInt32 BonusID; // 0x20
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 #include "unitysdk/CriWare/CriAtomExRawPcmVoicePool_RawPcmVoicePoolConfig.h"
 #include "unitysdk/CriWare/CriAtomExVoicePool.h"
 
-#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATERAWPCMVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x19E4B380)
-#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E4B1E0)
+#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL_CRIATOMEXVOICEPOOL_ALLOCATERAWPCMVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x1574D5E0)
+#define CRIWARE_CRIATOMEXRAWPCMVOICEPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1574D440)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_TypeDefinitionIndex = 37127;
+	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_TypeDefinitionIndex = 37927;
 
 	class CriAtomExRawPcmVoicePool : public ::CriWare::CriAtomExVoicePool
 	{

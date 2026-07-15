@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A0B0B30)
-#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0B0DF0)
+#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3CAF90)
+#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3CB250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerTagCombinationRow_TypeDefinitionIndex = 12518;
+	inline static constexpr unsigned int DrinkMakerTagCombinationRow_TypeDefinitionIndex = 12655;
 
 	class DrinkMakerTagCombinationRow : public ::System::Object
 	{
 	public:
-		::System::String* HintStr; // 0x10
-		::Il2CppArray<::System::UInt32>* ExcludeTags; // 0x18
+		::Il2CppArray<::System::UInt32>* ExcludeTags; // 0x10
+		::System::String* HintStr; // 0x18
 		::Il2CppArray<::System::UInt32>* IncludeTags; // 0x20
 		::System::UInt32 TagCombinationID; // 0x28
 		::RPG::GameCore::DrinkMakerQuantifyTagType HintIconType; // 0x2C

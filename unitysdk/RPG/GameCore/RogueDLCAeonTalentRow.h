@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EA64A0)
-#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA6CD0)
+#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B74F0A0)
+#define RPG_GAMECORE_ROGUEDLCAEONTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B74F8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonTalentRow_TypeDefinitionIndex = 14016;
+	inline static constexpr unsigned int RogueDLCAeonTalentRow_TypeDefinitionIndex = 14164;
 
 	class RogueDLCAeonTalentRow : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 		::System::Boolean IsImportant; // 0x28
 		::System::UInt32 UnlockAeonDimensionPoint; // 0x2C
 		::RPG::Client::TextID EffectTitle; // 0x30
-		::RPG::Client::TextID EffectDesc; // 0x40
-		::System::UInt32 AeonTalentID; // 0x50
-		::System::UInt32 AeonDimensionID; // 0x54
+		::System::UInt32 AeonDimensionID; // 0x40
+		::System::UInt32 AeonTalentID; // 0x44
+		::RPG::Client::TextID EffectDesc; // 0x48
 
 		::System::Void _ctor()
 		{

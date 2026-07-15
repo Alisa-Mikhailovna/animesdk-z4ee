@@ -8,12 +8,11 @@ class Class_1_A903ABC2202D622C;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E87E20A464EBF92F_METHOD_1_9E74019CFA2E00CC_OFFSET UNITYSDK_OFFSET(0x152B8220)
-#define CLASS_1_E87E20A464EBF92F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x152B82F0)
-#define CLASS_1_E87E20A464EBF92F__CTOR_OFFSET UNITYSDK_OFFSET(0x152B82E0)
-#define CLASS_1_E87E20A464EBF92F___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x152B83D0)
+#define CLASS_1_E87E20A464EBF92F_METHOD_1_9E74019CFA2E00CC_OFFSET UNITYSDK_OFFSET(0x1A80C4C0)
+#define CLASS_1_E87E20A464EBF92F_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A80C590)
+#define CLASS_1_E87E20A464EBF92F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A80C580)
 
-inline static constexpr unsigned int Class_1_E87E20A464EBF92F_TypeDefinitionIndex = 38732;
+inline static constexpr unsigned int Class_1_E87E20A464EBF92F_TypeDefinitionIndex = 39540;
 
 class Class_1_E87E20A464EBF92F : public ::System::Object
 {
@@ -37,10 +36,5 @@ public:
 	::System::String* ToString()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E87E20A464EBF92F_TOSTRING_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E87E20A464EBF92F___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

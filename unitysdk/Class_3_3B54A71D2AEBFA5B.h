@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetReportCustomValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3B54A71D2AEBFA5B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E3B8C0)
-#define CLASS_3_3B54A71D2AEBFA5B__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3B890)
+#define CLASS_3_3B54A71D2AEBFA5B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145674D0)
+#define CLASS_3_3B54A71D2AEBFA5B__CTOR_OFFSET UNITYSDK_OFFSET(0x145674A0)
 
-inline static constexpr unsigned int Class_3_3B54A71D2AEBFA5B_TypeDefinitionIndex = 51892;
+inline static constexpr unsigned int Class_3_3B54A71D2AEBFA5B_TypeDefinitionIndex = 53045;
 
 class Class_3_3B54A71D2AEBFA5B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetReportCustomValue*>
 {

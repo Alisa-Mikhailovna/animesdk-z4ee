@@ -4,18 +4,18 @@
 
 namespace RPG::Client::TrainParty { class TrainPartyPassengerSkillInfo; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1859CBC0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1859A770)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xD720EE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYPASSENGERSKILLSETTLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD71D7A0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyPassengerSkillSettleData_TypeDefinitionIndex = 69434;
+	inline static constexpr unsigned int TrainPartyPassengerSkillSettleData_TypeDefinitionIndex = 70955;
 
 	class TrainPartyPassengerSkillSettleData : public ::System::Object
 	{
 	public:
-		::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* NewSkillInfo; // 0x10
-		::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* LevelUpSkillInfo; // 0x18
+		::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* LevelUpSkillInfo; // 0x10
+		::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* NewSkillInfo; // 0x18
 		::System::Boolean IsNeedReplace; // 0x20
 
 		::System::Void _ctor()

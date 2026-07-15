@@ -10,13 +10,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_SCALABLERENDERER_GET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x176D3D80)
-#define RPG_CLIENT_SCALABLERENDERER_SET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0x176D3DF0)
-#define RPG_CLIENT_SCALABLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x176D3E00)
+#define RPG_CLIENT_SCALABLERENDERER_GET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xD4D3A80)
+#define RPG_CLIENT_SCALABLERENDERER_SET_MATERIALPROPERTYBLOCK_OFFSET UNITYSDK_OFFSET(0xD4D3AF0)
+#define RPG_CLIENT_SCALABLERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xD4D3B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScalableRenderer_TypeDefinitionIndex = 65736;
+	inline static constexpr unsigned int ScalableRenderer_TypeDefinitionIndex = 67153;
 
 	class ScalableRenderer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ScalableRendererBehavior*>
 	{

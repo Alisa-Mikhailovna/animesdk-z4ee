@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x199AAE30)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x199AACC0)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x199AA9B0)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x199AAC60)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x199AAFC0)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x199AAA30)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x199AB000)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x199AB1D0)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x199AB420)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x199AB790)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x199AB130)
-#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x199AB090)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B5E5610)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B5E54A0)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B5E5190)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B5E5440)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B5E57A0)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5E5210)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5E57E0)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5E59B0)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B5E5C00)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5E5F70)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B5E5910)
+#define RPG_GAMECORE_MAZEPUZZLENORMALUIINFOEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5E5870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex = 13364;
+	inline static constexpr unsigned int MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex = 13512;
 
 	class MazePuzzleNormalUIInfoExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleNormalUIInfoRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleNormalUIInfoRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C790);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C798);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x480A0);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleNormalUIInfoRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazePuzzleNormalUIInfoRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x480A8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C7A0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x9C60);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x480B0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0x9C61);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0xC030);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazePuzzleNormalUIInfoExcelTable_TypeDefinitionIndex)->GetStaticField(0xC031);
 		}
 
 		static ::System::Void _cctor()

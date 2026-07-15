@@ -8,22 +8,21 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterPutdownFood; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7034DDFA708594B9_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x14F09D30)
-#define CLASS_3_7034DDFA708594B9_METHOD_3_D0EDFA57F5E97657_OFFSET UNITYSDK_OFFSET(0x14F09EB0)
-#define CLASS_3_7034DDFA708594B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14F093C0)
-#define CLASS_3_7034DDFA708594B9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14F0A7A0)
-#define CLASS_3_7034DDFA708594B9_TICK_OFFSET UNITYSDK_OFFSET(0x14F09A20)
-#define CLASS_3_7034DDFA708594B9__CTOR_OFFSET UNITYSDK_OFFSET(0x14F093A0)
-#define CLASS_3_7034DDFA708594B9___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x14F0A7F0)
+#define CLASS_3_7034DDFA708594B9_METHOD_3_84B92802FDAFF6C8_OFFSET UNITYSDK_OFFSET(0x1516A960)
+#define CLASS_3_7034DDFA708594B9_METHOD_3_D0EDFA57F5E97657_OFFSET UNITYSDK_OFFSET(0x1516AAE0)
+#define CLASS_3_7034DDFA708594B9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15169FF0)
+#define CLASS_3_7034DDFA708594B9_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1516B430)
+#define CLASS_3_7034DDFA708594B9_TICK_OFFSET UNITYSDK_OFFSET(0x1516A650)
+#define CLASS_3_7034DDFA708594B9__CTOR_OFFSET UNITYSDK_OFFSET(0x15169FD0)
 
-inline static constexpr unsigned int Class_3_7034DDFA708594B9_TypeDefinitionIndex = 48786;
+inline static constexpr unsigned int Class_3_7034DDFA708594B9_TypeDefinitionIndex = 49799;
 
 class Class_3_7034DDFA708594B9 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfWaiterPutdownFood*>
 {
 public:
 	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_1; // 0x30
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_2; // 0x38
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x30
+	::RPG::Client::ElfRestaurantGameInstance* Field_3_2; // 0x38
 	::Class_1_938C223DA5C0C9C7* Field_3_3; // 0x40
 	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_4; // 0x48
 	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_5; // 0x50
@@ -59,10 +58,5 @@ public:
 	::System::Void OnTaskReset()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_7034DDFA708594B9_ONTASKRESET_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_7034DDFA708594B9___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

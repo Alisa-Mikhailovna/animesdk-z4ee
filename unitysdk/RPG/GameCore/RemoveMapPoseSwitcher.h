@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REMOVEMAPPOSESWITCHER_METHOD_3_586F902654044B93_OFFSET UNITYSDK_OFFSET(0x1A2E7BF0)
-#define RPG_GAMECORE_REMOVEMAPPOSESWITCHER_METHOD_3_80EC226578D5674A_OFFSET UNITYSDK_OFFSET(0x1A2E7C70)
-#define RPG_GAMECORE_REMOVEMAPPOSESWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E7C40)
+#define RPG_GAMECORE_REMOVEMAPPOSESWITCHER_METHOD_3_80EC226578D5674A_OFFSET UNITYSDK_OFFSET(0x1B71D030)
+#define RPG_GAMECORE_REMOVEMAPPOSESWITCHER_METHOD_3_D6815F5FC1A3A101_OFFSET UNITYSDK_OFFSET(0x1B71CFF0)
+#define RPG_GAMECORE_REMOVEMAPPOSESWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71D020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveMapPoseSwitcher_TypeDefinitionIndex = 19794;
+	inline static constexpr unsigned int RemoveMapPoseSwitcher_TypeDefinitionIndex = 20154;
 
 	class RemoveMapPoseSwitcher : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAPPOSESWITCHER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_586F902654044B93(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveMapPoseSwitcher*& a2)
+		static ::System::Void Method_3_D6815F5FC1A3A101(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveMapPoseSwitcher*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveMapPoseSwitcher*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAPPOSESWITCHER_METHOD_3_586F902654044B93_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveMapPoseSwitcher*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEMAPPOSESWITCHER_METHOD_3_D6815F5FC1A3A101_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_80EC226578D5674A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveMapPoseSwitcher* a2)

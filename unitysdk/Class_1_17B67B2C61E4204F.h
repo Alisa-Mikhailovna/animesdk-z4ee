@@ -5,25 +5,25 @@
 class Class_1_45EB26448208D929;
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 
-#define CLASS_1_17B67B2C61E4204F_METHOD_1_346221E08C45B035_OFFSET UNITYSDK_OFFSET(0x13B99C80)
-#define CLASS_1_17B67B2C61E4204F_METHOD_1_A37448BC57FB8EDE_OFFSET UNITYSDK_OFFSET(0x13B99DC0)
-#define CLASS_1_17B67B2C61E4204F_METHOD_1_E2ACF3FF064F9810_OFFSET UNITYSDK_OFFSET(0x13B99B20)
-#define CLASS_1_17B67B2C61E4204F_METHOD_1_EF90527E19A345E6_OFFSET UNITYSDK_OFFSET(0x13B99BD0)
-#define CLASS_1_17B67B2C61E4204F__CCTOR_OFFSET UNITYSDK_OFFSET(0x13B99EA0)
-#define CLASS_1_17B67B2C61E4204F__CTOR_OFFSET UNITYSDK_OFFSET(0x13B99E90)
+#define CLASS_1_17B67B2C61E4204F_METHOD_1_346221E08C45B035_OFFSET UNITYSDK_OFFSET(0x144B2050)
+#define CLASS_1_17B67B2C61E4204F_METHOD_1_A37448BC57FB8EDE_OFFSET UNITYSDK_OFFSET(0x144B2190)
+#define CLASS_1_17B67B2C61E4204F_METHOD_1_E2ACF3FF064F9810_OFFSET UNITYSDK_OFFSET(0x144B1EF0)
+#define CLASS_1_17B67B2C61E4204F_METHOD_1_EF90527E19A345E6_OFFSET UNITYSDK_OFFSET(0x144B1FA0)
+#define CLASS_1_17B67B2C61E4204F__CCTOR_OFFSET UNITYSDK_OFFSET(0x144B2270)
+#define CLASS_1_17B67B2C61E4204F__CTOR_OFFSET UNITYSDK_OFFSET(0x144B2260)
 
-inline static constexpr unsigned int Class_1_17B67B2C61E4204F_TypeDefinitionIndex = 44980;
+inline static constexpr unsigned int Class_1_17B67B2C61E4204F_TypeDefinitionIndex = 45898;
 
 class Class_1_17B67B2C61E4204F : public ::System::Object
 {
 public:
 	static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::Class_1_45EB26448208D929*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::Class_1_45EB26448208D929*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_17B67B2C61E4204F_TypeDefinitionIndex)->GetStaticField(0x3EC40);
+		return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::UInt32, ::Class_1_45EB26448208D929*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_17B67B2C61E4204F_TypeDefinitionIndex)->GetStaticField(0x35AB0);
 	}
 	static ::System::UInt32* StaticGet_Field_1_1()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_17B67B2C61E4204F_TypeDefinitionIndex)->GetStaticField(0xC4B0);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_17B67B2C61E4204F_TypeDefinitionIndex)->GetStaticField(0x8C60);
 	}
 	// static const ::System::UInt32 Field_1_2 = 0x0; // 0x0
 

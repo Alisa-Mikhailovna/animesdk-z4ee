@@ -11,13 +11,12 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_CHARACTERDISSOLVE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17B08580)
-#define RPG_CLIENT_CHARACTERDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B085D0)
-#define RPG_CLIENT_CHARACTERDISSOLVE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17B08670)
+#define RPG_CLIENT_CHARACTERDISSOLVE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBFCD580)
+#define RPG_CLIENT_CHARACTERDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xBFCD5D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterDissolve_TypeDefinitionIndex = 65701;
+	inline static constexpr unsigned int CharacterDissolve_TypeDefinitionIndex = 67118;
 
 	class CharacterDissolve : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CharacterDissolveBehavior*>
 	{
@@ -87,11 +86,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERDISSOLVE_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHARACTERDISSOLVE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

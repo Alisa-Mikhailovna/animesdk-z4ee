@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_40F2238D94393361_OFFSET UNITYSDK_OFFSET(0x1A411AE0)
-#define RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_F4701E3108E85ECF_OFFSET UNITYSDK_OFFSET(0x1A4119E0)
-#define RPG_GAMECORE_FETCHADVNPCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A411AD0)
+#define RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_5E2D7AD5320035CC_OFFSET UNITYSDK_OFFSET(0x1B410320)
+#define RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_9850D7BFB02D5F74_OFFSET UNITYSDK_OFFSET(0x1B4101F0)
+#define RPG_GAMECORE_FETCHADVNPCDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B410310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FetchAdvNPCData_TypeDefinitionIndex = 22556;
+	inline static constexpr unsigned int FetchAdvNPCData_TypeDefinitionIndex = 23019;
 
 	class FetchAdvNPCData : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,14 +24,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVNPCDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F4701E3108E85ECF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FetchAdvNPCData*& a2)
+		static ::System::Void Method_2_9850D7BFB02D5F74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FetchAdvNPCData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FetchAdvNPCData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_F4701E3108E85ECF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FetchAdvNPCData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_9850D7BFB02D5F74_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_40F2238D94393361(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FetchAdvNPCData*& a2)
+		static ::System::Void Method_2_5E2D7AD5320035CC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FetchAdvNPCData*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FetchAdvNPCData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_40F2238D94393361_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FetchAdvNPCData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVNPCDATA_METHOD_2_5E2D7AD5320035CC_OFFSET))(a1, a2);
 		}
 	};
 }

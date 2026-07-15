@@ -12,23 +12,22 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System { class String; }
 
-#define CLASS_1_1CB8CBC69B962B41_CLEAR_OFFSET UNITYSDK_OFFSET(0x163C4E40)
-#define CLASS_1_1CB8CBC69B962B41_METHOD_1_05403F8C3D5C4318_OFFSET UNITYSDK_OFFSET(0x163C4F00)
-#define CLASS_1_1CB8CBC69B962B41_METHOD_1_21875F771F15D8A8_OFFSET UNITYSDK_OFFSET(0x163C5110)
-#define CLASS_1_1CB8CBC69B962B41_TOSTRING_OFFSET UNITYSDK_OFFSET(0x163C5020)
-#define CLASS_1_1CB8CBC69B962B41__CTOR_OFFSET UNITYSDK_OFFSET(0x163C55A0)
-#define CLASS_1_1CB8CBC69B962B41___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x163C55B0)
+#define CLASS_1_1CB8CBC69B962B41_CLEAR_OFFSET UNITYSDK_OFFSET(0x144911C0)
+#define CLASS_1_1CB8CBC69B962B41_METHOD_1_05403F8C3D5C4318_OFFSET UNITYSDK_OFFSET(0x14491280)
+#define CLASS_1_1CB8CBC69B962B41_METHOD_1_21875F771F15D8A8_OFFSET UNITYSDK_OFFSET(0x14491490)
+#define CLASS_1_1CB8CBC69B962B41_TOSTRING_OFFSET UNITYSDK_OFFSET(0x144913A0)
+#define CLASS_1_1CB8CBC69B962B41__CTOR_OFFSET UNITYSDK_OFFSET(0x14491930)
 
-inline static constexpr unsigned int Class_1_1CB8CBC69B962B41_TypeDefinitionIndex = 52492;
+inline static constexpr unsigned int Class_1_1CB8CBC69B962B41_TypeDefinitionIndex = 53696;
 
 class Class_1_1CB8CBC69B962B41 : public ::System::Object
 {
 public:
-	::Struct_2_52A902145F5BE513_3 Field_1_0; // 0x10
-	::RPG::GameCore::SkillCharacterComponent* Field_1_1; // 0x80
-	::Class_1_A2D8E5AB4B623162* Field_1_2; // 0x88
-	::Class_1_5F51D4049EA87B7B* Field_1_3; // 0x90
-	::RPG::GameCore::TurnBasedAbilityComponent* Field_1_4; // 0x98
+	::RPG::GameCore::SkillCharacterComponent* Field_1_0; // 0x10
+	::Class_1_A2D8E5AB4B623162* Field_1_1; // 0x18
+	::Struct_2_52A902145F5BE513_3 Field_1_2; // 0x20
+	::RPG::GameCore::TurnBasedAbilityComponent* Field_1_3; // 0x90
+	::Class_1_5F51D4049EA87B7B* Field_1_4; // 0x98
 	::System::Boolean Field_1_5; // 0xA0
 	::System::Boolean Field_1_6; // 0xA1
 	::RPG::GameCore::InsertAbilityState Field_1_7; // 0xA2
@@ -58,10 +57,5 @@ public:
 	::System::Void Method_1_21875F771F15D8A8(::RPG::GameCore::TurnBasedGameMode* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedGameMode*))((::PBYTE)hIl2Cpp + CLASS_1_1CB8CBC69B962B41_METHOD_1_21875F771F15D8A8_OFFSET))(this, a1);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1CB8CBC69B962B41___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

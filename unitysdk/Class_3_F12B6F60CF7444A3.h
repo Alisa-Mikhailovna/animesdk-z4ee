@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetupCustomTaskTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F12B6F60CF7444A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14F6F810)
-#define CLASS_3_F12B6F60CF7444A3__CTOR_OFFSET UNITYSDK_OFFSET(0x14F6F7E0)
+#define CLASS_3_F12B6F60CF7444A3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14AF6AA0)
+#define CLASS_3_F12B6F60CF7444A3__CTOR_OFFSET UNITYSDK_OFFSET(0x14AF6A70)
 
-inline static constexpr unsigned int Class_3_F12B6F60CF7444A3_TypeDefinitionIndex = 49107;
+inline static constexpr unsigned int Class_3_F12B6F60CF7444A3_TypeDefinitionIndex = 50120;
 
 class Class_3_F12B6F60CF7444A3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetupCustomTaskTrigger*>
 {

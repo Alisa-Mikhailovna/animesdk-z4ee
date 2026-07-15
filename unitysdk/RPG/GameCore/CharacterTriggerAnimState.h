@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE_METHOD_3_1F4A83A04314F356_OFFSET UNITYSDK_OFFSET(0x1A147EE0)
-#define RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE_METHOD_3_6506ED4B38DBB0C0_OFFSET UNITYSDK_OFFSET(0x1A147F80)
-#define RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A147F40)
+#define RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE_METHOD_3_525A3F96B38D0DB5_OFFSET UNITYSDK_OFFSET(0x1B322A80)
+#define RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE_METHOD_3_6506ED4B38DBB0C0_OFFSET UNITYSDK_OFFSET(0x1B322AD0)
+#define RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B322AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterTriggerAnimState_TypeDefinitionIndex = 19681;
+	inline static constexpr unsigned int CharacterTriggerAnimState_TypeDefinitionIndex = 20040;
 
 	class CharacterTriggerAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1F4A83A04314F356(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterTriggerAnimState*& a2)
+		static ::System::Void Method_3_525A3F96B38D0DB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterTriggerAnimState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterTriggerAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE_METHOD_3_1F4A83A04314F356_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterTriggerAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERTRIGGERANIMSTATE_METHOD_3_525A3F96B38D0DB5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6506ED4B38DBB0C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterTriggerAnimState* a2)

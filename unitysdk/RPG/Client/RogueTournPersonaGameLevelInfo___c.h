@@ -5,24 +5,24 @@
 namespace RPG::Client { class IRogueTournPersonaGameLevelLayer; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D76990)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18D769C0)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELINFO___C___SYNCLAYERSFULL_B__8_0_OFFSET UNITYSDK_OFFSET(0x18D769D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD4659C0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD4659F0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELINFO___C___SYNCLAYERSFULL_B__8_0_OFFSET UNITYSDK_OFFSET(0xD465A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaGameLevelInfo___c_TypeDefinitionIndex = 63337;
+	inline static constexpr unsigned int RogueTournPersonaGameLevelInfo___c_TypeDefinitionIndex = 64704;
 
 	class RogueTournPersonaGameLevelInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::IRogueTournPersonaGameLevelLayer*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::IRogueTournPersonaGameLevelLayer*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x38900);
+			return (::System::Comparison_1<::RPG::Client::IRogueTournPersonaGameLevelLayer*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x2D470);
 		}
 		static ::RPG::Client::RogueTournPersonaGameLevelInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournPersonaGameLevelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x38908);
+			return (::RPG::Client::RogueTournPersonaGameLevelInfo___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelInfo___c_TypeDefinitionIndex)->GetStaticField(0x2D478);
 		}
 
 		static ::System::Void _cctor()

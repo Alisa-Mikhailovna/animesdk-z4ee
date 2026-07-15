@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEIDLEANIM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E70E40)
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEIDLEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x18E710A0)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEIDLEANIM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B561720)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDEIDLEANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5619B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCInfoOverrideIdleAnim_TypeDefinitionIndex = 16505;
+	inline static constexpr unsigned int LevelNPCInfoOverrideIdleAnim_TypeDefinitionIndex = 16667;
 
 	class LevelNPCInfoOverrideIdleAnim : public ::RPG::GameCore::JsonConfig
 	{

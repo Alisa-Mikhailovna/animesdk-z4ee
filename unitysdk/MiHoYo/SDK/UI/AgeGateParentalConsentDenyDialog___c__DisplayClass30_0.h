@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDenyDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDENYDIALOG___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E18D10)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDENYDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19E18E30)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDENYDIALOG___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E23A50)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDENYDIALOG___C__DISPLAYCLASS30_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19E23B70)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AgeGateParentalConsentDenyDialog___c__DisplayClass30_0_TypeDefinitionIndex = 8313;
+	inline static constexpr unsigned int AgeGateParentalConsentDenyDialog___c__DisplayClass30_0_TypeDefinitionIndex = 8325;
 
 	class AgeGateParentalConsentDenyDialog___c__DisplayClass30_0 : public ::System::Object
 	{

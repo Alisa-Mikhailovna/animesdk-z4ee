@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x169A7280)
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x169A7300)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xCD77B30)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD77BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 58204;
+	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 59466;
 
 	class MonsterAvatarGrowUpBeforeData : public ::System::Object
 	{
@@ -16,8 +16,8 @@ namespace RPG::Client
 		::RPG::GameCore::FixPoint AttackBefore; // 0x10
 		::System::UInt32 PromotionBefore; // 0x18
 		::System::UInt32 ExpBefore; // 0x1C
-		::RPG::GameCore::FixPoint HpMaxBefore; // 0x20
-		::RPG::GameCore::FixPoint SpeedBefore; // 0x28
+		::RPG::GameCore::FixPoint SpeedBefore; // 0x20
+		::RPG::GameCore::FixPoint HpMaxBefore; // 0x28
 		::RPG::GameCore::FixPoint DefenseBefore; // 0x30
 
 		::System::Void _ctor()

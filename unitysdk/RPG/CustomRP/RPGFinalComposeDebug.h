@@ -4,30 +4,30 @@
 
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_RPGFINALCOMPOSEDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x15816D80)
+#define RPG_CUSTOMRP_RPGFINALCOMPOSEDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA9E2E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGFinalComposeDebug_TypeDefinitionIndex = 35483;
+	inline static constexpr unsigned int RPGFinalComposeDebug_TypeDefinitionIndex = 36265;
 
 	class RPGFinalComposeDebug : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_DumpTonemappingDataFileName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x44260);
-		}
-		static ::System::Boolean* StaticGet_NeedDumpTonemappingData()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0xD110);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x3BF70);
 		}
 		static ::System::Boolean* StaticGet_DebugEnableGamutClipping()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0xD111);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x9E00);
 		}
 		static ::System::Boolean* StaticGet_DebugHDROutputIntermediate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0xD112);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x9E01);
+		}
+		static ::System::Boolean* StaticGet_NeedDumpTonemappingData()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPGFinalComposeDebug_TypeDefinitionIndex)->GetStaticField(0x9E02);
 		}
 
 		static ::System::Void _cctor()

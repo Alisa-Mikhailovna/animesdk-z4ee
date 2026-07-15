@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_57154503742D0EBA_OFFSET UNITYSDK_OFFSET(0x19C19170)
-#define RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_BED34B97789DE23A_OFFSET UNITYSDK_OFFSET(0x19C190E0)
-#define RPG_GAMECORE_LOOPWAITBATTLEWIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19C19140)
+#define RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_500D6F18D5E67AFE_OFFSET UNITYSDK_OFFSET(0x1B59A3D0)
+#define RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_57154503742D0EBA_OFFSET UNITYSDK_OFFSET(0x1B59A420)
+#define RPG_GAMECORE_LOOPWAITBATTLEWIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B59A410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopWaitBattleWin_TypeDefinitionIndex = 20007;
+	inline static constexpr unsigned int LoopWaitBattleWin_TypeDefinitionIndex = 20379;
 
 	class LoopWaitBattleWin : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BED34B97789DE23A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitBattleWin*& a2)
+		static ::System::Void Method_3_500D6F18D5E67AFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitBattleWin*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitBattleWin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_BED34B97789DE23A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitBattleWin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBATTLEWIN_METHOD_3_500D6F18D5E67AFE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_57154503742D0EBA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitBattleWin* a2)

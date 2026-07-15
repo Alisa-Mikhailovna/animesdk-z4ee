@@ -4,12 +4,12 @@
 
 namespace StageBudgetTool { class Block; }
 
-#define STAGEBUDGETTOOL_BLOCKBUDGETCOMPONENTEDITORONLY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17773B90)
-#define STAGEBUDGETTOOL_BLOCKBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x17773BD0)
+#define STAGEBUDGETTOOL_BLOCKBUDGETCOMPONENTEDITORONLY_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDD5C470)
+#define STAGEBUDGETTOOL_BLOCKBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0xDD5C4B0)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int BlockBudgetComponentEditorOnly_TypeDefinitionIndex = 45028;
+	inline static constexpr unsigned int BlockBudgetComponentEditorOnly_TypeDefinitionIndex = 45946;
 
 	class BlockBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{

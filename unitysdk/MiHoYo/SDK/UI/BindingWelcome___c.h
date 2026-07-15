@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI { class BindingWelcome; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E1F830)
-#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1F870)
-#define MIHOYO_SDK_UI_BINDINGWELCOME___C__SHOW_B__36_0_OFFSET UNITYSDK_OFFSET(0x19E1F880)
+#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E2A9E0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2AA20)
+#define MIHOYO_SDK_UI_BINDINGWELCOME___C__SHOW_B__36_0_OFFSET UNITYSDK_OFFSET(0x19E2AA30)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingWelcome___c_TypeDefinitionIndex = 8318;
+	inline static constexpr unsigned int BindingWelcome___c_TypeDefinitionIndex = 8330;
 
 	class BindingWelcome___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>** StaticGet___9__36_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x232A0);
-		}
 		static ::MiHoYo::SDK::UI::BindingWelcome___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UI::BindingWelcome___c**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x232A8);
+			return (::MiHoYo::SDK::UI::BindingWelcome___c**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x2A820);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>** StaticGet___9__36_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::UI::BindingWelcome*>**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome___c_TypeDefinitionIndex)->GetStaticField(0x2A828);
 		}
 
 		static ::System::Void _cctor()

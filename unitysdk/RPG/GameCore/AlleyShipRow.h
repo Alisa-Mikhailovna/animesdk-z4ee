@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYSHIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BD39B0)
-#define RPG_GAMECORE_ALLEYSHIPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD3B00)
+#define RPG_GAMECORE_ALLEYSHIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B19D1A0)
+#define RPG_GAMECORE_ALLEYSHIPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B19D2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyShipRow_TypeDefinitionIndex = 12005;
+	inline static constexpr unsigned int AlleyShipRow_TypeDefinitionIndex = 12137;
 
 	class AlleyShipRow : public ::System::Object
 	{
 	public:
 		::System::String* ShipConfig; // 0x10
-		::RPG::GameCore::AlleyShipType ShipType; // 0x18
-		::System::UInt32 ShipID; // 0x1C
+		::System::UInt32 ShipID; // 0x18
+		::RPG::GameCore::AlleyShipType ShipType; // 0x1C
 
 		::System::Void _ctor()
 		{

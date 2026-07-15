@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FLOATEVALUATOR_LOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x187E6B10)
+#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_FLOATEVALUATOR_LOOP__CTOR_OFFSET UNITYSDK_OFFSET(0xCD3C700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoValueEvaluateConfigure_FloatEvaluator_Loop_TypeDefinitionIndex = 64206;
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_FloatEvaluator_Loop_TypeDefinitionIndex = 65577;
 
 	class MonoValueEvaluateConfigure_FloatEvaluator_Loop : public ::RPG::Client::MonoValueEvaluateConfigure_FloatEvaluator
 	{

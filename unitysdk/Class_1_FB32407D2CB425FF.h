@@ -4,17 +4,17 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_FB32407D2CB425FF__CTOR_OFFSET UNITYSDK_OFFSET(0x16FAF260)
+#define CLASS_1_FB32407D2CB425FF__CTOR_OFFSET UNITYSDK_OFFSET(0xD038CA0)
 
-inline static constexpr unsigned int Class_1_FB32407D2CB425FF_TypeDefinitionIndex = 52488;
+inline static constexpr unsigned int Class_1_FB32407D2CB425FF_TypeDefinitionIndex = 53692;
 
 class Class_1_FB32407D2CB425FF : public ::System::Object
 {
 public:
 	::System::Action* Field_1_0; // 0x10
 	::System::Action* Field_1_1; // 0x18
-	::System::Boolean Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x24
+	::System::Single Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x24
 	::System::Single Field_1_4; // 0x28
 
 	::System::Void _ctor()

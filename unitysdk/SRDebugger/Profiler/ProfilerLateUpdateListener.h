@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define SRDEBUGGER_PROFILER_PROFILERLATEUPDATELISTENER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x186DEED0)
-#define SRDEBUGGER_PROFILER_PROFILERLATEUPDATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x186DEEF0)
+#define SRDEBUGGER_PROFILER_PROFILERLATEUPDATELISTENER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1C9C9CD0)
+#define SRDEBUGGER_PROFILER_PROFILERLATEUPDATELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9C9CF0)
 
 namespace SRDebugger::Profiler
 {
-	inline static constexpr unsigned int ProfilerLateUpdateListener_TypeDefinitionIndex = 35758;
+	inline static constexpr unsigned int ProfilerLateUpdateListener_TypeDefinitionIndex = 36540;
 
 	class ProfilerLateUpdateListener : public ::UnityEngine::MonoBehaviour
 	{

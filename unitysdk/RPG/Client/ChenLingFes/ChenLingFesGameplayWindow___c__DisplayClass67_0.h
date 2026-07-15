@@ -5,12 +5,12 @@
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayWindow; }
 namespace RPG::UINavigation { class UINavigationZone; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYWINDOW___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18847480)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYWINDOW___C__DISPLAYCLASS67_0___TRYFOCUSOPERATEITEMNAVIGATION_B__0_OFFSET UNITYSDK_OFFSET(0x188480F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYWINDOW___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC0B9790)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYWINDOW___C__DISPLAYCLASS67_0___TRYFOCUSOPERATEITEMNAVIGATION_B__0_OFFSET UNITYSDK_OFFSET(0xC0BA140)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayWindow___c__DisplayClass67_0_TypeDefinitionIndex = 73992;
+	inline static constexpr unsigned int ChenLingFesGameplayWindow___c__DisplayClass67_0_TypeDefinitionIndex = 76374;
 
 	class ChenLingFesGameplayWindow___c__DisplayClass67_0 : public ::System::Object
 	{

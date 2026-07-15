@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYPROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193554E0)
-#define RPG_GAMECORE_STORYPROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19355700)
+#define RPG_GAMECORE_STORYPROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B915AE0)
+#define RPG_GAMECORE_STORYPROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B915D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryPropRow_TypeDefinitionIndex = 14431;
+	inline static constexpr unsigned int StoryPropRow_TypeDefinitionIndex = 14579;
 
 	class StoryPropRow : public ::System::Object
 	{
 	public:
-		::System::String* StoryCharacterUniqueName; // 0x10
-		::System::String* StoryCharacterModelPath; // 0x18
-		::System::String* JsonPath; // 0x20
-		::System::String* StoryCharacterID; // 0x28
-		::System::String* ConfigEntityPath; // 0x30
+		::System::String* ConfigEntityPath; // 0x10
+		::System::String* StoryCharacterID; // 0x18
+		::System::String* StoryCharacterUniqueName; // 0x20
+		::System::String* JsonPath; // 0x28
+		::System::String* StoryCharacterModelPath; // 0x30
 		::System::UInt32 PropID; // 0x38
 
 		::System::Void _ctor()

@@ -11,45 +11,42 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define CLASS_1_45BB92167AED63A0_55_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1AD67D50)
-#define CLASS_1_45BB92167AED63A0_55_CLONE_OFFSET UNITYSDK_OFFSET(0x1AD678D0)
-#define CLASS_1_45BB92167AED63A0_55_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1AD679E0)
-#define CLASS_1_45BB92167AED63A0_55_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AD67920)
-#define CLASS_1_45BB92167AED63A0_55_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AD67A90)
-#define CLASS_1_45BB92167AED63A0_55_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1AD67E40)
-#define CLASS_1_45BB92167AED63A0_55_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1AD67DE0)
-#define CLASS_1_45BB92167AED63A0_55_METHOD_1_554199E0076172C5_1_OFFSET UNITYSDK_OFFSET(0x1AD67910)
-#define CLASS_1_45BB92167AED63A0_55_METHOD_1_554199E0076172C5_OFFSET UNITYSDK_OFFSET(0x1AD67900)
-#define CLASS_1_45BB92167AED63A0_55_METHOD_1_685747EAFC9F7288_OFFSET UNITYSDK_OFFSET(0x1AD67720)
-#define CLASS_1_45BB92167AED63A0_55_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1AD67750)
-#define CLASS_1_45BB92167AED63A0_55_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AD67C50)
-#define CLASS_1_45BB92167AED63A0_55_WRITETO_OFFSET UNITYSDK_OFFSET(0x1AD67CB0)
-#define CLASS_1_45BB92167AED63A0_55__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD67F70)
-#define CLASS_1_45BB92167AED63A0_55__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AD677F0)
-#define CLASS_1_45BB92167AED63A0_55__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD67760)
+#define CLASS_1_45BB92167AED63A0_55_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BEE6E90)
+#define CLASS_1_45BB92167AED63A0_55_CLONE_OFFSET UNITYSDK_OFFSET(0x1BEE6990)
+#define CLASS_1_45BB92167AED63A0_55_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BEE6B40)
+#define CLASS_1_45BB92167AED63A0_55_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BEE6A10)
+#define CLASS_1_45BB92167AED63A0_55_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BEE6C30)
+#define CLASS_1_45BB92167AED63A0_55_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BEE7010)
+#define CLASS_1_45BB92167AED63A0_55_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BEE6FC0)
+#define CLASS_1_45BB92167AED63A0_55_METHOD_1_02A3D10A9D535169_OFFSET UNITYSDK_OFFSET(0x1BEE69F0)
+#define CLASS_1_45BB92167AED63A0_55_METHOD_1_33819E510657F52F_OFFSET UNITYSDK_OFFSET(0x1BEE6840)
+#define CLASS_1_45BB92167AED63A0_55_METHOD_1_554199E0076172C5_OFFSET UNITYSDK_OFFSET(0x1BEE69E0)
+#define CLASS_1_45BB92167AED63A0_55_METHOD_1_7786DC814C2FC3BE_OFFSET UNITYSDK_OFFSET(0x1BEE6A00)
+#define CLASS_1_45BB92167AED63A0_55_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BEE68A0)
+#define CLASS_1_45BB92167AED63A0_55_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BEE6D30)
+#define CLASS_1_45BB92167AED63A0_55_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BEE6D90)
+#define CLASS_1_45BB92167AED63A0_55__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEE71E0)
+#define CLASS_1_45BB92167AED63A0_55__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BEE6900)
+#define CLASS_1_45BB92167AED63A0_55__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE68B0)
 
-inline static constexpr unsigned int Class_1_45BB92167AED63A0_55_TypeDefinitionIndex = 29111;
+inline static constexpr unsigned int Class_1_45BB92167AED63A0_55_TypeDefinitionIndex = 29234;
 
 class Class_1_45BB92167AED63A0_55 : public ::System::Object
 {
 public:
-	static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_Field_1_0()
+	static ::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>** StaticGet_Field_1_0()
 	{
-		return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_45BB92167AED63A0_55_TypeDefinitionIndex)->GetStaticField(0x640D0);
+		return (::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_45BB92167AED63A0_55_TypeDefinitionIndex)->GetStaticField(0x5CCB0);
 	}
-	static ::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>** StaticGet_Field_1_1()
+	static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_Field_1_1()
 	{
-		return (::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_45BB92167AED63A0_55_TypeDefinitionIndex)->GetStaticField(0x640D8);
+		return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_45BB92167AED63A0_55_TypeDefinitionIndex)->GetStaticField(0x5CCB8);
 	}
-	static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_Field_1_2()
-	{
-		return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_45BB92167AED63A0_55_TypeDefinitionIndex)->GetStaticField(0x640E0);
-	}
-	// static const ::System::Int32 Field_1_3 = 0x1; // 0x0
-	// static const ::System::Int32 Field_1_4 = 0xB; // 0x0
-	::Google::Protobuf::UnknownFieldSet* Field_1_5; // 0x10
-	::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* Field_1_6; // 0x18
-	::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* Field_1_7; // 0x20
+	// static const ::System::Int32 Field_1_2 = 0xA; // 0x0
+	// static const ::System::Int32 Field_1_3 = 0x7; // 0x0
+	::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* Field_1_4; // 0x10
+	::Google::Protobuf::UnknownFieldSet* Field_1_5; // 0x18
+	::System::UInt32 Field_1_6; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -66,9 +63,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_45BB92167AED63A0_55__CCTOR_OFFSET))();
 	}
 
-	static ::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>* Method_1_685747EAFC9F7288()
+	static ::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>* Method_1_33819E510657F52F()
 	{
-		return ((::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_45BB92167AED63A0_55_METHOD_1_685747EAFC9F7288_OFFSET))();
+		return ((::Google::Protobuf::MessageParser_1<::Class_1_45BB92167AED63A0_55*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_45BB92167AED63A0_55_METHOD_1_33819E510657F52F_OFFSET))();
 	}
 
 	::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
@@ -86,9 +83,14 @@ public:
 		return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_45BB92167AED63A0_55_METHOD_1_554199E0076172C5_OFFSET))(this);
 	}
 
-	::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* Method_1_554199E0076172C5_1()
+	::System::UInt32 Method_1_02A3D10A9D535169()
 	{
-		return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_45BB92167AED63A0_55_METHOD_1_554199E0076172C5_1_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_45BB92167AED63A0_55_METHOD_1_02A3D10A9D535169_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7786DC814C2FC3BE(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_45BB92167AED63A0_55_METHOD_1_7786DC814C2FC3BE_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Equals(::System::Object* a1)

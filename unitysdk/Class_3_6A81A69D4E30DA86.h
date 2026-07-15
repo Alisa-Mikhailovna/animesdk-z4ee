@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroPuzzleReport; }
 
-#define CLASS_3_6A81A69D4E30DA86_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C1D450)
-#define CLASS_3_6A81A69D4E30DA86__CTOR_OFFSET UNITYSDK_OFFSET(0x15C1D420)
+#define CLASS_3_6A81A69D4E30DA86_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FE78D0)
+#define CLASS_3_6A81A69D4E30DA86__CTOR_OFFSET UNITYSDK_OFFSET(0x11FE78A0)
 
-inline static constexpr unsigned int Class_3_6A81A69D4E30DA86_TypeDefinitionIndex = 55096;
+inline static constexpr unsigned int Class_3_6A81A69D4E30DA86_TypeDefinitionIndex = 56329;
 
 class Class_3_6A81A69D4E30DA86 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::WolfBroPuzzleReport*>
 {

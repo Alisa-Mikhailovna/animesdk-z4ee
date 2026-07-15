@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_823;
+class Class_0_16E4307DCC419505_861;
 class Class_1_BFE5EE5C9B965FB7;
 namespace RPG::Client { class PlanetFesRankDataItem; }
 namespace RPG::Client { class PlanetFesTradingCardApplyItem; }
@@ -11,77 +11,77 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_F8232DFF934E6733___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13878D80)
-#define CLASS_1_F8232DFF934E6733___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13878DC0)
-#define CLASS_1_F8232DFF934E6733___C__GETALLAPPLYLIST_B__24_0_OFFSET UNITYSDK_OFFSET(0x13879060)
-#define CLASS_1_F8232DFF934E6733___C__GETAPPLYLIST_B__23_0_OFFSET UNITYSDK_OFFSET(0x13879010)
-#define CLASS_1_F8232DFF934E6733___C__GETFREEAPPLYLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x138790B0)
-#define CLASS_1_F8232DFF934E6733___C__GETOFFERLIST_B__26_0_OFFSET UNITYSDK_OFFSET(0x13879100)
-#define CLASS_1_F8232DFF934E6733___C__GETPRESENTLIST_B__21_0_OFFSET UNITYSDK_OFFSET(0x13878F60)
-#define CLASS_1_F8232DFF934E6733___C__SYNC_B__11_0_OFFSET UNITYSDK_OFFSET(0x13878E90)
-#define CLASS_1_F8232DFF934E6733___C__SYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0x13878ED0)
-#define CLASS_1_F8232DFF934E6733___C__SYNC_B__14_0_OFFSET UNITYSDK_OFFSET(0x13878F10)
-#define CLASS_1_F8232DFF934E6733___C__SYNC_B__9_0_OFFSET UNITYSDK_OFFSET(0x13878DD0)
-#define CLASS_1_F8232DFF934E6733___C__SYNC_B__9_1_OFFSET UNITYSDK_OFFSET(0x13878E10)
-#define CLASS_1_F8232DFF934E6733___C__SYNC_B__9_2_OFFSET UNITYSDK_OFFSET(0x13878E50)
-#define CLASS_1_F8232DFF934E6733___C___FLITERINVALIDITEM_B__42_0_OFFSET UNITYSDK_OFFSET(0x138791B0)
+#define CLASS_1_F8232DFF934E6733___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1539B5E0)
+#define CLASS_1_F8232DFF934E6733___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1539B620)
+#define CLASS_1_F8232DFF934E6733___C__GETALLAPPLYLIST_B__24_0_OFFSET UNITYSDK_OFFSET(0x1539B8C0)
+#define CLASS_1_F8232DFF934E6733___C__GETAPPLYLIST_B__23_0_OFFSET UNITYSDK_OFFSET(0x1539B870)
+#define CLASS_1_F8232DFF934E6733___C__GETFREEAPPLYLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0x1539B910)
+#define CLASS_1_F8232DFF934E6733___C__GETOFFERLIST_B__26_0_OFFSET UNITYSDK_OFFSET(0x1539B960)
+#define CLASS_1_F8232DFF934E6733___C__GETPRESENTLIST_B__21_0_OFFSET UNITYSDK_OFFSET(0x1539B7C0)
+#define CLASS_1_F8232DFF934E6733___C__SYNC_B__11_0_OFFSET UNITYSDK_OFFSET(0x1539B6F0)
+#define CLASS_1_F8232DFF934E6733___C__SYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0x1539B730)
+#define CLASS_1_F8232DFF934E6733___C__SYNC_B__14_0_OFFSET UNITYSDK_OFFSET(0x1539B770)
+#define CLASS_1_F8232DFF934E6733___C__SYNC_B__9_0_OFFSET UNITYSDK_OFFSET(0x1539B630)
+#define CLASS_1_F8232DFF934E6733___C__SYNC_B__9_1_OFFSET UNITYSDK_OFFSET(0x1539B670)
+#define CLASS_1_F8232DFF934E6733___C__SYNC_B__9_2_OFFSET UNITYSDK_OFFSET(0x1539B6B0)
+#define CLASS_1_F8232DFF934E6733___C___FLITERINVALIDITEM_B__42_0_OFFSET UNITYSDK_OFFSET(0x1539BA10)
 
-inline static constexpr unsigned int Class_1_F8232DFF934E6733___c_TypeDefinitionIndex = 62270;
+inline static constexpr unsigned int Class_1_F8232DFF934E6733___c_TypeDefinitionIndex = 63636;
 
 class Class_1_F8232DFF934E6733___c : public ::System::Object
 {
 public:
-	static ::System::Comparison_1<::Class_1_BFE5EE5C9B965FB7*>** StaticGet___9__21_0()
-	{
-		return (::System::Comparison_1<::Class_1_BFE5EE5C9B965FB7*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D0F0);
-	}
 	static ::System::Comparison_1<::RPG::Client::PlanetFesRankDataItem*>** StaticGet___9__14_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesRankDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D0F8);
+		return (::System::Comparison_1<::RPG::Client::PlanetFesRankDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x295F0);
 	}
-	static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__24_0()
+	static ::System::Func_2<::Class_0_16E4307DCC419505_861*, ::System::Boolean>** StaticGet___9__42_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D100);
-	}
-	static ::System::Action** StaticGet___9__11_0()
-	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D108);
-	}
-	static ::System::Action** StaticGet___9__9_1()
-	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D110);
+		return (::System::Func_2<::Class_0_16E4307DCC419505_861*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x295F8);
 	}
 	static ::System::Action** StaticGet___9__9_2()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D118);
-	}
-	static ::Class_1_F8232DFF934E6733___c** StaticGet___9()
-	{
-		return (::Class_1_F8232DFF934E6733___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D120);
-	}
-	static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__23_0()
-	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D128);
-	}
-	static ::System::Action** StaticGet___9__9_0()
-	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D130);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29600);
 	}
 	static ::System::Action** StaticGet___9__12_0()
 	{
-		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D138);
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29608);
 	}
-	static ::System::Func_2<::Class_0_16E4307DCC419505_823*, ::System::Boolean>** StaticGet___9__42_0()
+	static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__24_0()
 	{
-		return (::System::Func_2<::Class_0_16E4307DCC419505_823*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D140);
-	}
-	static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__25_0()
-	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D148);
+		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29610);
 	}
 	static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardOfferItem*>** StaticGet___9__26_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardOfferItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x2D150);
+		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardOfferItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29618);
+	}
+	static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__23_0()
+	{
+		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29620);
+	}
+	static ::System::Action** StaticGet___9__11_0()
+	{
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29628);
+	}
+	static ::Class_1_F8232DFF934E6733___c** StaticGet___9()
+	{
+		return (::Class_1_F8232DFF934E6733___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29630);
+	}
+	static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__25_0()
+	{
+		return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29638);
+	}
+	static ::System::Action** StaticGet___9__9_0()
+	{
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29640);
+	}
+	static ::System::Action** StaticGet___9__9_1()
+	{
+		return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29648);
+	}
+	static ::System::Comparison_1<::Class_1_BFE5EE5C9B965FB7*>** StaticGet___9__21_0()
+	{
+		return (::System::Comparison_1<::Class_1_BFE5EE5C9B965FB7*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F8232DFF934E6733___c_TypeDefinitionIndex)->GetStaticField(0x29650);
 	}
 
 	static ::System::Void _cctor()
@@ -149,8 +149,8 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::RPG::Client::PlanetFesTradingCardOfferItem*, ::RPG::Client::PlanetFesTradingCardOfferItem*))((::PBYTE)hIl2Cpp + CLASS_1_F8232DFF934E6733___C__GETOFFERLIST_B__26_0_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean __FliterInvalidItem_b__42_0(::Class_0_16E4307DCC419505_823* a1)
+	::System::Boolean __FliterInvalidItem_b__42_0(::Class_0_16E4307DCC419505_861* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_823*))((::PBYTE)hIl2Cpp + CLASS_1_F8232DFF934E6733___C___FLITERINVALIDITEM_B__42_0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_861*))((::PBYTE)hIl2Cpp + CLASS_1_F8232DFF934E6733___C___FLITERINVALIDITEM_B__42_0_OFFSET))(this, a1);
 	}
 };

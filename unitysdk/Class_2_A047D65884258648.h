@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_F9FBCC956DFCF137_1.h"
 
-class Class_1_5816B66AC6910205;
+class Class_1_EFDEDB2BC2764B7D;
 class Class_2_C956F0B1EE8CC3B3;
 namespace RPG::GameCore { class MarblePredicateConfig; }
 
-#define CLASS_2_A047D65884258648_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x15F6A0D0)
-#define CLASS_2_A047D65884258648_METHOD_2_A8C8FFA164F2128F_OFFSET UNITYSDK_OFFSET(0x15F6A140)
-#define CLASS_2_A047D65884258648_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15F6A200)
-#define CLASS_2_A047D65884258648__CTOR_OFFSET UNITYSDK_OFFSET(0x15F64DE0)
+#define CLASS_2_A047D65884258648_METHOD_2_5E72916301E347E2_OFFSET UNITYSDK_OFFSET(0x1A78A3C0)
+#define CLASS_2_A047D65884258648_METHOD_2_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x1A78A480)
+#define CLASS_2_A047D65884258648_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1A78A4F0)
+#define CLASS_2_A047D65884258648__CTOR_OFFSET UNITYSDK_OFFSET(0x1A785000)
 
-inline static constexpr unsigned int Class_2_A047D65884258648_TypeDefinitionIndex = 39776;
+inline static constexpr unsigned int Class_2_A047D65884258648_TypeDefinitionIndex = 40585;
 
 class Class_2_A047D65884258648 : public ::Class_1_F9FBCC956DFCF137_1
 {
@@ -20,19 +20,19 @@ public:
 	::Class_2_C956F0B1EE8CC3B3* Field_2_1; // 0x20
 	::RPG::GameCore::MarblePredicateConfig* Field_2_2; // 0x28
 
-	::System::Void _ctor(::RPG::GameCore::MarblePredicateConfig* a1, ::Class_1_5816B66AC6910205* a2)
+	::System::Void _ctor(::RPG::GameCore::MarblePredicateConfig* a1, ::Class_1_EFDEDB2BC2764B7D* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarblePredicateConfig*, ::Class_1_5816B66AC6910205*))((::PBYTE)hIl2Cpp + CLASS_2_A047D65884258648__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarblePredicateConfig*, ::Class_1_EFDEDB2BC2764B7D*))((::PBYTE)hIl2Cpp + CLASS_2_A047D65884258648__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_2_1D4018D4200358D0()
+	::System::Boolean Method_2_5E72916301E347E2()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A047D65884258648_METHOD_2_1D4018D4200358D0_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A047D65884258648_METHOD_2_5E72916301E347E2_OFFSET))(this);
 	}
 
-	::System::Boolean Method_2_A8C8FFA164F2128F()
+	::System::Boolean Method_2_A3FAE12D7B6ACD62()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A047D65884258648_METHOD_2_A8C8FFA164F2128F_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A047D65884258648_METHOD_2_A3FAE12D7B6ACD62_OFFSET))(this);
 	}
 
 	::System::Void Method_2_CA373AA1C7054598()

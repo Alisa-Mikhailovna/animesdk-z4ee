@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RELICRECOMMENDSUBPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFA150)
+#define RPG_CLIENT_RELICRECOMMENDSUBPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F9C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicRecommendSubPropertyData_TypeDefinitionIndex = 62459;
+	inline static constexpr unsigned int RelicRecommendSubPropertyData_TypeDefinitionIndex = 63825;
 
 	class RelicRecommendSubPropertyData : public ::System::Object
 	{

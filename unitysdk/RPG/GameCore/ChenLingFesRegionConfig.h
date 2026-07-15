@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesRegionCellConfig; }
 namespace RPG::GameCore { class ChenLingFesRegionItemConfig; }
 
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_8CADC1BF4708F0B5_OFFSET UNITYSDK_OFFSET(0x1A4FF250)
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_C6C9ED8F75741B74_OFFSET UNITYSDK_OFFSET(0x1A4FF1C0)
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FF230)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_479522B08F6F87D4_OFFSET UNITYSDK_OFFSET(0x1B338D00)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_8CADC1BF4708F0B5_OFFSET UNITYSDK_OFFSET(0x1B338D60)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B338D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesRegionConfig_TypeDefinitionIndex = 17538;
+	inline static constexpr unsigned int ChenLingFesRegionConfig_TypeDefinitionIndex = 17711;
 
 	class ChenLingFesRegionConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C6C9ED8F75741B74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesRegionConfig*& a2)
+		static ::System::Void Method_3_479522B08F6F87D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesRegionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesRegionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_C6C9ED8F75741B74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesRegionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESREGIONCONFIG_METHOD_3_479522B08F6F87D4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8CADC1BF4708F0B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesRegionConfig* a2)

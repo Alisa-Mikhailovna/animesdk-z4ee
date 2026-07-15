@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_REMOVESTAGEABILITYBYNAME_METHOD_3_F3F3DBA230468BFA_OFFSET UNITYSDK_OFFSET(0x1A2E8E20)
-#define RPG_GAMECORE_REMOVESTAGEABILITYBYNAME_METHOD_3_FB609807627154F3_OFFSET UNITYSDK_OFFSET(0x1A2E8DA0)
-#define RPG_GAMECORE_REMOVESTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E8DF0)
+#define RPG_GAMECORE_REMOVESTAGEABILITYBYNAME_METHOD_3_D158EC5836889829_OFFSET UNITYSDK_OFFSET(0x1B71DF20)
+#define RPG_GAMECORE_REMOVESTAGEABILITYBYNAME_METHOD_3_F3F3DBA230468BFA_OFFSET UNITYSDK_OFFSET(0x1B71DF60)
+#define RPG_GAMECORE_REMOVESTAGEABILITYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71DF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveStageAbilityByName_TypeDefinitionIndex = 21719;
+	inline static constexpr unsigned int RemoveStageAbilityByName_TypeDefinitionIndex = 22146;
 
 	class RemoveStageAbilityByName : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESTAGEABILITYBYNAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FB609807627154F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveStageAbilityByName*& a2)
+		static ::System::Void Method_3_D158EC5836889829(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveStageAbilityByName*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveStageAbilityByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESTAGEABILITYBYNAME_METHOD_3_FB609807627154F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveStageAbilityByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESTAGEABILITYBYNAME_METHOD_3_D158EC5836889829_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F3F3DBA230468BFA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveStageAbilityByName* a2)

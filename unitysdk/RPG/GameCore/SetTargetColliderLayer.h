@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_METHOD_3_54533BB757908E07_OFFSET UNITYSDK_OFFSET(0x1A79E7C0)
-#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_METHOD_3_DCD2EEC32B6CD459_OFFSET UNITYSDK_OFFSET(0x1A79E910)
-#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79E880)
+#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_METHOD_3_864C0C23D43EB61F_OFFSET UNITYSDK_OFFSET(0x1B8B4780)
+#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER_METHOD_3_DCD2EEC32B6CD459_OFFSET UNITYSDK_OFFSET(0x1B8B4800)
+#define RPG_GAMECORE_SETTARGETCOLLIDERLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B47D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetColliderLayer_TypeDefinitionIndex = 20952;
+	inline static constexpr unsigned int SetTargetColliderLayer_TypeDefinitionIndex = 21367;
 
 	class SetTargetColliderLayer : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETCOLLIDERLAYER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_54533BB757908E07(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetColliderLayer*& a2)
+		static ::System::Void Method_3_864C0C23D43EB61F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetColliderLayer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetColliderLayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETCOLLIDERLAYER_METHOD_3_54533BB757908E07_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetColliderLayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETCOLLIDERLAYER_METHOD_3_864C0C23D43EB61F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DCD2EEC32B6CD459(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetColliderLayer* a2)

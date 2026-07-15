@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AF44C0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AF4500)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC08BAC0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMESETTLEINFOWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC08BB00)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameSettleInfoWindow___c_TypeDefinitionIndex = 74004;
+	inline static constexpr unsigned int ChenLingFesGameSettleInfoWindow___c_TypeDefinitionIndex = 76386;
 
 	class ChenLingFesGameSettleInfoWindow___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChenLingFes::ChenLingFesGameSettleInfoWindow___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameSettleInfoWindow___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoWindow___c_TypeDefinitionIndex)->GetStaticField(0x68270);
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameSettleInfoWindow___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameSettleInfoWindow___c_TypeDefinitionIndex)->GetStaticField(0x5EBF0);
 		}
 
 		static ::System::Void _cctor()

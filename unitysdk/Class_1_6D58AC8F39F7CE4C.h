@@ -6,16 +6,16 @@ namespace RPG::GameCore { class BlockNodeConfig; }
 namespace RPG::GameCore { class StageGrassOverrideConfig; }
 namespace System { class String; }
 
-#define CLASS_1_6D58AC8F39F7CE4C__CTOR_OFFSET UNITYSDK_OFFSET(0x16FFDF10)
+#define CLASS_1_6D58AC8F39F7CE4C__CTOR_OFFSET UNITYSDK_OFFSET(0xAF4EA80)
 
-inline static constexpr unsigned int Class_1_6D58AC8F39F7CE4C_TypeDefinitionIndex = 69000;
+inline static constexpr unsigned int Class_1_6D58AC8F39F7CE4C_TypeDefinitionIndex = 70518;
 
 class Class_1_6D58AC8F39F7CE4C : public ::System::Object
 {
 public:
-	::System::String* Field_1_0; // 0x10
-	::Il2CppArray<::RPG::GameCore::BlockNodeConfig*>* Field_1_1; // 0x18
-	::RPG::GameCore::StageGrassOverrideConfig* Field_1_2; // 0x20
+	::RPG::GameCore::StageGrassOverrideConfig* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
+	::Il2CppArray<::RPG::GameCore::BlockNodeConfig*>* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

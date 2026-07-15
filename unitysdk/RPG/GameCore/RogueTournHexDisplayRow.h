@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNHEXDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19406AC0)
-#define RPG_GAMECORE_ROGUETOURNHEXDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19406D40)
+#define RPG_GAMECORE_ROGUETOURNHEXDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B79BC60)
+#define RPG_GAMECORE_ROGUETOURNHEXDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79BEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHexDisplayRow_TypeDefinitionIndex = 14294;
+	inline static constexpr unsigned int RogueTournHexDisplayRow_TypeDefinitionIndex = 14442;
 
 	class RogueTournHexDisplayRow : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 		::System::String* FigureIconPath; // 0x10
 		::System::String* IconPath; // 0x18
 		::System::UInt32 HexDisplayID; // 0x20
-		::RPG::Client::TextID BgDesc; // 0x28
-		::RPG::Client::TextID Name; // 0x38
+		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID BgDesc; // 0x38
 
 		::System::Void _ctor()
 		{

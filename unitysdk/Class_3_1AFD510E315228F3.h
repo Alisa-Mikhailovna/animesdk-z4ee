@@ -10,20 +10,15 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Camera; }
 
-#define CLASS_3_1AFD510E315228F3_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x158576F0)
-#define CLASS_3_1AFD510E315228F3_METHOD_3_235878319DB7536E_OFFSET UNITYSDK_OFFSET(0x15856CB0)
-#define CLASS_3_1AFD510E315228F3_METHOD_3_BB2928BEC244DEB7_OFFSET UNITYSDK_OFFSET(0x158577F0)
-#define CLASS_3_1AFD510E315228F3_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x15857190)
-#define CLASS_3_1AFD510E315228F3_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15857660)
-#define CLASS_3_1AFD510E315228F3_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15857470)
-#define CLASS_3_1AFD510E315228F3_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15856C00)
-#define CLASS_3_1AFD510E315228F3__CTOR_OFFSET UNITYSDK_OFFSET(0x158577A0)
-#define CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x158577C0)
-#define CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x158577E0)
-#define CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x158577D0)
-#define CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x158577B0)
+#define CLASS_3_1AFD510E315228F3_METHOD_3_151E25A63D14DDB0_OFFSET UNITYSDK_OFFSET(0x14C52310)
+#define CLASS_3_1AFD510E315228F3_METHOD_3_CD332CB50EA0A277_OFFSET UNITYSDK_OFFSET(0x14C51930)
+#define CLASS_3_1AFD510E315228F3_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x14C51DB0)
+#define CLASS_3_1AFD510E315228F3_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x14C52280)
+#define CLASS_3_1AFD510E315228F3_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x14C52090)
+#define CLASS_3_1AFD510E315228F3_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x14C51880)
+#define CLASS_3_1AFD510E315228F3__CTOR_OFFSET UNITYSDK_OFFSET(0x14C523C0)
 
-inline static constexpr unsigned int Class_3_1AFD510E315228F3_TypeDefinitionIndex = 45715;
+inline static constexpr unsigned int Class_3_1AFD510E315228F3_TypeDefinitionIndex = 46654;
 
 class Class_3_1AFD510E315228F3 : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 {
@@ -32,15 +27,15 @@ public:
 	// static const ::System::Single Field_3_1; // 0x0
 	::UnityEngine::Camera* Field_3_2; // 0x18
 	::UnityEngine::AnimationClip* Field_3_3; // 0x20
-	::UnityEngine::Animation* Field_3_4; // 0x28
-	::RPGTools::Timeline::CameraData* Field_3_5; // 0x30
-	::System::Double Field_3_6; // 0x38
-	::System::Boolean Field_3_7; // 0x40
-	::System::Single Field_3_8; // 0x44
-	::System::Double Field_3_9; // 0x48
-	::System::Single Field_3_10; // 0x50
-	::System::Single Field_3_11; // 0x54
-	::System::Single Field_3_12; // 0x58
+	::RPGTools::Timeline::CameraData* Field_3_4; // 0x28
+	::UnityEngine::Animation* Field_3_5; // 0x30
+	::System::Single Field_3_6; // 0x38
+	::System::Double Field_3_7; // 0x40
+	::System::Boolean Field_3_8; // 0x48
+	::System::Single Field_3_9; // 0x4C
+	::System::Double Field_3_10; // 0x50
+	::System::Single Field_3_11; // 0x58
+	::System::Single Field_3_12; // 0x5C
 
 	::System::Void _ctor()
 	{
@@ -72,33 +67,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3_METHOD_3_151E25A63D14DDB0_OFFSET))(this);
 	}
 
-	::System::Void Method_3_235878319DB7536E(::UnityEngine::Playables::Playable a1)
+	::System::Void Method_3_CD332CB50EA0A277(::UnityEngine::Playables::Playable a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3_METHOD_3_235878319DB7536E_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_OnPlayableDestroy(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_ONPLAYABLEDESTROY_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_3_BB2928BEC244DEB7()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3_METHOD_3_BB2928BEC244DEB7_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_3_1AFD510E315228F3_METHOD_3_CD332CB50EA0A277_OFFSET))(this, a1);
 	}
 };

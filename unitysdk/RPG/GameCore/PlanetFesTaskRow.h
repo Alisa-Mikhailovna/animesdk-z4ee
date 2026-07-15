@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESTASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D51C70)
-#define RPG_GAMECORE_PLANETFESTASKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D51E70)
+#define RPG_GAMECORE_PLANETFESTASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6C4810)
+#define RPG_GAMECORE_PLANETFESTASKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C4A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesTaskRow_TypeDefinitionIndex = 11657;
+	inline static constexpr unsigned int PlanetFesTaskRow_TypeDefinitionIndex = 11757;
 
 	class PlanetFesTaskRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 RandomGroupID; // 0x10
-		::System::UInt32 TaskID; // 0x14
-		::System::UInt32 QuestID; // 0x18
+		::System::UInt32 QuestID; // 0x14
+		::System::UInt32 TaskID; // 0x18
 		::RPG::Client::TextID TaskTips; // 0x20
 
 		::System::Void _ctor()

@@ -5,16 +5,16 @@
 namespace RPG::GameCore { class AbilityPropertyValue; }
 namespace System { class String; }
 
-#define CLASS_1_5A96F48F21CB3A57__CTOR_OFFSET UNITYSDK_OFFSET(0x18F919B0)
+#define CLASS_1_5A96F48F21CB3A57__CTOR_OFFSET UNITYSDK_OFFSET(0x1B09AD10)
 
-inline static constexpr unsigned int Class_1_5A96F48F21CB3A57_TypeDefinitionIndex = 14694;
+inline static constexpr unsigned int Class_1_5A96F48F21CB3A57_TypeDefinitionIndex = 14854;
 
 class Class_1_5A96F48F21CB3A57 : public ::System::Object
 {
 public:
-	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
+	::System::String* Field_1_0; // 0x10
 	::Il2CppArray<::RPG::GameCore::AbilityPropertyValue*>* Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0x20
+	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
 	::System::UInt32 Field_1_3; // 0x28
 
 	::System::Void _ctor()

@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FiveDimPortalTarget; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_9D202D4F5621F27E_OFFSET UNITYSDK_OFFSET(0x199FD3C0)
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_F9F60BCAA7733B8F_OFFSET UNITYSDK_OFFSET(0x199FD350)
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199FD3A0)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_0C0D5A34FF44B0AD_OFFSET UNITYSDK_OFFSET(0x1B43E600)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_403B772D5D698D70_OFFSET UNITYSDK_OFFSET(0x1B43E5C0)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43E5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPipePortalConfig_TypeDefinitionIndex = 17666;
+	inline static constexpr unsigned int FiveDimPipePortalConfig_TypeDefinitionIndex = 17840;
 
 	class FiveDimPipePortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -53,14 +53,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F9F60BCAA7733B8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPipePortalConfig*& a2)
+		static ::System::Void Method_3_403B772D5D698D70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPipePortalConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPipePortalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_F9F60BCAA7733B8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPipePortalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_403B772D5D698D70_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9D202D4F5621F27E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPipePortalConfig* a2)
+		static ::System::Void Method_3_0C0D5A34FF44B0AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPipePortalConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPipePortalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_9D202D4F5621F27E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPipePortalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_METHOD_3_0C0D5A34FF44B0AD_OFFSET))(a1, a2);
 		}
 	};
 }

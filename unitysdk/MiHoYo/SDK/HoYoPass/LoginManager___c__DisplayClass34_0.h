@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14C4B140)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS34_0__REFRESHCURRENTACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x14C5C920)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS34_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D00160)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS34_0__REFRESHCURRENTACCOUNTINFO_B__0_OFFSET UNITYSDK_OFFSET(0x19D12450)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass34_0_TypeDefinitionIndex = 8244;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass34_0_TypeDefinitionIndex = 8256;
 
 	class LoginManager___c__DisplayClass34_0 : public ::System::Object
 	{

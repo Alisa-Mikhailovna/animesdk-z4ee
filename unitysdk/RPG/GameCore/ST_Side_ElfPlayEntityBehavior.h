@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR_METHOD_4_50060BC866C6F5C7_OFFSET UNITYSDK_OFFSET(0x1A1828E0)
-#define RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR_METHOD_4_AFDCB327197242CD_OFFSET UNITYSDK_OFFSET(0x1A171580)
-#define RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A171530)
+#define RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR_METHOD_4_AFDCB327197242CD_OFFSET UNITYSDK_OFFSET(0x1B7E1040)
+#define RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR_METHOD_4_F02DB1F0B012000E_OFFSET UNITYSDK_OFFSET(0x1B7E1000)
+#define RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E1030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_ElfPlayEntityBehavior_TypeDefinitionIndex = 20346;
+	inline static constexpr unsigned int ST_Side_ElfPlayEntityBehavior_TypeDefinitionIndex = 20740;
 
 	class ST_Side_ElfPlayEntityBehavior : public ::RPG::GameCore::STTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_50060BC866C6F5C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ElfPlayEntityBehavior*& a2)
+		static ::System::Void Method_4_F02DB1F0B012000E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ElfPlayEntityBehavior*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_ElfPlayEntityBehavior*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR_METHOD_4_50060BC866C6F5C7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_ElfPlayEntityBehavior*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ELFPLAYENTITYBEHAVIOR_METHOD_4_F02DB1F0B012000E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_AFDCB327197242CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_ElfPlayEntityBehavior* a2)

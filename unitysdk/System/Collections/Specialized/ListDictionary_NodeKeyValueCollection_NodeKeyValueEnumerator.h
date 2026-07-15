@@ -5,23 +5,23 @@
 namespace System::Collections::Specialized { class ListDictionary; }
 namespace System::Collections::Specialized { class ListDictionary_DictionaryNode; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18E91E60)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18E91EC0)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x18E91F50)
-#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18E91E30)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CC63810)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CC63870)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1CC63900)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_LISTDICTIONARY_NODEKEYVALUECOLLECTION_NODEKEYVALUEENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC637E0)
 
 namespace System::Collections::Specialized
 {
-	inline static constexpr unsigned int ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumerator_TypeDefinitionIndex = 2981;
+	inline static constexpr unsigned int ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumerator_TypeDefinitionIndex = 2985;
 
 	class ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumerator : public ::System::Object
 	{
 	public:
-		::System::Collections::Specialized::ListDictionary_DictionaryNode* current; // 0x10
-		::System::Collections::Specialized::ListDictionary* list; // 0x18
-		::System::Int32 version; // 0x20
-		::System::Boolean start; // 0x24
-		::System::Boolean isKeys; // 0x25
+		::System::Collections::Specialized::ListDictionary* list; // 0x10
+		::System::Collections::Specialized::ListDictionary_DictionaryNode* current; // 0x18
+		::System::Boolean isKeys; // 0x20
+		::System::Boolean start; // 0x21
+		::System::Int32 version; // 0x24
 
 		::System::Void _ctor(::System::Collections::Specialized::ListDictionary* a1, ::System::Boolean a2)
 		{

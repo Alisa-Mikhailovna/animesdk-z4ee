@@ -4,13 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0x15A39AE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_F0D9B6AAFF504D87_OFFSET UNITYSDK_OFFSET(0x15A39CA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x15A39C90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0xCCAEC00)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xCCAEDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaRimLight_TypeDefinitionIndex = 65437;
+	inline static constexpr unsigned int MonoEffectPluginCharaRimLight_TypeDefinitionIndex = 66850;
 
 	class MonoEffectPluginCharaRimLight : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
@@ -27,11 +26,6 @@ namespace RPG::Client
 		::System::Void Method_8_D799715F2EF979EA()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_D799715F2EF979EA_OFFSET))(this);
-		}
-
-		::System::Void Method_8_F0D9B6AAFF504D87()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARARIMLIGHT_METHOD_8_F0D9B6AAFF504D87_OFFSET))(this);
 		}
 	};
 }

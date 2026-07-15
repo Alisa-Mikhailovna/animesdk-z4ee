@@ -9,21 +9,21 @@ namespace RPGTools::Timeline { class CharacterTimeSlowBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199B41C0)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x199B41B0)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x199B4370)
-#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x199B4330)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCB4470)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDCB4460)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCB4620)
+#define RPGTOOLS_TIMELINE_CHARACTERTIMESLOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB45E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterTimeSlowClip_TypeDefinitionIndex = 45326;
+	inline static constexpr unsigned int CharacterTimeSlowClip_TypeDefinitionIndex = 46250;
 
 	class CharacterTimeSlowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::String** StaticGet_CharacterTimeScaleKey()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(CharacterTimeSlowClip_TypeDefinitionIndex)->GetStaticField(0x9390);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(CharacterTimeSlowClip_TypeDefinitionIndex)->GetStaticField(0xD250);
 		}
 		::System::String* CharacterUniqueName; // 0x18
 		::RPGTools::Timeline::CharacterTimeSlowBehaviour* template_; // 0x20

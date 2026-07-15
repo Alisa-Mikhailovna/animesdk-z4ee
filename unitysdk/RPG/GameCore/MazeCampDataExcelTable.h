@@ -12,51 +12,51 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATABYCACHE_OFFSET UNITYSDK_OFFSET(0x199A2180)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x199A1910)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x199A17A0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x199A1490)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x199A1740)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x199A1AA0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x199A1510)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x199A2140)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x199A1AE0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x199A1CB0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x199A1E20)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x199A25A0)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x199A1C10)
-#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x199A1B70)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATABYCACHE_OFFSET UNITYSDK_OFFSET(0x1B5DC800)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B5DBF90)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B5DBE20)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B5DBB10)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B5DBDC0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B5DC120)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5DBB90)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADALL_OFFSET UNITYSDK_OFFSET(0x1B5DC7C0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5DC160)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5DC330)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B5DC4A0)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5DCC20)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B5DC290)
+#define RPG_GAMECORE_MAZECAMPDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5DC1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeCampDataExcelTable_TypeDefinitionIndex = 13380;
+	inline static constexpr unsigned int MazeCampDataExcelTable_TypeDefinitionIndex = 13528;
 
 	class MazeCampDataExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B880);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>** StaticGet__cacheDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B888);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeCampDataRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B890);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x47D60);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B898);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x47D68);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeCampDataRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x47D70);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>** StaticGet__cacheDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::MazeCampDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x47D78);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x9B90);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xBF80);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x9B91);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MazeCampDataExcelTable_TypeDefinitionIndex)->GetStaticField(0xBF81);
 		}
 
 		static ::System::Void _cctor()

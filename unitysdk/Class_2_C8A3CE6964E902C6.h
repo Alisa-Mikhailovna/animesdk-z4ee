@@ -7,22 +7,22 @@ namespace RPG::GameCore { class EntityEraFlipperShowListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CLASS_2_C8A3CE6964E902C6_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168C4630)
-#define CLASS_2_C8A3CE6964E902C6_METHOD_2_4A48A93CA7A0FA4A_OFFSET UNITYSDK_OFFSET(0x168C4780)
-#define CLASS_2_C8A3CE6964E902C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168C43C0)
-#define CLASS_2_C8A3CE6964E902C6_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x168C4500)
-#define CLASS_2_C8A3CE6964E902C6_TICK_OFFSET UNITYSDK_OFFSET(0x168C4A20)
-#define CLASS_2_C8A3CE6964E902C6__CTOR_OFFSET UNITYSDK_OFFSET(0x168C42D0)
+#define CLASS_2_C8A3CE6964E902C6_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD302B0)
+#define CLASS_2_C8A3CE6964E902C6_METHOD_2_70595BBE3E0E4F2A_OFFSET UNITYSDK_OFFSET(0xAD304E0)
+#define CLASS_2_C8A3CE6964E902C6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD2FF60)
+#define CLASS_2_C8A3CE6964E902C6_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xAD30110)
+#define CLASS_2_C8A3CE6964E902C6_TICK_OFFSET UNITYSDK_OFFSET(0xAD307F0)
+#define CLASS_2_C8A3CE6964E902C6__CTOR_OFFSET UNITYSDK_OFFSET(0xAD2FE70)
 
-inline static constexpr unsigned int Class_2_C8A3CE6964E902C6_TypeDefinitionIndex = 49357;
+inline static constexpr unsigned int Class_2_C8A3CE6964E902C6_TypeDefinitionIndex = 50372;
 
 class Class_2_C8A3CE6964E902C6 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_3_07C3C4D2990C49EE* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
 	::Class_3_07C3C4D2990C49EE* Field_2_1; // 0x20
-	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
-	::RPG::GameCore::EntityEraFlipperShowListener* Field_2_3; // 0x30
+	::RPG::GameCore::EntityEraFlipperShowListener* Field_2_2; // 0x28
+	::Class_3_07C3C4D2990C49EE* Field_2_3; // 0x30
 	::System::Boolean Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EntityEraFlipperShowListener* a2)
@@ -45,9 +45,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C8A3CE6964E902C6_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_2_4A48A93CA7A0FA4A(::System::Object* a1)
+	::System::Void Method_2_70595BBE3E0E4F2A(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C8A3CE6964E902C6_METHOD_2_4A48A93CA7A0FA4A_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C8A3CE6964E902C6_METHOD_2_70595BBE3E0E4F2A_OFFSET))(this, a1);
 	}
 
 	::System::Void Tick(::System::Single a1)

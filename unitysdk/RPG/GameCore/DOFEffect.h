@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DOFEFFECT_METHOD_3_772F293D4D6D8848_OFFSET UNITYSDK_OFFSET(0x19B26C70)
-#define RPG_GAMECORE_DOFEFFECT_METHOD_3_92F30A2DBD4FE77C_OFFSET UNITYSDK_OFFSET(0x19B26D90)
-#define RPG_GAMECORE_DOFEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B26D10)
+#define RPG_GAMECORE_DOFEFFECT_METHOD_3_92F30A2DBD4FE77C_OFFSET UNITYSDK_OFFSET(0x1B3928B0)
+#define RPG_GAMECORE_DOFEFFECT_METHOD_3_AFFC35AB54C131CB_OFFSET UNITYSDK_OFFSET(0x1B3927C0)
+#define RPG_GAMECORE_DOFEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B392850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DOFEffect_TypeDefinitionIndex = 19122;
+	inline static constexpr unsigned int DOFEffect_TypeDefinitionIndex = 19478;
 
 	class DOFEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DOFEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_772F293D4D6D8848(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DOFEffect*& a2)
+		static ::System::Void Method_3_AFFC35AB54C131CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DOFEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DOFEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DOFEFFECT_METHOD_3_772F293D4D6D8848_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DOFEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DOFEFFECT_METHOD_3_AFFC35AB54C131CB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_92F30A2DBD4FE77C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DOFEffect* a2)

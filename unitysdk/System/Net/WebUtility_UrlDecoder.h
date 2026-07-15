@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x18969270)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDCHAR_OFFSET UNITYSDK_OFFSET(0x189692D0)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_FLUSHBYTES_OFFSET UNITYSDK_OFFSET(0x18969570)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x18969360)
-#define SYSTEM_NET_WEBUTILITY_URLDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x18969200)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDBYTE_OFFSET UNITYSDK_OFFSET(0x1CD32590)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_ADDCHAR_OFFSET UNITYSDK_OFFSET(0x1CD325F0)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_FLUSHBYTES_OFFSET UNITYSDK_OFFSET(0x1CD32760)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1CD32640)
+#define SYSTEM_NET_WEBUTILITY_URLDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD32520)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebUtility_UrlDecoder_TypeDefinitionIndex = 2763;
+	inline static constexpr unsigned int WebUtility_UrlDecoder_TypeDefinitionIndex = 2767;
 
 	class WebUtility_UrlDecoder : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Char>* _charBuffer; // 0x10
+		::Il2CppArray<::System::Byte>* _byteBuffer; // 0x10
 		::System::Text::Encoding* _encoding; // 0x18
-		::Il2CppArray<::System::Byte>* _byteBuffer; // 0x20
+		::Il2CppArray<::System::Char>* _charBuffer; // 0x20
 		::System::Int32 _numBytes; // 0x28
 		::System::Int32 _numChars; // 0x2C
 		::System::Int32 _bufferSize; // 0x30

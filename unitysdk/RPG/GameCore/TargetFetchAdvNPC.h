@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FetchAdvNPCData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_2A83406C3CC83EBD_OFFSET UNITYSDK_OFFSET(0x1AC51FB0)
-#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_352693F8F057F2C4_OFFSET UNITYSDK_OFFSET(0x1AC3E540)
-#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_6D7E65BB5DF30053_OFFSET UNITYSDK_OFFSET(0x1AC4C5E0)
-#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_F8299BC67BC1B88E_OFFSET UNITYSDK_OFFSET(0x1AC51F40)
-#define RPG_GAMECORE_TARGETFETCHADVNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3E4F0)
+#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_1CDC792D1EAC4254_OFFSET UNITYSDK_OFFSET(0x1B9482F0)
+#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_A8973A21CC47C8BE_OFFSET UNITYSDK_OFFSET(0x1B948340)
+#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_B2D4DC7EF84418B5_OFFSET UNITYSDK_OFFSET(0x1B9481A0)
+#define RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_DED2477199D0E54D_OFFSET UNITYSDK_OFFSET(0x1B948200)
+#define RPG_GAMECORE_TARGETFETCHADVNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9481F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvNPC_TypeDefinitionIndex = 22557;
+	inline static constexpr unsigned int TargetFetchAdvNPC_TypeDefinitionIndex = 23020;
 
 	class TargetFetchAdvNPC : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -26,24 +26,24 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F8299BC67BC1B88E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvNPC*& a2)
+		static ::System::Void Method_4_B2D4DC7EF84418B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvNPC*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_F8299BC67BC1B88E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_B2D4DC7EF84418B5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_352693F8F057F2C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvNPC* a2)
+		static ::System::Void Method_4_DED2477199D0E54D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvNPC* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_352693F8F057F2C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_DED2477199D0E54D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6D7E65BB5DF30053(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvNPC*& a2)
+		static ::System::Void Method_4_1CDC792D1EAC4254(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvNPC*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_6D7E65BB5DF30053_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_1CDC792D1EAC4254_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2A83406C3CC83EBD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvNPC* a2)
+		static ::System::Void Method_4_A8973A21CC47C8BE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvNPC* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_2A83406C3CC83EBD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVNPC_METHOD_4_A8973A21CC47C8BE_OFFSET))(a1, a2);
 		}
 	};
 }

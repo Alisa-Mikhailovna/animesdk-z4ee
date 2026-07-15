@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D70DA0)
-#define RPG_GAMECORE_EMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D72190)
+#define RPG_GAMECORE_EMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3E0540)
+#define RPG_GAMECORE_EMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E1960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiConfigRow_TypeDefinitionIndex = 12591;
+	inline static constexpr unsigned int EmojiConfigRow_TypeDefinitionIndex = 12728;
 
 	class EmojiConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* EmojiPath; // 0x10
-		::RPG::Client::TextID KeyWords; // 0x18
-		::System::UInt32 EmojiGroupID; // 0x28
-		::System::UInt32 GenderLink; // 0x2C
-		::System::Boolean IsTrainMembers; // 0x30
-		::RPG::GameCore::EmojiGenderEnum Gender; // 0x34
-		::System::UInt32 EmojiID; // 0x38
-		::System::UInt32 SameGroupOrder; // 0x3C
+		::System::UInt32 EmojiGroupID; // 0x18
+		::System::UInt32 SameGroupOrder; // 0x1C
+		::RPG::GameCore::EmojiGenderEnum Gender; // 0x20
+		::System::UInt32 EmojiID; // 0x24
+		::RPG::Client::TextID KeyWords; // 0x28
+		::System::UInt32 GenderLink; // 0x38
+		::System::Boolean IsTrainMembers; // 0x3C
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace Spine::Unity { class ISpineComponent; }
 
-#define SPINE_UNITY_ISPINECOMPONENTEXTENSIONS_ISNULLORDESTROYED_OFFSET UNITYSDK_OFFSET(0x14D3A930)
+#define SPINE_UNITY_ISPINECOMPONENTEXTENSIONS_ISNULLORDESTROYED_OFFSET UNITYSDK_OFFSET(0x1C994CB0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int ISpineComponentExtensions_TypeDefinitionIndex = 41453;
+	inline static constexpr unsigned int ISpineComponentExtensions_TypeDefinitionIndex = 42268;
 
 	class ISpineComponentExtensions : public ::System::Object
 	{

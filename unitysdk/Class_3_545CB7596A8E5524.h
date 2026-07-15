@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PipelineCameraStateBaseRunner_1.h"
 
-class Class_3_556E9C29895B365A_3;
+class Class_3_556E9C29895B365A;
 
-#define CLASS_3_545CB7596A8E5524_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1418E6B0)
-#define CLASS_3_545CB7596A8E5524__CTOR_OFFSET UNITYSDK_OFFSET(0x1418E810)
-#define CLASS_3_545CB7596A8E5524___IFIXBASEPROXY_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1418E8C0)
+#define CLASS_3_545CB7596A8E5524_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x14C2B2D0)
+#define CLASS_3_545CB7596A8E5524__CTOR_OFFSET UNITYSDK_OFFSET(0x14C2B410)
 
-inline static constexpr unsigned int Class_3_545CB7596A8E5524_TypeDefinitionIndex = 65197;
+inline static constexpr unsigned int Class_3_545CB7596A8E5524_TypeDefinitionIndex = 66603;
 
-class Class_3_545CB7596A8E5524 : public ::RPG::Client::PipelineCameraStateBaseRunner_1<::Class_3_556E9C29895B365A_3*>
+class Class_3_545CB7596A8E5524 : public ::RPG::Client::PipelineCameraStateBaseRunner_1<::Class_3_556E9C29895B365A*>
 {
 public:
 	::System::Void _ctor()
@@ -21,10 +20,5 @@ public:
 	::System::Void InitInternal()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_545CB7596A8E5524_INITINTERNAL_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_InitInternal()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_545CB7596A8E5524___IFIXBASEPROXY_INITINTERNAL_OFFSET))(this);
 	}
 };

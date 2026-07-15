@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x17746170)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x17746160)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x17746300)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD2E210)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDD2E200)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD2E370)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerStoryAdvEffectClip_TypeDefinitionIndex = 45602;
+	inline static constexpr unsigned int TriggerStoryAdvEffectClip_TypeDefinitionIndex = 46536;
 
 	class TriggerStoryAdvEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{

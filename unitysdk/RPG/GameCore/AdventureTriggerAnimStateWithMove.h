@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdventureAnimationMoveRange; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE_METHOD_3_24ECD6458702E29A_OFFSET UNITYSDK_OFFSET(0x18BB7070)
-#define RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE_METHOD_3_3CE3E19114B0AAF0_OFFSET UNITYSDK_OFFSET(0x18BB6FD0)
-#define RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BB7030)
+#define RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE_METHOD_3_0D598AFEBBDAAD7B_OFFSET UNITYSDK_OFFSET(0x1B180C50)
+#define RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE_METHOD_3_24ECD6458702E29A_OFFSET UNITYSDK_OFFSET(0x1B180CA0)
+#define RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B180C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerAnimStateWithMove_TypeDefinitionIndex = 19050;
+	inline static constexpr unsigned int AdventureTriggerAnimStateWithMove_TypeDefinitionIndex = 19403;
 
 	class AdventureTriggerAnimStateWithMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3CE3E19114B0AAF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAnimStateWithMove*& a2)
+		static ::System::Void Method_3_0D598AFEBBDAAD7B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAnimStateWithMove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAnimStateWithMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE_METHOD_3_3CE3E19114B0AAF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAnimStateWithMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERANIMSTATEWITHMOVE_METHOD_3_0D598AFEBBDAAD7B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_24ECD6458702E29A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAnimStateWithMove* a2)

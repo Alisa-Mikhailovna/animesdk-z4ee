@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GMACCOUNTRELICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C87F10)
-#define RPG_GAMECORE_GMACCOUNTRELICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C88100)
+#define RPG_GAMECORE_GMACCOUNTRELICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A6770)
+#define RPG_GAMECORE_GMACCOUNTRELICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A6960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GMAccountRelicConfigRow_TypeDefinitionIndex = 12708;
+	inline static constexpr unsigned int GMAccountRelicConfigRow_TypeDefinitionIndex = 12845;
 
 	class GMAccountRelicConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ItemRelicLevel; // 0x10
-		::System::UInt32 ID; // 0x14
-		::System::UInt32 ItemRelicID; // 0x18
-		::System::UInt32 GroupID; // 0x1C
+		::System::UInt32 GroupID; // 0x10
+		::System::UInt32 ItemRelicID; // 0x14
+		::System::UInt32 ItemRelicLevel; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::System::UInt32 ItemRelicNum; // 0x20
 
 		::System::Void _ctor()

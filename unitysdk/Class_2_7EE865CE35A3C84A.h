@@ -7,13 +7,12 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_7EE865CE35A3C84A_METHOD_2_04A81FA1DB9D4E37_OFFSET UNITYSDK_OFFSET(0x16BF5820)
-#define CLASS_2_7EE865CE35A3C84A_METHOD_2_DDC022DA675A07CD_OFFSET UNITYSDK_OFFSET(0x16BF53C0)
-#define CLASS_2_7EE865CE35A3C84A__CTOR_OFFSET UNITYSDK_OFFSET(0x16BF5950)
-#define CLASS_2_7EE865CE35A3C84A__ONBIND_OFFSET UNITYSDK_OFFSET(0x16BF51A0)
-#define CLASS_2_7EE865CE35A3C84A___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x16BF5980)
+#define CLASS_2_7EE865CE35A3C84A_METHOD_2_04A81FA1DB9D4E37_OFFSET UNITYSDK_OFFSET(0xB976740)
+#define CLASS_2_7EE865CE35A3C84A_METHOD_2_E30B6EB6F42B19F8_OFFSET UNITYSDK_OFFSET(0xB976190)
+#define CLASS_2_7EE865CE35A3C84A__CTOR_OFFSET UNITYSDK_OFFSET(0xB976870)
+#define CLASS_2_7EE865CE35A3C84A__ONBIND_OFFSET UNITYSDK_OFFSET(0xB975F70)
 
-inline static constexpr unsigned int Class_2_7EE865CE35A3C84A_TypeDefinitionIndex = 67208;
+inline static constexpr unsigned int Class_2_7EE865CE35A3C84A_TypeDefinitionIndex = 68660;
 
 class Class_2_7EE865CE35A3C84A : public ::Class_1_CA217ABF4E3B4F3F
 {
@@ -27,8 +26,8 @@ public:
 	// static const ::System::String* Field_2_6; // 0x0
 	// static const ::System::String* Field_2_7; // 0x0
 	::UnityEngine::Transform* Field_2_8; // 0x60
-	::UnityEngine::Transform* Field_2_9; // 0x68
-	::UnityEngine::Animation* Field_2_10; // 0x70
+	::UnityEngine::Animation* Field_2_9; // 0x68
+	::UnityEngine::Transform* Field_2_10; // 0x70
 	::UnityEngine::Transform* Field_2_11; // 0x78
 	::UnityEngine::Transform* Field_2_12; // 0x80
 	::RPG::Client::FeixiaoSPPointState Field_2_13; // 0x88
@@ -43,18 +42,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7EE865CE35A3C84A__ONBIND_OFFSET))(this);
 	}
 
-	::System::Void Method_2_DDC022DA675A07CD(::RPG::Client::FeixiaoSPPointState a1)
+	::System::Void Method_2_E30B6EB6F42B19F8(::RPG::Client::FeixiaoSPPointState a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::FeixiaoSPPointState))((::PBYTE)hIl2Cpp + CLASS_2_7EE865CE35A3C84A_METHOD_2_DDC022DA675A07CD_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::FeixiaoSPPointState))((::PBYTE)hIl2Cpp + CLASS_2_7EE865CE35A3C84A_METHOD_2_E30B6EB6F42B19F8_OFFSET))(this, a1);
 	}
 
 	::System::String* Method_2_04A81FA1DB9D4E37(::RPG::Client::FeixiaoSPPointState a1, ::RPG::Client::FeixiaoSPPointState a2)
 	{
 		return ((::System::String*(*)(::PVOID, ::RPG::Client::FeixiaoSPPointState, ::RPG::Client::FeixiaoSPPointState))((::PBYTE)hIl2Cpp + CLASS_2_7EE865CE35A3C84A_METHOD_2_04A81FA1DB9D4E37_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_7EE865CE35A3C84A___IFIXBASEPROXY__ONBIND_OFFSET))(this);
 	}
 };

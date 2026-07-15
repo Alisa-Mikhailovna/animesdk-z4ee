@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B530330)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CBF00)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility___c__DisplayClass4_0_TypeDefinitionIndex = 5335;
+	inline static constexpr unsigned int TerrainUtility___c__DisplayClass4_0_TypeDefinitionIndex = 5340;
 
 	class TerrainUtility___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -8,25 +8,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A5126F0)
-#define RPG_GAMECORE_CHIMERADUELITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A512A80)
+#define RPG_GAMECORE_CHIMERADUELITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B34B510)
+#define RPG_GAMECORE_CHIMERADUELITEMROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34B8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelItemRow_TypeDefinitionIndex = 10687;
+	inline static constexpr unsigned int ChimeraDuelItemRow_TypeDefinitionIndex = 10737;
 
 	class ChimeraDuelItemRow : public ::System::Object
 	{
 	public:
-		::System::String* ChimeraItemIconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x10
+		::System::String* ChimeraItemIconPath; // 0x18
 		::System::String* ShopItemIconPath; // 0x20
-		::RPG::Client::TextID ItemName; // 0x28
-		::RPG::GameCore::ChimeraDuelItemVendor Vendor; // 0x38
-		::System::UInt32 EffectID; // 0x3C
-		::RPG::GameCore::ChimeraDuelItemType Type; // 0x40
-		::System::UInt32 Price; // 0x44
-		::System::UInt32 ItemID; // 0x48
+		::System::UInt32 ItemID; // 0x28
+		::RPG::GameCore::ChimeraDuelItemType Type; // 0x2C
+		::System::UInt32 Price; // 0x30
+		::System::UInt32 EffectID; // 0x34
+		::RPG::Client::TextID ItemName; // 0x38
+		::RPG::GameCore::ChimeraDuelItemVendor Vendor; // 0x48
 		::System::UInt32 Rarity; // 0x4C
 
 		::System::Void _ctor()

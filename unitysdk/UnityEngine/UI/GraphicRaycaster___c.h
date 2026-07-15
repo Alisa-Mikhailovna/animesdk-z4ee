@@ -5,29 +5,29 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183E4800)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183E4830)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCASTOPTIMIZED_B__36_0_OFFSET UNITYSDK_OFFSET(0x183E4990)
-#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCAST_B__28_0_OFFSET UNITYSDK_OFFSET(0x183E4840)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D12B370)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D12B3A0)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCASTOPTIMIZED_B__36_0_OFFSET UNITYSDK_OFFSET(0x1D12B500)
+#define UNITYENGINE_UI_GRAPHICRAYCASTER___C__RAYCAST_B__28_0_OFFSET UNITYSDK_OFFSET(0x1D12B3B0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRaycaster___c_TypeDefinitionIndex = 5877;
+	inline static constexpr unsigned int GraphicRaycaster___c_TypeDefinitionIndex = 5882;
 
 	class GraphicRaycaster___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::UnityEngine::UI::Graphic*>** StaticGet___9__28_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x3F9C0);
+			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x47EA0);
 		}
 		static ::UnityEngine::UI::GraphicRaycaster___c** StaticGet___9()
 		{
-			return (::UnityEngine::UI::GraphicRaycaster___c**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x3F9C8);
+			return (::UnityEngine::UI::GraphicRaycaster___c**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x47EA8);
 		}
 		static ::System::Comparison_1<::UnityEngine::UI::Graphic*>** StaticGet___9__36_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x3F9D0);
+			return (::System::Comparison_1<::UnityEngine::UI::Graphic*>**)Il2CppClass::FromTypeDefinitionIndex(GraphicRaycaster___c_TypeDefinitionIndex)->GetStaticField(0x47EB0);
 		}
 
 		static ::System::Void _cctor()

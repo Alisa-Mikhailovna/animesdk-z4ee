@@ -7,13 +7,13 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x178A8B30)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x178A8B20)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x178A8AA0)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x197EADA0)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x197EAD90)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x197EACB0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 5539;
+	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 5544;
 
 	class FieldAccessorBase : public ::System::Object
 	{

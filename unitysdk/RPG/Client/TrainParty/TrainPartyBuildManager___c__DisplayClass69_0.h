@@ -5,12 +5,12 @@
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 namespace RPG::Client::TrainParty { class TrainPartyBuildSlotInfo; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1812F070)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS69_0__GETBUILDDIYITEMSBYSLOT_B__0_OFFSET UNITYSDK_OFFSET(0x18130080)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD708330)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__DISPLAYCLASS69_0__GETBUILDDIYITEMSBYSLOT_B__0_OFFSET UNITYSDK_OFFSET(0xD709330)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass69_0_TypeDefinitionIndex = 69385;
+	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass69_0_TypeDefinitionIndex = 70906;
 
 	class TrainPartyBuildManager___c__DisplayClass69_0 : public ::System::Object
 	{

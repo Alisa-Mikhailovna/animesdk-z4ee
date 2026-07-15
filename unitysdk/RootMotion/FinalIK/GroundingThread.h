@@ -10,54 +10,54 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17A74B80)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_FLATTEN_OFFSET UNITYSDK_OFFSET(0x17A77210)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GETROOTHIT_OFFSET UNITYSDK_OFFSET(0x17A74BF0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GETVERTICALOFFSET_OFFSET UNITYSDK_OFFSET(0x17A774A0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GET_ROOTGROUNDED_OFFSET UNITYSDK_OFFSET(0x17A74B60)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GET_UP_OFFSET UNITYSDK_OFFSET(0x17A74FC0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GET_USEROOTROTATION_OFFSET UNITYSDK_OFFSET(0x17A76E90)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x17A6BFF0)
-#define ROOTMOTION_FINALIK_GROUNDINGTHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x17A66EE0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xABC6490)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_FLATTEN_OFFSET UNITYSDK_OFFSET(0xABC8B40)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GETROOTHIT_OFFSET UNITYSDK_OFFSET(0xABC6500)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GETVERTICALOFFSET_OFFSET UNITYSDK_OFFSET(0xABC8DD0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GET_ROOTGROUNDED_OFFSET UNITYSDK_OFFSET(0xABC6470)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GET_UP_OFFSET UNITYSDK_OFFSET(0xABC68D0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_GET_USEROOTROTATION_OFFSET UNITYSDK_OFFSET(0xABC87C0)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD_UPDATE_OFFSET UNITYSDK_OFFSET(0xABBD560)
+#define ROOTMOTION_FINALIK_GROUNDINGTHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0xABB8520)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_TypeDefinitionIndex = 41817;
+	inline static constexpr unsigned int GroundingThread_TypeDefinitionIndex = 42678;
 
 	class GroundingThread : public ::System::Object
 	{
 	public:
-		::RootMotion::IKJob::IKTransformRef root; // 0x10
-		::RootMotion::FinalIK::GroundingThread_Pelvis pelvis; // 0x20
+		::RootMotion::FinalIK::GroundingThread_Pelvis pelvis; // 0x10
+		::RootMotion::IKJob::IKTransformRef root; // 0x40
 		::Il2CppArray<::RootMotion::FinalIK::GroundingThread_Leg>* legs; // 0x50
-		::UnityEngine::Vector3 deltaRootPosition; // 0x58
-		::System::Single footSpeed; // 0x64
-		::System::Single heightOffset; // 0x68
-		::System::Single pelvisDamper; // 0x6C
-		::System::Single IKPositionWeight; // 0x70
-		::System::Single maxStep; // 0x74
-		::System::Single pelvisSpeed; // 0x78
-		::UnityEngine::Quaternion lastRootRotation; // 0x7C
-		::RootMotion::FinalIK::GroundRaycastHit rootHit; // 0x8C
-		::System::Single footRadius; // 0xB0
-		::System::Single IKRotationWeight; // 0xB4
-		::System::Boolean stayOriginIfNoGround; // 0xB8
-		::System::Boolean isGrounded; // 0xB9
-		::RootMotion::NativeCurve maxFootUpperRotateRatioCurve; // 0xC0
-		::System::Single prediction; // 0xD8
-		::System::Single rootSphereCastRadius; // 0xDC
-		::UnityEngine::Quaternion deltaRootRotation; // 0xE0
-		::System::Single footRotationSpeed; // 0xF0
-		::System::Single maxFootRotationAngle; // 0xF4
-		::UnityEngine::LayerMask layers; // 0xF8
-		::UnityEngine::Vector3 lastRootPosition; // 0xFC
-		::System::Single maxFootRotationRollAngle; // 0x108
-		::System::Single liftPelvisWeight; // 0x10C
-		::System::Boolean IsRootMove; // 0x110
-		::System::Boolean rotateSolver; // 0x111
-		::System::Boolean useToeBone; // 0x112
-		::System::Boolean bUseStepUp; // 0x113
-		::System::Single lowerPelvisWeight; // 0x114
+		::System::Single footRotationSpeed; // 0x58
+		::System::Boolean stayOriginIfNoGround; // 0x5C
+		::System::Boolean IsRootMove; // 0x5D
+		::System::Boolean useToeBone; // 0x5E
+		::System::Boolean bUseStepUp; // 0x5F
+		::System::Single maxFootRotationAngle; // 0x60
+		::RootMotion::FinalIK::GroundRaycastHit rootHit; // 0x64
+		::UnityEngine::Vector3 deltaRootPosition; // 0x88
+		::UnityEngine::Quaternion deltaRootRotation; // 0x94
+		::System::Single rootSphereCastRadius; // 0xA4
+		::System::Single prediction; // 0xA8
+		::System::Single footSpeed; // 0xAC
+		::UnityEngine::Vector3 lastRootPosition; // 0xB0
+		::System::Single footRadius; // 0xBC
+		::System::Single IKRotationWeight; // 0xC0
+		::System::Single pelvisSpeed; // 0xC4
+		::System::Single IKPositionWeight; // 0xC8
+		::System::Single maxStep; // 0xCC
+		::System::Single pelvisDamper; // 0xD0
+		::System::Boolean rotateSolver; // 0xD4
+		::System::Boolean isGrounded; // 0xD5
+		::System::Single heightOffset; // 0xD8
+		::UnityEngine::LayerMask layers; // 0xDC
+		::RootMotion::NativeCurve maxFootUpperRotateRatioCurve; // 0xE0
+		::System::Single liftPelvisWeight; // 0xF8
+		::System::Single lowerPelvisWeight; // 0xFC
+		::System::Single maxFootRotationRollAngle; // 0x100
+		::UnityEngine::Quaternion lastRootRotation; // 0x104
 
 		::System::Void _ctor()
 		{

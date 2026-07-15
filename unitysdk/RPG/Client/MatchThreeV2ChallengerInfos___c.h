@@ -6,29 +6,29 @@
 namespace RPG::Client { class MatchThreeV2ChallengerData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x188D0300)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x188D0330)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C___INIT_B__4_0_OFFSET UNITYSDK_OFFSET(0x188D0340)
-#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C___INIT_B__4_1_OFFSET UNITYSDK_OFFSET(0x188D03C0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB6D590)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB6D5C0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C___INIT_B__4_0_OFFSET UNITYSDK_OFFSET(0xCB6D5D0)
+#define RPG_CLIENT_MATCHTHREEV2CHALLENGERINFOS___C___INIT_B__4_1_OFFSET UNITYSDK_OFFSET(0xCB6D5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex = 61699;
+	inline static constexpr unsigned int MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex = 63061;
 
 	class MatchThreeV2ChallengerInfos___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>, ::System::UInt32>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex)->GetStaticField(0x51B90);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>, ::System::UInt32>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex)->GetStaticField(0x51B98);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex)->GetStaticField(0x4BE10);
 		}
 		static ::RPG::Client::MatchThreeV2ChallengerInfos___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreeV2ChallengerInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex)->GetStaticField(0x51BA0);
+			return (::RPG::Client::MatchThreeV2ChallengerInfos___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex)->GetStaticField(0x4BE18);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>, ::System::UInt32>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::MatchThreeV2ChallengerData*>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeV2ChallengerInfos___c_TypeDefinitionIndex)->GetStaticField(0x4BE20);
 		}
 
 		static ::System::Void _cctor()

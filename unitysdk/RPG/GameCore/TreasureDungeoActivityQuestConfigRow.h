@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TREASUREDUNGEOACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A33B20)
-#define RPG_GAMECORE_TREASUREDUNGEOACTIVITYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A34200)
+#define RPG_GAMECORE_TREASUREDUNGEOACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B98C940)
+#define RPG_GAMECORE_TREASUREDUNGEOACTIVITYQUESTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B98D020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeoActivityQuestConfigRow_TypeDefinitionIndex = 11933;
+	inline static constexpr unsigned int TreasureDungeoActivityQuestConfigRow_TypeDefinitionIndex = 12065;
 
 	class TreasureDungeoActivityQuestConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
 		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 DungeonGroupID; // 0x2C
+		::System::UInt32 DungeonGroupID; // 0x28
+		::System::UInt32 ID; // 0x2C
 
 		::System::Void _ctor()
 		{

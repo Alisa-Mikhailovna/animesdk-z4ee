@@ -5,29 +5,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1868AE30)
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1868AE70)
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_0_OFFSET UNITYSDK_OFFSET(0x1868AE80)
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_1_OFFSET UNITYSDK_OFFSET(0x1868AE90)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D61660)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D616A0)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_0_OFFSET UNITYSDK_OFFSET(0x19D616B0)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_1_OFFSET UNITYSDK_OFFSET(0x19D616C0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int ABTestGooglePlay___c_TypeDefinitionIndex = 8483;
+	inline static constexpr unsigned int ABTestGooglePlay___c_TypeDefinitionIndex = 8495;
 
 	class ABTestGooglePlay___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__6_1()
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x163F0);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x23FD0);
 		}
 		static ::MiHoYo::SDK::PC::OS::ABTestGooglePlay___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PC::OS::ABTestGooglePlay___c**)Il2CppClass::FromTypeDefinitionIndex(ABTestGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x163F8);
+			return (::MiHoYo::SDK::PC::OS::ABTestGooglePlay___c**)Il2CppClass::FromTypeDefinitionIndex(ABTestGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x23FD8);
 		}
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__6_0()
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x16400);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestGooglePlay___c_TypeDefinitionIndex)->GetStaticField(0x23FE0);
 		}
 
 		static ::System::Void _cctor()

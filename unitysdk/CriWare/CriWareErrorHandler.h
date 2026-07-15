@@ -6,48 +6,56 @@ namespace CriWare { class CriWareErrorHandler_Callback; }
 namespace System { class String; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 
-#define CRIWARE_CRIWAREERRORHANDLER_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B36E7B0)
-#define CRIWARE_CRIWAREERRORHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B36E970)
-#define CRIWARE_CRIWAREERRORHANDLER_CRIINTERNALLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1B36EF40)
-#define CRIWARE_CRIWAREERRORHANDLER_CRIINTERNALUPDATE_OFFSET UNITYSDK_OFFSET(0x1B36ED10)
-#define CRIWARE_CRIWAREERRORHANDLER_DEQUEUEERRORMESSAGES_OFFSET UNITYSDK_OFFSET(0x1B36ED20)
-#define CRIWARE_CRIWAREERRORHANDLER_GET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B36E740)
-#define CRIWARE_CRIWAREERRORHANDLER_HANDLEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B36F080)
-#define CRIWARE_CRIWAREERRORHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B36EF50)
-#define CRIWARE_CRIWAREERRORHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B36EC00)
-#define CRIWARE_CRIWAREERRORHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B36EAE0)
-#define CRIWARE_CRIWAREERRORHANDLER_OUTPUTDEFAULTLOG_OFFSET UNITYSDK_OFFSET(0x1B36F1D0)
-#define CRIWARE_CRIWAREERRORHANDLER_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B36E890)
-#define CRIWARE_CRIWAREERRORHANDLER_SET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B36E770)
-#define CRIWARE_CRIWAREERRORHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B36F4A0)
-#define CRIWARE_CRIWAREERRORHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36F450)
+#define CRIWARE_CRIWAREERRORHANDLER_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x15782AD0)
+#define CRIWARE_CRIWAREERRORHANDLER_ADD__ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x15782910)
+#define CRIWARE_CRIWAREERRORHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x157830F0)
+#define CRIWARE_CRIWAREERRORHANDLER_CRIINTERNALLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x157836E0)
+#define CRIWARE_CRIWAREERRORHANDLER_CRIINTERNALUPDATE_OFFSET UNITYSDK_OFFSET(0x157834B0)
+#define CRIWARE_CRIWAREERRORHANDLER_DEQUEUEERRORMESSAGES_OFFSET UNITYSDK_OFFSET(0x157834C0)
+#define CRIWARE_CRIWAREERRORHANDLER_GET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x157828A0)
+#define CRIWARE_CRIWAREERRORHANDLER_HANDLEMESSAGE_OFFSET UNITYSDK_OFFSET(0x15783950)
+#define CRIWARE_CRIWAREERRORHANDLER_ISENABLENATIVEPRINTMESSAGEFUNC_OFFSET UNITYSDK_OFFSET(0x15782C50)
+#define CRIWARE_CRIWAREERRORHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x157836F0)
+#define CRIWARE_CRIWAREERRORHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x157833A0)
+#define CRIWARE_CRIWAREERRORHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x15783260)
+#define CRIWARE_CRIWAREERRORHANDLER_OUTPUTDEFAULTLOG_OFFSET UNITYSDK_OFFSET(0x15783AA0)
+#define CRIWARE_CRIWAREERRORHANDLER_REGISTERERRORCALLBACK_OFFSET UNITYSDK_OFFSET(0x15782CF0)
+#define CRIWARE_CRIWAREERRORHANDLER_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x157830B0)
+#define CRIWARE_CRIWAREERRORHANDLER_REMOVE__ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x157829F0)
+#define CRIWARE_CRIWAREERRORHANDLER_SET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x157828D0)
+#define CRIWARE_CRIWAREERRORHANDLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15783DE0)
+#define CRIWARE_CRIWAREERRORHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15783D90)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWareErrorHandler_TypeDefinitionIndex = 37183;
+	inline static constexpr unsigned int CriWareErrorHandler_TypeDefinitionIndex = 37987;
 
 	class CriWareErrorHandler : public ::CriWare::CriMonoBehaviour
 	{
 	public:
+		static ::System::String** StaticGet__errorMessage_k__BackingField()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x6EA0);
+		}
 		static ::System::String** StaticGet_logPrefix()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x8070);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x6EA8);
+		}
+		static ::CriWare::CriWareErrorHandler_Callback** StaticGet__onCallback()
+		{
+			return (::CriWare::CriWareErrorHandler_Callback**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x6EB0);
 		}
 		static ::CriWare::CriWareErrorHandler_Callback** StaticGet_callback()
 		{
-			return (::CriWare::CriWareErrorHandler_Callback**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x8078);
-		}
-		static ::System::String** StaticGet__errorMessage_k__BackingField()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x8080);
-		}
-		static ::CriWare::CriWareErrorHandler_Callback** StaticGet_OnCallback()
-		{
-			return (::CriWare::CriWareErrorHandler_Callback**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x8088);
+			return (::CriWare::CriWareErrorHandler_Callback**)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x6EB8);
 		}
 		static ::System::Int32* StaticGet_initializationCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x3810);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x3A00);
+		}
+		static ::System::Boolean* StaticGet__enableDebugPrintOnTerminal()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriWareErrorHandler_TypeDefinitionIndex)->GetStaticField(0x3A04);
 		}
 		::System::Boolean enableDebugPrintOnTerminal; // 0x28
 		::System::Boolean enableForceCrashOnError; // 0x29
@@ -73,6 +81,16 @@ namespace CriWare
 		static ::System::Void set_errorMessage(::System::String* a1)
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_SET_ERRORMESSAGE_OFFSET))(a1);
+		}
+
+		static ::System::Void add__onCallback(::CriWare::CriWareErrorHandler_Callback* a1)
+		{
+			return ((::System::Void(*)(::CriWare::CriWareErrorHandler_Callback*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_ADD__ONCALLBACK_OFFSET))(a1);
+		}
+
+		static ::System::Void remove__onCallback(::CriWare::CriWareErrorHandler_Callback* a1)
+		{
+			return ((::System::Void(*)(::CriWare::CriWareErrorHandler_Callback*))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_REMOVE__ONCALLBACK_OFFSET))(a1);
 		}
 
 		static ::System::Void add_OnCallback(::CriWare::CriWareErrorHandler_Callback* a1)
@@ -113,6 +131,16 @@ namespace CriWare
 		::System::Void OnDestroy()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_ONDESTROY_OFFSET))(this);
+		}
+
+		static ::System::Boolean IsEnableNativePrintMessageFunc()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_ISENABLENATIVEPRINTMESSAGEFUNC_OFFSET))();
+		}
+
+		static ::System::Void RegisterErrorCallback()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIWAREERRORHANDLER_REGISTERERRORCALLBACK_OFFSET))();
 		}
 
 		::System::Void DequeueErrorMessages()

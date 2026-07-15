@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRemainTimerText_UnitTextPaletteModeEnum_TypeDefinitionIndex = 67835;
+	inline static constexpr unsigned int MonoRemainTimerText_UnitTextPaletteModeEnum_TypeDefinitionIndex = 69319;
 
 	enum class MonoRemainTimerText_UnitTextPaletteModeEnum : ::System::Int32
 	{

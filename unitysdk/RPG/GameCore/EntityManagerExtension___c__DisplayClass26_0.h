@@ -9,23 +9,23 @@ namespace RPG::GameCore { class StoryCharacterRow; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CLIENTCREATESTORYNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xEA434D0)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CLIENTCREATESTORYNPCENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xEA43710)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CLIENTCREATESTORYNPCENTITY_B__2_OFFSET UNITYSDK_OFFSET(0xEA43760)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEA28C60)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CLIENTCREATESTORYNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xDA4CF80)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CLIENTCREATESTORYNPCENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xDA4D1C0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CLIENTCREATESTORYNPCENTITY_B__2_OFFSET UNITYSDK_OFFSET(0xDA4D210)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDA305F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass26_0_TypeDefinitionIndex = 53986;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass26_0_TypeDefinitionIndex = 55205;
 
 	class EntityManagerExtension___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::StoryCharacterRow* storyCharacterRow; // 0x10
-		::RPG::GameCore::EntityManager* pManager; // 0x18
-		::Il2CppArray<::System::String*>* overrideReplaceMaterialKeyList; // 0x20
+		::Il2CppArray<::System::String*>* overrideReplaceMaterialKeyList; // 0x10
+		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x18
+		::RPG::GameCore::EntityManager* pManager; // 0x20
 		::System::String* appearancePreset; // 0x28
-		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x30
+		::RPG::GameCore::StoryCharacterRow* storyCharacterRow; // 0x30
 		::RPG::GameCore::NPCSubType subType; // 0x38
 
 		::System::Void _ctor()

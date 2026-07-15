@@ -10,23 +10,23 @@ namespace System::Net::Http::Headers { class HttpHeaders; }
 namespace System::Net::Http::Headers { template <typename T> class TryParseDelegate_1; }
 namespace System::Net::Http::Headers { template <typename T> class TryParseListDelegate_1; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1B01FEF0)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1B01FF10)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x1B01FF30)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_SET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1B01FF20)
-#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B01FEE0)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_CREATECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1CADC7B0)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1CADC850)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_GET_SEPARATOR_OFFSET UNITYSDK_OFFSET(0x1CADC870)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO_SET_CUSTOMTOSTRING_OFFSET UNITYSDK_OFFSET(0x1CADC860)
+#define SYSTEM_NET_HTTP_HEADERS_HEADERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CADC7A0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 3775;
+	inline static constexpr unsigned int HeaderInfo_TypeDefinitionIndex = 3779;
 
 	class HeaderInfo : public ::System::Object
 	{
 	public:
 		::System::String* Name; // 0x10
 		::System::Func_2<::System::Object*, ::System::String*>* _CustomToString_k__BackingField; // 0x18
-		::System::Boolean AllowsMany; // 0x20
-		::System::Net::Http::Headers::HttpHeaderKind HeaderKind; // 0x24
+		::System::Net::Http::Headers::HttpHeaderKind HeaderKind; // 0x20
+		::System::Boolean AllowsMany; // 0x24
 
 		::System::Void _ctor(::System::String* a1, ::System::Net::Http::Headers::HttpHeaderKind a2)
 		{

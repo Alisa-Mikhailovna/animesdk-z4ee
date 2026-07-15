@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightProjection; }
 
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19970330)
-#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS12_0__GETPROJBYUID_B__0_OFFSET UNITYSDK_OFFSET(0x19972B90)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7EB430)
+#define RPG_CLIENT_GRIDFIGHTSETTLERECORD___C__DISPLAYCLASS12_0__GETPROJBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xC7EE6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass12_0_TypeDefinitionIndex = 60971;
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass12_0_TypeDefinitionIndex = 62286;
 
 	class GridFightSettleRecord___c__DisplayClass12_0 : public ::System::Object
 	{

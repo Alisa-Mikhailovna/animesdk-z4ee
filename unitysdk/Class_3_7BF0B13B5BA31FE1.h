@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtTargetFetchTargetInArea; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_7BF0B13B5BA31FE1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13C36B60)
-#define CLASS_3_7BF0B13B5BA31FE1__CTOR_OFFSET UNITYSDK_OFFSET(0x13C36AF0)
+#define CLASS_3_7BF0B13B5BA31FE1_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155E2620)
+#define CLASS_3_7BF0B13B5BA31FE1__CTOR_OFFSET UNITYSDK_OFFSET(0x155E25B0)
 
-inline static constexpr unsigned int Class_3_7BF0B13B5BA31FE1_TypeDefinitionIndex = 50243;
+inline static constexpr unsigned int Class_3_7BF0B13B5BA31FE1_TypeDefinitionIndex = 51325;
 
 class Class_3_7BF0B13B5BA31FE1 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::RtTargetFetchTargetInArea*>
 {

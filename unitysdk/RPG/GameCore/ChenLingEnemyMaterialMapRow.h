@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGENEMYMATERIALMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A4FAED0)
-#define RPG_GAMECORE_CHENLINGENEMYMATERIALMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4FB040)
+#define RPG_GAMECORE_CHENLINGENEMYMATERIALMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B334950)
+#define RPG_GAMECORE_CHENLINGENEMYMATERIALMAPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B334AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingEnemyMaterialMapRow_TypeDefinitionIndex = 10636;
+	inline static constexpr unsigned int ChenLingEnemyMaterialMapRow_TypeDefinitionIndex = 10686;
 
 	class ChenLingEnemyMaterialMapRow : public ::System::Object
 	{

@@ -10,17 +10,15 @@ namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B5C910)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B5C930)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x19B5CC10)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B5C920)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5CF10)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B5CF20)
-#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x19B5CF30)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD183A0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD183C0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDD186A0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD183B0)
+#define RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD189A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShiftCameraLookAtBehaviour_TypeDefinitionIndex = 45140;
+	inline static constexpr unsigned int ShiftCameraLookAtBehaviour_TypeDefinitionIndex = 46058;
 
 	class ShiftCameraLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -54,16 +52,6 @@ namespace RPGTools::Timeline
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHIFTCAMERALOOKATBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

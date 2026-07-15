@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_81F809EAA518CA97.h"
+#include "unitysdk/Class_1_8303B8E58A593199.h"
 #include "unitysdk/RPG/Client/ActivityHipplen/StatusViewData.h"
 
 class Class_1_DED4BA2FC834659B;
@@ -10,23 +10,22 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenIncidentOption; }
 namespace RPG::GameCore { class HipplenIncidentOptionStepConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_91BED8961086E0E6_METHOD_2_51DEC44B986280C0_OFFSET UNITYSDK_OFFSET(0x15BEA850)
-#define CLASS_2_91BED8961086E0E6_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x15BEACC0)
-#define CLASS_2_91BED8961086E0E6_METHOD_2_5C14A48496CB9BA3_OFFSET UNITYSDK_OFFSET(0x15BEA560)
-#define CLASS_2_91BED8961086E0E6_METHOD_2_70437D85C11C5222_OFFSET UNITYSDK_OFFSET(0x15BEABE0)
-#define CLASS_2_91BED8961086E0E6_METHOD_2_8080E22F79F246F0_OFFSET UNITYSDK_OFFSET(0x15BEA800)
-#define CLASS_2_91BED8961086E0E6_METHOD_2_8E0634CDC64D0684_OFFSET UNITYSDK_OFFSET(0x15BEA9C0)
-#define CLASS_2_91BED8961086E0E6_METHOD_2_9F4F5ECCFC904724_OFFSET UNITYSDK_OFFSET(0x15BEA930)
-#define CLASS_2_91BED8961086E0E6__CTOR_OFFSET UNITYSDK_OFFSET(0x15BEA600)
+#define CLASS_2_91BED8961086E0E6_METHOD_2_51DEC44B986280C0_OFFSET UNITYSDK_OFFSET(0x14C0BE80)
+#define CLASS_2_91BED8961086E0E6_METHOD_2_5C14A48496CB9BA3_OFFSET UNITYSDK_OFFSET(0x14C0BB90)
+#define CLASS_2_91BED8961086E0E6_METHOD_2_70437D85C11C5222_OFFSET UNITYSDK_OFFSET(0x14C0C260)
+#define CLASS_2_91BED8961086E0E6_METHOD_2_8080E22F79F246F0_OFFSET UNITYSDK_OFFSET(0x14C0BE30)
+#define CLASS_2_91BED8961086E0E6_METHOD_2_9F4F5ECCFC904724_OFFSET UNITYSDK_OFFSET(0x14C0BF60)
+#define CLASS_2_91BED8961086E0E6_METHOD_2_AFF657DAE7825F7B_OFFSET UNITYSDK_OFFSET(0x14C0BFF0)
+#define CLASS_2_91BED8961086E0E6__CTOR_OFFSET UNITYSDK_OFFSET(0x14C0BC30)
 
-inline static constexpr unsigned int Class_2_91BED8961086E0E6_TypeDefinitionIndex = 70422;
+inline static constexpr unsigned int Class_2_91BED8961086E0E6_TypeDefinitionIndex = 71945;
 
-class Class_2_91BED8961086E0E6 : public ::Class_1_81F809EAA518CA97
+class Class_2_91BED8961086E0E6 : public ::Class_1_8303B8E58A593199
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* Field_2_0; // 0x30
+	::RPG::GameCore::HipplenIncidentOptionStepConfig* Field_2_0; // 0x30
 	::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*>* Field_2_1; // 0x38
-	::RPG::GameCore::HipplenIncidentOptionStepConfig* Field_2_2; // 0x40
+	::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* Field_2_2; // 0x40
 	::System::Int32 Field_2_3; // 0x48
 	::System::Boolean Field_2_4; // 0x4C
 
@@ -50,9 +49,9 @@ public:
 		return ((::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_91BED8961086E0E6_METHOD_2_9F4F5ECCFC904724_OFFSET))(this);
 	}
 
-	::System::Void Method_2_8E0634CDC64D0684(::Class_1_FF80A1ACD786CECB_3* a1)
+	::System::Void Method_2_AFF657DAE7825F7B(::Class_1_FF80A1ACD786CECB_3* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_FF80A1ACD786CECB_3*))((::PBYTE)hIl2Cpp + CLASS_2_91BED8961086E0E6_METHOD_2_8E0634CDC64D0684_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_FF80A1ACD786CECB_3*))((::PBYTE)hIl2Cpp + CLASS_2_91BED8961086E0E6_METHOD_2_AFF657DAE7825F7B_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_70437D85C11C5222(::Class_1_F9FBCC956DFCF137_21* a1)
@@ -63,10 +62,5 @@ public:
 	::System::Void Method_2_51DEC44B986280C0()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_91BED8961086E0E6_METHOD_2_51DEC44B986280C0_OFFSET))(this);
-	}
-
-	::System::Void Method_2_5790A55946AA509D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_91BED8961086E0E6_METHOD_2_5790A55946AA509D_OFFSET))(this);
 	}
 };

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVECHATCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD4460)
-#define RPG_GAMECORE_IDLELIVECHATCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD4670)
+#define RPG_GAMECORE_IDLELIVECHATCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B523C80)
+#define RPG_GAMECORE_IDLELIVECHATCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B523E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChatContentRow_TypeDefinitionIndex = 11268;
+	inline static constexpr unsigned int IdleLiveChatContentRow_TypeDefinitionIndex = 11368;
 
 	class IdleLiveChatContentRow : public ::System::Object
 	{

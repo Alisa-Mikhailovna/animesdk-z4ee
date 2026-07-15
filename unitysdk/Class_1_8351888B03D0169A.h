@@ -6,9 +6,9 @@ namespace RPG::GameCore { class EffectConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define CLASS_1_8351888B03D0169A_METHOD_1_49D606E8AA3833AD_OFFSET UNITYSDK_OFFSET(0x15D3E980)
+#define CLASS_1_8351888B03D0169A_METHOD_1_49D606E8AA3833AD_OFFSET UNITYSDK_OFFSET(0x1521C470)
 
-inline static constexpr unsigned int Class_1_8351888B03D0169A_TypeDefinitionIndex = 53599;
+inline static constexpr unsigned int Class_1_8351888B03D0169A_TypeDefinitionIndex = 54818;
 
 class Class_1_8351888B03D0169A : public ::System::Object
 {

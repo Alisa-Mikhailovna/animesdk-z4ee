@@ -5,19 +5,19 @@
 namespace RPG::Client { class TarotBookProcessContext; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x180CD330)
-#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS62_0__PLAYNOUSTALKPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0x180CE640)
-#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS62_0__PLAYNOUSTALKPERFORMANCE_B__1_OFFSET UNITYSDK_OFFSET(0x180CE6E0)
+#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD62D2F0)
+#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS62_0__PLAYNOUSTALKPERFORMANCE_B__0_OFFSET UNITYSDK_OFFSET(0xD62E8C0)
+#define RPG_CLIENT_TAROTBOOKPROCESSCONTEXT___C__DISPLAYCLASS62_0__PLAYNOUSTALKPERFORMANCE_B__1_OFFSET UNITYSDK_OFFSET(0xD62E960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookProcessContext___c__DisplayClass62_0_TypeDefinitionIndex = 63688;
+	inline static constexpr unsigned int TarotBookProcessContext___c__DisplayClass62_0_TypeDefinitionIndex = 65057;
 
 	class TarotBookProcessContext___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:
-		::System::Action* setNotInPerformance; // 0x10
-		::RPG::Client::TarotBookProcessContext* __4__this; // 0x18
+		::RPG::Client::TarotBookProcessContext* __4__this; // 0x10
+		::System::Action* setNotInPerformance; // 0x18
 
 		::System::Void _ctor()
 		{

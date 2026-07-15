@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_7231ADB9A53E8301_OFFSET UNITYSDK_OFFSET(0x1998C850)
-#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_BF49F26C020EA026_OFFSET UNITYSDK_OFFSET(0x1998FB70)
-#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1998C7D0)
+#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_4A72E966D2C09A8B_OFFSET UNITYSDK_OFFSET(0x1B5C9810)
+#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_7231ADB9A53E8301_OFFSET UNITYSDK_OFFSET(0x1B5C6530)
+#define RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5C6520)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int RoundAfterCondition_TypeDefinitionIndex = 23527;
+	inline static constexpr unsigned int RoundAfterCondition_TypeDefinitionIndex = 24016;
 
 	class RoundAfterCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_BF49F26C020EA026(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::RoundAfterCondition*& a2)
+		static ::System::Void Method_5_4A72E966D2C09A8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::RoundAfterCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::RoundAfterCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_BF49F26C020EA026_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::RoundAfterCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_ROUNDAFTERCONDITION_METHOD_5_4A72E966D2C09A8B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_5_7231ADB9A53E8301(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::RoundAfterCondition* a2)

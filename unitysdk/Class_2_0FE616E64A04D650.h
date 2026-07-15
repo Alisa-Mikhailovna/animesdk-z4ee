@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_89D8044AB73F8F6D.h"
+#include "unitysdk/Class_1_A167209E71412818.h"
 
 namespace RPG::Client { class AnimatorButton; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_0FE616E64A04D650_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16F81270)
-#define CLASS_2_0FE616E64A04D650_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x16F81200)
-#define CLASS_2_0FE616E64A04D650__CTOR_OFFSET UNITYSDK_OFFSET(0x16F81310)
+#define CLASS_2_0FE616E64A04D650_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x145C3F20)
+#define CLASS_2_0FE616E64A04D650_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x145C3EB0)
+#define CLASS_2_0FE616E64A04D650__CTOR_OFFSET UNITYSDK_OFFSET(0x145C3FC0)
 
-inline static constexpr unsigned int Class_2_0FE616E64A04D650_TypeDefinitionIndex = 67733;
+inline static constexpr unsigned int Class_2_0FE616E64A04D650_TypeDefinitionIndex = 69217;
 
-class Class_2_0FE616E64A04D650 : public ::Class_1_89D8044AB73F8F6D
+class Class_2_0FE616E64A04D650 : public ::Class_1_A167209E71412818
 {
 public:
 	::RPG::Client::AnimatorButton* Field_2_0; // 0x18

@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESSAGEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A62D710)
-#define RPG_GAMECORE_MESSAGEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A62E340)
+#define RPG_GAMECORE_MESSAGEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5EFF50)
+#define RPG_GAMECORE_MESSAGEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F0B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageGroupRow_TypeDefinitionIndex = 13726;
+	inline static constexpr unsigned int MessageGroupRow_TypeDefinitionIndex = 13874;
 
 	class MessageGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* MessageSectionIDList; // 0x10
-		::System::UInt32 MessageContactsID; // 0x18
-		::System::UInt32 ActivityModuleID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::System::UInt32 MessageContactsID; // 0x1C
 		::System::Boolean IsChatGroup; // 0x20
-		::System::UInt32 ID; // 0x24
+		::System::UInt32 ActivityModuleID; // 0x24
 
 		::System::Void _ctor()
 		{

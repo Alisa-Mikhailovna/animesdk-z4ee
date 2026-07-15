@@ -6,15 +6,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Span_1.h"
 
-#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMATDECIMALE_OFFSET UNITYSDK_OFFSET(0x1B381B20)
-#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMATDECIMALF_OFFSET UNITYSDK_OFFSET(0x1B3814A0)
-#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMATDECIMALG_OFFSET UNITYSDK_OFFSET(0x1B380AF0)
-#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMAT_OFFSET UNITYSDK_OFFSET(0x1B37FF70)
-#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B382390)
+#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMATDECIMALE_OFFSET UNITYSDK_OFFSET(0x1CAD0A60)
+#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMATDECIMALF_OFFSET UNITYSDK_OFFSET(0x1CAD03D0)
+#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMATDECIMALG_OFFSET UNITYSDK_OFFSET(0x1CACFA10)
+#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER_TRYFORMAT_OFFSET UNITYSDK_OFFSET(0x1CACEE70)
+#define SYSTEM_BUFFERS_TEXT_UTF8FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAD12D0)
 
 namespace System::Buffers::Text
 {
-	inline static constexpr unsigned int Utf8Formatter_TypeDefinitionIndex = 4980;
+	inline static constexpr unsigned int Utf8Formatter_TypeDefinitionIndex = 4985;
 
 	class Utf8Formatter : public ::System::Object
 	{
@@ -23,15 +23,15 @@ namespace System::Buffers::Text
 		{
 			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Formatter_TypeDefinitionIndex)->GetStaticField(0x1E0);
 		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_MonthAbbreviations()
+		static ::Il2CppArray<::System::UInt32>** StaticGet_DayAbbreviations()
 		{
 			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Formatter_TypeDefinitionIndex)->GetStaticField(0x1E8);
 		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_MonthAbbreviationsLowercase()
+		static ::Il2CppArray<::System::UInt32>** StaticGet_MonthAbbreviations()
 		{
 			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Formatter_TypeDefinitionIndex)->GetStaticField(0x1F0);
 		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_DayAbbreviations()
+		static ::Il2CppArray<::System::UInt32>** StaticGet_MonthAbbreviationsLowercase()
 		{
 			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(Utf8Formatter_TypeDefinitionIndex)->GetStaticField(0x1F8);
 		}

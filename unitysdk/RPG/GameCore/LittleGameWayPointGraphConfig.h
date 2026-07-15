@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameWayPointGraphEdge; }
 
-#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG_METHOD_3_38F425E45EFB40CF_OFFSET UNITYSDK_OFFSET(0x1A12EAC0)
-#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG_METHOD_3_789A7BC8B046F2BE_OFFSET UNITYSDK_OFFSET(0x1A1280D0)
-#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1280A0)
+#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG_METHOD_3_72BE9C5E1D7E7202_OFFSET UNITYSDK_OFFSET(0x1B58BA50)
+#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG_METHOD_3_789A7BC8B046F2BE_OFFSET UNITYSDK_OFFSET(0x1B58BAC0)
+#define RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B58BAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameWayPointGraphConfig_TypeDefinitionIndex = 17953;
+	inline static constexpr unsigned int LittleGameWayPointGraphConfig_TypeDefinitionIndex = 18132;
 
 	class LittleGameWayPointGraphConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_38F425E45EFB40CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameWayPointGraphConfig*& a2)
+		static ::System::Void Method_3_72BE9C5E1D7E7202(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameWayPointGraphConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameWayPointGraphConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG_METHOD_3_38F425E45EFB40CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameWayPointGraphConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEWAYPOINTGRAPHCONFIG_METHOD_3_72BE9C5E1D7E7202_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_789A7BC8B046F2BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameWayPointGraphConfig* a2)

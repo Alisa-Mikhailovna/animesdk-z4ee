@@ -7,19 +7,19 @@ namespace RPG::Client { class CameraNormalConfigData; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace RPG::GameCore { class VCameraNoiseChange; }
 
-#define CLASS_1_C0FA7ACF6234A735_METHOD_1_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x14A52ED0)
-#define CLASS_1_C0FA7ACF6234A735__CTOR_OFFSET UNITYSDK_OFFSET(0x14A52F80)
+#define CLASS_1_C0FA7ACF6234A735_METHOD_1_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x15282F20)
+#define CLASS_1_C0FA7ACF6234A735__CTOR_OFFSET UNITYSDK_OFFSET(0x15282FD0)
 
-inline static constexpr unsigned int Class_1_C0FA7ACF6234A735_TypeDefinitionIndex = 65028;
+inline static constexpr unsigned int Class_1_C0FA7ACF6234A735_TypeDefinitionIndex = 66433;
 
 class Class_1_C0FA7ACF6234A735 : public ::System::Object
 {
 public:
 	::RPG::GameCore::VCameraNoiseChange* Field_1_0; // 0x10
-	::RPG::Client::CameraNormalConfigData* Field_1_1; // 0x18
-	::RPG::GameCore::VCameraConfig* Field_1_2; // 0x20
-	::RPG::GameCore::TurnState Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x2C
+	::RPG::GameCore::VCameraConfig* Field_1_1; // 0x18
+	::RPG::Client::CameraNormalConfigData* Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x28
+	::RPG::GameCore::TurnState Field_1_4; // 0x2C
 
 	::System::Void _ctor()
 	{

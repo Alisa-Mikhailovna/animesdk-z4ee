@@ -6,29 +6,29 @@
 namespace HoudiniEngineUnity { class Test_TreeInstance; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B45A8D0)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B45A910)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B45A920)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B45A990)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1992A800)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1992A840)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1992A850)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1992A8C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TreeInstance_Extensions___c_TypeDefinitionIndex = 37795;
+	inline static constexpr unsigned int Test_TreeInstance_Extensions___c_TypeDefinitionIndex = 38603;
 
 	class Test_TreeInstance_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::HoudiniEngineUnity::Test_TreeInstance_Extensions___c** StaticGet___9()
-		{
-			return (::HoudiniEngineUnity::Test_TreeInstance_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x11EE0);
-		}
 		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x11EE8);
+			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x1AD00);
 		}
 		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x11EF0);
+			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x1AD08);
+		}
+		static ::HoudiniEngineUnity::Test_TreeInstance_Extensions___c** StaticGet___9()
+		{
+			return (::HoudiniEngineUnity::Test_TreeInstance_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_TreeInstance_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x1AD10);
 		}
 
 		static ::System::Void _cctor()

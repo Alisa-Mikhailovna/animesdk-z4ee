@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A3F58B0)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A3F5740)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1A3F5430)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1A3F56E0)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1A3F5A40)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A3F54B0)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1A3F5A80)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3F5C50)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1A3F6170)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3F64E0)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1A3F5BB0)
-#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A3F5B10)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B3FB850)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B3FB6E0)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B3FB3D0)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B3FB680)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B3FB9E0)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3FB450)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3FBA20)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3FBBF0)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B3FC110)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3FC480)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B3FBB50)
+#define RPG_GAMECORE_EVOLVEBUILDSTAGEPERIODEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3FBAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex = 10981;
+	inline static constexpr unsigned int EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex = 11031;
 
 	class EvolveBuildStagePeriodExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildStagePeriodRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildStagePeriodRow*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x167E0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildStagePeriodRow*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x351C0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x167E8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x351C8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x167F0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x7F40);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x351D0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x7F41);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x8B70);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStagePeriodExcelTable_TypeDefinitionIndex)->GetStaticField(0x8B71);
 		}
 
 		static ::System::Void _cctor()

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AssistWayPointFastComplete; }
 namespace RPG::GameCore { class AssistWayPointLittleGameCondition; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_5159A0BB4DB966FB_OFFSET UNITYSDK_OFFSET(0x18BE5780)
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_95FA6E0289528233_OFFSET UNITYSDK_OFFSET(0x18BE59A0)
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE5990)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_3A2ED95FF830F73F_OFFSET UNITYSDK_OFFSET(0x1B1B1040)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_5159A0BB4DB966FB_OFFSET UNITYSDK_OFFSET(0x1B1B0E20)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B1030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointPack_TypeDefinitionIndex = 18055;
+	inline static constexpr unsigned int AssistWayPointPack_TypeDefinitionIndex = 18259;
 
 	class AssistWayPointPack : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_5159A0BB4DB966FB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_95FA6E0289528233(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointPack*& a2)
+		static ::System::Void Method_2_3A2ED95FF830F73F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointPack*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_95FA6E0289528233_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPACK_METHOD_2_3A2ED95FF830F73F_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRASSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1602F550)
+#define RPG_CLIENT_GRASSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A0080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrassSettings_TypeDefinitionIndex = 63561;
+	inline static constexpr unsigned int GrassSettings_TypeDefinitionIndex = 64928;
 
 	class GrassSettings : public ::System::Object
 	{

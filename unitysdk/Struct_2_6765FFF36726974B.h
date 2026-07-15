@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/LittleGameSmartObjectType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_6765FFF36726974B_TypeDefinitionIndex = 71105;
+inline static constexpr unsigned int Struct_2_6765FFF36726974B_TypeDefinitionIndex = 72618;
 
 struct alignas(4) Struct_2_6765FFF36726974B
 {

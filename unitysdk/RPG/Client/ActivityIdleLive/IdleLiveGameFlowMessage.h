@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGameFlowMessage_TypeDefinitionIndex = 70170;
+	inline static constexpr unsigned int IdleLiveGameFlowMessage_TypeDefinitionIndex = 71693;
 
 	enum class IdleLiveGameFlowMessage : ::System::Int32
 	{

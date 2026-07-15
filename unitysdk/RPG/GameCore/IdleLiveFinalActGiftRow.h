@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEFINALACTGIFTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD6A10)
-#define RPG_GAMECORE_IDLELIVEFINALACTGIFTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD6B80)
+#define RPG_GAMECORE_IDLELIVEFINALACTGIFTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B526230)
+#define RPG_GAMECORE_IDLELIVEFINALACTGIFTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5263A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveFinalActGiftRow_TypeDefinitionIndex = 11180;
+	inline static constexpr unsigned int IdleLiveFinalActGiftRow_TypeDefinitionIndex = 11280;
 
 	class IdleLiveFinalActGiftRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 RewardID; // 0x10
-		::System::UInt32 FinalAct; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 FinalAct; // 0x18
 
 		::System::Void _ctor()
 		{

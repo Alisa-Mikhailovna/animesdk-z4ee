@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B121E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B12220)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0A7610)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYSELECTPANELCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC0A7650)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplaySelectPanelControl___c_TypeDefinitionIndex = 73982;
+	inline static constexpr unsigned int ChenLingFesGameplaySelectPanelControl___c_TypeDefinitionIndex = 76364;
 
 	class ChenLingFesGameplaySelectPanelControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChenLingFes::ChenLingFesGameplaySelectPanelControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameplaySelectPanelControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplaySelectPanelControl___c_TypeDefinitionIndex)->GetStaticField(0x68390);
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameplaySelectPanelControl___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplaySelectPanelControl___c_TypeDefinitionIndex)->GetStaticField(0x5F320);
 		}
 
 		static ::System::Void _cctor()

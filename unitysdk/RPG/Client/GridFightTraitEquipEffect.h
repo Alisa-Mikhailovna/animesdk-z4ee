@@ -6,14 +6,13 @@ namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT_GETEQUIPITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0x19657680)
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0x19657610)
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19657540)
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT___IFIXBASEPROXY_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0x19657920)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT_GETEQUIPITEMCONFIGS_OFFSET UNITYSDK_OFFSET(0xC847DD0)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0xC847D60)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC847C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEquipEffect_TypeDefinitionIndex = 61145;
+	inline static constexpr unsigned int GridFightTraitEquipEffect_TypeDefinitionIndex = 62474;
 
 	class GridFightTraitEquipEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
@@ -31,11 +30,6 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>* GetEquipItemConfigs()
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT_GETEQUIPITEMCONFIGS_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnTraitChange(::System::UInt32 a1, ::System::Boolean a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITEQUIPEFFECT___IFIXBASEPROXY_ONTRAITCHANGE_OFFSET))(this, a1, a2);
 		}
 	};
 }

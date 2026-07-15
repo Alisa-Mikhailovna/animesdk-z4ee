@@ -7,11 +7,11 @@ namespace HoudiniEngineUnity { class TOPNodeTags; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_TOPNETWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18303620)
+#define HOUDINIENGINEUNITY_HEU_TOPNETWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x198FB5F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TOPNetworkData_TypeDefinitionIndex = 37574;
+	inline static constexpr unsigned int HEU_TOPNetworkData_TypeDefinitionIndex = 38382;
 
 	class HEU_TOPNetworkData : public ::System::Object
 	{

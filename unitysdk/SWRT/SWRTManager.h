@@ -5,23 +5,23 @@
 namespace SWRT { class SWRT; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SWRT_SWRTMANAGER_GETACTIVEBINDER_OFFSET UNITYSDK_OFFSET(0x1B3BF2E0)
-#define SWRT_SWRTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B3CD550)
-#define SWRT_SWRTMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1B3CD3A0)
-#define SWRT_SWRTMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1B3CD4E0)
-#define SWRT_SWRTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3CD5C0)
-#define SWRT_SWRTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3CD580)
+#define SWRT_SWRTMANAGER_GETACTIVEBINDER_OFFSET UNITYSDK_OFFSET(0x1AACBC90)
+#define SWRT_SWRTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AACBC60)
+#define SWRT_SWRTMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1AACBAB0)
+#define SWRT_SWRTMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1AACBBF0)
+#define SWRT_SWRTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AACBD50)
+#define SWRT_SWRTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AACBD10)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int SWRTManager_TypeDefinitionIndex = 35182;
+	inline static constexpr unsigned int SWRTManager_TypeDefinitionIndex = 35964;
 
 	class SWRTManager : public ::System::Object
 	{
 	public:
 		static ::SWRT::SWRTManager** StaticGet_s_Instance()
 		{
-			return (::SWRT::SWRTManager**)Il2CppClass::FromTypeDefinitionIndex(SWRTManager_TypeDefinitionIndex)->GetStaticField(0x60240);
+			return (::SWRT::SWRTManager**)Il2CppClass::FromTypeDefinitionIndex(SWRTManager_TypeDefinitionIndex)->GetStaticField(0x63030);
 		}
 		::System::Collections::Generic::List_1<::SWRT::SWRT*>* _Binders; // 0x10
 

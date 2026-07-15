@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PolygonType_TypeDefinitionIndex = 73245;
+	inline static constexpr unsigned int PolygonType_TypeDefinitionIndex = 74770;
 
 	enum class PolygonType : ::System::Int32
 	{

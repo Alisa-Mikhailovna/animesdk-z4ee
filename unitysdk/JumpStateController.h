@@ -7,14 +7,12 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 
-#define JUMPSTATECONTROLLER_METHOD_4_097455A9BF07EB21_OFFSET UNITYSDK_OFFSET(0x179CDE50)
-#define JUMPSTATECONTROLLER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x179CDD60)
-#define JUMPSTATECONTROLLER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x179CE0A0)
-#define JUMPSTATECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x179CE130)
-#define JUMPSTATECONTROLLER___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x179CE160)
-#define JUMPSTATECONTROLLER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x179CE170)
+#define JUMPSTATECONTROLLER_METHOD_4_097455A9BF07EB21_OFFSET UNITYSDK_OFFSET(0x154991A0)
+#define JUMPSTATECONTROLLER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x154990B0)
+#define JUMPSTATECONTROLLER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x154993F0)
+#define JUMPSTATECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x15499480)
 
-inline static constexpr unsigned int JumpStateController_TypeDefinitionIndex = 44610;
+inline static constexpr unsigned int JumpStateController_TypeDefinitionIndex = 45482;
 
 class JumpStateController : public ::UnityEngine::StateMachineBehaviour
 {
@@ -47,15 +45,5 @@ public:
 	::System::Void Method_4_097455A9BF07EB21(::UnityEngine::Animator* a1, ::System::Boolean a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Boolean))((::PBYTE)hIl2Cpp + JUMPSTATECONTROLLER_METHOD_4_097455A9BF07EB21_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + JUMPSTATECONTROLLER___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + JUMPSTATECONTROLLER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 	}
 };

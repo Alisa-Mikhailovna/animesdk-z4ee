@@ -5,25 +5,23 @@
 
 namespace UnityEngine { class Animator; }
 
-#define STATEWHEELMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x13ECFD80)
-#define STATEWHEELMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13ECFDF0)
-#define STATEWHEELMOVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x13ECFFC0)
-#define STATEWHEELMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECFFB0)
-#define STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x13ED0030)
-#define STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13ED0040)
+#define STATEWHEELMOVE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xDD6AB30)
+#define STATEWHEELMOVE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDD6ABA0)
+#define STATEWHEELMOVE__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD6AD70)
+#define STATEWHEELMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD6AD60)
 
-inline static constexpr unsigned int StateWheelMove_TypeDefinitionIndex = 44613;
+inline static constexpr unsigned int StateWheelMove_TypeDefinitionIndex = 45485;
 
 class StateWheelMove : public ::UnityEngine::StateMachineBehaviour
 {
 public:
-	static ::System::Int32* StaticGet__WheelSpeedScale()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StateWheelMove_TypeDefinitionIndex)->GetStaticField(0x5170);
-	}
 	static ::System::Int32* StaticGet__IsMove()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StateWheelMove_TypeDefinitionIndex)->GetStaticField(0x5174);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StateWheelMove_TypeDefinitionIndex)->GetStaticField(0x14960);
+	}
+	static ::System::Int32* StaticGet__WheelSpeedScale()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StateWheelMove_TypeDefinitionIndex)->GetStaticField(0x14964);
 	}
 	::System::Single fadeTime; // 0x18
 	::System::Single MoveAnimSpeed; // 0x1C
@@ -46,15 +44,5 @@ public:
 	::System::Void OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + STATEWHEELMOVE_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + STATEWHEELMOVE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 	}
 };

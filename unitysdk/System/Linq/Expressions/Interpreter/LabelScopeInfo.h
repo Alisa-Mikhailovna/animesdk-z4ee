@@ -7,21 +7,21 @@ namespace System::Linq::Expressions { class LabelTarget; }
 namespace System::Linq::Expressions::Interpreter { class LabelInfo; }
 namespace System::Linq::Expressions::Interpreter { template <typename T1, typename T2> class HybridReferenceDictionary_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_ADDLABELINFO_OFFSET UNITYSDK_OFFSET(0x18013AC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_CONTAINSTARGET_OFFSET UNITYSDK_OFFSET(0x180137C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_GET_CANJUMPINTO_OFFSET UNITYSDK_OFFSET(0x18013D80)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_TRYGETLABELINFO_OFFSET UNITYSDK_OFFSET(0x18013E90)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18013E80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_ADDLABELINFO_OFFSET UNITYSDK_OFFSET(0x1CA85A60)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_CONTAINSTARGET_OFFSET UNITYSDK_OFFSET(0x1CA85760)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_GET_CANJUMPINTO_OFFSET UNITYSDK_OFFSET(0x1CA85D20)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO_TRYGETLABELINFO_OFFSET UNITYSDK_OFFSET(0x1CA85E30)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LABELSCOPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA85E20)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LabelScopeInfo_TypeDefinitionIndex = 3430;
+	inline static constexpr unsigned int LabelScopeInfo_TypeDefinitionIndex = 3434;
 
 	class LabelScopeInfo : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Interpreter::LabelScopeInfo* Parent; // 0x10
-		::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* _labels; // 0x18
+		::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* _labels; // 0x10
+		::System::Linq::Expressions::Interpreter::LabelScopeInfo* Parent; // 0x18
 		::System::Linq::Expressions::Interpreter::LabelScopeKind Kind; // 0x20
 
 		::System::Void _ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* a1, ::System::Linq::Expressions::Interpreter::LabelScopeKind a2)

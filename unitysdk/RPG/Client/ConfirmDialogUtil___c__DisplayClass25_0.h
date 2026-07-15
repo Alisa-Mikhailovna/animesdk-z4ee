@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F28980)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS25_0__SHOWPLAYGOCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x15F29290)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1B62E0)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS25_0__SHOWPLAYGOCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xC1B6BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass25_0_TypeDefinitionIndex = 67932;
+	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass25_0_TypeDefinitionIndex = 69418;
 
 	class ConfirmDialogUtil___c__DisplayClass25_0 : public ::System::Object
 	{

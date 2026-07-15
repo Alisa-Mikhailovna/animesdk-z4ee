@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_FBAEC44BCC38B40C_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x132DE160)
-#define CLASS_2_FBAEC44BCC38B40C__CTOR_OFFSET UNITYSDK_OFFSET(0x132DE140)
+#define CLASS_2_FBAEC44BCC38B40C_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x14CB7840)
+#define CLASS_2_FBAEC44BCC38B40C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CB7820)
 
-inline static constexpr unsigned int Class_2_FBAEC44BCC38B40C_TypeDefinitionIndex = 55282;
+inline static constexpr unsigned int Class_2_FBAEC44BCC38B40C_TypeDefinitionIndex = 56519;
 
 class Class_2_FBAEC44BCC38B40C : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetFetchLockTarget*>
 {

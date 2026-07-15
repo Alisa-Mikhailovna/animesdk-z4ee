@@ -11,34 +11,32 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 
-#define CLASS_2_CAC59C79346B9343_CLEAR_OFFSET UNITYSDK_OFFSET(0x189C85E0)
-#define CLASS_2_CAC59C79346B9343_METHOD_2_8660C3A27B56FE60_OFFSET UNITYSDK_OFFSET(0x189C87F0)
-#define CLASS_2_CAC59C79346B9343_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x189C8750)
-#define CLASS_2_CAC59C79346B9343_ONALLOC_OFFSET UNITYSDK_OFFSET(0x189C84D0)
-#define CLASS_2_CAC59C79346B9343__CTOR_OFFSET UNITYSDK_OFFSET(0x189C8BA0)
-#define CLASS_2_CAC59C79346B9343___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x189C8C30)
-#define CLASS_2_CAC59C79346B9343___IFIXBASEPROXY_ONALLOC_OFFSET UNITYSDK_OFFSET(0x189C8BB0)
+#define CLASS_2_CAC59C79346B9343_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A88A8F0)
+#define CLASS_2_CAC59C79346B9343_METHOD_2_8660C3A27B56FE60_OFFSET UNITYSDK_OFFSET(0x1A88AB10)
+#define CLASS_2_CAC59C79346B9343_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1A88AA70)
+#define CLASS_2_CAC59C79346B9343_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A88A7D0)
+#define CLASS_2_CAC59C79346B9343__CTOR_OFFSET UNITYSDK_OFFSET(0x1A88AEC0)
 
-inline static constexpr unsigned int Class_2_CAC59C79346B9343_TypeDefinitionIndex = 40128;
+inline static constexpr unsigned int Class_2_CAC59C79346B9343_TypeDefinitionIndex = 40941;
 
 class Class_2_CAC59C79346B9343 : public ::Class_1_0A3B9FD0FE703FDC
 {
 public:
-	::RPG::PoolList_1<::UnityEngine::Collision*>* Field_2_0; // 0x338
-	::RPG::PoolHashSet_1<::UnityEngine::Collider*>* Field_2_1; // 0x340
+	::RPG::PoolHashSet_1<::UnityEngine::Collider*>* Field_2_0; // 0x338
+	::RPG::PoolList_1<::UnityEngine::Collision*>* Field_2_1; // 0x340
 	::RPG::PoolHashSet_1<::System::Int32>* Field_2_2; // 0x348
-	::System::Single Field_2_3; // 0x350
+	::System::Int32 Field_2_3; // 0x350
 	::System::Single Field_2_4; // 0x354
-	::System::Nullable_1<::UnityEngine::RaycastHit> Field_2_5; // 0x358
-	::System::Nullable_1<::UnityEngine::RaycastHit> Field_2_6; // 0x38C
-	::System::Single Field_2_7; // 0x3C0
-	::System::Int32 Field_2_8; // 0x3C4
-	::System::Single Field_2_9; // 0x3C8
-	::System::Boolean Field_2_10; // 0x3CC
-	::System::Boolean Field_2_11; // 0x3CD
-	::System::Boolean Field_2_12; // 0x3CE
-	::System::Nullable_1<::UnityEngine::RaycastHit> Field_2_13; // 0x3D0
-	::UnityEngine::Vector3 Field_2_14; // 0x404
+	::System::Boolean Field_2_5; // 0x358
+	::System::Boolean Field_2_6; // 0x359
+	::System::Boolean Field_2_7; // 0x35A
+	::System::Single Field_2_8; // 0x35C
+	::System::Nullable_1<::UnityEngine::RaycastHit> Field_2_9; // 0x360
+	::System::Nullable_1<::UnityEngine::RaycastHit> Field_2_10; // 0x394
+	::System::Single Field_2_11; // 0x3C8
+	::UnityEngine::Vector3 Field_2_12; // 0x3CC
+	::System::Single Field_2_13; // 0x3D8
+	::System::Nullable_1<::UnityEngine::RaycastHit> Field_2_14; // 0x3DC
 
 	::System::Void _ctor()
 	{
@@ -63,15 +61,5 @@ public:
 	::System::Void Method_2_8660C3A27B56FE60(::Class_3_1E4F9B0ED3BF21DE* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_2_CAC59C79346B9343_METHOD_2_8660C3A27B56FE60_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnAlloc()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CAC59C79346B9343___IFIXBASEPROXY_ONALLOC_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CAC59C79346B9343___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 	}
 };

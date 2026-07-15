@@ -3,36 +3,35 @@
 #include "unitysdk/Class_1_BF7A075734D15E98.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-class Class_0_16E4307DCC419505_358;
+class Class_0_16E4307DCC419505_382;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELUSEABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B7FD70)
-#define RPG_GAMECORE_LEVELUSEABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x19B7FE30)
-#define RPG_GAMECORE_LEVELUSEABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x19B7FDE0)
-#define RPG_GAMECORE_LEVELUSEABILITY_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0x19B7FE80)
-#define RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET UNITYSDK_OFFSET(0x19B7FD10)
-#define RPG_GAMECORE_LEVELUSEABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7FEE0)
-#define RPG_GAMECORE_LEVELUSEABILITY___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x19B7FEF0)
+#define RPG_GAMECORE_LEVELUSEABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0xDAE5700)
+#define RPG_GAMECORE_LEVELUSEABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xDAE57C0)
+#define RPG_GAMECORE_LEVELUSEABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xDAE5770)
+#define RPG_GAMECORE_LEVELUSEABILITY_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xDAE5810)
+#define RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET UNITYSDK_OFFSET(0xDAE56A0)
+#define RPG_GAMECORE_LEVELUSEABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0xDAE5870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelUseAbility_TypeDefinitionIndex = 53057;
+	inline static constexpr unsigned int LevelUseAbility_TypeDefinitionIndex = 54271;
 
 	class LevelUseAbility : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::RPG::GameCore::GameEntity* AbilityCater; // 0x18
-		::Class_0_16E4307DCC419505_358* AbilityInstance; // 0x20
+		::Class_0_16E4307DCC419505_382* AbilityInstance; // 0x20
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelUseAbility* Init(::RPG::GameCore::GameEntity* a1, ::Class_0_16E4307DCC419505_358* a2)
+		::RPG::GameCore::LevelUseAbility* Init(::RPG::GameCore::GameEntity* a1, ::Class_0_16E4307DCC419505_382* a2)
 		{
-			return ((::RPG::GameCore::LevelUseAbility*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_0_16E4307DCC419505_358*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET))(this, a1, a2);
+			return ((::RPG::GameCore::LevelUseAbility*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Class_0_16E4307DCC419505_382*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Clear()
@@ -53,11 +52,6 @@ namespace RPG::GameCore
 		::System::String* get_AbilityName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY_GET_ABILITYNAME_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Clear()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELUSEABILITY___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 		}
 	};
 }

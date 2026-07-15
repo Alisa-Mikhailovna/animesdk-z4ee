@@ -2,42 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_UIELEMENTS_POINTERID__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F914A0)
+#define UNITYENGINE_UIELEMENTS_POINTERID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0EC4B0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerId_TypeDefinitionIndex = 6231;
+	inline static constexpr unsigned int PointerId_TypeDefinitionIndex = 6236;
 
 	class PointerId : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_mousePointerId()
+		static ::System::Int32* StaticGet_maxPointers()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xAE0);
-		}
-		static ::System::Int32* StaticGet_penPointerCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xAE4);
-		}
-		static ::System::Int32* StaticGet_invalidPointerId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xAE8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xCE90);
 		}
 		static ::System::Int32* StaticGet_penPointerIdBase()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xAEC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xCE94);
 		}
-		static ::System::Int32* StaticGet_touchPointerCount()
+		static ::System::Int32* StaticGet_penPointerCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xAF0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xCE98);
+		}
+		static ::System::Int32* StaticGet_invalidPointerId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xCE9C);
+		}
+		static ::System::Int32* StaticGet_mousePointerId()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xCEA0);
 		}
 		static ::System::Int32* StaticGet_touchPointerIdBase()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xAF4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xCEA4);
 		}
-		static ::System::Int32* StaticGet_maxPointers()
+		static ::System::Int32* StaticGet_touchPointerCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xAF8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PointerId_TypeDefinitionIndex)->GetStaticField(0xCEA8);
 		}
 
 		static ::System::Void _cctor()

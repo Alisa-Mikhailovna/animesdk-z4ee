@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ScreenTransferBaseAction; }
 namespace RPG::GameCore { class ScreenTransferTextInfo; }
 
-#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_METHOD_3_1C1F2A84DAB9B340_OFFSET UNITYSDK_OFFSET(0x19D537D0)
-#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_METHOD_3_B59063D94D266187_OFFSET UNITYSDK_OFFSET(0x19D53890)
-#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x19D53840)
+#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_METHOD_3_B59063D94D266187_OFFSET UNITYSDK_OFFSET(0x1B6C6270)
+#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_METHOD_3_FA7E20CC59D5C20A_OFFSET UNITYSDK_OFFSET(0x1B6C6200)
+#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C6250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayFullScreenTransfer_TypeDefinitionIndex = 19717;
+	inline static constexpr unsigned int PlayFullScreenTransfer_TypeDefinitionIndex = 20076;
 
 	class PlayFullScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYFULLSCREENTRANSFER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1C1F2A84DAB9B340(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayFullScreenTransfer*& a2)
+		static ::System::Void Method_3_FA7E20CC59D5C20A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayFullScreenTransfer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayFullScreenTransfer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYFULLSCREENTRANSFER_METHOD_3_1C1F2A84DAB9B340_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayFullScreenTransfer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYFULLSCREENTRANSFER_METHOD_3_FA7E20CC59D5C20A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B59063D94D266187(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayFullScreenTransfer* a2)

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TimelineEntityConfig; }
 
-#define RPG_GAMECORE_REMOVETIMELINEENTITY_METHOD_3_0DFE8F94387A0838_OFFSET UNITYSDK_OFFSET(0x1A2E91B0)
-#define RPG_GAMECORE_REMOVETIMELINEENTITY_METHOD_3_DCBC6272DBD7D41B_OFFSET UNITYSDK_OFFSET(0x1A2E9230)
-#define RPG_GAMECORE_REMOVETIMELINEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E9200)
+#define RPG_GAMECORE_REMOVETIMELINEENTITY_METHOD_3_6902ECE8E73CB4C0_OFFSET UNITYSDK_OFFSET(0x1B71E270)
+#define RPG_GAMECORE_REMOVETIMELINEENTITY_METHOD_3_DCBC6272DBD7D41B_OFFSET UNITYSDK_OFFSET(0x1B71E2B0)
+#define RPG_GAMECORE_REMOVETIMELINEENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71E2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveTimelineEntity_TypeDefinitionIndex = 19490;
+	inline static constexpr unsigned int RemoveTimelineEntity_TypeDefinitionIndex = 19848;
 
 	class RemoveTimelineEntity : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVETIMELINEENTITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0DFE8F94387A0838(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveTimelineEntity*& a2)
+		static ::System::Void Method_3_6902ECE8E73CB4C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveTimelineEntity*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveTimelineEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVETIMELINEENTITY_METHOD_3_0DFE8F94387A0838_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveTimelineEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVETIMELINEENTITY_METHOD_3_6902ECE8E73CB4C0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DCBC6272DBD7D41B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveTimelineEntity* a2)

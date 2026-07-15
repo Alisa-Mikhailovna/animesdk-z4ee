@@ -9,31 +9,31 @@ namespace RPG::Client { class UIProfiler_SampleData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_UIPROFILER_ASYNCSHOWUI_OFFSET UNITYSDK_OFFSET(0x14B8FA70)
-#define RPG_CLIENT_UIPROFILER_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x14B8F410)
-#define RPG_CLIENT_UIPROFILER_CLOSEUI_OFFSET UNITYSDK_OFFSET(0x14B8FC50)
-#define RPG_CLIENT_UIPROFILER_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x14B8F720)
-#define RPG_CLIENT_UIPROFILER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B8FD20)
-#define RPG_CLIENT_UIPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0x14B8FD10)
+#define RPG_CLIENT_UIPROFILER_ASYNCSHOWUI_OFFSET UNITYSDK_OFFSET(0xD803340)
+#define RPG_CLIENT_UIPROFILER_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0xD802CE0)
+#define RPG_CLIENT_UIPROFILER_CLOSEUI_OFFSET UNITYSDK_OFFSET(0xD803520)
+#define RPG_CLIENT_UIPROFILER_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0xD802FF0)
+#define RPG_CLIENT_UIPROFILER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8035F0)
+#define RPG_CLIENT_UIPROFILER__CTOR_OFFSET UNITYSDK_OFFSET(0xD8035E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProfiler_TypeDefinitionIndex = 68336;
+	inline static constexpr unsigned int UIProfiler_TypeDefinitionIndex = 69825;
 
 	class UIProfiler : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::UIProfiler_Key, ::RPG::Client::UIProfiler_SampleData*>** StaticGet__SampleDataMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::UIProfiler_Key, ::RPG::Client::UIProfiler_SampleData*>**)Il2CppClass::FromTypeDefinitionIndex(UIProfiler_TypeDefinitionIndex)->GetStaticField(0x17C80);
-		}
 		static ::RPG::Client::UIController** StaticGet__Controller()
 		{
-			return (::RPG::Client::UIController**)Il2CppClass::FromTypeDefinitionIndex(UIProfiler_TypeDefinitionIndex)->GetStaticField(0x17C88);
+			return (::RPG::Client::UIController**)Il2CppClass::FromTypeDefinitionIndex(UIProfiler_TypeDefinitionIndex)->GetStaticField(0x51420);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::UIProfiler_Key, ::RPG::Client::UIProfiler_SampleData*>** StaticGet__SampleDataMap()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::UIProfiler_Key, ::RPG::Client::UIProfiler_SampleData*>**)Il2CppClass::FromTypeDefinitionIndex(UIProfiler_TypeDefinitionIndex)->GetStaticField(0x51428);
 		}
 		static ::System::Boolean* StaticGet_Enable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIProfiler_TypeDefinitionIndex)->GetStaticField(0x8230);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIProfiler_TypeDefinitionIndex)->GetStaticField(0xE4E0);
 		}
 
 		::System::Void _ctor()

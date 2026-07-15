@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_STEAMWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x129F3510)
-#define INCONTROL_NATIVEDEVICEPROFILES_STEAMWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x129F4610)
+#define INCONTROL_NATIVEDEVICEPROFILES_STEAMWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x199C2F70)
+#define INCONTROL_NATIVEDEVICEPROFILES_STEAMWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x199C4010)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int SteamWindowsNativeProfile_TypeDefinitionIndex = 38358;
+	inline static constexpr unsigned int SteamWindowsNativeProfile_TypeDefinitionIndex = 39166;
 
 	class SteamWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

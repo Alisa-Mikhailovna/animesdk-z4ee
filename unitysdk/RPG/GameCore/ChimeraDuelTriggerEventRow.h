@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELTRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A51B460)
-#define RPG_GAMECORE_CHIMERADUELTRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A51B600)
+#define RPG_GAMECORE_CHIMERADUELTRIGGEREVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B353AF0)
+#define RPG_GAMECORE_CHIMERADUELTRIGGEREVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B353C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelTriggerEventRow_TypeDefinitionIndex = 10707;
+	inline static constexpr unsigned int ChimeraDuelTriggerEventRow_TypeDefinitionIndex = 10757;
 
 	class ChimeraDuelTriggerEventRow : public ::System::Object
 	{

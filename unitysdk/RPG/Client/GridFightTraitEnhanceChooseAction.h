@@ -2,33 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightTraitChooseBaseAction.h"
 
-class Class_1_F0A446EC7AE7E87D;
+class Class_1_1FA3C152B1F9BE51;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_GET_OPTIONIDS_OFFSET UNITYSDK_OFFSET(0x19656D80)
-#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SELECTMEMBER_OFFSET UNITYSDK_OFFSET(0x19656CC0)
-#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SET_OPTIONIDS_OFFSET UNITYSDK_OFFSET(0x19656D90)
-#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SYNC_OFFSET UNITYSDK_OFFSET(0x19656B70)
-#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19656B00)
+#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_GET_OPTIONIDS_OFFSET UNITYSDK_OFFSET(0xC8473D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SELECTMEMBER_OFFSET UNITYSDK_OFFSET(0xC847310)
+#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SET_OPTIONIDS_OFFSET UNITYSDK_OFFSET(0xC8473E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SYNC_OFFSET UNITYSDK_OFFSET(0xC8471C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC847150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEnhanceChooseAction_TypeDefinitionIndex = 61112;
+	inline static constexpr unsigned int GridFightTraitEnhanceChooseAction_TypeDefinitionIndex = 62437;
 
 	class GridFightTraitEnhanceChooseAction : public ::RPG::Client::GridFightTraitChooseBaseAction
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _OptionIDs_k__BackingField; // 0x20
-		::System::Boolean IsGetAll; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* _OptionIDs_k__BackingField; // 0x30
+		::System::Boolean IsGetAll; // 0x38
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Sync(::Class_1_F0A446EC7AE7E87D* a1)
+		::System::Void Sync(::Class_1_1FA3C152B1F9BE51* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_F0A446EC7AE7E87D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_1FA3C152B1F9BE51*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEACTION_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::Void SelectMember(::System::UInt32 a1)

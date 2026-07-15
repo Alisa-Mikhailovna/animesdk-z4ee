@@ -6,14 +6,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_LUAENV_DTORFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xEDD05F0)
-#define XLUA_LUAENV_DTORFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xEDD0660)
-#define XLUA_LUAENV_DTORFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xEDD05E0)
-#define XLUA_LUAENV_DTORFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0xEDD0570)
+#define XLUA_LUAENV_DTORFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x13DA20B0)
+#define XLUA_LUAENV_DTORFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x13DA2120)
+#define XLUA_LUAENV_DTORFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x13DA20A0)
+#define XLUA_LUAENV_DTORFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13DA2030)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaEnv_DtorFunction_TypeDefinitionIndex = 46987;
+	inline static constexpr unsigned int LuaEnv_DtorFunction_TypeDefinitionIndex = 47953;
 
 	class LuaEnv_DtorFunction : public ::System::MulticastDelegate
 	{

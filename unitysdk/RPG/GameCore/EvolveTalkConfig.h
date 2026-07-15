@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define RPG_GAMECORE_EVOLVETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x136E8B10)
+#define RPG_GAMECORE_EVOLVETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDA7D6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveTalkConfig_TypeDefinitionIndex = 54800;
+	inline static constexpr unsigned int EvolveTalkConfig_TypeDefinitionIndex = 56027;
 
 	class EvolveTalkConfig : public ::System::Object
 	{

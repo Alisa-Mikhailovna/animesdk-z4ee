@@ -8,15 +8,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_79C6A43135D3DE20_OFFSET UNITYSDK_OFFSET(0x18FF9DB0)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_B15F8CD3B4DA7016_OFFSET UNITYSDK_OFFSET(0x18FF9A30)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_CA1BA682114DDE90_OFFSET UNITYSDK_OFFSET(0x18FF9B00)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_D0FCA84B2AD86B9D_OFFSET UNITYSDK_OFFSET(0x18FF9D30)
-#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF9AB0)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_2EACFDCFAE2979D0_OFFSET UNITYSDK_OFFSET(0x1B27C4B0)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_9E02A8ABE2D538E1_OFFSET UNITYSDK_OFFSET(0x1B27C240)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_C403968E28C17BE7_OFFSET UNITYSDK_OFFSET(0x1B27C4E0)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_CA1BA682114DDE90_OFFSET UNITYSDK_OFFSET(0x1B27C280)
+#define RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27C270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareTeamFormationWidth_TypeDefinitionIndex = 21670;
+	inline static constexpr unsigned int ByCompareTeamFormationWidth_TypeDefinitionIndex = 22097;
 
 	class ByCompareTeamFormationWidth : public ::RPG::GameCore::PredicateConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B15F8CD3B4DA7016(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareTeamFormationWidth*& a2)
+		static ::System::Void Method_4_9E02A8ABE2D538E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareTeamFormationWidth*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareTeamFormationWidth*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_B15F8CD3B4DA7016_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareTeamFormationWidth*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_9E02A8ABE2D538E1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_CA1BA682114DDE90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_CA1BA682114DDE90_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D0FCA84B2AD86B9D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth*& a2)
+		static ::System::Void Method_4_2EACFDCFAE2979D0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_D0FCA84B2AD86B9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_2EACFDCFAE2979D0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_79C6A43135D3DE20(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
+		static ::System::Void Method_4_C403968E28C17BE7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTeamFormationWidth* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_79C6A43135D3DE20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTeamFormationWidth*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETEAMFORMATIONWIDTH_METHOD_4_C403968E28C17BE7_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int PlanType_TypeDefinitionIndex = 69502;
+	inline static constexpr unsigned int PlanType_TypeDefinitionIndex = 71025;
 
 	enum class PlanType : ::System::Int32
 	{

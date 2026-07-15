@@ -5,11 +5,11 @@
 namespace RPG::Client::OpenWorld { class PVSRuntimeReplaySamplerCheckInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYRAWEXPORTCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDE270)
+#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYRAWEXPORTCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0xCF07200)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int PVSRuntimeReplayRawExportCheck_TypeDefinitionIndex = 68858;
+	inline static constexpr unsigned int PVSRuntimeReplayRawExportCheck_TypeDefinitionIndex = 70359;
 
 	class PVSRuntimeReplayRawExportCheck : public ::System::Object
 	{

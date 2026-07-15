@@ -14,57 +14,57 @@ namespace RPG::Client { class IRogueMiracle; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CLASS_1_DA74864571A0573D_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163D06B0)
-#define CLASS_1_DA74864571A0573D_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163D06E0)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x163D06F0)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x163D0B10)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x163D0F50)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x163D1370)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x163D0AF0)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x163D0F30)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x163D1350)
-#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x163D1790)
+#define CLASS_1_DA74864571A0573D_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1449D810)
+#define CLASS_1_DA74864571A0573D_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1449D840)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1449D850)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x1449DBE0)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x1449DF90)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x1449E320)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x1449DBC0)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x1449DF70)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x1449E300)
+#define CLASS_1_DA74864571A0573D_1___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x1449E6B0)
 
-inline static constexpr unsigned int Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex = 62778;
+inline static constexpr unsigned int Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex = 64145;
 
 class Class_1_DA74864571A0573D_1___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_83722F5D09203949_1*, ::RPG::Client::IRogueMiracle*>** StaticGet___9__1_6()
+	static ::Class_1_DA74864571A0573D_1___c** StaticGet___9()
 	{
-		return (::System::Func_2<::Class_1_83722F5D09203949_1*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA10);
-	}
-	static ::System::Func_2<::Class_1_83722F5D09203949_2*, ::RPG::Client::IRogueMiracle*>** StaticGet___9__1_7()
-	{
-		return (::System::Func_2<::Class_1_83722F5D09203949_2*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA18);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_530C213B5CE39FAC*>*, ::Class_1_FE0A596DEF9F7C72*>** StaticGet___9__1_0()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_530C213B5CE39FAC*>*, ::Class_1_FE0A596DEF9F7C72*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA20);
+		return (::Class_1_DA74864571A0573D_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x350E0);
 	}
 	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949_2*>*, ::Class_1_FE0A596DEF9F7C72_3*>** StaticGet___9__1_3()
 	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949_2*>*, ::Class_1_FE0A596DEF9F7C72_3*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA28);
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949_2*>*, ::Class_1_FE0A596DEF9F7C72_3*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x350E8);
 	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949*>*, ::Class_1_FE0A596DEF9F7C72_1*>** StaticGet___9__1_1()
+	static ::System::Func_2<::Class_1_83722F5D09203949_2*, ::RPG::Client::IRogueMiracle*>** StaticGet___9__1_7()
 	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949*>*, ::Class_1_FE0A596DEF9F7C72_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA30);
-	}
-	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949_1*>*, ::Class_1_FE0A596DEF9F7C72_2*>** StaticGet___9__1_2()
-	{
-		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949_1*>*, ::Class_1_FE0A596DEF9F7C72_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA38);
+		return (::System::Func_2<::Class_1_83722F5D09203949_2*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x350F0);
 	}
 	static ::System::Func_2<::Class_1_83722F5D09203949*, ::RPG::Client::IRogueMiracle*>** StaticGet___9__1_5()
 	{
-		return (::System::Func_2<::Class_1_83722F5D09203949*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA40);
+		return (::System::Func_2<::Class_1_83722F5D09203949*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x350F8);
 	}
 	static ::System::Func_2<::Class_1_530C213B5CE39FAC*, ::RPG::Client::IRogueMiracle*>** StaticGet___9__1_4()
 	{
-		return (::System::Func_2<::Class_1_530C213B5CE39FAC*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA48);
+		return (::System::Func_2<::Class_1_530C213B5CE39FAC*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x35100);
 	}
-	static ::Class_1_DA74864571A0573D_1___c** StaticGet___9()
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_530C213B5CE39FAC*>*, ::Class_1_FE0A596DEF9F7C72*>** StaticGet___9__1_0()
 	{
-		return (::Class_1_DA74864571A0573D_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x3DA50);
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_530C213B5CE39FAC*>*, ::Class_1_FE0A596DEF9F7C72*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x35108);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949*>*, ::Class_1_FE0A596DEF9F7C72_1*>** StaticGet___9__1_1()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949*>*, ::Class_1_FE0A596DEF9F7C72_1*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x35110);
+	}
+	static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949_1*>*, ::Class_1_FE0A596DEF9F7C72_2*>** StaticGet___9__1_2()
+	{
+		return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::Class_1_83722F5D09203949_1*>*, ::Class_1_FE0A596DEF9F7C72_2*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x35118);
+	}
+	static ::System::Func_2<::Class_1_83722F5D09203949_1*, ::RPG::Client::IRogueMiracle*>** StaticGet___9__1_6()
+	{
+		return (::System::Func_2<::Class_1_83722F5D09203949_1*, ::RPG::Client::IRogueMiracle*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_DA74864571A0573D_1___c_TypeDefinitionIndex)->GetStaticField(0x35120);
 	}
 
 	static ::System::Void _cctor()

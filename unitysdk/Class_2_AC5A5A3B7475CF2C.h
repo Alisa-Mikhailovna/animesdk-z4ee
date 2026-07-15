@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_26684305CEECE64E.h"
+#include "unitysdk/Class_1_E559374AC4E5AD13.h"
 
 class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionGeneratePickupItem; }
 
-#define CLASS_2_AC5A5A3B7475CF2C_METHOD_2_4C319F4EF3F42834_OFFSET UNITYSDK_OFFSET(0x15906490)
-#define CLASS_2_AC5A5A3B7475CF2C__CTOR_OFFSET UNITYSDK_OFFSET(0x15906480)
+#define CLASS_2_AC5A5A3B7475CF2C_METHOD_2_4C319F4EF3F42834_OFFSET UNITYSDK_OFFSET(0x1A5B1280)
+#define CLASS_2_AC5A5A3B7475CF2C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B1270)
 
-inline static constexpr unsigned int Class_2_AC5A5A3B7475CF2C_TypeDefinitionIndex = 35056;
+inline static constexpr unsigned int Class_2_AC5A5A3B7475CF2C_TypeDefinitionIndex = 35838;
 
-class Class_2_AC5A5A3B7475CF2C : public ::Class_1_26684305CEECE64E
+class Class_2_AC5A5A3B7475CF2C : public ::Class_1_E559374AC4E5AD13
 {
 public:
 	::RPG::GameCore::CakeRaceActionGeneratePickupItem* Field_2_0; // 0x10

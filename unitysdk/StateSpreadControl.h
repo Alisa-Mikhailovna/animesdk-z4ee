@@ -8,14 +8,12 @@ namespace System { class String; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define STATESPREADCONTROL_METHOD_4_C06AC8811E797798_OFFSET UNITYSDK_OFFSET(0x13ECFC20)
-#define STATESPREADCONTROL_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x13ECFA60)
-#define STATESPREADCONTROL_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13ECFB70)
-#define STATESPREADCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECFD40)
-#define STATESPREADCONTROL___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x13ECFD50)
-#define STATESPREADCONTROL___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13ECFD60)
+#define STATESPREADCONTROL_METHOD_4_C06AC8811E797798_OFFSET UNITYSDK_OFFSET(0xDD6A9F0)
+#define STATESPREADCONTROL_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xDD6A830)
+#define STATESPREADCONTROL_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDD6A940)
+#define STATESPREADCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDD6AB10)
 
-inline static constexpr unsigned int StateSpreadControl_TypeDefinitionIndex = 44915;
+inline static constexpr unsigned int StateSpreadControl_TypeDefinitionIndex = 45833;
 
 class StateSpreadControl : public ::UnityEngine::StateMachineBehaviour
 {
@@ -46,15 +44,5 @@ public:
 	::System::Void Method_4_C06AC8811E797798(::UnityEngine::AnimatorStateInfo a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimatorStateInfo))((::PBYTE)hIl2Cpp + STATESPREADCONTROL_METHOD_4_C06AC8811E797798_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + STATESPREADCONTROL___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + STATESPREADCONTROL___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 	}
 };

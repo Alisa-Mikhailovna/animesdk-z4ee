@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_1_OFFSET UNITYSDK_OFFSET(0x17CD0850)
-#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x17CCED70)
+#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_1_OFFSET UNITYSDK_OFFSET(0x1CCCBA20)
+#define SYSTEM_NET_NETRES_GETWEBSTATUSSTRING_OFFSET UNITYSDK_OFFSET(0x1CCC9D90)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int NetRes_TypeDefinitionIndex = 2771;
+	inline static constexpr unsigned int NetRes_TypeDefinitionIndex = 2775;
 
 	class NetRes : public ::System::Object
 	{

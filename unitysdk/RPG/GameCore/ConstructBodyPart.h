@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTRUCTBODYPART_METHOD_3_308E3119A8D302C9_OFFSET UNITYSDK_OFFSET(0x19B15B50)
-#define RPG_GAMECORE_CONSTRUCTBODYPART_METHOD_3_6CEB49911DA8D837_OFFSET UNITYSDK_OFFSET(0x19B15BF0)
-#define RPG_GAMECORE_CONSTRUCTBODYPART__CTOR_OFFSET UNITYSDK_OFFSET(0x19B15BB0)
+#define RPG_GAMECORE_CONSTRUCTBODYPART_METHOD_3_6CEB49911DA8D837_OFFSET UNITYSDK_OFFSET(0x1B382110)
+#define RPG_GAMECORE_CONSTRUCTBODYPART_METHOD_3_8C6756B82D0014BA_OFFSET UNITYSDK_OFFSET(0x1B3820B0)
+#define RPG_GAMECORE_CONSTRUCTBODYPART__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3820F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstructBodyPart_TypeDefinitionIndex = 21460;
+	inline static constexpr unsigned int ConstructBodyPart_TypeDefinitionIndex = 21880;
 
 	class ConstructBodyPart : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSTRUCTBODYPART__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_308E3119A8D302C9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConstructBodyPart*& a2)
+		static ::System::Void Method_3_8C6756B82D0014BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConstructBodyPart*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConstructBodyPart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSTRUCTBODYPART_METHOD_3_308E3119A8D302C9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConstructBodyPart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSTRUCTBODYPART_METHOD_3_8C6756B82D0014BA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6CEB49911DA8D837(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConstructBodyPart* a2)

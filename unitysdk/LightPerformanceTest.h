@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define LIGHTPERFORMANCETEST_METHOD_5_08FCA3D3B5F2C6EA_OFFSET UNITYSDK_OFFSET(0x165B8D40)
-#define LIGHTPERFORMANCETEST_START_OFFSET UNITYSDK_OFFSET(0x165B8940)
-#define LIGHTPERFORMANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x165B9290)
-#define LIGHTPERFORMANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0x165B9320)
+#define LIGHTPERFORMANCETEST_METHOD_5_D9EEB46F94083DE4_OFFSET UNITYSDK_OFFSET(0xAFC53A0)
+#define LIGHTPERFORMANCETEST_START_OFFSET UNITYSDK_OFFSET(0xAFC4FA0)
+#define LIGHTPERFORMANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xAFC5B80)
+#define LIGHTPERFORMANCETEST__CTOR_OFFSET UNITYSDK_OFFSET(0xAFC5C10)
 
-inline static constexpr unsigned int LightPerformanceTest_TypeDefinitionIndex = 44651;
+inline static constexpr unsigned int LightPerformanceTest_TypeDefinitionIndex = 45530;
 
 class LightPerformanceTest : public ::UnityEngine::MonoBehaviour
 {
@@ -42,8 +42,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LIGHTPERFORMANCETEST_UPDATE_OFFSET))(this);
 	}
 
-	::System::Void Method_5_08FCA3D3B5F2C6EA(::System::Int32 a1)
+	::System::Void Method_5_D9EEB46F94083DE4(::System::Int32 a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LIGHTPERFORMANCETEST_METHOD_5_08FCA3D3B5F2C6EA_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + LIGHTPERFORMANCETEST_METHOD_5_D9EEB46F94083DE4_OFFSET))(this, a1);
 	}
 };

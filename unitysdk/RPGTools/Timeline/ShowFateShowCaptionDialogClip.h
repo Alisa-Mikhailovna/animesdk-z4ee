@@ -8,25 +8,25 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19B5DA40)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x19B5DA30)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B5DC80)
-#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5DC10)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD193A0)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDD19390)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD195E0)
+#define RPGTOOLS_TIMELINE_SHOWFATESHOWCAPTIONDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD19570)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowFateShowCaptionDialogClip_TypeDefinitionIndex = 45576;
+	inline static constexpr unsigned int ShowFateShowCaptionDialogClip_TypeDefinitionIndex = 46510;
 
 	class ShowFateShowCaptionDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0xDEA0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0x6B940);
 		}
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0xDEA8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowFateShowCaptionDialogClip_TypeDefinitionIndex)->GetStaticField(0x6B948);
 		}
 		::System::String* UILuaPath; // 0x18
 		::System::String* UIParam; // 0x20

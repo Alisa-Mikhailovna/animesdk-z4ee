@@ -5,11 +5,10 @@
 
 namespace System { class String; }
 
-#define CLASS_2_3F308C065E77A1F7_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x161D79F0)
-#define CLASS_2_3F308C065E77A1F7__CTOR_OFFSET UNITYSDK_OFFSET(0x161D7B90)
-#define CLASS_2_3F308C065E77A1F7___IFIXBASEPROXY_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x161D7BA0)
+#define CLASS_2_3F308C065E77A1F7_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xB6CD540)
+#define CLASS_2_3F308C065E77A1F7__CTOR_OFFSET UNITYSDK_OFFSET(0xB6CD6E0)
 
-inline static constexpr unsigned int Class_2_3F308C065E77A1F7_TypeDefinitionIndex = 68496;
+inline static constexpr unsigned int Class_2_3F308C065E77A1F7_TypeDefinitionIndex = 69990;
 
 class Class_2_3F308C065E77A1F7 : public ::Class_1_A0E178FC9445316D
 {
@@ -24,10 +23,5 @@ public:
 	::UnityEngine::Vector3 get_Position()
 	{
 		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3F308C065E77A1F7_GET_POSITION_OFFSET))(this);
-	}
-
-	::UnityEngine::Vector3 __iFixBaseProxy_get_Position()
-	{
-		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3F308C065E77A1F7___IFIXBASEPROXY_GET_POSITION_OFFSET))(this);
 	}
 };

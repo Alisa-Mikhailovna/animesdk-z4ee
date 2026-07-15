@@ -5,12 +5,12 @@
 namespace RPG::Client { class CustomTransitionFadeOut; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17169300)
-#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS4_0__GETANIMTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x17169450)
+#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD290B70)
+#define RPG_CLIENT_RPGFADEANIMATION___C__DISPLAYCLASS4_0__GETANIMTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xD290CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGFadeAnimation___c__DisplayClass4_0_TypeDefinitionIndex = 68032;
+	inline static constexpr unsigned int RPGFadeAnimation___c__DisplayClass4_0_TypeDefinitionIndex = 69518;
 
 	class RPGFadeAnimation___c__DisplayClass4_0 : public ::System::Object
 	{

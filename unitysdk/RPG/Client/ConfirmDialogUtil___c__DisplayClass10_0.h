@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F26550)
-#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS10_0__SHOWFORCEUPDATEHINT_B__0_OFFSET UNITYSDK_OFFSET(0x15F28FD0)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1B3830)
+#define RPG_CLIENT_CONFIRMDIALOGUTIL___C__DISPLAYCLASS10_0__SHOWFORCEUPDATEHINT_B__0_OFFSET UNITYSDK_OFFSET(0xC1B6930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass10_0_TypeDefinitionIndex = 67930;
+	inline static constexpr unsigned int ConfirmDialogUtil___c__DisplayClass10_0_TypeDefinitionIndex = 69416;
 
 	class ConfirmDialogUtil___c__DisplayClass10_0 : public ::System::Object
 	{

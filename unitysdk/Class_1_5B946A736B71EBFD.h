@@ -7,42 +7,42 @@ class Class_1_2F293706394A94E6;
 namespace System { class Random; }
 namespace System { class String; }
 
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_0B002F98131AB192_OFFSET UNITYSDK_OFFSET(0x175054E0)
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x175053C0)
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x175053D0)
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_4BA2C8D2814B7E15_OFFSET UNITYSDK_OFFSET(0x17506870)
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_660DC82396266CCA_OFFSET UNITYSDK_OFFSET(0x17506770)
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_9123E7AE4C1ABB04_OFFSET UNITYSDK_OFFSET(0x175069A0)
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_EE7A41C190351096_OFFSET UNITYSDK_OFFSET(0x17506B30)
-#define CLASS_1_5B946A736B71EBFD_METHOD_1_FD00866FF781302D_OFFSET UNITYSDK_OFFSET(0x17505DA0)
-#define CLASS_1_5B946A736B71EBFD__CCTOR_OFFSET UNITYSDK_OFFSET(0x17506C10)
-#define CLASS_1_5B946A736B71EBFD__CTOR_OFFSET UNITYSDK_OFFSET(0x17506BB0)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_0B002F98131AB192_OFFSET UNITYSDK_OFFSET(0x1A386360)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x1A3861E0)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_4BA2C8D2814B7E15_OFFSET UNITYSDK_OFFSET(0x1A3876F0)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_660DC82396266CCA_OFFSET UNITYSDK_OFFSET(0x1A3875F0)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_9123E7AE4C1ABB04_OFFSET UNITYSDK_OFFSET(0x1A387820)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_EE7A41C190351096_OFFSET UNITYSDK_OFFSET(0x1A3879B0)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0x1A3861F0)
+#define CLASS_1_5B946A736B71EBFD_METHOD_1_FD00866FF781302D_OFFSET UNITYSDK_OFFSET(0x1A386C20)
+#define CLASS_1_5B946A736B71EBFD__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A387A90)
+#define CLASS_1_5B946A736B71EBFD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A387A30)
 
-inline static constexpr unsigned int Class_1_5B946A736B71EBFD_TypeDefinitionIndex = 38539;
+inline static constexpr unsigned int Class_1_5B946A736B71EBFD_TypeDefinitionIndex = 39347;
 
 class Class_1_5B946A736B71EBFD : public ::System::Object
 {
 public:
 	static ::System::Random** StaticGet_Field_1_0()
 	{
-		return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B946A736B71EBFD_TypeDefinitionIndex)->GetStaticField(0x23110);
+		return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B946A736B71EBFD_TypeDefinitionIndex)->GetStaticField(0x25FA0);
 	}
 	static ::System::UInt32* StaticGet_Field_1_1()
 	{
-		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B946A736B71EBFD_TypeDefinitionIndex)->GetStaticField(0x8E50);
+		return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B946A736B71EBFD_TypeDefinitionIndex)->GetStaticField(0x74D0);
 	}
 	static ::System::Boolean* StaticGet_Field_1_2()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B946A736B71EBFD_TypeDefinitionIndex)->GetStaticField(0x8E54);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5B946A736B71EBFD_TypeDefinitionIndex)->GetStaticField(0x74D4);
 	}
 	// static const ::System::Double Field_1_3; // 0x0
-	::Il2CppArray<::System::String*>* Field_1_4; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x18
-	::Class_1_2F293706394A94E6* Field_1_6; // 0x20
-	::System::UInt32 Field_1_7; // 0x28
-	::System::Boolean Field_1_8; // 0x2C
-	::System::Boolean Field_1_9; // 0x2D
-	::System::Double Field_1_10; // 0x30
+	::Class_1_2F293706394A94E6* Field_1_4; // 0x10
+	::Il2CppArray<::System::String*>* Field_1_5; // 0x18
+	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x20
+	::System::Double Field_1_7; // 0x28
+	::System::Boolean Field_1_8; // 0x30
+	::System::Boolean Field_1_9; // 0x31
+	::System::UInt32 Field_1_10; // 0x34
 
 	::System::Void _ctor()
 	{
@@ -59,9 +59,9 @@ public:
 		return ((::Class_1_2F293706394A94E6*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5B946A736B71EBFD_METHOD_1_24748FC20F375725_OFFSET))(this);
 	}
 
-	::System::Void Method_1_30D1209326FA87FC()
+	::System::Void Method_1_F0BD65B017F2AC0B()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5B946A736B71EBFD_METHOD_1_30D1209326FA87FC_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5B946A736B71EBFD_METHOD_1_F0BD65B017F2AC0B_OFFSET))(this);
 	}
 
 	::System::Boolean Method_1_0B002F98131AB192(::Il2CppArray<::System::Byte>* a1)

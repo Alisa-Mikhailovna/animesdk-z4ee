@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class InitLittleGameWithLevelConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1E4082C14CE6A549_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169F55B0)
-#define CLASS_3_1E4082C14CE6A549__CTOR_OFFSET UNITYSDK_OFFSET(0x169F5580)
+#define CLASS_3_1E4082C14CE6A549_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAE06300)
+#define CLASS_3_1E4082C14CE6A549__CTOR_OFFSET UNITYSDK_OFFSET(0xAE062D0)
 
-inline static constexpr unsigned int Class_3_1E4082C14CE6A549_TypeDefinitionIndex = 49504;
+inline static constexpr unsigned int Class_3_1E4082C14CE6A549_TypeDefinitionIndex = 50555;
 
 class Class_3_1E4082C14CE6A549 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InitLittleGameWithLevelConfig*>
 {

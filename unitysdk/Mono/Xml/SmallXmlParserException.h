@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define MONO_XML_SMALLXMLPARSEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x13FA40C0)
+#define MONO_XML_SMALLXMLPARSEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F874E0)
 
 namespace Mono::Xml
 {
@@ -13,8 +13,8 @@ namespace Mono::Xml
 	class SmallXmlParserException : public ::System::SystemException
 	{
 	public:
-		::System::Int32 line; // 0x88
-		::System::Int32 column; // 0x8C
+		::System::Int32 column; // 0x88
+		::System::Int32 line; // 0x8C
 
 		::System::Void _ctor(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{

@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelLayerType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELRUNTIMEINSPECTOR_DELIVER_OFFSET UNITYSDK_OFFSET(0x18871D90)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELRUNTIMEINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18871DD0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELRUNTIMEINSPECTOR_DELIVER_OFFSET UNITYSDK_OFFSET(0xC9D1AD0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELRUNTIMEINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC9D1B10)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelRuntimeInspector_TypeDefinitionIndex = 71384;
+	inline static constexpr unsigned int FourRotateVoxelRuntimeInspector_TypeDefinitionIndex = 72909;
 
 	class FourRotateVoxelRuntimeInspector : public ::UnityEngine::MonoBehaviour
 	{

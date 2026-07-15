@@ -6,10 +6,10 @@ class Class_1_A46ED100713943F0;
 class Class_1_F4FDF85E8BF452D8;
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1943E490)
-#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0___MAKECHOICE_B__1_OFFSET UNITYSDK_OFFSET(0x1943F290)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A915D80)
+#define CLASS_1_F4FDF85E8BF452D8___C__DISPLAYCLASS18_0___MAKECHOICE_B__1_OFFSET UNITYSDK_OFFSET(0x1A916B80)
 
-inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass18_0_TypeDefinitionIndex = 39675;
+inline static constexpr unsigned int Class_1_F4FDF85E8BF452D8___c__DisplayClass18_0_TypeDefinitionIndex = 40484;
 
 class Class_1_F4FDF85E8BF452D8___c__DisplayClass18_0 : public ::System::Object
 {

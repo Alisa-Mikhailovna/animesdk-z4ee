@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_FA28B6C6F056AAEE_OFFSET UNITYSDK_OFFSET(0x196A6D60)
-#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_FE4EF4BAC650CAB1_OFFSET UNITYSDK_OFFSET(0x196A6CC0)
-#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x196A6D20)
+#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_63A50D62F8406B77_OFFSET UNITYSDK_OFFSET(0x1B6092E0)
+#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_FA28B6C6F056AAEE_OFFSET UNITYSDK_OFFSET(0x1B609330)
+#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B609320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAiVisionExcludeTagRuntime_TypeDefinitionIndex = 20526;
+	inline static constexpr unsigned int ModifyAiVisionExcludeTagRuntime_TypeDefinitionIndex = 20941;
 
 	class ModifyAiVisionExcludeTagRuntime : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FE4EF4BAC650CAB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*& a2)
+		static ::System::Void Method_3_63A50D62F8406B77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_FE4EF4BAC650CAB1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_63A50D62F8406B77_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FA28B6C6F056AAEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime* a2)

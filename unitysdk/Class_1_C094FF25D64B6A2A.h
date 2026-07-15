@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define CLASS_1_C094FF25D64B6A2A_METHOD_1_9A940AE0D4CA56C8_OFFSET UNITYSDK_OFFSET(0x1A2662C0)
-#define CLASS_1_C094FF25D64B6A2A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1A266440)
-#define CLASS_1_C094FF25D64B6A2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2664B0)
+#define CLASS_1_C094FF25D64B6A2A_METHOD_1_9A940AE0D4CA56C8_OFFSET UNITYSDK_OFFSET(0x1A8BCE40)
+#define CLASS_1_C094FF25D64B6A2A_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1A8BCFC0)
+#define CLASS_1_C094FF25D64B6A2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8BD030)
 
-inline static constexpr unsigned int Class_1_C094FF25D64B6A2A_TypeDefinitionIndex = 40299;
+inline static constexpr unsigned int Class_1_C094FF25D64B6A2A_TypeDefinitionIndex = 41114;
 
 class Class_1_C094FF25D64B6A2A : public ::System::Object
 {
@@ -18,10 +18,10 @@ public:
 	::System::String* Field_1_1; // 0x18
 	::System::String* Field_1_2; // 0x20
 	::RPG::GameCore::ChenLingFesToastStyleType Field_1_3; // 0x28
-	::System::Single Field_1_4; // 0x2C
-	::System::Single Field_1_5; // 0x30
-	::System::Boolean Field_1_6; // 0x34
-	::System::Boolean Field_1_7; // 0x35
+	::System::Boolean Field_1_4; // 0x2C
+	::System::Boolean Field_1_5; // 0x2D
+	::System::Single Field_1_6; // 0x30
+	::System::Single Field_1_7; // 0x34
 
 	::System::Void _ctor()
 	{

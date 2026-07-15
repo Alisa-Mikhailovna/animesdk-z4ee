@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class ProbePuzzleBoard; }
 namespace RPG::Client::Prop { class ProbePuzzleItem; }
 
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B552B0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0___ONMODEPROBETRIGGERED_B__0_OFFSET UNITYSDK_OFFSET(0x15B56A40)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F59F0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD___C__DISPLAYCLASS6_0___ONMODEPROBETRIGGERED_B__0_OFFSET UNITYSDK_OFFSET(0xD1F70F0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ProbePuzzleBoard___c__DisplayClass6_0_TypeDefinitionIndex = 73298;
+	inline static constexpr unsigned int ProbePuzzleBoard___c__DisplayClass6_0_TypeDefinitionIndex = 74823;
 
 	class ProbePuzzleBoard___c__DisplayClass6_0 : public ::System::Object
 	{

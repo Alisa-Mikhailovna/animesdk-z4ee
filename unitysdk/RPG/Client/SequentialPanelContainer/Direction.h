@@ -3,7 +3,7 @@
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 69782;
+	inline static constexpr unsigned int Direction_TypeDefinitionIndex = 71305;
 
 	enum class Direction : ::System::Int32
 	{

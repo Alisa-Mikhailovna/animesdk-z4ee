@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraPhaseCondition; }
 
-#define RPG_GAMECORE_CHIMERAPHASECONDITIONCONFIG_METHOD_2_EC44242E1C97BABB_OFFSET UNITYSDK_OFFSET(0x1A3065C0)
-#define RPG_GAMECORE_CHIMERAPHASECONDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3066B0)
+#define RPG_GAMECORE_CHIMERAPHASECONDITIONCONFIG_METHOD_2_EC44242E1C97BABB_OFFSET UNITYSDK_OFFSET(0x1B356180)
+#define RPG_GAMECORE_CHIMERAPHASECONDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B356270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraPhaseConditionConfig_TypeDefinitionIndex = 15113;
+	inline static constexpr unsigned int ChimeraPhaseConditionConfig_TypeDefinitionIndex = 15277;
 
 	class ChimeraPhaseConditionConfig : public ::RPG::GameCore::JsonConfig
 	{

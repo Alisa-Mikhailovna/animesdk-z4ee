@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITY_COLLECTIONS_NATIVELEAKDETECTION_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1AB3D580)
+#define UNITY_COLLECTIONS_NATIVELEAKDETECTION_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1CFFD020)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int NativeLeakDetection_TypeDefinitionIndex = 3972;
+	inline static constexpr unsigned int NativeLeakDetection_TypeDefinitionIndex = 3977;
 
 	class NativeLeakDetection : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_s_NativeLeakDetectionMode()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NativeLeakDetection_TypeDefinitionIndex)->GetStaticField(0x9F30);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NativeLeakDetection_TypeDefinitionIndex)->GetStaticField(0x8CB0);
 		}
 
 		static ::System::Void Initialize()

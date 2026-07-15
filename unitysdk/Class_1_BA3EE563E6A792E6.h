@@ -4,9 +4,9 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define CLASS_1_BA3EE563E6A792E6__CTOR_OFFSET UNITYSDK_OFFSET(0x1471FC00)
+#define CLASS_1_BA3EE563E6A792E6__CTOR_OFFSET UNITYSDK_OFFSET(0x149E5930)
 
-inline static constexpr unsigned int Class_1_BA3EE563E6A792E6_TypeDefinitionIndex = 68391;
+inline static constexpr unsigned int Class_1_BA3EE563E6A792E6_TypeDefinitionIndex = 69885;
 
 class Class_1_BA3EE563E6A792E6 : public ::System::Object
 {

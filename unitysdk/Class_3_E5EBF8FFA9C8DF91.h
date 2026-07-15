@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SetLuaActionQueuePause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E5EBF8FFA9C8DF91_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BE7AB0)
-#define CLASS_3_E5EBF8FFA9C8DF91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BE7B30)
-#define CLASS_3_E5EBF8FFA9C8DF91__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE7A80)
-#define CLASS_3_E5EBF8FFA9C8DF91___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BE7BB0)
+#define CLASS_3_E5EBF8FFA9C8DF91_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14C089E0)
+#define CLASS_3_E5EBF8FFA9C8DF91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14C08A60)
+#define CLASS_3_E5EBF8FFA9C8DF91__CTOR_OFFSET UNITYSDK_OFFSET(0x14C089B0)
 
-inline static constexpr unsigned int Class_3_E5EBF8FFA9C8DF91_TypeDefinitionIndex = 54708;
+inline static constexpr unsigned int Class_3_E5EBF8FFA9C8DF91_TypeDefinitionIndex = 55933;
 
 class Class_3_E5EBF8FFA9C8DF91 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetLuaActionQueuePause*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E5EBF8FFA9C8DF91_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E5EBF8FFA9C8DF91___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

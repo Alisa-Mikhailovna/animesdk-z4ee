@@ -7,29 +7,29 @@ namespace RPG::Client { class SwordTrainingSkillTypeData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x184BC0C0)
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x184BC100)
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__FETCHSAMERANKSKILLLIST_B__15_0_OFFSET UNITYSDK_OFFSET(0x184BC130)
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__GETUNLOCKSKILLTYPEDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0x184BC110)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD5EB2A0)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD5EB2E0)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__FETCHSAMERANKSKILLLIST_B__15_0_OFFSET UNITYSDK_OFFSET(0xD5EB310)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__GETUNLOCKSKILLTYPEDATA_B__5_0_OFFSET UNITYSDK_OFFSET(0xD5EB2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingSkillInfo___c_TypeDefinitionIndex = 57956;
+	inline static constexpr unsigned int SwordTrainingSkillInfo___c_TypeDefinitionIndex = 59222;
 
 	class SwordTrainingSkillInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::SwordTrainingSkillInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::SwordTrainingSkillInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingSkillInfo___c_TypeDefinitionIndex)->GetStaticField(0x473D0);
-		}
 		static ::System::Comparison_1<::RPG::Client::SwordTrainingSameRankSkill>** StaticGet___9__15_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SwordTrainingSameRankSkill>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingSkillInfo___c_TypeDefinitionIndex)->GetStaticField(0x473D8);
+			return (::System::Comparison_1<::RPG::Client::SwordTrainingSameRankSkill>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingSkillInfo___c_TypeDefinitionIndex)->GetStaticField(0x37DC0);
+		}
+		static ::RPG::Client::SwordTrainingSkillInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::SwordTrainingSkillInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingSkillInfo___c_TypeDefinitionIndex)->GetStaticField(0x37DC8);
 		}
 		static ::System::Func_2<::RPG::Client::SwordTrainingSkillTypeData*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::SwordTrainingSkillTypeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingSkillInfo___c_TypeDefinitionIndex)->GetStaticField(0x473E0);
+			return (::System::Func_2<::RPG::Client::SwordTrainingSkillTypeData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SwordTrainingSkillInfo___c_TypeDefinitionIndex)->GetStaticField(0x37DD0);
 		}
 
 		static ::System::Void _cctor()

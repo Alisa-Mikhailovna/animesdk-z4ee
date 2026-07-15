@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-class Class_1_2FDE33CCAE591AA8;
 class Class_1_5F4D64A4B97E38F9;
+namespace Sofa::Core { class SimpleCommand; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0x1899F270)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0x1899F280)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1899F1B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1899F290)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0xC955600)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET UNITYSDK_OFFSET(0xC955610)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC955540)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC955620)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPostZoomInViewModel_TypeDefinitionIndex = 73895;
+	inline static constexpr unsigned int LimaoNewsPostZoomInViewModel_TypeDefinitionIndex = 75546;
 
 	class LimaoNewsPostZoomInViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::Class_1_2FDE33CCAE591AA8* _OnBtnClose_k__BackingField; // 0x20
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x28
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x20
+		::Sofa::Core::SimpleCommand* _OnBtnClose_k__BackingField; // 0x28
 		::System::String* PrefabPath; // 0x30
 
 		::System::Void _ctor(::System::String* a1, ::Class_1_5F4D64A4B97E38F9* a2)
@@ -27,14 +27,14 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::Class_1_2FDE33CCAE591AA8* get_OnBtnClose()
+		::Sofa::Core::SimpleCommand* get_OnBtnClose()
 		{
-			return ((::Class_1_2FDE33CCAE591AA8*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET))(this);
+			return ((::Sofa::Core::SimpleCommand*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_GET_ONBTNCLOSE_OFFSET))(this);
 		}
 
-		::System::Void set_OnBtnClose(::Class_1_2FDE33CCAE591AA8* a1)
+		::System::Void set_OnBtnClose(::Sofa::Core::SimpleCommand* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2FDE33CCAE591AA8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Sofa::Core::SimpleCommand*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTZOOMINVIEWMODEL_SET_ONBTNCLOSE_OFFSET))(this, a1);
 		}
 
 		::System::Void __ctor_b__0_0()

@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHATINVITECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A149090)
-#define RPG_GAMECORE_CHATINVITECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A149600)
+#define RPG_GAMECORE_CHATINVITECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B323B20)
+#define RPG_GAMECORE_CHATINVITECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B324090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChatInviteConfigRow_TypeDefinitionIndex = 12375;
+	inline static constexpr unsigned int ChatInviteConfigRow_TypeDefinitionIndex = 12508;
 
 	class ChatInviteConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* PicPath; // 0x10
-		::RPG::Client::TextID InviteGo; // 0x18
-		::RPG::Client::TextID InviteContent; // 0x28
-		::RPG::Client::TextID NoticeDesc; // 0x38
-		::RPG::Client::TextID InviteTitle; // 0x48
-		::RPG::Client::TextID InviteInvalid; // 0x58
-		::RPG::GameCore::ChatNoticeType ChatNoticeType; // 0x68
-		::System::Single ExpireTime; // 0x6C
-		::RPG::Client::TextID SendDesc; // 0x70
-		::System::Single NoticeTime; // 0x80
-		::System::UInt32 ID; // 0x84
+		::RPG::Client::TextID InviteContent; // 0x18
+		::RPG::Client::TextID InviteTitle; // 0x28
+		::RPG::Client::TextID InviteInvalid; // 0x38
+		::RPG::Client::TextID SendDesc; // 0x48
+		::RPG::GameCore::ChatNoticeType ChatNoticeType; // 0x58
+		::System::UInt32 ID; // 0x5C
+		::RPG::Client::TextID InviteGo; // 0x60
+		::RPG::Client::TextID NoticeDesc; // 0x70
+		::System::Single ExpireTime; // 0x80
+		::System::Single NoticeTime; // 0x84
 
 		::System::Void _ctor()
 		{

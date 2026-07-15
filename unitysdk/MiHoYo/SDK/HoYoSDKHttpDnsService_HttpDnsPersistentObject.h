@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSPERSISTENTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x193929A0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSPERSISTENTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xAABC490)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsPersistentObject_TypeDefinitionIndex = 43506;
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsPersistentObject_TypeDefinitionIndex = 44367;
 
 	class HoYoSDKHttpDnsService_HttpDnsPersistentObject : public ::System::Object
 	{

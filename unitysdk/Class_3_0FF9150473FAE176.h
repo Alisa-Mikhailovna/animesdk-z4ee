@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/AbilityDynamicFloatInjection.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_3_795ECCED069014FF;
+class Class_3_BB8B7764D3497776;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class RtAddStageAbilityByName; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_0FF9150473FAE176_METHOD_3_350158C390D9C59F_OFFSET UNITYSDK_OFFSET(0x13B9C350)
-#define CLASS_3_0FF9150473FAE176_METHOD_3_4384D4E1D98F4564_OFFSET UNITYSDK_OFFSET(0x13B9C420)
-#define CLASS_3_0FF9150473FAE176_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B9C240)
-#define CLASS_3_0FF9150473FAE176__CTOR_OFFSET UNITYSDK_OFFSET(0x13B9C210)
+#define CLASS_3_0FF9150473FAE176_METHOD_3_350158C390D9C59F_OFFSET UNITYSDK_OFFSET(0x144B4570)
+#define CLASS_3_0FF9150473FAE176_METHOD_3_4384D4E1D98F4564_OFFSET UNITYSDK_OFFSET(0x144B4640)
+#define CLASS_3_0FF9150473FAE176_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144B4450)
+#define CLASS_3_0FF9150473FAE176__CTOR_OFFSET UNITYSDK_OFFSET(0x144B4420)
 
-inline static constexpr unsigned int Class_3_0FF9150473FAE176_TypeDefinitionIndex = 50265;
+inline static constexpr unsigned int Class_3_0FF9150473FAE176_TypeDefinitionIndex = 51347;
 
 class Class_3_0FF9150473FAE176 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtAddStageAbilityByName*>
 {
@@ -29,9 +29,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_0FF9150473FAE176_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_350158C390D9C59F(::Class_3_795ECCED069014FF* a1, ::System::String* a2)
+	::System::Void Method_3_350158C390D9C59F(::Class_3_BB8B7764D3497776* a1, ::System::String* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_3_795ECCED069014FF*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_0FF9150473FAE176_METHOD_3_350158C390D9C59F_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_3_BB8B7764D3497776*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_0FF9150473FAE176_METHOD_3_350158C390D9C59F_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::PoolList_1<::RPG::GameCore::AbilityDynamicFloatInjection>* Method_3_4384D4E1D98F4564()

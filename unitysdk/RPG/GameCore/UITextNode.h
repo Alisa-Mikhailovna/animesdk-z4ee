@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UITEXTNODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A64100)
-#define RPG_GAMECORE_UITEXTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A64360)
+#define RPG_GAMECORE_UITEXTNODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9C07B0)
+#define RPG_GAMECORE_UITEXTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C0A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UITextNode_TypeDefinitionIndex = 22533;
+	inline static constexpr unsigned int UITextNode_TypeDefinitionIndex = 22984;
 
 	class UITextNode : public ::RPG::GameCore::JsonConfig
 	{

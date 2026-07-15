@@ -4,11 +4,11 @@
 
 namespace RPG::Client::Prop { class RubikCubePuzzleBrickData; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12C6B760)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD20EC20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleBlockData_TypeDefinitionIndex = 73349;
+	inline static constexpr unsigned int RubikCubePuzzleBlockData_TypeDefinitionIndex = 74874;
 
 	class RubikCubePuzzleBlockData : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 
 namespace MiHoYo::SDK { class MiHoYoSDKServer; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16AB61E0)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS98_0__ONGETSDKEVENTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x16AB8E00)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB07080)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS98_0__ONGETSDKEVENTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xAB09F70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass98_0_TypeDefinitionIndex = 43740;
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass98_0_TypeDefinitionIndex = 44602;
 
 	class MiHoYoSDKServer___c__DisplayClass98_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* bytes; // 0x10
-		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x18
+		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x10
+		::Il2CppArray<::System::Byte>* bytes; // 0x18
 		::System::Int32 evt; // 0x20
 		::System::UInt32 length; // 0x24
 

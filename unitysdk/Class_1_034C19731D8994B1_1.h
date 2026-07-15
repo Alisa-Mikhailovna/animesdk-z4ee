@@ -6,9 +6,9 @@
 
 namespace RPG::GameCore { class FiveDimAvatarConfig; }
 
-#define CLASS_1_034C19731D8994B1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x152AF730)
+#define CLASS_1_034C19731D8994B1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8039F0)
 
-inline static constexpr unsigned int Class_1_034C19731D8994B1_1_TypeDefinitionIndex = 40017;
+inline static constexpr unsigned int Class_1_034C19731D8994B1_1_TypeDefinitionIndex = 40830;
 
 class Class_1_034C19731D8994B1_1 : public ::System::Object
 {

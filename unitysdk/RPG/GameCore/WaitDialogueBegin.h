@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITDIALOGUEBEGIN_METHOD_3_26D843F861AC455A_OFFSET UNITYSDK_OFFSET(0x1B315460)
-#define RPG_GAMECORE_WAITDIALOGUEBEGIN_METHOD_3_5B63E07ADE96C14B_OFFSET UNITYSDK_OFFSET(0x1B3154E0)
-#define RPG_GAMECORE_WAITDIALOGUEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3154B0)
+#define RPG_GAMECORE_WAITDIALOGUEBEGIN_METHOD_3_5B63E07ADE96C14B_OFFSET UNITYSDK_OFFSET(0x1B9E4140)
+#define RPG_GAMECORE_WAITDIALOGUEBEGIN_METHOD_3_9663DB9837CFFBD2_OFFSET UNITYSDK_OFFSET(0x1B9E40F0)
+#define RPG_GAMECORE_WAITDIALOGUEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E4130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitDialogueBegin_TypeDefinitionIndex = 19022;
+	inline static constexpr unsigned int WaitDialogueBegin_TypeDefinitionIndex = 19373;
 
 	class WaitDialogueBegin : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEBEGIN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_26D843F861AC455A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitDialogueBegin*& a2)
+		static ::System::Void Method_3_9663DB9837CFFBD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitDialogueBegin*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitDialogueBegin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEBEGIN_METHOD_3_26D843F861AC455A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitDialogueBegin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEBEGIN_METHOD_3_9663DB9837CFFBD2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5B63E07ADE96C14B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitDialogueBegin* a2)

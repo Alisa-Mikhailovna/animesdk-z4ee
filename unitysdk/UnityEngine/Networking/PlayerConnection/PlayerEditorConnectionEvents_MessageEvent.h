@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Networking::PlayerConnection { class MessageEventArgs; }
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B30F220)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_MESSAGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D03A5D0)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerEditorConnectionEvents_MessageEvent_TypeDefinitionIndex = 4660;
+	inline static constexpr unsigned int PlayerEditorConnectionEvents_MessageEvent_TypeDefinitionIndex = 4665;
 
 	class PlayerEditorConnectionEvents_MessageEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>
 	{

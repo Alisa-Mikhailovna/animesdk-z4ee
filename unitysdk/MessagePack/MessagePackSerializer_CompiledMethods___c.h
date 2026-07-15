@@ -8,29 +8,29 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack { class MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize; }
 namespace MessagePack { class MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A102230)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A102270)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_4_OFFSET UNITYSDK_OFFSET(0x1A102280)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_5_OFFSET UNITYSDK_OFFSET(0x1A1022D0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B3BD50)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B3BD90)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_4_OFFSET UNITYSDK_OFFSET(0x19B3BDA0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_5_OFFSET UNITYSDK_OFFSET(0x19B3BDF0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex = 7173;
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex = 7179;
 
 	class MessagePackSerializer_CompiledMethods___c : public ::System::Object
 	{
 	public:
-		static ::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize** StaticGet___9__14_5()
+		static ::MessagePack::MessagePackSerializer_CompiledMethods___c** StaticGet___9()
 		{
-			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex)->GetStaticField(0xAEC0);
+			return (::MessagePack::MessagePackSerializer_CompiledMethods___c**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex)->GetStaticField(0xDC10);
 		}
 		static ::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize** StaticGet___9__14_4()
 		{
-			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex)->GetStaticField(0xAEC8);
+			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex)->GetStaticField(0xDC18);
 		}
-		static ::MessagePack::MessagePackSerializer_CompiledMethods___c** StaticGet___9()
+		static ::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize** StaticGet___9__14_5()
 		{
-			return (::MessagePack::MessagePackSerializer_CompiledMethods___c**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex)->GetStaticField(0xAED0);
+			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex)->GetStaticField(0xDC20);
 		}
 
 		static ::System::Void _cctor()

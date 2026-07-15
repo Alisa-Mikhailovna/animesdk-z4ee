@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_TIMERTHREAD_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x189534B0)
-#define SYSTEM_NET_TIMERTHREAD_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x18953460)
+#define SYSTEM_NET_TIMERTHREAD_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CD191E0)
+#define SYSTEM_NET_TIMERTHREAD_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD19190)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int TimerThread_Timer_TypeDefinitionIndex = 2775;
+	inline static constexpr unsigned int TimerThread_Timer_TypeDefinitionIndex = 2779;
 
 	class TimerThread_Timer : public ::System::Object
 	{

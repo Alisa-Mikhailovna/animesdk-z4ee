@@ -6,10 +6,10 @@ class Class_1_BB62CC0FD1E45ADE_8;
 namespace RPG::GameCore { class ShowBattleWhiteboxImage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1EDDC95F443137CA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160DAE80)
-#define CLASS_3_1EDDC95F443137CA__CTOR_OFFSET UNITYSDK_OFFSET(0x160DAE50)
+#define CLASS_3_1EDDC95F443137CA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C32E0)
+#define CLASS_3_1EDDC95F443137CA__CTOR_OFFSET UNITYSDK_OFFSET(0x155C32B0)
 
-inline static constexpr unsigned int Class_3_1EDDC95F443137CA_TypeDefinitionIndex = 54764;
+inline static constexpr unsigned int Class_3_1EDDC95F443137CA_TypeDefinitionIndex = 55991;
 
 class Class_3_1EDDC95F443137CA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleWhiteboxImage*>
 {

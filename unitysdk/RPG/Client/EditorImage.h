@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_EDITORIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x14C9DCC0)
+#define RPG_CLIENT_EDITORIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xC2EC7E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EditorImage_TypeDefinitionIndex = 67769;
+	inline static constexpr unsigned int EditorImage_TypeDefinitionIndex = 69253;
 
 	class EditorImage : public ::UnityEngine::MonoBehaviour
 	{

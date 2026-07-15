@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_MAINLIGHTOFFSETITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x182B7F90)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_MAINLIGHTOFFSETITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC1715B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientOnlyCommonConfig_MainLightOffsetItem_TypeDefinitionIndex = 56116;
+	inline static constexpr unsigned int ClientOnlyCommonConfig_MainLightOffsetItem_TypeDefinitionIndex = 57356;
 
 	class ClientOnlyCommonConfig_MainLightOffsetItem : public ::System::Object
 	{

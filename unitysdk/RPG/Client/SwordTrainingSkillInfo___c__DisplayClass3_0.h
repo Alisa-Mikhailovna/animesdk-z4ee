@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class SwordTrainingSkillData; }
 
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184BA1A0)
-#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS3_0__GETSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0x184BC150)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD5EB330)
+#define RPG_CLIENT_SWORDTRAININGSKILLINFO___C__DISPLAYCLASS3_0__GETSKILLDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD5EB340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingSkillInfo___c__DisplayClass3_0_TypeDefinitionIndex = 57957;
+	inline static constexpr unsigned int SwordTrainingSkillInfo___c__DisplayClass3_0_TypeDefinitionIndex = 59223;
 
 	class SwordTrainingSkillInfo___c__DisplayClass3_0 : public ::System::Object
 	{

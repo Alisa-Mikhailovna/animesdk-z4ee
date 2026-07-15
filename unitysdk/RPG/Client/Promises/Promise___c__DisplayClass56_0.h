@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53AC70)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS56_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1B53C510)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS56_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1B53C550)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA298A0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS56_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1AA2B150)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS56_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1AA2B190)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass56_0_TypeDefinitionIndex = 9569;
+	inline static constexpr unsigned int Promise___c__DisplayClass56_0_TypeDefinitionIndex = 9581;
 
 	class Promise___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Exception*>* onRejected; // 0x10
-		::RPG::Client::Promises::Promise* resultPromise; // 0x18
+		::RPG::Client::Promises::Promise* resultPromise; // 0x10
+		::System::Action_1<::System::Exception*>* onRejected; // 0x18
 		::System::Action* onResolved; // 0x20
 
 		::System::Void _ctor()

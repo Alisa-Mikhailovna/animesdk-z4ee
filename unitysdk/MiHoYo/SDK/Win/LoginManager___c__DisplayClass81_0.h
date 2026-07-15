@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x153F8500)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS81_0__REQUESTLOGINBYAPPLE_B__1_OFFSET UNITYSDK_OFFSET(0x1540C8E0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EEDB80)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS81_0__REQUESTLOGINBYAPPLE_B__1_OFFSET UNITYSDK_OFFSET(0x19F02980)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass81_0_TypeDefinitionIndex = 9107;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass81_0_TypeDefinitionIndex = 9119;
 
 	class LoginManager___c__DisplayClass81_0 : public ::System::Object
 	{
 	public:
-		::System::String* idToken; // 0x10
-		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x10
+		::System::String* idToken; // 0x18
 
 		::System::Void _ctor()
 		{

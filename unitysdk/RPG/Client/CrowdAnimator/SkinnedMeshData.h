@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CROWDANIMATOR_SKINNEDMESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15F377F0)
+#define RPG_CLIENT_CROWDANIMATOR_SKINNEDMESHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC1C59D0)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int SkinnedMeshData_TypeDefinitionIndex = 68824;
+	inline static constexpr unsigned int SkinnedMeshData_TypeDefinitionIndex = 70324;
 
 	class SkinnedMeshData : public ::System::Object
 	{

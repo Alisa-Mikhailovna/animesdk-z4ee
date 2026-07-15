@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvRemoveEffectList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_68482C924C10580F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15632100)
-#define CLASS_3_68482C924C10580F__CTOR_OFFSET UNITYSDK_OFFSET(0x156320D0)
+#define CLASS_3_68482C924C10580F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A515F0)
+#define CLASS_3_68482C924C10580F__CTOR_OFFSET UNITYSDK_OFFSET(0x14A515C0)
 
-inline static constexpr unsigned int Class_3_68482C924C10580F_TypeDefinitionIndex = 49081;
+inline static constexpr unsigned int Class_3_68482C924C10580F_TypeDefinitionIndex = 50094;
 
 class Class_3_68482C924C10580F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvRemoveEffectList*>
 {

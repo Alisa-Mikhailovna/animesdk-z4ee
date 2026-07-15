@@ -3,12 +3,12 @@
 #include "unitysdk/Beebyte/Obfuscator/MessageCode.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BEEBYTE_OBFUSCATOR_SUPPRESSLOGATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A183F10)
-#define BEEBYTE_OBFUSCATOR_SUPPRESSLOGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A183F00)
+#define BEEBYTE_OBFUSCATOR_SUPPRESSLOGATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA9E2090)
+#define BEEBYTE_OBFUSCATOR_SUPPRESSLOGATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xA9E2080)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int SuppressLogAttribute_TypeDefinitionIndex = 44394;
+	inline static constexpr unsigned int SuppressLogAttribute_TypeDefinitionIndex = 45264;
 
 	class SuppressLogAttribute : public ::System::Attribute
 	{

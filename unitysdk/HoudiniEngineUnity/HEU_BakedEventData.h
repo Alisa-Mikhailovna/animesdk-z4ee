@@ -6,11 +6,11 @@ namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_BAKEDEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x136943C0)
+#define HOUDINIENGINEUNITY_HEU_BAKEDEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19841A20)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_BakedEventData_TypeDefinitionIndex = 37395;
+	inline static constexpr unsigned int HEU_BakedEventData_TypeDefinitionIndex = 38203;
 
 	class HEU_BakedEventData : public ::HoudiniEngineUnity::HEU_AssetEventData
 	{

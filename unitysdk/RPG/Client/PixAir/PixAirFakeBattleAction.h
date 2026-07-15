@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_43BD383C98B4C0C5_101;
+class Class_1_43BD383C98B4C0C5_103;
 class Class_1_6E6FEE1E26FFD7A8;
 namespace RPG::Client::LittleGame::PixAir { class PixAirLevelController; }
 namespace RPG::Client::LittleGame::PixAir { class PixAirPlaneStatistics; }
@@ -11,23 +11,23 @@ namespace RPG::GameCore { class PixAirEquipmentPresetConfig; }
 namespace RPG::GameCore { class PixAirGamePresetConfig; }
 namespace RPG::GameCore { class PixAirPlanePresetConfig; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_CREATEENEMYPLANESNAPSHOTS_OFFSET UNITYSDK_OFFSET(0x19949C60)
-#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_CREATEPLAYERPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x19949480)
-#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_GET_BATTLEROUNDINFO_OFFSET UNITYSDK_OFFSET(0x19949470)
-#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_RESOLVEBATTLE_OFFSET UNITYSDK_OFFSET(0x19949EF0)
-#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CREATEEQUIPMENTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x19949F60)
-#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CREATEPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0x19949550)
-#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19949460)
+#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_CREATEENEMYPLANESNAPSHOTS_OFFSET UNITYSDK_OFFSET(0xCFC4150)
+#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_CREATEPLAYERPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xCFC3970)
+#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_GET_BATTLEROUNDINFO_OFFSET UNITYSDK_OFFSET(0xCFC3960)
+#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION_RESOLVEBATTLE_OFFSET UNITYSDK_OFFSET(0xCFC43E0)
+#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CREATEEQUIPMENTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xCFC4450)
+#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CREATEPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xCFC3A40)
+#define RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC3950)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirFakeBattleAction_TypeDefinitionIndex = 73611;
+	inline static constexpr unsigned int PixAirFakeBattleAction_TypeDefinitionIndex = 75260;
 
 	class PixAirFakeBattleAction : public ::System::Object
 	{
 	public:
-		::RPG::Client::PixAir::PixAirGameBattleRoundData* _BattleRoundInfo_k__BackingField; // 0x10
-		::RPG::GameCore::PixAirGamePresetConfig* _PresetConfig; // 0x18
+		::RPG::GameCore::PixAirGamePresetConfig* _PresetConfig; // 0x10
+		::RPG::Client::PixAir::PixAirGameBattleRoundData* _BattleRoundInfo_k__BackingField; // 0x18
 
 		::System::Void _ctor(::RPG::GameCore::PixAirGamePresetConfig* a1)
 		{
@@ -59,9 +59,9 @@ namespace RPG::Client::PixAir
 			return ((::Class_1_6E6FEE1E26FFD7A8*(*)(::PVOID, ::RPG::GameCore::PixAirPlanePresetConfig*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CREATEPLANESNAPSHOT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Class_1_43BD383C98B4C0C5_101* _CreateEquipmentSnapshot(::RPG::GameCore::PixAirEquipmentPresetConfig* a1, ::System::Int32 a2)
+		::Class_1_43BD383C98B4C0C5_103* _CreateEquipmentSnapshot(::RPG::GameCore::PixAirEquipmentPresetConfig* a1, ::System::Int32 a2)
 		{
-			return ((::Class_1_43BD383C98B4C0C5_101*(*)(::PVOID, ::RPG::GameCore::PixAirEquipmentPresetConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CREATEEQUIPMENTSNAPSHOT_OFFSET))(this, a1, a2);
+			return ((::Class_1_43BD383C98B4C0C5_103*(*)(::PVOID, ::RPG::GameCore::PixAirEquipmentPresetConfig*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRFAKEBATTLEACTION__CREATEEQUIPMENTSNAPSHOT_OFFSET))(this, a1, a2);
 		}
 	};
 }

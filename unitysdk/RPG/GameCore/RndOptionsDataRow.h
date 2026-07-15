@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RNDOPTIONSDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A2FF290)
-#define RPG_GAMECORE_RNDOPTIONSDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2FF570)
+#define RPG_GAMECORE_RNDOPTIONSDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7335C0)
+#define RPG_GAMECORE_RNDOPTIONSDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7338A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RndOptionsDataRow_TypeDefinitionIndex = 13931;
+	inline static constexpr unsigned int RndOptionsDataRow_TypeDefinitionIndex = 14079;
 
 	class RndOptionsDataRow : public ::System::Object
 	{
 	public:
 		::System::String* JsonPath; // 0x10
 		::RPG::GameCore::JsonEnum* MenuItemType; // 0x18
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 DialogShowOrder; // 0x20
 		::RPG::GameCore::RndGroupType GroupID; // 0x24
-		::System::UInt32 Weight; // 0x28
-		::System::UInt32 DialogShowOrder; // 0x2C
-		::System::UInt32 MenuItemID; // 0x30
+		::System::UInt32 MenuItemID; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::System::UInt32 Weight; // 0x30
 		::System::UInt32 UnlockQuestID; // 0x34
 
 		::System::Void _ctor()

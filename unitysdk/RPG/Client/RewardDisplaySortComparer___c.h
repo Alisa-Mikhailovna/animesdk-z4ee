@@ -5,24 +5,24 @@
 class Class_1_C553D56653AF94EE;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x191BB490)
-#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x191BB4C0)
-#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__LOADCOMPARECONFIG_B__1_0_OFFSET UNITYSDK_OFFSET(0x191BB4D0)
+#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD332260)
+#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD332290)
+#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__LOADCOMPARECONFIG_B__1_0_OFFSET UNITYSDK_OFFSET(0xD3322A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RewardDisplaySortComparer___c_TypeDefinitionIndex = 61457;
+	inline static constexpr unsigned int RewardDisplaySortComparer___c_TypeDefinitionIndex = 62819;
 
 	class RewardDisplaySortComparer___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Class_1_C553D56653AF94EE*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::Class_1_C553D56653AF94EE*>**)Il2CppClass::FromTypeDefinitionIndex(RewardDisplaySortComparer___c_TypeDefinitionIndex)->GetStaticField(0x2BAF0);
+			return (::System::Comparison_1<::Class_1_C553D56653AF94EE*>**)Il2CppClass::FromTypeDefinitionIndex(RewardDisplaySortComparer___c_TypeDefinitionIndex)->GetStaticField(0x225E0);
 		}
 		static ::RPG::Client::RewardDisplaySortComparer___c** StaticGet___9()
 		{
-			return (::RPG::Client::RewardDisplaySortComparer___c**)Il2CppClass::FromTypeDefinitionIndex(RewardDisplaySortComparer___c_TypeDefinitionIndex)->GetStaticField(0x2BAF8);
+			return (::RPG::Client::RewardDisplaySortComparer___c**)Il2CppClass::FromTypeDefinitionIndex(RewardDisplaySortComparer___c_TypeDefinitionIndex)->GetStaticField(0x225E8);
 		}
 
 		static ::System::Void _cctor()

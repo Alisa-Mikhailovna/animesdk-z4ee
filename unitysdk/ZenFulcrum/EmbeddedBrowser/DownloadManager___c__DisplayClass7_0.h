@@ -6,19 +6,19 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class DownloadManager; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3FE40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__0_OFFSET UNITYSDK_OFFSET(0x18E41980)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__1_OFFSET UNITYSDK_OFFSET(0x18E419B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D285820)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__0_OFFSET UNITYSDK_OFFSET(0x1D2873D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DOWNLOADMANAGER___C__DISPLAYCLASS7_0__MANAGEDOWNLOADS_B__1_OFFSET UNITYSDK_OFFSET(0x1D287400)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DownloadManager___c__DisplayClass7_0_TypeDefinitionIndex = 36561;
+	inline static constexpr unsigned int DownloadManager___c__DisplayClass7_0_TypeDefinitionIndex = 37343;
 
 	class DownloadManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::DownloadManager* __4__this; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::Browser* browser; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::DownloadManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

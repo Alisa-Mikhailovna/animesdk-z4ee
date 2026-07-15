@@ -4,11 +4,11 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
-#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BF0F0)
+#define UNITYENGINE_PROBUILDER_POLY2TRI_DTSWEEPCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBF750)
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int DTSweepConstraint_TypeDefinitionIndex = 35804;
+	inline static constexpr unsigned int DTSweepConstraint_TypeDefinitionIndex = 36586;
 
 	class DTSweepConstraint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint
 	{

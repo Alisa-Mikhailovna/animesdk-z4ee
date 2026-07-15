@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class IslandStateSavedValueCondition; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_97DF06D8121EDCB8_OFFSET UNITYSDK_OFFSET(0x18E49130)
-#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_A9FC9F7202841B3A_OFFSET UNITYSDK_OFFSET(0x18E48FC0)
-#define RPG_GAMECORE_ISLANDSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x18E49120)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_A9FC9F7202841B3A_OFFSET UNITYSDK_OFFSET(0x1B538090)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_F4F1D112B2EFD9E8_OFFSET UNITYSDK_OFFSET(0x1B538200)
+#define RPG_GAMECORE_ISLANDSTATECONDITIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5381F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IslandStateConditionSet_TypeDefinitionIndex = 18150;
+	inline static constexpr unsigned int IslandStateConditionSet_TypeDefinitionIndex = 18383;
 
 	class IslandStateConditionSet : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IslandStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_A9FC9F7202841B3A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_97DF06D8121EDCB8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::IslandStateConditionSet*& a2)
+		static ::System::Void Method_2_F4F1D112B2EFD9E8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::IslandStateConditionSet*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::IslandStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_97DF06D8121EDCB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::IslandStateConditionSet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ISLANDSTATECONDITIONSET_METHOD_2_F4F1D112B2EFD9E8_OFFSET))(a1, a2);
 		}
 	};
 }

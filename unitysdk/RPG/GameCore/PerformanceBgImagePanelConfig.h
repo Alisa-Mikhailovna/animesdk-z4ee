@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_METHOD_2_DD01EE14A7B52EB1_OFFSET UNITYSDK_OFFSET(0x19D1E2B0)
-#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D1E3F0)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG_METHOD_2_DD01EE14A7B52EB1_OFFSET UNITYSDK_OFFSET(0x1B691360)
+#define RPG_GAMECORE_PERFORMANCEBGIMAGEPANELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6914A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceBgImagePanelConfig_TypeDefinitionIndex = 18094;
+	inline static constexpr unsigned int PerformanceBgImagePanelConfig_TypeDefinitionIndex = 18298;
 
 	class PerformanceBgImagePanelConfig : public ::RPG::GameCore::JsonConfig
 	{

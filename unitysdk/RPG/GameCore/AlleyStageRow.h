@@ -5,24 +5,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BD64D0)
-#define RPG_GAMECORE_ALLEYSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD6C90)
+#define RPG_GAMECORE_ALLEYSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B19FCC0)
+#define RPG_GAMECORE_ALLEYSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A0480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyStageRow_TypeDefinitionIndex = 12027;
+	inline static constexpr unsigned int AlleyStageRow_TypeDefinitionIndex = 12159;
 
 	class AlleyStageRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* StageAlleyEvent; // 0x10
-		::Il2CppArray<::System::UInt32>* StageSpecialOrder; // 0x18
-		::System::UInt32 StageID; // 0x20
-		::System::UInt32 TakeMainMission; // 0x24
-		::System::UInt32 StageMainMission; // 0x28
-		::System::UInt32 StageTarget; // 0x2C
-		::RPG::Client::TextID StageTitle; // 0x30
-		::RPG::Client::TextID StageDesc; // 0x40
+		::Il2CppArray<::System::UInt32>* StageSpecialOrder; // 0x10
+		::Il2CppArray<::System::UInt32>* StageAlleyEvent; // 0x18
+		::RPG::Client::TextID StageTitle; // 0x20
+		::System::UInt32 TakeMainMission; // 0x30
+		::System::UInt32 StageMainMission; // 0x34
+		::RPG::Client::TextID StageDesc; // 0x38
+		::System::UInt32 StageTarget; // 0x48
+		::System::UInt32 StageID; // 0x4C
 
 		::System::Void _ctor()
 		{

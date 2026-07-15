@@ -3,9 +3,9 @@
 #include "unitysdk/MonoProgramMatrixTransferAnim_PCGAction_ActionType.h"
 #include "unitysdk/System/Object.h"
 
-#define MONOPROGRAMMATRIXTRANSFERANIM_PCGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7D480)
+#define MONOPROGRAMMATRIXTRANSFERANIM_PCGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F08E0)
 
-inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGAction_TypeDefinitionIndex = 44802;
+inline static constexpr unsigned int MonoProgramMatrixTransferAnim_PCGAction_TypeDefinitionIndex = 45719;
 
 class MonoProgramMatrixTransferAnim_PCGAction : public ::System::Object
 {

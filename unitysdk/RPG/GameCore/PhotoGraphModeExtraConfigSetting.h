@@ -10,12 +10,12 @@ namespace RPG::GameCore { class PhotoGraphSetUniqueNameConfig; }
 namespace RPG::GameCore { class SimpleFreeStyleConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PHOTOGRAPHMODEEXTRACONFIGSETTING_METHOD_2_C0504FF537A0A1B6_OFFSET UNITYSDK_OFFSET(0x19D37830)
-#define RPG_GAMECORE_PHOTOGRAPHMODEEXTRACONFIGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x19D37B80)
+#define RPG_GAMECORE_PHOTOGRAPHMODEEXTRACONFIGSETTING_METHOD_2_C0504FF537A0A1B6_OFFSET UNITYSDK_OFFSET(0x1B6AA600)
+#define RPG_GAMECORE_PHOTOGRAPHMODEEXTRACONFIGSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6AA950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphModeExtraConfigSetting_TypeDefinitionIndex = 20415;
+	inline static constexpr unsigned int PhotoGraphModeExtraConfigSetting_TypeDefinitionIndex = 20830;
 
 	class PhotoGraphModeExtraConfigSetting : public ::RPG::GameCore::JsonConfig
 	{

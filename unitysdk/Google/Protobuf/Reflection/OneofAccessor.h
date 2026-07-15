@@ -10,12 +10,12 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A378090)
-#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A377D30)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR_GETCASEFIELDDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x198078A0)
+#define GOOGLE_PROTOBUF_REFLECTION_ONEOFACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x198072A0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 5554;
+	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 5559;
 
 	class OneofAccessor : public ::System::Object
 	{

@@ -7,11 +7,11 @@ namespace RPG::Client { class Effect_PSEmitControllerBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_PSEMITCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x156A4BB0)
+#define RPG_CLIENT_EFFECT_PSEMITCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC32C460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PSEmitControllerMonoPlugin_TypeDefinitionIndex = 65935;
+	inline static constexpr unsigned int Effect_PSEmitControllerMonoPlugin_TypeDefinitionIndex = 67360;
 
 	class Effect_PSEmitControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_PSEmitControllerBehavior*>
 	{

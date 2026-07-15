@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ElfFeverSkillConfig; }
 namespace RPG::GameCore { class ElfLeaderSkillConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFSKILLCONFIG_METHOD_2_ED4267DBF9754373_OFFSET UNITYSDK_OFFSET(0x19D6D2D0)
-#define RPG_GAMECORE_ELFSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6DE20)
+#define RPG_GAMECORE_ELFSKILLCONFIG_METHOD_2_ED4267DBF9754373_OFFSET UNITYSDK_OFFSET(0x1B3DCB80)
+#define RPG_GAMECORE_ELFSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3DD650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSkillConfig_TypeDefinitionIndex = 17553;
+	inline static constexpr unsigned int ElfSkillConfig_TypeDefinitionIndex = 17726;
 
 	class ElfSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

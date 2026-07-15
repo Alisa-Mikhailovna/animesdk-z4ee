@@ -7,37 +7,37 @@ namespace RPG::Client { class RogueFormulaData; }
 namespace RPG::Client { class RogueTournHexData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_0A2D6421818FD6E9___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BD6770)
-#define CLASS_1_0A2D6421818FD6E9___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD67B0)
-#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_0_OFFSET UNITYSDK_OFFSET(0x16BD67C0)
-#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_1_OFFSET UNITYSDK_OFFSET(0x16BD67E0)
-#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_2_OFFSET UNITYSDK_OFFSET(0x16BD6800)
-#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_3_OFFSET UNITYSDK_OFFSET(0x16BD6820)
+#define CLASS_1_0A2D6421818FD6E9___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB953BF0)
+#define CLASS_1_0A2D6421818FD6E9___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB953C30)
+#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_0_OFFSET UNITYSDK_OFFSET(0xB953C40)
+#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_1_OFFSET UNITYSDK_OFFSET(0xB953C60)
+#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_2_OFFSET UNITYSDK_OFFSET(0xB953C80)
+#define CLASS_1_0A2D6421818FD6E9___C__TOSTRING_B__1_3_OFFSET UNITYSDK_OFFSET(0xB953CA0)
 
-inline static constexpr unsigned int Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex = 63155;
+inline static constexpr unsigned int Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex = 64522;
 
 class Class_1_0A2D6421818FD6E9___c : public ::System::Object
 {
 public:
+	static ::Class_1_0A2D6421818FD6E9___c** StaticGet___9()
+	{
+		return (::Class_1_0A2D6421818FD6E9___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x25C90);
+	}
 	static ::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_2()
 	{
-		return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x38610);
-	}
-	static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_0()
-	{
-		return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x38618);
+		return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x25C98);
 	}
 	static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_1()
 	{
-		return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x38620);
+		return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x25CA0);
 	}
-	static ::Class_1_0A2D6421818FD6E9___c** StaticGet___9()
+	static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_0()
 	{
-		return (::Class_1_0A2D6421818FD6E9___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x38628);
+		return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x25CA8);
 	}
 	static ::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>** StaticGet___9__1_3()
 	{
-		return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x38630);
+		return (::System::Func_2<::RPG::Client::RogueTournHexData*, ::System::Nullable_1<::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_0A2D6421818FD6E9___c_TypeDefinitionIndex)->GetStaticField(0x25CB0);
 	}
 
 	static ::System::Void _cctor()

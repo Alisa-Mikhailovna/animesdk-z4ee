@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199B7BB0)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x199B7D30)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199B7DA0)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199B7E80)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x199B7F20)
+#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDCB7720)
+#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xDCB78A0)
+#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB7910)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvincePanelActiveTrack_TypeDefinitionIndex = 45351;
+	inline static constexpr unsigned int ConvincePanelActiveTrack_TypeDefinitionIndex = 46275;
 
 	class ConvincePanelActiveTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEPANELACTIVETRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

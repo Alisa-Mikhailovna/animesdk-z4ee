@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_NINTENDOSWITCHPROMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x129CC140)
-#define INCONTROL_NATIVEDEVICEPROFILES_NINTENDOSWITCHPROMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x129CD390)
+#define INCONTROL_NATIVEDEVICEPROFILES_NINTENDOSWITCHPROMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1999C5F0)
+#define INCONTROL_NATIVEDEVICEPROFILES_NINTENDOSWITCHPROMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1999D7D0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int NintendoSwitchProMacNativeProfile_TypeDefinitionIndex = 38298;
+	inline static constexpr unsigned int NintendoSwitchProMacNativeProfile_TypeDefinitionIndex = 39106;
 
 	class NintendoSwitchProMacNativeProfile : public ::InControl::InputDeviceProfile
 	{

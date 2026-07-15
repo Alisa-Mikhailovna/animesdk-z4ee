@@ -4,33 +4,32 @@
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class GridFightTrait; }
+namespace RPG::Client { class GridFightTraitConfigBase; }
 namespace RPG::Client { class GridFightTraitRemarkLineEffectBase; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_CREATE_OFFSET UNITYSDK_OFFSET(0x196492B0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GETBACKSHOWINGLINEPARSERS_OFFSET UNITYSDK_OFFSET(0x1965B830)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GETFRONTSHOWINGLINEPARSERS_OFFSET UNITYSDK_OFFSET(0x1965B3C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_BACKLINEPARSERS_OFFSET UNITYSDK_OFFSET(0x1965BD70)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_FRONTLINEPARSERS_OFFSET UNITYSDK_OFFSET(0x1965BD50)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_HASREMARK_OFFSET UNITYSDK_OFFSET(0x1965BCE0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_ISSHOWBACK_OFFSET UNITYSDK_OFFSET(0x1965BC90)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_ISSHOWFRONT_OFFSET UNITYSDK_OFFSET(0x1965BC40)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_SET_BACKLINEPARSERS_OFFSET UNITYSDK_OFFSET(0x1965BD80)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_SET_FRONTLINEPARSERS_OFFSET UNITYSDK_OFFSET(0x1965BD60)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1965B3B0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__GETSHOWINGLINEPARSERS_OFFSET UNITYSDK_OFFSET(0x1965B410)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__HASSHOWINGEFFECT_OFFSET UNITYSDK_OFFSET(0x1965B880)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_CREATE_OFFSET UNITYSDK_OFFSET(0xC84D190)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GETBACKSHOWINGLINEPARSERS_OFFSET UNITYSDK_OFFSET(0xC84D600)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GETFRONTSHOWINGLINEPARSERS_OFFSET UNITYSDK_OFFSET(0xC84D220)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_HASREMARK_OFFSET UNITYSDK_OFFSET(0xC84D9B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_ISSHOWBACK_OFFSET UNITYSDK_OFFSET(0xC84D960)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_ISSHOWFRONT_OFFSET UNITYSDK_OFFSET(0xC84D910)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET__BACKREMARK_OFFSET UNITYSDK_OFFSET(0xC84DB20)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET__CURRENTTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xC84D650)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET__FRONTREMARK_OFFSET UNITYSDK_OFFSET(0xC84DAC0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0xC84D210)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__GETSHOWINGLINEPARSERS_OFFSET UNITYSDK_OFFSET(0xC84D270)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__HASSHOWINGEFFECT_OFFSET UNITYSDK_OFFSET(0xC84D700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkParser_TypeDefinitionIndex = 61211;
+	inline static constexpr unsigned int GridFightTraitRemarkParser_TypeDefinitionIndex = 62553;
 
 	class GridFightTraitRemarkParser : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>* _FrontLineParsers_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>* _BackLineParsers_k__BackingField; // 0x18
+		::RPG::Client::GridFightTrait* _Trait; // 0x10
 
 		::System::Void _ctor()
 		{
@@ -57,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>*(*)(::PVOID, ::RPG::GameCore::GridFightTraitRemarkPosition))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__GETSHOWINGLINEPARSERS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _HasShowingEffect(::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>* a1)
+		::System::Boolean _HasShowingEffect(::RPG::GameCore::GridFightTraitRemarkPosition a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__HASSHOWINGEFFECT_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GridFightTraitRemarkPosition))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER__HASSHOWINGEFFECT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsShowFront()
@@ -77,24 +76,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_HASREMARK_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>* get_FrontLineParsers()
+		::RPG::Client::GridFightTraitConfigBase* get__CurrentTraitConfig()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_FRONTLINEPARSERS_OFFSET))(this);
+			return ((::RPG::Client::GridFightTraitConfigBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET__CURRENTTRAITCONFIG_OFFSET))(this);
 		}
 
-		::System::Void set_FrontLineParsers(::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>* a1)
+		::System::Collections::Generic::List_1<::RPG::GameCore::GridFightTraitRemarkRow*>* get__FrontRemark()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_SET_FRONTLINEPARSERS_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GridFightTraitRemarkRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET__FRONTREMARK_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>* get_BackLineParsers()
+		::System::Collections::Generic::List_1<::RPG::GameCore::GridFightTraitRemarkRow*>* get__BackRemark()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET_BACKLINEPARSERS_OFFSET))(this);
-		}
-
-		::System::Void set_BackLineParsers(::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitRemarkLineEffectBase*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_SET_BACKLINEPARSERS_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::GridFightTraitRemarkRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER_GET__BACKREMARK_OFFSET))(this);
 		}
 	};
 }

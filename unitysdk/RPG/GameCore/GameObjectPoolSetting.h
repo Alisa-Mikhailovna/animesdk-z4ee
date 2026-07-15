@@ -7,13 +7,13 @@ namespace RPG::GameCore { class GameObjectPoolGroupSetting; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMEOBJECTPOOLSETTING_METHOD_3_53E0AEB69D1B32DB_OFFSET UNITYSDK_OFFSET(0x19CA5530)
-#define RPG_GAMECORE_GAMEOBJECTPOOLSETTING_METHOD_3_81C6C0186756E0B0_OFFSET UNITYSDK_OFFSET(0x19CA5570)
-#define RPG_GAMECORE_GAMEOBJECTPOOLSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA5560)
+#define RPG_GAMECORE_GAMEOBJECTPOOLSETTING_METHOD_3_53E0AEB69D1B32DB_OFFSET UNITYSDK_OFFSET(0x1B4C3B80)
+#define RPG_GAMECORE_GAMEOBJECTPOOLSETTING_METHOD_3_81C6C0186756E0B0_OFFSET UNITYSDK_OFFSET(0x1B4C3BC0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C3BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameObjectPoolSetting_TypeDefinitionIndex = 15641;
+	inline static constexpr unsigned int GameObjectPoolSetting_TypeDefinitionIndex = 15814;
 
 	class GameObjectPoolSetting : public ::RPG::GameCore::DeviceSettingConfigItemBase
 	{

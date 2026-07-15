@@ -5,9 +5,9 @@
 namespace RPG::Client::PixAir { class PixAirEquipItemChangeInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_424D497930AB4C44__CTOR_OFFSET UNITYSDK_OFFSET(0x15C116E0)
+#define CLASS_1_424D497930AB4C44__CTOR_OFFSET UNITYSDK_OFFSET(0x11FDADD0)
 
-inline static constexpr unsigned int Class_1_424D497930AB4C44_TypeDefinitionIndex = 73594;
+inline static constexpr unsigned int Class_1_424D497930AB4C44_TypeDefinitionIndex = 75243;
 
 class Class_1_424D497930AB4C44 : public ::System::Object
 {

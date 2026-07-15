@@ -6,14 +6,13 @@
 namespace RPG::Client::Prop { class PuzzleBoardBase; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_INIT_OFFSET UNITYSDK_OFFSET(0x15B57B20)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_METHOD_7_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x15B593D0)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x15B59690)
-#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x15B596A0)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_INIT_OFFSET UNITYSDK_OFFSET(0xD1F8170)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_METHOD_7_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0xD1F9A20)
+#define RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F9CE0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PushHexPuzzleFrame_TypeDefinitionIndex = 73138;
+	inline static constexpr unsigned int PushHexPuzzleFrame_TypeDefinitionIndex = 74663;
 
 	class PushHexPuzzleFrame : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{
@@ -37,11 +36,6 @@ namespace RPG::Client::Prop
 		::System::Void Method_7_F5447CD65612575D()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME_METHOD_7_F5447CD65612575D_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Init(::RPG::Client::Prop::PuzzleBoardBase* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::PuzzleBoardBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PUSHHEXPUZZLEFRAME___IFIXBASEPROXY_INIT_OFFSET))(this, a1);
 		}
 	};
 }

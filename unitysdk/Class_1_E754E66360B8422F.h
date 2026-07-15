@@ -7,9 +7,9 @@
 class Class_1_6B9FBCAC09C5F877;
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 
-#define CLASS_1_E754E66360B8422F__CTOR_OFFSET UNITYSDK_OFFSET(0x168DA9F0)
+#define CLASS_1_E754E66360B8422F__CTOR_OFFSET UNITYSDK_OFFSET(0xAD47590)
 
-inline static constexpr unsigned int Class_1_E754E66360B8422F_TypeDefinitionIndex = 50730;
+inline static constexpr unsigned int Class_1_E754E66360B8422F_TypeDefinitionIndex = 51812;
 
 class Class_1_E754E66360B8422F : public ::System::Object
 {

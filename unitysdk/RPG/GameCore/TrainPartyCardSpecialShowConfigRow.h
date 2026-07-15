@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x16D28680)
-#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x16D28960)
+#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B97EE70)
+#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97F150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCardSpecialShowConfigRow_TypeDefinitionIndex = 14552;
+	inline static constexpr unsigned int TrainPartyCardSpecialShowConfigRow_TypeDefinitionIndex = 14710;
 
 	class TrainPartyCardSpecialShowConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID SpecialShowDesc; // 0x10
-		::System::UInt32 CardID; // 0x20
-		::System::UInt32 PreShowGridNum; // 0x24
+		::System::UInt32 CardID; // 0x10
+		::System::UInt32 PreShowGridNum; // 0x14
+		::RPG::Client::TextID SpecialShowTitle; // 0x18
 		::RPG::Client::TextID OverWriteTips; // 0x28
-		::RPG::Client::TextID SpecialShowTitle; // 0x38
+		::RPG::Client::TextID SpecialShowDesc; // 0x38
 
 		::System::Void _ctor()
 		{

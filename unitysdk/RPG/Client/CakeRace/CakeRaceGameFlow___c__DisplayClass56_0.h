@@ -6,20 +6,20 @@ namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185E0840)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x185E1FF0)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x185E2030)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF05820)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xBF07030)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS56_0___HANDLESHOWLOANCONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0xBF07070)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass56_0_TypeDefinitionIndex = 71021;
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass56_0_TypeDefinitionIndex = 72534;
 
 	class CakeRaceGameFlow___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::CakeRace::CakeRaceGameFlow* __4__this; // 0x10
-		::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x18
-		::RPG::Client::Promises::Promise* promise; // 0x20
+		::RPG::Client::Promises::Promise* promise; // 0x18
+		::RPG::Client::CakeRace::CakeRaceLoanPrepareData* prepareData; // 0x20
 
 		::System::Void _ctor()
 		{

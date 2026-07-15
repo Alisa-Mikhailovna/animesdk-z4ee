@@ -11,38 +11,38 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UI3DPARKOURBALL_CREATE_OFFSET UNITYSDK_OFFSET(0x143D37E0)
-#define RPG_CLIENT_UI3DPARKOURBALL_GET__ISSPRCIALCAR_OFFSET UNITYSDK_OFFSET(0x143D49C0)
-#define RPG_CLIENT_UI3DPARKOURBALL_INIT_OFFSET UNITYSDK_OFFSET(0x143D3890)
-#define RPG_CLIENT_UI3DPARKOURBALL_LOADMODEL_OFFSET UNITYSDK_OFFSET(0x143D39A0)
-#define RPG_CLIENT_UI3DPARKOURBALL_RELEASEMODEL_OFFSET UNITYSDK_OFFSET(0x143D3EA0)
-#define RPG_CLIENT_UI3DPARKOURBALL_REMOVE_OFFSET UNITYSDK_OFFSET(0x143D4A40)
-#define RPG_CLIENT_UI3DPARKOURBALL__CTOR_OFFSET UNITYSDK_OFFSET(0x143D37A0)
-#define RPG_CLIENT_UI3DPARKOURBALL__DISPOSEENTITY_OFFSET UNITYSDK_OFFSET(0x143D3A90)
-#define RPG_CLIENT_UI3DPARKOURBALL__FIRECAREFFECT_OFFSET UNITYSDK_OFFSET(0x143D3FE0)
-#define RPG_CLIENT_UI3DPARKOURBALL__FIREEFFECT_OFFSET UNITYSDK_OFFSET(0x143D44D0)
-#define RPG_CLIENT_UI3DPARKOURBALL__GETENTITY_OFFSET UNITYSDK_OFFSET(0x143D3BA0)
-#define RPG_CLIENT_UI3DPARKOURBALL__ONMODELLOADED_OFFSET UNITYSDK_OFFSET(0x143D3CF0)
-#define RPG_CLIENT_UI3DPARKOURBALL__ONTICK_OFFSET UNITYSDK_OFFSET(0x143D4830)
+#define RPG_CLIENT_UI3DPARKOURBALL_CREATE_OFFSET UNITYSDK_OFFSET(0xD785320)
+#define RPG_CLIENT_UI3DPARKOURBALL_GET__ISSPRCIALCAR_OFFSET UNITYSDK_OFFSET(0xD786520)
+#define RPG_CLIENT_UI3DPARKOURBALL_INIT_OFFSET UNITYSDK_OFFSET(0xD7853D0)
+#define RPG_CLIENT_UI3DPARKOURBALL_LOADMODEL_OFFSET UNITYSDK_OFFSET(0xD7854E0)
+#define RPG_CLIENT_UI3DPARKOURBALL_RELEASEMODEL_OFFSET UNITYSDK_OFFSET(0xD785A70)
+#define RPG_CLIENT_UI3DPARKOURBALL_REMOVE_OFFSET UNITYSDK_OFFSET(0xD7865D0)
+#define RPG_CLIENT_UI3DPARKOURBALL__CTOR_OFFSET UNITYSDK_OFFSET(0xD7852E0)
+#define RPG_CLIENT_UI3DPARKOURBALL__DISPOSEENTITY_OFFSET UNITYSDK_OFFSET(0xD7856A0)
+#define RPG_CLIENT_UI3DPARKOURBALL__FIRECAREFFECT_OFFSET UNITYSDK_OFFSET(0xD785BB0)
+#define RPG_CLIENT_UI3DPARKOURBALL__FIREEFFECT_OFFSET UNITYSDK_OFFSET(0xD786110)
+#define RPG_CLIENT_UI3DPARKOURBALL__GETENTITY_OFFSET UNITYSDK_OFFSET(0xD7857B0)
+#define RPG_CLIENT_UI3DPARKOURBALL__ONMODELLOADED_OFFSET UNITYSDK_OFFSET(0xD7858C0)
+#define RPG_CLIENT_UI3DPARKOURBALL__ONTICK_OFFSET UNITYSDK_OFFSET(0xD786470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DParkourBall_TypeDefinitionIndex = 57853;
+	inline static constexpr unsigned int UI3DParkourBall_TypeDefinitionIndex = 59119;
 
 	class UI3DParkourBall : public ::System::Object
 	{
 	public:
-		::RPG::Client::ParkourBall* _CurrentData; // 0x10
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _R_MaterialBlock; // 0x18
-		::Struct_2_0B84ADD7815498A2 _Instance; // 0x20
-		::UnityEngine::Transform* _Root; // 0x30
-		::System::String* _EffectPath; // 0x38
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Diffuse_MaterialBlock; // 0x40
-		::RPG::GameCore::CharacterModelComponent* _ModelCmpt; // 0x48
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _S_MaterialBlock; // 0x50
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _F_MaterialBlock; // 0x58
-		::RPG::GameCore::GameEntity* _Entity; // 0x60
-		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Reflectio_MaterialBlock; // 0x68
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _F_MaterialBlock; // 0x10
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Reflectio_MaterialBlock; // 0x18
+		::RPG::GameCore::GameEntity* _Entity; // 0x20
+		::Struct_2_0B84ADD7815498A2 _Instance; // 0x28
+		::UnityEngine::Transform* _Root; // 0x38
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _R_MaterialBlock; // 0x40
+		::System::String* _EffectPath; // 0x48
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _Diffuse_MaterialBlock; // 0x50
+		::RPG::GameCore::CharacterModelComponent* _ModelCmpt; // 0x58
+		::RPG::Client::MonoEffectPluginCharaMaterialBlock* _S_MaterialBlock; // 0x60
+		::RPG::Client::ParkourBall* _CurrentData; // 0x68
 		::System::UInt32 _SprcialCarID; // 0x70
 		::System::Int32 _TimerID; // 0x74
 

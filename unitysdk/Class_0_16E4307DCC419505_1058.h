@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/NotifyType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1058_TypeDefinitionIndex = 68299;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class SkillData; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1058_TypeDefinitionIndex = 68621;
 
 class Class_0_16E4307DCC419505_1058
 {

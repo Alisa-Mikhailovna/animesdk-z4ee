@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK { class SecurityTunnel_ThreadUtil___c__DisplayClass3_0; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18CB4380)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_1__ENQUEUE_B__2_OFFSET UNITYSDK_OFFSET(0x18CB4390)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAB6F1D0)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_1__ENQUEUE_B__2_OFFSET UNITYSDK_OFFSET(0xAB6F1E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c__DisplayClass3_1_TypeDefinitionIndex = 43826;
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c__DisplayClass3_1_TypeDefinitionIndex = 44688;
 
 	class SecurityTunnel_ThreadUtil___c__DisplayClass3_1 : public ::System::Object
 	{

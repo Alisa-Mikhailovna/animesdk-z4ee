@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class ChallengeInstance; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEMEMORYENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBFA40)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEMEMORYENVIRONMENTHINTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xBF4ACF0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeMemoryEnvironmentHintViewModel_TypeDefinitionIndex = 74088;
+	inline static constexpr unsigned int ChallengeMemoryEnvironmentHintViewModel_TypeDefinitionIndex = 76472;
 
 	class ChallengeMemoryEnvironmentHintViewModel : public ::RPG::Client::Challenge::ChallengeEnvironmentHintViewModelBase
 	{

@@ -5,22 +5,22 @@
 namespace RPG::Client { class GridFightMonsterAffixConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_489EA4FFBD214DD8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16759750)
-#define CLASS_2_489EA4FFBD214DD8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16759790)
-#define CLASS_2_489EA4FFBD214DD8___C___GETREMOVEDAFFIXNAME_B__8_0_OFFSET UNITYSDK_OFFSET(0x167597A0)
+#define CLASS_2_489EA4FFBD214DD8___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x148DF910)
+#define CLASS_2_489EA4FFBD214DD8___C__CTOR_OFFSET UNITYSDK_OFFSET(0x148DF950)
+#define CLASS_2_489EA4FFBD214DD8___C___GETREMOVEDAFFIXNAME_B__8_0_OFFSET UNITYSDK_OFFSET(0x148DF960)
 
-inline static constexpr unsigned int Class_2_489EA4FFBD214DD8___c_TypeDefinitionIndex = 44529;
+inline static constexpr unsigned int Class_2_489EA4FFBD214DD8___c_TypeDefinitionIndex = 45401;
 
 class Class_2_489EA4FFBD214DD8___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::RPG::Client::GridFightMonsterAffixConfig*, ::System::Boolean>** StaticGet___9__8_0()
 	{
-		return (::System::Func_2<::RPG::Client::GridFightMonsterAffixConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_489EA4FFBD214DD8___c_TypeDefinitionIndex)->GetStaticField(0x63FA0);
+		return (::System::Func_2<::RPG::Client::GridFightMonsterAffixConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_489EA4FFBD214DD8___c_TypeDefinitionIndex)->GetStaticField(0x62080);
 	}
 	static ::Class_2_489EA4FFBD214DD8___c** StaticGet___9()
 	{
-		return (::Class_2_489EA4FFBD214DD8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_489EA4FFBD214DD8___c_TypeDefinitionIndex)->GetStaticField(0x63FA8);
+		return (::Class_2_489EA4FFBD214DD8___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_489EA4FFBD214DD8___c_TypeDefinitionIndex)->GetStaticField(0x62088);
 	}
 
 	static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtSkillAbort; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_29047E7CC4C0B58E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14E60170)
-#define CLASS_3_29047E7CC4C0B58E__CTOR_OFFSET UNITYSDK_OFFSET(0x14E60140)
+#define CLASS_3_29047E7CC4C0B58E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD362460)
+#define CLASS_3_29047E7CC4C0B58E__CTOR_OFFSET UNITYSDK_OFFSET(0xD362430)
 
-inline static constexpr unsigned int Class_3_29047E7CC4C0B58E_TypeDefinitionIndex = 50379;
+inline static constexpr unsigned int Class_3_29047E7CC4C0B58E_TypeDefinitionIndex = 51461;
 
 class Class_3_29047E7CC4C0B58E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtSkillAbort*>
 {

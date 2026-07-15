@@ -8,21 +8,21 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18B8B4F0)
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_1_OFFSET UNITYSDK_OFFSET(0x18B8B160)
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_OFFSET UNITYSDK_OFFSET(0x18B8B050)
-#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8AFB0)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1CFAB8D0)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_1_OFFSET UNITYSDK_OFFSET(0x1CFAB540)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR_FINDMIXERS_OFFSET UNITYSDK_OFFSET(0x1CFAB430)
+#define UNITYENGINE_TIMELINE_ANIMATIONOUTPUTWEIGHTPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAB390)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationOutputWeightProcessor_TypeDefinitionIndex = 35830;
+	inline static constexpr unsigned int AnimationOutputWeightProcessor_TypeDefinitionIndex = 36612;
 
 	class AnimationOutputWeightProcessor : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Timeline::AnimationOutputWeightProcessor_WeightInfo>* m_Mixers; // 0x10
-		::UnityEngine::Animations::AnimationPlayableOutput m_Output; // 0x18
-		::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable; // 0x28
+		::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable; // 0x18
+		::UnityEngine::Animations::AnimationPlayableOutput m_Output; // 0x28
 
 		::System::Void _ctor(::UnityEngine::Animations::AnimationPlayableOutput a1)
 		{

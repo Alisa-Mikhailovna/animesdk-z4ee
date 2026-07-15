@@ -7,10 +7,10 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_C203092A4A0DCFDE_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x19509710)
-#define CLASS_1_C203092A4A0DCFDE__CTOR_OFFSET UNITYSDK_OFFSET(0x19509B50)
+#define CLASS_1_C203092A4A0DCFDE_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1AC1C2F0)
+#define CLASS_1_C203092A4A0DCFDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC1C730)
 
-inline static constexpr unsigned int Class_1_C203092A4A0DCFDE_TypeDefinitionIndex = 13293;
+inline static constexpr unsigned int Class_1_C203092A4A0DCFDE_TypeDefinitionIndex = 13441;
 
 class Class_1_C203092A4A0DCFDE : public ::System::Object
 {
@@ -18,15 +18,15 @@ public:
 	::System::String* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
 	::RPG::Client::TextID Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x30
-	::RPG::GameCore::LimaoNewsOfficeEventPriorityType Field_1_4; // 0x34
-	::RPG::Client::TextID Field_1_5; // 0x38
+	::RPG::Client::TextID Field_1_3; // 0x30
+	::System::UInt32 Field_1_4; // 0x40
+	::System::UInt32 Field_1_5; // 0x44
 	::System::UInt32 Field_1_6; // 0x48
 	::System::UInt32 Field_1_7; // 0x4C
 	::System::UInt32 Field_1_8; // 0x50
 	::System::UInt32 Field_1_9; // 0x54
 	::System::UInt32 Field_1_10; // 0x58
-	::System::UInt32 Field_1_11; // 0x5C
+	::RPG::GameCore::LimaoNewsOfficeEventPriorityType Field_1_11; // 0x5C
 
 	::System::Void _ctor()
 	{

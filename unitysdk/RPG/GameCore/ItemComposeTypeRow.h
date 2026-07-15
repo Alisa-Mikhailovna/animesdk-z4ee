@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E4EE20)
-#define RPG_GAMECORE_ITEMCOMPOSETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E4F550)
+#define RPG_GAMECORE_ITEMCOMPOSETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B53E290)
+#define RPG_GAMECORE_ITEMCOMPOSETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B53E9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeTypeRow_TypeDefinitionIndex = 13194;
+	inline static constexpr unsigned int ItemComposeTypeRow_TypeDefinitionIndex = 13342;
 
 	class ItemComposeTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* UnlockDescribe; // 0x10
+		::System::String* TypeIconPath; // 0x10
 		::System::String* TypeTextmapID; // 0x18
-		::System::String* TypeIconPath; // 0x20
-		::System::UInt32 TypeID; // 0x28
-		::System::UInt32 UnlockID; // 0x2C
-		::System::UInt32 MainTypeID; // 0x30
+		::System::String* UnlockDescribe; // 0x20
+		::System::UInt32 MainTypeID; // 0x28
+		::System::UInt32 TypeID; // 0x2C
+		::System::UInt32 UnlockID; // 0x30
 		::System::UInt32 MainTypeOrder; // 0x34
 		::System::Boolean IsMainType; // 0x38
 

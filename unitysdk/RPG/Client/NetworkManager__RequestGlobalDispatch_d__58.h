@@ -7,34 +7,34 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x15ED39B0)
-#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15ED3F60)
-#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x15ED3FC0)
-#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15ED3F70)
-#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15ED3940)
-#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED3930)
-#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15ED3990)
+#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xCED4870)
+#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xCED4E80)
+#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xCED4EE0)
+#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xCED4E90)
+#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCED4800)
+#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58__CTOR_OFFSET UNITYSDK_OFFSET(0xCED47F0)
+#define RPG_CLIENT_NETWORKMANAGER__REQUESTGLOBALDISPATCH_D__58___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xCED4850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager__RequestGlobalDispatch_d__58_TypeDefinitionIndex = 64866;
+	inline static constexpr unsigned int NetworkManager__RequestGlobalDispatch_d__58_TypeDefinitionIndex = 66267;
 
 	class NetworkManager__RequestGlobalDispatch_d__58 : public ::System::Object
 	{
 	public:
-		::RPG::Client::NetworkManager* __4__this; // 0x10
-		::System::String* _url_5__9; // 0x18
-		::System::Object* __2__current; // 0x20
-		::System::Action_1<::System::Boolean>* callback; // 0x28
-		::UnityEngine::Networking::UnityWebRequest* _request_5__10; // 0x30
-		::System::String* _errMsg_5__6; // 0x38
-		::System::String* _requestUrl_5__4; // 0x40
-		::Il2CppArray<::System::String*>* __7__wrap6; // 0x48
-		::System::Int32 __1__state; // 0x50
-		::System::Int32 __7__wrap7; // 0x54
-		::System::Int32 _tryIndex_5__2; // 0x58
-		::System::Boolean forceSelect; // 0x5C
-		::System::Boolean _result_5__3; // 0x5D
+		::System::String* _requestUrl_5__4; // 0x10
+		::RPG::Client::NetworkManager* __4__this; // 0x18
+		::System::Action_1<::System::Boolean>* callback; // 0x20
+		::System::String* _errMsg_5__6; // 0x28
+		::System::String* _url_5__9; // 0x30
+		::System::Object* __2__current; // 0x38
+		::Il2CppArray<::System::String*>* __7__wrap6; // 0x40
+		::UnityEngine::Networking::UnityWebRequest* _request_5__10; // 0x48
+		::System::Boolean forceSelect; // 0x50
+		::System::Boolean _result_5__3; // 0x51
+		::System::Int32 _tryIndex_5__2; // 0x54
+		::System::Int32 __7__wrap7; // 0x58
+		::System::Int32 __1__state; // 0x5C
 		::System::Int32 _responseCode_5__5; // 0x60
 
 		::System::Void _ctor(::System::Int32 a1)

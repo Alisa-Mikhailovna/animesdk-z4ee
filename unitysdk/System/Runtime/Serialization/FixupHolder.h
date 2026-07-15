@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x174638E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FIXUPHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1F7C10)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int FixupHolder_TypeDefinitionIndex = 1102;
+	inline static constexpr unsigned int FixupHolder_TypeDefinitionIndex = 1104;
 
 	class FixupHolder : public ::System::Object
 	{

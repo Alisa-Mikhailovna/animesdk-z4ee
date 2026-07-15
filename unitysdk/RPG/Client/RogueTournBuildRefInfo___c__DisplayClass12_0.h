@@ -5,12 +5,12 @@
 namespace RPG::Client { class RogueTournBuildRefInfo; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17DE4170)
-#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0___ADJUSTFAVORITEBUILDREFS_B__0_OFFSET UNITYSDK_OFFSET(0x17DE5B70)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD417700)
+#define RPG_CLIENT_ROGUETOURNBUILDREFINFO___C__DISPLAYCLASS12_0___ADJUSTFAVORITEBUILDREFS_B__0_OFFSET UNITYSDK_OFFSET(0xD418EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass12_0_TypeDefinitionIndex = 63164;
+	inline static constexpr unsigned int RogueTournBuildRefInfo___c__DisplayClass12_0_TypeDefinitionIndex = 64531;
 
 	class RogueTournBuildRefInfo___c__DisplayClass12_0 : public ::System::Object
 	{

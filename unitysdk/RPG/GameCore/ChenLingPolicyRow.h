@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGPOLICYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A501DD0)
-#define RPG_GAMECORE_CHENLINGPOLICYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5021E0)
+#define RPG_GAMECORE_CHENLINGPOLICYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B33B8B0)
+#define RPG_GAMECORE_CHENLINGPOLICYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33BCC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingPolicyRow_TypeDefinitionIndex = 10631;
+	inline static constexpr unsigned int ChenLingPolicyRow_TypeDefinitionIndex = 10681;
 
 	class ChenLingPolicyRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RelatedCardList; // 0x10
-		::Il2CppArray<::System::UInt32>* SkillSoldierList; // 0x18
-		::System::String* IconPath; // 0x20
-		::RPG::Client::TextID Name; // 0x28
+		::System::String* IconPath; // 0x18
+		::Il2CppArray<::System::UInt32>* SkillSoldierList; // 0x20
+		::System::UInt32 SkillID; // 0x28
+		::System::UInt32 Weight; // 0x2C
+		::System::UInt32 ID; // 0x30
+		::RPG::GameCore::ChenLingIconType IconType; // 0x34
 		::System::UInt32 EffectID; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::System::UInt32 SkillID; // 0x40
-		::System::UInt32 Weight; // 0x44
-		::RPG::GameCore::ChenLingIconType IconType; // 0x48
-		::RPG::Client::TextID Desc; // 0x50
+		::RPG::Client::TextID Desc; // 0x40
+		::RPG::Client::TextID Name; // 0x50
 
 		::System::Void _ctor()
 		{

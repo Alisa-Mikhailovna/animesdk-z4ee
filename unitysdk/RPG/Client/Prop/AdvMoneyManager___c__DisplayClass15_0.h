@@ -5,18 +5,18 @@
 class Class_1_C2E1FDEE094F4F72;
 namespace RPG::Client::Prop { class AdvMoneyManager; }
 
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16209960)
-#define RPG_CLIENT_PROP_ADVMONEYMANAGER___C__DISPLAYCLASS15_0__LOGICTICK_B__0_OFFSET UNITYSDK_OFFSET(0x1620B120)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD0CC500)
+#define RPG_CLIENT_PROP_ADVMONEYMANAGER___C__DISPLAYCLASS15_0__LOGICTICK_B__0_OFFSET UNITYSDK_OFFSET(0xD0CDD00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdvMoneyManager___c__DisplayClass15_0_TypeDefinitionIndex = 72712;
+	inline static constexpr unsigned int AdvMoneyManager___c__DisplayClass15_0_TypeDefinitionIndex = 74237;
 
 	class AdvMoneyManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::AdvMoneyManager* __4__this; // 0x10
-		::Class_1_C2E1FDEE094F4F72* money; // 0x18
+		::Class_1_C2E1FDEE094F4F72* money; // 0x10
+		::RPG::Client::Prop::AdvMoneyManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

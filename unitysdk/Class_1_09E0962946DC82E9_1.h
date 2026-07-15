@@ -8,16 +8,16 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_09E0962946DC82E9_1_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0xADC6520)
-#define CLASS_1_09E0962946DC82E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0xADC6940)
+#define CLASS_1_09E0962946DC82E9_1_METHOD_1_0E3C9CE42200F670_OFFSET UNITYSDK_OFFSET(0x1AD1F9A0)
+#define CLASS_1_09E0962946DC82E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1FDC0)
 
-inline static constexpr unsigned int Class_1_09E0962946DC82E9_1_TypeDefinitionIndex = 11080;
+inline static constexpr unsigned int Class_1_09E0962946DC82E9_1_TypeDefinitionIndex = 11130;
 
 class Class_1_09E0962946DC82E9_1 : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
-	::Il2CppArray<::System::UInt32>* Field_1_1; // 0x18
+	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
+	::Il2CppArray<::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
 	::System::String* Field_1_2; // 0x20
 	::RPG::Client::TextID Field_1_3; // 0x28
 	::RPG::Client::TextID Field_1_4; // 0x38

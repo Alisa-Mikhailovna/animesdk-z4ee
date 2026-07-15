@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG_METHOD_2_B7C07E5AE3CE4396_OFFSET UNITYSDK_OFFSET(0x19A545C0)
-#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A54750)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG_METHOD_2_B7C07E5AE3CE4396_OFFSET UNITYSDK_OFFSET(0x1B9B0F30)
+#define RPG_GAMECORE_TURNBASEDMODIFIERCALLBACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B10C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierCallbackConfig_TypeDefinitionIndex = 17331;
+	inline static constexpr unsigned int TurnBasedModifierCallbackConfig_TypeDefinitionIndex = 17504;
 
 	class TurnBasedModifierCallbackConfig : public ::RPG::GameCore::JsonConfig
 	{

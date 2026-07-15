@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SUPERSCROLLVIEW_STAGGEREDGRIDVIEWINITPARAM_COPYDEFAULTINITPARAM_OFFSET UNITYSDK_OFFSET(0xE27B820)
-#define SUPERSCROLLVIEW_STAGGEREDGRIDVIEWINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE27B8A0)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDVIEWINITPARAM_COPYDEFAULTINITPARAM_OFFSET UNITYSDK_OFFSET(0xDDB2AF0)
+#define SUPERSCROLLVIEW_STAGGEREDGRIDVIEWINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDDB2B70)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int StaggeredGridViewInitParam_TypeDefinitionIndex = 44962;
+	inline static constexpr unsigned int StaggeredGridViewInitParam_TypeDefinitionIndex = 45880;
 
 	class StaggeredGridViewInitParam : public ::System::Object
 	{
 	public:
 		::System::Single mDistanceForRecycle0; // 0x10
 		::System::Single mItemDefaultWithPaddingSize; // 0x14
-		::System::Single mDistanceForNew0; // 0x18
-		::System::Single mDistanceForNew1; // 0x1C
-		::System::Single mDistanceForRecycle1; // 0x20
+		::System::Single mDistanceForRecycle1; // 0x18
+		::System::Single mDistanceForNew0; // 0x1C
+		::System::Single mDistanceForNew1; // 0x20
 
 		::System::Void _ctor()
 		{

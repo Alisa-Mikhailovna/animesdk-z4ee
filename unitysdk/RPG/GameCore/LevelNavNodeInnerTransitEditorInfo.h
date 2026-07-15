@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/LevelNavNodeInnerTransitInfo.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELNAVNODEINNERTRANSITEDITORINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E728F0)
-#define RPG_GAMECORE_LEVELNAVNODEINNERTRANSITEDITORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E728A0)
-#define RPG_GAMECORE_LEVELNAVNODEINNERTRANSITEDITORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E728E0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERTRANSITEDITORINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B566160)
+#define RPG_GAMECORE_LEVELNAVNODEINNERTRANSITEDITORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B566110)
+#define RPG_GAMECORE_LEVELNAVNODEINNERTRANSITEDITORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B566150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeInnerTransitEditorInfo_TypeDefinitionIndex = 16528;
+	inline static constexpr unsigned int LevelNavNodeInnerTransitEditorInfo_TypeDefinitionIndex = 16690;
 
-	class LevelNavNodeInnerTransitEditorInfo : public ::RPG::GameCore::LevelNavNodeInnerTransitInfo
+	class LevelNavNodeInnerTransitEditorInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()

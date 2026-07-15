@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CATGOD_CATGODGETSHELFWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18FBD390)
-#define RPG_CLIENT_CATGOD_CATGODGETSHELFWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18FBD3D0)
+#define RPG_CLIENT_CATGOD_CATGODGETSHELFWINDOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF484F0)
+#define RPG_CLIENT_CATGOD_CATGODGETSHELFWINDOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF48530)
 
 namespace RPG::Client::CatGod
 {
-	inline static constexpr unsigned int CatGodGetShelfWindow___c_TypeDefinitionIndex = 74306;
+	inline static constexpr unsigned int CatGodGetShelfWindow___c_TypeDefinitionIndex = 76690;
 
 	class CatGodGetShelfWindow___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::CatGod::CatGodGetShelfWindow___c** StaticGet___9()
 		{
-			return (::RPG::Client::CatGod::CatGodGetShelfWindow___c**)Il2CppClass::FromTypeDefinitionIndex(CatGodGetShelfWindow___c_TypeDefinitionIndex)->GetStaticField(0x64CB0);
+			return (::RPG::Client::CatGod::CatGodGetShelfWindow___c**)Il2CppClass::FromTypeDefinitionIndex(CatGodGetShelfWindow___c_TypeDefinitionIndex)->GetStaticField(0x5F0C0);
 		}
 
 		static ::System::Void _cctor()

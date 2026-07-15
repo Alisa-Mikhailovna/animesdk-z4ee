@@ -8,13 +8,13 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B537FD0)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPTRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1B538060)
-#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B538070)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1C984480)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPTRACK_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1C984510)
+#define SPINE_UNITY_PLAYABLES_SPINESKELETONFLIPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C984520)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineSkeletonFlipTrack_TypeDefinitionIndex = 41732;
+	inline static constexpr unsigned int SpineSkeletonFlipTrack_TypeDefinitionIndex = 42592;
 
 	class SpineSkeletonFlipTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

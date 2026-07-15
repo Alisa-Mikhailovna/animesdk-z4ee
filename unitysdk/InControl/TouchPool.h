@@ -6,24 +6,24 @@ namespace InControl { class Touch; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define INCONTROL_TOUCHPOOL_FINDORCREATETOUCH_OFFSET UNITYSDK_OFFSET(0x12A1FA80)
-#define INCONTROL_TOUCHPOOL_FINDTOUCH_OFFSET UNITYSDK_OFFSET(0x12A20620)
-#define INCONTROL_TOUCHPOOL_FREEENDEDTOUCHES_OFFSET UNITYSDK_OFFSET(0x12A1F950)
-#define INCONTROL_TOUCHPOOL_FREETOUCH_OFFSET UNITYSDK_OFFSET(0x12A21BD0)
-#define INCONTROL_TOUCHPOOL_NEWTOUCH_OFFSET UNITYSDK_OFFSET(0x12A21B30)
-#define INCONTROL_TOUCHPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x12A1F940)
-#define INCONTROL_TOUCHPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x12A21990)
+#define INCONTROL_TOUCHPOOL_FINDORCREATETOUCH_OFFSET UNITYSDK_OFFSET(0x199EFC70)
+#define INCONTROL_TOUCHPOOL_FINDTOUCH_OFFSET UNITYSDK_OFFSET(0x199F0960)
+#define INCONTROL_TOUCHPOOL_FREEENDEDTOUCHES_OFFSET UNITYSDK_OFFSET(0x199EFB40)
+#define INCONTROL_TOUCHPOOL_FREETOUCH_OFFSET UNITYSDK_OFFSET(0x199F1F10)
+#define INCONTROL_TOUCHPOOL_NEWTOUCH_OFFSET UNITYSDK_OFFSET(0x199F1E70)
+#define INCONTROL_TOUCHPOOL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x199EFB30)
+#define INCONTROL_TOUCHPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x199F1CD0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchPool_TypeDefinitionIndex = 37927;
+	inline static constexpr unsigned int TouchPool_TypeDefinitionIndex = 38735;
 
 	class TouchPool : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::InControl::Touch*>* usedTouches; // 0x10
-		::System::Collections::Generic::List_1<::InControl::Touch*>* freeTouches; // 0x18
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::Touch*>* Touches; // 0x20
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::Touch*>* Touches; // 0x18
+		::System::Collections::Generic::List_1<::InControl::Touch*>* freeTouches; // 0x20
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

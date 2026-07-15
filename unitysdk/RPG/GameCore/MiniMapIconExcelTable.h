@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19698EB0)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19698D40)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19698A30)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19698CE0)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19699000)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19698AB0)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19699040)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19699210)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19699830)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19699B50)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19699170)
-#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x196990D0)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B5FACE0)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B5FAB70)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B5FA860)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B5FAB10)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B5FAE30)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5FA8E0)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5FAE70)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5FB040)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B5FB660)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5FB980)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B5FAFA0)
+#define RPG_GAMECORE_MINIMAPICONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B5FAF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniMapIconExcelTable_TypeDefinitionIndex = 11939;
+	inline static constexpr unsigned int MiniMapIconExcelTable_TypeDefinitionIndex = 12071;
 
 	class MiniMapIconExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E730);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E738);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x213F0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MiniMapIconRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MiniMapIconRow*>**)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E740);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MiniMapIconRow*>**)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x213F8);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x9DC0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x21400);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x9DC1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x6AA0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MiniMapIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x6AA1);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x162557C0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL___C__DISPLAYCLASS3_0___PLAYFADEINANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0x16255B20)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC926AB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL___C__DISPLAYCLASS3_0___PLAYFADEINANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xC926EF0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsCommentWithReplyControl___c__DisplayClass3_0_TypeDefinitionIndex = 73803;
+	inline static constexpr unsigned int LimaoNewsCommentWithReplyControl___c__DisplayClass3_0_TypeDefinitionIndex = 75454;
 
 	class LimaoNewsCommentWithReplyControl___c__DisplayClass3_0 : public ::System::Object
 	{

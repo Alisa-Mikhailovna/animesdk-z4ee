@@ -6,12 +6,12 @@
 
 namespace RPG::Client { class GridFightOrbEntityData; }
 
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1977D700)
-#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__DISPLAYCLASS11_0__GETORBCOUNTBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1977E250)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7A1A60)
+#define RPG_CLIENT_GRIDFIGHTORBSERVERDATA___C__DISPLAYCLASS11_0__GETORBCOUNTBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xC7A2660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbServerData___c__DisplayClass11_0_TypeDefinitionIndex = 60234;
+	inline static constexpr unsigned int GridFightOrbServerData___c__DisplayClass11_0_TypeDefinitionIndex = 61523;
 
 	class GridFightOrbServerData___c__DisplayClass11_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI__CCTOR_OFFSET UNITYSDK_OFFSET(0x189536D0)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD19410)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_TypeDefinitionIndex = 2805;
+	inline static constexpr unsigned int UnsafeNclNativeMethods_HttpApi_TypeDefinitionIndex = 2809;
 
 	class UnsafeNclNativeMethods_HttpApi : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_m_Strings()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnsafeNclNativeMethods_HttpApi_TypeDefinitionIndex)->GetStaticField(0x26C20);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UnsafeNclNativeMethods_HttpApi_TypeDefinitionIndex)->GetStaticField(0x2E7A0);
 		}
 
 		static ::System::Void _cctor()

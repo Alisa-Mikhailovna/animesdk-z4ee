@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PIXAIREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D3FAE0)
-#define RPG_GAMECORE_PIXAIREFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D3FD10)
+#define RPG_GAMECORE_PIXAIREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6B2740)
+#define RPG_GAMECORE_PIXAIREFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B2970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEffectRow_TypeDefinitionIndex = 11599;
+	inline static constexpr unsigned int PixAirEffectRow_TypeDefinitionIndex = 11699;
 
 	class PixAirEffectRow : public ::System::Object
 	{

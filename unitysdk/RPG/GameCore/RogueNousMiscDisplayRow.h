@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSMISCDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE458F0)
-#define RPG_GAMECORE_ROGUENOUSMISCDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE45A70)
+#define RPG_GAMECORE_ROGUENOUSMISCDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B782F30)
+#define RPG_GAMECORE_ROGUENOUSMISCDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7830B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousMiscDisplayRow_TypeDefinitionIndex = 14201;
+	inline static constexpr unsigned int RogueNousMiscDisplayRow_TypeDefinitionIndex = 14349;
 
 	class RogueNousMiscDisplayRow : public ::System::Object
 	{

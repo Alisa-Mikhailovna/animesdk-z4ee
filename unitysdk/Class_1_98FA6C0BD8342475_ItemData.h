@@ -6,9 +6,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define CLASS_1_98FA6C0BD8342475_ITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x171C0240)
+#define CLASS_1_98FA6C0BD8342475_ITEMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB4AB840)
 
-inline static constexpr unsigned int Class_1_98FA6C0BD8342475_ItemData_TypeDefinitionIndex = 46112;
+inline static constexpr unsigned int Class_1_98FA6C0BD8342475_ItemData_TypeDefinitionIndex = 47051;
 
 class Class_1_98FA6C0BD8342475_ItemData : public ::System::Object
 {

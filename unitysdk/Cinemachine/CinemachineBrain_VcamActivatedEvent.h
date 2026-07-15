@@ -4,11 +4,11 @@
 
 namespace Cinemachine { class ICinemachineCamera; }
 
-#define CINEMACHINE_CINEMACHINEBRAIN_VCAMACTIVATEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x150DD590)
+#define CINEMACHINE_CINEMACHINEBRAIN_VCAMACTIVATEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x156BF530)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBrain_VcamActivatedEvent_TypeDefinitionIndex = 36783;
+	inline static constexpr unsigned int CinemachineBrain_VcamActivatedEvent_TypeDefinitionIndex = 37565;
 
 	class CinemachineBrain_VcamActivatedEvent : public ::UnityEngine::Events::UnityEvent_2<::Cinemachine::ICinemachineCamera*, ::Cinemachine::ICinemachineCamera*>
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerFrameData_1.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEFLOATDATA_LERP_OFFSET UNITYSDK_OFFSET(0x1A853BF0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEFLOATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A853C90)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEFLOATDATA_LERP_OFFSET UNITYSDK_OFFSET(0x1A8666E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERFRAMEFLOATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A866780)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerFrameFloatData_TypeDefinitionIndex = 40172;
+	inline static constexpr unsigned int PhantomPlayerFrameFloatData_TypeDefinitionIndex = 40987;
 
 	class PhantomPlayerFrameFloatData : public ::RPG::Client::LittleGame::FiveDim::PhantomPlayerFrameData_1<::System::Single>
 	{

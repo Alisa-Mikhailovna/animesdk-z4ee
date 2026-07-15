@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST_METHOD_3_00F9537B5A3E3C65_OFFSET UNITYSDK_OFFSET(0x196A79C0)
-#define RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST_METHOD_3_9B205BA7E02E8B0C_OFFSET UNITYSDK_OFFSET(0x196A7930)
-#define RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x196A7990)
+#define RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST_METHOD_3_00F9537B5A3E3C65_OFFSET UNITYSDK_OFFSET(0x1B609E50)
+#define RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST_METHOD_3_A1BA1BAAA49EDD00_OFFSET UNITYSDK_OFFSET(0x1B609E00)
+#define RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B609E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyCurrentSkillDelayCost_TypeDefinitionIndex = 21466;
+	inline static constexpr unsigned int ModifyCurrentSkillDelayCost_TypeDefinitionIndex = 21885;
 
 	class ModifyCurrentSkillDelayCost : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9B205BA7E02E8B0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCurrentSkillDelayCost*& a2)
+		static ::System::Void Method_3_A1BA1BAAA49EDD00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCurrentSkillDelayCost*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyCurrentSkillDelayCost*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST_METHOD_3_9B205BA7E02E8B0C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyCurrentSkillDelayCost*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURRENTSKILLDELAYCOST_METHOD_3_A1BA1BAAA49EDD00_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_00F9537B5A3E3C65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCurrentSkillDelayCost* a2)

@@ -4,6 +4,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client { class QuadricBezier; }
+namespace RPG::Client { class RPGAnimationEvent; }
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -11,19 +12,20 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x1893A010)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_METHOD_5_005A196F2DA2B034_OFFSET UNITYSDK_OFFSET(0x1893A060)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_METHOD_5_B3A88D7849969A71_OFFSET UNITYSDK_OFFSET(0x1893A3D0)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0x18939C60)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_PLAYRANDOMLINEANDSPEED_OFFSET UNITYSDK_OFFSET(0x18907900)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_PLAYWITHRADOMLINE_OFFSET UNITYSDK_OFFSET(0x18906F60)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0x18906910)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0x18939FD0)
-#define RPG_CLIENT_GRIDFIGHTFLYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1893A440)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC70F170)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_METHOD_5_005A196F2DA2B034_OFFSET UNITYSDK_OFFSET(0xC70F760)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_METHOD_5_B3A88D7849969A71_OFFSET UNITYSDK_OFFSET(0xC70FD30)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_METHOD_5_C20EB18130574EEF_OFFSET UNITYSDK_OFFSET(0xC70FAD0)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC70EDE0)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_PLAYRANDOMLINEANDSPEED_OFFSET UNITYSDK_OFFSET(0xC70F500)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_PLAYWITHRADOMLINE_OFFSET UNITYSDK_OFFSET(0xC70F2A0)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xC70F1D0)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC70F130)
+#define RPG_CLIENT_GRIDFIGHTFLYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC70FDA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlyEffect_TypeDefinitionIndex = 60282;
+	inline static constexpr unsigned int GridFightFlyEffect_TypeDefinitionIndex = 61571;
 
 	class GridFightFlyEffect : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,7 +37,7 @@ namespace RPG::Client
 		::RPG::Client::QuadricBezier* Field_5_4; // 0x40
 		::UnityEngine::ParticleSystem* Field_5_5; // 0x48
 		::UnityEngine::Animation* Field_5_6; // 0x50
-		::System::Single Field_5_7; // 0x58
+		::RPG::Client::RPGAnimationEvent* Field_5_7; // 0x58
 		::System::Action* Field_5_8; // 0x60
 
 		::System::Void _ctor()
@@ -71,6 +73,11 @@ namespace RPG::Client
 		::System::Void PlayWithRadomLine(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Action* a3, ::System::Action* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLYEFFECT_PLAYWITHRADOMLINE_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Method_5_C20EB18130574EEF(::System::Action* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFLYEFFECT_METHOD_5_C20EB18130574EEF_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 Method_5_005A196F2DA2B034(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Single a3)

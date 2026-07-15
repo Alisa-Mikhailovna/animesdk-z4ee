@@ -4,14 +4,13 @@
 
 namespace RPG::Client { class MonoUILayoutElementAutoSwitch_LayoutElementProperty; }
 
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0x187E3B40)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_E68E5CBD27DBE1A9_OFFSET UNITYSDK_OFFSET(0x187E3BD0)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x187E3D50)
-#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x187E3DF0)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD392D0)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_08A80BC6503C83C1_OFFSET UNITYSDK_OFFSET(0xCD39360)
+#define RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xCD39880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_TypeDefinitionIndex = 67848;
+	inline static constexpr unsigned int MonoUILayoutElementAutoSwitch_TypeDefinitionIndex = 69332;
 
 	class MonoUILayoutElementAutoSwitch : public ::UnityEngine::EventSystems::UIBehaviour
 	{
@@ -29,14 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_E68E5CBD27DBE1A9(::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty* a1)
+		::System::Void Method_6_08A80BC6503C83C1(::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_E68E5CBD27DBE1A9_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_Awake()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH___IFIXBASEPROXY_AWAKE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoUILayoutElementAutoSwitch_LayoutElementProperty*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUILAYOUTELEMENTAUTOSWITCH_METHOD_6_08A80BC6503C83C1_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,12 +6,12 @@ namespace RPG::Client { class MapNpcDef; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NPCDataRow; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x133C8E30)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS18_0___CREATECONTROLENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x133DAF80)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1ADA90)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPLAYCLASS18_0___CREATECONTROLENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xD1C0100)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass18_0_TypeDefinitionIndex = 73229;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass18_0_TypeDefinitionIndex = 74754;
 
 	class OpticalIllusionPuzzleBoard___c__DisplayClass18_0 : public ::System::Object
 	{

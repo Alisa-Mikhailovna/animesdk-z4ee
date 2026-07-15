@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OpticalIllusionSwitchCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0390FC77042B398B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172B2E00)
-#define CLASS_3_0390FC77042B398B__CTOR_OFFSET UNITYSDK_OFFSET(0x172B2DD0)
+#define CLASS_3_0390FC77042B398B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAE76460)
+#define CLASS_3_0390FC77042B398B__CTOR_OFFSET UNITYSDK_OFFSET(0xAE76430)
 
-inline static constexpr unsigned int Class_3_0390FC77042B398B_TypeDefinitionIndex = 49584;
+inline static constexpr unsigned int Class_3_0390FC77042B398B_TypeDefinitionIndex = 50638;
 
 class Class_3_0390FC77042B398B : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OpticalIllusionSwitchCamera*>
 {

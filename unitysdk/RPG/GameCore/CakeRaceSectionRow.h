@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKERACESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E83950)
-#define RPG_GAMECORE_CAKERACESECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E83AC0)
+#define RPG_GAMECORE_CAKERACESECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2FCF20)
+#define RPG_GAMECORE_CAKERACESECTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2FD090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceSectionRow_TypeDefinitionIndex = 10552;
+	inline static constexpr unsigned int CakeRaceSectionRow_TypeDefinitionIndex = 10602;
 
 	class CakeRaceSectionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RegionNum; // 0x10
+		::System::UInt32 SectionID; // 0x10
 		::RPG::GameCore::CakeRaceRegionTag Tag; // 0x14
-		::System::UInt32 SectionID; // 0x18
+		::System::UInt32 RegionNum; // 0x18
 
 		::System::Void _ctor()
 		{

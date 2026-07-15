@@ -4,20 +4,20 @@
 
 namespace Proto { class PerformanceStartSnapshot; }
 
-#define PROTO_PERFORMANCESTARTSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB05C80)
-#define PROTO_PERFORMANCESTARTSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB05CC0)
-#define PROTO_PERFORMANCESTARTSNAPSHOT___C___CCTOR_B__133_0_OFFSET UNITYSDK_OFFSET(0x1AB05CD0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC88060)
+#define PROTO_PERFORMANCESTARTSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC880A0)
+#define PROTO_PERFORMANCESTARTSNAPSHOT___C___CCTOR_B__133_0_OFFSET UNITYSDK_OFFSET(0x1BC880B0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PerformanceStartSnapshot___c_TypeDefinitionIndex = 24423;
+	inline static constexpr unsigned int PerformanceStartSnapshot___c_TypeDefinitionIndex = 24925;
 
 	class PerformanceStartSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::PerformanceStartSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::PerformanceStartSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x3E790);
+			return (::Proto::PerformanceStartSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(PerformanceStartSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x42C10);
 		}
 
 		static ::System::Void _cctor()

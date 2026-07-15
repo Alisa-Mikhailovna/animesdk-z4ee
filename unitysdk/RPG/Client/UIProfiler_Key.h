@@ -6,16 +6,14 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_UIPROFILER_KEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x378B470)
-#define RPG_CLIENT_UIPROFILER_KEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x378B3D0)
-#define RPG_CLIENT_UIPROFILER_KEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x378B480)
-#define RPG_CLIENT_UIPROFILER_KEY__CTOR_OFFSET UNITYSDK_OFFSET(0x35CCC90)
-#define RPG_CLIENT_UIPROFILER_KEY___IFIXBASEPROXY_EQUALS_OFFSET UNITYSDK_OFFSET(0x378B560)
-#define RPG_CLIENT_UIPROFILER_KEY___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x378B5D0)
+#define RPG_CLIENT_UIPROFILER_KEY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1531A0)
+#define RPG_CLIENT_UIPROFILER_KEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x153100)
+#define RPG_CLIENT_UIPROFILER_KEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1531B0)
+#define RPG_CLIENT_UIPROFILER_KEY__CTOR_OFFSET UNITYSDK_OFFSET(0x30100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProfiler_Key_TypeDefinitionIndex = 68337;
+	inline static constexpr unsigned int UIProfiler_Key_TypeDefinitionIndex = 69826;
 
 	struct alignas(8) UIProfiler_Key
 	{
@@ -40,16 +38,6 @@ namespace RPG::Client
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPROFILER_KEY_GETHASHCODE_OFFSET))(this);
-		}
-
-		::System::Boolean __iFixBaseProxy_Equals(::System::Object* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPROFILER_KEY___IFIXBASEPROXY_EQUALS_OFFSET))(this, a1);
-		}
-
-		::System::Int32 __iFixBaseProxy_GetHashCode()
-		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPROFILER_KEY___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
 		}
 	};
 }

@@ -6,12 +6,12 @@
 namespace RPGTools::Timeline::VFX { class PageTearConfig; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARDATA_SETUP_OFFSET UNITYSDK_OFFSET(0x177498C0)
-#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17749960)
+#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARDATA_SETUP_OFFSET UNITYSDK_OFFSET(0xDD32150)
+#define RPGTOOLS_TIMELINE_VFX_TALKPAGETEARDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD321F0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int TalkPageTearData_TypeDefinitionIndex = 45945;
+	inline static constexpr unsigned int TalkPageTearData_TypeDefinitionIndex = 46884;
 
 	class TalkPageTearData : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPGTools::Timeline::VFX
 		::System::String* OldPaperTexturePath; // 0x10
 		::System::String* BackTexturePath; // 0x18
 		::System::String* FrontTexturePath; // 0x20
-		::UnityEngine::Color OldPaperTint; // 0x28
-		::System::Single OldPaperIntensity; // 0x38
+		::System::Single OldPaperIntensity; // 0x28
+		::UnityEngine::Color OldPaperTint; // 0x2C
 
 		::System::Void _ctor()
 		{

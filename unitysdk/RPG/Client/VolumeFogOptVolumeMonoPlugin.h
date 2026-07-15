@@ -7,13 +7,12 @@ namespace RPG::Client { class VolumeFogOptVolumeBehavior; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17728AC0)
-#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17728B10)
-#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17728B30)
+#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD8A0DC0)
+#define RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD8A0E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VolumeFogOptVolumeMonoPlugin_TypeDefinitionIndex = 66252;
+	inline static constexpr unsigned int VolumeFogOptVolumeMonoPlugin_TypeDefinitionIndex = 67677;
 
 	class VolumeFogOptVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VolumeFogOptVolumeBehavior*>
 	{
@@ -30,11 +29,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VOLUMEFOGOPTVOLUMEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

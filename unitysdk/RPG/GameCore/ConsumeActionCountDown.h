@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN_METHOD_3_14587A81DF4441F6_OFFSET UNITYSDK_OFFSET(0x19B16150)
-#define RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN_METHOD_3_96139679F9AA34C8_OFFSET UNITYSDK_OFFSET(0x19B16030)
-#define RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x19B160D0)
+#define RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN_METHOD_3_14587A81DF4441F6_OFFSET UNITYSDK_OFFSET(0x1B382640)
+#define RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN_METHOD_3_B7AEBA0C7E3BC36F_OFFSET UNITYSDK_OFFSET(0x1B382550)
+#define RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3825E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConsumeActionCountDown_TypeDefinitionIndex = 22397;
+	inline static constexpr unsigned int ConsumeActionCountDown_TypeDefinitionIndex = 22839;
 
 	class ConsumeActionCountDown : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_96139679F9AA34C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeActionCountDown*& a2)
+		static ::System::Void Method_3_B7AEBA0C7E3BC36F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeActionCountDown*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeActionCountDown*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN_METHOD_3_96139679F9AA34C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeActionCountDown*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEACTIONCOUNTDOWN_METHOD_3_B7AEBA0C7E3BC36F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_14587A81DF4441F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeActionCountDown* a2)

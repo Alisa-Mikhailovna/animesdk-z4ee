@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETVIEWMODEENABLED_METHOD_3_0D2C9BE10736FF00_OFFSET UNITYSDK_OFFSET(0x1A7A3E50)
-#define RPG_GAMECORE_SETVIEWMODEENABLED_METHOD_3_E30D77D281644AF9_OFFSET UNITYSDK_OFFSET(0x1A7A3ED0)
-#define RPG_GAMECORE_SETVIEWMODEENABLED__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A3EA0)
+#define RPG_GAMECORE_SETVIEWMODEENABLED_METHOD_3_914B841D0B174572_OFFSET UNITYSDK_OFFSET(0x1B8B9660)
+#define RPG_GAMECORE_SETVIEWMODEENABLED_METHOD_3_E30D77D281644AF9_OFFSET UNITYSDK_OFFSET(0x1B8B96B0)
+#define RPG_GAMECORE_SETVIEWMODEENABLED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B96A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetViewModeEnabled_TypeDefinitionIndex = 21930;
+	inline static constexpr unsigned int SetViewModeEnabled_TypeDefinitionIndex = 22359;
 
 	class SetViewModeEnabled : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIEWMODEENABLED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0D2C9BE10736FF00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetViewModeEnabled*& a2)
+		static ::System::Void Method_3_914B841D0B174572(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetViewModeEnabled*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetViewModeEnabled*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIEWMODEENABLED_METHOD_3_0D2C9BE10736FF00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetViewModeEnabled*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETVIEWMODEENABLED_METHOD_3_914B841D0B174572_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E30D77D281644AF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetViewModeEnabled* a2)

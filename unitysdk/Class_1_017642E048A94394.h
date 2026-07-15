@@ -9,23 +9,23 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_1_017642E048A94394_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14F28F10)
-#define CLASS_1_017642E048A94394_METHOD_1_014B79100875CA6B_OFFSET UNITYSDK_OFFSET(0x14F29990)
-#define CLASS_1_017642E048A94394_METHOD_1_1DE357EB37CCCA0C_OFFSET UNITYSDK_OFFSET(0x14F297A0)
-#define CLASS_1_017642E048A94394_METHOD_1_2AD068E235F471F9_OFFSET UNITYSDK_OFFSET(0x14F29360)
-#define CLASS_1_017642E048A94394_METHOD_1_4E97364C1E26D1A8_OFFSET UNITYSDK_OFFSET(0x14F292F0)
-#define CLASS_1_017642E048A94394_METHOD_1_AA2C64D23D87FBEC_OFFSET UNITYSDK_OFFSET(0x14F28FC0)
-#define CLASS_1_017642E048A94394__CTOR_OFFSET UNITYSDK_OFFSET(0x14F28EB0)
+#define CLASS_1_017642E048A94394_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1518C020)
+#define CLASS_1_017642E048A94394_METHOD_1_1DE357EB37CCCA0C_OFFSET UNITYSDK_OFFSET(0x1518C800)
+#define CLASS_1_017642E048A94394_METHOD_1_2AD068E235F471F9_OFFSET UNITYSDK_OFFSET(0x1518C3C0)
+#define CLASS_1_017642E048A94394_METHOD_1_7300202C9DB2C080_OFFSET UNITYSDK_OFFSET(0x1518C9F0)
+#define CLASS_1_017642E048A94394_METHOD_1_AA2C64D23D87FBEC_OFFSET UNITYSDK_OFFSET(0x1518C0D0)
+#define CLASS_1_017642E048A94394_METHOD_1_E63E3362B08F9C98_OFFSET UNITYSDK_OFFSET(0x1518C350)
+#define CLASS_1_017642E048A94394__CTOR_OFFSET UNITYSDK_OFFSET(0x1518BFC0)
 
-inline static constexpr unsigned int Class_1_017642E048A94394_TypeDefinitionIndex = 64625;
+inline static constexpr unsigned int Class_1_017642E048A94394_TypeDefinitionIndex = 66026;
 
 class Class_1_017642E048A94394 : public ::System::Object
 {
 public:
-	::UnityEngine::Transform* Field_1_0; // 0x10
-	::UnityEngine::GameObject* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* Field_1_0; // 0x10
+	::UnityEngine::Transform* Field_1_1; // 0x18
 	::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* Field_1_3; // 0x28
+	::UnityEngine::GameObject* Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -52,13 +52,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_017642E048A94394_METHOD_1_1DE357EB37CCCA0C_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_4E97364C1E26D1A8(::UnityEngine::UI::Image* a1, ::System::Boolean a2)
+	::System::Void Method_1_E63E3362B08F9C98(::UnityEngine::UI::Image* a1, ::System::Boolean a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_017642E048A94394_METHOD_1_4E97364C1E26D1A8_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_017642E048A94394_METHOD_1_E63E3362B08F9C98_OFFSET))(this, a1, a2);
 	}
 
-	::UnityEngine::UI::Image* Method_1_014B79100875CA6B(::UnityEngine::RectTransform* a1)
+	::UnityEngine::UI::Image* Method_1_7300202C9DB2C080(::UnityEngine::RectTransform* a1)
 	{
-		return ((::UnityEngine::UI::Image*(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_1_017642E048A94394_METHOD_1_014B79100875CA6B_OFFSET))(this, a1);
+		return ((::UnityEngine::UI::Image*(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + CLASS_1_017642E048A94394_METHOD_1_7300202C9DB2C080_OFFSET))(this, a1);
 	}
 };

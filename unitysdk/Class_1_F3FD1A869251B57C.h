@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/UnitStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_F3FD1A869251B57C__CTOR_OFFSET UNITYSDK_OFFSET(0x172A5210)
+#define CLASS_1_F3FD1A869251B57C__CTOR_OFFSET UNITYSDK_OFFSET(0x14623520)
 
-inline static constexpr unsigned int Class_1_F3FD1A869251B57C_TypeDefinitionIndex = 53767;
+inline static constexpr unsigned int Class_1_F3FD1A869251B57C_TypeDefinitionIndex = 54987;
 
 class Class_1_F3FD1A869251B57C : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::RPG::GameCore::UnitStatus Field_1_1; // 0x14
+	::RPG::GameCore::UnitStatus Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x14
 	::RPG::GameCore::UnitStatus Field_1_2; // 0x18
 
 	::System::Void _ctor(::RPG::GameCore::UnitStatus a1, ::RPG::GameCore::UnitStatus a2, ::System::UInt32 a3)

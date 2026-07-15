@@ -6,19 +6,19 @@
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace UnityEngine::UI { class CustomUIVectot4EqualityComparer; }
 
-#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x135FA1A0)
-#define UNITYENGINE_UI_SETPROPERTYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x13636440)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY_SETCOLOR_OFFSET UNITYSDK_OFFSET(0x1D13D120)
+#define UNITYENGINE_UI_SETPROPERTYUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1799E0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 5998;
+	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 6003;
 
 	class SetPropertyUtility : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UI::CustomUIVectot4EqualityComparer** StaticGet_vectot4EqualityComparer()
 		{
-			return (::UnityEngine::UI::CustomUIVectot4EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x44590);
+			return (::UnityEngine::UI::CustomUIVectot4EqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(SetPropertyUtility_TypeDefinitionIndex)->GetStaticField(0x4A120);
 		}
 
 		static ::System::Void _cctor()

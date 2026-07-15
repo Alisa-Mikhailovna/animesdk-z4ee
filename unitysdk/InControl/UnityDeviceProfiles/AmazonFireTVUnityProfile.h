@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_AMAZONFIRETVUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xA64D910)
-#define INCONTROL_UNITYDEVICEPROFILES_AMAZONFIRETVUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xA64EC00)
+#define INCONTROL_UNITYDEVICEPROFILES_AMAZONFIRETVUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x199F9DD0)
+#define INCONTROL_UNITYDEVICEPROFILES_AMAZONFIRETVUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x199FB060)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int AmazonFireTVUnityProfile_TypeDefinitionIndex = 37961;
+	inline static constexpr unsigned int AmazonFireTVUnityProfile_TypeDefinitionIndex = 38769;
 
 	class AmazonFireTVUnityProfile : public ::InControl::InputDeviceProfile
 	{

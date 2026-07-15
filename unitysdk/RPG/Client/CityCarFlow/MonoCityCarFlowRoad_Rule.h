@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWROAD_RULE__CTOR_OFFSET UNITYSDK_OFFSET(0x182B4E30)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARFLOWROAD_RULE__CTOR_OFFSET UNITYSDK_OFFSET(0xC16E4D0)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarFlowRoad_Rule_TypeDefinitionIndex = 74425;
+	inline static constexpr unsigned int MonoCityCarFlowRoad_Rule_TypeDefinitionIndex = 76815;
 
 	class MonoCityCarFlowRoad_Rule : public ::System::Object
 	{

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHAKEDISTANCEATTENUATION_METHOD_2_4D9185EE61470553_OFFSET UNITYSDK_OFFSET(0x19FF3350)
-#define RPG_GAMECORE_SHAKEDISTANCEATTENUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF34F0)
+#define RPG_GAMECORE_SHAKEDISTANCEATTENUATION_METHOD_2_4D9185EE61470553_OFFSET UNITYSDK_OFFSET(0x1B8BE7D0)
+#define RPG_GAMECORE_SHAKEDISTANCEATTENUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8BE970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShakeDistanceAttenuation_TypeDefinitionIndex = 15595;
+	inline static constexpr unsigned int ShakeDistanceAttenuation_TypeDefinitionIndex = 15767;
 
 	class ShakeDistanceAttenuation : public ::RPG::GameCore::JsonConfig
 	{

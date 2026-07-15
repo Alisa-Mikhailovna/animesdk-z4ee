@@ -6,28 +6,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLEMATCHPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C3AAF0)
-#define RPG_GAMECORE_MARBLEMATCHPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3AFA0)
+#define RPG_GAMECORE_MARBLEMATCHPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5BAD50)
+#define RPG_GAMECORE_MARBLEMATCHPLAYERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5BB200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMatchPlayerRow_TypeDefinitionIndex = 11361;
+	inline static constexpr unsigned int MarbleMatchPlayerRow_TypeDefinitionIndex = 11461;
 
 	class MarbleMatchPlayerRow : public ::System::Object
 	{
 	public:
-		::System::String* PrefabPath; // 0x10
-		::System::String* IconPath; // 0x18
-		::Il2CppArray<::System::UInt32>* HighPositiveEmojiList; // 0x20
-		::Il2CppArray<::System::UInt32>* PlayerActionEmojiList; // 0x28
+		::Il2CppArray<::System::UInt32>* HighNegativeEmojiList; // 0x10
+		::Il2CppArray<::System::UInt32>* PlayerActionEmojiList; // 0x18
+		::Il2CppArray<::System::UInt32>* LowPositiveEmojiList; // 0x20
+		::System::String* IconPath; // 0x28
 		::Il2CppArray<::System::UInt32>* LowNegativeEmojiList; // 0x30
-		::Il2CppArray<::System::UInt32>* HighNegativeEmojiList; // 0x38
-		::System::String* ImagePath; // 0x40
-		::Il2CppArray<::System::UInt32>* LowPositiveEmojiList; // 0x48
+		::System::String* PrefabPath; // 0x38
+		::Il2CppArray<::System::UInt32>* HighPositiveEmojiList; // 0x40
+		::System::String* ImagePath; // 0x48
 		::RPG::Client::TextID Name; // 0x50
-		::System::UInt32 SealGroupID; // 0x60
-		::System::UInt32 ID; // 0x64
-		::RPG::Client::TextID Desc; // 0x68
+		::RPG::Client::TextID Desc; // 0x60
+		::System::UInt32 SealGroupID; // 0x70
+		::System::UInt32 ID; // 0x74
 
 		::System::Void _ctor()
 		{

@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class PropAttachToStoryPropClip; }
 
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B53E40)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B53E60)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B53E50)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B54120)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B54130)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD0F200)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD0F220)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD0F210)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD0F4E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropAttachToStoryPropBehaviour_TypeDefinitionIndex = 45533;
+	inline static constexpr unsigned int PropAttachToStoryPropBehaviour_TypeDefinitionIndex = 46467;
 
 	class PropAttachToStoryPropBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

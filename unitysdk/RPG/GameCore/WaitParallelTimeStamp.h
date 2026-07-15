@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_WAITPARALLELTIMESTAMP_METHOD_3_424D5C1D53963308_OFFSET UNITYSDK_OFFSET(0x1B31D4E0)
-#define RPG_GAMECORE_WAITPARALLELTIMESTAMP_METHOD_3_CBB797929CF0F66F_OFFSET UNITYSDK_OFFSET(0x1B31D600)
-#define RPG_GAMECORE_WAITPARALLELTIMESTAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31D580)
+#define RPG_GAMECORE_WAITPARALLELTIMESTAMP_METHOD_3_9A818C7335FEB631_OFFSET UNITYSDK_OFFSET(0x1B9EAD60)
+#define RPG_GAMECORE_WAITPARALLELTIMESTAMP_METHOD_3_CBB797929CF0F66F_OFFSET UNITYSDK_OFFSET(0x1B9EAE60)
+#define RPG_GAMECORE_WAITPARALLELTIMESTAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9EADF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitParallelTimeStamp_TypeDefinitionIndex = 21452;
+	inline static constexpr unsigned int WaitParallelTimeStamp_TypeDefinitionIndex = 21872;
 
 	class WaitParallelTimeStamp : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPARALLELTIMESTAMP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_424D5C1D53963308(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitParallelTimeStamp*& a2)
+		static ::System::Void Method_3_9A818C7335FEB631(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitParallelTimeStamp*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitParallelTimeStamp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPARALLELTIMESTAMP_METHOD_3_424D5C1D53963308_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitParallelTimeStamp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPARALLELTIMESTAMP_METHOD_3_9A818C7335FEB631_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CBB797929CF0F66F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitParallelTimeStamp* a2)

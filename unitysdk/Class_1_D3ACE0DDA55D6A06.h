@@ -6,20 +6,19 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x15D280D0)
-#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D28190)
-#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0x15D28050)
-#define CLASS_1_D3ACE0DDA55D6A06___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D284A0)
+#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x152052C0)
+#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15205380)
+#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0x15205240)
 
-inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 65619;
+inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 67036;
 
 class Class_1_D3ACE0DDA55D6A06 : public ::System::Object
 {
 public:
-	::UnityEngine::MaterialPropertyBlock* Field_1_0; // 0x10
-	::UnityEngine::Renderer* Field_1_1; // 0x18
-	::System::Int32 Field_1_2; // 0x20
-	::System::Single Field_1_3; // 0x24
+	::UnityEngine::Renderer* Field_1_0; // 0x10
+	::UnityEngine::MaterialPropertyBlock* Field_1_1; // 0x18
+	::System::Single Field_1_2; // 0x20
+	::System::Int32 Field_1_3; // 0x24
 	::System::Single Field_1_4; // 0x28
 
 	::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::String* a2, ::System::Single a3)
@@ -35,10 +34,5 @@ public:
 	::System::String* ToString()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D3ACE0DDA55D6A06___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

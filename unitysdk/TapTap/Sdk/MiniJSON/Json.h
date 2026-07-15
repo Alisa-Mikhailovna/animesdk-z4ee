@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define TAPTAP_SDK_MINIJSON_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B4651E0)
-#define TAPTAP_SDK_MINIJSON_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B466520)
+#define TAPTAP_SDK_MINIJSON_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD85170)
+#define TAPTAP_SDK_MINIJSON_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD86480)
 
 namespace TapTap::Sdk::MiniJSON
 {
-	inline static constexpr unsigned int Json_TypeDefinitionIndex = 7082;
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 7088;
 
 	class Json : public ::System::Object
 	{

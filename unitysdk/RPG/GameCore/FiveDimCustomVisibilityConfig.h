@@ -8,13 +8,13 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FiveDimLevelVarCondition; }
 
-#define RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG_METHOD_3_27B14DCAD02324DF_OFFSET UNITYSDK_OFFSET(0x199E8B70)
-#define RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG_METHOD_3_B2E3A7A26C239FB2_OFFSET UNITYSDK_OFFSET(0x199E8C30)
-#define RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199E8BE0)
+#define RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG_METHOD_3_B2E3A7A26C239FB2_OFFSET UNITYSDK_OFFSET(0x1B4277D0)
+#define RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG_METHOD_3_D7BE84CD01B8DAF6_OFFSET UNITYSDK_OFFSET(0x1B427730)
+#define RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B427790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCustomVisibilityConfig_TypeDefinitionIndex = 17704;
+	inline static constexpr unsigned int FiveDimCustomVisibilityConfig_TypeDefinitionIndex = 17878;
 
 	class FiveDimCustomVisibilityConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_27B14DCAD02324DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCustomVisibilityConfig*& a2)
+		static ::System::Void Method_3_D7BE84CD01B8DAF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCustomVisibilityConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCustomVisibilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG_METHOD_3_27B14DCAD02324DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCustomVisibilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCUSTOMVISIBILITYCONFIG_METHOD_3_D7BE84CD01B8DAF6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B2E3A7A26C239FB2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCustomVisibilityConfig* a2)

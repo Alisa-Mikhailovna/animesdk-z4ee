@@ -5,16 +5,14 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_METHOD_2_49765F1E3835BA67_OFFSET UNITYSDK_OFFSET(0x18C37760)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x18C379E0)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C376D0)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C37A70)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x18C37A90)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C37A80)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_METHOD_2_D75336DD7A9A33AA_OFFSET UNITYSDK_OFFSET(0xDCE28F0)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xDCE2C70)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCE2860)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCE2D00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideStageItemBehaviour_TypeDefinitionIndex = 45437;
+	inline static constexpr unsigned int HideStageItemBehaviour_TypeDefinitionIndex = 46371;
 
 	class HideStageItemBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -38,19 +36,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_49765F1E3835BA67(::System::Boolean a1)
+		::System::Void Method_2_D75336DD7A9A33AA(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_METHOD_2_49765F1E3835BA67_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMBEHAVIOUR_METHOD_2_D75336DD7A9A33AA_OFFSET))(this, a1);
 		}
 	};
 }

@@ -5,12 +5,12 @@
 namespace System { class Type; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICGENERICRESOLVERGETFORMATTERHELPER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14011C20)
-#define MESSAGEPACK_INTERNAL_DYNAMICGENERICRESOLVERGETFORMATTERHELPER___C__DISPLAYCLASS1_0__GETFORMATTER_B__7_OFFSET UNITYSDK_OFFSET(0x14013100)
+#define MESSAGEPACK_INTERNAL_DYNAMICGENERICRESOLVERGETFORMATTERHELPER___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B01E90)
+#define MESSAGEPACK_INTERNAL_DYNAMICGENERICRESOLVERGETFORMATTERHELPER___C__DISPLAYCLASS1_0__GETFORMATTER_B__7_OFFSET UNITYSDK_OFFSET(0x19B03760)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicGenericResolverGetFormatterHelper___c__DisplayClass1_0_TypeDefinitionIndex = 7265;
+	inline static constexpr unsigned int DynamicGenericResolverGetFormatterHelper___c__DisplayClass1_0_TypeDefinitionIndex = 7271;
 
 	class DynamicGenericResolverGetFormatterHelper___c__DisplayClass1_0 : public ::System::Object
 	{

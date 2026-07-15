@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C89220)
-#define RPG_GAMECORE_GACHACEILINGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C89840)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A7A80)
+#define RPG_GAMECORE_GACHACEILINGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A80A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 12720;
+	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 12857;
 
 	class GachaCeilingConfigRow : public ::System::Object
 	{

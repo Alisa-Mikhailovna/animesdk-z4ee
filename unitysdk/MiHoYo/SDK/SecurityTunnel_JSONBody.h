@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18CB14E0)
-#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x18CAD8A0)
+#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAB6C420)
+#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY__CTOR_OFFSET UNITYSDK_OFFSET(0xAB68500)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_JSONBody_TypeDefinitionIndex = 43793;
+	inline static constexpr unsigned int SecurityTunnel_JSONBody_TypeDefinitionIndex = 44655;
 
 	class SecurityTunnel_JSONBody : public ::System::Object
 	{

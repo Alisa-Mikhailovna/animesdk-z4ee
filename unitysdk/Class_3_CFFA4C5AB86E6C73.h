@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTimeRewindTargetCurrentState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CFFA4C5AB86E6C73_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1527CC70)
-#define CLASS_3_CFFA4C5AB86E6C73__CTOR_OFFSET UNITYSDK_OFFSET(0x1527CC40)
+#define CLASS_3_CFFA4C5AB86E6C73_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB34F510)
+#define CLASS_3_CFFA4C5AB86E6C73__CTOR_OFFSET UNITYSDK_OFFSET(0xB34F4E0)
 
-inline static constexpr unsigned int Class_3_CFFA4C5AB86E6C73_TypeDefinitionIndex = 49864;
+inline static constexpr unsigned int Class_3_CFFA4C5AB86E6C73_TypeDefinitionIndex = 50941;
 
 class Class_3_CFFA4C5AB86E6C73 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTimeRewindTargetCurrentState*>
 {

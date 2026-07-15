@@ -5,15 +5,15 @@
 class Class_1_07BF77E88FF3817D;
 namespace System { class Action; }
 
-#define CLASS_1_E961DAF6EA27AEAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1658AA50)
+#define CLASS_1_E961DAF6EA27AEAB__CTOR_OFFSET UNITYSDK_OFFSET(0xAF943B0)
 
-inline static constexpr unsigned int Class_1_E961DAF6EA27AEAB_TypeDefinitionIndex = 67381;
+inline static constexpr unsigned int Class_1_E961DAF6EA27AEAB_TypeDefinitionIndex = 68850;
 
 class Class_1_E961DAF6EA27AEAB : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::Class_1_07BF77E88FF3817D* Field_1_1; // 0x18
+	::Class_1_07BF77E88FF3817D* Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

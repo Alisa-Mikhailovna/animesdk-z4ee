@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PROPINTERACTWHITELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A8BCD0)
-#define RPG_GAMECORE_PROPINTERACTWHITELISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8BD70)
+#define RPG_GAMECORE_PROPINTERACTWHITELISTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6E6E80)
+#define RPG_GAMECORE_PROPINTERACTWHITELISTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E6F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInteractWhiteListRow_TypeDefinitionIndex = 12600;
+	inline static constexpr unsigned int PropInteractWhiteListRow_TypeDefinitionIndex = 12737;
 
 	class PropInteractWhiteListRow : public ::System::Object
 	{

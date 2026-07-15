@@ -5,21 +5,21 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MIRRORMENT_MIRRORMENTTOOL_CLASS_1_6B9825E2275D9D97__CTOR_OFFSET UNITYSDK_OFFSET(0x16B7B700)
+#define MIRRORMENT_MIRRORMENTTOOL_CLASS_1_6B9825E2275D9D97__CTOR_OFFSET UNITYSDK_OFFSET(0xB1EEB80)
 
 namespace Mirrorment
 {
-	inline static constexpr unsigned int MirrormentTool_Class_1_6B9825E2275D9D97_TypeDefinitionIndex = 45086;
+	inline static constexpr unsigned int MirrormentTool_Class_1_6B9825E2275D9D97_TypeDefinitionIndex = 46004;
 
 	class MirrormentTool_Class_1_6B9825E2275D9D97 : public ::System::Object
 	{
 	public:
 		::UnityEngine::Vector3 Field_1_0; // 0x10
-		::System::Single Field_1_1; // 0x1C
-		::UnityEngine::Quaternion Field_1_2; // 0x20
-		::UnityEngine::Vector3 Field_1_3; // 0x30
-		::System::Single Field_1_4; // 0x3C
-		::RPG::Client::Prop::OpticalIllusionPlane Field_1_5; // 0x40
+		::RPG::Client::Prop::OpticalIllusionPlane Field_1_1; // 0x1C
+		::System::Single Field_1_2; // 0x20
+		::UnityEngine::Quaternion Field_1_3; // 0x24
+		::System::Single Field_1_4; // 0x34
+		::UnityEngine::Vector3 Field_1_5; // 0x38
 
 		::System::Void _ctor()
 		{

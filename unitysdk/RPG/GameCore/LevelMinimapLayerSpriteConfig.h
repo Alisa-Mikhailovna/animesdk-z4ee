@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E6CF50)
-#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18E6D0D0)
+#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B55CAB0)
+#define RPG_GAMECORE_LEVELMINIMAPLAYERSPRITECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B55CC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMinimapLayerSpriteConfig_TypeDefinitionIndex = 16371;
+	inline static constexpr unsigned int LevelMinimapLayerSpriteConfig_TypeDefinitionIndex = 16533;
 
 	class LevelMinimapLayerSpriteConfig : public ::RPG::GameCore::JsonConfig
 	{

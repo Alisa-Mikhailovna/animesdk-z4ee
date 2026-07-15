@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE_METHOD_3_6166C3265151D626_OFFSET UNITYSDK_OFFSET(0x1A3B16F0)
-#define RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE_METHOD_3_C4F7591E8F1659F0_OFFSET UNITYSDK_OFFSET(0x1A3B1770)
-#define RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3B1740)
+#define RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE_METHOD_3_2037A4F5623D8BDF_OFFSET UNITYSDK_OFFSET(0x1B455930)
+#define RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE_METHOD_3_C4F7591E8F1659F0_OFFSET UNITYSDK_OFFSET(0x1B455970)
+#define RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B455960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceMakeCharacterActionable_TypeDefinitionIndex = 22012;
+	inline static constexpr unsigned int ForceMakeCharacterActionable_TypeDefinitionIndex = 22446;
 
 	class ForceMakeCharacterActionable : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6166C3265151D626(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceMakeCharacterActionable*& a2)
+		static ::System::Void Method_3_2037A4F5623D8BDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceMakeCharacterActionable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceMakeCharacterActionable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE_METHOD_3_6166C3265151D626_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceMakeCharacterActionable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEMAKECHARACTERACTIONABLE_METHOD_3_2037A4F5623D8BDF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C4F7591E8F1659F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceMakeCharacterActionable* a2)

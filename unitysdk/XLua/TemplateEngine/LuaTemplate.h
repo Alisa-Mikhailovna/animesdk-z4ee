@@ -10,30 +10,30 @@ namespace XLua { class LuaTable; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 namespace XLua::TemplateEngine { class Chunk; }
 
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE_COMPILE_1_OFFSET UNITYSDK_OFFSET(0xFAC3CB0)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE_COMPILE_OFFSET UNITYSDK_OFFSET(0xFAC4340)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE_COMPOSECODE_OFFSET UNITYSDK_OFFSET(0xFAC4110)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0xFAC4EB0)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE_EXECUTE_2_OFFSET UNITYSDK_OFFSET(0xFAC3E50)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE_EXECUTE_OFFSET UNITYSDK_OFFSET(0xFAC4E40)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE_OPENLIB_OFFSET UNITYSDK_OFFSET(0xFAC4F20)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE__CCTOR_OFFSET UNITYSDK_OFFSET(0xFAC52A0)
-#define XLUA_TEMPLATEENGINE_LUATEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xFAC5290)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE_COMPILE_1_OFFSET UNITYSDK_OFFSET(0x1437CDD0)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE_COMPILE_OFFSET UNITYSDK_OFFSET(0x1437D460)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE_COMPOSECODE_OFFSET UNITYSDK_OFFSET(0x1437D230)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE_EXECUTE_1_OFFSET UNITYSDK_OFFSET(0x1437E1E0)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE_EXECUTE_2_OFFSET UNITYSDK_OFFSET(0x1437CF70)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1437E100)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE_OPENLIB_OFFSET UNITYSDK_OFFSET(0x1437E2B0)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1437E550)
+#define XLUA_TEMPLATEENGINE_LUATEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1437E540)
 
 namespace XLua::TemplateEngine
 {
-	inline static constexpr unsigned int LuaTemplate_TypeDefinitionIndex = 47064;
+	inline static constexpr unsigned int LuaTemplate_TypeDefinitionIndex = 48030;
 
 	class LuaTemplate : public ::System::Object
 	{
 	public:
-		static ::XLua::LuaDLL::lua_CSFunction** StaticGet_templateExecuteFunction()
-		{
-			return (::XLua::LuaDLL::lua_CSFunction**)Il2CppClass::FromTypeDefinitionIndex(LuaTemplate_TypeDefinitionIndex)->GetStaticField(0x5BD70);
-		}
 		static ::XLua::LuaDLL::lua_CSFunction** StaticGet_templateCompileFunction()
 		{
-			return (::XLua::LuaDLL::lua_CSFunction**)Il2CppClass::FromTypeDefinitionIndex(LuaTemplate_TypeDefinitionIndex)->GetStaticField(0x5BD78);
+			return (::XLua::LuaDLL::lua_CSFunction**)Il2CppClass::FromTypeDefinitionIndex(LuaTemplate_TypeDefinitionIndex)->GetStaticField(0x389D0);
+		}
+		static ::XLua::LuaDLL::lua_CSFunction** StaticGet_templateExecuteFunction()
+		{
+			return (::XLua::LuaDLL::lua_CSFunction**)Il2CppClass::FromTypeDefinitionIndex(LuaTemplate_TypeDefinitionIndex)->GetStaticField(0x389D8);
 		}
 
 		::System::Void _ctor()

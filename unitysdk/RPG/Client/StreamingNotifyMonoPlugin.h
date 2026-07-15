@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class StreamingNotifyBehavior; }
 
-#define RPG_CLIENT_STREAMINGNOTIFYMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17BFCA70)
+#define RPG_CLIENT_STREAMINGNOTIFYMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD575270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StreamingNotifyMonoPlugin_TypeDefinitionIndex = 66254;
+	inline static constexpr unsigned int StreamingNotifyMonoPlugin_TypeDefinitionIndex = 67679;
 
 	class StreamingNotifyMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StreamingNotifyBehavior*>
 	{

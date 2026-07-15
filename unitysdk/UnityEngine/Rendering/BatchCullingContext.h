@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Rendering/BatchVisibility.h"
 #include "unitysdk/UnityEngine/Rendering/LODParameters.h"
 
-#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3925CA0)
+#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x3A2B350)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 4716;
+	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 4721;
 
 	struct alignas(8) BatchCullingContext
 	{

@@ -18,28 +18,28 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__SENDASYNC_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3924690)
-#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__SENDASYNC_D__64_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x39246A0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__SENDASYNC_D__64_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A0F0D0)
+#define SYSTEM_NET_HTTP_HTTPCLIENTHANDLER__SENDASYNC_D__64_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3A0F0E0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpClientHandler__SendAsync_d__64_TypeDefinitionIndex = 3750;
+	inline static constexpr unsigned int HttpClientHandler__SendAsync_d__64_TypeDefinitionIndex = 3754;
 
 	struct alignas(8) HttpClientHandler__SendAsync_d__64
 	{
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2; // 0x10
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__3; // 0x20
-		::System::Net::Http::HttpContent* _content_5__2; // 0x30
-		::System::Threading::CancellationToken cancellationToken; // 0x38
-		::System::Threading::CancellationTokenRegistration __7__wrap1; // 0x40
-		::System::IO::Stream* _stream_5__3; // 0x58
-		::System::Net::HttpWebResponse* _wresponse_5__4; // 0x60
-		::System::Net::Http::HttpRequestMessage* request; // 0x68
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0x10
+		::System::Net::Http::HttpRequestMessage* request; // 0x20
+		::System::Net::HttpWebResponse* _wresponse_5__4; // 0x28
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__4; // 0x30
+		::System::Threading::CancellationTokenRegistration __7__wrap1; // 0x38
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__3; // 0x50
+		::System::Net::Http::HttpClientHandler* __4__this; // 0x60
+		::System::Net::Http::HttpContent* _content_5__2; // 0x68
 		::System::Net::HttpWebRequest* _wrequest_5__1; // 0x70
-		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__4; // 0x78
+		::System::Threading::CancellationToken cancellationToken; // 0x78
 		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder; // 0x80
-		::System::Net::Http::HttpClientHandler* __4__this; // 0x98
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1; // 0xA0
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2; // 0x98
+		::System::IO::Stream* _stream_5__3; // 0xA8
 		::System::Int32 __1__state; // 0xB0
 
 		::System::Void MoveNext()

@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_KIBANANETBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14C76DF0)
+#define MIHOYO_SDK_KIBANANETBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2CC60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaNetBoxConfig_TypeDefinitionIndex = 7860;
+	inline static constexpr unsigned int KibanaNetBoxConfig_TypeDefinitionIndex = 7866;
 
 	class KibanaNetBoxConfig : public ::System::Object
 	{

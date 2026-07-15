@@ -7,13 +7,12 @@ namespace RPG::Client { class FloorConnectivityData_EdgeInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15949FB0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x15949B80)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1594A170)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC620830)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC620480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 60025;
+	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 61310;
 
 	class FloorConnectivityData_VertexInfo : public ::System::Object
 	{
@@ -31,11 +30,6 @@ namespace RPG::Client
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

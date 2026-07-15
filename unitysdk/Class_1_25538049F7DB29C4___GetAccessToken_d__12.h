@@ -10,18 +10,18 @@ namespace System::Net::Http { class HttpClient; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_25538049F7DB29C4___GETACCESSTOKEN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3750900)
-#define CLASS_1_25538049F7DB29C4___GETACCESSTOKEN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3750890)
+#define CLASS_1_25538049F7DB29C4___GETACCESSTOKEN_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2D0EC80)
+#define CLASS_1_25538049F7DB29C4___GETACCESSTOKEN_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x152AF0)
 
-inline static constexpr unsigned int Class_1_25538049F7DB29C4___GetAccessToken_d__12_TypeDefinitionIndex = 46865;
+inline static constexpr unsigned int Class_1_25538049F7DB29C4___GetAccessToken_d__12_TypeDefinitionIndex = 47830;
 
 struct alignas(8) Class_1_25538049F7DB29C4___GetAccessToken_d__12
 {
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1; // 0x10
-	::Class_1_25538049F7DB29C4* __4__this; // 0x20
-	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x28
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__2; // 0x40
-	::System::Net::Http::HttpClient* _client_5__2; // 0x50
+	::Class_1_25538049F7DB29C4* __4__this; // 0x10
+	::System::Net::Http::HttpClient* _client_5__2; // 0x18
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__2; // 0x20
+	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x30
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1; // 0x48
 	::System::Int32 __1__state; // 0x58
 
 	::System::Void MoveNext()

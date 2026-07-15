@@ -9,23 +9,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_63AB485EFA8FBC73_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142AF110)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_006FE46C1CBA320C_OFFSET UNITYSDK_OFFSET(0x142AF9B0)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x142AF060)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_1_OFFSET UNITYSDK_OFFSET(0x142AF580)
-#define CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0x142AF150)
-#define CLASS_1_63AB485EFA8FBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x142AFE70)
+#define CLASS_1_63AB485EFA8FBC73_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14B4EB30)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_006FE46C1CBA320C_OFFSET UNITYSDK_OFFSET(0x14B4F2D0)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0x14B4EA80)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_1_OFFSET UNITYSDK_OFFSET(0x14B4EF20)
+#define CLASS_1_63AB485EFA8FBC73_METHOD_1_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0x14B4EB70)
+#define CLASS_1_63AB485EFA8FBC73__CTOR_OFFSET UNITYSDK_OFFSET(0x14B4F7A0)
 
-inline static constexpr unsigned int Class_1_63AB485EFA8FBC73_TypeDefinitionIndex = 56236;
+inline static constexpr unsigned int Class_1_63AB485EFA8FBC73_TypeDefinitionIndex = 57475;
 
 class Class_1_63AB485EFA8FBC73 : public ::System::Object
 {
 public:
-	::RPG::Client::AchievementData* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Field_1_0; // 0x10
 	::RPG::Client::AchievementData* Field_1_1; // 0x18
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_3; // 0x28
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Field_1_4; // 0x30
+	::RPG::Client::AchievementData* Field_1_3; // 0x28
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_4; // 0x30
 	::System::UInt32 Field_1_5; // 0x38
 	::System::UInt32 Field_1_6; // 0x3C
 

@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSCOREREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1BBD40)
-#define RPG_GAMECORE_GRIDFIGHTSCOREREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BBEF0)
+#define RPG_GAMECORE_GRIDFIGHTSCOREREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4EBB60)
+#define RPG_GAMECORE_GRIDFIGHTSCOREREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EBD10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightScoreRewardConfigRow_TypeDefinitionIndex = 12794;
+	inline static constexpr unsigned int GridFightScoreRewardConfigRow_TypeDefinitionIndex = 12931;
 
 	class GridFightScoreRewardConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 Reward; // 0x10
-		::System::UInt32 Score; // 0x14
-		::System::UInt32 ScoreRow; // 0x18
-		::System::UInt32 ScoreRank; // 0x1C
+		::System::UInt32 ScoreRow; // 0x14
+		::System::UInt32 ScoreRank; // 0x18
+		::System::UInt32 Score; // 0x1C
 
 		::System::Void _ctor()
 		{

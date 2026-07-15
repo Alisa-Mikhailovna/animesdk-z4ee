@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifySwitchHandControlParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A3CC8071CBF32017_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF451BA0)
-#define CLASS_3_A3CC8071CBF32017__CTOR_OFFSET UNITYSDK_OFFSET(0xF451B70)
+#define CLASS_3_A3CC8071CBF32017_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C86050)
+#define CLASS_3_A3CC8071CBF32017__CTOR_OFFSET UNITYSDK_OFFSET(0x10C86020)
 
-inline static constexpr unsigned int Class_3_A3CC8071CBF32017_TypeDefinitionIndex = 49568;
+inline static constexpr unsigned int Class_3_A3CC8071CBF32017_TypeDefinitionIndex = 50622;
 
 class Class_3_A3CC8071CBF32017 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifySwitchHandControlParam*>
 {

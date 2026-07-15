@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17226AB0)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__CONNECT_B__13_0_OFFSET UNITYSDK_OFFSET(0x17226B00)
-#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17226AF0)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B91990)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__CONNECT_B__13_0_OFFSET UNITYSDK_OFFSET(0x19B919E0)
+#define CLOUDGAME_MAILBOX_GAMECONTROL_GAMECONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B919D0)
 
 namespace CloudGame::MailBox::GameControl
 {
-	inline static constexpr unsigned int GameControl___c_TypeDefinitionIndex = 7503;
+	inline static constexpr unsigned int GameControl___c_TypeDefinitionIndex = 7509;
 
 	class GameControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet___9__13_0()
-		{
-			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(GameControl___c_TypeDefinitionIndex)->GetStaticField(0xBBB0);
-		}
 		static ::CloudGame::MailBox::GameControl::GameControl___c** StaticGet___9()
 		{
-			return (::CloudGame::MailBox::GameControl::GameControl___c**)Il2CppClass::FromTypeDefinitionIndex(GameControl___c_TypeDefinitionIndex)->GetStaticField(0xBBB8);
+			return (::CloudGame::MailBox::GameControl::GameControl___c**)Il2CppClass::FromTypeDefinitionIndex(GameControl___c_TypeDefinitionIndex)->GetStaticField(0xE7E0);
+		}
+		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet___9__13_0()
+		{
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(GameControl___c_TypeDefinitionIndex)->GetStaticField(0xE7E8);
 		}
 
 		static ::System::Void _cctor()

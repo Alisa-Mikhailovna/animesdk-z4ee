@@ -6,12 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerHitVibration; }
 
-#define CLASS_3_E8B941FCDEFA0748_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16404040)
-#define CLASS_3_E8B941FCDEFA0748_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16404080)
-#define CLASS_3_E8B941FCDEFA0748__CTOR_OFFSET UNITYSDK_OFFSET(0x16404010)
-#define CLASS_3_E8B941FCDEFA0748___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16404240)
+#define CLASS_3_E8B941FCDEFA0748_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB14B9E0)
+#define CLASS_3_E8B941FCDEFA0748_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB14BA20)
+#define CLASS_3_E8B941FCDEFA0748__CTOR_OFFSET UNITYSDK_OFFSET(0xB14B9B0)
 
-inline static constexpr unsigned int Class_3_E8B941FCDEFA0748_TypeDefinitionIndex = 52721;
+inline static constexpr unsigned int Class_3_E8B941FCDEFA0748_TypeDefinitionIndex = 53931;
 
 class Class_3_E8B941FCDEFA0748 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerHitVibration*>
 {
@@ -31,10 +30,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E8B941FCDEFA0748_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E8B941FCDEFA0748___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

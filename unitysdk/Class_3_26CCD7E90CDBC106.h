@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWeaknessCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_26CCD7E90CDBC106_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x138861E0)
-#define CLASS_3_26CCD7E90CDBC106__CTOR_OFFSET UNITYSDK_OFFSET(0x13886100)
+#define CLASS_3_26CCD7E90CDBC106_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153E87F0)
+#define CLASS_3_26CCD7E90CDBC106__CTOR_OFFSET UNITYSDK_OFFSET(0x153E8710)
 
-inline static constexpr unsigned int Class_3_26CCD7E90CDBC106_TypeDefinitionIndex = 51819;
+inline static constexpr unsigned int Class_3_26CCD7E90CDBC106_TypeDefinitionIndex = 52967;
 
 class Class_3_26CCD7E90CDBC106 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByWeaknessCount*>
 {

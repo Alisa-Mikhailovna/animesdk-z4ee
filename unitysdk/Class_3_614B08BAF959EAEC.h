@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByAllowInstantKill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_614B08BAF959EAEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D39EA0)
-#define CLASS_3_614B08BAF959EAEC__CTOR_OFFSET UNITYSDK_OFFSET(0x15D39E70)
+#define CLASS_3_614B08BAF959EAEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15217B60)
+#define CLASS_3_614B08BAF959EAEC__CTOR_OFFSET UNITYSDK_OFFSET(0x15217B30)
 
-inline static constexpr unsigned int Class_3_614B08BAF959EAEC_TypeDefinitionIndex = 50921;
+inline static constexpr unsigned int Class_3_614B08BAF959EAEC_TypeDefinitionIndex = 52006;
 
 class Class_3_614B08BAF959EAEC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByAllowInstantKill*>
 {

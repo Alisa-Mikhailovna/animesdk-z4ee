@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_HUMANTRAIT_GETBONEINDEXFROMMONO_OFFSET UNITYSDK_OFFSET(0x1B431980)
+#define UNITYENGINE_HUMANTRAIT_GETBONEINDEXFROMMONO_OFFSET UNITYSDK_OFFSET(0x1CFEC8D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HumanTrait_TypeDefinitionIndex = 5150;
+	inline static constexpr unsigned int HumanTrait_TypeDefinitionIndex = 5155;
 
 	class HumanTrait : public ::System::Object
 	{

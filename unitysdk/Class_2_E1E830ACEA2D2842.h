@@ -10,24 +10,23 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Button; }
 
-#define CLASS_2_E1E830ACEA2D2842_METHOD_2_4DF46064365EF3A4_OFFSET UNITYSDK_OFFSET(0x16F4C620)
-#define CLASS_2_E1E830ACEA2D2842_METHOD_2_9256B4946C27AD99_OFFSET UNITYSDK_OFFSET(0x16F4C790)
-#define CLASS_2_E1E830ACEA2D2842_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x16F4C740)
-#define CLASS_2_E1E830ACEA2D2842__CTOR_OFFSET UNITYSDK_OFFSET(0x16F4C7B0)
-#define CLASS_2_E1E830ACEA2D2842__ONBIND_OFFSET UNITYSDK_OFFSET(0x16F4C320)
-#define CLASS_2_E1E830ACEA2D2842___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x16F4C820)
-#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x16F4C7E0)
-#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_1_OFFSET UNITYSDK_OFFSET(0x16F4C800)
+#define CLASS_2_E1E830ACEA2D2842_METHOD_2_4DF46064365EF3A4_OFFSET UNITYSDK_OFFSET(0x1458BA10)
+#define CLASS_2_E1E830ACEA2D2842_METHOD_2_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x1458BB30)
+#define CLASS_2_E1E830ACEA2D2842_METHOD_2_F4A3996D27B8F20B_OFFSET UNITYSDK_OFFSET(0x1458BB80)
+#define CLASS_2_E1E830ACEA2D2842__CTOR_OFFSET UNITYSDK_OFFSET(0x1458BBE0)
+#define CLASS_2_E1E830ACEA2D2842__ONBIND_OFFSET UNITYSDK_OFFSET(0x1458B6B0)
+#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x1458BC10)
+#define CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_1_OFFSET UNITYSDK_OFFSET(0x1458BC30)
 
-inline static constexpr unsigned int Class_2_E1E830ACEA2D2842_TypeDefinitionIndex = 66541;
+inline static constexpr unsigned int Class_2_E1E830ACEA2D2842_TypeDefinitionIndex = 67977;
 
 class Class_2_E1E830ACEA2D2842 : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
-	::RPG::Client::ElationBuffPresenterUIParam* Field_2_0; // 0x60
-	::UnityEngine::UI::Button* Field_2_1; // 0x68
-	::UnityEngine::UI::Button* Field_2_2; // 0x70
-	::RPG::Client::ElationBuffPresenter* Field_2_3; // 0x78
+	::UnityEngine::UI::Button* Field_2_0; // 0x60
+	::RPG::Client::ElationBuffPresenterUIParam* Field_2_1; // 0x68
+	::RPG::Client::ElationBuffPresenter* Field_2_2; // 0x70
+	::UnityEngine::UI::Button* Field_2_3; // 0x78
 	::UnityEngine::Animation* Field_2_4; // 0x80
 
 	::System::Void _ctor()
@@ -50,9 +49,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1E830ACEA2D2842_METHOD_2_E11AC65AA0DC2249_OFFSET))(this);
 	}
 
-	::UnityEngine::RectTransform* Method_2_9256B4946C27AD99()
+	::UnityEngine::RectTransform* Method_2_F4A3996D27B8F20B()
 	{
-		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1E830ACEA2D2842_METHOD_2_9256B4946C27AD99_OFFSET))(this);
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1E830ACEA2D2842_METHOD_2_F4A3996D27B8F20B_OFFSET))(this);
 	}
 
 	::System::Void __OnBind_b__0_0(::System::Object* a1)
@@ -63,10 +62,5 @@ public:
 	::System::Void __OnBind_b__0_1(::System::Object* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_E1E830ACEA2D2842___ONBIND_B__0_1_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E1E830ACEA2D2842___IFIXBASEPROXY__ONBIND_OFFSET))(this);
 	}
 };

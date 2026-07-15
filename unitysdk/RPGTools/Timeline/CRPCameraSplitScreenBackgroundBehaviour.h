@@ -5,13 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198C3910)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x198C3AE0)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198C3CE0)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCA3800)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCA39D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSplitScreenBackgroundBehaviour_TypeDefinitionIndex = 45208;
+	inline static constexpr unsigned int CRPCameraSplitScreenBackgroundBehaviour_TypeDefinitionIndex = 46132;
 
 	class CRPCameraSplitScreenBackgroundBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -7,13 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C558E0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C55990)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C559A0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD057C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD05870)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int LensDistortionTimelineTrack_TypeDefinitionIndex = 45848;
+	inline static constexpr unsigned int LensDistortionTimelineTrack_TypeDefinitionIndex = 46787;
 
 	class LensDistortionTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_LENSDISTORTIONTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -7,12 +7,12 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERHDRP_RENDERLOOKUPTEXTURE_OFFSET UNITYSDK_OFFSET(0x15C50FD0)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERHDRP__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4D4B0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERHDRP_RENDERLOOKUPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1CE9C770)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERHDRP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE987F0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer_SelectionPickerRendererHDRP_TypeDefinitionIndex = 40804;
+	inline static constexpr unsigned int SelectionPickerRenderer_SelectionPickerRendererHDRP_TypeDefinitionIndex = 41619;
 
 	class SelectionPickerRenderer_SelectionPickerRendererHDRP : public ::System::Object
 	{

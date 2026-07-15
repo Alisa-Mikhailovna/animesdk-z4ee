@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMEFLOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F07DA0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMEFLOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F07DE0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMEFLOW___C___ONEXITED_B__8_0_OFFSET UNITYSDK_OFFSET(0x17F07DF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMEFLOW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC23F400)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMEFLOW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC23F440)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2GAMEFLOW___C___ONEXITED_B__8_0_OFFSET UNITYSDK_OFFSET(0xC23F450)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2GameFlow___c_TypeDefinitionIndex = 70757;
+	inline static constexpr unsigned int DiceCombatV2GameFlow___c_TypeDefinitionIndex = 72270;
 
 	class DiceCombatV2GameFlow___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::DiceCombat::DiceCombatV2GameFlow___c** StaticGet___9()
 		{
-			return (::RPG::Client::DiceCombat::DiceCombatV2GameFlow___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2GameFlow___c_TypeDefinitionIndex)->GetStaticField(0x63F0);
+			return (::RPG::Client::DiceCombat::DiceCombatV2GameFlow___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2GameFlow___c_TypeDefinitionIndex)->GetStaticField(0x661E0);
 		}
 		static ::System::Action** StaticGet___9__8_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2GameFlow___c_TypeDefinitionIndex)->GetStaticField(0x63F8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2GameFlow___c_TypeDefinitionIndex)->GetStaticField(0x661E8);
 		}
 
 		static ::System::Void _cctor()

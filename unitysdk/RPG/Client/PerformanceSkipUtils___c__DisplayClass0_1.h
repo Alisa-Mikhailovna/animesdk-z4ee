@@ -5,18 +5,18 @@
 namespace RPG::Client { class PerformanceSkipUtils___c__DisplayClass0_0; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x146C86F0)
-#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__SHOWPERFORMANCESKIPDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0x146C9060)
+#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__CTOR_OFFSET UNITYSDK_OFFSET(0xCF5D410)
+#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_1__SHOWPERFORMANCESKIPDIALOG_B__2_OFFSET UNITYSDK_OFFSET(0xCF5DDF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceSkipUtils___c__DisplayClass0_1_TypeDefinitionIndex = 56767;
+	inline static constexpr unsigned int PerformanceSkipUtils___c__DisplayClass0_1_TypeDefinitionIndex = 58014;
 
 	class PerformanceSkipUtils___c__DisplayClass0_1 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* secondConfirmDispatch; // 0x10
-		::RPG::Client::PerformanceSkipUtils___c__DisplayClass0_0* CS___8__locals1; // 0x18
+		::RPG::Client::PerformanceSkipUtils___c__DisplayClass0_0* CS___8__locals1; // 0x10
+		::System::Action_1<::System::Boolean>* secondConfirmDispatch; // 0x18
 
 		::System::Void _ctor()
 		{

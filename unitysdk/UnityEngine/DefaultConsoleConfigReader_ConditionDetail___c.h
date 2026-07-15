@@ -5,29 +5,29 @@
 namespace IniParserEx { class IniFile_SectionItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4DB080)
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4DB0C0)
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__MATCHMODELNAMEREGEX_B__5_0_OFFSET UNITYSDK_OFFSET(0x1A4DB270)
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__USEFORCURRENTPLATFORM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A4DB0D0)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D017D00)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D017D40)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__MATCHMODELNAMEREGEX_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D017EF0)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_CONDITIONDETAIL___C__USEFORCURRENTPLATFORM_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D017D50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex = 4054;
+	inline static constexpr unsigned int DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex = 4059;
 
 	class DefaultConsoleConfigReader_ConditionDetail___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex)->GetStaticField(0x305A0);
+			return (::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex)->GetStaticField(0x37340);
 		}
 		static ::UnityEngine::DefaultConsoleConfigReader_ConditionDetail___c** StaticGet___9()
 		{
-			return (::UnityEngine::DefaultConsoleConfigReader_ConditionDetail___c**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex)->GetStaticField(0x305A8);
+			return (::UnityEngine::DefaultConsoleConfigReader_ConditionDetail___c**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex)->GetStaticField(0x37348);
 		}
 		static ::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex)->GetStaticField(0x305B0);
+			return (::System::Func_2<::IniParserEx::IniFile_SectionItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_ConditionDetail___c_TypeDefinitionIndex)->GetStaticField(0x37350);
 		}
 
 		static ::System::Void _cctor()

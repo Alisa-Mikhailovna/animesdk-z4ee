@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BattleQTEBaseConfig; }
 
-#define RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_36F0EBD9EEA947F5_OFFSET UNITYSDK_OFFSET(0x193480A0)
-#define RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_4967394980B0C4C4_OFFSET UNITYSDK_OFFSET(0x19348120)
-#define RPG_GAMECORE_STARTBATTLEQTE__CTOR_OFFSET UNITYSDK_OFFSET(0x193480F0)
+#define RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_12A599AF9BEE099F_OFFSET UNITYSDK_OFFSET(0x1B909190)
+#define RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_4967394980B0C4C4_OFFSET UNITYSDK_OFFSET(0x1B9091D0)
+#define RPG_GAMECORE_STARTBATTLEQTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9091C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartBattleQTE_TypeDefinitionIndex = 22069;
+	inline static constexpr unsigned int StartBattleQTE_TypeDefinitionIndex = 22505;
 
 	class StartBattleQTE : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_36F0EBD9EEA947F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleQTE*& a2)
+		static ::System::Void Method_3_12A599AF9BEE099F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleQTE*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleQTE*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_36F0EBD9EEA947F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleQTE*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_12A599AF9BEE099F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4967394980B0C4C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleQTE* a2)

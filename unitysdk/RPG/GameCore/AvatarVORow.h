@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARVOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1764D6F0)
-#define RPG_GAMECORE_AVATARVOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1764DE80)
+#define RPG_GAMECORE_AVATARVOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1E4980)
+#define RPG_GAMECORE_AVATARVOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1E5110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarVORow_TypeDefinitionIndex = 10401;
+	inline static constexpr unsigned int AvatarVORow_TypeDefinitionIndex = 10451;
 
 	class AvatarVORow : public ::System::Object
 	{
@@ -18,13 +18,13 @@ namespace RPG::GameCore
 		::System::String* VOTag; // 0x10
 		::System::UInt32 UltraReady; // 0x18
 		::System::UInt32 ActionBeginHighThreat; // 0x1C
-		::System::UInt32 ActionBegin; // 0x20
+		::System::UInt32 StandBy; // 0x20
 		::System::UInt32 ActionBeginAdvantage; // 0x24
-		::System::UInt32 ReceiveHealing; // 0x28
-		::System::UInt32 StandBy; // 0x2C
-		::System::UInt32 ReceiveBuff; // 0x30
-		::System::UInt32 Revived; // 0x34
-		::System::UInt32 LightHit; // 0x38
+		::System::UInt32 LightHit; // 0x28
+		::System::UInt32 ReceiveBuff; // 0x2C
+		::System::UInt32 Revived; // 0x30
+		::System::UInt32 ActionBegin; // 0x34
+		::System::UInt32 ReceiveHealing; // 0x38
 
 		::System::Void _ctor()
 		{

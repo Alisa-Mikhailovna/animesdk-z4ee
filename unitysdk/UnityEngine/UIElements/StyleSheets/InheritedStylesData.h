@@ -6,22 +6,22 @@
 #include "unitysdk/UnityEngine/UIElements/StyleInt.h"
 #include "unitysdk/UnityEngine/UIElements/StyleLength.h"
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x19F93620)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x19F934C0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19F936A0)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F93870)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F93220)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D0EE430)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D0EE2D0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D0EE4B0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE5D0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_INHERITEDSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE030)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int InheritedStylesData_TypeDefinitionIndex = 6264;
+	inline static constexpr unsigned int InheritedStylesData_TypeDefinitionIndex = 6269;
 
 	class InheritedStylesData : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::UIElements::StyleSheets::InheritedStylesData** StaticGet_none()
 		{
-			return (::UnityEngine::UIElements::StyleSheets::InheritedStylesData**)Il2CppClass::FromTypeDefinitionIndex(InheritedStylesData_TypeDefinitionIndex)->GetStaticField(0x2710);
+			return (::UnityEngine::UIElements::StyleSheets::InheritedStylesData**)Il2CppClass::FromTypeDefinitionIndex(InheritedStylesData_TypeDefinitionIndex)->GetStaticField(0x4C850);
 		}
 		::UnityEngine::UIElements::StyleColor color; // 0x10
 		::UnityEngine::UIElements::StyleFont font; // 0x28

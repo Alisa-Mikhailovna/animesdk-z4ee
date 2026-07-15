@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEAVATARUPGRADELIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD38C0)
-#define RPG_GAMECORE_IDLELIVEAVATARUPGRADELIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD39E0)
+#define RPG_GAMECORE_IDLELIVEAVATARUPGRADELIMITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5230E0)
+#define RPG_GAMECORE_IDLELIVEAVATARUPGRADELIMITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B523200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAvatarUpgradeLimitRow_TypeDefinitionIndex = 11204;
+	inline static constexpr unsigned int IdleLiveAvatarUpgradeLimitRow_TypeDefinitionIndex = 11304;
 
 	class IdleLiveAvatarUpgradeLimitRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 LevelLimit; // 0x10
-		::System::UInt32 UnlockID; // 0x14
+		::System::UInt32 UnlockID; // 0x10
+		::System::UInt32 LevelLimit; // 0x14
 
 		::System::Void _ctor()
 		{

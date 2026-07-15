@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/BossHPStanceChangeType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_87CC187FAC1625A9__CTOR_OFFSET UNITYSDK_OFFSET(0x15514B70)
+#define CLASS_1_87CC187FAC1625A9__CTOR_OFFSET UNITYSDK_OFFSET(0xB9FBD70)
 
-inline static constexpr unsigned int Class_1_87CC187FAC1625A9_TypeDefinitionIndex = 51711;
+inline static constexpr unsigned int Class_1_87CC187FAC1625A9_TypeDefinitionIndex = 52854;
 
 class Class_1_87CC187FAC1625A9 : public ::System::Object
 {

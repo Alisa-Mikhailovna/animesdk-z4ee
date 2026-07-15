@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_GAMESIRG4SANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xA67A7F0)
-#define INCONTROL_UNITYDEVICEPROFILES_GAMESIRG4SANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xA67BAC0)
+#define INCONTROL_UNITYDEVICEPROFILES_GAMESIRG4SANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x19A25C50)
+#define INCONTROL_UNITYDEVICEPROFILES_GAMESIRG4SANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A26EC0)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int GameSirG4sAndroidUnityProfile_TypeDefinitionIndex = 37995;
+	inline static constexpr unsigned int GameSirG4sAndroidUnityProfile_TypeDefinitionIndex = 38803;
 
 	class GameSirG4sAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

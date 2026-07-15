@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BoxmanPuzzlePlayerInBoardState_TypeDefinitionIndex = 73363;
+	inline static constexpr unsigned int BoxmanPuzzlePlayerInBoardState_TypeDefinitionIndex = 74888;
 
 	enum class BoxmanPuzzlePlayerInBoardState : ::System::Int32
 	{

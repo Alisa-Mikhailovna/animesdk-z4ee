@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_106;
-class Class_1_D17272E82AE804C2_108;
-class Class_1_D17272E82AE804C2_111;
-class Class_1_D17272E82AE804C2_112;
+class Class_1_D17272E82AE804C2_117;
+class Class_1_D17272E82AE804C2_119;
+class Class_1_D17272E82AE804C2_122;
+class Class_1_D17272E82AE804C2_123;
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_2_E36A957E02CFF480_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x142B78C0)
-#define CLASS_2_E36A957E02CFF480_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x142B7900)
-#define CLASS_2_E36A957E02CFF480_1___C__EQUIPLIGHTCONE_B__2_0_OFFSET UNITYSDK_OFFSET(0x142B7910)
-#define CLASS_2_E36A957E02CFF480_1___C__EQUIPRELICS_B__4_0_OFFSET UNITYSDK_OFFSET(0x142B7930)
-#define CLASS_2_E36A957E02CFF480_1___C__TAKEOFFLIGHTCONE_B__3_0_OFFSET UNITYSDK_OFFSET(0x142B7920)
-#define CLASS_2_E36A957E02CFF480_1___C__TAKEOFFRELICS_B__5_0_OFFSET UNITYSDK_OFFSET(0x142B7940)
+#define CLASS_2_E36A957E02CFF480_1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B582D0)
+#define CLASS_2_E36A957E02CFF480_1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B58310)
+#define CLASS_2_E36A957E02CFF480_1___C__EQUIPLIGHTCONE_B__2_0_OFFSET UNITYSDK_OFFSET(0x14B58320)
+#define CLASS_2_E36A957E02CFF480_1___C__EQUIPRELICS_B__4_0_OFFSET UNITYSDK_OFFSET(0x14B58340)
+#define CLASS_2_E36A957E02CFF480_1___C__TAKEOFFLIGHTCONE_B__3_0_OFFSET UNITYSDK_OFFSET(0x14B58330)
+#define CLASS_2_E36A957E02CFF480_1___C__TAKEOFFRELICS_B__5_0_OFFSET UNITYSDK_OFFSET(0x14B58350)
 
-inline static constexpr unsigned int Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex = 58711;
+inline static constexpr unsigned int Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex = 59982;
 
 class Class_2_E36A957E02CFF480_1___c : public ::System::Object
 {
 public:
-	static ::System::Action_1<::Class_1_D17272E82AE804C2_111*>** StaticGet___9__4_0()
+	static ::System::Action_1<::Class_1_D17272E82AE804C2_122*>** StaticGet___9__4_0()
 	{
-		return (::System::Action_1<::Class_1_D17272E82AE804C2_111*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E510);
+		return (::System::Action_1<::Class_1_D17272E82AE804C2_122*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E4D0);
 	}
-	static ::System::Action_1<::Class_1_D17272E82AE804C2_108*>** StaticGet___9__3_0()
+	static ::System::Action_1<::Class_1_D17272E82AE804C2_117*>** StaticGet___9__2_0()
 	{
-		return (::System::Action_1<::Class_1_D17272E82AE804C2_108*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E518);
-	}
-	static ::System::Action_1<::Class_1_D17272E82AE804C2_106*>** StaticGet___9__2_0()
-	{
-		return (::System::Action_1<::Class_1_D17272E82AE804C2_106*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E520);
+		return (::System::Action_1<::Class_1_D17272E82AE804C2_117*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E4D8);
 	}
 	static ::Class_2_E36A957E02CFF480_1___c** StaticGet___9()
 	{
-		return (::Class_2_E36A957E02CFF480_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E528);
+		return (::Class_2_E36A957E02CFF480_1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E4E0);
 	}
-	static ::System::Action_1<::Class_1_D17272E82AE804C2_112*>** StaticGet___9__5_0()
+	static ::System::Action_1<::Class_1_D17272E82AE804C2_119*>** StaticGet___9__3_0()
 	{
-		return (::System::Action_1<::Class_1_D17272E82AE804C2_112*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E530);
+		return (::System::Action_1<::Class_1_D17272E82AE804C2_119*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E4E8);
+	}
+	static ::System::Action_1<::Class_1_D17272E82AE804C2_123*>** StaticGet___9__5_0()
+	{
+		return (::System::Action_1<::Class_1_D17272E82AE804C2_123*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_E36A957E02CFF480_1___c_TypeDefinitionIndex)->GetStaticField(0x5E4F0);
 	}
 
 	static ::System::Void _cctor()
@@ -51,23 +51,23 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__CTOR_OFFSET))(this);
 	}
 
-	::System::Void _EquipLightCone_b__2_0(::Class_1_D17272E82AE804C2_106* a1)
+	::System::Void _EquipLightCone_b__2_0(::Class_1_D17272E82AE804C2_117* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_106*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__EQUIPLIGHTCONE_B__2_0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_117*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__EQUIPLIGHTCONE_B__2_0_OFFSET))(this, a1);
 	}
 
-	::System::Void _TakeOffLightCone_b__3_0(::Class_1_D17272E82AE804C2_108* a1)
+	::System::Void _TakeOffLightCone_b__3_0(::Class_1_D17272E82AE804C2_119* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_108*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__TAKEOFFLIGHTCONE_B__3_0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_119*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__TAKEOFFLIGHTCONE_B__3_0_OFFSET))(this, a1);
 	}
 
-	::System::Void _EquipRelics_b__4_0(::Class_1_D17272E82AE804C2_111* a1)
+	::System::Void _EquipRelics_b__4_0(::Class_1_D17272E82AE804C2_122* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_111*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__EQUIPRELICS_B__4_0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_122*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__EQUIPRELICS_B__4_0_OFFSET))(this, a1);
 	}
 
-	::System::Void _TakeOffRelics_b__5_0(::Class_1_D17272E82AE804C2_112* a1)
+	::System::Void _TakeOffRelics_b__5_0(::Class_1_D17272E82AE804C2_123* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_112*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__TAKEOFFRELICS_B__5_0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_123*))((::PBYTE)hIl2Cpp + CLASS_2_E36A957E02CFF480_1___C__TAKEOFFRELICS_B__5_0_OFFSET))(this, a1);
 	}
 };

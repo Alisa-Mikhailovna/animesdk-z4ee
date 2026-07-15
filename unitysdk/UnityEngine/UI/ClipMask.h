@@ -14,35 +14,35 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_CLIPMASK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE287310)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_042238520AD07030_OFFSET UNITYSDK_OFFSET(0xE286500)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_0B1310FB3A3FC15B_OFFSET UNITYSDK_OFFSET(0xE287920)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_43A2EE4D2DAB62A5_OFFSET UNITYSDK_OFFSET(0xE2867C0)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_6C2D920148861652_OFFSET UNITYSDK_OFFSET(0xE286580)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_89A381B69C7BCE8A_OFFSET UNITYSDK_OFFSET(0xE287730)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_D4CC2CFF8C9FC5F9_OFFSET UNITYSDK_OFFSET(0xE288450)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_D686AB72644297C3_OFFSET UNITYSDK_OFFSET(0xE287C00)
-#define UNITYENGINE_UI_CLIPMASK_METHOD_7_FDFB5995282C8F6F_OFFSET UNITYSDK_OFFSET(0xE286620)
-#define UNITYENGINE_UI_CLIPMASK_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xE2866C0)
-#define UNITYENGINE_UI_CLIPMASK_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xE2866B0)
-#define UNITYENGINE_UI_CLIPMASK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE287050)
-#define UNITYENGINE_UI_CLIPMASK__CCTOR_OFFSET UNITYSDK_OFFSET(0xE289000)
-#define UNITYENGINE_UI_CLIPMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE2866A0)
+#define UNITYENGINE_UI_CLIPMASK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDDBE970)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_042238520AD07030_OFFSET UNITYSDK_OFFSET(0xDDBDBE0)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_0B1310FB3A3FC15B_OFFSET UNITYSDK_OFFSET(0xDDBEF80)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_43A2EE4D2DAB62A5_OFFSET UNITYSDK_OFFSET(0xDDBDEB0)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_6C2D920148861652_OFFSET UNITYSDK_OFFSET(0xDDBDC60)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_80E2BAA11C6B6D78_OFFSET UNITYSDK_OFFSET(0xDDBF830)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_89A381B69C7BCE8A_OFFSET UNITYSDK_OFFSET(0xDDBED90)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_CB8119332027A47B_OFFSET UNITYSDK_OFFSET(0xDDBF260)
+#define UNITYENGINE_UI_CLIPMASK_METHOD_7_FDFB5995282C8F6F_OFFSET UNITYSDK_OFFSET(0xDDBDD00)
+#define UNITYENGINE_UI_CLIPMASK_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xDDBDDA0)
+#define UNITYENGINE_UI_CLIPMASK_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xDDBDD90)
+#define UNITYENGINE_UI_CLIPMASK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDDBE740)
+#define UNITYENGINE_UI_CLIPMASK__CCTOR_OFFSET UNITYSDK_OFFSET(0xDDC02C0)
+#define UNITYENGINE_UI_CLIPMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xDDBDD80)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ClipMask_TypeDefinitionIndex = 45049;
+	inline static constexpr unsigned int ClipMask_TypeDefinitionIndex = 45967;
 
 	class ClipMask : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_7_0()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ClipMask_TypeDefinitionIndex)->GetStaticField(0x14D80);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ClipMask_TypeDefinitionIndex)->GetStaticField(0x6BE30);
 		}
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_Field_7_1()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ClipMask_TypeDefinitionIndex)->GetStaticField(0x14D88);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(ClipMask_TypeDefinitionIndex)->GetStaticField(0x6BE38);
 		}
 		::UnityEngine::RectTransform* clipRectTransform; // 0x20
 		::UnityEngine::RectTransform* Field_7_3; // 0x28
@@ -111,14 +111,14 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPMASK_METHOD_7_0B1310FB3A3FC15B_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_7_D686AB72644297C3(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::UnityEngine::Vector4 a3)
+		::System::Void Method_7_CB8119332027A47B(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::UnityEngine::Vector4 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPMASK_METHOD_7_D686AB72644297C3_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPMASK_METHOD_7_CB8119332027A47B_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_7_D4CC2CFF8C9FC5F9(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::UnityEngine::Vector4 a3)
+		::System::Void Method_7_80E2BAA11C6B6D78(::UnityEngine::UI::VertexHelper* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::UnityEngine::Vector4 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPMASK_METHOD_7_D4CC2CFF8C9FC5F9_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPMASK_METHOD_7_80E2BAA11C6B6D78_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -4,11 +4,10 @@
 
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define CLASS_2_BBE0F508160921D9_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x173EAA30)
-#define CLASS_2_BBE0F508160921D9__CTOR_OFFSET UNITYSDK_OFFSET(0x173EAAA0)
-#define CLASS_2_BBE0F508160921D9___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x173EAAB0)
+#define CLASS_2_BBE0F508160921D9_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x156A8720)
+#define CLASS_2_BBE0F508160921D9__CTOR_OFFSET UNITYSDK_OFFSET(0x156A8790)
 
-inline static constexpr unsigned int Class_2_BBE0F508160921D9_TypeDefinitionIndex = 70824;
+inline static constexpr unsigned int Class_2_BBE0F508160921D9_TypeDefinitionIndex = 72337;
 
 class Class_2_BBE0F508160921D9 : public ::Class_1_3713064DEE761936
 {
@@ -24,10 +23,5 @@ public:
 	::System::Void OnExecute()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BBE0F508160921D9_ONEXECUTE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_BBE0F508160921D9___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
 	}
 };

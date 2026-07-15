@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_METHOD_3_C2F8AD851E53B56D_OFFSET UNITYSDK_OFFSET(0x19A4C730)
-#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_METHOD_3_E15AEC3A2E6D5F6E_OFFSET UNITYSDK_OFFSET(0x19A4C6A0)
-#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4C700)
+#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_METHOD_3_C2F8AD851E53B56D_OFFSET UNITYSDK_OFFSET(0x1B9A7BF0)
+#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_METHOD_3_CEDEB75CDB80F4F8_OFFSET UNITYSDK_OFFSET(0x1B9A7BA0)
+#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A7BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPermanentEmotion_TypeDefinitionIndex = 20667;
+	inline static constexpr unsigned int TriggerPermanentEmotion_TypeDefinitionIndex = 21082;
 
 	class TriggerPermanentEmotion : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPERMANENTEMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E15AEC3A2E6D5F6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPermanentEmotion*& a2)
+		static ::System::Void Method_3_CEDEB75CDB80F4F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPermanentEmotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPermanentEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPERMANENTEMOTION_METHOD_3_E15AEC3A2E6D5F6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPermanentEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPERMANENTEMOTION_METHOD_3_CEDEB75CDB80F4F8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C2F8AD851E53B56D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPermanentEmotion* a2)

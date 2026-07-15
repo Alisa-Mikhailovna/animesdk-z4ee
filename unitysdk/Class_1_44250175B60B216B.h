@@ -7,22 +7,22 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 
-#define CLASS_1_44250175B60B216B_METHOD_1_84BDC5BED533660B_OFFSET UNITYSDK_OFFSET(0x13C61CC0)
-#define CLASS_1_44250175B60B216B_METHOD_1_A67FF3140E7FDB69_1_OFFSET UNITYSDK_OFFSET(0x13C61EB0)
-#define CLASS_1_44250175B60B216B_METHOD_1_A67FF3140E7FDB69_OFFSET UNITYSDK_OFFSET(0x13C61E20)
-#define CLASS_1_44250175B60B216B_METHOD_1_B2A8BAAF32F350CB_OFFSET UNITYSDK_OFFSET(0x13C61B60)
-#define CLASS_1_44250175B60B216B_METHOD_1_C174817F90C0B2C3_OFFSET UNITYSDK_OFFSET(0x13C61A00)
-#define CLASS_1_44250175B60B216B_METHOD_1_D0C42851D3E56E80_OFFSET UNITYSDK_OFFSET(0x13C61BE0)
-#define CLASS_1_44250175B60B216B__CTOR_OFFSET UNITYSDK_OFFSET(0x13C61F40)
+#define CLASS_1_44250175B60B216B_METHOD_1_84BDC5BED533660B_OFFSET UNITYSDK_OFFSET(0x15610350)
+#define CLASS_1_44250175B60B216B_METHOD_1_A67FF3140E7FDB69_1_OFFSET UNITYSDK_OFFSET(0x15610540)
+#define CLASS_1_44250175B60B216B_METHOD_1_A67FF3140E7FDB69_OFFSET UNITYSDK_OFFSET(0x156104B0)
+#define CLASS_1_44250175B60B216B_METHOD_1_B2A8BAAF32F350CB_OFFSET UNITYSDK_OFFSET(0x156101F0)
+#define CLASS_1_44250175B60B216B_METHOD_1_C174817F90C0B2C3_OFFSET UNITYSDK_OFFSET(0x15610090)
+#define CLASS_1_44250175B60B216B_METHOD_1_D0C42851D3E56E80_OFFSET UNITYSDK_OFFSET(0x15610270)
+#define CLASS_1_44250175B60B216B__CTOR_OFFSET UNITYSDK_OFFSET(0x156105D0)
 
-inline static constexpr unsigned int Class_1_44250175B60B216B_TypeDefinitionIndex = 58441;
+inline static constexpr unsigned int Class_1_44250175B60B216B_TypeDefinitionIndex = 59703;
 
 class Class_1_44250175B60B216B : public ::System::Object
 {
 public:
 	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>* Field_1_1; // 0x18
-	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_2; // 0x20
+	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>* Field_1_2; // 0x20
 	::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* Field_1_3; // 0x28
 
 	::System::Void _ctor()

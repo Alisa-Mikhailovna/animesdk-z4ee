@@ -5,34 +5,34 @@
 namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayTargetItemViewModel; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B18310)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B18350)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESSBEFORE_B__22_0_OFFSET UNITYSDK_OFFSET(0x18B183A0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESS_B__20_0_OFFSET UNITYSDK_OFFSET(0x18B18380)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C___SYNCGAMEWEEKDATA_B__2_0_OFFSET UNITYSDK_OFFSET(0x18B18360)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0AD860)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC0AD8A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESSBEFORE_B__22_0_OFFSET UNITYSDK_OFFSET(0xC0AD8F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C__GET_PROGRESS_B__20_0_OFFSET UNITYSDK_OFFSET(0xC0AD8D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETVIEWMODEL___C___SYNCGAMEWEEKDATA_B__2_0_OFFSET UNITYSDK_OFFSET(0xC0AD8B0)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex = 74049;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex = 76431;
 
 	class ChenLingFesGameplayTargetViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x683B0);
-		}
 		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__22_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x683B8);
-		}
-		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__20_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x683C0);
+			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F580);
 		}
 		static ::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x683C8);
+			return (::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F588);
+		}
+		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F590);
+		}
+		static ::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>** StaticGet___9__20_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayTargetItemViewModel*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesGameplayTargetViewModel___c_TypeDefinitionIndex)->GetStaticField(0x5F598);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 
 namespace Proto { class Item; }
 
-#define CLASS_1_9E75A6F37EAB58DE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13E13F60)
-#define CLASS_1_9E75A6F37EAB58DE__CTOR_OFFSET UNITYSDK_OFFSET(0x13E13F50)
+#define CLASS_1_9E75A6F37EAB58DE__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAEBDAA0)
+#define CLASS_1_9E75A6F37EAB58DE__CTOR_OFFSET UNITYSDK_OFFSET(0xAEBDA90)
 
-inline static constexpr unsigned int Class_1_9E75A6F37EAB58DE_TypeDefinitionIndex = 58834;
+inline static constexpr unsigned int Class_1_9E75A6F37EAB58DE_TypeDefinitionIndex = 60105;
 
 class Class_1_9E75A6F37EAB58DE : public ::System::Object
 {

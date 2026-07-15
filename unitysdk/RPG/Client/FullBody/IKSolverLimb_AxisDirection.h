@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_AXISDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x37B6300)
+#define RPG_CLIENT_FULLBODY_IKSOLVERLIMB_AXISDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x2EAC0)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKSolverLimb_AxisDirection_TypeDefinitionIndex = 69348;
+	inline static constexpr unsigned int IKSolverLimb_AxisDirection_TypeDefinitionIndex = 70869;
 
 	struct alignas(4) IKSolverLimb_AxisDirection
 	{

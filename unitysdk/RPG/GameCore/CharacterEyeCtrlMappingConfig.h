@@ -7,12 +7,12 @@ namespace RPG::GameCore { class CharacterEyeCtrlConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG_METHOD_2_72E3807973F21397_OFFSET UNITYSDK_OFFSET(0x1A13F4D0)
-#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A13F5B0)
+#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG_METHOD_2_72E3807973F21397_OFFSET UNITYSDK_OFFSET(0x1B31A3D0)
+#define RPG_GAMECORE_CHARACTEREYECTRLMAPPINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B31A4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEyeCtrlMappingConfig_TypeDefinitionIndex = 16589;
+	inline static constexpr unsigned int CharacterEyeCtrlMappingConfig_TypeDefinitionIndex = 16751;
 
 	class CharacterEyeCtrlMappingConfig : public ::RPG::GameCore::JsonConfig
 	{

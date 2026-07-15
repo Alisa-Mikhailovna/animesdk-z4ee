@@ -6,24 +6,24 @@ namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x136CC130)
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x136CC170)
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__MANUALSNAPLOOPREWINDRATIO_B__269_0_OFFSET UNITYSDK_OFFSET(0x136CC180)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA61150)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDA61190)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__MANUALSNAPLOOPREWINDRATIO_B__269_0_OFFSET UNITYSDK_OFFSET(0xDA611A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTimeRewindComponent___c_TypeDefinitionIndex = 53683;
+	inline static constexpr unsigned int EntityTimeRewindComponent___c_TypeDefinitionIndex = 54902;
 
 	class EntityTimeRewindComponent___c : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::EntityTimeRewindComponent___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::EntityTimeRewindComponent___c**)Il2CppClass::FromTypeDefinitionIndex(EntityTimeRewindComponent___c_TypeDefinitionIndex)->GetStaticField(0x67250);
+			return (::RPG::GameCore::EntityTimeRewindComponent___c**)Il2CppClass::FromTypeDefinitionIndex(EntityTimeRewindComponent___c_TypeDefinitionIndex)->GetStaticField(0x61E00);
 		}
 		static ::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>** StaticGet___9__269_0()
 		{
-			return (::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(EntityTimeRewindComponent___c_TypeDefinitionIndex)->GetStaticField(0x67258);
+			return (::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(EntityTimeRewindComponent___c_TypeDefinitionIndex)->GetStaticField(0x61E08);
 		}
 
 		static ::System::Void _cctor()

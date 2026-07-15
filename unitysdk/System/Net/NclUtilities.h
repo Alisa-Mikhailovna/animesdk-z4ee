@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System::Net { class IPAddress; }
 namespace System::Net { class IPHostEntry; }
 
-#define SYSTEM_NET_NCLUTILITIES_GETLOCALHOST_OFFSET UNITYSDK_OFFSET(0x17CF9550)
-#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSESLOCK_OFFSET UNITYSDK_OFFSET(0x17CF9570)
-#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSES_OFFSET UNITYSDK_OFFSET(0x17CF9100)
-#define SYSTEM_NET_NCLUTILITIES_ISADDRESSLOCAL_OFFSET UNITYSDK_OFFSET(0x17CF9080)
+#define SYSTEM_NET_NCLUTILITIES_GETLOCALHOST_OFFSET UNITYSDK_OFFSET(0x1CCF8450)
+#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSESLOCK_OFFSET UNITYSDK_OFFSET(0x1CCF8470)
+#define SYSTEM_NET_NCLUTILITIES_GET_LOCALADDRESSES_OFFSET UNITYSDK_OFFSET(0x1CCF8000)
+#define SYSTEM_NET_NCLUTILITIES_ISADDRESSLOCAL_OFFSET UNITYSDK_OFFSET(0x1CCF7F80)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int NclUtilities_TypeDefinitionIndex = 2737;
+	inline static constexpr unsigned int NclUtilities_TypeDefinitionIndex = 2741;
 
 	class NclUtilities : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet__LocalAddressesLock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x25950);
-		}
 		static ::System::String** StaticGet__LocalDomainName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x25958);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x2D3C0);
+		}
+		static ::System::Object** StaticGet__LocalAddressesLock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x2D3C8);
 		}
 		static ::Il2CppArray<::System::Net::IPAddress*>** StaticGet__LocalAddresses()
 		{
-			return (::Il2CppArray<::System::Net::IPAddress*>**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x25960);
+			return (::Il2CppArray<::System::Net::IPAddress*>**)Il2CppClass::FromTypeDefinitionIndex(NclUtilities_TypeDefinitionIndex)->GetStaticField(0x2D3D0);
 		}
 
 		static ::System::Boolean IsAddressLocal(::System::Net::IPAddress* a1)

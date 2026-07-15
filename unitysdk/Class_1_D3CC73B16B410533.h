@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GCFreeClosure/FuncClosureR_2.h"
 #include "unitysdk/Struct_2_09B45CBFDAC5DA07.h"
-#include "unitysdk/Struct_2_9BF8902D61AE1796.h"
+#include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_227;
+class Class_0_16E4307DCC419505_247;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 namespace UnityEngine { class Collider; }
 
-#define CLASS_1_D3CC73B16B410533_CLEAR_OFFSET UNITYSDK_OFFSET(0x1960FF30)
-#define CLASS_1_D3CC73B16B410533_ONALLOC_OFFSET UNITYSDK_OFFSET(0x19610060)
-#define CLASS_1_D3CC73B16B410533_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x196100B0)
-#define CLASS_1_D3CC73B16B410533__CTOR_OFFSET UNITYSDK_OFFSET(0x19610100)
+#define CLASS_1_D3CC73B16B410533_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A93B7D0)
+#define CLASS_1_D3CC73B16B410533_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1A93B900)
+#define CLASS_1_D3CC73B16B410533_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1A93B950)
+#define CLASS_1_D3CC73B16B410533__CTOR_OFFSET UNITYSDK_OFFSET(0x1A93B9A0)
 
-inline static constexpr unsigned int Class_1_D3CC73B16B410533_TypeDefinitionIndex = 40234;
+inline static constexpr unsigned int Class_1_D3CC73B16B410533_TypeDefinitionIndex = 41049;
 
 class Class_1_D3CC73B16B410533 : public ::System::Object
 {
 public:
-	::RPG::GameCore::LevelTriggerInfo* Field_1_0; // 0x10
-	::Struct_2_9BF8902D61AE1796 Field_1_1; // 0x18
-	::System::String* Field_1_2; // 0xA8
-	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_3; // 0xB0
-	::Class_0_16E4307DCC419505_227* Field_1_4; // 0xB8
-	::Struct_2_09B45CBFDAC5DA07 Field_1_5; // 0xC0
-	::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean> Field_1_6; // 0xE0
+	::Struct_2_F8D9CEC872B937AF Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0xA0
+	::RPG::GCFreeClosure::FuncClosureR_2<::UnityEngine::Collider*, ::System::Boolean> Field_1_2; // 0xA8
+	::RPG::PoolList_1<::UnityEngine::Collider*>* Field_1_3; // 0x138
+	::Class_0_16E4307DCC419505_247* Field_1_4; // 0x140
+	::Struct_2_09B45CBFDAC5DA07 Field_1_5; // 0x148
+	::RPG::GameCore::LevelTriggerInfo* Field_1_6; // 0x168
 
 	::System::Void _ctor()
 	{

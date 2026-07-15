@@ -5,19 +5,19 @@
 
 namespace System { class String; }
 
-#define CLASS_1_57F7B863E140D583__CTOR_OFFSET UNITYSDK_OFFSET(0x17298980)
+#define CLASS_1_57F7B863E140D583__CTOR_OFFSET UNITYSDK_OFFSET(0x14616D70)
 
-inline static constexpr unsigned int Class_1_57F7B863E140D583_TypeDefinitionIndex = 74432;
+inline static constexpr unsigned int Class_1_57F7B863E140D583_TypeDefinitionIndex = 76822;
 
 class Class_1_57F7B863E140D583 : public ::System::Object
 {
 public:
 	::System::String* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
-	::System::Int64 Field_1_2; // 0x20
+	::System::UInt64 Field_1_2; // 0x20
 	::RPG::Client::Patch::RemoteType Field_1_3; // 0x28
 	::System::UInt64 Field_1_4; // 0x30
-	::System::UInt64 Field_1_5; // 0x38
+	::System::Int64 Field_1_5; // 0x38
 
 	::System::Void _ctor()
 	{

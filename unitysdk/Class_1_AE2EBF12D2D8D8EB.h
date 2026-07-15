@@ -1,44 +1,80 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/CompilerFramework/LocationKind.h"
-#include "unitysdk/Struct_2_2F8FC043285F98CD.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_03012F75E773046C;
+namespace System { class String; }
+namespace System { class Type; }
+namespace System::Text { class StringBuilder; }
 
-#define CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_1C36AE95F0FAF1BF_OFFSET UNITYSDK_OFFSET(0x1B4C2510)
-#define CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x1B4C9660)
-#define CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_71E25A039EF7FB83_OFFSET UNITYSDK_OFFSET(0x1B4C9670)
-#define CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_F6D8B25630BBFEEF_OFFSET UNITYSDK_OFFSET(0x1B4C95E0)
-#define CLASS_1_AE2EBF12D2D8D8EB__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C1E70)
+#define CLASS_1_AE2EBF12D2D8D8EB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x153A5390)
+#define CLASS_1_AE2EBF12D2D8D8EB_EQUALS_OFFSET UNITYSDK_OFFSET(0x153A54F0)
+#define CLASS_1_AE2EBF12D2D8D8EB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x153A5400)
+#define CLASS_1_AE2EBF12D2D8D8EB_GET_EQUALITYCONTRACT_OFFSET UNITYSDK_OFFSET(0x153A5130)
+#define CLASS_1_AE2EBF12D2D8D8EB_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x153A5320)
+#define CLASS_1_AE2EBF12D2D8D8EB_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x153A52B0)
+#define CLASS_1_AE2EBF12D2D8D8EB_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x153A52A0)
+#define CLASS_1_AE2EBF12D2D8D8EB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x153A5160)
+#define CLASS_1_AE2EBF12D2D8D8EB__CLONE___OFFSET UNITYSDK_OFFSET(0x153A55A0)
+#define CLASS_1_AE2EBF12D2D8D8EB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x153A55F0)
+#define CLASS_1_AE2EBF12D2D8D8EB__CTOR_OFFSET UNITYSDK_OFFSET(0x153A55E0)
 
-inline static constexpr unsigned int Class_1_AE2EBF12D2D8D8EB_TypeDefinitionIndex = 38635;
+inline static constexpr unsigned int Class_1_AE2EBF12D2D8D8EB_TypeDefinitionIndex = 76140;
 
 class Class_1_AE2EBF12D2D8D8EB : public ::System::Object
 {
 public:
-	::System::Void _ctor()
+	::System::Void _ctor(::Class_1_AE2EBF12D2D8D8EB* a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB__CTOR_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Class_1_AE2EBF12D2D8D8EB*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB__CTOR_OFFSET))(this, a1);
 	}
 
-	static ::System::Boolean Method_1_F6D8B25630BBFEEF(::Class_1_AE2EBF12D2D8D8EB* a1, ::Class_1_AE2EBF12D2D8D8EB* a2)
+	::System::Void _ctor_1()
 	{
-		return ((::System::Boolean(*)(::Class_1_AE2EBF12D2D8D8EB*, ::Class_1_AE2EBF12D2D8D8EB*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_F6D8B25630BBFEEF_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB__CTOR_1_OFFSET))(this);
 	}
 
-	static ::System::Boolean Method_1_1C36AE95F0FAF1BF(::Class_1_AE2EBF12D2D8D8EB* a1, ::Class_1_AE2EBF12D2D8D8EB* a2)
+	::System::Type* get_EqualityContract()
 	{
-		return ((::System::Boolean(*)(::Class_1_AE2EBF12D2D8D8EB*, ::Class_1_AE2EBF12D2D8D8EB*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_1C36AE95F0FAF1BF_OFFSET))(a1, a2);
+		return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_GET_EQUALITYCONTRACT_OFFSET))(this);
 	}
 
-	::Class_1_03012F75E773046C* Method_1_24748FC20F375725()
+	::System::String* ToString()
 	{
-		return ((::Class_1_03012F75E773046C*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_24748FC20F375725_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_TOSTRING_OFFSET))(this);
 	}
 
-	::Struct_2_2F8FC043285F98CD Method_1_71E25A039EF7FB83()
+	::System::Boolean PrintMembers(::System::Text::StringBuilder* a1)
 	{
-		return ((::Struct_2_2F8FC043285F98CD(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_METHOD_1_71E25A039EF7FB83_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_PRINTMEMBERS_OFFSET))(this, a1);
+	}
+
+	static ::System::Boolean op_Inequality(::Class_1_AE2EBF12D2D8D8EB* a1, ::Class_1_AE2EBF12D2D8D8EB* a2)
+	{
+		return ((::System::Boolean(*)(::Class_1_AE2EBF12D2D8D8EB*, ::Class_1_AE2EBF12D2D8D8EB*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_OP_INEQUALITY_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean op_Equality(::Class_1_AE2EBF12D2D8D8EB* a1, ::Class_1_AE2EBF12D2D8D8EB* a2)
+	{
+		return ((::System::Boolean(*)(::Class_1_AE2EBF12D2D8D8EB*, ::Class_1_AE2EBF12D2D8D8EB*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_OP_EQUALITY_OFFSET))(a1, a2);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_GETHASHCODE_OFFSET))(this);
+	}
+
+	::System::Boolean Equals(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals_1(::Class_1_AE2EBF12D2D8D8EB* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_AE2EBF12D2D8D8EB*))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB_EQUALS_1_OFFSET))(this, a1);
+	}
+
+	::Class_1_AE2EBF12D2D8D8EB* _Clone__()
+	{
+		return ((::Class_1_AE2EBF12D2D8D8EB*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_AE2EBF12D2D8D8EB__CLONE___OFFSET))(this);
 	}
 };

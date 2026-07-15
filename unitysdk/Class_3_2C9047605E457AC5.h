@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class LockCurrentSceneTransferAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2C9047605E457AC5_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1536FD60)
-#define CLASS_3_2C9047605E457AC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1536FC90)
-#define CLASS_3_2C9047605E457AC5__CTOR_OFFSET UNITYSDK_OFFSET(0x1536FC60)
-#define CLASS_3_2C9047605E457AC5___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1536FE20)
+#define CLASS_3_2C9047605E457AC5_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB738B90)
+#define CLASS_3_2C9047605E457AC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB738AD0)
+#define CLASS_3_2C9047605E457AC5__CTOR_OFFSET UNITYSDK_OFFSET(0xB738AA0)
 
-inline static constexpr unsigned int Class_3_2C9047605E457AC5_TypeDefinitionIndex = 49526;
+inline static constexpr unsigned int Class_3_2C9047605E457AC5_TypeDefinitionIndex = 50580;
 
 class Class_3_2C9047605E457AC5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockCurrentSceneTransferAction*>
 {
@@ -30,10 +29,5 @@ public:
 	::System::Void Dispose()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9047605E457AC5_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2C9047605E457AC5___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

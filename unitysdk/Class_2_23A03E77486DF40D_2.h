@@ -2,11 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_3713064DEE761936.h"
 
-#define CLASS_2_23A03E77486DF40D_2_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16495C30)
-#define CLASS_2_23A03E77486DF40D_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16495C20)
-#define CLASS_2_23A03E77486DF40D_2___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16495E40)
+#define CLASS_2_23A03E77486DF40D_2_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x145C8BC0)
+#define CLASS_2_23A03E77486DF40D_2__CTOR_OFFSET UNITYSDK_OFFSET(0x145C8BB0)
 
-inline static constexpr unsigned int Class_2_23A03E77486DF40D_2_TypeDefinitionIndex = 70231;
+inline static constexpr unsigned int Class_2_23A03E77486DF40D_2_TypeDefinitionIndex = 71754;
 
 class Class_2_23A03E77486DF40D_2 : public ::Class_1_3713064DEE761936
 {
@@ -21,10 +20,5 @@ public:
 	::System::Void OnExecute()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_23A03E77486DF40D_2_ONEXECUTE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_23A03E77486DF40D_2___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
 	}
 };

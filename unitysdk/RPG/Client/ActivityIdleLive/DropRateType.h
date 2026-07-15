@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int DropRateType_TypeDefinitionIndex = 70020;
+	inline static constexpr unsigned int DropRateType_TypeDefinitionIndex = 71543;
 
 	enum class DropRateType : ::System::Int32
 	{

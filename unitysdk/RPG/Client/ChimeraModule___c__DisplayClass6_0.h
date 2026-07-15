@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChimeraModule; }
 
-#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18296680)
-#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS6_0__STARTWORK_B__0_OFFSET UNITYSDK_OFFSET(0x1829C010)
+#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC14C5D0)
+#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS6_0__STARTWORK_B__0_OFFSET UNITYSDK_OFFSET(0xC150380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraModule___c__DisplayClass6_0_TypeDefinitionIndex = 59353;
+	inline static constexpr unsigned int ChimeraModule___c__DisplayClass6_0_TypeDefinitionIndex = 60624;
 
 	class ChimeraModule___c__DisplayClass6_0 : public ::System::Object
 	{

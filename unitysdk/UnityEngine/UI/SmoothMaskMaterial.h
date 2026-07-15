@@ -9,30 +9,30 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace UnityEngine::UI { class SmoothMaskMaterial_MatEntry; }
 
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_ADDMASKOVERRIDESMOOTHMASK_OFFSET UNITYSDK_OFFSET(0x1B2E30D0)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1B2E2BE0)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1B2E3C30)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_REMOVEMASKOVERRIDESMOOTHMASK_OFFSET UNITYSDK_OFFSET(0x1B2E3260)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1B2E3AD0)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETALLPARAMS_OFFSET UNITYSDK_OFFSET(0x1B2E2AB0)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETMATENTRYPARAMS_OFFSET UNITYSDK_OFFSET(0x1B2E2FD0)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETPARAMS_OFFSET UNITYSDK_OFFSET(0x1B2E3360)
-#define UNITYENGINE_UI_SMOOTHMASKMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2E3D80)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_ADDMASKOVERRIDESMOOTHMASK_OFFSET UNITYSDK_OFFSET(0x1D180F00)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1D180A10)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1D181A60)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_REMOVEMASKOVERRIDESMOOTHMASK_OFFSET UNITYSDK_OFFSET(0x1D181090)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1D181900)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETALLPARAMS_OFFSET UNITYSDK_OFFSET(0x1D1808E0)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETMATENTRYPARAMS_OFFSET UNITYSDK_OFFSET(0x1D180E00)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL_SETPARAMS_OFFSET UNITYSDK_OFFSET(0x1D181190)
+#define UNITYENGINE_UI_SMOOTHMASKMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D181BB0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SmoothMaskMaterial_TypeDefinitionIndex = 6011;
+	inline static constexpr unsigned int SmoothMaskMaterial_TypeDefinitionIndex = 6016;
 
 	class SmoothMaskMaterial : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::UI::SmoothMaskMaterial_MatEntry*>** StaticGet_m_List()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::SmoothMaskMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x44B80);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UI::SmoothMaskMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x4A520);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_TypeKeywords()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x44B88);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SmoothMaskMaterial_TypeDefinitionIndex)->GetStaticField(0x4A528);
 		}
 
 		static ::System::Void _cctor()

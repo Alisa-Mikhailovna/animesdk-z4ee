@@ -6,26 +6,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1952E970)
-#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1952EDF0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B11DAE0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENTRAITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11DF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenTraitRow_TypeDefinitionIndex = 11155;
+	inline static constexpr unsigned int ActivityHipplenTraitRow_TypeDefinitionIndex = 11255;
 
 	class ActivityHipplenTraitRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Int32>* TraitDescParam; // 0x10
-		::System::String* ImagePath; // 0x18
-		::Il2CppArray<::System::Int32>* TraitUnlockDescParam; // 0x20
+		::Il2CppArray<::System::Int32>* TraitUnlockDescParam; // 0x18
+		::System::String* ImagePath; // 0x20
 		::Il2CppArray<::System::UInt32>* Effects; // 0x28
-		::RPG::Client::TextID TraitDesc; // 0x30
-		::System::Boolean IsEffectDelay; // 0x40
+		::System::UInt32 Rarity; // 0x30
+		::System::Boolean IsEffectDelay; // 0x34
+		::RPG::Client::TextID TraitTitle; // 0x38
 		::RPG::Client::TextID TraitUnlockDesc; // 0x48
-		::RPG::Client::TextID TraitTitle; // 0x58
-		::System::UInt32 ID; // 0x68
-		::System::UInt32 Rarity; // 0x6C
+		::System::UInt32 ID; // 0x58
+		::RPG::Client::TextID TraitDesc; // 0x60
 
 		::System::Void _ctor()
 		{

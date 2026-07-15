@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERRESISTENTRY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190E5FE0)
-#define RPG_GAMECORE_MONSTERRESISTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x190E6130)
+#define RPG_GAMECORE_MONSTERRESISTENTRY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B62EC40)
+#define RPG_GAMECORE_MONSTERRESISTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B62ED90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterResistEntry_TypeDefinitionIndex = 13501;
+	inline static constexpr unsigned int MonsterResistEntry_TypeDefinitionIndex = 13649;
 
 	class MonsterResistEntry : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ModifierBehaviorFlag Key; // 0x10
-		::RPG::GameCore::FixPoint Value; // 0x18
+		::RPG::GameCore::FixPoint Value; // 0x10
+		::RPG::GameCore::ModifierBehaviorFlag Key; // 0x18
 
 		::System::Void _ctor()
 		{

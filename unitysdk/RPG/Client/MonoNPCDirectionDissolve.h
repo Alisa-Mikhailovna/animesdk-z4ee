@@ -12,39 +12,39 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0x17ADDF80)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_8CB9BDF340E2FC64_OFFSET UNITYSDK_OFFSET(0x17ADD990)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_9B1F2653496E5C47_OFFSET UNITYSDK_OFFSET(0x17ADDAF0)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_BC7EA5929ED4589D_OFFSET UNITYSDK_OFFSET(0x17ADDC20)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_F15BB39D73E654DD_OFFSET UNITYSDK_OFFSET(0x17ADDC90)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x17ADE670)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17ADCF80)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17ADD900)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17ADE890)
-#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17ADE880)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_6B72D4EE8C6E907F_OFFSET UNITYSDK_OFFSET(0xCD0BC30)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_8CB9BDF340E2FC64_OFFSET UNITYSDK_OFFSET(0xCD0B640)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_9B1F2653496E5C47_OFFSET UNITYSDK_OFFSET(0xCD0B7A0)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_BC7EA5929ED4589D_OFFSET UNITYSDK_OFFSET(0xCD0B8D0)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_METHOD_5_F15BB39D73E654DD_OFFSET UNITYSDK_OFFSET(0xCD0B940)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD0C320)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD0AC30)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD0B5B0)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD0C540)
+#define RPG_CLIENT_MONONPCDIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD0C530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoNPCDirectionDissolve_TypeDefinitionIndex = 65598;
+	inline static constexpr unsigned int MonoNPCDirectionDissolve_TypeDefinitionIndex = 67015;
 
 	class MonoNPCDirectionDissolve : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x11BA0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x10800);
 		}
 		static ::System::Int32* StaticGet_Field_5_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x11BA4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x10804);
 		}
 		static ::System::Int32* StaticGet_Field_5_2()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x11BA8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x10808);
 		}
 		static ::System::Int32* StaticGet_Field_5_3()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x11BAC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoNPCDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x1080C);
 		}
 		::System::Single Field_5_4; // 0x18
 		::System::Boolean EnableDissolve; // 0x1C

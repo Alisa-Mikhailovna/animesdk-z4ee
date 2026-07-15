@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 template <typename T1, typename T2> class Class_1_534AF681CC2BD5FD_1;
 
-#define CLASS_2_238EB93629797DE5_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x191A0280)
-#define CLASS_2_238EB93629797DE5_READROW_OFFSET UNITYSDK_OFFSET(0x191A02E0)
-#define CLASS_2_238EB93629797DE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x191A0340)
-#define CLASS_2_238EB93629797DE5__CTOR_OFFSET UNITYSDK_OFFSET(0x191A0230)
+#define CLASS_2_238EB93629797DE5_CREATENATIVEDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1B026A10)
+#define CLASS_2_238EB93629797DE5_READROW_OFFSET UNITYSDK_OFFSET(0x1B026A70)
+#define CLASS_2_238EB93629797DE5__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B026AD0)
+#define CLASS_2_238EB93629797DE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0269C0)
 
-inline static constexpr unsigned int Class_2_238EB93629797DE5_TypeDefinitionIndex = 10423;
+inline static constexpr unsigned int Class_2_238EB93629797DE5_TypeDefinitionIndex = 10473;
 
 class Class_2_238EB93629797DE5 : public ::RPG::GameCore::BaseConfigHeader_1<::System::Int32>
 {
 public:
 	static ::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>** StaticGet_Field_2_0()
 	{
-		return (::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x47C0);
+		return (::Class_1_534AF681CC2BD5FD_1<::System::Int32, ::RPG::GameCore::BaseConfigHeader_1_NativeRowInfo<::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x1A50);
 	}
 	static ::Class_2_238EB93629797DE5** StaticGet_Field_2_1()
 	{
-		return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x47C8);
+		return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(Class_2_238EB93629797DE5_TypeDefinitionIndex)->GetStaticField(0x1A58);
 	}
 
 	::System::Void _ctor(::System::String* a1)

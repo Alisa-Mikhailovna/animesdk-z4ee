@@ -7,24 +7,24 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace System { class String; }
 
-#define CLASS_1_45E6CA349D5D1707_METHOD_1_C697C26278BBC189_OFFSET UNITYSDK_OFFSET(0x15199000)
-#define CLASS_1_45E6CA349D5D1707__CTOR_OFFSET UNITYSDK_OFFSET(0x15199AA0)
+#define CLASS_1_45E6CA349D5D1707_METHOD_1_C697C26278BBC189_OFFSET UNITYSDK_OFFSET(0xB6F99A0)
+#define CLASS_1_45E6CA349D5D1707__CTOR_OFFSET UNITYSDK_OFFSET(0xB6FA440)
 
-inline static constexpr unsigned int Class_1_45E6CA349D5D1707_TypeDefinitionIndex = 56917;
+inline static constexpr unsigned int Class_1_45E6CA349D5D1707_TypeDefinitionIndex = 58164;
 
 class Class_1_45E6CA349D5D1707 : public ::System::Object
 {
 public:
 	::System::String* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::System::UInt32 Field_1_3; // 0x24
-	::UnityEngine::Quaternion Field_1_4; // 0x28
-	::System::UInt32 Field_1_5; // 0x38
-	::System::UInt32 Field_1_6; // 0x3C
-	::System::Boolean Field_1_7; // 0x40
-	::System::Boolean Field_1_8; // 0x41
-	::UnityEngine::Vector3 Field_1_9; // 0x44
+	::UnityEngine::Quaternion Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x30
+	::System::Boolean Field_1_4; // 0x31
+	::System::UInt32 Field_1_5; // 0x34
+	::System::UInt32 Field_1_6; // 0x38
+	::System::UInt32 Field_1_7; // 0x3C
+	::UnityEngine::Vector3 Field_1_8; // 0x40
+	::System::UInt32 Field_1_9; // 0x4C
 
 	::System::Void _ctor()
 	{

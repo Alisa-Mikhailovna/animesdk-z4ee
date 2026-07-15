@@ -5,11 +5,10 @@
 
 namespace System { class String; }
 
-#define WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x196F4F00)
-#define WWISEGROUPVALUEOBJECTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x196F4FA0)
-#define WWISEGROUPVALUEOBJECTREFERENCE___IFIXBASEPROXY_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x196F4FC0)
+#define WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1D263A10)
+#define WWISEGROUPVALUEOBJECTREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D263B10)
 
-inline static constexpr unsigned int WwiseGroupValueObjectReference_TypeDefinitionIndex = 41268;
+inline static constexpr unsigned int WwiseGroupValueObjectReference_TypeDefinitionIndex = 42083;
 
 class WwiseGroupValueObjectReference : public ::WwiseObjectReference
 {
@@ -22,10 +21,5 @@ public:
 	::System::String* get_DisplayName()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEGROUPVALUEOBJECTREFERENCE_GET_DISPLAYNAME_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_get_DisplayName()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WWISEGROUPVALUEOBJECTREFERENCE___IFIXBASEPROXY_GET_DISPLAYNAME_OFFSET))(this);
 	}
 };

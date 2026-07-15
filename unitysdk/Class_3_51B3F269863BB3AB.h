@@ -6,11 +6,11 @@ namespace RPG::GameCore { class AdvDistrictEnableTrigger; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_51B3F269863BB3AB_METHOD_3_8ADFF79B8799CA3E_OFFSET UNITYSDK_OFFSET(0x153B2430)
-#define CLASS_3_51B3F269863BB3AB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x153B2880)
-#define CLASS_3_51B3F269863BB3AB__CTOR_OFFSET UNITYSDK_OFFSET(0x153B2400)
+#define CLASS_3_51B3F269863BB3AB_METHOD_3_CB70D3D4122643DB_OFFSET UNITYSDK_OFFSET(0x147A0600)
+#define CLASS_3_51B3F269863BB3AB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147A0CB0)
+#define CLASS_3_51B3F269863BB3AB__CTOR_OFFSET UNITYSDK_OFFSET(0x147A05D0)
 
-inline static constexpr unsigned int Class_3_51B3F269863BB3AB_TypeDefinitionIndex = 48950;
+inline static constexpr unsigned int Class_3_51B3F269863BB3AB_TypeDefinitionIndex = 49963;
 
 class Class_3_51B3F269863BB3AB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvDistrictEnableTrigger*>
 {
@@ -20,9 +20,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvDistrictEnableTrigger*))((::PBYTE)hIl2Cpp + CLASS_3_51B3F269863BB3AB__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::RPG::GameCore::GameEntity* Method_3_8ADFF79B8799CA3E()
+	::RPG::GameCore::GameEntity* Method_3_CB70D3D4122643DB()
 	{
-		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_51B3F269863BB3AB_METHOD_3_8ADFF79B8799CA3E_OFFSET))(this);
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_51B3F269863BB3AB_METHOD_3_CB70D3D4122643DB_OFFSET))(this);
 	}
 
 	::System::Void OnTaskBegin()

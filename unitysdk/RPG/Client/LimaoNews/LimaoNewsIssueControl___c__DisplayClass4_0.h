@@ -6,20 +6,20 @@ namespace RPG::Client { class RPGAnimationEvent; }
 namespace RPG::Client::LimaoNews { class LimaoNewsIssueControl; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1897B3D0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__0_OFFSET UNITYSDK_OFFSET(0x1897B520)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__1_OFFSET UNITYSDK_OFFSET(0x1897B7D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC934380)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__0_OFFSET UNITYSDK_OFFSET(0xC934410)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSISSUECONTROL___C__DISPLAYCLASS4_0__ONLIMAONEWSSUBMITISSUE_B__1_OFFSET UNITYSDK_OFFSET(0xC934660)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsIssueControl___c__DisplayClass4_0_TypeDefinitionIndex = 73834;
+	inline static constexpr unsigned int LimaoNewsIssueControl___c__DisplayClass4_0_TypeDefinitionIndex = 75485;
 
 	class LimaoNewsIssueControl___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::RPGAnimationEvent* animationEvent; // 0x10
-		::RPG::Client::LimaoNews::LimaoNewsIssueControl* __4__this; // 0x18
-		::System::Action* __9__1; // 0x20
+		::System::Action* __9__1; // 0x10
+		::RPG::Client::RPGAnimationEvent* animationEvent; // 0x18
+		::RPG::Client::LimaoNews::LimaoNewsIssueControl* __4__this; // 0x20
 		::System::UInt32 blockID; // 0x28
 
 		::System::Void _ctor()

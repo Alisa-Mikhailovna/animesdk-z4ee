@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RogueAdvRoomCandyCrashPropEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E421F437E3983FEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13F27830)
-#define CLASS_3_E421F437E3983FEB__CTOR_OFFSET UNITYSDK_OFFSET(0x13F27800)
+#define CLASS_3_E421F437E3983FEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA2B3F0)
+#define CLASS_3_E421F437E3983FEB__CTOR_OFFSET UNITYSDK_OFFSET(0xBA2B3C0)
 
-inline static constexpr unsigned int Class_3_E421F437E3983FEB_TypeDefinitionIndex = 54599;
+inline static constexpr unsigned int Class_3_E421F437E3983FEB_TypeDefinitionIndex = 55824;
 
 class Class_3_E421F437E3983FEB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent*>
 {

@@ -5,15 +5,15 @@
 
 namespace RPG::GameCore { class FiveDimPressureSwitchConfig; }
 
-#define CLASS_1_7A3ABC1E43C6D1ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1810C560)
+#define CLASS_1_7A3ABC1E43C6D1ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA22F70)
 
-inline static constexpr unsigned int Class_1_7A3ABC1E43C6D1ED_TypeDefinitionIndex = 40052;
+inline static constexpr unsigned int Class_1_7A3ABC1E43C6D1ED_TypeDefinitionIndex = 40865;
 
 class Class_1_7A3ABC1E43C6D1ED : public ::System::Object
 {
 public:
-	::Struct_2_5B421F8FFABD4CA3 Field_1_0; // 0x10
-	::RPG::GameCore::FiveDimPressureSwitchConfig* Field_1_1; // 0x20
+	::RPG::GameCore::FiveDimPressureSwitchConfig* Field_1_0; // 0x10
+	::Struct_2_5B421F8FFABD4CA3 Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

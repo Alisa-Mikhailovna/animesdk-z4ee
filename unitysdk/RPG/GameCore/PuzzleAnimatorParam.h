@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PUZZLEANIMATORPARAM_METHOD_2_E4BC8DB2433BE707_OFFSET UNITYSDK_OFFSET(0x19A9C310)
-#define RPG_GAMECORE_PUZZLEANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9C4E0)
+#define RPG_GAMECORE_PUZZLEANIMATORPARAM_METHOD_2_E4BC8DB2433BE707_OFFSET UNITYSDK_OFFSET(0x1B6F5B30)
+#define RPG_GAMECORE_PUZZLEANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6F5D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleAnimatorParam_TypeDefinitionIndex = 21002;
+	inline static constexpr unsigned int PuzzleAnimatorParam_TypeDefinitionIndex = 21417;
 
 	class PuzzleAnimatorParam : public ::RPG::GameCore::JsonConfig
 	{

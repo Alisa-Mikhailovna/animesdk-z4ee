@@ -7,20 +7,20 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCONSTVALUECOMMONEXCELTABLE_GETCONFIGVALUE_OFFSET UNITYSDK_OFFSET(0x1989B360)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCONSTVALUECOMMONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1989B470)
-#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCONSTVALUECOMMONEXCELTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1989B460)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCONSTVALUECOMMONEXCELTABLE_GETCONFIGVALUE_OFFSET UNITYSDK_OFFSET(0x1B10B7A0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCONSTVALUECOMMONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B10B8B0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEBUILDCONSTVALUECOMMONEXCELTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B10B8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveBuildConstValueCommonExcelTable_TypeDefinitionIndex = 14691;
+	inline static constexpr unsigned int ActivityEvolveBuildConstValueCommonExcelTable_TypeDefinitionIndex = 14851;
 
 	class ActivityEvolveBuildConstValueCommonExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EvolveBuildSeason, ::System::String*>** StaticGet__SeasonToPrefix()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EvolveBuildSeason, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildConstValueCommonExcelTable_TypeDefinitionIndex)->GetStaticField(0x678D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EvolveBuildSeason, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityEvolveBuildConstValueCommonExcelTable_TypeDefinitionIndex)->GetStaticField(0x1C080);
 		}
 
 		::System::Void _ctor()

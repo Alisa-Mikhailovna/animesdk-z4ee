@@ -5,24 +5,24 @@
 namespace RPG::Client { class AnniversaryCollectionGroupData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E4ACC0)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E4ACF0)
-#define RPG_CLIENT_ANNIVERSARYCOLLECTIONMODULE___C__GETANNIVERSARY3RDCOLLECTIONGROUPDATA_B__22_0_OFFSET UNITYSDK_OFFSET(0x17E4AD00)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD98770)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD987A0)
+#define RPG_CLIENT_ANNIVERSARYCOLLECTIONMODULE___C__GETANNIVERSARY3RDCOLLECTIONGROUPDATA_B__22_0_OFFSET UNITYSDK_OFFSET(0xBD987B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnniversaryCollectionModule___c_TypeDefinitionIndex = 58379;
+	inline static constexpr unsigned int AnniversaryCollectionModule___c_TypeDefinitionIndex = 59641;
 
 	class AnniversaryCollectionModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::AnniversaryCollectionModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::AnniversaryCollectionModule___c**)Il2CppClass::FromTypeDefinitionIndex(AnniversaryCollectionModule___c_TypeDefinitionIndex)->GetStaticField(0x5C9F0);
-		}
 		static ::System::Func_2<::RPG::Client::AnniversaryCollectionGroupData*, ::System::Boolean>** StaticGet___9__22_0()
 		{
-			return (::System::Func_2<::RPG::Client::AnniversaryCollectionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnniversaryCollectionModule___c_TypeDefinitionIndex)->GetStaticField(0x5C9F8);
+			return (::System::Func_2<::RPG::Client::AnniversaryCollectionGroupData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AnniversaryCollectionModule___c_TypeDefinitionIndex)->GetStaticField(0x4DC80);
+		}
+		static ::RPG::Client::AnniversaryCollectionModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::AnniversaryCollectionModule___c**)Il2CppClass::FromTypeDefinitionIndex(AnniversaryCollectionModule___c_TypeDefinitionIndex)->GetStaticField(0x4DC88);
 		}
 
 		static ::System::Void _cctor()

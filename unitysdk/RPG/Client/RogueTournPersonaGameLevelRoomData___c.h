@@ -5,24 +5,24 @@
 namespace RPG::Client { class IRogueTournPersonaRoomAttribute; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELROOMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18D79180)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELROOMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18D791B0)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELROOMDATA___C__GETDEBUGINFO_B__3_0_OFFSET UNITYSDK_OFFSET(0x18D791C0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELROOMDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD468D10)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELROOMDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD468D40)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMELEVELROOMDATA___C__GETDEBUGINFO_B__3_0_OFFSET UNITYSDK_OFFSET(0xD468D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaGameLevelRoomData___c_TypeDefinitionIndex = 63345;
+	inline static constexpr unsigned int RogueTournPersonaGameLevelRoomData___c_TypeDefinitionIndex = 64712;
 
 	class RogueTournPersonaGameLevelRoomData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::RogueTournPersonaGameLevelRoomData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournPersonaGameLevelRoomData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelRoomData___c_TypeDefinitionIndex)->GetStaticField(0x38AB0);
+			return (::RPG::Client::RogueTournPersonaGameLevelRoomData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelRoomData___c_TypeDefinitionIndex)->GetStaticField(0x2D540);
 		}
 		static ::System::Func_2<::RPG::Client::IRogueTournPersonaRoomAttribute*, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomAttribute*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelRoomData___c_TypeDefinitionIndex)->GetStaticField(0x38AB8);
+			return (::System::Func_2<::RPG::Client::IRogueTournPersonaRoomAttribute*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaGameLevelRoomData___c_TypeDefinitionIndex)->GetStaticField(0x2D548);
 		}
 
 		static ::System::Void _cctor()

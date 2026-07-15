@@ -4,11 +4,11 @@
 
 namespace System::Diagnostics::Tracing { class EventListener; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x175F6C10)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C8080)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 1693;
+	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 1697;
 
 	class EventDispatcher : public ::System::Object
 	{

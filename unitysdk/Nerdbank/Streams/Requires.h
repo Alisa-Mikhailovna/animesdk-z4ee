@@ -5,12 +5,12 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x1A10E510)
-#define NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x1A10E4F0)
+#define NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x19B4BF00)
+#define NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x19B4BEE0)
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 7111;
+	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 7117;
 
 	class Requires : public ::System::Object
 	{

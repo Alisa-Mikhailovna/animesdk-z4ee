@@ -7,22 +7,22 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FetchAdvPropData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_721AAE13ED3F52F8_OFFSET UNITYSDK_OFFSET(0x1AC4C8A0)
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_8337BFE36DA4BF3C_OFFSET UNITYSDK_OFFSET(0x1AC3EA90)
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_E0B218F844E3062A_OFFSET UNITYSDK_OFFSET(0x1AC524E0)
-#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_E1A5DDCD0C55A180_OFFSET UNITYSDK_OFFSET(0x1AC52550)
-#define RPG_GAMECORE_TARGETFETCHADVPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC3EA40)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_5A5A6238117B82FD_OFFSET UNITYSDK_OFFSET(0x1B948CF0)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_8337BFE36DA4BF3C_OFFSET UNITYSDK_OFFSET(0x1B948D30)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_ACD443D84D18F7BE_OFFSET UNITYSDK_OFFSET(0x1B948F60)
+#define RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_C4C417CFC23DE4C8_OFFSET UNITYSDK_OFFSET(0x1B948F30)
+#define RPG_GAMECORE_TARGETFETCHADVPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B948D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvProp_TypeDefinitionIndex = 22555;
+	inline static constexpr unsigned int TargetFetchAdvProp_TypeDefinitionIndex = 23018;
 
 	class TargetFetchAdvProp : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		static ::System::Boolean* StaticGet_AllowReturnNull()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TargetFetchAdvProp_TypeDefinitionIndex)->GetStaticField(0x9950);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TargetFetchAdvProp_TypeDefinitionIndex)->GetStaticField(0x7390);
 		}
 		::System::Boolean TargetIsOwner; // 0x10
 		::Il2CppArray<::RPG::GameCore::FetchAdvPropData*>* MultiGroupFetch; // 0x18
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E0B218F844E3062A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvProp*& a2)
+		static ::System::Void Method_4_5A5A6238117B82FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvProp*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_E0B218F844E3062A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_5A5A6238117B82FD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_8337BFE36DA4BF3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvProp* a2)
@@ -45,14 +45,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_8337BFE36DA4BF3C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_721AAE13ED3F52F8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvProp*& a2)
+		static ::System::Void Method_4_C4C417CFC23DE4C8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvProp*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_721AAE13ED3F52F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_C4C417CFC23DE4C8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E1A5DDCD0C55A180(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvProp* a2)
+		static ::System::Void Method_4_ACD443D84D18F7BE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvProp* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_E1A5DDCD0C55A180_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvProp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVPROP_METHOD_4_ACD443D84D18F7BE_OFFSET))(a1, a2);
 		}
 	};
 }

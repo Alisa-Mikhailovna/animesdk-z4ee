@@ -7,13 +7,12 @@
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199CC5C0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x199CC650)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199CC660)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDCCC4E0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCC570)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeMouthBehaviourMixer_TypeDefinitionIndex = 46018;
+	inline static constexpr unsigned int EmoBlendShapeMouthBehaviourMixer_TypeDefinitionIndex = 46957;
 
 	class EmoBlendShapeMouthBehaviourMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -29,11 +28,6 @@ namespace RPGTools::Timeline::Emotion
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEMOUTHBEHAVIOURMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyAiVisionExcludeTagRuntime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_27203D4C70FBE678_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CF7AA0)
-#define CLASS_3_27203D4C70FBE678__CTOR_OFFSET UNITYSDK_OFFSET(0x12CF7A70)
+#define CLASS_3_27203D4C70FBE678_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15654EB0)
+#define CLASS_3_27203D4C70FBE678__CTOR_OFFSET UNITYSDK_OFFSET(0x15654E80)
 
-inline static constexpr unsigned int Class_3_27203D4C70FBE678_TypeDefinitionIndex = 49563;
+inline static constexpr unsigned int Class_3_27203D4C70FBE678_TypeDefinitionIndex = 50617;
 
 class Class_3_27203D4C70FBE678 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*>
 {

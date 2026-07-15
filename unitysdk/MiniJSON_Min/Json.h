@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MINIJSON_MIN_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B56B620)
-#define MINIJSON_MIN_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B56B7E0)
+#define MINIJSON_MIN_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A258E80)
+#define MINIJSON_MIN_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1A259040)
 
 namespace MiniJSON_Min
 {
-	inline static constexpr unsigned int Json_TypeDefinitionIndex = 38377;
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 39185;
 
 	class Json : public ::System::Object
 	{

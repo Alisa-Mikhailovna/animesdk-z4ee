@@ -7,19 +7,19 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0x15176330)
-#define CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET UNITYSDK_OFFSET(0x15176430)
+#define CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0xB6971D0)
+#define CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET UNITYSDK_OFFSET(0xB6972D0)
 
-inline static constexpr unsigned int Class_1_8C991E7F06D23AEA_TypeDefinitionIndex = 66965;
+inline static constexpr unsigned int Class_1_8C991E7F06D23AEA_TypeDefinitionIndex = 68409;
 
 class Class_1_8C991E7F06D23AEA : public ::System::Object
 {
 public:
 	// static const ::System::String* Field_1_0; // 0x0
-	::UnityEngine::UI::Image* Field_1_1; // 0x10
+	::UnityEngine::UI::Text* Field_1_1; // 0x10
 	::UnityEngine::UI::Text* Field_1_2; // 0x18
 	::UnityEngine::UI::Text* Field_1_3; // 0x20
-	::UnityEngine::UI::Text* Field_1_4; // 0x28
+	::UnityEngine::UI::Image* Field_1_4; // 0x28
 	::UnityEngine::Transform* Field_1_5; // 0x30
 
 	::System::Void _ctor()

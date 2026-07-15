@@ -5,14 +5,13 @@
 
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x18C59210)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x18C59190)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C59220)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM___IFIXBASEPROXY_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x18C59250)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xCF2BA90)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xCF2BA10)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM__CTOR_OFFSET UNITYSDK_OFFSET(0xCF2BAA0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourItemBoom_TypeDefinitionIndex = 69223;
+	inline static constexpr unsigned int MonoParkourItemBoom_TypeDefinitionIndex = 70744;
 
 	class MonoParkourItemBoom : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
@@ -35,11 +34,6 @@ namespace RPG::Client::ParkourGame
 		::RPG::Client::ParkourGame::ItemType get_ItemType()
 		{
 			return ((::RPG::Client::ParkourGame::ItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM_GET_ITEMTYPE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnTriggered(::RPG::Client::ParkourGame::MonoParkourCharacter* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourCharacter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMBOOM___IFIXBASEPROXY_ONTRIGGERED_OFFSET))(this, a1);
 		}
 	};
 }

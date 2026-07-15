@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_190.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_198.h"
 #include "unitysdk/System/Nullable_1.h"
 
-class Class_1_43BD383C98B4C0C5_191;
+class Class_1_43BD383C98B4C0C5_199;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_9D7BB6C2A06E5F38_GET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0x13528C60)
-#define CLASS_2_9D7BB6C2A06E5F38_METHOD_2_390623AF74E8C979_OFFSET UNITYSDK_OFFSET(0x13528C80)
-#define CLASS_2_9D7BB6C2A06E5F38_METHOD_2_7F4BE116F51C65C8_OFFSET UNITYSDK_OFFSET(0x13528F50)
-#define CLASS_2_9D7BB6C2A06E5F38_SET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0x13528C70)
-#define CLASS_2_9D7BB6C2A06E5F38__CTOR_OFFSET UNITYSDK_OFFSET(0x135291D0)
+#define CLASS_2_9D7BB6C2A06E5F38_GET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0xB99AD60)
+#define CLASS_2_9D7BB6C2A06E5F38_METHOD_2_390623AF74E8C979_OFFSET UNITYSDK_OFFSET(0xB99AD80)
+#define CLASS_2_9D7BB6C2A06E5F38_METHOD_2_431734A3FF995186_OFFSET UNITYSDK_OFFSET(0xB99B050)
+#define CLASS_2_9D7BB6C2A06E5F38_SET_REPEATCOUNT_OFFSET UNITYSDK_OFFSET(0xB99AD70)
+#define CLASS_2_9D7BB6C2A06E5F38__CTOR_OFFSET UNITYSDK_OFFSET(0xB99B300)
 
-inline static constexpr unsigned int Class_2_9D7BB6C2A06E5F38_TypeDefinitionIndex = 72138;
+inline static constexpr unsigned int Class_2_9D7BB6C2A06E5F38_TypeDefinitionIndex = 73663;
 
-class Class_2_9D7BB6C2A06E5F38 : public ::Class_1_43BD383C98B4C0C5_190
+class Class_2_9D7BB6C2A06E5F38 : public ::Class_1_43BD383C98B4C0C5_198
 {
 public:
-	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_191*>*>* Field_2_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_191*>* Field_2_1; // 0x18
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>* Field_2_0; // 0x10
+	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>*>* Field_2_1; // 0x18
 	::System::Nullable_1<::System::Int32> _RepeatCount_k__BackingField; // 0x20
 
 	::System::Void _ctor()
@@ -38,13 +38,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int32>))((::PBYTE)hIl2Cpp + CLASS_2_9D7BB6C2A06E5F38_SET_REPEATCOUNT_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_390623AF74E8C979(::Class_1_43BD383C98B4C0C5_191* a1)
+	::System::Void Method_2_390623AF74E8C979(::Class_1_43BD383C98B4C0C5_199* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_191*))((::PBYTE)hIl2Cpp + CLASS_2_9D7BB6C2A06E5F38_METHOD_2_390623AF74E8C979_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_199*))((::PBYTE)hIl2Cpp + CLASS_2_9D7BB6C2A06E5F38_METHOD_2_390623AF74E8C979_OFFSET))(this, a1);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::System::Int32>* Method_2_7F4BE116F51C65C8(::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig*>* a1)
+	::System::Collections::Generic::IEnumerable_1<::System::Int32>* Method_2_431734A3FF995186(::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig*>* a1)
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::System::Int32>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig*>*))((::PBYTE)hIl2Cpp + CLASS_2_9D7BB6C2A06E5F38_METHOD_2_7F4BE116F51C65C8_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::IEnumerable_1<::System::Int32>*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig*>*))((::PBYTE)hIl2Cpp + CLASS_2_9D7BB6C2A06E5F38_METHOD_2_431734A3FF995186_OFFSET))(this, a1);
 	}
 };

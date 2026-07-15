@@ -4,22 +4,22 @@
 
 namespace Cinemachine { class CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate; }
 
-#define CLASS_1_F061A380F0650BCC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164C14B0)
-#define CLASS_1_F061A380F0650BCC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164C14F0)
-#define CLASS_1_F061A380F0650BCC___C___SETVCAM_B__10_0_OFFSET UNITYSDK_OFFSET(0x164C1500)
+#define CLASS_1_F061A380F0650BCC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x145F5E10)
+#define CLASS_1_F061A380F0650BCC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x145F5E50)
+#define CLASS_1_F061A380F0650BCC___C___SETVCAM_B__10_0_OFFSET UNITYSDK_OFFSET(0x145F5E60)
 
-inline static constexpr unsigned int Class_1_F061A380F0650BCC___c_TypeDefinitionIndex = 56789;
+inline static constexpr unsigned int Class_1_F061A380F0650BCC___c_TypeDefinitionIndex = 58036;
 
 class Class_1_F061A380F0650BCC___c : public ::System::Object
 {
 public:
-	static ::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate** StaticGet___9__10_0()
-	{
-		return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F061A380F0650BCC___c_TypeDefinitionIndex)->GetStaticField(0x4F5D0);
-	}
 	static ::Class_1_F061A380F0650BCC___c** StaticGet___9()
 	{
-		return (::Class_1_F061A380F0650BCC___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F061A380F0650BCC___c_TypeDefinitionIndex)->GetStaticField(0x4F5D8);
+		return (::Class_1_F061A380F0650BCC___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F061A380F0650BCC___c_TypeDefinitionIndex)->GetStaticField(0x46B80);
+	}
+	static ::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate** StaticGet___9__10_0()
+	{
+		return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)Il2CppClass::FromTypeDefinitionIndex(Class_1_F061A380F0650BCC___c_TypeDefinitionIndex)->GetStaticField(0x46B88);
 	}
 
 	static ::System::Void _cctor()

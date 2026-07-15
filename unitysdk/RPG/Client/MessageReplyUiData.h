@@ -5,13 +5,13 @@
 namespace RPG::Client { class TextReplyUiData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1793DB30)
-#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_REPLYTEXTS_OFFSET UNITYSDK_OFFSET(0x1793DB20)
-#define RPG_CLIENT_MESSAGEREPLYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1793DB80)
+#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xCBBA900)
+#define RPG_CLIENT_MESSAGEREPLYUIDATA_GET_REPLYTEXTS_OFFSET UNITYSDK_OFFSET(0xCBBA8F0)
+#define RPG_CLIENT_MESSAGEREPLYUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBBA950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageReplyUiData_TypeDefinitionIndex = 57552;
+	inline static constexpr unsigned int MessageReplyUiData_TypeDefinitionIndex = 58814;
 
 	class MessageReplyUiData : public ::System::Object
 	{

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_173D943B90EBD9C6_OFFSET UNITYSDK_OFFSET(0x1A41B0A0)
-#define RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_FD9A36953EB5D277_OFFSET UNITYSDK_OFFSET(0x1A41B120)
-#define RPG_GAMECORE_FINISHLEVELGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41B0F0)
+#define RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_77F525CACB6A5E3C_OFFSET UNITYSDK_OFFSET(0x1B419BC0)
+#define RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_FD9A36953EB5D277_OFFSET UNITYSDK_OFFSET(0x1B419C00)
+#define RPG_GAMECORE_FINISHLEVELGRAPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B419BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishLevelGraph_TypeDefinitionIndex = 19482;
+	inline static constexpr unsigned int FinishLevelGraph_TypeDefinitionIndex = 19840;
 
 	class FinishLevelGraph : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_173D943B90EBD9C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishLevelGraph*& a2)
+		static ::System::Void Method_3_77F525CACB6A5E3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishLevelGraph*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishLevelGraph*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_173D943B90EBD9C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishLevelGraph*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHLEVELGRAPH_METHOD_3_77F525CACB6A5E3C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FD9A36953EB5D277(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishLevelGraph* a2)

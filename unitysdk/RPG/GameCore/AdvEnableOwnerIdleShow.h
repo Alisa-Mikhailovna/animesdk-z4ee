@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENABLEOWNERIDLESHOW_METHOD_3_6FD465F625C3897E_OFFSET UNITYSDK_OFFSET(0x19560C90)
-#define RPG_GAMECORE_ADVENABLEOWNERIDLESHOW_METHOD_3_F694572AC15F1A88_OFFSET UNITYSDK_OFFSET(0x19560D10)
-#define RPG_GAMECORE_ADVENABLEOWNERIDLESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x19560CE0)
+#define RPG_GAMECORE_ADVENABLEOWNERIDLESHOW_METHOD_3_A2753499624E45B7_OFFSET UNITYSDK_OFFSET(0x1B14FE10)
+#define RPG_GAMECORE_ADVENABLEOWNERIDLESHOW_METHOD_3_F694572AC15F1A88_OFFSET UNITYSDK_OFFSET(0x1B14FE50)
+#define RPG_GAMECORE_ADVENABLEOWNERIDLESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B14FE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnableOwnerIdleShow_TypeDefinitionIndex = 19419;
+	inline static constexpr unsigned int AdvEnableOwnerIdleShow_TypeDefinitionIndex = 19777;
 
 	class AdvEnableOwnerIdleShow : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEOWNERIDLESHOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6FD465F625C3897E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableOwnerIdleShow*& a2)
+		static ::System::Void Method_3_A2753499624E45B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableOwnerIdleShow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableOwnerIdleShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEOWNERIDLESHOW_METHOD_3_6FD465F625C3897E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableOwnerIdleShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEOWNERIDLESHOW_METHOD_3_A2753499624E45B7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F694572AC15F1A88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableOwnerIdleShow* a2)

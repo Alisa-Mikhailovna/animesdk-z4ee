@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_BINDINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17240FB0)
-#define MIHOYO_SDK_BINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1722C600)
+#define MIHOYO_SDK_BINDINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19BAE200)
+#define MIHOYO_SDK_BINDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19B97810)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 7900;
+	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 7906;
 
 	class BindInfo : public ::System::Object
 	{

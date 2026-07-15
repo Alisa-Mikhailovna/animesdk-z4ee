@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class LiveStreamSmallWindowClip; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C3EEE0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C3EF00)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x18C3EEF0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3EFD0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x18C3EFE0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDCEC2E0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCEC300)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDCEC2F0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCEC3D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamSmallWindowBehaviour_TypeDefinitionIndex = 45467;
+	inline static constexpr unsigned int LiveStreamSmallWindowBehaviour_TypeDefinitionIndex = 46401;
 
 	class LiveStreamSmallWindowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

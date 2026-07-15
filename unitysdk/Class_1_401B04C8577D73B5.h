@@ -4,15 +4,15 @@
 #include "unitysdk/RPG/GameCore/ControlSkillType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_401B04C8577D73B5__CTOR_OFFSET UNITYSDK_OFFSET(0x16F64410)
+#define CLASS_1_401B04C8577D73B5__CTOR_OFFSET UNITYSDK_OFFSET(0x145A43E0)
 
-inline static constexpr unsigned int Class_1_401B04C8577D73B5_TypeDefinitionIndex = 67277;
+inline static constexpr unsigned int Class_1_401B04C8577D73B5_TypeDefinitionIndex = 68741;
 
 class Class_1_401B04C8577D73B5 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ControlSkillType Field_1_0; // 0x10
-	::RPG::Client::TextID Field_1_1; // 0x18
+	::RPG::Client::TextID Field_1_0; // 0x10
+	::RPG::GameCore::ControlSkillType Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

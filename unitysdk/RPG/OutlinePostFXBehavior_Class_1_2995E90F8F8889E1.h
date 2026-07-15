@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_2995E90F8F8889E1_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17B49E00)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_2995E90F8F8889E1_GET_KEY_OFFSET UNITYSDK_OFFSET(0x17B49C10)
-#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_2995E90F8F8889E1__CTOR_OFFSET UNITYSDK_OFFSET(0x17B48B70)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_2995E90F8F8889E1_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDC677D0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_2995E90F8F8889E1_GET_KEY_OFFSET UNITYSDK_OFFSET(0xDC675E0)
+#define RPG_OUTLINEPOSTFXBEHAVIOR_CLASS_1_2995E90F8F8889E1__CTOR_OFFSET UNITYSDK_OFFSET(0xDC66860)
 
 namespace RPG
 {
-	inline static constexpr unsigned int OutlinePostFXBehavior_Class_1_2995E90F8F8889E1_TypeDefinitionIndex = 48395;
+	inline static constexpr unsigned int OutlinePostFXBehavior_Class_1_2995E90F8F8889E1_TypeDefinitionIndex = 49394;
 
 	class OutlinePostFXBehavior_Class_1_2995E90F8F8889E1 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Material* Field_1_0; // 0x10
-		::UnityEngine::Material* Field_1_1; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_1_2; // 0x20
-		::RPG::OutlinePostFXBehavior* Field_1_3; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* Field_1_0; // 0x10
+		::RPG::OutlinePostFXBehavior* Field_1_1; // 0x18
+		::UnityEngine::Material* Field_1_2; // 0x20
+		::UnityEngine::Material* Field_1_3; // 0x28
 		::System::Int32 Field_1_4; // 0x30
 
 		::System::Void _ctor(::RPG::OutlinePostFXBehavior* a1)

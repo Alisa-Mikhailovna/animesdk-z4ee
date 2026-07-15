@@ -4,20 +4,20 @@
 
 namespace Proto { class PlayerSimpleInfo; }
 
-#define PROTO_PLAYERSIMPLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB09390)
-#define PROTO_PLAYERSIMPLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB093D0)
-#define PROTO_PLAYERSIMPLEINFO___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1AB093E0)
+#define PROTO_PLAYERSIMPLEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC8B9E0)
+#define PROTO_PLAYERSIMPLEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC8BA20)
+#define PROTO_PLAYERSIMPLEINFO___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1BC8BA30)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PlayerSimpleInfo___c_TypeDefinitionIndex = 27140;
+	inline static constexpr unsigned int PlayerSimpleInfo___c_TypeDefinitionIndex = 27646;
 
 	class PlayerSimpleInfo___c : public ::System::Object
 	{
 	public:
 		static ::Proto::PlayerSimpleInfo___c** StaticGet___9()
 		{
-			return (::Proto::PlayerSimpleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerSimpleInfo___c_TypeDefinitionIndex)->GetStaticField(0x3EBC0);
+			return (::Proto::PlayerSimpleInfo___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerSimpleInfo___c_TypeDefinitionIndex)->GetStaticField(0x43000);
 		}
 
 		static ::System::Void _cctor()

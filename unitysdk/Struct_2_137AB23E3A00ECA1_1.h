@@ -2,31 +2,60 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-namespace System { class String; }
+namespace System { class Object; }
 
-#define STRUCT_2_137AB23E3A00ECA1_1_EQUALS_OFFSET UNITYSDK_OFFSET(0x3758EB0)
-#define STRUCT_2_137AB23E3A00ECA1_1_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3758F20)
-#define STRUCT_2_137AB23E3A00ECA1_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3758EA0)
-#define STRUCT_2_137AB23E3A00ECA1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x6C9750)
-#define STRUCT_2_137AB23E3A00ECA1_1___IFIXBASEPROXY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3759020)
-#define STRUCT_2_137AB23E3A00ECA1_1___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3758FC0)
+#define STRUCT_2_137AB23E3A00ECA1_1_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2D0F020)
+#define STRUCT_2_137AB23E3A00ECA1_1_EQUALS_OFFSET UNITYSDK_OFFSET(0x2D0EFB0)
+#define STRUCT_2_137AB23E3A00ECA1_1_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2D0F030)
+#define STRUCT_2_137AB23E3A00ECA1_1_GET_ENHANCEDID_OFFSET UNITYSDK_OFFSET(0xDAD0)
+#define STRUCT_2_137AB23E3A00ECA1_1_GET_REALID_OFFSET UNITYSDK_OFFSET(0x1E130)
+#define STRUCT_2_137AB23E3A00ECA1_1_GET_SKINID_OFFSET UNITYSDK_OFFSET(0x5EF0)
+#define STRUCT_2_137AB23E3A00ECA1_1_SET_ENHANCEDID_OFFSET UNITYSDK_OFFSET(0xDAE0)
+#define STRUCT_2_137AB23E3A00ECA1_1_SET_REALID_OFFSET UNITYSDK_OFFSET(0x21F0)
+#define STRUCT_2_137AB23E3A00ECA1_1_SET_SKINID_OFFSET UNITYSDK_OFFSET(0x2CAC0)
+#define STRUCT_2_137AB23E3A00ECA1_1__CTOR_OFFSET UNITYSDK_OFFSET(0x82640)
 
-inline static constexpr unsigned int Struct_2_137AB23E3A00ECA1_1_TypeDefinitionIndex = 61389;
+inline static constexpr unsigned int Struct_2_137AB23E3A00ECA1_1_TypeDefinitionIndex = 59720;
 
 struct alignas(4) Struct_2_137AB23E3A00ECA1_1
 {
-	::System::UInt32 Field_2_0; // 0x10
-	::System::UInt32 Field_2_1; // 0x14
-	::System::UInt32 Field_2_2; // 0x18
+	::System::UInt32 _SkinId_k__BackingField; // 0x10
+	::System::UInt32 _RealId_k__BackingField; // 0x14
+	::System::UInt32 _EnhancedId_k__BackingField; // 0x18
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::String* ToString()
+	::System::UInt32 get_SkinId()
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_TOSTRING_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_GET_SKINID_OFFSET))(this);
+	}
+
+	::System::Void set_SkinId(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_SET_SKINID_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_RealId()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_GET_REALID_OFFSET))(this);
+	}
+
+	::System::Void set_RealId(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_SET_REALID_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_EnhancedId()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_GET_ENHANCEDID_OFFSET))(this);
+	}
+
+	::System::Void set_EnhancedId(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_SET_ENHANCEDID_OFFSET))(this, a1);
 	}
 
 	::System::Boolean Equals(::Struct_2_137AB23E3A00ECA1_1 a1)
@@ -34,18 +63,13 @@ struct alignas(4) Struct_2_137AB23E3A00ECA1_1
 		return ((::System::Boolean(*)(::PVOID, ::Struct_2_137AB23E3A00ECA1_1))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_EQUALS_OFFSET))(this, a1);
 	}
 
+	::System::Boolean Equals_1(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_EQUALS_1_OFFSET))(this, a1);
+	}
+
 	::System::Int32 GetHashCode()
 	{
 		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1_GETHASHCODE_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
-	}
-
-	::System::Int32 __iFixBaseProxy_GetHashCode()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_137AB23E3A00ECA1_1___IFIXBASEPROXY_GETHASHCODE_OFFSET))(this);
 	}
 };

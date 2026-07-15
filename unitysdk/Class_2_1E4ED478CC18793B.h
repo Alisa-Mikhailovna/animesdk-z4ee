@@ -8,25 +8,25 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtModifierConfig; }
 namespace System { class String; }
 
-#define CLASS_2_1E4ED478CC18793B_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x17019D80)
-#define CLASS_2_1E4ED478CC18793B_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x17019D30)
-#define CLASS_2_1E4ED478CC18793B_METHOD_2_01B86EDCA4314B2B_OFFSET UNITYSDK_OFFSET(0x17019C10)
-#define CLASS_2_1E4ED478CC18793B__CTOR_OFFSET UNITYSDK_OFFSET(0x17019DD0)
+#define CLASS_2_1E4ED478CC18793B_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xAF6C680)
+#define CLASS_2_1E4ED478CC18793B_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xAF6C630)
+#define CLASS_2_1E4ED478CC18793B_METHOD_2_01B86EDCA4314B2B_OFFSET UNITYSDK_OFFSET(0xAF6C510)
+#define CLASS_2_1E4ED478CC18793B__CTOR_OFFSET UNITYSDK_OFFSET(0xAF6C6D0)
 
-inline static constexpr unsigned int Class_2_1E4ED478CC18793B_TypeDefinitionIndex = 50524;
+inline static constexpr unsigned int Class_2_1E4ED478CC18793B_TypeDefinitionIndex = 51606;
 
 class Class_2_1E4ED478CC18793B : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::System::String* Field_2_0; // 0x18
+	::RPG::GameCore::RtModifierConfig* Field_2_0; // 0x18
 	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
-	::RPG::GameCore::RtModifierConfig* Field_2_3; // 0x30
+	::System::String* Field_2_2; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x30
 	::System::String* Field_2_4; // 0x38
-	::RPG::GameCore::FixPoint Field_2_5; // 0x40
-	::System::Boolean Field_2_6; // 0x48
-	::System::Boolean Field_2_7; // 0x49
-	::System::Boolean Field_2_8; // 0x4A
+	::System::Boolean Field_2_5; // 0x40
+	::System::Boolean Field_2_6; // 0x41
+	::System::Boolean Field_2_7; // 0x42
+	::RPG::GameCore::FixPoint Field_2_8; // 0x48
 	::RPG::GameCore::FixPoint Field_2_9; // 0x50
 	::RPG::GameCore::FixPoint Field_2_10; // 0x58
 

@@ -4,20 +4,20 @@
 
 namespace System::Globalization { class CompareInfo; }
 
-#define SYSTEM_INVARIANTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x181955D0)
-#define SYSTEM_INVARIANTCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18195690)
-#define SYSTEM_INVARIANTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x18195590)
+#define SYSTEM_INVARIANTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CCA8CA0)
+#define SYSTEM_INVARIANTCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCA8DC0)
+#define SYSTEM_INVARIANTCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA8C00)
 
 namespace System
 {
-	inline static constexpr unsigned int InvariantComparer_TypeDefinitionIndex = 2448;
+	inline static constexpr unsigned int InvariantComparer_TypeDefinitionIndex = 2452;
 
 	class InvariantComparer : public ::System::Object
 	{
 	public:
 		static ::System::InvariantComparer** StaticGet_Default()
 		{
-			return (::System::InvariantComparer**)Il2CppClass::FromTypeDefinitionIndex(InvariantComparer_TypeDefinitionIndex)->GetStaticField(0x23250);
+			return (::System::InvariantComparer**)Il2CppClass::FromTypeDefinitionIndex(InvariantComparer_TypeDefinitionIndex)->GetStaticField(0x2A0D0);
 		}
 		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
 

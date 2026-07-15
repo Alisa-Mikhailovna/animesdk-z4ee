@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS___C__DISPLAYCLASS90_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173A9CC0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS___C__DISPLAYCLASS90_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A28DD50)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonSerializerSettings___c__DisplayClass90_0_TypeDefinitionIndex = 9255;
+	inline static constexpr unsigned int JsonSerializerSettings___c__DisplayClass90_0_TypeDefinitionIndex = 9267;
 
 	class JsonSerializerSettings___c__DisplayClass90_0 : public ::System::Object
 	{

@@ -6,77 +6,77 @@ namespace Mono::Security { class ASN1; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define MONO_SECURITY_X509_X501_APPENDENTRY_OFFSET UNITYSDK_OFFSET(0x19CD5D10)
-#define MONO_SECURITY_X509_X501_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x19CD70E0)
-#define MONO_SECURITY_X509_X501_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19CD5BC0)
-#define MONO_SECURITY_X509_X501__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CD72C0)
+#define MONO_SECURITY_X509_X501_APPENDENTRY_OFFSET UNITYSDK_OFFSET(0x19F36FF0)
+#define MONO_SECURITY_X509_X501_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x19F382C0)
+#define MONO_SECURITY_X509_X501_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19F36DC0)
+#define MONO_SECURITY_X509_X501__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F38600)
 
 namespace Mono::Security::X509
 {
-	inline static constexpr unsigned int X501_TypeDefinitionIndex = 2255;
+	inline static constexpr unsigned int X501_TypeDefinitionIndex = 2259;
 
 	class X501 : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_domainComponent()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B220);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_initial()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B228);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_email()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B230);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_title()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B238);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_stateOrProvinceName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B240);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_organizationalUnitName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B248);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_givenName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B250);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_localityName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B258);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_countryName()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B260);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x286E0);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_userid()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B268);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x286E8);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_dnQualifier()
+		static ::Il2CppArray<::System::Byte>** StaticGet_countryName()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B270);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x286F0);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_streetAddress()
+		static ::Il2CppArray<::System::Byte>** StaticGet_domainComponent()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B278);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x286F8);
 		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_commonName()
+		static ::Il2CppArray<::System::Byte>** StaticGet_stateOrProvinceName()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B280);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28700);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_organizationalUnitName()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28708);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_surname()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B288);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28710);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_organizationName()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x1B290);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28718);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_title()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28720);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_localityName()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28728);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_givenName()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28730);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_dnQualifier()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28738);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_commonName()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28740);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_streetAddress()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28748);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_email()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(X501_TypeDefinitionIndex)->GetStaticField(0x28750);
 		}
 
 		static ::System::Void _cctor()

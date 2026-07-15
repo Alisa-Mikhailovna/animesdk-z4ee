@@ -2,31 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_23C1B7E6B450FFB8_6;
+class Class_1_B9E3601D1336B415;
 
-#define CLASS_1_B77B453EF78ADA0C_GET_ADDCOIN_OFFSET UNITYSDK_OFFSET(0x13E03160)
-#define CLASS_1_B77B453EF78ADA0C_GET_DAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0x13E031A0)
-#define CLASS_1_B77B453EF78ADA0C_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x13E03140)
-#define CLASS_1_B77B453EF78ADA0C_GET_SOLDIERDEADCNT_OFFSET UNITYSDK_OFFSET(0x13E03180)
-#define CLASS_1_B77B453EF78ADA0C_SET_ADDCOIN_OFFSET UNITYSDK_OFFSET(0x13E03170)
-#define CLASS_1_B77B453EF78ADA0C_SET_DAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0x13E031B0)
-#define CLASS_1_B77B453EF78ADA0C_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x13E03150)
-#define CLASS_1_B77B453EF78ADA0C_SET_SOLDIERDEADCNT_OFFSET UNITYSDK_OFFSET(0x13E03190)
-#define CLASS_1_B77B453EF78ADA0C__CTOR_OFFSET UNITYSDK_OFFSET(0x13E03120)
+#define CLASS_1_B77B453EF78ADA0C_GET_ADDCOIN_OFFSET UNITYSDK_OFFSET(0xAEAC8C0)
+#define CLASS_1_B77B453EF78ADA0C_GET_DAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0xAEAC900)
+#define CLASS_1_B77B453EF78ADA0C_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0xAEAC8A0)
+#define CLASS_1_B77B453EF78ADA0C_GET_SOLDIERDEADCNT_OFFSET UNITYSDK_OFFSET(0xAEAC8E0)
+#define CLASS_1_B77B453EF78ADA0C_SET_ADDCOIN_OFFSET UNITYSDK_OFFSET(0xAEAC8D0)
+#define CLASS_1_B77B453EF78ADA0C_SET_DAMAGEINFOS_OFFSET UNITYSDK_OFFSET(0xAEAC910)
+#define CLASS_1_B77B453EF78ADA0C_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0xAEAC8B0)
+#define CLASS_1_B77B453EF78ADA0C_SET_SOLDIERDEADCNT_OFFSET UNITYSDK_OFFSET(0xAEAC8F0)
+#define CLASS_1_B77B453EF78ADA0C__CTOR_OFFSET UNITYSDK_OFFSET(0xAEAC880)
 
-inline static constexpr unsigned int Class_1_B77B453EF78ADA0C_TypeDefinitionIndex = 70886;
+inline static constexpr unsigned int Class_1_B77B453EF78ADA0C_TypeDefinitionIndex = 72399;
 
 class Class_1_B77B453EF78ADA0C : public ::System::Object
 {
 public:
-	::Il2CppArray<::Class_1_23C1B7E6B450FFB8_6*>* _DamageInfos_k__BackingField; // 0x10
-	::System::Boolean _IsWin_k__BackingField; // 0x18
-	::System::UInt32 _SoldierDeadCnt_k__BackingField; // 0x1C
+	::Il2CppArray<::Class_1_B9E3601D1336B415*>* _DamageInfos_k__BackingField; // 0x10
+	::System::UInt32 _SoldierDeadCnt_k__BackingField; // 0x18
+	::System::Boolean _IsWin_k__BackingField; // 0x1C
 	::System::UInt32 _AddCoin_k__BackingField; // 0x20
 
-	::System::Void _ctor(::System::Boolean a1, ::System::UInt32 a2, ::Il2CppArray<::Class_1_23C1B7E6B450FFB8_6*>* a3, ::System::UInt32 a4)
+	::System::Void _ctor(::System::Boolean a1, ::System::UInt32 a2, ::Il2CppArray<::Class_1_B9E3601D1336B415*>* a3, ::System::UInt32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::UInt32, ::Il2CppArray<::Class_1_23C1B7E6B450FFB8_6*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B77B453EF78ADA0C__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::UInt32, ::Il2CppArray<::Class_1_B9E3601D1336B415*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B77B453EF78ADA0C__CTOR_OFFSET))(this, a1, a2, a3, a4);
 	}
 
 	::System::Boolean get_IsWin()
@@ -59,13 +59,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B77B453EF78ADA0C_SET_SOLDIERDEADCNT_OFFSET))(this, a1);
 	}
 
-	::Il2CppArray<::Class_1_23C1B7E6B450FFB8_6*>* get_DamageInfos()
+	::Il2CppArray<::Class_1_B9E3601D1336B415*>* get_DamageInfos()
 	{
-		return ((::Il2CppArray<::Class_1_23C1B7E6B450FFB8_6*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B77B453EF78ADA0C_GET_DAMAGEINFOS_OFFSET))(this);
+		return ((::Il2CppArray<::Class_1_B9E3601D1336B415*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B77B453EF78ADA0C_GET_DAMAGEINFOS_OFFSET))(this);
 	}
 
-	::System::Void set_DamageInfos(::Il2CppArray<::Class_1_23C1B7E6B450FFB8_6*>* a1)
+	::System::Void set_DamageInfos(::Il2CppArray<::Class_1_B9E3601D1336B415*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_23C1B7E6B450FFB8_6*>*))((::PBYTE)hIl2Cpp + CLASS_1_B77B453EF78ADA0C_SET_DAMAGEINFOS_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Class_1_B9E3601D1336B415*>*))((::PBYTE)hIl2Cpp + CLASS_1_B77B453EF78ADA0C_SET_DAMAGEINFOS_OFFSET))(this, a1);
 	}
 };

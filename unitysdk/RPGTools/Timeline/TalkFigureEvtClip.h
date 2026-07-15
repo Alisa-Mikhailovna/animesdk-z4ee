@@ -7,12 +7,12 @@
 namespace RPGTools::Timeline { class TalkFigureEvtBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TALKFIGUREEVTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19B6A750)
-#define RPGTOOLS_TIMELINE_TALKFIGUREEVTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6A8C0)
+#define RPGTOOLS_TIMELINE_TALKFIGUREEVTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD28E80)
+#define RPGTOOLS_TIMELINE_TALKFIGUREEVTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD28FF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkFigureEvtClip_TypeDefinitionIndex = 45655;
+	inline static constexpr unsigned int TalkFigureEvtClip_TypeDefinitionIndex = 46593;
 
 	class TalkFigureEvtClip : public ::RPGTools::Timeline::CustomEventClip
 	{

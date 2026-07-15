@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/Prop/AlchemyPuzzleControlBtnOperation.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PROP_ALCHEMYPUZZLECONTROLBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1620DCE0)
+#define RPG_CLIENT_PROP_ALCHEMYPUZZLECONTROLBTN__CTOR_OFFSET UNITYSDK_OFFSET(0xD0D0670)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AlchemyPuzzleControlBtn_TypeDefinitionIndex = 72728;
+	inline static constexpr unsigned int AlchemyPuzzleControlBtn_TypeDefinitionIndex = 74253;
 
 	class AlchemyPuzzleControlBtn : public ::UnityEngine::MonoBehaviour
 	{

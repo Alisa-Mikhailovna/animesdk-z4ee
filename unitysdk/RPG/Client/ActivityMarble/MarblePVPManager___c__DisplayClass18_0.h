@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0C36FD2A7876DF8E;
+class Class_1_7B005A18003A04C3;
 namespace RPG::Client::ActivityMarble { class MarblePVPManager; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17BAEC90)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS18_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0x17BB20A0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC0E6D0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGER___C__DISPLAYCLASS18_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xBC11D50)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass18_0_TypeDefinitionIndex = 69769;
+	inline static constexpr unsigned int MarblePVPManager___c__DisplayClass18_0_TypeDefinitionIndex = 71292;
 
 	class MarblePVPManager___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::ActivityMarble::MarblePVPManager* __4__this; // 0x10
-		::Class_1_0C36FD2A7876DF8E* extInfo; // 0x18
+		::Class_1_7B005A18003A04C3* extInfo; // 0x18
 
 		::System::Void _ctor()
 		{

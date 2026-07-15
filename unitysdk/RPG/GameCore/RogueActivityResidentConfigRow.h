@@ -8,31 +8,31 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEACTIVITYRESIDENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A9C8B10)
-#define RPG_GAMECORE_ROGUEACTIVITYRESIDENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9C90B0)
+#define RPG_GAMECORE_ROGUEACTIVITYRESIDENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B738DD0)
+#define RPG_GAMECORE_ROGUEACTIVITYRESIDENTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B739370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActivityResidentConfigRow_TypeDefinitionIndex = 13970;
+	inline static constexpr unsigned int RogueActivityResidentConfigRow_TypeDefinitionIndex = 14118;
 
 	class RogueActivityResidentConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* TitleIconPath; // 0x10
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x18
-		::System::String* IntroGuideImg; // 0x20
-		::Il2CppArray<::System::UInt32>* ActivityTagList; // 0x28
-		::RPG::GameCore::RogueSubMode SubMode; // 0x30
-		::System::UInt32 RelatedActivityPanelID; // 0x34
+		::Il2CppArray<::System::UInt32>* ActivityTagList; // 0x18
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x20
+		::System::String* IntroGuideImg; // 0x28
+		::System::Boolean IsShowRemainTime; // 0x30
+		::System::UInt32 UnlockID; // 0x34
 		::System::UInt32 ActivityID; // 0x38
 		::System::UInt32 SortWeight; // 0x3C
-		::RPG::Client::TextID ResidentName; // 0x40
-		::RPG::Client::TextID ResidentDesc; // 0x50
-		::System::Boolean IsShowRemainTime; // 0x60
-		::System::UInt32 IntroID; // 0x64
-		::RPG::Client::TextID ResidentBrief; // 0x68
-		::System::UInt32 UnlockID; // 0x78
-		::System::UInt32 ActivityModuleID; // 0x7C
+		::System::UInt32 ActivityModuleID; // 0x40
+		::System::UInt32 RelatedActivityPanelID; // 0x44
+		::RPG::Client::TextID ResidentDesc; // 0x48
+		::RPG::GameCore::RogueSubMode SubMode; // 0x58
+		::System::UInt32 IntroID; // 0x5C
+		::RPG::Client::TextID ResidentName; // 0x60
+		::RPG::Client::TextID ResidentBrief; // 0x70
 
 		::System::Void _ctor()
 		{

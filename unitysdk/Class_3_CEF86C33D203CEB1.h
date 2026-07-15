@@ -12,25 +12,22 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_465C7AF349834498_OFFSET UNITYSDK_OFFSET(0x14735AC0)
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_5AFFA079DA8B20AA_1_OFFSET UNITYSDK_OFFSET(0x147365E0)
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_5AFFA079DA8B20AA_OFFSET UNITYSDK_OFFSET(0x14735A50)
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_8EC67E9FFBC29344_OFFSET UNITYSDK_OFFSET(0x14736660)
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_A075CF751E1F56A2_OFFSET UNITYSDK_OFFSET(0x14735BC0)
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_B25D8B00CDE640ED_OFFSET UNITYSDK_OFFSET(0x14735F00)
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_C9F5A4D6A6BADD58_OFFSET UNITYSDK_OFFSET(0x14736670)
-#define CLASS_3_CEF86C33D203CEB1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14735A10)
-#define CLASS_3_CEF86C33D203CEB1__CTOR_OFFSET UNITYSDK_OFFSET(0x14735970)
-#define CLASS_3_CEF86C33D203CEB1___N__0_OFFSET UNITYSDK_OFFSET(0x14736560)
+#define CLASS_3_CEF86C33D203CEB1_METHOD_3_465C7AF349834498_OFFSET UNITYSDK_OFFSET(0x149FCE80)
+#define CLASS_3_CEF86C33D203CEB1_METHOD_3_5AFFA079DA8B20AA_OFFSET UNITYSDK_OFFSET(0x149FCE10)
+#define CLASS_3_CEF86C33D203CEB1_METHOD_3_A075CF751E1F56A2_OFFSET UNITYSDK_OFFSET(0x149FCF80)
+#define CLASS_3_CEF86C33D203CEB1_METHOD_3_B25D8B00CDE640ED_OFFSET UNITYSDK_OFFSET(0x149FD2C0)
+#define CLASS_3_CEF86C33D203CEB1_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x149FCDD0)
+#define CLASS_3_CEF86C33D203CEB1__CTOR_OFFSET UNITYSDK_OFFSET(0x149FCD40)
+#define CLASS_3_CEF86C33D203CEB1___N__0_OFFSET UNITYSDK_OFFSET(0x149FD920)
 
-inline static constexpr unsigned int Class_3_CEF86C33D203CEB1_TypeDefinitionIndex = 68963;
+inline static constexpr unsigned int Class_3_CEF86C33D203CEB1_TypeDefinitionIndex = 70490;
 
 class Class_3_CEF86C33D203CEB1 : public ::Class_2_1A304D4C36D43D86
 {
 public:
 	::System::Int32 Field_3_0; // 0x278
-	::System::Nullable_1<::UnityEngine::Vector3> Field_3_1; // 0x27C
-	::System::Int32 Field_3_2; // 0x28C
+	::System::Int32 Field_3_1; // 0x27C
+	::System::Nullable_1<::UnityEngine::Vector3> Field_3_2; // 0x280
 
 	::System::Void _ctor(::RPG::Client::OpenWorld::StreamingLayerDetail* a1, ::Class_1_D70A30D666F20D90* a2, ::Class_1_303D5A33D1401D59* a3, ::UnityEngine::GameObject* a4, ::UnityEngine::GameObject* a5, ::System::Nullable_1<::UnityEngine::Vector3> a6)
 	{
@@ -65,20 +62,5 @@ public:
 	::System::Collections::IEnumerator* __n__0()
 	{
 		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CEF86C33D203CEB1___N__0_OFFSET))(this);
-	}
-
-	::System::Collections::IEnumerator* Method_3_5AFFA079DA8B20AA_1()
-	{
-		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CEF86C33D203CEB1_METHOD_3_5AFFA079DA8B20AA_1_OFFSET))(this);
-	}
-
-	::System::Void Method_3_8EC67E9FFBC29344(::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + CLASS_3_CEF86C33D203CEB1_METHOD_3_8EC67E9FFBC29344_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_3_C9F5A4D6A6BADD58(::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>*))((::PBYTE)hIl2Cpp + CLASS_3_CEF86C33D203CEB1_METHOD_3_C9F5A4D6A6BADD58_OFFSET))(this, a1);
 	}
 };

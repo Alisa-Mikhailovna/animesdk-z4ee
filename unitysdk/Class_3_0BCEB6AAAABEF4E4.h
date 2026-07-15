@@ -4,11 +4,10 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_3_0BCEB6AAAABEF4E4_METHOD_3_7003271FF3C0F5CC_OFFSET UNITYSDK_OFFSET(0x167534A0)
-#define CLASS_3_0BCEB6AAAABEF4E4_METHOD_3_A653E57A38CB410F_OFFSET UNITYSDK_OFFSET(0x16753540)
-#define CLASS_3_0BCEB6AAAABEF4E4__CTOR_OFFSET UNITYSDK_OFFSET(0x16753520)
+#define CLASS_3_0BCEB6AAAABEF4E4_METHOD_3_7003271FF3C0F5CC_OFFSET UNITYSDK_OFFSET(0x148D95D0)
+#define CLASS_3_0BCEB6AAAABEF4E4__CTOR_OFFSET UNITYSDK_OFFSET(0x148D9650)
 
-inline static constexpr unsigned int Class_3_0BCEB6AAAABEF4E4_TypeDefinitionIndex = 51484;
+inline static constexpr unsigned int Class_3_0BCEB6AAAABEF4E4_TypeDefinitionIndex = 52626;
 
 class Class_3_0BCEB6AAAABEF4E4 : public ::RPG::GameCore::DelayExecuteOnNextWave_1<::System::Int32>
 {
@@ -21,10 +20,5 @@ public:
 	::System::Void Method_3_7003271FF3C0F5CC(::RPG::GameCore::GameEntity* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_0BCEB6AAAABEF4E4_METHOD_3_7003271FF3C0F5CC_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_3_A653E57A38CB410F(::RPG::GameCore::GameEntity* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_0BCEB6AAAABEF4E4_METHOD_3_A653E57A38CB410F_OFFSET))(this, a1);
 	}
 };

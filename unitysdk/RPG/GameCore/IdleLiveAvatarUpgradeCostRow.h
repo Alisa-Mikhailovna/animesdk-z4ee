@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEAVATARUPGRADECOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD3790)
-#define RPG_GAMECORE_IDLELIVEAVATARUPGRADECOSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD38B0)
+#define RPG_GAMECORE_IDLELIVEAVATARUPGRADECOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B522FB0)
+#define RPG_GAMECORE_IDLELIVEAVATARUPGRADECOSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5230D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAvatarUpgradeCostRow_TypeDefinitionIndex = 11171;
+	inline static constexpr unsigned int IdleLiveAvatarUpgradeCostRow_TypeDefinitionIndex = 11271;
 
 	class IdleLiveAvatarUpgradeCostRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Cost; // 0x10
-		::System::UInt32 Level; // 0x14
+		::System::UInt32 Level; // 0x10
+		::System::UInt32 Cost; // 0x14
 
 		::System::Void _ctor()
 		{

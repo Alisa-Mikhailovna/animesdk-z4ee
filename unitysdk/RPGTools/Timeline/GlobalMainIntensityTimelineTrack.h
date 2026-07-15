@@ -7,13 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C35680)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C35730)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C35810)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCDF180)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCDF230)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GlobalMainIntensityTimelineTrack_TypeDefinitionIndex = 45743;
+	inline static constexpr unsigned int GlobalMainIntensityTimelineTrack_TypeDefinitionIndex = 46682;
 
 	class GlobalMainIntensityTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

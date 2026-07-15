@@ -3,38 +3,38 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaContentType.h"
 
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x18A811C0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x18A811D0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A811F0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18A811B0)
-#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18A811A0)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_CONTENTTYPE_OFFSET UNITYSDK_OFFSET(0x1CB36150)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0x1CB36160)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB36180)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CB36140)
+#define SYSTEM_XML_SCHEMA_CONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB36130)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int ContentValidator_TypeDefinitionIndex = 2068;
+	inline static constexpr unsigned int ContentValidator_TypeDefinitionIndex = 2072;
 
 	class ContentValidator : public ::System::Object
 	{
 	public:
-		static ::System::Xml::Schema::ContentValidator** StaticGet_Any()
+		static ::System::Xml::Schema::ContentValidator** StaticGet_TextOnly()
 		{
-			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x14860);
+			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x21FC0);
 		}
 		static ::System::Xml::Schema::ContentValidator** StaticGet_Empty()
 		{
-			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x14868);
+			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x21FC8);
 		}
 		static ::System::Xml::Schema::ContentValidator** StaticGet_Mixed()
 		{
-			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x14870);
+			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x21FD0);
 		}
-		static ::System::Xml::Schema::ContentValidator** StaticGet_TextOnly()
+		static ::System::Xml::Schema::ContentValidator** StaticGet_Any()
 		{
-			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x14878);
+			return (::System::Xml::Schema::ContentValidator**)Il2CppClass::FromTypeDefinitionIndex(ContentValidator_TypeDefinitionIndex)->GetStaticField(0x21FD8);
 		}
-		::System::Boolean isEmptiable; // 0x10
-		::System::Boolean isOpen; // 0x11
-		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x14
+		::System::Xml::Schema::XmlSchemaContentType contentType; // 0x10
+		::System::Boolean isEmptiable; // 0x14
+		::System::Boolean isOpen; // 0x15
 
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaContentType a1)
 		{

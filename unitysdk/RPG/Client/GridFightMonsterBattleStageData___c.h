@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightMonsterData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19772130)
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19772170)
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0x19772180)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC795650)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC795690)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0xC7956A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterBattleStageData___c_TypeDefinitionIndex = 60835;
+	inline static constexpr unsigned int GridFightMonsterBattleStageData___c_TypeDefinitionIndex = 62135;
 
 	class GridFightMonsterBattleStageData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::GridFightMonsterData*>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::GridFightMonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x30620);
-		}
 		static ::RPG::Client::GridFightMonsterBattleStageData___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightMonsterBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x30628);
+			return (::RPG::Client::GridFightMonsterBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x2A430);
+		}
+		static ::System::Comparison_1<::RPG::Client::GridFightMonsterData*>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::GridFightMonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x2A438);
 		}
 
 		static ::System::Void _cctor()

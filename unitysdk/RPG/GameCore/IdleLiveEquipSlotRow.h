@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEEQUIPSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD62B0)
-#define RPG_GAMECORE_IDLELIVEEQUIPSLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD64D0)
+#define RPG_GAMECORE_IDLELIVEEQUIPSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B525AD0)
+#define RPG_GAMECORE_IDLELIVEEQUIPSLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B525CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipSlotRow_TypeDefinitionIndex = 11241;
+	inline static constexpr unsigned int IdleLiveEquipSlotRow_TypeDefinitionIndex = 11341;
 
 	class IdleLiveEquipSlotRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
 		::RPG::Client::TextID Title; // 0x18
-		::RPG::GameCore::IdleLiveEquipType Type; // 0x28
-		::System::UInt32 UnlockID; // 0x2C
-		::System::UInt32 ID; // 0x30
+		::System::UInt32 UnlockID; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::RPG::GameCore::IdleLiveEquipType Type; // 0x30
 
 		::System::Void _ctor()
 		{

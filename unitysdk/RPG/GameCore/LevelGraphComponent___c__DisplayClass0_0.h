@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class LevelGraphComponent; }
 
-#define RPG_GAMECORE_LEVELGRAPHCOMPONENT___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B70EA0)
-#define RPG_GAMECORE_LEVELGRAPHCOMPONENT___C__DISPLAYCLASS0_0__STARTSUBLEVELGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0x19B73140)
+#define RPG_GAMECORE_LEVELGRAPHCOMPONENT___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDAD6190)
+#define RPG_GAMECORE_LEVELGRAPHCOMPONENT___C__DISPLAYCLASS0_0__STARTSUBLEVELGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0xDAD8300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraphComponent___c__DisplayClass0_0_TypeDefinitionIndex = 53846;
+	inline static constexpr unsigned int LevelGraphComponent___c__DisplayClass0_0_TypeDefinitionIndex = 55067;
 
 	class LevelGraphComponent___c__DisplayClass0_0 : public ::System::Object
 	{

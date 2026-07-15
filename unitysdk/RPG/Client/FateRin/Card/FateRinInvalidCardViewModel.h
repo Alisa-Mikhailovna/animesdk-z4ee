@@ -1,0 +1,159 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FateRinHouguRarityType.h"
+
+namespace RPG::Client::FateRin::Card { class IFateRinCardKeywordListViewModel; }
+namespace RPG::Client::FateRin::Card { class IFateRinCardManaCostViewModel; }
+namespace RPG::Client::FateRin::Card { class IFateRinCardOwnerViewModel; }
+namespace RPG::Client::FateRin::Card { class IFateRinCardTagViewModel; }
+namespace System { class String; }
+
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_CONCATENATEDKEYWORDNAMES_OFFSET UNITYSDK_OFFSET(0xC4B7460)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC4B7300)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC4B7350)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ID_OFFSET UNITYSDK_OFFSET(0xC4B7250)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC4B7160)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ISNEGATIVE_OFFSET UNITYSDK_OFFSET(0xC4B76B0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ISPROJECTION_OFFSET UNITYSDK_OFFSET(0xC4B7670)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ISSTACKABLE_OFFSET UNITYSDK_OFFSET(0xC4B76F0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_KEYWORDLIST_OFFSET UNITYSDK_OFFSET(0xC4B7450)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_MANACOST_OFFSET UNITYSDK_OFFSET(0xC4B74B0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC4B7290)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_NEGATIVEUISTATE_OFFSET UNITYSDK_OFFSET(0xC4B7730)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_OWNERUICOLORSTATE_OFFSET UNITYSDK_OFFSET(0xC4B7630)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_OWNERUISTATE_OFFSET UNITYSDK_OFFSET(0xC4B75F0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xC4B75B0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_PROJECTIONLAYERUISTATE_OFFSET UNITYSDK_OFFSET(0xC4B7530)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_RARITYUISTATE_OFFSET UNITYSDK_OFFSET(0xC4B73D0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xC4B7390)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_RESETUISTATE_OFFSET UNITYSDK_OFFSET(0xC4B7570)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_TAG_OFFSET UNITYSDK_OFFSET(0xC4B7410)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_UISTATE_OFFSET UNITYSDK_OFFSET(0xC4B74F0)
+#define RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B7100)
+
+namespace RPG::Client::FateRin::Card
+{
+	inline static constexpr unsigned int FateRinInvalidCardViewModel_TypeDefinitionIndex = 76206;
+
+	class FateRinInvalidCardViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		static ::RPG::Client::FateRin::Card::FateRinInvalidCardViewModel** StaticGet__Instance()
+		{
+			return (::RPG::Client::FateRin::Card::FateRinInvalidCardViewModel**)Il2CppClass::FromTypeDefinitionIndex(FateRinInvalidCardViewModel_TypeDefinitionIndex)->GetStaticField(0xB800);
+		}
+		::RPG::Client::FateRin::Card::IFateRinCardKeywordListViewModel* _KeywordList_k__BackingField; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::RPG::Client::FateRin::Card::FateRinInvalidCardViewModel* get_Instance()
+		{
+			return ((::RPG::Client::FateRin::Card::FateRinInvalidCardViewModel*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_INSTANCE_OFFSET))();
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_DESC_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FateRinHouguRarityType get_Rarity()
+		{
+			return ((::RPG::GameCore::FateRinHouguRarityType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_RARITY_OFFSET))(this);
+		}
+
+		::System::String* get_RarityUIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_RARITYUISTATE_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Card::IFateRinCardTagViewModel* get_Tag()
+		{
+			return ((::RPG::Client::FateRin::Card::IFateRinCardTagViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_TAG_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Card::IFateRinCardKeywordListViewModel* get_KeywordList()
+		{
+			return ((::RPG::Client::FateRin::Card::IFateRinCardKeywordListViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_KEYWORDLIST_OFFSET))(this);
+		}
+
+		::System::String* get_ConcatenatedKeywordNames()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_CONCATENATEDKEYWORDNAMES_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Card::IFateRinCardManaCostViewModel* get_ManaCost()
+		{
+			return ((::RPG::Client::FateRin::Card::IFateRinCardManaCostViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_MANACOST_OFFSET))(this);
+		}
+
+		::System::String* get_UIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_UISTATE_OFFSET))(this);
+		}
+
+		::System::String* get_ProjectionLayerUIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_PROJECTIONLAYERUISTATE_OFFSET))(this);
+		}
+
+		::System::String* get_ResetUIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_RESETUISTATE_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Card::IFateRinCardOwnerViewModel* get_Owner()
+		{
+			return ((::RPG::Client::FateRin::Card::IFateRinCardOwnerViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_OWNER_OFFSET))(this);
+		}
+
+		::System::String* get_OwnerUIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_OWNERUISTATE_OFFSET))(this);
+		}
+
+		::System::String* get_OwnerUIColorState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_OWNERUICOLORSTATE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsProjection()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ISPROJECTION_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNegative()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ISNEGATIVE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsStackable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_ISSTACKABLE_OFFSET))(this);
+		}
+
+		::System::String* get_NegativeUIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERININVALIDCARDVIEWMODEL_GET_NEGATIVEUISTATE_OFFSET))(this);
+		}
+	};
+}

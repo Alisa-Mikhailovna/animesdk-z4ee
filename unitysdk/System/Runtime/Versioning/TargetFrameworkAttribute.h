@@ -4,18 +4,18 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_VERSIONING_TARGETFRAMEWORKATTRIBUTE_SET_FRAMEWORKDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x16E02A30)
-#define SYSTEM_RUNTIME_VERSIONING_TARGETFRAMEWORKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16E029C0)
+#define SYSTEM_RUNTIME_VERSIONING_TARGETFRAMEWORKATTRIBUTE_SET_FRAMEWORKDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1A22C970)
+#define SYSTEM_RUNTIME_VERSIONING_TARGETFRAMEWORKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A22C900)
 
 namespace System::Runtime::Versioning
 {
-	inline static constexpr unsigned int TargetFrameworkAttribute_TypeDefinitionIndex = 1083;
+	inline static constexpr unsigned int TargetFrameworkAttribute_TypeDefinitionIndex = 1085;
 
 	class TargetFrameworkAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _frameworkDisplayName; // 0x10
-		::System::String* _frameworkName; // 0x18
+		::System::String* _frameworkName; // 0x10
+		::System::String* _frameworkDisplayName; // 0x18
 
 		::System::Void _ctor(::System::String* a1)
 		{

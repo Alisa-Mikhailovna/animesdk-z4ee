@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
 
-#define CLASS_1_26E822D022001344_CLEAR_OFFSET UNITYSDK_OFFSET(0x189B8820)
-#define CLASS_1_26E822D022001344__CTOR_OFFSET UNITYSDK_OFFSET(0x189B8870)
+#define CLASS_1_26E822D022001344_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A87A670)
+#define CLASS_1_26E822D022001344__CTOR_OFFSET UNITYSDK_OFFSET(0x1A87A6C0)
 
-inline static constexpr unsigned int Class_1_26E822D022001344_TypeDefinitionIndex = 40089;
+inline static constexpr unsigned int Class_1_26E822D022001344_TypeDefinitionIndex = 40902;
 
 class Class_1_26E822D022001344 : public ::System::Object
 {

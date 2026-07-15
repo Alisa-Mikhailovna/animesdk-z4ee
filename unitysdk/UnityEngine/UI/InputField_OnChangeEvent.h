@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_UI_INPUTFIELD_ONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x135F8FD0)
+#define UNITYENGINE_UI_INPUTFIELD_ONCHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13C050)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_OnChangeEvent_TypeDefinitionIndex = 5902;
+	inline static constexpr unsigned int InputField_OnChangeEvent_TypeDefinitionIndex = 5907;
 
 	class InputField_OnChangeEvent : public ::UnityEngine::Events::UnityEvent_1<::System::String*>
 	{

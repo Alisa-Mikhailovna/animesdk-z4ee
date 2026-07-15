@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEntityForceVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0FF7F9C3DE458F9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179DA700)
-#define CLASS_3_0FF7F9C3DE458F9F__CTOR_OFFSET UNITYSDK_OFFSET(0x179DA6D0)
+#define CLASS_3_0FF7F9C3DE458F9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154A5380)
+#define CLASS_3_0FF7F9C3DE458F9F__CTOR_OFFSET UNITYSDK_OFFSET(0x154A5350)
 
-inline static constexpr unsigned int Class_3_0FF7F9C3DE458F9F_TypeDefinitionIndex = 52665;
+inline static constexpr unsigned int Class_3_0FF7F9C3DE458F9F_TypeDefinitionIndex = 53874;
 
 class Class_3_0FF7F9C3DE458F9F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEntityForceVisible*>
 {

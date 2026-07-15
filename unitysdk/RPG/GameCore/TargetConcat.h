@@ -5,15 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_317F7831A3FAB1C0_OFFSET UNITYSDK_OFFSET(0x19875E60)
-#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_76A9E353CA16F553_OFFSET UNITYSDK_OFFSET(0x19876040)
-#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_F332C1F91F3CB60A_OFFSET UNITYSDK_OFFSET(0x19875F20)
-#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_FA80997F3C6B3A99_OFFSET UNITYSDK_OFFSET(0x19875FD0)
-#define RPG_GAMECORE_TARGETCONCAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19875ED0)
+#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_07AEDF425ADD7E4C_OFFSET UNITYSDK_OFFSET(0x1B945B10)
+#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_6117EA756D921B41_OFFSET UNITYSDK_OFFSET(0x1B945AE0)
+#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_E7A16B00C55B4F71_OFFSET UNITYSDK_OFFSET(0x1B9459F0)
+#define RPG_GAMECORE_TARGETCONCAT_METHOD_4_F332C1F91F3CB60A_OFFSET UNITYSDK_OFFSET(0x1B945A30)
+#define RPG_GAMECORE_TARGETCONCAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B945A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetConcat_TypeDefinitionIndex = 22578;
+	inline static constexpr unsigned int TargetConcat_TypeDefinitionIndex = 23041;
 
 	class TargetConcat : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_317F7831A3FAB1C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetConcat*& a2)
+		static ::System::Void Method_4_E7A16B00C55B4F71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetConcat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetConcat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT_METHOD_4_317F7831A3FAB1C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetConcat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT_METHOD_4_E7A16B00C55B4F71_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_F332C1F91F3CB60A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetConcat* a2)
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetConcat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT_METHOD_4_F332C1F91F3CB60A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FA80997F3C6B3A99(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetConcat*& a2)
+		static ::System::Void Method_4_6117EA756D921B41(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetConcat*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetConcat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT_METHOD_4_FA80997F3C6B3A99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetConcat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT_METHOD_4_6117EA756D921B41_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_76A9E353CA16F553(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetConcat* a2)
+		static ::System::Void Method_4_07AEDF425ADD7E4C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetConcat* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetConcat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT_METHOD_4_76A9E353CA16F553_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetConcat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETCONCAT_METHOD_4_07AEDF425ADD7E4C_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,13 +4,12 @@
 
 namespace System { class String; }
 
-#define CLASS_3_679EEFEEB75DAC73_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x16EAD510)
-#define CLASS_3_679EEFEEB75DAC73_GET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x16EAD480)
-#define CLASS_3_679EEFEEB75DAC73_SET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x16EAD490)
-#define CLASS_3_679EEFEEB75DAC73__CTOR_OFFSET UNITYSDK_OFFSET(0x16EAD4A0)
-#define CLASS_3_679EEFEEB75DAC73___IFIXBASEPROXY_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x16EAD5B0)
+#define CLASS_3_679EEFEEB75DAC73_COMBINEVALUESWITH_OFFSET UNITYSDK_OFFSET(0x155084C0)
+#define CLASS_3_679EEFEEB75DAC73_GET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x15508430)
+#define CLASS_3_679EEFEEB75DAC73_SET_EXPANDED_OFFSET UNITYSDK_OFFSET(0x15508440)
+#define CLASS_3_679EEFEEB75DAC73__CTOR_OFFSET UNITYSDK_OFFSET(0x15508450)
 
-inline static constexpr unsigned int Class_3_679EEFEEB75DAC73_TypeDefinitionIndex = 68756;
+inline static constexpr unsigned int Class_3_679EEFEEB75DAC73_TypeDefinitionIndex = 70256;
 
 class Class_3_679EEFEEB75DAC73 : public ::Sirenix::OdinInspector::PropertyGroupAttribute
 {
@@ -35,10 +34,5 @@ public:
 	::System::Void CombineValuesWith(::Sirenix::OdinInspector::PropertyGroupAttribute* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Sirenix::OdinInspector::PropertyGroupAttribute*))((::PBYTE)hIl2Cpp + CLASS_3_679EEFEEB75DAC73_COMBINEVALUESWITH_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_CombineValuesWith(::Sirenix::OdinInspector::PropertyGroupAttribute* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Sirenix::OdinInspector::PropertyGroupAttribute*))((::PBYTE)hIl2Cpp + CLASS_3_679EEFEEB75DAC73___IFIXBASEPROXY_COMBINEVALUESWITH_OFFSET))(this, a1);
 	}
 };

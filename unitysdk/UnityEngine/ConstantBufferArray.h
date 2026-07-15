@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/BaseBindlessArray.h"
 
-#define UNITYENGINE_CONSTANTBUFFERARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1A4D0DB0)
-#define UNITYENGINE_CONSTANTBUFFERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A4D0D00)
+#define UNITYENGINE_CONSTANTBUFFERARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1D00DB70)
+#define UNITYENGINE_CONSTANTBUFFERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D00DAC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ConstantBufferArray_TypeDefinitionIndex = 4238;
+	inline static constexpr unsigned int ConstantBufferArray_TypeDefinitionIndex = 4243;
 
 	class ConstantBufferArray : public ::UnityEngine::BaseBindlessArray
 	{

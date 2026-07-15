@@ -7,30 +7,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x18181290)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x181814F0)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GET_NATIVEERRORCODE_OFFSET UNITYSDK_OFFSET(0x181814E0)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_INITIALIZEERRORMESSAGES_OFFSET UNITYSDK_OFFSET(0x181815E0)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x18183A50)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18181200)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x181813E0)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x18181450)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18181120)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1CC922F0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1CC92580)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GET_NATIVEERRORCODE_OFFSET UNITYSDK_OFFSET(0x1CC92570)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_INITIALIZEERRORMESSAGES_OFFSET UNITYSDK_OFFSET(0x1CC92670)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC94AE0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CC92260)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CC92470)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1CC924E0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC92180)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int Win32Exception_TypeDefinitionIndex = 2639;
+	inline static constexpr unsigned int Win32Exception_TypeDefinitionIndex = 2643;
 
 	class Win32Exception : public ::System::Runtime::InteropServices::ExternalException
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_s_ErrorMessage()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Win32Exception_TypeDefinitionIndex)->GetStaticField(0x23820);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Win32Exception_TypeDefinitionIndex)->GetStaticField(0x2A910);
 		}
 		static ::System::Boolean* StaticGet_s_ErrorMessagesInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Win32Exception_TypeDefinitionIndex)->GetStaticField(0x8F30);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Win32Exception_TypeDefinitionIndex)->GetStaticField(0x7B20);
 		}
 		::System::Int32 nativeErrorCode; // 0x88
 

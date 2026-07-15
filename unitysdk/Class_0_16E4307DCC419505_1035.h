@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EnumStatusType.h"
 
-namespace RPG::GameCore { class JsonConfig; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1035_TypeDefinitionIndex = 67585;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1035_TypeDefinitionIndex = 68295;
 
 class Class_0_16E4307DCC419505_1035
 {

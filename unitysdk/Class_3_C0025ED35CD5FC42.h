@@ -6,11 +6,11 @@ namespace RPG::Client { class RogueTournExhibitionInfo; }
 namespace RPG::GameCore { class RogueTournSetExhibitionBoothImage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C0025ED35CD5FC42_METHOD_3_FDD52BE61FD9BD75_OFFSET UNITYSDK_OFFSET(0x15BE8D00)
-#define CLASS_3_C0025ED35CD5FC42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BE8840)
-#define CLASS_3_C0025ED35CD5FC42__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE8810)
+#define CLASS_3_C0025ED35CD5FC42_METHOD_3_BF84C3CDA2680729_OFFSET UNITYSDK_OFFSET(0x14C09F40)
+#define CLASS_3_C0025ED35CD5FC42_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14C097C0)
+#define CLASS_3_C0025ED35CD5FC42__CTOR_OFFSET UNITYSDK_OFFSET(0x14C09790)
 
-inline static constexpr unsigned int Class_3_C0025ED35CD5FC42_TypeDefinitionIndex = 54648;
+inline static constexpr unsigned int Class_3_C0025ED35CD5FC42_TypeDefinitionIndex = 55873;
 
 class Class_3_C0025ED35CD5FC42 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RogueTournSetExhibitionBoothImage*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C0025ED35CD5FC42_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	static ::RPG::Client::RogueTournExhibitionInfo* Method_3_FDD52BE61FD9BD75()
+	static ::RPG::Client::RogueTournExhibitionInfo* Method_3_BF84C3CDA2680729()
 	{
-		return ((::RPG::Client::RogueTournExhibitionInfo*(*)())((::PBYTE)hIl2Cpp + CLASS_3_C0025ED35CD5FC42_METHOD_3_FDD52BE61FD9BD75_OFFSET))();
+		return ((::RPG::Client::RogueTournExhibitionInfo*(*)())((::PBYTE)hIl2Cpp + CLASS_3_C0025ED35CD5FC42_METHOD_3_BF84C3CDA2680729_OFFSET))();
 	}
 };

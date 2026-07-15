@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCAEONDIMENSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EA4550)
-#define RPG_GAMECORE_ROGUEDLCAEONDIMENSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA4780)
+#define RPG_GAMECORE_ROGUEDLCAEONDIMENSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B74D160)
+#define RPG_GAMECORE_ROGUEDLCAEONDIMENSIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B74D390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCAeonDimensionRow_TypeDefinitionIndex = 14014;
+	inline static constexpr unsigned int RogueDLCAeonDimensionRow_TypeDefinitionIndex = 14162;
 
 	class RogueDLCAeonDimensionRow : public ::System::Object
 	{
 	public:
 		::System::String* DimensionIcon; // 0x10
 		::System::String* AeonIcon; // 0x18
-		::RPG::Client::TextID PlayShortDesc; // 0x20
-		::System::UInt32 AeonDimensionMaxPoint; // 0x30
-		::System::UInt32 AeonDimensionID; // 0x34
+		::System::UInt32 AeonDimensionMaxPoint; // 0x20
+		::System::UInt32 AeonDimensionID; // 0x24
+		::RPG::Client::TextID PlayShortDesc; // 0x28
 
 		::System::Void _ctor()
 		{

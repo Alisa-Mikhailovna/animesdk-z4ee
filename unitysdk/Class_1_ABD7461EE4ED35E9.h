@@ -6,16 +6,16 @@ class Class_1_1E32D594CE469049;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_ABD7461EE4ED35E9__CTOR_OFFSET UNITYSDK_OFFSET(0x14BD7DA0)
+#define CLASS_1_ABD7461EE4ED35E9__CTOR_OFFSET UNITYSDK_OFFSET(0x15421B00)
 
-inline static constexpr unsigned int Class_1_ABD7461EE4ED35E9_TypeDefinitionIndex = 67034;
+inline static constexpr unsigned int Class_1_ABD7461EE4ED35E9_TypeDefinitionIndex = 68478;
 
 class Class_1_ABD7461EE4ED35E9 : public ::System::Object
 {
 public:
-	::UnityEngine::UI::Text* Field_1_0; // 0x10
-	::Class_1_1E32D594CE469049* Field_1_1; // 0x18
-	::UnityEngine::Transform* Field_1_2; // 0x20
+	::Class_1_1E32D594CE469049* Field_1_0; // 0x10
+	::UnityEngine::Transform* Field_1_1; // 0x18
+	::UnityEngine::UI::Text* Field_1_2; // 0x20
 	::System::Boolean Field_1_3; // 0x28
 
 	::System::Void _ctor()

@@ -7,9 +7,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define VECTOR3CURVEBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE0190)
+#define VECTOR3CURVEBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A7940)
 
-inline static constexpr unsigned int Vector3CurveBundle_TypeDefinitionIndex = 40521;
+inline static constexpr unsigned int Vector3CurveBundle_TypeDefinitionIndex = 41336;
 
 class Vector3CurveBundle : public ::System::Object
 {

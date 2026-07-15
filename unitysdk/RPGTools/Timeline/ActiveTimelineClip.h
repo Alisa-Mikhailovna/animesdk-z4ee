@@ -8,13 +8,13 @@
 namespace RPGTools::Timeline { class ActiveTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x198AEBE0)
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x198AEBD0)
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x198AECD0)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDC8F380)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDC8F370)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDC8F470)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ActiveTimelineClip_TypeDefinitionIndex = 45104;
+	inline static constexpr unsigned int ActiveTimelineClip_TypeDefinitionIndex = 46022;
 
 	class ActiveTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{

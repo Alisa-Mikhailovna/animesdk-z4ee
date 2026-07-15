@@ -5,29 +5,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172384D0)
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17238510)
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__REQUESTABTESTCONFIG_B__2_0_OFFSET UNITYSDK_OFFSET(0x17238520)
-#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__REQUESTABTESTCONFIG_B__2_1_OFFSET UNITYSDK_OFFSET(0x17238530)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BA4560)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA45A0)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__REQUESTABTESTCONFIG_B__2_0_OFFSET UNITYSDK_OFFSET(0x19BA45B0)
+#define MIHOYO_SDK_BASE_ABTESTPLATFORM_ABTESTCLIENT___C__REQUESTABTESTCONFIG_B__2_1_OFFSET UNITYSDK_OFFSET(0x19BA45C0)
 
 namespace MiHoYo::SDK::Base::ABTestPlatform
 {
-	inline static constexpr unsigned int ABTestClient___c_TypeDefinitionIndex = 8516;
+	inline static constexpr unsigned int ABTestClient___c_TypeDefinitionIndex = 8528;
 
 	class ABTestClient___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient___c_TypeDefinitionIndex)->GetStaticField(0xF380);
+		}
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient___c_TypeDefinitionIndex)->GetStaticField(0xC6D0);
+			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient___c_TypeDefinitionIndex)->GetStaticField(0xF388);
 		}
 		static ::MiHoYo::SDK::Base::ABTestPlatform::ABTestClient___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Base::ABTestPlatform::ABTestClient___c**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient___c_TypeDefinitionIndex)->GetStaticField(0xC6D8);
-		}
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient___c_TypeDefinitionIndex)->GetStaticField(0xC6E0);
+			return (::MiHoYo::SDK::Base::ABTestPlatform::ABTestClient___c**)Il2CppClass::FromTypeDefinitionIndex(ABTestClient___c_TypeDefinitionIndex)->GetStaticField(0xF390);
 		}
 
 		static ::System::Void _cctor()

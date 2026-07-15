@@ -7,21 +7,19 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfCustomerExtraPay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4D7A1C7A7AE5C8DF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12B3CCC0)
-#define CLASS_3_4D7A1C7A7AE5C8DF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12B3C7C0)
-#define CLASS_3_4D7A1C7A7AE5C8DF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12B3CAF0)
-#define CLASS_3_4D7A1C7A7AE5C8DF_TICK_OFFSET UNITYSDK_OFFSET(0x12B3CB40)
-#define CLASS_3_4D7A1C7A7AE5C8DF__CTOR_OFFSET UNITYSDK_OFFSET(0x12B3C7A0)
-#define CLASS_3_4D7A1C7A7AE5C8DF___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12B3CD20)
-#define CLASS_3_4D7A1C7A7AE5C8DF___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x12B3CD10)
+#define CLASS_3_4D7A1C7A7AE5C8DF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB250300)
+#define CLASS_3_4D7A1C7A7AE5C8DF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB24FE00)
+#define CLASS_3_4D7A1C7A7AE5C8DF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB250130)
+#define CLASS_3_4D7A1C7A7AE5C8DF_TICK_OFFSET UNITYSDK_OFFSET(0xB250180)
+#define CLASS_3_4D7A1C7A7AE5C8DF__CTOR_OFFSET UNITYSDK_OFFSET(0xB24FDE0)
 
-inline static constexpr unsigned int Class_3_4D7A1C7A7AE5C8DF_TypeDefinitionIndex = 48768;
+inline static constexpr unsigned int Class_3_4D7A1C7A7AE5C8DF_TypeDefinitionIndex = 49781;
 
 class Class_3_4D7A1C7A7AE5C8DF : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfCustomerExtraPay*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_1; // 0x30
+	::RPG::Client::ElfRestaurantGameInstance* Field_3_0; // 0x28
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_1; // 0x30
 	::System::Single Field_3_2; // 0x38
 	::System::Single Field_3_3; // 0x3C
 
@@ -48,15 +46,5 @@ public:
 	::System::Void Dispose()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_4D7A1C7A7AE5C8DF_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_4D7A1C7A7AE5C8DF___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_4D7A1C7A7AE5C8DF___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

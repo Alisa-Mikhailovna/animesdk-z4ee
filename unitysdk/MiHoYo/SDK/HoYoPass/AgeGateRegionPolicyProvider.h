@@ -7,20 +7,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x14C3BBB0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x14C3BB30)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x14C3DEB0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x19CF0FF0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x19CF0F70)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF31D0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8210;
+	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8222;
 
 	class AgeGateRegionPolicyProvider : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider_TypeDefinitionIndex)->GetStaticField(0x13420);
+			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)Il2CppClass::FromTypeDefinitionIndex(AgeGateRegionPolicyProvider_TypeDefinitionIndex)->GetStaticField(0x20B10);
 		}
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>*>* m_dicPolicyFactories; // 0x10
 

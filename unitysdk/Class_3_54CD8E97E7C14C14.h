@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsHitAllCallBackStack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_54CD8E97E7C14C14_EVALUATE_OFFSET UNITYSDK_OFFSET(0x171EC2D0)
-#define CLASS_3_54CD8E97E7C14C14__CTOR_OFFSET UNITYSDK_OFFSET(0x171EC2A0)
+#define CLASS_3_54CD8E97E7C14C14_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14BA4A90)
+#define CLASS_3_54CD8E97E7C14C14__CTOR_OFFSET UNITYSDK_OFFSET(0x14BA4A60)
 
-inline static constexpr unsigned int Class_3_54CD8E97E7C14C14_TypeDefinitionIndex = 51103;
+inline static constexpr unsigned int Class_3_54CD8E97E7C14C14_TypeDefinitionIndex = 52189;
 
 class Class_3_54CD8E97E7C14C14 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsHitAllCallBackStack*>
 {

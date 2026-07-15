@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_04E267B8B9CEE958_OFFSET UNITYSDK_OFFSET(0x1954A690)
-#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_D6F7D2A623CC3B15_OFFSET UNITYSDK_OFFSET(0x1954A710)
-#define RPG_GAMECORE_ADDADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1954A6E0)
+#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_2F909BE83A0AFD50_OFFSET UNITYSDK_OFFSET(0x1B139580)
+#define RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_D6F7D2A623CC3B15_OFFSET UNITYSDK_OFFSET(0x1B1395C0)
+#define RPG_GAMECORE_ADDADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1395B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddAdventureModifier_TypeDefinitionIndex = 19287;
+	inline static constexpr unsigned int AddAdventureModifier_TypeDefinitionIndex = 19643;
 
 	class AddAdventureModifier : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDADVENTUREMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_04E267B8B9CEE958(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddAdventureModifier*& a2)
+		static ::System::Void Method_3_2F909BE83A0AFD50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddAdventureModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddAdventureModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_04E267B8B9CEE958_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddAdventureModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDADVENTUREMODIFIER_METHOD_3_2F909BE83A0AFD50_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D6F7D2A623CC3B15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddAdventureModifier* a2)

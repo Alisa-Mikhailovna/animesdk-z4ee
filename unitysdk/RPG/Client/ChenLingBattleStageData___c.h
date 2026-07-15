@@ -5,24 +5,24 @@
 class Class_1_8CF94E0F14A91ED3_2;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18DE0880)
-#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18DE08B0)
-#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x18DE08C0)
+#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0788F0)
+#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC078920)
+#define RPG_CLIENT_CHENLINGBATTLESTAGEDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC078930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleStageData___c_TypeDefinitionIndex = 57458;
+	inline static constexpr unsigned int ChenLingBattleStageData___c_TypeDefinitionIndex = 58720;
 
 	class ChenLingBattleStageData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_2*>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_2*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x68110);
-		}
 		static ::RPG::Client::ChenLingBattleStageData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x68118);
+			return (::RPG::Client::ChenLingBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x5E200);
+		}
+		static ::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_2*>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_2*>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x5E208);
 		}
 
 		static ::System::Void _cctor()

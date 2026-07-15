@@ -5,24 +5,24 @@
 namespace RPG::Client { class BattleAssetPreload_AssetPreloadGroup; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_BATTLEASSETPRELOAD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A1B2A0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A1B2D0)
-#define RPG_CLIENT_BATTLEASSETPRELOAD___C__SET_PRELOADPHASE_B__75_0_OFFSET UNITYSDK_OFFSET(0x17A1B2E0)
+#define RPG_CLIENT_BATTLEASSETPRELOAD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE3A460)
+#define RPG_CLIENT_BATTLEASSETPRELOAD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE3A490)
+#define RPG_CLIENT_BATTLEASSETPRELOAD___C__SET_PRELOADPHASE_B__75_0_OFFSET UNITYSDK_OFFSET(0xBE3A4A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload___c_TypeDefinitionIndex = 55783;
+	inline static constexpr unsigned int BattleAssetPreload___c_TypeDefinitionIndex = 57020;
 
 	class BattleAssetPreload___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::BattleAssetPreload___c** StaticGet___9()
 		{
-			return (::RPG::Client::BattleAssetPreload___c**)Il2CppClass::FromTypeDefinitionIndex(BattleAssetPreload___c_TypeDefinitionIndex)->GetStaticField(0x60FC0);
+			return (::RPG::Client::BattleAssetPreload___c**)Il2CppClass::FromTypeDefinitionIndex(BattleAssetPreload___c_TypeDefinitionIndex)->GetStaticField(0x538A0);
 		}
 		static ::System::Action_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>** StaticGet___9__75_0()
 		{
-			return (::System::Action_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>**)Il2CppClass::FromTypeDefinitionIndex(BattleAssetPreload___c_TypeDefinitionIndex)->GetStaticField(0x60FC8);
+			return (::System::Action_1<::RPG::Client::BattleAssetPreload_AssetPreloadGroup*>**)Il2CppClass::FromTypeDefinitionIndex(BattleAssetPreload___c_TypeDefinitionIndex)->GetStaticField(0x538A8);
 		}
 
 		static ::System::Void _cctor()

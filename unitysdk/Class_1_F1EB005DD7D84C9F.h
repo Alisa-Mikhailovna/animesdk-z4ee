@@ -12,19 +12,19 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System { class String; }
 
-#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_1_OFFSET UNITYSDK_OFFSET(0x14FB2200)
-#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_2_OFFSET UNITYSDK_OFFSET(0x14FB2350)
-#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_3_OFFSET UNITYSDK_OFFSET(0x14FB24A0)
-#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_OFFSET UNITYSDK_OFFSET(0x14FB20B0)
+#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_1_OFFSET UNITYSDK_OFFSET(0x1554F680)
+#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_2_OFFSET UNITYSDK_OFFSET(0x1554F7D0)
+#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_3_OFFSET UNITYSDK_OFFSET(0x1554F920)
+#define CLASS_1_F1EB005DD7D84C9F_METHOD_1_E600C1A04C7BCF8F_OFFSET UNITYSDK_OFFSET(0x1554F530)
 
-inline static constexpr unsigned int Class_1_F1EB005DD7D84C9F_TypeDefinitionIndex = 65190;
+inline static constexpr unsigned int Class_1_F1EB005DD7D84C9F_TypeDefinitionIndex = 66600;
 
 class Class_1_F1EB005DD7D84C9F : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F1EB005DD7D84C9F_TypeDefinitionIndex)->GetStaticField(0xCC10);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F1EB005DD7D84C9F_TypeDefinitionIndex)->GetStaticField(0x9450);
 	}
 
 	static ::Class_3_556E9C29895B365A* Method_1_E600C1A04C7BCF8F(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::PipelineCameraGlobalConfig* a2, ::RPG::Client::CameraModuleConfigCollection* a3, ::RPG::Client::CameraDataAndFlags* a4, ::System::String* a5, ::System::String* a6, ::System::Int32 a7)

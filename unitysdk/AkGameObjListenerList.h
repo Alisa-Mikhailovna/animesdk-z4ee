@@ -6,15 +6,13 @@ class AkAudioListener;
 class AkGameObj;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKGAMEOBJLISTENERLIST_ADD_OFFSET UNITYSDK_OFFSET(0x19DE5970)
-#define AKGAMEOBJLISTENERLIST_INIT_OFFSET UNITYSDK_OFFSET(0x19DE69B0)
-#define AKGAMEOBJLISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x19DE5B00)
-#define AKGAMEOBJLISTENERLIST_SETUSEDEFAULTLISTENERS_OFFSET UNITYSDK_OFFSET(0x19DE9280)
-#define AKGAMEOBJLISTENERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE8570)
-#define AKGAMEOBJLISTENERLIST___IFIXBASEPROXY_ADD_OFFSET UNITYSDK_OFFSET(0x19DE9530)
-#define AKGAMEOBJLISTENERLIST___IFIXBASEPROXY_REMOVE_OFFSET UNITYSDK_OFFSET(0x19DE9540)
+#define AKGAMEOBJLISTENERLIST_ADD_OFFSET UNITYSDK_OFFSET(0x1D1C0910)
+#define AKGAMEOBJLISTENERLIST_INIT_OFFSET UNITYSDK_OFFSET(0x1D1C1A90)
+#define AKGAMEOBJLISTENERLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x1D1C0AA0)
+#define AKGAMEOBJLISTENERLIST_SETUSEDEFAULTLISTENERS_OFFSET UNITYSDK_OFFSET(0x1D1C4260)
+#define AKGAMEOBJLISTENERLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C3660)
 
-inline static constexpr unsigned int AkGameObjListenerList_TypeDefinitionIndex = 41313;
+inline static constexpr unsigned int AkGameObjListenerList_TypeDefinitionIndex = 42128;
 
 class AkGameObjListenerList : public ::AkAudioListener_BaseListenerList
 {
@@ -46,15 +44,5 @@ public:
 	::System::Boolean Remove(::AkAudioListener* a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::AkAudioListener*))((::PBYTE)hIl2Cpp + AKGAMEOBJLISTENERLIST_REMOVE_OFFSET))(this, a1);
-	}
-
-	::System::Boolean __iFixBaseProxy_Add(::AkAudioListener* a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::AkAudioListener*))((::PBYTE)hIl2Cpp + AKGAMEOBJLISTENERLIST___IFIXBASEPROXY_ADD_OFFSET))(this, a1);
-	}
-
-	::System::Boolean __iFixBaseProxy_Remove(::AkAudioListener* a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::AkAudioListener*))((::PBYTE)hIl2Cpp + AKGAMEOBJLISTENERLIST___IFIXBASEPROXY_REMOVE_OFFSET))(this, a1);
 	}
 };

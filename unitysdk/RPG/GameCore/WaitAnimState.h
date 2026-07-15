@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITANIMSTATE_METHOD_3_41CF56D5635BB8FE_OFFSET UNITYSDK_OFFSET(0x19A82830)
-#define RPG_GAMECORE_WAITANIMSTATE_METHOD_3_CF43FB2AE5BA5005_OFFSET UNITYSDK_OFFSET(0x19A82950)
-#define RPG_GAMECORE_WAITANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A828D0)
+#define RPG_GAMECORE_WAITANIMSTATE_METHOD_3_41CF56D5635BB8FE_OFFSET UNITYSDK_OFFSET(0x1B9E1A90)
+#define RPG_GAMECORE_WAITANIMSTATE_METHOD_3_CF43FB2AE5BA5005_OFFSET UNITYSDK_OFFSET(0x1B9E1B70)
+#define RPG_GAMECORE_WAITANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E1B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitAnimState_TypeDefinitionIndex = 21629;
+	inline static constexpr unsigned int WaitAnimState_TypeDefinitionIndex = 22052;
 
 	class WaitAnimState : public ::RPG::GameCore::TaskConfig
 	{

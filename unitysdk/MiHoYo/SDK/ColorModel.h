@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_COLORMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1724BCF0)
+#define MIHOYO_SDK_COLORMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB97F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ColorModel_TypeDefinitionIndex = 7834;
+	inline static constexpr unsigned int ColorModel_TypeDefinitionIndex = 7840;
 
 	class ColorModel : public ::System::Object
 	{

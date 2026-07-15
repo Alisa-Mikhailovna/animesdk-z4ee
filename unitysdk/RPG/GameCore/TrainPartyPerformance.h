@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyPerformanceCharacter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCE_METHOD_2_484F6C1C98F2D5BC_OFFSET UNITYSDK_OFFSET(0x19A29790)
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A29930)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCE_METHOD_2_484F6C1C98F2D5BC_OFFSET UNITYSDK_OFFSET(0x1B982B80)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B982D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPerformance_TypeDefinitionIndex = 15447;
+	inline static constexpr unsigned int TrainPartyPerformance_TypeDefinitionIndex = 15618;
 
 	class TrainPartyPerformance : public ::RPG::GameCore::JsonConfig
 	{

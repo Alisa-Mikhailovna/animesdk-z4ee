@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NativeTask; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_NATIVETASK___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18673DA0)
-#define MIHOYO_SDK_NATIVETASK___C__DISPLAYCLASS4_0__NATIVEINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x186740B0)
+#define MIHOYO_SDK_NATIVETASK___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D49220)
+#define MIHOYO_SDK_NATIVETASK___C__DISPLAYCLASS4_0__NATIVEINVOKE_B__0_OFFSET UNITYSDK_OFFSET(0x19D49600)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NativeTask___c__DisplayClass4_0_TypeDefinitionIndex = 7936;
+	inline static constexpr unsigned int NativeTask___c__DisplayClass4_0_TypeDefinitionIndex = 7942;
 
 	class NativeTask___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::String* funcName; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x10
 		::MiHoYo::SDK::NativeTask* __4__this; // 0x18
-		::System::Action_1<::System::String*>* callback; // 0x20
+		::System::String* funcName; // 0x20
 
 		::System::Void _ctor()
 		{

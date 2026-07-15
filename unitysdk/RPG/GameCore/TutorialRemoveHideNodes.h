@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALREMOVEHIDENODES_METHOD_3_388EA08253A358AC_OFFSET UNITYSDK_OFFSET(0x19A5F480)
-#define RPG_GAMECORE_TUTORIALREMOVEHIDENODES_METHOD_3_E68BCE07A9652B3D_OFFSET UNITYSDK_OFFSET(0x19A5F500)
-#define RPG_GAMECORE_TUTORIALREMOVEHIDENODES__CTOR_OFFSET UNITYSDK_OFFSET(0x19A5F4D0)
+#define RPG_GAMECORE_TUTORIALREMOVEHIDENODES_METHOD_3_BC57F99E325F3EBE_OFFSET UNITYSDK_OFFSET(0x1B9BBB80)
+#define RPG_GAMECORE_TUTORIALREMOVEHIDENODES_METHOD_3_E68BCE07A9652B3D_OFFSET UNITYSDK_OFFSET(0x1B9BBBC0)
+#define RPG_GAMECORE_TUTORIALREMOVEHIDENODES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BBBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialRemoveHideNodes_TypeDefinitionIndex = 23050;
+	inline static constexpr unsigned int TutorialRemoveHideNodes_TypeDefinitionIndex = 23517;
 
 	class TutorialRemoveHideNodes : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALREMOVEHIDENODES__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_388EA08253A358AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialRemoveHideNodes*& a2)
+		static ::System::Void Method_3_BC57F99E325F3EBE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialRemoveHideNodes*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialRemoveHideNodes*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALREMOVEHIDENODES_METHOD_3_388EA08253A358AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialRemoveHideNodes*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALREMOVEHIDENODES_METHOD_3_BC57F99E325F3EBE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E68BCE07A9652B3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialRemoveHideNodes* a2)

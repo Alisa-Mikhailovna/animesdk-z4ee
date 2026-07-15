@@ -6,12 +6,12 @@
 namespace Mono::Security::Interface { class Alert; }
 namespace System { class String; }
 
-#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19CC2F00)
-#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC2E90)
+#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19F23070)
+#define MONO_SECURITY_INTERFACE_TLSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F23000)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int TlsException_TypeDefinitionIndex = 2286;
+	inline static constexpr unsigned int TlsException_TypeDefinitionIndex = 2290;
 
 	class TlsException : public ::System::Exception
 	{

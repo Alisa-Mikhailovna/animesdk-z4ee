@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_22.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_26.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class QuestData; }
 namespace RPG::GameCore { class ActivityNewbiePromoteRow; }
 
-#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x15EDE4A0)
-#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET__QUESTDATA_OFFSET UNITYSDK_OFFSET(0x15EDE5B0)
-#define RPG_CLIENT_NOVICEQUESTSINGLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15EDE2D0)
+#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xCEDFBA0)
+#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET__QUESTDATA_OFFSET UNITYSDK_OFFSET(0xCEDFC50)
+#define RPG_CLIENT_NOVICEQUESTSINGLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCEDF9D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NoviceQuestSingleData_TypeDefinitionIndex = 57638;
+	inline static constexpr unsigned int NoviceQuestSingleData_TypeDefinitionIndex = 58903;
 
 	class NoviceQuestSingleData : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOVICEQUESTSINGLEDATA__CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_4608E37A1B3D374A_22 get_Status()
+		::Enum_3_4608E37A1B3D374A_26 get_Status()
 		{
-			return ((::Enum_3_4608E37A1B3D374A_22(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET_STATUS_OFFSET))(this);
+			return ((::Enum_3_4608E37A1B3D374A_26(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET_STATUS_OFFSET))(this);
 		}
 
 		::RPG::Client::QuestData* get__QuestData()

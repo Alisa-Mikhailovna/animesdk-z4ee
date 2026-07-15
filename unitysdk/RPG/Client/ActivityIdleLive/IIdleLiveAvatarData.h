@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IIdleLiveAvatarData_TypeDefinitionIndex = 69943;
+	inline static constexpr unsigned int IIdleLiveAvatarData_TypeDefinitionIndex = 71466;
 
 	class IIdleLiveAvatarData
 	{

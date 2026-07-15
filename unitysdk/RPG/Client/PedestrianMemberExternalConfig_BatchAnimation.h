@@ -8,12 +8,12 @@
 namespace System { class String; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0x18C79F70)
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18C79F80)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xCF4CBA0)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_BATCHANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xCF4CBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_TypeDefinitionIndex = 64771;
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_BatchAnimation_TypeDefinitionIndex = 66172;
 
 	class PedestrianMemberExternalConfig_BatchAnimation : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{

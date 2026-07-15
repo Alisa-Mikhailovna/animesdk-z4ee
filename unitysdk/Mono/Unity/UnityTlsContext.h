@@ -24,50 +24,50 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x18E8EE50)
-#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x18E8D020)
-#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18E8E690)
-#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x18E8E080)
-#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x18E83EB0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x18E8E3E0)
-#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x18E8E3F0)
-#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x18E83C70)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x18E8E9A0)
-#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x18E8CE60)
-#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x18E84070)
-#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x18E8E400)
-#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x18E839C0)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x18E8ECD0)
-#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x18E8CF40)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x18E8E790)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x18E8CD80)
-#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x18E84290)
-#define MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E8D110)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CC5FCE0)
+#define MONO_UNITY_UNITYTLSCONTEXT_CERTIFICATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CC5DD40)
+#define MONO_UNITY_UNITYTLSCONTEXT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CC5F570)
+#define MONO_UNITY_UNITYTLSCONTEXT_EXTRACTNATIVEKEYANDCHAINFROMMANAGEDCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1CC5ED80)
+#define MONO_UNITY_UNITYTLSCONTEXT_FINISHHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1CC544F0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1CC5F2C0)
+#define MONO_UNITY_UNITYTLSCONTEXT_GET_LOCALCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1CC5F2D0)
+#define MONO_UNITY_UNITYTLSCONTEXT_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1CC542B0)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CC5F890)
+#define MONO_UNITY_UNITYTLSCONTEXT_READCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CC5DB80)
+#define MONO_UNITY_UNITYTLSCONTEXT_READ_OFFSET UNITYSDK_OFFSET(0x1CC546B0)
+#define MONO_UNITY_UNITYTLSCONTEXT_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1CC5F2E0)
+#define MONO_UNITY_UNITYTLSCONTEXT_STARTHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1CC54000)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CC5FBC0)
+#define MONO_UNITY_UNITYTLSCONTEXT_VERIFYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1CC5DC60)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1CC5F670)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITECALLBACK_OFFSET UNITYSDK_OFFSET(0x1CC5DAA0)
+#define MONO_UNITY_UNITYTLSCONTEXT_WRITE_OFFSET UNITYSDK_OFFSET(0x1CC548D0)
+#define MONO_UNITY_UNITYTLSCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC5DE30)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTlsContext_TypeDefinitionIndex = 2390;
+	inline static constexpr unsigned int UnityTlsContext_TypeDefinitionIndex = 2394;
 
 	class UnityTlsContext : public ::Mono::Net::Security::MobileTlsContext
 	{
 	public:
-		::Il2CppArray<::System::Byte>* writeBuffer; // 0x48
-		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x50
-		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x58
-		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x60
-		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x68
+		::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate; // 0x48
+		::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* certificateCallback; // 0x50
+		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x58
+		::System::Security::Cryptography::X509Certificates::X509Certificate* localClientCertificate; // 0x60
+		::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback; // 0x68
 		::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* verifyCallback; // 0x70
 		::System::Exception* lastException; // 0x78
-		::Il2CppArray<::System::Byte>* readBuffer; // 0x80
-		::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo; // 0x88
-		::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* readCallback; // 0x90
-		::Mono::Unity::UnityTls_unitytls_x509list* requestedClientCertChain; // 0x98
-		::System::Runtime::InteropServices::GCHandle handle; // 0xA0
-		::System::Boolean isAuthenticated; // 0xA4
-		::System::Boolean hasContext; // 0xA5
-		::System::Boolean closedGraceful; // 0xA6
-		::Mono::Unity::UnityTls_unitytls_tlsctx* tlsContext; // 0xA8
-		::Mono::Unity::UnityTls_unitytls_key* requestedClientKey; // 0xB0
+		::Il2CppArray<::System::Byte>* writeBuffer; // 0x80
+		::Il2CppArray<::System::Byte>* readBuffer; // 0x88
+		::Mono::Security::Interface::MonoTlsConnectionInfo* connectioninfo; // 0x90
+		::Mono::Unity::UnityTls_unitytls_key* requestedClientKey; // 0x98
+		::Mono::Unity::UnityTls_unitytls_x509list* requestedClientCertChain; // 0xA0
+		::System::Boolean closedGraceful; // 0xA8
+		::System::Boolean hasContext; // 0xA9
+		::System::Boolean isAuthenticated; // 0xAA
+		::System::Runtime::InteropServices::GCHandle handle; // 0xAC
+		::Mono::Unity::UnityTls_unitytls_tlsctx* tlsContext; // 0xB0
 
 		::System::Void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* a1, ::System::Boolean a2, ::System::String* a3, ::System::Security::Authentication::SslProtocols a4, ::System::Security::Cryptography::X509Certificates::X509Certificate* a5, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a6, ::System::Boolean a7)
 		{

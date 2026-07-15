@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_0_16E4307DCC419505_260;
+class Class_0_16E4307DCC419505_280;
 namespace Entitas { class IEntity; }
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class LittleGameAbilityTaskFireMonoEffectConfig; }
@@ -12,16 +12,16 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_7313989836F385C8_METHOD_3_1EA97511ABF2B3A7_OFFSET UNITYSDK_OFFSET(0x154218D0)
-#define CLASS_3_7313989836F385C8_METHOD_3_2A8239C3A4D4CE85_OFFSET UNITYSDK_OFFSET(0x15421170)
-#define CLASS_3_7313989836F385C8_METHOD_3_323F19DBD35716A9_OFFSET UNITYSDK_OFFSET(0x15420E90)
-#define CLASS_3_7313989836F385C8_METHOD_3_36173D16FE0F2056_OFFSET UNITYSDK_OFFSET(0x15421D50)
-#define CLASS_3_7313989836F385C8_METHOD_3_51BBA01F511E6107_OFFSET UNITYSDK_OFFSET(0x15420C00)
-#define CLASS_3_7313989836F385C8_METHOD_3_B9D83A163D6522C8_OFFSET UNITYSDK_OFFSET(0x15421DE0)
-#define CLASS_3_7313989836F385C8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15420BB0)
-#define CLASS_3_7313989836F385C8__CTOR_OFFSET UNITYSDK_OFFSET(0x15420B80)
+#define CLASS_3_7313989836F385C8_METHOD_3_1A6C432AAAB8C7A1_OFFSET UNITYSDK_OFFSET(0x1464D1B0)
+#define CLASS_3_7313989836F385C8_METHOD_3_1EA97511ABF2B3A7_OFFSET UNITYSDK_OFFSET(0x1464CCA0)
+#define CLASS_3_7313989836F385C8_METHOD_3_2A8239C3A4D4CE85_OFFSET UNITYSDK_OFFSET(0x1464C390)
+#define CLASS_3_7313989836F385C8_METHOD_3_323F19DBD35716A9_OFFSET UNITYSDK_OFFSET(0x1464BF70)
+#define CLASS_3_7313989836F385C8_METHOD_3_51BBA01F511E6107_OFFSET UNITYSDK_OFFSET(0x1464BCA0)
+#define CLASS_3_7313989836F385C8_METHOD_3_CA4D9B83EA2FAB87_OFFSET UNITYSDK_OFFSET(0x1464D120)
+#define CLASS_3_7313989836F385C8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1464BC50)
+#define CLASS_3_7313989836F385C8__CTOR_OFFSET UNITYSDK_OFFSET(0x1464BC20)
 
-inline static constexpr unsigned int Class_3_7313989836F385C8_TypeDefinitionIndex = 54394;
+inline static constexpr unsigned int Class_3_7313989836F385C8_TypeDefinitionIndex = 55617;
 
 class Class_3_7313989836F385C8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LittleGameAbilityTaskFireMonoEffectConfig*>
 {
@@ -51,18 +51,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_3_7313989836F385C8_METHOD_3_1EA97511ABF2B3A7_OFFSET))(this, a1);
 	}
 
-	static ::System::Void Method_3_36173D16FE0F2056(::RPG::Client::MonoEffect* a1)
+	static ::System::Void Method_3_CA4D9B83EA2FAB87(::RPG::Client::MonoEffect* a1)
 	{
-		return ((::System::Void(*)(::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + CLASS_3_7313989836F385C8_METHOD_3_36173D16FE0F2056_OFFSET))(a1);
+		return ((::System::Void(*)(::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + CLASS_3_7313989836F385C8_METHOD_3_CA4D9B83EA2FAB87_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_3_B9D83A163D6522C8(::UnityEngine::GameObject* a1, ::System::Int32 a2)
+	static ::System::Void Method_3_1A6C432AAAB8C7A1(::UnityEngine::GameObject* a1, ::System::Int32 a2)
 	{
-		return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_7313989836F385C8_METHOD_3_B9D83A163D6522C8_OFFSET))(a1, a2);
+		return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_3_7313989836F385C8_METHOD_3_1A6C432AAAB8C7A1_OFFSET))(a1, a2);
 	}
 
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Method_3_323F19DBD35716A9(::Class_0_16E4307DCC419505_260* a1)
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Method_3_323F19DBD35716A9(::Class_0_16E4307DCC419505_280* a1)
 	{
-		return ((::System::Collections::Generic::HashSet_1<::System::Int32>*(*)(::PVOID, ::Class_0_16E4307DCC419505_260*))((::PBYTE)hIl2Cpp + CLASS_3_7313989836F385C8_METHOD_3_323F19DBD35716A9_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::HashSet_1<::System::Int32>*(*)(::PVOID, ::Class_0_16E4307DCC419505_280*))((::PBYTE)hIl2Cpp + CLASS_3_7313989836F385C8_METHOD_3_323F19DBD35716A9_OFFSET))(this, a1);
 	}
 };

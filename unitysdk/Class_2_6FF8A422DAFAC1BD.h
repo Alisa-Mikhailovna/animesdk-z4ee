@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerBossSpecialEffect; }
 
-#define CLASS_2_6FF8A422DAFAC1BD_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x14321F40)
-#define CLASS_2_6FF8A422DAFAC1BD__CTOR_OFFSET UNITYSDK_OFFSET(0x14321F30)
+#define CLASS_2_6FF8A422DAFAC1BD_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x1A4682E0)
+#define CLASS_2_6FF8A422DAFAC1BD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4682D0)
 
-inline static constexpr unsigned int Class_2_6FF8A422DAFAC1BD_TypeDefinitionIndex = 34374;
+inline static constexpr unsigned int Class_2_6FF8A422DAFAC1BD_TypeDefinitionIndex = 34756;
 
 class Class_2_6FF8A422DAFAC1BD : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_TriggerBossSpecialEffect* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_TriggerBossSpecialEffect* Field_2_0; // 0x18
+	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_TriggerBossSpecialEffect* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

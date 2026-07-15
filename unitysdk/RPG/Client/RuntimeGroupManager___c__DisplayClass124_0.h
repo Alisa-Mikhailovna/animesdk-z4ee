@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MapNpcDef; }
 
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176C6900)
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS124_0__REMOVELOCALLEGACYNPC_B__0_OFFSET UNITYSDK_OFFSET(0x176C9A20)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4C4000)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER___C__DISPLAYCLASS124_0__REMOVELOCALLEGACYNPC_B__0_OFFSET UNITYSDK_OFFSET(0xD4C7720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass124_0_TypeDefinitionIndex = 58052;
+	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass124_0_TypeDefinitionIndex = 59318;
 
 	class RuntimeGroupManager___c__DisplayClass124_0 : public ::System::Object
 	{

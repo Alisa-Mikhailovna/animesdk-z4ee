@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWATTACKTIME_METHOD_3_CC98F3A758BFD9D7_OFFSET UNITYSDK_OFFSET(0x19FFB280)
-#define RPG_GAMECORE_SHOWATTACKTIME_METHOD_3_E6397EECEF83B3E9_OFFSET UNITYSDK_OFFSET(0x19FFB200)
-#define RPG_GAMECORE_SHOWATTACKTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFB250)
+#define RPG_GAMECORE_SHOWATTACKTIME_METHOD_3_0D55A05F6FF14F27_OFFSET UNITYSDK_OFFSET(0x1B8C6500)
+#define RPG_GAMECORE_SHOWATTACKTIME_METHOD_3_CC98F3A758BFD9D7_OFFSET UNITYSDK_OFFSET(0x1B8C6540)
+#define RPG_GAMECORE_SHOWATTACKTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C6530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowAttackTime_TypeDefinitionIndex = 21677;
+	inline static constexpr unsigned int ShowAttackTime_TypeDefinitionIndex = 22104;
 
 	class ShowAttackTime : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWATTACKTIME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E6397EECEF83B3E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAttackTime*& a2)
+		static ::System::Void Method_3_0D55A05F6FF14F27(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAttackTime*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowAttackTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWATTACKTIME_METHOD_3_E6397EECEF83B3E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowAttackTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWATTACKTIME_METHOD_3_0D55A05F6FF14F27_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CC98F3A758BFD9D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAttackTime* a2)

@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IGamePhase_TypeDefinitionIndex = 70864;
+	inline static constexpr unsigned int IGamePhase_TypeDefinitionIndex = 72377;
 
 	class IGamePhase
 	{

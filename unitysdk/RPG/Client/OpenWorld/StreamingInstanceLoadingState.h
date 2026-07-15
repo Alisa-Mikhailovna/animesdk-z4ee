@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingInstanceLoadingState_TypeDefinitionIndex = 69010;
+	inline static constexpr unsigned int StreamingInstanceLoadingState_TypeDefinitionIndex = 70528;
 
 	enum class StreamingInstanceLoadingState : ::System::Int16
 	{

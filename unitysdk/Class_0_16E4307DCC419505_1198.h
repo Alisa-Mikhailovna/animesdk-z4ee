@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/ChimeraDuelBubbleEventType.h"
+#include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenEffectSource.h"
 
-namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
+class Class_0_16E4307DCC419505_1197;
+namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1198_TypeDefinitionIndex = 72804;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1198_TypeDefinitionIndex = 71886;
 
 class Class_0_16E4307DCC419505_1198
 {

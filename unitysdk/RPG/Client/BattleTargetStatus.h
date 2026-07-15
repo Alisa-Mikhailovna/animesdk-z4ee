@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleTargetStatus_TypeDefinitionIndex = 67300;
+	inline static constexpr unsigned int BattleTargetStatus_TypeDefinitionIndex = 68767;
 
 	enum class BattleTargetStatus : ::System::Int32
 	{

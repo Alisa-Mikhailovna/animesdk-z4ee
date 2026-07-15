@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE_GET_IFACEPATH_OFFSET UNITYSDK_OFFSET(0x17CFA090)
-#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x17CFA1D0)
-#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE_READLINE_OFFSET UNITYSDK_OFFSET(0x17CFA550)
-#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x17CFA0A0)
+#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE_GET_IFACEPATH_OFFSET UNITYSDK_OFFSET(0x1CCF8FB0)
+#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE_GET_OPERATIONALSTATUS_OFFSET UNITYSDK_OFFSET(0x1CCF90F0)
+#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE_READLINE_OFFSET UNITYSDK_OFFSET(0x1CCF9470)
+#define SYSTEM_NET_NETWORKINFORMATION_LINUXNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF8FC0)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int LinuxNetworkInterface_TypeDefinitionIndex = 2949;
+	inline static constexpr unsigned int LinuxNetworkInterface_TypeDefinitionIndex = 2953;
 
 	class LinuxNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface
 	{
 	public:
-		::System::String* iface_flags_path; // 0x30
-		::System::String* iface_operstate_path; // 0x38
-		::System::String* iface_path; // 0x40
+		::System::String* iface_operstate_path; // 0x30
+		::System::String* iface_path; // 0x38
+		::System::String* iface_flags_path; // 0x40
 
 		::System::Void _ctor(::System::String* a1)
 		{

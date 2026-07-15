@@ -8,23 +8,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E45960)
-#define RPG_GAMECORE_INTERACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E45C50)
+#define RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5345C0)
+#define RPG_GAMECORE_INTERACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B534D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InteractRow_TypeDefinitionIndex = 13833;
+	inline static constexpr unsigned int InteractRow_TypeDefinitionIndex = 13981;
 
 	class InteractRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ItemCostList; // 0x10
-		::System::UInt32 InteractID; // 0x18
+		::RPG::GameCore::PropState SrcState; // 0x18
 		::RPG::GameCore::InteractCostType InteractCostType; // 0x1C
-		::RPG::GameCore::PropState TargetState; // 0x20
+		::System::Boolean IsEvent; // 0x20
 		::RPG::Client::TextID InteractDesc; // 0x28
-		::RPG::GameCore::PropState SrcState; // 0x38
-		::System::Boolean IsEvent; // 0x3C
+		::RPG::GameCore::PropState TargetState; // 0x38
+		::System::UInt32 InteractID; // 0x3C
 
 		::System::Void _ctor()
 		{

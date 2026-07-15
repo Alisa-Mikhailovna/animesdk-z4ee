@@ -5,9 +5,9 @@
 class CarFlowIntersectionRule;
 class CarFlowRoad;
 
-#define CARFLOWROADMAPPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x14E412D0)
+#define CARFLOWROADMAPPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0xD3407D0)
 
-inline static constexpr unsigned int CarFlowRoadMapPosition_TypeDefinitionIndex = 44429;
+inline static constexpr unsigned int CarFlowRoadMapPosition_TypeDefinitionIndex = 45299;
 
 class CarFlowRoadMapPosition : public ::System::Object
 {

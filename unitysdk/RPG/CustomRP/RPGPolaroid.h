@@ -5,11 +5,11 @@
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGPOLAROID__CTOR_OFFSET UNITYSDK_OFFSET(0x1581F010)
+#define RPG_CUSTOMRP_RPGPOLAROID__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAA71D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGPolaroid_TypeDefinitionIndex = 35511;
+	inline static constexpr unsigned int RPGPolaroid_TypeDefinitionIndex = 36293;
 
 	class RPGPolaroid : public ::RPG::CustomRP::CustomVolumeComponent
 	{

@@ -6,10 +6,10 @@
 class Class_1_EDB3EE55BFF498B7;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifierProvider_1; }
 
-#define CLASS_1_BA6BCADCC0F483C1_METHOD_1_B8F901A904E67971_OFFSET UNITYSDK_OFFSET(0x14FA9F20)
-#define CLASS_1_BA6BCADCC0F483C1__CTOR_OFFSET UNITYSDK_OFFSET(0x14FA9FD0)
+#define CLASS_1_BA6BCADCC0F483C1_METHOD_1_B8F901A904E67971_OFFSET UNITYSDK_OFFSET(0x15547170)
+#define CLASS_1_BA6BCADCC0F483C1__CTOR_OFFSET UNITYSDK_OFFSET(0x15547220)
 
-inline static constexpr unsigned int Class_1_BA6BCADCC0F483C1_TypeDefinitionIndex = 58583;
+inline static constexpr unsigned int Class_1_BA6BCADCC0F483C1_TypeDefinitionIndex = 59854;
 
 class Class_1_BA6BCADCC0F483C1 : public ::System::Object
 {

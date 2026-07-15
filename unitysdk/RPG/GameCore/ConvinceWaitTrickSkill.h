@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONVINCEWAITTRICKSKILL_METHOD_3_2031568F2A557D30_OFFSET UNITYSDK_OFFSET(0x19B1B210)
-#define RPG_GAMECORE_CONVINCEWAITTRICKSKILL_METHOD_3_F505DAFDB4639523_OFFSET UNITYSDK_OFFSET(0x19B1B290)
-#define RPG_GAMECORE_CONVINCEWAITTRICKSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1B260)
+#define RPG_GAMECORE_CONVINCEWAITTRICKSKILL_METHOD_3_6A5A03E4DF55B328_OFFSET UNITYSDK_OFFSET(0x1B3875B0)
+#define RPG_GAMECORE_CONVINCEWAITTRICKSKILL_METHOD_3_F505DAFDB4639523_OFFSET UNITYSDK_OFFSET(0x1B3875F0)
+#define RPG_GAMECORE_CONVINCEWAITTRICKSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3875E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceWaitTrickSkill_TypeDefinitionIndex = 20623;
+	inline static constexpr unsigned int ConvinceWaitTrickSkill_TypeDefinitionIndex = 21038;
 
 	class ConvinceWaitTrickSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITTRICKSKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2031568F2A557D30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceWaitTrickSkill*& a2)
+		static ::System::Void Method_3_6A5A03E4DF55B328(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceWaitTrickSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceWaitTrickSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITTRICKSKILL_METHOD_3_2031568F2A557D30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceWaitTrickSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEWAITTRICKSKILL_METHOD_3_6A5A03E4DF55B328_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F505DAFDB4639523(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceWaitTrickSkill* a2)

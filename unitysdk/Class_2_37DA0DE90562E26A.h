@@ -11,20 +11,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_37DA0DE90562E26A_METHOD_2_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0x14724580)
-#define CLASS_2_37DA0DE90562E26A_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x14724AB0)
-#define CLASS_2_37DA0DE90562E26A_METHOD_2_D632E087371B80E2_OFFSET UNITYSDK_OFFSET(0x147246C0)
-#define CLASS_2_37DA0DE90562E26A_METHOD_2_F24608F372387DA4_OFFSET UNITYSDK_OFFSET(0x14724B90)
-#define CLASS_2_37DA0DE90562E26A__CTOR_OFFSET UNITYSDK_OFFSET(0x14724270)
+#define CLASS_2_37DA0DE90562E26A_METHOD_2_B961D33AD47A2113_OFFSET UNITYSDK_OFFSET(0x149EB4A0)
+#define CLASS_2_37DA0DE90562E26A_METHOD_2_CFC95121222309BD_OFFSET UNITYSDK_OFFSET(0x149EBA90)
+#define CLASS_2_37DA0DE90562E26A_METHOD_2_ED8E19FE96307A82_OFFSET UNITYSDK_OFFSET(0x149EB5E0)
+#define CLASS_2_37DA0DE90562E26A__CTOR_OFFSET UNITYSDK_OFFSET(0x149EB080)
 
-inline static constexpr unsigned int Class_2_37DA0DE90562E26A_TypeDefinitionIndex = 74471;
+inline static constexpr unsigned int Class_2_37DA0DE90562E26A_TypeDefinitionIndex = 76861;
 
 class Class_2_37DA0DE90562E26A : public ::Class_1_FAF146B3D74C3C3F
 {
 public:
-	::Class_2_293C6AF513403273* Field_2_0; // 0x20
-	::System::String* Field_2_1; // 0x28
-	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* Field_2_2; // 0x30
+	::System::String* Field_2_0; // 0x20
+	::System::Collections::Generic::List_1<::Class_1_FAF146B3D74C3C3F*>* Field_2_1; // 0x28
+	::Class_2_293C6AF513403273* Field_2_2; // 0x30
 	::RPG::Client::AssetEventPort Field_2_3; // 0x38
 	::RPG::Client::AssetEventType Field_2_4; // 0x3C
 
@@ -38,18 +37,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_37DA0DE90562E26A_METHOD_2_B961D33AD47A2113_OFFSET))(this);
 	}
 
-	::System::Void Method_2_D632E087371B80E2(::RPG::Client::IAssetOperation* a1, ::Il2CppArray<::System::Object*>* a2)
+	::System::Void Method_2_ED8E19FE96307A82(::RPG::Client::IAssetOperation* a1, ::Il2CppArray<::System::Object*>* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_37DA0DE90562E26A_METHOD_2_D632E087371B80E2_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::IAssetOperation*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_37DA0DE90562E26A_METHOD_2_ED8E19FE96307A82_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_CFC95121222309BD(::Class_1_FAF146B3D74C3C3F* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::Class_1_FAF146B3D74C3C3F*))((::PBYTE)hIl2Cpp + CLASS_2_37DA0DE90562E26A_METHOD_2_CFC95121222309BD_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_F24608F372387DA4(::Class_1_FAF146B3D74C3C3F* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_FAF146B3D74C3C3F*))((::PBYTE)hIl2Cpp + CLASS_2_37DA0DE90562E26A_METHOD_2_F24608F372387DA4_OFFSET))(this, a1);
 	}
 };

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE_METHOD_3_3D94D69EC2B566CB_OFFSET UNITYSDK_OFFSET(0x19BF2150)
-#define RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE_METHOD_3_E8A9039E776AE8FA_OFFSET UNITYSDK_OFFSET(0x19BF21D0)
-#define RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF21A0)
+#define RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE_METHOD_3_165A2572D848379B_OFFSET UNITYSDK_OFFSET(0x1B162130)
+#define RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE_METHOD_3_E8A9039E776AE8FA_OFFSET UNITYSDK_OFFSET(0x1B162170)
+#define RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B162160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetColliderLayerState_TypeDefinitionIndex = 19393;
+	inline static constexpr unsigned int AdvSetColliderLayerState_TypeDefinitionIndex = 19749;
 
 	class AdvSetColliderLayerState : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3D94D69EC2B566CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetColliderLayerState*& a2)
+		static ::System::Void Method_3_165A2572D848379B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetColliderLayerState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetColliderLayerState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE_METHOD_3_3D94D69EC2B566CB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetColliderLayerState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERLAYERSTATE_METHOD_3_165A2572D848379B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E8A9039E776AE8FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetColliderLayerState* a2)

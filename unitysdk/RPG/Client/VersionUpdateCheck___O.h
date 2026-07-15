@@ -8,22 +8,22 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateCheck___O_TypeDefinitionIndex = 57264;
+	inline static constexpr unsigned int VersionUpdateCheck___O_TypeDefinitionIndex = 58522;
 
 	class VersionUpdateCheck___O : public ::System::Object
 	{
 	public:
+		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet__1___StartAfterLoadAllConfig()
+		{
+			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateCheck___O_TypeDefinitionIndex)->GetStaticField(0x53E90);
+		}
 		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet__0___StartAsyncLoadAllConfig()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateCheck___O_TypeDefinitionIndex)->GetStaticField(0x5BF50);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateCheck___O_TypeDefinitionIndex)->GetStaticField(0x53E98);
 		}
 		static ::System::Action** StaticGet__2___OnLocalPakUpdateEnd()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateCheck___O_TypeDefinitionIndex)->GetStaticField(0x5BF58);
-		}
-		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet__1___StartAfterLoadAllConfig()
-		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateCheck___O_TypeDefinitionIndex)->GetStaticField(0x5BF60);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateCheck___O_TypeDefinitionIndex)->GetStaticField(0x53EA0);
 		}
 	};
 }

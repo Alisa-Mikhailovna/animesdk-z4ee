@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_A92BC063ED2379EB;
-class Class_1_CBEDA6B2CE02E7FF;
+class Class_1_C8B2C21D7F9B1D13;
 class Class_2_B66C1067C0468FBB;
 class Class_3_D637C1E17FCBBFB0;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
@@ -11,17 +11,17 @@ namespace RPG::GameCore { class ChimeraDuelRandomEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F97CA92D876A9664_METHOD_1_44641DFE6D61562D_OFFSET UNITYSDK_OFFSET(0x164A6AC0)
-#define CLASS_1_F97CA92D876A9664_METHOD_1_4E22A18EF530BFA8_OFFSET UNITYSDK_OFFSET(0x164A6A60)
-#define CLASS_1_F97CA92D876A9664_METHOD_1_6240462CEB7A6215_OFFSET UNITYSDK_OFFSET(0x164A6B80)
-#define CLASS_1_F97CA92D876A9664__CTOR_OFFSET UNITYSDK_OFFSET(0x164A6D10)
+#define CLASS_1_F97CA92D876A9664_METHOD_1_44641DFE6D61562D_OFFSET UNITYSDK_OFFSET(0x145DA830)
+#define CLASS_1_F97CA92D876A9664_METHOD_1_4E22A18EF530BFA8_OFFSET UNITYSDK_OFFSET(0x145DA7D0)
+#define CLASS_1_F97CA92D876A9664_METHOD_1_6240462CEB7A6215_OFFSET UNITYSDK_OFFSET(0x145DA8F0)
+#define CLASS_1_F97CA92D876A9664__CTOR_OFFSET UNITYSDK_OFFSET(0x145DAA80)
 
-inline static constexpr unsigned int Class_1_F97CA92D876A9664_TypeDefinitionIndex = 72056;
+inline static constexpr unsigned int Class_1_F97CA92D876A9664_TypeDefinitionIndex = 73581;
 
 class Class_1_F97CA92D876A9664 : public ::System::Object
 {
 public:
-	::Class_1_CBEDA6B2CE02E7FF* Field_1_0; // 0x10
+	::Class_1_C8B2C21D7F9B1D13* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{

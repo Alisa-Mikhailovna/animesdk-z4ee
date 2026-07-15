@@ -8,29 +8,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18683050)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18683140)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x186831A0)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x18683150)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18683040)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29__CTOR_OFFSET UNITYSDK_OFFSET(0x1867C170)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x19D590A0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19D59190)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x19D591F0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x19D591A0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19D59090)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__29__CTOR_OFFSET UNITYSDK_OFFSET(0x19D516D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Post_d__29_TypeDefinitionIndex = 8096;
+	inline static constexpr unsigned int NetworkManager__Post_d__29_TypeDefinitionIndex = 8106;
 
 	class NetworkManager__Post_d__29 : public ::System::Object
 	{
 	public:
 		::System::Action* timeoutCallback; // 0x10
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
+		::System::String* bodyString; // 0x18
 		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* callback; // 0x20
 		::System::Object* __2__current; // 0x28
-		::System::String* bodyString; // 0x30
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x30
 		::System::String* requestUrl; // 0x38
-		::System::Int32 retryTime; // 0x40
-		::System::Single timeoutSecond; // 0x44
-		::System::Int32 __1__state; // 0x48
+		::System::Int32 __1__state; // 0x40
+		::System::Int32 retryTime; // 0x44
+		::System::Single timeoutSecond; // 0x48
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

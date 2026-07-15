@@ -6,10 +6,10 @@ namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_AF10B3ABB955124D___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163FE460)
-#define CLASS_1_AF10B3ABB955124D___C__DISPLAYCLASS0_0__QUERY_B__0_OFFSET UNITYSDK_OFFSET(0x163FE7A0)
+#define CLASS_1_AF10B3ABB955124D___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB145240)
+#define CLASS_1_AF10B3ABB955124D___C__DISPLAYCLASS0_0__QUERY_B__0_OFFSET UNITYSDK_OFFSET(0xB145580)
 
-inline static constexpr unsigned int Class_1_AF10B3ABB955124D___c__DisplayClass0_0_TypeDefinitionIndex = 74159;
+inline static constexpr unsigned int Class_1_AF10B3ABB955124D___c__DisplayClass0_0_TypeDefinitionIndex = 76543;
 
 class Class_1_AF10B3ABB955124D___c__DisplayClass0_0 : public ::System::Object
 {

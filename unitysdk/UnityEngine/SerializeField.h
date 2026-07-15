@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SERIALIZEFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x198DDBE0)
+#define UNITYENGINE_SERIALIZEFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D05A190)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SerializeField_TypeDefinitionIndex = 4355;
+	inline static constexpr unsigned int SerializeField_TypeDefinitionIndex = 4360;
 
 	class SerializeField : public ::System::Attribute
 	{

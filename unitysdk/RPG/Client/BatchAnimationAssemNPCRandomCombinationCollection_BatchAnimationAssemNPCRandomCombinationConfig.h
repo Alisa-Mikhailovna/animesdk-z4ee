@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_BATCHANIMATIONASSEMNPCRANDOMCOMBINATIONCOLLECTION_BATCHANIMATIONASSEMNPCRANDOMCOMBINATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17A16310)
+#define RPG_CLIENT_BATCHANIMATIONASSEMNPCRANDOMCOMBINATIONCOLLECTION_BATCHANIMATIONASSEMNPCRANDOMCOMBINATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBE34C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationAssemNPCRandomCombinationCollection_BatchAnimationAssemNPCRandomCombinationConfig_TypeDefinitionIndex = 56114;
+	inline static constexpr unsigned int BatchAnimationAssemNPCRandomCombinationCollection_BatchAnimationAssemNPCRandomCombinationConfig_TypeDefinitionIndex = 57354;
 
 	class BatchAnimationAssemNPCRandomCombinationCollection_BatchAnimationAssemNPCRandomCombinationConfig : public ::System::Object
 	{

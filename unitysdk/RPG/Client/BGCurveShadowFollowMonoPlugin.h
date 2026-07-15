@@ -10,14 +10,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_CREATESHADOWS_OFFSET UNITYSDK_OFFSET(0x17A06830)
-#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17A068B0)
-#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17A06900)
-#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17A06960)
+#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_CREATESHADOWS_OFFSET UNITYSDK_OFFSET(0xBE22B30)
+#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBE22BB0)
+#define RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBE22C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BGCurveShadowFollowMonoPlugin_TypeDefinitionIndex = 65785;
+	inline static constexpr unsigned int BGCurveShadowFollowMonoPlugin_TypeDefinitionIndex = 67202;
 
 	class BGCurveShadowFollowMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::BGCurveShadowFollowBehavior*>
 	{
@@ -45,11 +44,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BGCURVESHADOWFOLLOWMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class RtStopLookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BCEB349B3F6F3670_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B976C0)
-#define CLASS_3_BCEB349B3F6F3670_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B97700)
-#define CLASS_3_BCEB349B3F6F3670__CTOR_OFFSET UNITYSDK_OFFSET(0x13B97690)
-#define CLASS_3_BCEB349B3F6F3670___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B977E0)
+#define CLASS_3_BCEB349B3F6F3670_DISPOSE_OFFSET UNITYSDK_OFFSET(0x144AF910)
+#define CLASS_3_BCEB349B3F6F3670_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144AF950)
+#define CLASS_3_BCEB349B3F6F3670__CTOR_OFFSET UNITYSDK_OFFSET(0x144AF8E0)
 
-inline static constexpr unsigned int Class_3_BCEB349B3F6F3670_TypeDefinitionIndex = 50327;
+inline static constexpr unsigned int Class_3_BCEB349B3F6F3670_TypeDefinitionIndex = 51409;
 
 class Class_3_BCEB349B3F6F3670 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtStopLookAt*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BCEB349B3F6F3670_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BCEB349B3F6F3670___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

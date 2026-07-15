@@ -5,24 +5,24 @@
 namespace RPG::Client::DiceCombat { class DiceCombatV2PvPTitleData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F15520)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F15560)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__GETTITLEFROMNOTIFYBYUID_B__23_1_OFFSET UNITYSDK_OFFSET(0x17F15570)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC2907D0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC290810)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2UTIL___C__GETTITLEFROMNOTIFYBYUID_B__23_1_OFFSET UNITYSDK_OFFSET(0xC290820)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2Util___c_TypeDefinitionIndex = 70753;
+	inline static constexpr unsigned int DiceCombatV2Util___c_TypeDefinitionIndex = 72266;
 
 	class DiceCombatV2Util___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>** StaticGet___9__23_1()
 		{
-			return (::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x6820);
+			return (::System::Func_2<::RPG::Client::DiceCombat::DiceCombatV2PvPTitleData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x666A0);
 		}
 		static ::RPG::Client::DiceCombat::DiceCombatV2Util___c** StaticGet___9()
 		{
-			return (::RPG::Client::DiceCombat::DiceCombatV2Util___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x6828);
+			return (::RPG::Client::DiceCombat::DiceCombatV2Util___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2Util___c_TypeDefinitionIndex)->GetStaticField(0x666A8);
 		}
 
 		static ::System::Void _cctor()

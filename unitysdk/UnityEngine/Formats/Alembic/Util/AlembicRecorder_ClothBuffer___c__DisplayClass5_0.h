@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1973A6D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS5_0__GENERATEREMAPINDICES_B__0_OFFSET UNITYSDK_OFFSET(0x1973C480)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB24F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER___C__DISPLAYCLASS5_0__GENERATEREMAPINDICES_B__0_OFFSET UNITYSDK_OFFSET(0x1CDB4160)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_ClothBuffer___c__DisplayClass5_0_TypeDefinitionIndex = 41586;
+	inline static constexpr unsigned int AlembicRecorder_ClothBuffer___c__DisplayClass5_0_TypeDefinitionIndex = 42446;
 
 	class AlembicRecorder_ClothBuffer___c__DisplayClass5_0 : public ::System::Object
 	{

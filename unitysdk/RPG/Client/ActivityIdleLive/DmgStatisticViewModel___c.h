@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDmgStatisticsUiData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185467C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18546800)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0x18546810)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB67520)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB67560)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0xBB67570)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 70289;
+	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 71812;
 
 	class DmgStatisticViewModel___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityIdleLive::DmgStatisticViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityIdleLive::DmgStatisticViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x4E610);
-		}
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x4E618);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x380F0);
+		}
+		static ::RPG::Client::ActivityIdleLive::DmgStatisticViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityIdleLive::DmgStatisticViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x380F8);
 		}
 
 		static ::System::Void _cctor()

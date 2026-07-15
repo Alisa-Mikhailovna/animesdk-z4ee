@@ -13,16 +13,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_INIT_OFFSET UNITYSDK_OFFSET(0x15A22DB0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UNINIT_OFFSET UNITYSDK_OFFSET(0x15A23090)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x15A22E50)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR__CTOR_OFFSET UNITYSDK_OFFSET(0x15A23130)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x15A23170)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR___IFIXBASEPROXY_UNINIT_OFFSET UNITYSDK_OFFSET(0x15A23180)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_INIT_OFFSET UNITYSDK_OFFSET(0xCC991A0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UNINIT_OFFSET UNITYSDK_OFFSET(0xCC99480)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xCC99240)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR__CTOR_OFFSET UNITYSDK_OFFSET(0xCC994D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropCustomLightDir_TypeDefinitionIndex = 65403;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropCustomLightDir_TypeDefinitionIndex = 66816;
 
 	class MonoEffectPluginCharaPropCustomLightDir : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -53,16 +51,6 @@ namespace RPG::Client
 		::System::Void UnInit()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR_UNINIT_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR___IFIXBASEPROXY_INIT_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_UnInit()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPCUSTOMLIGHTDIR___IFIXBASEPROXY_UNINIT_OFFSET))(this);
 		}
 	};
 }

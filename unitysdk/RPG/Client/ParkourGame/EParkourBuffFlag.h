@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int EParkourBuffFlag_TypeDefinitionIndex = 69254;
+	inline static constexpr unsigned int EParkourBuffFlag_TypeDefinitionIndex = 70775;
 
 	enum class EParkourBuffFlag : ::System::Int32
 	{

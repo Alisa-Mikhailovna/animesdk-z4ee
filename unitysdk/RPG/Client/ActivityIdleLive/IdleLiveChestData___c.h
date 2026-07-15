@@ -5,29 +5,29 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1855EA80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1855EAC0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__GETBATCHOPENSIZE_B__41_0_OFFSET UNITYSDK_OFFSET(0x1855EAF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__ISAUTOCHESTOPENUNLOCKED_B__40_0_OFFSET UNITYSDK_OFFSET(0x1855EAD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB811B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB811F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__GETBATCHOPENSIZE_B__41_0_OFFSET UNITYSDK_OFFSET(0xBB81220)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHESTDATA___C__ISAUTOCHESTOPENUNLOCKED_B__40_0_OFFSET UNITYSDK_OFFSET(0xBB81200)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveChestData___c_TypeDefinitionIndex = 70040;
+	inline static constexpr unsigned int IdleLiveChestData___c_TypeDefinitionIndex = 71563;
 
 	class IdleLiveChestData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityIdleLive::IdleLiveChestData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveChestData___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChestData___c_TypeDefinitionIndex)->GetStaticField(0x4EEE0);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveChestData___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChestData___c_TypeDefinitionIndex)->GetStaticField(0x38920);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::UInt32>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChestData___c_TypeDefinitionIndex)->GetStaticField(0x4EEE8);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChestData___c_TypeDefinitionIndex)->GetStaticField(0x38928);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::UInt32>** StaticGet___9__41_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChestData___c_TypeDefinitionIndex)->GetStaticField(0x4EEF0);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveChestData___c_TypeDefinitionIndex)->GetStaticField(0x38930);
 		}
 
 		static ::System::Void _cctor()

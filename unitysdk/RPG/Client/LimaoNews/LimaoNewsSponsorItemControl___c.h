@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x189A1CA0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x189A1CE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC958000)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORITEMCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC958040)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsSponsorItemControl___c_TypeDefinitionIndex = 73847;
+	inline static constexpr unsigned int LimaoNewsSponsorItemControl___c_TypeDefinitionIndex = 75498;
 
 	class LimaoNewsSponsorItemControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::LimaoNews::LimaoNewsSponsorItemControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::LimaoNews::LimaoNewsSponsorItemControl___c**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsSponsorItemControl___c_TypeDefinitionIndex)->GetStaticField(0x3F360);
+			return (::RPG::Client::LimaoNews::LimaoNewsSponsorItemControl___c**)Il2CppClass::FromTypeDefinitionIndex(LimaoNewsSponsorItemControl___c_TypeDefinitionIndex)->GetStaticField(0x38730);
 		}
 
 		static ::System::Void _cctor()

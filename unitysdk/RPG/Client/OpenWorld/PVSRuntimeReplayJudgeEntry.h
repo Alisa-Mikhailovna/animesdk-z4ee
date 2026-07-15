@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYJUDGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x16FDE250)
+#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYJUDGEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xCF071E0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int PVSRuntimeReplayJudgeEntry_TypeDefinitionIndex = 68859;
+	inline static constexpr unsigned int PVSRuntimeReplayJudgeEntry_TypeDefinitionIndex = 70360;
 
 	class PVSRuntimeReplayJudgeEntry : public ::System::Object
 	{

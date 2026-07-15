@@ -7,16 +7,16 @@ namespace System::IO { class Stream; }
 namespace System::Net { class TransportContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_NET_HTTP_STREAMCONTENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B035D50)
-#define SYSTEM_NET_HTTP_STREAMCONTENT_SERIALIZETOSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1B035DB0)
-#define SYSTEM_NET_HTTP_STREAMCONTENT_TRYCOMPUTELENGTH_OFFSET UNITYSDK_OFFSET(0x1B035E70)
-#define SYSTEM_NET_HTTP_STREAMCONTENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B035CA0)
-#define SYSTEM_NET_HTTP_STREAMCONTENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B030C20)
-#define SYSTEM_NET_HTTP_STREAMCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B035C20)
+#define SYSTEM_NET_HTTP_STREAMCONTENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CAF30C0)
+#define SYSTEM_NET_HTTP_STREAMCONTENT_SERIALIZETOSTREAMASYNC_OFFSET UNITYSDK_OFFSET(0x1CAF31E0)
+#define SYSTEM_NET_HTTP_STREAMCONTENT_TRYCOMPUTELENGTH_OFFSET UNITYSDK_OFFSET(0x1CAF33F0)
+#define SYSTEM_NET_HTTP_STREAMCONTENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CAF2F50)
+#define SYSTEM_NET_HTTP_STREAMCONTENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CAED8A0)
+#define SYSTEM_NET_HTTP_STREAMCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF2F40)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int StreamContent_TypeDefinitionIndex = 3762;
+	inline static constexpr unsigned int StreamContent_TypeDefinitionIndex = 3766;
 
 	class StreamContent : public ::System::Net::Http::HttpContent
 	{
@@ -24,8 +24,8 @@ namespace System::Net::Http
 		::System::IO::Stream* content; // 0x28
 		::System::Threading::CancellationToken cancellationToken; // 0x30
 		::System::Int64 startPosition; // 0x38
-		::System::Int32 bufferSize; // 0x40
-		::System::Boolean contentCopied; // 0x44
+		::System::Boolean contentCopied; // 0x40
+		::System::Int32 bufferSize; // 0x44
 
 		::System::Void _ctor(::System::IO::Stream* a1)
 		{

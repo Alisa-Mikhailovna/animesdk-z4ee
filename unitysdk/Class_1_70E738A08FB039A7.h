@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_70E738A08FB039A7_CLEAR_OFFSET UNITYSDK_OFFSET(0x152AF870)
-#define CLASS_1_70E738A08FB039A7__CTOR_OFFSET UNITYSDK_OFFSET(0x152AF8C0)
+#define CLASS_1_70E738A08FB039A7_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A803B20)
+#define CLASS_1_70E738A08FB039A7__CTOR_OFFSET UNITYSDK_OFFSET(0x1A803B70)
 
-inline static constexpr unsigned int Class_1_70E738A08FB039A7_TypeDefinitionIndex = 39649;
+inline static constexpr unsigned int Class_1_70E738A08FB039A7_TypeDefinitionIndex = 40458;
 
 class Class_1_70E738A08FB039A7 : public ::System::Object
 {

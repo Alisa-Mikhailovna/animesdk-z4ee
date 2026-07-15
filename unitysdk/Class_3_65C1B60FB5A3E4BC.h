@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCharacterSomatoWidthType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_65C1B60FB5A3E4BC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1532B3E0)
-#define CLASS_3_65C1B60FB5A3E4BC__CTOR_OFFSET UNITYSDK_OFFSET(0x1532B3B0)
+#define CLASS_3_65C1B60FB5A3E4BC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FB87B0)
+#define CLASS_3_65C1B60FB5A3E4BC__CTOR_OFFSET UNITYSDK_OFFSET(0x11FB8780)
 
-inline static constexpr unsigned int Class_3_65C1B60FB5A3E4BC_TypeDefinitionIndex = 50932;
+inline static constexpr unsigned int Class_3_65C1B60FB5A3E4BC_TypeDefinitionIndex = 52017;
 
 class Class_3_65C1B60FB5A3E4BC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCharacterSomatoWidthType*>
 {

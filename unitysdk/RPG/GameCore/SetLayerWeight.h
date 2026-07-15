@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETLAYERWEIGHT_METHOD_3_20C0D395DE9B131B_OFFSET UNITYSDK_OFFSET(0x1A7900D0)
-#define RPG_GAMECORE_SETLAYERWEIGHT_METHOD_3_CD6BF8F0F380EC33_OFFSET UNITYSDK_OFFSET(0x1A7901F0)
-#define RPG_GAMECORE_SETLAYERWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A790170)
+#define RPG_GAMECORE_SETLAYERWEIGHT_METHOD_3_6B1DE705D2D6C718_OFFSET UNITYSDK_OFFSET(0x1B8A7640)
+#define RPG_GAMECORE_SETLAYERWEIGHT_METHOD_3_CD6BF8F0F380EC33_OFFSET UNITYSDK_OFFSET(0x1B8A7740)
+#define RPG_GAMECORE_SETLAYERWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A76D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLayerWeight_TypeDefinitionIndex = 21836;
+	inline static constexpr unsigned int SetLayerWeight_TypeDefinitionIndex = 22262;
 
 	class SetLayerWeight : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLAYERWEIGHT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_20C0D395DE9B131B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLayerWeight*& a2)
+		static ::System::Void Method_3_6B1DE705D2D6C718(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLayerWeight*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLayerWeight*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLAYERWEIGHT_METHOD_3_20C0D395DE9B131B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLayerWeight*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLAYERWEIGHT_METHOD_3_6B1DE705D2D6C718_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CD6BF8F0F380EC33(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLayerWeight* a2)

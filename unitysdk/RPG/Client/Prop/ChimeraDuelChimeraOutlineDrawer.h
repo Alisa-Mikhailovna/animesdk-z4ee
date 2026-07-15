@@ -8,25 +8,25 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_METHOD_5_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0x166D73A0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_METHOD_5_57F7BB65B90E8E3D_OFFSET UNITYSDK_OFFSET(0x166D6DF0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER__CCTOR_OFFSET UNITYSDK_OFFSET(0x166DA900)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0x166DA840)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_METHOD_5_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0xD10A330)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_METHOD_5_E138AA4CDCD51C46_OFFSET UNITYSDK_OFFSET(0xD109BF0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD10DBB0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0xD10DAF0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex = 72848;
+	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex = 74373;
 
 	class ChimeraDuelChimeraOutlineDrawer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet_Field_5_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex)->GetStaticField(0x5310);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex)->GetStaticField(0x148E0);
 		}
 		static ::System::Int32* StaticGet_Field_5_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex)->GetStaticField(0x5314);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex)->GetStaticField(0x148E4);
 		}
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::RPG::Client::Prop::ChimeraDuelChimeraOutlineDrawer_OutlineConfig*>* Field_5_2; // 0x18
 		::RPG::Client::Prop::ChimeraDuelChimeraOutlineDrawer_OutlineConfig* _HighlightOutlineConfig; // 0x20
@@ -41,9 +41,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER__CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_5_57F7BB65B90E8E3D(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* a1)
+		::System::Void Method_5_E138AA4CDCD51C46(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_METHOD_5_57F7BB65B90E8E3D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_METHOD_5_E138AA4CDCD51C46_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_52607DE4C357D269()

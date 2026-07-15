@@ -5,11 +5,11 @@
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_STENCILDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C35E0)
+#define RPG_CUSTOMRP_STENCILDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC01A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int StencilDelegate_TypeDefinitionIndex = 35375;
+	inline static constexpr unsigned int StencilDelegate_TypeDefinitionIndex = 36156;
 
 	class StencilDelegate : public ::System::Object
 	{

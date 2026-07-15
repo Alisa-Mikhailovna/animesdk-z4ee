@@ -6,13 +6,12 @@
 
 namespace RPG::GameCore { class RemoveEffect; }
 
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B57AB0)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B57BA0)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B57BB0)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD12CE0)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD12DD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveEffectBehaviour_TypeDefinitionIndex = 45607;
+	inline static constexpr unsigned int RemoveEffectBehaviour_TypeDefinitionIndex = 46541;
 
 	class RemoveEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

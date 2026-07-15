@@ -6,9 +6,9 @@ class Class_1_91A4E66FC5A57602;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_67AC247E5B257456__CTOR_OFFSET UNITYSDK_OFFSET(0x14820540)
+#define CLASS_1_67AC247E5B257456__CTOR_OFFSET UNITYSDK_OFFSET(0xB329D70)
 
-inline static constexpr unsigned int Class_1_67AC247E5B257456_TypeDefinitionIndex = 44414;
+inline static constexpr unsigned int Class_1_67AC247E5B257456_TypeDefinitionIndex = 45284;
 
 class Class_1_67AC247E5B257456 : public ::System::Object
 {

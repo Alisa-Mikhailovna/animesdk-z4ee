@@ -7,17 +7,17 @@
 class Class_1_671780733A8844ED;
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_AFFIXUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18540860)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_AFFIXUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBB612A0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int AffixUiData_TypeDefinitionIndex = 70282;
+	inline static constexpr unsigned int AffixUiData_TypeDefinitionIndex = 71805;
 
 	class AffixUiData : public ::System::Object
 	{
 	public:
-		::System::String* DisplayValue; // 0x10
-		::System::String* Icon; // 0x18
+		::System::String* Icon; // 0x10
+		::System::String* DisplayValue; // 0x18
 		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor(::Class_1_671780733A8844ED* a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3)

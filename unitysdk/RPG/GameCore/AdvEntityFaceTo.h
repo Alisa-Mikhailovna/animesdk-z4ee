@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTITYFACETO_METHOD_3_204FF613057FA30A_OFFSET UNITYSDK_OFFSET(0x19561A90)
-#define RPG_GAMECORE_ADVENTITYFACETO_METHOD_3_FD7CC3790F63D229_OFFSET UNITYSDK_OFFSET(0x19561B50)
-#define RPG_GAMECORE_ADVENTITYFACETO__CTOR_OFFSET UNITYSDK_OFFSET(0x19561B00)
+#define RPG_GAMECORE_ADVENTITYFACETO_METHOD_3_5DBDC8DAC9FF3214_OFFSET UNITYSDK_OFFSET(0x1B150A50)
+#define RPG_GAMECORE_ADVENTITYFACETO_METHOD_3_FD7CC3790F63D229_OFFSET UNITYSDK_OFFSET(0x1B150AD0)
+#define RPG_GAMECORE_ADVENTITYFACETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B150AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEntityFaceTo_TypeDefinitionIndex = 19403;
+	inline static constexpr unsigned int AdvEntityFaceTo_TypeDefinitionIndex = 19761;
 
 	class AdvEntityFaceTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYFACETO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_204FF613057FA30A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntityFaceTo*& a2)
+		static ::System::Void Method_3_5DBDC8DAC9FF3214(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntityFaceTo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEntityFaceTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYFACETO_METHOD_3_204FF613057FA30A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEntityFaceTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYFACETO_METHOD_3_5DBDC8DAC9FF3214_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FD7CC3790F63D229(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntityFaceTo* a2)

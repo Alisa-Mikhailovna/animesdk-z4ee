@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PropSoundConfig; }
 namespace RPG::GameCore { class UnitCustomTriggerConfig; }
 namespace RPG::GameCore { class UnitHintTriggerConfig; }
 
-#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG_METHOD_2_D1AE0BDFC6DA422C_OFFSET UNITYSDK_OFFSET(0x19857B00)
-#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19859B20)
+#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG_METHOD_2_D1AE0BDFC6DA422C_OFFSET UNITYSDK_OFFSET(0x1B928B80)
+#define RPG_GAMECORE_SUMMONUNITTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92AB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitTriggerConfig_TypeDefinitionIndex = 16727;
+	inline static constexpr unsigned int SummonUnitTriggerConfig_TypeDefinitionIndex = 16889;
 
 	class SummonUnitTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

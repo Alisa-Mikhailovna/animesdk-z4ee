@@ -7,18 +7,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD74F0)
-#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD76D0)
+#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B526D10)
+#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B526EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGiftActionRow_TypeDefinitionIndex = 11292;
+	inline static constexpr unsigned int IdleLiveGiftActionRow_TypeDefinitionIndex = 11392;
 
 	class IdleLiveGiftActionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParam; // 0x10
-		::System::String* AbilityName; // 0x18
+		::System::String* AbilityName; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParam; // 0x18
 		::RPG::GameCore::IdleLiveGiftEffectType EffectType; // 0x20
 		::System::UInt32 ID; // 0x24
 

@@ -8,29 +8,29 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14833250)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14833290)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x148332A0)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__UPDATESELECTEDACCOUNTINFO_B__60_0_OFFSET UNITYSDK_OFFSET(0x148332B0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E5A520)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5A560)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x19E5A570)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__UPDATESELECTEDACCOUNTINFO_B__60_0_OFFSET UNITYSDK_OFFSET(0x19E5A580)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountList___c_TypeDefinitionIndex = 8951;
+	inline static constexpr unsigned int AccountList___c_TypeDefinitionIndex = 8963;
 
 	class AccountList___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::UnityEngine::GameObject*, ::System::String*>** StaticGet___9__60_0()
+		static ::System::Action_1<::MiHoYo::SDK::Win::AccountList*>** StaticGet___9__45_0()
 		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x24550);
+			return (::System::Action_1<::MiHoYo::SDK::Win::AccountList*>**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x2C0D0);
 		}
 		static ::MiHoYo::SDK::Win::AccountList___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::AccountList___c**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x24558);
+			return (::MiHoYo::SDK::Win::AccountList___c**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x2C0D8);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::Win::AccountList*>** StaticGet___9__45_0()
+		static ::System::Action_2<::UnityEngine::GameObject*, ::System::String*>** StaticGet___9__60_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::AccountList*>**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x24560);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x2C0E0);
 		}
 
 		static ::System::Void _cctor()

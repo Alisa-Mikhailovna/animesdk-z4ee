@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_2_53BA676286403FAC_CLASS_1_F430351B57E59FB6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x163DEB20)
+#define CLASS_2_53BA676286403FAC_CLASS_1_F430351B57E59FB6_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB121F20)
 
-inline static constexpr unsigned int Class_2_53BA676286403FAC_Class_1_F430351B57E59FB6_1_TypeDefinitionIndex = 68152;
+inline static constexpr unsigned int Class_2_53BA676286403FAC_Class_1_F430351B57E59FB6_1_TypeDefinitionIndex = 69638;
 
 class Class_2_53BA676286403FAC_Class_1_F430351B57E59FB6_1 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x1C
+	::System::Single Field_1_0; // 0x10
+	::UnityEngine::Vector3 Field_1_1; // 0x14
 	::UnityEngine::Vector3 Field_1_2; // 0x20
 
 	::System::Void _ctor()

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_247D1893CCB56C81_OFFSET UNITYSDK_OFFSET(0x19BE14F0)
-#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_DB6F38911A805D3D_OFFSET UNITYSDK_OFFSET(0x19BE1580)
-#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE1550)
+#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_759A11801B5F3ECA_OFFSET UNITYSDK_OFFSET(0x1B153110)
+#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_DB6F38911A805D3D_OFFSET UNITYSDK_OFFSET(0x1B153160)
+#define RPG_GAMECORE_ADVFORCEHIDEBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B153150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvForceHideBillboard_TypeDefinitionIndex = 20530;
+	inline static constexpr unsigned int AdvForceHideBillboard_TypeDefinitionIndex = 20945;
 
 	class AdvForceHideBillboard : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_247D1893CCB56C81(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvForceHideBillboard*& a2)
+		static ::System::Void Method_3_759A11801B5F3ECA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvForceHideBillboard*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvForceHideBillboard*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_247D1893CCB56C81_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvForceHideBillboard*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFORCEHIDEBILLBOARD_METHOD_3_759A11801B5F3ECA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DB6F38911A805D3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvForceHideBillboard* a2)

@@ -8,21 +8,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FFBB30)
-#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FFBAA0)
-#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FFBF50)
-#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FFBA90)
+#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE9490)
+#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE9400)
+#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AE98B0)
+#define MESSAGEPACK_FORMATTERS_MATRIX3X2FORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE93F0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Matrix3x2Formatter_TypeDefinitionIndex = 7455;
+	inline static constexpr unsigned int Matrix3x2Formatter_TypeDefinitionIndex = 7461;
 
 	class Matrix3x2Formatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Matrix3x2>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Matrix3x2>**)Il2CppClass::FromTypeDefinitionIndex(Matrix3x2Formatter_TypeDefinitionIndex)->GetStaticField(0x8760);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::Matrix3x2>**)Il2CppClass::FromTypeDefinitionIndex(Matrix3x2Formatter_TypeDefinitionIndex)->GetStaticField(0xB3B0);
 		}
 
 		::System::Void _ctor()

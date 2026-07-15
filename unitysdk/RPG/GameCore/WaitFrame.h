@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITFRAME_METHOD_3_5FD3031503DE9CCD_OFFSET UNITYSDK_OFFSET(0x1B3191A0)
-#define RPG_GAMECORE_WAITFRAME_METHOD_3_622B9B2708997D6B_OFFSET UNITYSDK_OFFSET(0x1B319230)
-#define RPG_GAMECORE_WAITFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B319200)
+#define RPG_GAMECORE_WAITFRAME_METHOD_3_622B9B2708997D6B_OFFSET UNITYSDK_OFFSET(0x1B9E75E0)
+#define RPG_GAMECORE_WAITFRAME_METHOD_3_7E9364849DBF2748_OFFSET UNITYSDK_OFFSET(0x1B9E7590)
+#define RPG_GAMECORE_WAITFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E75D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitFrame_TypeDefinitionIndex = 22483;
+	inline static constexpr unsigned int WaitFrame_TypeDefinitionIndex = 22933;
 
 	class WaitFrame : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFRAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5FD3031503DE9CCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFrame*& a2)
+		static ::System::Void Method_3_7E9364849DBF2748(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFrame*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFrame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFRAME_METHOD_3_5FD3031503DE9CCD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitFrame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFRAME_METHOD_3_7E9364849DBF2748_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_622B9B2708997D6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitFrame* a2)

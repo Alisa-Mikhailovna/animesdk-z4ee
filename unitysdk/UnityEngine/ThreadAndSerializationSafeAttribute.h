@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_THREADANDSERIALIZATIONSAFEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B579320)
+#define UNITYENGINE_THREADANDSERIALIZATIONSAFEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C9FE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ThreadAndSerializationSafeAttribute_TypeDefinitionIndex = 3700;
+	inline static constexpr unsigned int ThreadAndSerializationSafeAttribute_TypeDefinitionIndex = 3704;
 
 	class ThreadAndSerializationSafeAttribute : public ::System::Attribute
 	{

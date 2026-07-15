@@ -4,20 +4,20 @@
 
 namespace Proto { class SwitchHandSnapshot; }
 
-#define PROTO_SWITCHHANDSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB14FC0)
-#define PROTO_SWITCHHANDSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB15000)
-#define PROTO_SWITCHHANDSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1AB15010)
+#define PROTO_SWITCHHANDSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC984C0)
+#define PROTO_SWITCHHANDSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC98500)
+#define PROTO_SWITCHHANDSNAPSHOT___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1BC98510)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SwitchHandSnapshot___c_TypeDefinitionIndex = 24421;
+	inline static constexpr unsigned int SwitchHandSnapshot___c_TypeDefinitionIndex = 24923;
 
 	class SwitchHandSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::SwitchHandSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::SwitchHandSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(SwitchHandSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x3F960);
+			return (::Proto::SwitchHandSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(SwitchHandSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x43B30);
 		}
 
 		static ::System::Void _cctor()

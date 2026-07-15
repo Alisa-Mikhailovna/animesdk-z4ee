@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class SetTriggeredFormationAssetAutoCenter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_F57A1800D9A9E561_DISPOSE_OFFSET UNITYSDK_OFFSET(0x148F1CF0)
-#define CLASS_2_F57A1800D9A9E561_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148F1D30)
-#define CLASS_2_F57A1800D9A9E561_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x148F1E20)
-#define CLASS_2_F57A1800D9A9E561_TICK_OFFSET UNITYSDK_OFFSET(0x148F1E70)
-#define CLASS_2_F57A1800D9A9E561__CTOR_OFFSET UNITYSDK_OFFSET(0x148F1CE0)
+#define CLASS_2_F57A1800D9A9E561_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB594C70)
+#define CLASS_2_F57A1800D9A9E561_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB594CB0)
+#define CLASS_2_F57A1800D9A9E561_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB594E80)
+#define CLASS_2_F57A1800D9A9E561_TICK_OFFSET UNITYSDK_OFFSET(0xB594ED0)
+#define CLASS_2_F57A1800D9A9E561__CTOR_OFFSET UNITYSDK_OFFSET(0xB594C60)
 
-inline static constexpr unsigned int Class_2_F57A1800D9A9E561_TypeDefinitionIndex = 51915;
+inline static constexpr unsigned int Class_2_F57A1800D9A9E561_TypeDefinitionIndex = 53068;
 
 class Class_2_F57A1800D9A9E561 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::RPG::GameCore::SetTriggeredFormationAssetAutoCenter* Field_2_1; // 0x20
+	::RPG::GameCore::SetTriggeredFormationAssetAutoCenter* Field_2_0; // 0x18
+	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTriggeredFormationAssetAutoCenter* a2)
 	{

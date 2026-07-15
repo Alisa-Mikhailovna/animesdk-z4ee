@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEAEONDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A9CB3F0)
-#define RPG_GAMECORE_ROGUEAEONDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9CBC60)
+#define RPG_GAMECORE_ROGUEAEONDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B73B5C0)
+#define RPG_GAMECORE_ROGUEAEONDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73BE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAeonDisplayRow_TypeDefinitionIndex = 14093;
+	inline static constexpr unsigned int RogueAeonDisplayRow_TypeDefinitionIndex = 14241;
 
 	class RogueAeonDisplayRow : public ::System::Object
 	{
 	public:
-		::System::String* AeonIcon; // 0x10
+		::System::String* AeonImage; // 0x10
 		::System::String* AeonBuffIcon; // 0x18
-		::System::String* AeonImage; // 0x20
+		::System::String* AeonIcon; // 0x20
 		::System::String* AeonFigure; // 0x28
 		::RPG::Client::TextID RogueAeonPathName2; // 0x30
 		::RPG::Client::TextID RogueAeonName; // 0x40

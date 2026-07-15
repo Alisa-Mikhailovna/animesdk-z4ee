@@ -9,22 +9,22 @@ namespace RPG::Client { class WolfBroGunProjectile; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_80CDE4F598102C46_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15655E90)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x15656590)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_6C78BE0F58E59620_OFFSET UNITYSDK_OFFSET(0x15655E30)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_9B0996571456B3C9_OFFSET UNITYSDK_OFFSET(0x156562A0)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_B8A8E07261478334_OFFSET UNITYSDK_OFFSET(0x15656500)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_C39609EC9DE1C7BF_OFFSET UNITYSDK_OFFSET(0x15656010)
-#define CLASS_1_80CDE4F598102C46__CTOR_OFFSET UNITYSDK_OFFSET(0x156565A0)
+#define CLASS_1_80CDE4F598102C46_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14A77800)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x14A78010)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_698889FB0CF6CFAD_OFFSET UNITYSDK_OFFSET(0x14A77980)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_6C78BE0F58E59620_OFFSET UNITYSDK_OFFSET(0x14A777A0)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_9B0996571456B3C9_OFFSET UNITYSDK_OFFSET(0x14A77D00)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_B8A8E07261478334_OFFSET UNITYSDK_OFFSET(0x14A77F80)
+#define CLASS_1_80CDE4F598102C46__CTOR_OFFSET UNITYSDK_OFFSET(0x14A78020)
 
-inline static constexpr unsigned int Class_1_80CDE4F598102C46_TypeDefinitionIndex = 64323;
+inline static constexpr unsigned int Class_1_80CDE4F598102C46_TypeDefinitionIndex = 65694;
 
 class Class_1_80CDE4F598102C46 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::RPG::Client::WolfBroGunProjectile*>* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::Class_1_2BF31F3092BDFD9E* Field_1_2; // 0x20
+	::Class_1_2BF31F3092BDFD9E* Field_1_1; // 0x18
+	::UnityEngine::Transform* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -41,9 +41,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_80CDE4F598102C46_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_C39609EC9DE1C7BF(::System::Single a1, ::System::Single a2, ::System::Single a3)
+	::System::Void Method_1_698889FB0CF6CFAD(::System::Single a1, ::System::Single a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_80CDE4F598102C46_METHOD_1_C39609EC9DE1C7BF_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_80CDE4F598102C46_METHOD_1_698889FB0CF6CFAD_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_1_9B0996571456B3C9(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::RPG::Client::WolfBroGunProjectile* a3, ::Class_3_07C3C4D2990C49EE* a4)

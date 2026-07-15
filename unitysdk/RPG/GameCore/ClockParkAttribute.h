@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKATTRIBUTE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A310A30)
-#define RPG_GAMECORE_CLOCKPARKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A310BA0)
+#define RPG_GAMECORE_CLOCKPARKATTRIBUTE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B360060)
+#define RPG_GAMECORE_CLOCKPARKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3601D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkAttribute_TypeDefinitionIndex = 10721;
+	inline static constexpr unsigned int ClockParkAttribute_TypeDefinitionIndex = 10771;
 
 	class ClockParkAttribute : public ::System::Object
 	{
 	public:
-		::System::UInt32 AttributeB; // 0x10
-		::System::UInt32 AttributeA; // 0x14
-		::System::UInt32 AttributeC; // 0x18
+		::System::UInt32 AttributeC; // 0x10
+		::System::UInt32 AttributeB; // 0x14
+		::System::UInt32 AttributeA; // 0x18
 
 		::System::Void _ctor()
 		{

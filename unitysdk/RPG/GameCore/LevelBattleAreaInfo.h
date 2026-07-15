@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DistrictAudioRTPCConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x18E62170)
-#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E62130)
-#define RPG_GAMECORE_LEVELBATTLEAREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E62160)
+#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B551120)
+#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5510E0)
+#define RPG_GAMECORE_LEVELBATTLEAREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B551110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBattleAreaInfo_TypeDefinitionIndex = 16417;
+	inline static constexpr unsigned int LevelBattleAreaInfo_TypeDefinitionIndex = 16579;
 
 	class LevelBattleAreaInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

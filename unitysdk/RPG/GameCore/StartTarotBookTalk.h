@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_1270546EF6CFEB0C_OFFSET UNITYSDK_OFFSET(0x1934AAC0)
-#define RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_58B68D37C7307098_OFFSET UNITYSDK_OFFSET(0x1934ABD0)
-#define RPG_GAMECORE_STARTTAROTBOOKTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1934ABA0)
+#define RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_0E5F1A49FBFF66D5_OFFSET UNITYSDK_OFFSET(0x1B90B6D0)
+#define RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_58B68D37C7307098_OFFSET UNITYSDK_OFFSET(0x1B90B7A0)
+#define RPG_GAMECORE_STARTTAROTBOOKTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90B790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartTarotBookTalk_TypeDefinitionIndex = 19972;
+	inline static constexpr unsigned int StartTarotBookTalk_TypeDefinitionIndex = 20343;
 
 	class StartTarotBookTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1270546EF6CFEB0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartTarotBookTalk*& a2)
+		static ::System::Void Method_3_0E5F1A49FBFF66D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartTarotBookTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartTarotBookTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_1270546EF6CFEB0C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartTarotBookTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTTAROTBOOKTALK_METHOD_3_0E5F1A49FBFF66D5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_58B68D37C7307098(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartTarotBookTalk* a2)

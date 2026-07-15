@@ -7,12 +7,12 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17E31700)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x17E316D0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC98D2E0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xC98D2B0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraUseAbilityCommand_TypeDefinitionIndex = 71201;
+	inline static constexpr unsigned int ChimeraUseAbilityCommand_TypeDefinitionIndex = 72714;
 
 	class ChimeraUseAbilityCommand : public ::System::Object
 	{

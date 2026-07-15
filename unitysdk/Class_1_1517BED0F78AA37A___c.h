@@ -5,22 +5,22 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_1517BED0F78AA37A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x147CE3C0)
-#define CLASS_1_1517BED0F78AA37A___C__CTOR_OFFSET UNITYSDK_OFFSET(0x147CE400)
-#define CLASS_1_1517BED0F78AA37A___C___CTOR_B__30_0_OFFSET UNITYSDK_OFFSET(0x147CE410)
+#define CLASS_1_1517BED0F78AA37A___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB60B3A0)
+#define CLASS_1_1517BED0F78AA37A___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB60B3E0)
+#define CLASS_1_1517BED0F78AA37A___C___CTOR_B__30_0_OFFSET UNITYSDK_OFFSET(0xB60B3F0)
 
-inline static constexpr unsigned int Class_1_1517BED0F78AA37A___c_TypeDefinitionIndex = 45089;
+inline static constexpr unsigned int Class_1_1517BED0F78AA37A___c_TypeDefinitionIndex = 46007;
 
 class Class_1_1517BED0F78AA37A___c : public ::System::Object
 {
 public:
 	static ::Class_1_1517BED0F78AA37A___c** StaticGet___9()
 	{
-		return (::Class_1_1517BED0F78AA37A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1517BED0F78AA37A___c_TypeDefinitionIndex)->GetStaticField(0x14550);
+		return (::Class_1_1517BED0F78AA37A___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1517BED0F78AA37A___c_TypeDefinitionIndex)->GetStaticField(0x6BE60);
 	}
 	static ::System::Func_2<::UnityEngine::Material*, ::UnityEngine::Material*>** StaticGet___9__30_0()
 	{
-		return (::System::Func_2<::UnityEngine::Material*, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1517BED0F78AA37A___c_TypeDefinitionIndex)->GetStaticField(0x14558);
+		return (::System::Func_2<::UnityEngine::Material*, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1517BED0F78AA37A___c_TypeDefinitionIndex)->GetStaticField(0x6BE68);
 	}
 
 	static ::System::Void _cctor()

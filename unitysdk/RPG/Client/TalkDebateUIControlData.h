@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TALKDEBATEUICONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x180AB3A0)
+#define RPG_CLIENT_TALKDEBATEUICONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD609480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkDebateUIControlData_TypeDefinitionIndex = 56721;
+	inline static constexpr unsigned int TalkDebateUIControlData_TypeDefinitionIndex = 57967;
 
 	class TalkDebateUIControlData : public ::System::Object
 	{
 	public:
-		::System::Boolean AskBtnGray; // 0x10
-		::System::Boolean NextBtnActive; // 0x11
-		::System::Boolean PrevBtnActive; // 0x12
-		::System::Boolean AskBtnActive; // 0x13
-		::System::Boolean ShowBtnActive; // 0x14
+		::System::Boolean AskBtnActive; // 0x10
+		::System::Boolean ShowBtnActive; // 0x11
+		::System::Boolean NextBtnActive; // 0x12
+		::System::Boolean PrevBtnActive; // 0x13
+		::System::Boolean AskBtnGray; // 0x14
 
 		::System::Void _ctor()
 		{

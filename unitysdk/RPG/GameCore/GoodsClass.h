@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GOODSCLASS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CAD750)
-#define RPG_GAMECORE_GOODSCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAD840)
+#define RPG_GAMECORE_GOODSCLASS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4CC530)
+#define RPG_GAMECORE_GOODSCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CC620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GoodsClass_TypeDefinitionIndex = 12009;
+	inline static constexpr unsigned int GoodsClass_TypeDefinitionIndex = 12141;
 
 	class GoodsClass : public ::System::Object
 	{

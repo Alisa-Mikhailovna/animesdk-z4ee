@@ -11,37 +11,37 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class ShaderVariantCollection; }
 
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x12AF7A30)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_305D7772FC4F3138_OFFSET UNITYSDK_OFFSET(0x12AF9380)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_4C43A8AF5B60FD19_OFFSET UNITYSDK_OFFSET(0x12AF7E50)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0x12AF8640)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_8A01D6F684F8A8D9_OFFSET UNITYSDK_OFFSET(0x12AF88A0)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_A567C742752EF5B0_OFFSET UNITYSDK_OFFSET(0x12AF7B30)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_ACDA63219002AD85_OFFSET UNITYSDK_OFFSET(0x12AF8BF0)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_B2C0ADBFEA309440_OFFSET UNITYSDK_OFFSET(0x12AF8470)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_CADDC201B8653321_OFFSET UNITYSDK_OFFSET(0x12AF8030)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_F90E0BD1B4F23E4F_OFFSET UNITYSDK_OFFSET(0x12AF8D70)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x12AF9710)
-#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x12AF79B0)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xD8E89D0)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_305D7772FC4F3138_OFFSET UNITYSDK_OFFSET(0xD8EA370)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_4C43A8AF5B60FD19_OFFSET UNITYSDK_OFFSET(0xD8E8EB0)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_737220D2233A9067_OFFSET UNITYSDK_OFFSET(0xD8E9630)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_8A01D6F684F8A8D9_OFFSET UNITYSDK_OFFSET(0xD8E9890)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_A2DA8C12B45FA979_OFFSET UNITYSDK_OFFSET(0xD8E8AD0)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_ACDA63219002AD85_OFFSET UNITYSDK_OFFSET(0xD8E9BE0)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_B2C0ADBFEA309440_OFFSET UNITYSDK_OFFSET(0xD8E9460)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_EA5FB0DE0563D2A7_OFFSET UNITYSDK_OFFSET(0xD8E9090)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_F90E0BD1B4F23E4F_OFFSET UNITYSDK_OFFSET(0xD8E9D60)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8EA700)
+#define RPG_EDITOR_SHADERPASSVARIENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD8E8950)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int ShaderPassVarientCollection_TypeDefinitionIndex = 48624;
+	inline static constexpr unsigned int ShaderPassVarientCollection_TypeDefinitionIndex = 49637;
 
 	class ShaderPassVarientCollection : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet__NoRuntimePassName()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShaderPassVarientCollection_TypeDefinitionIndex)->GetStaticField(0x5DF00);
-		}
 		static ::System::String** StaticGet__AssetPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderPassVarientCollection_TypeDefinitionIndex)->GetStaticField(0x5DF08);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShaderPassVarientCollection_TypeDefinitionIndex)->GetStaticField(0x577D0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__NoRuntimePassName()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShaderPassVarientCollection_TypeDefinitionIndex)->GetStaticField(0x577D8);
 		}
 		static ::RPG::Editor::ShaderPassVarientCollection** StaticGet__Asset()
 		{
-			return (::RPG::Editor::ShaderPassVarientCollection**)Il2CppClass::FromTypeDefinitionIndex(ShaderPassVarientCollection_TypeDefinitionIndex)->GetStaticField(0x5DF10);
+			return (::RPG::Editor::ShaderPassVarientCollection**)Il2CppClass::FromTypeDefinitionIndex(ShaderPassVarientCollection_TypeDefinitionIndex)->GetStaticField(0x577E0);
 		}
 		::System::Collections::Generic::List_1<::RPG::Editor::ShaderPassVarientCollection_SPVC*>* SPVCs; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* _SPVCollection; // 0x20
@@ -61,14 +61,14 @@ namespace RPG::Editor
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_1290EA767C459179_OFFSET))(this);
 		}
 
-		static ::System::Collections::Generic::SortedSet_1<::System::String*>* Method_3_A567C742752EF5B0(::UnityEngine::Material* a1)
+		static ::System::Collections::Generic::SortedSet_1<::System::String*>* Method_3_A2DA8C12B45FA979(::UnityEngine::Material* a1)
 		{
-			return ((::System::Collections::Generic::SortedSet_1<::System::String*>*(*)(::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_A567C742752EF5B0_OFFSET))(a1);
+			return ((::System::Collections::Generic::SortedSet_1<::System::String*>*(*)(::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_A2DA8C12B45FA979_OFFSET))(a1);
 		}
 
-		::System::Void Method_3_CADDC201B8653321(::UnityEngine::Material* a1)
+		::System::Void Method_3_EA5FB0DE0563D2A7(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_CADDC201B8653321_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_EDITOR_SHADERPASSVARIENTCOLLECTION_METHOD_3_EA5FB0DE0563D2A7_OFFSET))(this, a1);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::String*>* Method_3_4C43A8AF5B60FD19(::UnityEngine::Shader* a1, ::System::String* a2)

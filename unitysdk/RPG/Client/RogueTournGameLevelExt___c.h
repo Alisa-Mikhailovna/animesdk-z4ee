@@ -5,24 +5,24 @@
 namespace RPG::Client { class IRogueTournGameLevelLayer; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNGAMELEVELEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E01AD0)
-#define RPG_CLIENT_ROGUETOURNGAMELEVELEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E01B00)
-#define RPG_CLIENT_ROGUETOURNGAMELEVELEXT___C__ROOMCOUNT_B__1_0_OFFSET UNITYSDK_OFFSET(0x18D502E0)
+#define RPG_CLIENT_ROGUETOURNGAMELEVELEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD43AB90)
+#define RPG_CLIENT_ROGUETOURNGAMELEVELEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD43ABC0)
+#define RPG_CLIENT_ROGUETOURNGAMELEVELEXT___C__ROOMCOUNT_B__1_0_OFFSET UNITYSDK_OFFSET(0xD43ABD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournGameLevelExt___c_TypeDefinitionIndex = 63279;
+	inline static constexpr unsigned int RogueTournGameLevelExt___c_TypeDefinitionIndex = 64646;
 
 	class RogueTournGameLevelExt___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::IRogueTournGameLevelLayer*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournGameLevelLayer*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournGameLevelExt___c_TypeDefinitionIndex)->GetStaticField(0x36900);
+			return (::System::Func_2<::RPG::Client::IRogueTournGameLevelLayer*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournGameLevelExt___c_TypeDefinitionIndex)->GetStaticField(0x2B550);
 		}
 		static ::RPG::Client::RogueTournGameLevelExt___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournGameLevelExt___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournGameLevelExt___c_TypeDefinitionIndex)->GetStaticField(0x36908);
+			return (::RPG::Client::RogueTournGameLevelExt___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournGameLevelExt___c_TypeDefinitionIndex)->GetStaticField(0x2B558);
 		}
 
 		static ::System::Void _cctor()

@@ -7,27 +7,27 @@ namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_E84B715B4BB2E65F_GET_FINISH_OFFSET UNITYSDK_OFFSET(0x145977C0)
-#define CLASS_1_E84B715B4BB2E65F_METHOD_1_63EDAB3EFF913F92_OFFSET UNITYSDK_OFFSET(0x14597440)
-#define CLASS_1_E84B715B4BB2E65F_SET_FINISH_OFFSET UNITYSDK_OFFSET(0x145977D0)
-#define CLASS_1_E84B715B4BB2E65F__CTOR_OFFSET UNITYSDK_OFFSET(0x145977E0)
+#define CLASS_1_E84B715B4BB2E65F_GET_FINISH_OFFSET UNITYSDK_OFFSET(0xAF04590)
+#define CLASS_1_E84B715B4BB2E65F_METHOD_1_63EDAB3EFF913F92_OFFSET UNITYSDK_OFFSET(0xAF04210)
+#define CLASS_1_E84B715B4BB2E65F_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xAF045A0)
+#define CLASS_1_E84B715B4BB2E65F__CTOR_OFFSET UNITYSDK_OFFSET(0xAF045B0)
 
-inline static constexpr unsigned int Class_1_E84B715B4BB2E65F_TypeDefinitionIndex = 73046;
+inline static constexpr unsigned int Class_1_E84B715B4BB2E65F_TypeDefinitionIndex = 74571;
 
 class Class_1_E84B715B4BB2E65F : public ::System::Object
 {
 public:
 	::UnityEngine::AnimationCurve* Field_1_0; // 0x10
-	::UnityEngine::Transform* Field_1_1; // 0x18
-	::UnityEngine::AnimationCurve* Field_1_2; // 0x20
-	::RPG::Client::Prop::DeployPuzzleBoard* Field_1_3; // 0x28
-	::System::Action* Field_1_4; // 0x30
+	::System::Action* Field_1_1; // 0x18
+	::RPG::Client::Prop::DeployPuzzleBoard* Field_1_2; // 0x20
+	::UnityEngine::Transform* Field_1_3; // 0x28
+	::UnityEngine::AnimationCurve* Field_1_4; // 0x30
 	::System::Boolean _Finish_k__BackingField; // 0x38
 	::System::Boolean Field_1_6; // 0x39
 	::System::Boolean Field_1_7; // 0x3A
 	::System::Single Field_1_8; // 0x3C
-	::System::UInt32 Field_1_9; // 0x40
-	::System::Single Field_1_10; // 0x44
+	::System::Single Field_1_9; // 0x40
+	::System::UInt32 Field_1_10; // 0x44
 
 	::System::Void _ctor()
 	{

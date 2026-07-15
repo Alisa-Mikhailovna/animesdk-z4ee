@@ -6,17 +6,15 @@
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xEF19640)
-#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_METHOD_4_063FB1EC4B878066_OFFSET UNITYSDK_OFFSET(0xEF19760)
-#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xEF196B0)
-#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xEF19840)
-#define RPG_GAMECORE_STATEREMAINTIMETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xEF198E0)
-#define RPG_GAMECORE_STATEREMAINTIMETRIGGER___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xEF198F0)
-#define RPG_GAMECORE_STATEREMAINTIMETRIGGER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xEF19900)
+#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xDB4BBF0)
+#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_METHOD_4_063FB1EC4B878066_OFFSET UNITYSDK_OFFSET(0xDB4BD10)
+#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xDB4BC60)
+#define RPG_GAMECORE_STATEREMAINTIMETRIGGER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDB4BDF0)
+#define RPG_GAMECORE_STATEREMAINTIMETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xDB4BE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateRemainTimeTrigger_TypeDefinitionIndex = 53698;
+	inline static constexpr unsigned int StateRemainTimeTrigger_TypeDefinitionIndex = 54917;
 
 	class StateRemainTimeTrigger : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -51,16 +49,6 @@ namespace RPG::GameCore
 		::System::Void Method_4_063FB1EC4B878066(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATEREMAINTIMETRIGGER_METHOD_4_063FB1EC4B878066_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATEREMAINTIMETRIGGER___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATEREMAINTIMETRIGGER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

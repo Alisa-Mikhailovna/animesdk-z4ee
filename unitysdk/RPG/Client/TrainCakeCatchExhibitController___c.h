@@ -6,44 +6,44 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164546E0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16454710)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_CATEFFECT_B__40_0_OFFSET UNITYSDK_OFFSET(0x1810D310)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_CATTREEATTACHPOINT_B__39_0_OFFSET UNITYSDK_OFFSET(0x1810D2D0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_CATTREEGROUPINSTANCEID_B__38_0_OFFSET UNITYSDK_OFFSET(0x16454760)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_GROUNDANCHOR_B__35_0_OFFSET UNITYSDK_OFFSET(0x16454720)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_VOICECD_B__41_0_OFFSET UNITYSDK_OFFSET(0x1810D380)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD6E4250)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD6E4290)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_CATEFFECT_B__40_0_OFFSET UNITYSDK_OFFSET(0xD6E4380)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_CATTREEATTACHPOINT_B__39_0_OFFSET UNITYSDK_OFFSET(0xD6E4340)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_CATTREEGROUPINSTANCEID_B__38_0_OFFSET UNITYSDK_OFFSET(0xD6E42E0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_GROUNDANCHOR_B__35_0_OFFSET UNITYSDK_OFFSET(0xD6E42A0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER___C___INITCONSTVALUE_VOICECD_B__41_0_OFFSET UNITYSDK_OFFSET(0xD6E43F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainCakeCatchExhibitController___c_TypeDefinitionIndex = 56278;
+	inline static constexpr unsigned int TrainCakeCatchExhibitController___c_TypeDefinitionIndex = 57517;
 
 	class TrainCakeCatchExhibitController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>** StaticGet___9__39_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x506D0);
-		}
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>** StaticGet___9__35_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x506D8);
-		}
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Single>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x506E0);
-		}
-		static ::RPG::Client::TrainCakeCatchExhibitController___c** StaticGet___9()
-		{
-			return (::RPG::Client::TrainCakeCatchExhibitController___c**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x506E8);
-		}
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Single>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x506F0);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x45450);
 		}
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x506F8);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x45458);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>** StaticGet___9__35_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x45460);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x45468);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Single>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x45470);
+		}
+		static ::RPG::Client::TrainCakeCatchExhibitController___c** StaticGet___9()
+		{
+			return (::RPG::Client::TrainCakeCatchExhibitController___c**)Il2CppClass::FromTypeDefinitionIndex(TrainCakeCatchExhibitController___c_TypeDefinitionIndex)->GetStaticField(0x45478);
 		}
 
 		static ::System::Void _cctor()

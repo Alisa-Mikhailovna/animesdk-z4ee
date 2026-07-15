@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_78EC730B7770068F_TweenAnimState_TypeDefinitionIndex = 67020;
+inline static constexpr unsigned int Class_2_78EC730B7770068F_TweenAnimState_TypeDefinitionIndex = 68464;
 
 enum class Class_2_78EC730B7770068F_TweenAnimState : ::System::Int32
 {

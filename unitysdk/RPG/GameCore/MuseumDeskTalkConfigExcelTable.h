@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x190F4230)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x190F4100)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x190F3DF0)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x190F40A0)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x190F43C0)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x190F3E70)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x190F4400)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x190F45D0)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x190F4900)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x190F4C20)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x190F4530)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x190F4490)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B63CE30)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B63CD00)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B63C9F0)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B63CCA0)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B63CFC0)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B63CA70)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B63D000)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B63D1D0)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B63D500)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B63D820)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B63D130)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B63D090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex = 13583;
+	inline static constexpr unsigned int MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex = 13731;
 
 	class MuseumDeskTalkConfigExcelTable : public ::System::Object
 	{
 	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4A190);
+		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x30540);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4A198);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MuseumDeskTalkConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MuseumDeskTalkConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x30548);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x30550);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA150);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MuseumDeskTalkConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4A1A0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA151);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC7F0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MuseumDeskTalkConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xC7F1);
 		}
 
 		static ::System::Void _cctor()

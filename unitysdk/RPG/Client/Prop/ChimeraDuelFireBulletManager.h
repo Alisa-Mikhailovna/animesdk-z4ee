@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 namespace RPG::Client { class AttachPointMapping; }
-namespace RPG::Client::Prop { class ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E; }
+namespace RPG::Client::Prop { class ChimeraDuelFireBulletManager_Class_1_8402D2BE33240C4F; }
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace RPG::GameCore { class ChimeraDuelFireBulletNode; }
 namespace System { class Action; }
@@ -11,21 +11,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_FIREBULLET_OFFSET UNITYSDK_OFFSET(0x166DD200)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x166DC240)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_3F07804D8892197E_OFFSET UNITYSDK_OFFSET(0x166DDA20)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_99382C0940D13276_OFFSET UNITYSDK_OFFSET(0x166DD480)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x166DD1C0)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x166DD180)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x166DC370)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_START_OFFSET UNITYSDK_OFFSET(0x166DC190)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0x166DCAB0)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_UNINIT_OFFSET UNITYSDK_OFFSET(0x166DC900)
-#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x166DDC60)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_FIREBULLET_OFFSET UNITYSDK_OFFSET(0xD110320)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0xD10F360)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_3F07804D8892197E_OFFSET UNITYSDK_OFFSET(0xD110B40)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_99382C0940D13276_OFFSET UNITYSDK_OFFSET(0xD1105A0)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xD1102E0)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD1102A0)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD10F490)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_START_OFFSET UNITYSDK_OFFSET(0xD10F2B0)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_TICK_OFFSET UNITYSDK_OFFSET(0xD10FBD0)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_UNINIT_OFFSET UNITYSDK_OFFSET(0xD10FA20)
+#define RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD110D70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelFireBulletManager_TypeDefinitionIndex = 72818;
+	inline static constexpr unsigned int ChimeraDuelFireBulletManager_TypeDefinitionIndex = 74343;
 
 	class ChimeraDuelFireBulletManager : public ::UnityEngine::MonoBehaviour
 	{
@@ -34,7 +34,7 @@ namespace RPG::Client::Prop
 		::UnityEngine::AnimationCurve* YCurveRate; // 0x20
 		::UnityEngine::AnimationCurve* XCurveRate; // 0x28
 		::System::Collections::Generic::List_1<::System::Action*>* Field_5_3; // 0x30
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E*>*>* Field_5_4; // 0x38
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraDuelFireBulletManager_Class_1_8402D2BE33240C4F*>*>* Field_5_4; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -81,9 +81,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>*, ::RPG::GameCore::ChimeraDuelFireBulletNode*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_FIREBULLET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_99382C0940D13276(::UnityEngine::GameObject* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E*>*& a3)
+		::System::Void Method_5_99382C0940D13276(::UnityEngine::GameObject* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode* a2, ::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraDuelFireBulletManager_Class_1_8402D2BE33240C4F*>*& a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::GameCore::ChimeraDuelFireBulletNode*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraDuelFireBulletManager_Class_1_26BE6DE297B5BB4E*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_99382C0940D13276_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::GameCore::ChimeraDuelFireBulletNode*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimeraDuelFireBulletManager_Class_1_8402D2BE33240C4F*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELFIREBULLETMANAGER_METHOD_5_99382C0940D13276_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Method_5_3F07804D8892197E(::System::Int32 a1)

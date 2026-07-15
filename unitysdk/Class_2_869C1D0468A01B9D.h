@@ -3,11 +3,10 @@
 #include "unitysdk/Class_1_05B2DA0FB841F389.h"
 #include "unitysdk/RPG/GameCore/FiveDimOrthoDirection.h"
 
-#define CLASS_2_869C1D0468A01B9D_CLEAR_OFFSET UNITYSDK_OFFSET(0x15F85BC0)
-#define CLASS_2_869C1D0468A01B9D__CTOR_OFFSET UNITYSDK_OFFSET(0x15F85C70)
-#define CLASS_2_869C1D0468A01B9D___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x15F85C80)
+#define CLASS_2_869C1D0468A01B9D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A7A67D0)
+#define CLASS_2_869C1D0468A01B9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A6870)
 
-inline static constexpr unsigned int Class_2_869C1D0468A01B9D_TypeDefinitionIndex = 40117;
+inline static constexpr unsigned int Class_2_869C1D0468A01B9D_TypeDefinitionIndex = 40930;
 
 class Class_2_869C1D0468A01B9D : public ::Class_1_05B2DA0FB841F389
 {
@@ -23,10 +22,5 @@ public:
 	::System::Void Clear()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_869C1D0468A01B9D_CLEAR_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_869C1D0468A01B9D___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 	}
 };

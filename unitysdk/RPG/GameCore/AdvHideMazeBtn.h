@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVHIDEMAZEBTN_METHOD_3_2BD129A5BA042A9A_OFFSET UNITYSDK_OFFSET(0x19BE35D0)
-#define RPG_GAMECORE_ADVHIDEMAZEBTN_METHOD_3_6B6473CDF47A4A0C_OFFSET UNITYSDK_OFFSET(0x19BE3650)
-#define RPG_GAMECORE_ADVHIDEMAZEBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x19BE3620)
+#define RPG_GAMECORE_ADVHIDEMAZEBTN_METHOD_3_450730003F6DDAEB_OFFSET UNITYSDK_OFFSET(0x1B154D30)
+#define RPG_GAMECORE_ADVHIDEMAZEBTN_METHOD_3_6B6473CDF47A4A0C_OFFSET UNITYSDK_OFFSET(0x1B154D80)
+#define RPG_GAMECORE_ADVHIDEMAZEBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B154D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvHideMazeBtn_TypeDefinitionIndex = 22537;
+	inline static constexpr unsigned int AdvHideMazeBtn_TypeDefinitionIndex = 22988;
 
 	class AdvHideMazeBtn : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVHIDEMAZEBTN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2BD129A5BA042A9A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvHideMazeBtn*& a2)
+		static ::System::Void Method_3_450730003F6DDAEB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvHideMazeBtn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvHideMazeBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVHIDEMAZEBTN_METHOD_3_2BD129A5BA042A9A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvHideMazeBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVHIDEMAZEBTN_METHOD_3_450730003F6DDAEB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6B6473CDF47A4A0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvHideMazeBtn* a2)

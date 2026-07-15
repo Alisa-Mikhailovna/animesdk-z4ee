@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LINEUPMAZEBUFFDATA_METHOD_2_F05E48DA6C73226C_OFFSET UNITYSDK_OFFSET(0x1A11DBE0)
-#define RPG_GAMECORE_LINEUPMAZEBUFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11DDA0)
+#define RPG_GAMECORE_LINEUPMAZEBUFFDATA_METHOD_2_F05E48DA6C73226C_OFFSET UNITYSDK_OFFSET(0x1B57C340)
+#define RPG_GAMECORE_LINEUPMAZEBUFFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57C500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupMazeBuffData_TypeDefinitionIndex = 17240;
+	inline static constexpr unsigned int LineupMazeBuffData_TypeDefinitionIndex = 17402;
 
 	class LineupMazeBuffData : public ::RPG::GameCore::JsonConfig
 	{

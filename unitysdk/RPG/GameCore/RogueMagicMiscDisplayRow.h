@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICMISCDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EC3800)
-#define RPG_GAMECORE_ROGUEMAGICMISCDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC3980)
+#define RPG_GAMECORE_ROGUEMAGICMISCDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B76B510)
+#define RPG_GAMECORE_ROGUEMAGICMISCDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76B690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicMiscDisplayRow_TypeDefinitionIndex = 14141;
+	inline static constexpr unsigned int RogueMagicMiscDisplayRow_TypeDefinitionIndex = 14289;
 
 	class RogueMagicMiscDisplayRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID DisplayContent; // 0x10
-		::System::UInt32 DisplayID; // 0x20
+		::System::UInt32 DisplayID; // 0x10
+		::RPG::Client::TextID DisplayContent; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -9,59 +9,59 @@ namespace HoudiniEngineUnity { class HEU_MaterialData; }
 namespace HoudiniEngineUnity { class HEU_ObjectNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1050B9F0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDCURVES_B__372_0_OFFSET UNITYSDK_OFFSET(0x1050BAC0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDLISTS_B__403_0_OFFSET UNITYSDK_OFFSET(0x1050BAE0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDLISTS_B__403_1_OFFSET UNITYSDK_OFFSET(0x1050BB00)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDLISTS_B__403_2_OFFSET UNITYSDK_OFFSET(0x1050BB20)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1050BA30)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__DOPOSTCOOKWORK_B__312_0_OFFSET UNITYSDK_OFFSET(0x1050BA60)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__GETNONPARAMETERINPUTNODES_B__274_0_OFFSET UNITYSDK_OFFSET(0x1050BA40)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__UPLOADATTRIBUTEVALUES_B__335_0_OFFSET UNITYSDK_OFFSET(0x1050BAA0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__UPLOADCURVESPARAMETERS_B__334_0_OFFSET UNITYSDK_OFFSET(0x1050BA80)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1989E130)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDCURVES_B__372_0_OFFSET UNITYSDK_OFFSET(0x1989E200)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDLISTS_B__403_0_OFFSET UNITYSDK_OFFSET(0x1989E220)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDLISTS_B__403_1_OFFSET UNITYSDK_OFFSET(0x1989E240)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CLEARINVALIDLISTS_B__403_2_OFFSET UNITYSDK_OFFSET(0x1989E260)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1989E170)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__DOPOSTCOOKWORK_B__312_0_OFFSET UNITYSDK_OFFSET(0x1989E1A0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__GETNONPARAMETERINPUTNODES_B__274_0_OFFSET UNITYSDK_OFFSET(0x1989E180)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__UPLOADATTRIBUTEVALUES_B__335_0_OFFSET UNITYSDK_OFFSET(0x1989E1E0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__UPLOADCURVESPARAMETERS_B__334_0_OFFSET UNITYSDK_OFFSET(0x1989E1C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniAsset___c_TypeDefinitionIndex = 37434;
+	inline static constexpr unsigned int HEU_HoudiniAsset___c_TypeDefinitionIndex = 38242;
 
 	class HEU_HoudiniAsset___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>** StaticGet___9__372_0()
+		static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>** StaticGet___9__334_0()
 		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCA90);
-		}
-		static ::HoudiniEngineUnity::HEU_HoudiniAsset___c** StaticGet___9()
-		{
-			return (::HoudiniEngineUnity::HEU_HoudiniAsset___c**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCA98);
-		}
-		static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>** StaticGet___9__403_1()
-		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCAA0);
-		}
-		static ::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>** StaticGet___9__312_0()
-		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCAA8);
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE760);
 		}
 		static ::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData*, ::System::Boolean>** StaticGet___9__403_2()
 		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCAB0);
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_MaterialData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE768);
 		}
-		static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>** StaticGet___9__334_0()
+		static ::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>** StaticGet___9__312_0()
 		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCAB8);
-		}
-		static ::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>** StaticGet___9__403_0()
-		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCAC0);
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE770);
 		}
 		static ::System::Func_2<::HoudiniEngineUnity::HEU_AttributesStore*, ::System::Boolean>** StaticGet___9__335_0()
 		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_AttributesStore*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCAC8);
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_AttributesStore*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE778);
+		}
+		static ::HoudiniEngineUnity::HEU_HoudiniAsset___c** StaticGet___9()
+		{
+			return (::HoudiniEngineUnity::HEU_HoudiniAsset___c**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE780);
+		}
+		static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>** StaticGet___9__403_1()
+		{
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE788);
 		}
 		static ::System::Func_2<::HoudiniEngineUnity::HEU_InputNode*, ::System::Boolean>** StaticGet___9__274_0()
 		{
-			return (::System::Func_2<::HoudiniEngineUnity::HEU_InputNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xCAD0);
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_InputNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE790);
+		}
+		static ::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>** StaticGet___9__372_0()
+		{
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_Curve*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE798);
+		}
+		static ::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>** StaticGet___9__403_0()
+		{
+			return (::System::Func_2<::HoudiniEngineUnity::HEU_ObjectNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(HEU_HoudiniAsset___c_TypeDefinitionIndex)->GetStaticField(0xE7A0);
 		}
 
 		static ::System::Void _cctor()

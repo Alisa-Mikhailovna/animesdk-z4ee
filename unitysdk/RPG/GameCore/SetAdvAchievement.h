@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETADVACHIEVEMENT_METHOD_3_51AC3CD5979E84DB_OFFSET UNITYSDK_OFFSET(0x1A1E12A0)
-#define RPG_GAMECORE_SETADVACHIEVEMENT_METHOD_3_8F37A776CD80AB80_OFFSET UNITYSDK_OFFSET(0x1A1E1320)
-#define RPG_GAMECORE_SETADVACHIEVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E12F0)
+#define RPG_GAMECORE_SETADVACHIEVEMENT_METHOD_3_0D4D94F399DA3899_OFFSET UNITYSDK_OFFSET(0x1B8834A0)
+#define RPG_GAMECORE_SETADVACHIEVEMENT_METHOD_3_8F37A776CD80AB80_OFFSET UNITYSDK_OFFSET(0x1B8834E0)
+#define RPG_GAMECORE_SETADVACHIEVEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8834D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAdvAchievement_TypeDefinitionIndex = 19421;
+	inline static constexpr unsigned int SetAdvAchievement_TypeDefinitionIndex = 19779;
 
 	class SetAdvAchievement : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVACHIEVEMENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_51AC3CD5979E84DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvAchievement*& a2)
+		static ::System::Void Method_3_0D4D94F399DA3899(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvAchievement*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAdvAchievement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVACHIEVEMENT_METHOD_3_51AC3CD5979E84DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAdvAchievement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVACHIEVEMENT_METHOD_3_0D4D94F399DA3899_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8F37A776CD80AB80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvAchievement* a2)

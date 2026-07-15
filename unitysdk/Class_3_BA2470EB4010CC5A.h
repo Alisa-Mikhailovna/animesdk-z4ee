@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WorkNode_1.h"
 
-namespace System { class Action; }
+class Class_1_9E350A19BBA25CA5;
 
-#define CLASS_3_BA2470EB4010CC5A_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0x16A9D1F0)
-#define CLASS_3_BA2470EB4010CC5A__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9D250)
-#define CLASS_3_BA2470EB4010CC5A___IFIXBASEPROXY_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0x16A9D270)
+#define CLASS_3_BA2470EB4010CC5A_METHOD_3_F5447CD65612575D_OFFSET UNITYSDK_OFFSET(0x14AED2B0)
+#define CLASS_3_BA2470EB4010CC5A_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0x14AED1B0)
+#define CLASS_3_BA2470EB4010CC5A__CTOR_OFFSET UNITYSDK_OFFSET(0x14AED300)
 
-inline static constexpr unsigned int Class_3_BA2470EB4010CC5A_TypeDefinitionIndex = 57073;
+inline static constexpr unsigned int Class_3_BA2470EB4010CC5A_TypeDefinitionIndex = 58338;
 
-class Class_3_BA2470EB4010CC5A : public ::RPG::Client::WorkNode_1<::System::Action*>
+class Class_3_BA2470EB4010CC5A : public ::RPG::Client::WorkNode_1<::Class_1_9E350A19BBA25CA5*>
 {
 public:
 	::System::Void _ctor()
@@ -23,8 +23,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BA2470EB4010CC5A_ONSTARTLOADING_OFFSET))(this);
 	}
 
-	::System::Void __iFixBaseProxy_OnStartLoading()
+	::System::Void Method_3_F5447CD65612575D()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BA2470EB4010CC5A___IFIXBASEPROXY_ONSTARTLOADING_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BA2470EB4010CC5A_METHOD_3_F5447CD65612575D_OFFSET))(this);
 	}
 };

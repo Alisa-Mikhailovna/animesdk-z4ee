@@ -8,16 +8,16 @@ class Class_2_F47F7A3F5E97970D;
 class Class_3_1E4F9B0ED3BF21DE;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define CLASS_1_4CA8CA3CD99A014F_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x172E7E90)
-#define CLASS_1_4CA8CA3CD99A014F__CTOR_OFFSET UNITYSDK_OFFSET(0x172E7DF0)
+#define CLASS_1_4CA8CA3CD99A014F_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x14834690)
+#define CLASS_1_4CA8CA3CD99A014F__CTOR_OFFSET UNITYSDK_OFFSET(0x148345F0)
 
-inline static constexpr unsigned int Class_1_4CA8CA3CD99A014F_TypeDefinitionIndex = 71452;
+inline static constexpr unsigned int Class_1_4CA8CA3CD99A014F_TypeDefinitionIndex = 72977;
 
 class Class_1_4CA8CA3CD99A014F : public ::System::Object
 {
 public:
-	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* Field_1_0; // 0x10
-	::Class_2_F47F7A3F5E97970D* Field_1_1; // 0x18
+	::Class_2_F47F7A3F5E97970D* Field_1_0; // 0x10
+	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* Field_1_1; // 0x18
 	::Class_3_1E4F9B0ED3BF21DE* Field_1_2; // 0x20
 
 	::System::Void _ctor(::Class_1_B4357A1C72BABC6B* a1, ::Class_3_1E4F9B0ED3BF21DE* a2)

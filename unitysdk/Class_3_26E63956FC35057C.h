@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowBattleConditionUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_26E63956FC35057C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B9B360)
-#define CLASS_3_26E63956FC35057C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B9B330)
+#define CLASS_3_26E63956FC35057C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15140CD0)
+#define CLASS_3_26E63956FC35057C__CTOR_OFFSET UNITYSDK_OFFSET(0x15140CA0)
 
-inline static constexpr unsigned int Class_3_26E63956FC35057C_TypeDefinitionIndex = 54754;
+inline static constexpr unsigned int Class_3_26E63956FC35057C_TypeDefinitionIndex = 55981;
 
 class Class_3_26E63956FC35057C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleConditionUI*>
 {

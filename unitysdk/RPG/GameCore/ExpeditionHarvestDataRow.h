@@ -7,23 +7,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EXPEDITIONHARVESTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3FDBA0)
-#define RPG_GAMECORE_EXPEDITIONHARVESTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FDE50)
+#define RPG_GAMECORE_EXPEDITIONHARVESTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B403AB0)
+#define RPG_GAMECORE_EXPEDITIONHARVESTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B403D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionHarvestDataRow_TypeDefinitionIndex = 12625;
+	inline static constexpr unsigned int ExpeditionHarvestDataRow_TypeDefinitionIndex = 12762;
 
 	class ExpeditionHarvestDataRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockCondition; // 0x10
 		::System::String* IconPath; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 Order; // 0x30
-		::System::UInt32 Group; // 0x34
-		::System::UInt32 RewardID; // 0x38
-		::System::UInt32 ExpeditionID; // 0x3C
+		::System::UInt32 Order; // 0x20
+		::System::UInt32 ExpeditionID; // 0x24
+		::System::UInt32 Group; // 0x28
+		::System::UInt32 RewardID; // 0x2C
+		::RPG::Client::TextID Name; // 0x30
 
 		::System::Void _ctor()
 		{

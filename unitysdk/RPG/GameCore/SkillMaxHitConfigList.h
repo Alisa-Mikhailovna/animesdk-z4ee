@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SkillMaxHitConfig; }
 
-#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST_METHOD_2_3758E4AC207715D5_OFFSET UNITYSDK_OFFSET(0x1A015780)
-#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A015840)
+#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST_METHOD_2_3758E4AC207715D5_OFFSET UNITYSDK_OFFSET(0x1B8DED20)
+#define RPG_GAMECORE_SKILLMAXHITCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DEDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillMaxHitConfigList_TypeDefinitionIndex = 15707;
+	inline static constexpr unsigned int SkillMaxHitConfigList_TypeDefinitionIndex = 15881;
 
 	class SkillMaxHitConfigList : public ::RPG::GameCore::JsonConfig
 	{

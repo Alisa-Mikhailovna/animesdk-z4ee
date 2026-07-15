@@ -3,23 +3,23 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-class Class_1_A88C3AAF0DD46F4C_9;
+class Class_1_A88C3AAF0DD46F4C_11;
 
-#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AC0EB0)
-#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC10C0)
+#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B510CF0)
+#define RPG_GAMECORE_HELIOBUSSPECIALPOSTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B510F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusSpecialPostRow_TypeDefinitionIndex = 13099;
+	inline static constexpr unsigned int HeliobusSpecialPostRow_TypeDefinitionIndex = 13247;
 
 	class HeliobusSpecialPostRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PostImgIDList; // 0x10
-		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_9*>* Likes; // 0x18
+		::Il2CppArray<::Class_1_A88C3AAF0DD46F4C_11*>* Likes; // 0x10
+		::Il2CppArray<::System::UInt32>* PostImgIDList; // 0x18
 		::Il2CppArray<::System::UInt32>* TemplateIDList; // 0x20
-		::System::UInt32 HeliobusSpecialPostID; // 0x28
-		::System::UInt32 SubMissionID; // 0x2C
+		::System::UInt32 SubMissionID; // 0x28
+		::System::UInt32 HeliobusSpecialPostID; // 0x2C
 
 		::System::Void _ctor()
 		{

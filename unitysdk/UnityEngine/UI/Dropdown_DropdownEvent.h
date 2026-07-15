@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_UI_DROPDOWN_DROPDOWNEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x183D7020)
+#define UNITYENGINE_UI_DROPDOWN_DROPDOWNEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D11CFD0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Dropdown_DropdownEvent_TypeDefinitionIndex = 5867;
+	inline static constexpr unsigned int Dropdown_DropdownEvent_TypeDefinitionIndex = 5872;
 
 	class Dropdown_DropdownEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Int32>
 	{

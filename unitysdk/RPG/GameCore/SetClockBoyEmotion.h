@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CharacterAtlasFaceEmotion; }
 namespace RPG::GameCore { class ClockFaceEmotion; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCLOCKBOYEMOTION_METHOD_3_5819C42FB30848F6_OFFSET UNITYSDK_OFFSET(0x1A1EB880)
-#define RPG_GAMECORE_SETCLOCKBOYEMOTION_METHOD_3_87BA799B3E845615_OFFSET UNITYSDK_OFFSET(0x1A1EB900)
-#define RPG_GAMECORE_SETCLOCKBOYEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EB8D0)
+#define RPG_GAMECORE_SETCLOCKBOYEMOTION_METHOD_3_87BA799B3E845615_OFFSET UNITYSDK_OFFSET(0x1B88CA40)
+#define RPG_GAMECORE_SETCLOCKBOYEMOTION_METHOD_3_F58F6AD0D18ADC50_OFFSET UNITYSDK_OFFSET(0x1B88CA00)
+#define RPG_GAMECORE_SETCLOCKBOYEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88CA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetClockBoyEmotion_TypeDefinitionIndex = 20673;
+	inline static constexpr unsigned int SetClockBoyEmotion_TypeDefinitionIndex = 21088;
 
 	class SetClockBoyEmotion : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCLOCKBOYEMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5819C42FB30848F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetClockBoyEmotion*& a2)
+		static ::System::Void Method_3_F58F6AD0D18ADC50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetClockBoyEmotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetClockBoyEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCLOCKBOYEMOTION_METHOD_3_5819C42FB30848F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetClockBoyEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCLOCKBOYEMOTION_METHOD_3_F58F6AD0D18ADC50_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_87BA799B3E845615(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetClockBoyEmotion* a2)

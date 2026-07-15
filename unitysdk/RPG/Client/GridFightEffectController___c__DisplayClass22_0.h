@@ -6,19 +6,19 @@ namespace RPG::Client { class GridFightEffectController; }
 namespace RPG::Client { class GridFightGrowUpEffect; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18908770)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS22_0__PLAYHACKCOPYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1890B030)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6D7380)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS22_0__PLAYHACKCOPYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC6D9BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass22_0_TypeDefinitionIndex = 60268;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass22_0_TypeDefinitionIndex = 61557;
 
 	class GridFightEffectController___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEffectController* __4__this; // 0x10
+		::RPG::Client::GridFightGrowUpEffect* effect; // 0x10
 		::System::Action* onFinish; // 0x18
-		::RPG::Client::GridFightGrowUpEffect* effect; // 0x20
+		::RPG::Client::GridFightEffectController* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

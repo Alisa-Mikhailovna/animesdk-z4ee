@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
 
-#define ZXING_ONED_UPCEANWRITER_GET_DEFAULTMARGIN_OFFSET UNITYSDK_OFFSET(0x13CE5410)
-#define ZXING_ONED_UPCEANWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x13CDE810)
+#define ZXING_ONED_UPCEANWRITER_GET_DEFAULTMARGIN_OFFSET UNITYSDK_OFFSET(0x1D2F3F90)
+#define ZXING_ONED_UPCEANWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2ED480)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCEANWriter_TypeDefinitionIndex = 6426;
+	inline static constexpr unsigned int UPCEANWriter_TypeDefinitionIndex = 6431;
 
 	class UPCEANWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{

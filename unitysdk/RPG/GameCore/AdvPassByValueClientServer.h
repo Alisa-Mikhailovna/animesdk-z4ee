@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_0B35E6AF6010E561_OFFSET UNITYSDK_OFFSET(0x19BECD10)
-#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_EE1AFB0521C055F3_OFFSET UNITYSDK_OFFSET(0x19BECC90)
-#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x19BECCE0)
+#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_04796BC54F726CD8_OFFSET UNITYSDK_OFFSET(0x1B15D420)
+#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_0B35E6AF6010E561_OFFSET UNITYSDK_OFFSET(0x1B15D460)
+#define RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B15D450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPassByValueClientServer_TypeDefinitionIndex = 19390;
+	inline static constexpr unsigned int AdvPassByValueClientServer_TypeDefinitionIndex = 19746;
 
 	class AdvPassByValueClientServer : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EE1AFB0521C055F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPassByValueClientServer*& a2)
+		static ::System::Void Method_3_04796BC54F726CD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPassByValueClientServer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPassByValueClientServer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_EE1AFB0521C055F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPassByValueClientServer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPASSBYVALUECLIENTSERVER_METHOD_3_04796BC54F726CD8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0B35E6AF6010E561(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPassByValueClientServer* a2)

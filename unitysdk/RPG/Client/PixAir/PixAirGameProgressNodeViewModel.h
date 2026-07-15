@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/PixAirNodeType.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSNODEVIEWMODEL_GET_PREFABINDEX_OFFSET UNITYSDK_OFFSET(0x1994BFF0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSNODEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1994C160)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSNODEVIEWMODEL_GET_PREFABINDEX_OFFSET UNITYSDK_OFFSET(0xCFC64D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSNODEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC6580)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameProgressNodeViewModel_TypeDefinitionIndex = 73580;
+	inline static constexpr unsigned int PixAirGameProgressNodeViewModel_TypeDefinitionIndex = 75229;
 
 	class PixAirGameProgressNodeViewModel : public ::Sofa::BaseViewModel
 	{

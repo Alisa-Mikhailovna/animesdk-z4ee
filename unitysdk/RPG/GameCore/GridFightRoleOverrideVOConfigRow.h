@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEOVERRIDEVOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1B9AC0)
-#define RPG_GAMECORE_GRIDFIGHTROLEOVERRIDEVOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B9CA0)
+#define RPG_GAMECORE_GRIDFIGHTROLEOVERRIDEVOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E9850)
+#define RPG_GAMECORE_GRIDFIGHTROLEOVERRIDEVOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E9A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleOverrideVOConfigRow_TypeDefinitionIndex = 12905;
+	inline static constexpr unsigned int GridFightRoleOverrideVOConfigRow_TypeDefinitionIndex = 13053;
 
 	class GridFightRoleOverrideVOConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* OverrideVOTag; // 0x10
-		::Il2CppArray<::System::String*>* OverrideVOTypes; // 0x18
-		::Il2CppArray<::System::String*>* ForbidVOTypes; // 0x20
+		::Il2CppArray<::System::String*>* OverrideVOTypes; // 0x10
+		::Il2CppArray<::System::String*>* ForbidVOTypes; // 0x18
+		::System::String* OverrideVOTag; // 0x20
 		::System::UInt32 RoleID; // 0x28
 
 		::System::Void _ctor()

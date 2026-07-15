@@ -7,19 +7,18 @@ namespace RPG::GameCore { class SetDynamicMaterialLoadState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_2CF07219A80CF9A7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18033DC0)
-#define CLASS_3_2CF07219A80CF9A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18033E00)
-#define CLASS_3_2CF07219A80CF9A7__CTOR_OFFSET UNITYSDK_OFFSET(0x18033D90)
-#define CLASS_3_2CF07219A80CF9A7___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x180341E0)
+#define CLASS_3_2CF07219A80CF9A7_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14D01780)
+#define CLASS_3_2CF07219A80CF9A7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14D017C0)
+#define CLASS_3_2CF07219A80CF9A7__CTOR_OFFSET UNITYSDK_OFFSET(0x14D01750)
 
-inline static constexpr unsigned int Class_3_2CF07219A80CF9A7_TypeDefinitionIndex = 51745;
+inline static constexpr unsigned int Class_3_2CF07219A80CF9A7_TypeDefinitionIndex = 52891;
 
 class Class_3_2CF07219A80CF9A7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicMaterialLoadState*>
 {
 public:
 	static ::System::Collections::Generic::List_1<::RPG::Client::DynamicMaterialLoader*>** StaticGet_Field_3_0()
 	{
-		return (::System::Collections::Generic::List_1<::RPG::Client::DynamicMaterialLoader*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_2CF07219A80CF9A7_TypeDefinitionIndex)->GetStaticField(0x67C00);
+		return (::System::Collections::Generic::List_1<::RPG::Client::DynamicMaterialLoader*>**)Il2CppClass::FromTypeDefinitionIndex(Class_3_2CF07219A80CF9A7_TypeDefinitionIndex)->GetStaticField(0x60C90);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicMaterialLoadState* a2)
@@ -35,10 +34,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2CF07219A80CF9A7_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2CF07219A80CF9A7___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

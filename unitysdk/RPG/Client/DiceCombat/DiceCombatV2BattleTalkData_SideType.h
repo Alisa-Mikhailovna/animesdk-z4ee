@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BattleTalkData_SideType_TypeDefinitionIndex = 70725;
+	inline static constexpr unsigned int DiceCombatV2BattleTalkData_SideType_TypeDefinitionIndex = 72238;
 
 	enum class DiceCombatV2BattleTalkData_SideType : ::System::Int32
 	{

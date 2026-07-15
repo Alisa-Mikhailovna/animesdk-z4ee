@@ -11,21 +11,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161A8F70)
-#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__0_OFFSET UNITYSDK_OFFSET(0x161A8F80)
-#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__1_OFFSET UNITYSDK_OFFSET(0x161A90B0)
-#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__2_OFFSET UNITYSDK_OFFSET(0x161A9340)
+#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB3AA890)
+#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__0_OFFSET UNITYSDK_OFFSET(0xB3AC590)
+#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__1_OFFSET UNITYSDK_OFFSET(0xB3AC750)
+#define CLASS_2_1A304D4C36D43D86___C__DISPLAYCLASS81_0__INSTANCERENDERSTUB_B__2_OFFSET UNITYSDK_OFFSET(0xB3ACA60)
 
-inline static constexpr unsigned int Class_2_1A304D4C36D43D86___c__DisplayClass81_0_TypeDefinitionIndex = 68960;
+inline static constexpr unsigned int Class_2_1A304D4C36D43D86___c__DisplayClass81_0_TypeDefinitionIndex = 70487;
 
 class Class_2_1A304D4C36D43D86___c__DisplayClass81_0 : public ::System::Object
 {
 public:
-	::Class_2_1A304D4C36D43D86* __4__this; // 0x10
-	::RPG::Client::MonoRenderPerfOptIndicator* monoRenderPerfOptIndicator; // 0x18
-	::UnityEngine::Animator* animator; // 0x20
-	::UnityEngine::GameObject* instObj; // 0x28
-	::System::Collections::Generic::List_1<::RPG::Client::PolymerEffectControllBase*>* effectController; // 0x30
+	::RPG::Client::MonoRenderPerfOptIndicator* monoRenderPerfOptIndicator; // 0x10
+	::UnityEngine::GameObject* instObj; // 0x18
+	::System::Collections::Generic::List_1<::RPG::Client::PolymerEffectControllBase*>* effectController; // 0x20
+	::UnityEngine::Animator* animator; // 0x28
+	::Class_2_1A304D4C36D43D86* __4__this; // 0x30
 
 	::System::Void _ctor()
 	{

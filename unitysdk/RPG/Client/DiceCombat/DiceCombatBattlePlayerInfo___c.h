@@ -5,24 +5,24 @@
 class Class_1_D508B1981C147C96;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B756D0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B75710)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__HASROLLEDDICERESULT_B__25_0_OFFSET UNITYSDK_OFFSET(0x18B75720)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC20B600)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC20B640)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLEPLAYERINFO___C__HASROLLEDDICERESULT_B__25_0_OFFSET UNITYSDK_OFFSET(0xC20B650)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex = 70619;
+	inline static constexpr unsigned int DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex = 72132;
 
 	class DiceCombatBattlePlayerInfo___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x4E70);
+			return (::RPG::Client::DiceCombat::DiceCombatBattlePlayerInfo___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x651C0);
 		}
 		static ::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x4E78);
+			return (::System::Func_2<::Class_1_D508B1981C147C96*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatBattlePlayerInfo___c_TypeDefinitionIndex)->GetStaticField(0x651C8);
 		}
 
 		static ::System::Void _cctor()

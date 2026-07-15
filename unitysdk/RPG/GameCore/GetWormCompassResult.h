@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_GETWORMCOMPASSRESULT_METHOD_3_78CBB22F6524E5CD_OFFSET UNITYSDK_OFFSET(0x19CAB890)
-#define RPG_GAMECORE_GETWORMCOMPASSRESULT_METHOD_3_F436166FDBFF4F07_OFFSET UNITYSDK_OFFSET(0x19CAB9E0)
-#define RPG_GAMECORE_GETWORMCOMPASSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAB950)
+#define RPG_GAMECORE_GETWORMCOMPASSRESULT_METHOD_3_A8A8B6F119FD4391_OFFSET UNITYSDK_OFFSET(0x1B4C9DE0)
+#define RPG_GAMECORE_GETWORMCOMPASSRESULT_METHOD_3_F436166FDBFF4F07_OFFSET UNITYSDK_OFFSET(0x1B4C9E60)
+#define RPG_GAMECORE_GETWORMCOMPASSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C9E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GetWormCompassResult_TypeDefinitionIndex = 20941;
+	inline static constexpr unsigned int GetWormCompassResult_TypeDefinitionIndex = 21356;
 
 	class GetWormCompassResult : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETWORMCOMPASSRESULT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_78CBB22F6524E5CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GetWormCompassResult*& a2)
+		static ::System::Void Method_3_A8A8B6F119FD4391(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GetWormCompassResult*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GetWormCompassResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETWORMCOMPASSRESULT_METHOD_3_78CBB22F6524E5CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GetWormCompassResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GETWORMCOMPASSRESULT_METHOD_3_A8A8B6F119FD4391_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F436166FDBFF4F07(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GetWormCompassResult* a2)

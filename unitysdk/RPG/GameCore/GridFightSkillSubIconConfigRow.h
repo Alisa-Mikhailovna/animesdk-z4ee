@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSKILLSUBICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1BEF60)
-#define RPG_GAMECORE_GRIDFIGHTSKILLSUBICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BF0F0)
+#define RPG_GAMECORE_GRIDFIGHTSKILLSUBICONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4EEB30)
+#define RPG_GAMECORE_GRIDFIGHTSKILLSUBICONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EECC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSkillSubIconConfigRow_TypeDefinitionIndex = 12894;
+	inline static constexpr unsigned int GridFightSkillSubIconConfigRow_TypeDefinitionIndex = 13042;
 
 	class GridFightSkillSubIconConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SkillID; // 0x10
-		::RPG::GameCore::GridFightSkillSubIconType SubIconType; // 0x14
+		::RPG::GameCore::GridFightSkillSubIconType SubIconType; // 0x10
+		::System::UInt32 SkillID; // 0x14
 		::RPG::GameCore::GridFightRoleSkillComeFrom SkillComeFrom; // 0x18
 
 		::System::Void _ctor()

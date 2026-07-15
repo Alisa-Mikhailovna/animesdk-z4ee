@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_YEARMONTHDURATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18A93D00)
-#define SYSTEM_XML_SCHEMA_DATATYPE_YEARMONTHDURATION_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18A93B20)
-#define SYSTEM_XML_SCHEMA_DATATYPE_YEARMONTHDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18A88F30)
+#define SYSTEM_XML_SCHEMA_DATATYPE_YEARMONTHDURATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB4AE90)
+#define SYSTEM_XML_SCHEMA_DATATYPE_YEARMONTHDURATION_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1CB4ABE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_YEARMONTHDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3DE50)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_yearMonthDuration_TypeDefinitionIndex = 2091;
+	inline static constexpr unsigned int Datatype_yearMonthDuration_TypeDefinitionIndex = 2095;
 
 	class Datatype_yearMonthDuration : public ::System::Xml::Schema::Datatype_duration
 	{

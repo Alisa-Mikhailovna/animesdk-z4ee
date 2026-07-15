@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_IMMUTABLE_IMMUTABLEARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B57A510)
+#define SYSTEM_COLLECTIONS_IMMUTABLE_IMMUTABLEARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA14AD0)
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableArray_TypeDefinitionIndex = 6987;
+	inline static constexpr unsigned int ImmutableArray_TypeDefinitionIndex = 6993;
 
 	class ImmutableArray : public ::System::Object
 	{

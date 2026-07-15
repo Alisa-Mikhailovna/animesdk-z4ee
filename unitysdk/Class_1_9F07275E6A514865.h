@@ -6,18 +6,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_9F07275E6A514865_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x194719D0)
-#define CLASS_1_9F07275E6A514865__CTOR_OFFSET UNITYSDK_OFFSET(0x19476280)
+#define CLASS_1_9F07275E6A514865_METHOD_1_13A4856CD0BBDB3F_OFFSET UNITYSDK_OFFSET(0x1AC9D800)
+#define CLASS_1_9F07275E6A514865__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACA2280)
 
-inline static constexpr unsigned int Class_1_9F07275E6A514865_TypeDefinitionIndex = 10843;
+inline static constexpr unsigned int Class_1_9F07275E6A514865_TypeDefinitionIndex = 10893;
 
 class Class_1_9F07275E6A514865 : public ::System::Object
 {
 public:
-	::System::UInt32 Field_1_0; // 0x10
-	::RPG::GameCore::DiceCombatCommunicateType Field_1_1; // 0x14
-	::System::UInt32 Field_1_2; // 0x18
-	::RPG::Client::TextID Field_1_3; // 0x20
+	::RPG::Client::TextID Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x20
+	::System::UInt32 Field_1_2; // 0x24
+	::RPG::GameCore::DiceCombatCommunicateType Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

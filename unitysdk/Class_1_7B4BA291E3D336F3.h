@@ -6,16 +6,16 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define CLASS_1_7B4BA291E3D336F3_GET_ID_OFFSET UNITYSDK_OFFSET(0x14BB6E60)
-#define CLASS_1_7B4BA291E3D336F3_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x14BB6EF0)
-#define CLASS_1_7B4BA291E3D336F3_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x14BB6E80)
-#define CLASS_1_7B4BA291E3D336F3_METHOD_1_C760A38F3B93AC62_OFFSET UNITYSDK_OFFSET(0x14BB6F50)
-#define CLASS_1_7B4BA291E3D336F3_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14BB71E0)
-#define CLASS_1_7B4BA291E3D336F3_METHOD_1_FA7F07669215B524_OFFSET UNITYSDK_OFFSET(0x14BB7270)
-#define CLASS_1_7B4BA291E3D336F3_SET_ID_OFFSET UNITYSDK_OFFSET(0x14BB6E70)
-#define CLASS_1_7B4BA291E3D336F3__CTOR_OFFSET UNITYSDK_OFFSET(0x14BB73A0)
+#define CLASS_1_7B4BA291E3D336F3_GET_ID_OFFSET UNITYSDK_OFFSET(0x153FC3F0)
+#define CLASS_1_7B4BA291E3D336F3_METHOD_1_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0x153FC480)
+#define CLASS_1_7B4BA291E3D336F3_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x153FC410)
+#define CLASS_1_7B4BA291E3D336F3_METHOD_1_C760A38F3B93AC62_OFFSET UNITYSDK_OFFSET(0x153FC4E0)
+#define CLASS_1_7B4BA291E3D336F3_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x153FC770)
+#define CLASS_1_7B4BA291E3D336F3_METHOD_1_FA7F07669215B524_OFFSET UNITYSDK_OFFSET(0x153FC7F0)
+#define CLASS_1_7B4BA291E3D336F3_SET_ID_OFFSET UNITYSDK_OFFSET(0x153FC400)
+#define CLASS_1_7B4BA291E3D336F3__CTOR_OFFSET UNITYSDK_OFFSET(0x153FC920)
 
-inline static constexpr unsigned int Class_1_7B4BA291E3D336F3_TypeDefinitionIndex = 53243;
+inline static constexpr unsigned int Class_1_7B4BA291E3D336F3_TypeDefinitionIndex = 54458;
 
 class Class_1_7B4BA291E3D336F3 : public ::System::Object
 {
@@ -24,17 +24,17 @@ public:
 	// static const ::System::Single Field_1_1; // 0x0
 	::UnityEngine::AnimationCurve* Field_1_2; // 0x10
 	::System::Single Field_1_3; // 0x18
-	::System::Boolean Field_1_4; // 0x1C
-	::System::Boolean Field_1_5; // 0x1D
-	::System::Boolean Field_1_6; // 0x1E
-	::UnityEngine::Quaternion Field_1_7; // 0x20
-	::System::Single Field_1_8; // 0x30
-	::System::Single Field_1_9; // 0x34
-	::System::UInt32 _ID_k__BackingField; // 0x38
-	::UnityEngine::Vector3 Field_1_11; // 0x3C
-	::System::Single Field_1_12; // 0x48
-	::System::Boolean Field_1_13; // 0x4C
-	::System::Boolean Field_1_14; // 0x4D
+	::System::UInt32 _ID_k__BackingField; // 0x1C
+	::System::Single Field_1_5; // 0x20
+	::System::Boolean Field_1_6; // 0x24
+	::UnityEngine::Quaternion Field_1_7; // 0x28
+	::System::Single Field_1_8; // 0x38
+	::UnityEngine::Vector3 Field_1_9; // 0x3C
+	::System::Single Field_1_10; // 0x48
+	::System::Boolean Field_1_11; // 0x4C
+	::System::Boolean Field_1_12; // 0x4D
+	::System::Boolean Field_1_13; // 0x4E
+	::System::Boolean Field_1_14; // 0x4F
 
 	::System::Void _ctor()
 	{

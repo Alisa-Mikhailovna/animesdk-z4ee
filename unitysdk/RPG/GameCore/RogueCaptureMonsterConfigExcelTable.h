@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19E96ED0)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19E96D60)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19E96A50)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19E96D00)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19E97060)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19E96AD0)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19E970A0)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E97270)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19E974C0)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E97830)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19E971D0)
-#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19E97130)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B7463F0)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B746280)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B745F70)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B746220)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B746580)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B745FF0)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B7465C0)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B746790)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B7469E0)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B746D50)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B7466F0)
+#define RPG_GAMECORE_ROGUECAPTUREMONSTERCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B746650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex = 13936;
+	inline static constexpr unsigned int RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex = 14084;
 
 	class RogueCaptureMonsterConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D300);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCaptureMonsterConfigRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCaptureMonsterConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D308);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51390);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3D310);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x51398);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCaptureMonsterConfigRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueCaptureMonsterConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x513A0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xBD90);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE4C0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xBD91);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueCaptureMonsterConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE4C1);
 		}
 
 		static ::System::Void _cctor()

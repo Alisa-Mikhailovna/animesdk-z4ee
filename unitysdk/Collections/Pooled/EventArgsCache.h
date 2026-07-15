@@ -5,11 +5,11 @@
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define COLLECTIONS_POOLED_EVENTARGSCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B567280)
+#define COLLECTIONS_POOLED_EVENTARGSCACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A309EC0)
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int EventArgsCache_TypeDefinitionIndex = 5096;
+	inline static constexpr unsigned int EventArgsCache_TypeDefinitionIndex = 5101;
 
 	class EventArgsCache : public ::System::Object
 	{

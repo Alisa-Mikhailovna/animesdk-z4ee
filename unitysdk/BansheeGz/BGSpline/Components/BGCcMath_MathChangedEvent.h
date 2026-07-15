@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent.h"
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCMATH_MATHCHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x151EFAD0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCMATH_MATHCHANGEDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D3C30)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcMath_MathChangedEvent_TypeDefinitionIndex = 34127;
+	inline static constexpr unsigned int BGCcMath_MathChangedEvent_TypeDefinitionIndex = 34498;
 
 	class BGCcMath_MathChangedEvent : public ::UnityEngine::Events::UnityEvent
 	{

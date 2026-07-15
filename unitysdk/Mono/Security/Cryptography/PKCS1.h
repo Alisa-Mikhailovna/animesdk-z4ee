@@ -5,31 +5,31 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class HashAlgorithm; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x19CBE7C0)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CBEC10)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x19F1F2D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F1F720)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int PKCS1_TypeDefinitionIndex = 2295;
+	inline static constexpr unsigned int PKCS1_TypeDefinitionIndex = 2299;
 
 	class PKCS1 : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA512()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1AE60);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1AE68);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x28140);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1AE70);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x28148);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA384()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x1AE78);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x28150);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(PKCS1_TypeDefinitionIndex)->GetStaticField(0x28158);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/BattleTargetStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_2844F7605321929E__CTOR_OFFSET UNITYSDK_OFFSET(0x166585D0)
+#define CLASS_1_2844F7605321929E__CTOR_OFFSET UNITYSDK_OFFSET(0x15467730)
 
-inline static constexpr unsigned int Class_1_2844F7605321929E_TypeDefinitionIndex = 67299;
+inline static constexpr unsigned int Class_1_2844F7605321929E_TypeDefinitionIndex = 68766;
 
 class Class_1_2844F7605321929E : public ::System::Object
 {

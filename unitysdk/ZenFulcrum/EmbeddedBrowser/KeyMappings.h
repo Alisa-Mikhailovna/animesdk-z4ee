@@ -6,24 +6,24 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Event; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET UNITYSDK_OFFSET(0x1A0DDC50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET UNITYSDK_OFFSET(0x1A0DDA90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0DBFC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETUNITYKEYCODE_OFFSET UNITYSDK_OFFSET(0x1D292ED0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS_GETWINDOWSKEYCODE_OFFSET UNITYSDK_OFFSET(0x1D292D10)
+#define ZENFULCRUM_EMBEDDEDBROWSER_KEYMAPPINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D291240)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int KeyMappings_TypeDefinitionIndex = 36574;
+	inline static constexpr unsigned int KeyMappings_TypeDefinitionIndex = 37356;
 
 	class KeyMappings : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>** StaticGet_reverseMappings()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x639C0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>** StaticGet_mappings()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x639C8);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x65E60);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>** StaticGet_reverseMappings()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::KeyCode>**)Il2CppClass::FromTypeDefinitionIndex(KeyMappings_TypeDefinitionIndex)->GetStaticField(0x65E68);
 		}
 
 		static ::System::Void _cctor()

@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19B5B6E0)
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x19B5B860)
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5B8D0)
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19B5B9B0)
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x19B5BA50)
+#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDD16FE0)
+#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xDD17160)
+#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD171D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetAudienceGroupVisibleTrack_TypeDefinitionIndex = 45565;
+	inline static constexpr unsigned int SetAudienceGroupVisibleTrack_TypeDefinitionIndex = 46499;
 
 	class SetAudienceGroupVisibleTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLETRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

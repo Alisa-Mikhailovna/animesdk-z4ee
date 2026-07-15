@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SCREENTRANSFERFULLDURATION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1D9CD0)
-#define RPG_GAMECORE_SCREENTRANSFERFULLDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D9E30)
+#define RPG_GAMECORE_SCREENTRANSFERFULLDURATION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B87C000)
+#define RPG_GAMECORE_SCREENTRANSFERFULLDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87C160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScreenTransferFullDuration_TypeDefinitionIndex = 22508;
+	inline static constexpr unsigned int ScreenTransferFullDuration_TypeDefinitionIndex = 22958;
 
 	class ScreenTransferFullDuration : public ::RPG::GameCore::JsonConfig
 	{

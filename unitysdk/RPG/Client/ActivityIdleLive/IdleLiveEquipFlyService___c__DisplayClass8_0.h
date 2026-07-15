@@ -5,12 +5,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipFly; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipFlyService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18B28EB0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0__SHOWEQUIPFLY_B__0_OFFSET UNITYSDK_OFFSET(0x18B28FC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB981F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0__SHOWEQUIPFLY_B__0_OFFSET UNITYSDK_OFFSET(0xBB982E0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass8_0_TypeDefinitionIndex = 70160;
+	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass8_0_TypeDefinitionIndex = 71683;
 
 	class IdleLiveEquipFlyService___c__DisplayClass8_0 : public ::System::Object
 	{

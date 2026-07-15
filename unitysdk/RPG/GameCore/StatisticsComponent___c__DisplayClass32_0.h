@@ -5,13 +5,13 @@
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEF25620)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__DISPLAYCLASS32_0___ONCHARACTERLIMBO_B__0_OFFSET UNITYSDK_OFFSET(0xEF2B590)
-#define RPG_GAMECORE_STATISTICSCOMPONENT___C__DISPLAYCLASS32_0___ONCHARACTERLIMBO_B__1_OFFSET UNITYSDK_OFFSET(0xEF2B6A0)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB57630)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__DISPLAYCLASS32_0___ONCHARACTERLIMBO_B__0_OFFSET UNITYSDK_OFFSET(0xDB5D510)
+#define RPG_GAMECORE_STATISTICSCOMPONENT___C__DISPLAYCLASS32_0___ONCHARACTERLIMBO_B__1_OFFSET UNITYSDK_OFFSET(0xDB5D620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatisticsComponent___c__DisplayClass32_0_TypeDefinitionIndex = 53844;
+	inline static constexpr unsigned int StatisticsComponent___c__DisplayClass32_0_TypeDefinitionIndex = 55065;
 
 	class StatisticsComponent___c__DisplayClass32_0 : public ::System::Object
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_METHOD_3_68C201A56473175D_OFFSET UNITYSDK_OFFSET(0x19B1DB90)
-#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_METHOD_3_B80A8BF0D333B82E_OFFSET UNITYSDK_OFFSET(0x19B1DAF0)
-#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B1DB50)
+#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_METHOD_3_078FA29AF19DC39D_OFFSET UNITYSDK_OFFSET(0x1B389B80)
+#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_METHOD_3_68C201A56473175D_OFFSET UNITYSDK_OFFSET(0x1B389BE0)
+#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B389BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateBattleEventServant_TypeDefinitionIndex = 22149;
+	inline static constexpr unsigned int CreateBattleEventServant_TypeDefinitionIndex = 22586;
 
 	class CreateBattleEventServant : public ::RPG::GameCore::TaskConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTSERVANT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B80A8BF0D333B82E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleEventServant*& a2)
+		static ::System::Void Method_3_078FA29AF19DC39D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleEventServant*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleEventServant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_METHOD_3_B80A8BF0D333B82E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleEventServant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_METHOD_3_078FA29AF19DC39D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_68C201A56473175D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleEventServant* a2)

@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_A48F3719AA1CF200_33.h"
+#include "unitysdk/Class_2_A48F3719AA1CF200_38.h"
 #include "unitysdk/RPG/Client/TextID.h"
 
 class Class_2_46FD925988407D1E;
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 namespace System { class String; }
 
-#define CLASS_3_BA2DE48154A3DA32_METHOD_3_1150E99F63F63834_OFFSET UNITYSDK_OFFSET(0x1502E390)
-#define CLASS_3_BA2DE48154A3DA32_METHOD_3_962EC6B7FDEBE9B6_OFFSET UNITYSDK_OFFSET(0x1502E450)
-#define CLASS_3_BA2DE48154A3DA32_METHOD_3_DA3A807456EA7C08_OFFSET UNITYSDK_OFFSET(0x1502E280)
-#define CLASS_3_BA2DE48154A3DA32_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1502E4F0)
-#define CLASS_3_BA2DE48154A3DA32__CTOR_OFFSET UNITYSDK_OFFSET(0x1502E610)
-#define CLASS_3_BA2DE48154A3DA32___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1502E620)
+#define CLASS_3_BA2DE48154A3DA32_METHOD_3_1150E99F63F63834_OFFSET UNITYSDK_OFFSET(0xB0BE810)
+#define CLASS_3_BA2DE48154A3DA32_METHOD_3_962EC6B7FDEBE9B6_OFFSET UNITYSDK_OFFSET(0xB0BE8D0)
+#define CLASS_3_BA2DE48154A3DA32_METHOD_3_DA3A807456EA7C08_OFFSET UNITYSDK_OFFSET(0xB0BE700)
+#define CLASS_3_BA2DE48154A3DA32_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB0BE970)
+#define CLASS_3_BA2DE48154A3DA32__CTOR_OFFSET UNITYSDK_OFFSET(0xB0BEA90)
 
-inline static constexpr unsigned int Class_3_BA2DE48154A3DA32_TypeDefinitionIndex = 72697;
+inline static constexpr unsigned int Class_3_BA2DE48154A3DA32_TypeDefinitionIndex = 74222;
 
-class Class_3_BA2DE48154A3DA32 : public ::Class_2_A48F3719AA1CF200_33
+class Class_3_BA2DE48154A3DA32 : public ::Class_2_A48F3719AA1CF200_38
 {
 public:
-	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* Field_3_0; // 0x20
-	::System::String* Field_3_1; // 0x28
+	::System::String* Field_3_0; // 0x20
+	::RPG::Client::LittleGame::CakeRace::CakeRaceCatMonoView* Field_3_1; // 0x28
 	::RPG::Client::TextID Field_3_2; // 0x30
 
 	::System::Void _ctor()
@@ -46,10 +45,5 @@ public:
 	::System::Void OnExecute()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BA2DE48154A3DA32_ONEXECUTE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BA2DE48154A3DA32___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
 	}
 };

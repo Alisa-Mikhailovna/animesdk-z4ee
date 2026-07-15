@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK { class ProtocolManager; }
 namespace MiHoYo::SDK { class Web; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A2EE20)
-#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__SHOWUSERAGREEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x16A33DE0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19DEF2E0)
+#define MIHOYO_SDK_PROTOCOLMANAGER___C__DISPLAYCLASS46_0__SHOWUSERAGREEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x19DF44D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager___c__DisplayClass46_0_TypeDefinitionIndex = 7993;
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass46_0_TypeDefinitionIndex = 8003;
 
 	class ProtocolManager___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Web* webView; // 0x10
-		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x18
+		::MiHoYo::SDK::ProtocolManager* __4__this; // 0x10
+		::MiHoYo::SDK::Web* webView; // 0x18
 
 		::System::Void _ctor()
 		{

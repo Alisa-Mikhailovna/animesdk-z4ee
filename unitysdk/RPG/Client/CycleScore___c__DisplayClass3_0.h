@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class CycleScoreRewardRow; }
 
-#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15F47480)
-#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__GETREWARDIDBYRANK_B__0_OFFSET UNITYSDK_OFFSET(0x15F48060)
+#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1D5750)
+#define RPG_CLIENT_CYCLESCORE___C__DISPLAYCLASS3_0__GETREWARDIDBYRANK_B__0_OFFSET UNITYSDK_OFFSET(0xC1D6550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CycleScore___c__DisplayClass3_0_TypeDefinitionIndex = 59469;
+	inline static constexpr unsigned int CycleScore___c__DisplayClass3_0_TypeDefinitionIndex = 60753;
 
 	class CycleScore___c__DisplayClass3_0 : public ::System::Object
 	{

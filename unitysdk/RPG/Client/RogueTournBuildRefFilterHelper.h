@@ -6,13 +6,13 @@ namespace RPG::Client { class IRogueTournBuildRefDataItem; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER_FILTER_OFFSET UNITYSDK_OFFSET(0x17DE03A0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYAVATAR_OFFSET UNITYSDK_OFFSET(0x17DE07E0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYFORMULA_OFFSET UNITYSDK_OFFSET(0x17DE1090)
+#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER_FILTER_OFFSET UNITYSDK_OFFSET(0xD4132A0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYAVATAR_OFFSET UNITYSDK_OFFSET(0xD4136E0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFFILTERHELPER__ISMATCHANYFORMULA_OFFSET UNITYSDK_OFFSET(0xD414210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefFilterHelper_TypeDefinitionIndex = 63160;
+	inline static constexpr unsigned int RogueTournBuildRefFilterHelper_TypeDefinitionIndex = 64527;
 
 	class RogueTournBuildRefFilterHelper : public ::System::Object
 	{

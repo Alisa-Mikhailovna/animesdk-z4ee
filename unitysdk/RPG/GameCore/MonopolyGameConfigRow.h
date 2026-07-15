@@ -7,26 +7,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYGAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196B68E0)
-#define RPG_GAMECORE_MONOPOLYGAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196B6CC0)
+#define RPG_GAMECORE_MONOPOLYGAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B618500)
+#define RPG_GAMECORE_MONOPOLYGAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6188E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGameConfigRow_TypeDefinitionIndex = 11486;
+	inline static constexpr unsigned int MonopolyGameConfigRow_TypeDefinitionIndex = 11586;
 
 	class MonopolyGameConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* GameIcon; // 0x10
-		::System::String* ParamStr1; // 0x18
-		::Il2CppArray<::System::UInt32>* GameResourceIDList; // 0x20
-		::System::String* ParamStr2; // 0x28
-		::RPG::Client::TextID IntroDesc; // 0x30
-		::RPG::GameCore::MonopolyGameType GameType; // 0x40
-		::System::UInt32 RaiseCurveID; // 0x44
-		::RPG::Client::TextID Name; // 0x48
+		::System::String* ParamStr1; // 0x10
+		::Il2CppArray<::System::UInt32>* GameResourceIDList; // 0x18
+		::System::String* ParamStr2; // 0x20
+		::System::String* GameIcon; // 0x28
+		::RPG::Client::TextID Name; // 0x30
+		::System::UInt32 BaseRaiseMaxValue; // 0x40
+		::RPG::GameCore::MonopolyGameType GameType; // 0x44
+		::RPG::Client::TextID IntroDesc; // 0x48
 		::System::UInt32 GameID; // 0x58
-		::System::UInt32 BaseRaiseMaxValue; // 0x5C
+		::System::UInt32 RaiseCurveID; // 0x5C
 
 		::System::Void _ctor()
 		{

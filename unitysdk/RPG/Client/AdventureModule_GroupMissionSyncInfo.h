@@ -8,22 +8,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x167B1610)
-#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0x167B1740)
-#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_ONALLOC_OFFSET UNITYSDK_OFFSET(0x167B16A0)
-#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x167B16F0)
-#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0x167B1750)
-#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x167B1760)
+#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0xBCB7F10)
+#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xBCB8040)
+#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_ONALLOC_OFFSET UNITYSDK_OFFSET(0xBCB7FA0)
+#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xBCB7FF0)
+#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xBCB8050)
+#define RPG_CLIENT_ADVENTUREMODULE_GROUPMISSIONSYNCINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBCB8060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureModule_GroupMissionSyncInfo_TypeDefinitionIndex = 57992;
+	inline static constexpr unsigned int AdventureModule_GroupMissionSyncInfo_TypeDefinitionIndex = 59258;
 
 	class AdventureModule_GroupMissionSyncInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* ActivatedMissions; // 0x10
-		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> DeactiveMissionCustomValueKey; // 0x18
+		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> DeactiveMissionCustomValueKey; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* ActivatedMissions; // 0x28
 		::System::Collections::Generic::List_1<::System::UInt32>* DeactivatedMissions; // 0x30
 		::System::Nullable_1<::System::ValueTuple_2<::System::UInt32, ::System::String*>> ActiveMissionCustomValueKey; // 0x38
 		::RPG::AutoReleaseReferenceState _ReferenceState_k__BackingField; // 0x50

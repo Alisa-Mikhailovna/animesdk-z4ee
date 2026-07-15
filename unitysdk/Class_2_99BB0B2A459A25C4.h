@@ -6,40 +6,40 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_25A913757D0756D0;
+class Class_1_5226E24814FA0066;
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class LodTemplate; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System { class String; }
 
-#define CLASS_2_99BB0B2A459A25C4_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0x143547B0)
-#define CLASS_2_99BB0B2A459A25C4_GETBOUNDCENTER_OFFSET UNITYSDK_OFFSET(0x14354800)
-#define CLASS_2_99BB0B2A459A25C4_GETBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0x14354880)
-#define CLASS_2_99BB0B2A459A25C4_GETRECT_OFFSET UNITYSDK_OFFSET(0x14354900)
-#define CLASS_2_99BB0B2A459A25C4_GET_GROUPINFO_OFFSET UNITYSDK_OFFSET(0x14354A80)
-#define CLASS_2_99BB0B2A459A25C4_METHOD_2_5F8005963FD8C985_OFFSET UNITYSDK_OFFSET(0x14354960)
-#define CLASS_2_99BB0B2A459A25C4_METHOD_2_6BFD1AD809E415D7_OFFSET UNITYSDK_OFFSET(0x14354AA0)
-#define CLASS_2_99BB0B2A459A25C4_METHOD_2_72CFCD74ED0E448D_OFFSET UNITYSDK_OFFSET(0x14354B70)
-#define CLASS_2_99BB0B2A459A25C4_METHOD_2_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x14354B10)
-#define CLASS_2_99BB0B2A459A25C4_SET_GROUPINFO_OFFSET UNITYSDK_OFFSET(0x14354A90)
-#define CLASS_2_99BB0B2A459A25C4__CTOR_OFFSET UNITYSDK_OFFSET(0x14354420)
+#define CLASS_2_99BB0B2A459A25C4_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0xACD05F0)
+#define CLASS_2_99BB0B2A459A25C4_GETBOUNDCENTER_OFFSET UNITYSDK_OFFSET(0xACD0640)
+#define CLASS_2_99BB0B2A459A25C4_GETBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xACD06C0)
+#define CLASS_2_99BB0B2A459A25C4_GETRECT_OFFSET UNITYSDK_OFFSET(0xACD0740)
+#define CLASS_2_99BB0B2A459A25C4_GET_GROUPINFO_OFFSET UNITYSDK_OFFSET(0xACD08C0)
+#define CLASS_2_99BB0B2A459A25C4_METHOD_2_5F8005963FD8C985_OFFSET UNITYSDK_OFFSET(0xACD07A0)
+#define CLASS_2_99BB0B2A459A25C4_METHOD_2_72CFCD74ED0E448D_OFFSET UNITYSDK_OFFSET(0xACD09D0)
+#define CLASS_2_99BB0B2A459A25C4_METHOD_2_B168DD36E5A49BB4_OFFSET UNITYSDK_OFFSET(0xACD08E0)
+#define CLASS_2_99BB0B2A459A25C4_METHOD_2_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0xACD0970)
+#define CLASS_2_99BB0B2A459A25C4_SET_GROUPINFO_OFFSET UNITYSDK_OFFSET(0xACD08D0)
+#define CLASS_2_99BB0B2A459A25C4__CTOR_OFFSET UNITYSDK_OFFSET(0xACD0260)
 
-inline static constexpr unsigned int Class_2_99BB0B2A459A25C4_TypeDefinitionIndex = 68889;
+inline static constexpr unsigned int Class_2_99BB0B2A459A25C4_TypeDefinitionIndex = 70421;
 
 class Class_2_99BB0B2A459A25C4 : public ::RPG::Client::OpenWorld::StreamingItemData
 {
 public:
 	// static const ::System::Boolean Field_2_0; // 0x0
-	::RPG::GameCore::RuntimeGroupInfo* _GroupInfo_k__BackingField; // 0xB8
-	::Class_1_25A913757D0756D0* Field_2_2; // 0xC0
-	::UnityEngine::Rect Field_2_3; // 0xC8
-	::System::Single Field_2_4; // 0xD8
-	::UnityEngine::Bounds Field_2_5; // 0xDC
-	::System::UInt32 Field_2_6; // 0xF4
+	::Class_1_5226E24814FA0066* Field_2_1; // 0xB8
+	::RPG::GameCore::RuntimeGroupInfo* _GroupInfo_k__BackingField; // 0xC0
+	::UnityEngine::Bounds Field_2_3; // 0xC8
+	::System::UInt32 Field_2_4; // 0xE0
+	::UnityEngine::Rect Field_2_5; // 0xE4
+	::System::Single Field_2_6; // 0xF4
 
-	::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::RuntimeGroupInfo* a2, ::Class_1_25A913757D0756D0* a3, ::System::Single a4, ::RPG::GameCore::LodTemplate* a5)
+	::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::RuntimeGroupInfo* a2, ::Class_1_5226E24814FA0066* a3, ::System::Single a4, ::RPG::GameCore::LodTemplate* a5)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*, ::Class_1_25A913757D0756D0*, ::System::Single, ::RPG::GameCore::LodTemplate*))((::PBYTE)hIl2Cpp + CLASS_2_99BB0B2A459A25C4__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::RuntimeGroupInfo*, ::Class_1_5226E24814FA0066*, ::System::Single, ::RPG::GameCore::LodTemplate*))((::PBYTE)hIl2Cpp + CLASS_2_99BB0B2A459A25C4__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
 	::System::String* GetApplyStreamingLayer()
@@ -77,9 +77,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RuntimeGroupInfo*))((::PBYTE)hIl2Cpp + CLASS_2_99BB0B2A459A25C4_SET_GROUPINFO_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::HoyoTagContainer* Method_2_6BFD1AD809E415D7()
+	::RPG::GameCore::HoyoTagContainer* Method_2_B168DD36E5A49BB4()
 	{
-		return ((::RPG::GameCore::HoyoTagContainer*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99BB0B2A459A25C4_METHOD_2_6BFD1AD809E415D7_OFFSET))(this);
+		return ((::RPG::GameCore::HoyoTagContainer*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_99BB0B2A459A25C4_METHOD_2_B168DD36E5A49BB4_OFFSET))(this);
 	}
 
 	::System::Int32 Method_2_F026F9F94BAA5E1F()

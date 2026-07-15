@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17650AE0)
-#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17650CD0)
+#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1E7D30)
+#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1E7F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BackGroundMusicGroupConfigRow_TypeDefinitionIndex = 12202;
+	inline static constexpr unsigned int BackGroundMusicGroupConfigRow_TypeDefinitionIndex = 12336;
 
 	class BackGroundMusicGroupConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* GroupIcon; // 0x10
-		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::BackGroundMusicGroupType Type; // 0x1C
-		::RPG::Client::TextID GroupName; // 0x20
+		::RPG::Client::TextID GroupName; // 0x18
+		::System::UInt32 ID; // 0x28
+		::RPG::GameCore::BackGroundMusicGroupType Type; // 0x2C
 
 		::System::Void _ctor()
 		{

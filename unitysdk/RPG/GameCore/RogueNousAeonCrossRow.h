@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE3E4E0)
-#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3E6D0)
+#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B77BAF0)
+#define RPG_GAMECORE_ROGUENOUSAEONCROSSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B77BCE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousAeonCrossRow_TypeDefinitionIndex = 14188;
+	inline static constexpr unsigned int RogueNousAeonCrossRow_TypeDefinitionIndex = 14336;
 
 	class RogueNousAeonCrossRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 SubAeonID; // 0x10
-		::System::UInt32 MainAeonID; // 0x14
-		::System::UInt32 MainAeonNum; // 0x18
-		::System::UInt32 BuffGroup; // 0x1C
-		::System::UInt32 SubAeonNum; // 0x20
+		::System::UInt32 BuffGroup; // 0x14
+		::System::UInt32 SubAeonNum; // 0x18
+		::System::UInt32 MainAeonNum; // 0x1C
+		::System::UInt32 MainAeonID; // 0x20
 
 		::System::Void _ctor()
 		{

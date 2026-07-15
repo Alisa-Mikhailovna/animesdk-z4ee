@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGBRANCHINFO_METHOD_2_BC59015E1500A705_OFFSET UNITYSDK_OFFSET(0x198647B0)
-#define RPG_GAMECORE_SWORDTRAININGBRANCHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x198648E0)
+#define RPG_GAMECORE_SWORDTRAININGBRANCHINFO_METHOD_2_BC59015E1500A705_OFFSET UNITYSDK_OFFSET(0x1B934A40)
+#define RPG_GAMECORE_SWORDTRAININGBRANCHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B934B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingBranchInfo_TypeDefinitionIndex = 19186;
+	inline static constexpr unsigned int SwordTrainingBranchInfo_TypeDefinitionIndex = 19542;
 
 	class SwordTrainingBranchInfo : public ::RPG::GameCore::JsonConfig
 	{

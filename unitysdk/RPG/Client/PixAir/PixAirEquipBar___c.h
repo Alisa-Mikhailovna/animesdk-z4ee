@@ -5,29 +5,29 @@
 namespace RPG::Client::PixAir { class PixAirSlot; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1993A250)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1993A290)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEMPTY_B__20_0_OFFSET UNITYSDK_OFFSET(0x1993A2E0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEQUIP_B__19_0_OFFSET UNITYSDK_OFFSET(0x1993A2A0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFB4600)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB4640)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEMPTY_B__20_0_OFFSET UNITYSDK_OFFSET(0xCFB46F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__REPLACESLOTWITHEQUIP_B__19_0_OFFSET UNITYSDK_OFFSET(0xCFB4650)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipBar___c_TypeDefinitionIndex = 73650;
+	inline static constexpr unsigned int PixAirEquipBar___c_TypeDefinitionIndex = 75299;
 
 	class PixAirEquipBar___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::PixAir::PixAirEquipBar___c** StaticGet___9()
+		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>** StaticGet___9__20_0()
 		{
-			return (::RPG::Client::PixAir::PixAirEquipBar___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipBar___c_TypeDefinitionIndex)->GetStaticField(0x6650);
+			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipBar___c_TypeDefinitionIndex)->GetStaticField(0x68770);
 		}
 		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipBar___c_TypeDefinitionIndex)->GetStaticField(0x6658);
+			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipBar___c_TypeDefinitionIndex)->GetStaticField(0x68778);
 		}
-		static ::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>** StaticGet___9__20_0()
+		static ::RPG::Client::PixAir::PixAirEquipBar___c** StaticGet___9()
 		{
-			return (::System::Comparison_1<::RPG::Client::PixAir::PixAirSlot*>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipBar___c_TypeDefinitionIndex)->GetStaticField(0x6660);
+			return (::RPG::Client::PixAir::PixAirEquipBar___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipBar___c_TypeDefinitionIndex)->GetStaticField(0x68780);
 		}
 
 		static ::System::Void _cctor()

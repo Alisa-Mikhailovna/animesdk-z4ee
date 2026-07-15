@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetMonsterPhasePointPrefab; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CFA37EE74333EE5E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147A6D80)
-#define CLASS_3_CFA37EE74333EE5E__CTOR_OFFSET UNITYSDK_OFFSET(0x147A6D50)
+#define CLASS_3_CFA37EE74333EE5E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5DAA00)
+#define CLASS_3_CFA37EE74333EE5E__CTOR_OFFSET UNITYSDK_OFFSET(0xB5DA9D0)
 
-inline static constexpr unsigned int Class_3_CFA37EE74333EE5E_TypeDefinitionIndex = 44900;
+inline static constexpr unsigned int Class_3_CFA37EE74333EE5E_TypeDefinitionIndex = 45818;
 
 class Class_3_CFA37EE74333EE5E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetMonsterPhasePointPrefab*>
 {

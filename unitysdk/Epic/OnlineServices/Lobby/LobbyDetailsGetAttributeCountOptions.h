@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETATTRIBUTECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C6070)
+#define EPIC_ONLINESERVICES_LOBBY_LOBBYDETAILSGETATTRIBUTECOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xAC489C0)
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyDetailsGetAttributeCountOptions_TypeDefinitionIndex = 42684;
+	inline static constexpr unsigned int LobbyDetailsGetAttributeCountOptions_TypeDefinitionIndex = 43545;
 
 	class LobbyDetailsGetAttributeCountOptions : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x395CB50)
-#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x395CB30)
+#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED_UNPACK_OFFSET UNITYSDK_OFFSET(0x3A4B930)
+#define ZENFULCRUM_VR_OPENVRBINDING_RENDERMODEL_T_PACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x3A4B910)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int RenderModel_t_Packed_TypeDefinitionIndex = 36385;
+	inline static constexpr unsigned int RenderModel_t_Packed_TypeDefinitionIndex = 37167;
 
 	struct alignas(4) RenderModel_t_Packed
 	{

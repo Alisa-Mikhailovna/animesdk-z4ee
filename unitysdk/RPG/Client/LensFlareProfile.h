@@ -5,11 +5,11 @@
 namespace RPG::CustomRP { class LensFlareElement; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LENSFLAREPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x162477A0)
+#define RPG_CLIENT_LENSFLAREPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9127D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LensFlareProfile_TypeDefinitionIndex = 65610;
+	inline static constexpr unsigned int LensFlareProfile_TypeDefinitionIndex = 67027;
 
 	class LensFlareProfile : public ::UnityEngine::ScriptableObject
 	{

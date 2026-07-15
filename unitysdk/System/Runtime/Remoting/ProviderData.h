@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Collections { class IList; }
 
-#define SYSTEM_RUNTIME_REMOTING_PROVIDERDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x17457310)
-#define SYSTEM_RUNTIME_REMOTING_PROVIDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17457BE0)
+#define SYSTEM_RUNTIME_REMOTING_PROVIDERDATA_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1A1E7620)
+#define SYSTEM_RUNTIME_REMOTING_PROVIDERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E8310)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ProviderData_TypeDefinitionIndex = 1206;
+	inline static constexpr unsigned int ProviderData_TypeDefinitionIndex = 1208;
 
 	class ProviderData : public ::System::Object
 	{
 	public:
-		::System::Collections::Hashtable* CustomProperties; // 0x10
-		::System::String* Type; // 0x18
-		::System::String* Id; // 0x20
-		::System::Collections::IList* CustomData; // 0x28
-		::System::String* Ref; // 0x30
+		::System::String* Type; // 0x10
+		::System::Collections::IList* CustomData; // 0x18
+		::System::String* Ref; // 0x20
+		::System::String* Id; // 0x28
+		::System::Collections::Hashtable* CustomProperties; // 0x30
 
 		::System::Void _ctor()
 		{

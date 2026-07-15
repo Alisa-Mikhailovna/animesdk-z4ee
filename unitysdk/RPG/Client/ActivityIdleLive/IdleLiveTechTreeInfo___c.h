@@ -7,44 +7,44 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAdvTechTree; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x186492D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18649300)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__GETALLACTIVATENODES_B__9_0_OFFSET UNITYSDK_OFFSET(0x18649330)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__GETPOWERFACTOR_B__17_1_OFFSET UNITYSDK_OFFSET(0x186494C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__HASANYACTIVATEDNODE_B__12_0_OFFSET UNITYSDK_OFFSET(0x186494A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__HASANYIDLELIVETECHTREECANACTIVATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x18649440)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0x18649310)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBBD3F00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBBD3F30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__GETALLACTIVATENODES_B__9_0_OFFSET UNITYSDK_OFFSET(0xBBD3F60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__GETPOWERFACTOR_B__17_1_OFFSET UNITYSDK_OFFSET(0xBBD40F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__HASANYACTIVATEDNODE_B__12_0_OFFSET UNITYSDK_OFFSET(0xBBD40D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__HASANYIDLELIVETECHTREECANACTIVATE_B__11_0_OFFSET UNITYSDK_OFFSET(0xBBD4070)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREEINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xBBD3F40)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTechTreeInfo___c_TypeDefinitionIndex = 70277;
+	inline static constexpr unsigned int IdleLiveTechTreeInfo___c_TypeDefinitionIndex = 71800;
 
 	class IdleLiveTechTreeInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__12_0()
+		static ::RPG::Client::ActivityIdleLive::IdleLiveTechTreeInfo___c** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x510D0);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x510D8);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree*, ::System::Boolean>** StaticGet___9__11_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x510E0);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveTechTreeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x3C5E0);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x510E8);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x3C5E8);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree*, ::System::Boolean>** StaticGet___9__11_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveAdvTechTree*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x3C5F0);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x3C5F8);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::RPG::GameCore::FixPoint>** StaticGet___9__17_1()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x510F0);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x3C600);
 		}
-		static ::RPG::Client::ActivityIdleLive::IdleLiveTechTreeInfo___c** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveTechTreeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x510F8);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveTechTreeInfo___c_TypeDefinitionIndex)->GetStaticField(0x3C608);
 		}
 
 		static ::System::Void _cctor()

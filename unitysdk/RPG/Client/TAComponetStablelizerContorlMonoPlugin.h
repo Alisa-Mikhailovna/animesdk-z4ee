@@ -7,13 +7,12 @@ namespace RPG::Client { class TAComponetStablelizerContorlBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1809F3B0)
-#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1809F400)
-#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1809F410)
+#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD5FCC20)
+#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD5FCC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAComponetStablelizerContorlMonoPlugin_TypeDefinitionIndex = 66181;
+	inline static constexpr unsigned int TAComponetStablelizerContorlMonoPlugin_TypeDefinitionIndex = 67606;
 
 	class TAComponetStablelizerContorlMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TAComponetStablelizerContorlBehavior*>
 	{
@@ -34,11 +33,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

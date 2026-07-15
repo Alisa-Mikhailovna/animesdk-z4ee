@@ -10,13 +10,12 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x156B0350)
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x156B03A0)
-#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x156B0480)
+#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC337970)
+#define RPG_CLIENT_EFFECT_PARTICLEPATHFLOW__CTOR_OFFSET UNITYSDK_OFFSET(0xC3379C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticlePathFlow_TypeDefinitionIndex = 65938;
+	inline static constexpr unsigned int Effect_ParticlePathFlow_TypeDefinitionIndex = 67363;
 
 	class Effect_ParticlePathFlow : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ParticlePathFlowBehavior*>
 	{
@@ -41,11 +40,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEPATHFLOW_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEPATHFLOW___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

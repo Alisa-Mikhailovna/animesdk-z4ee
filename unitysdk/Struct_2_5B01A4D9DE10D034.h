@@ -6,16 +6,16 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_5B01A4D9DE10D034__CCTOR_OFFSET UNITYSDK_OFFSET(0x172E0630)
-#define STRUCT_2_5B01A4D9DE10D034__CTOR_OFFSET UNITYSDK_OFFSET(0x381E6C0)
+#define STRUCT_2_5B01A4D9DE10D034__CCTOR_OFFSET UNITYSDK_OFFSET(0xAEA97E0)
+#define STRUCT_2_5B01A4D9DE10D034__CTOR_OFFSET UNITYSDK_OFFSET(0x7DB60)
 
-inline static constexpr unsigned int Struct_2_5B01A4D9DE10D034_TypeDefinitionIndex = 69124;
+inline static constexpr unsigned int Struct_2_5B01A4D9DE10D034_TypeDefinitionIndex = 70643;
 
 struct alignas(8) Struct_2_5B01A4D9DE10D034
 {
 	static ::Struct_2_5B01A4D9DE10D034* StaticGet_Field_2_0()
 	{
-		return (::Struct_2_5B01A4D9DE10D034*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5B01A4D9DE10D034_TypeDefinitionIndex)->GetStaticField(0x5A4A0);
+		return (::Struct_2_5B01A4D9DE10D034*)Il2CppClass::FromTypeDefinitionIndex(Struct_2_5B01A4D9DE10D034_TypeDefinitionIndex)->GetStaticField(0x55E10);
 	}
 	::System::String* Field_2_1; // 0x10
 	::RPG::Client::Sample::SampleDynamicType Field_2_2; // 0x18

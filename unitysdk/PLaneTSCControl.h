@@ -7,34 +7,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0x1550AA60)
-#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0x1550A960)
-#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0x1550AAD0)
-#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0x1550AD40)
-#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x1550A4A0)
-#define PLANETSCCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1550AFF0)
-#define PLANETSCCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1550AF90)
+#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0xB9F1810)
+#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0xB9F1710)
+#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0xB9F1880)
+#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0xB9F1AF0)
+#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xB9F1250)
+#define PLANETSCCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xB9F1DA0)
+#define PLANETSCCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xB9F1D40)
 
-inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 44617;
+inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 45489;
 
 class PLaneTSCControl : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::System::Int32* StaticGet_Field_5_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0xC240);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x7E20);
 	}
 	static ::System::Int32* StaticGet_Field_5_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0xC244);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x7E24);
 	}
 	static ::System::Int32* StaticGet_Field_5_2()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0xC248);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x7E28);
 	}
 	static ::System::Int32* StaticGet_Field_5_3()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0xC24C);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x7E2C);
 	}
 	::System::Single width; // 0x18
 	::System::Single height; // 0x1C

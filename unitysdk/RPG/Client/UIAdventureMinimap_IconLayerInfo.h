@@ -4,18 +4,18 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONLAYERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x143E5E40)
+#define RPG_CLIENT_UIADVENTUREMINIMAP_ICONLAYERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD79C5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureMinimap_IconLayerInfo_TypeDefinitionIndex = 64587;
+	inline static constexpr unsigned int UIAdventureMinimap_IconLayerInfo_TypeDefinitionIndex = 65987;
 
 	class UIAdventureMinimap_IconLayerInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* UpLayer; // 0x10
-		::UnityEngine::Transform* FloorLayer; // 0x18
-		::UnityEngine::Transform* DownLayer; // 0x20
+		::UnityEngine::Transform* FloorLayer; // 0x10
+		::UnityEngine::Transform* DownLayer; // 0x18
+		::UnityEngine::Transform* UpLayer; // 0x20
 
 		::System::Void _ctor()
 		{

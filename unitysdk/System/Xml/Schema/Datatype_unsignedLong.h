@@ -11,33 +11,33 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml::Schema { class FacetsChecker; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_COMPARE_OFFSET UNITYSDK_OFFSET(0x18A92D80)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x18A92D10)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A92EE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18A92D70)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x18A92E80)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x18A92F40)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A93100)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG__CTOR_OFFSET UNITYSDK_OFFSET(0x18A887C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_COMPARE_OFFSET UNITYSDK_OFFSET(0x1CB49CB0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1CB49C40)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1CB49E10)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1CB49CA0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1CB49DB0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1CB49E70)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB4A0F0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNSIGNEDLONG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3D6E0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_unsignedLong_TypeDefinitionIndex = 2130;
+	inline static constexpr unsigned int Datatype_unsignedLong_TypeDefinitionIndex = 2134;
 
 	class Datatype_unsignedLong : public ::System::Xml::Schema::Datatype_nonNegativeInteger
 	{
 	public:
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_unsignedLong_TypeDefinitionIndex)->GetStaticField(0x15780);
-		}
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_unsignedLong_TypeDefinitionIndex)->GetStaticField(0x15788);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_unsignedLong_TypeDefinitionIndex)->GetStaticField(0x22E40);
+		}
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_unsignedLong_TypeDefinitionIndex)->GetStaticField(0x22E48);
 		}
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_unsignedLong_TypeDefinitionIndex)->GetStaticField(0x15790);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_unsignedLong_TypeDefinitionIndex)->GetStaticField(0x22E50);
 		}
 
 		::System::Void _ctor()

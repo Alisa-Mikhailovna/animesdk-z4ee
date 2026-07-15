@@ -5,17 +5,17 @@
 class Class_2_8D6A893BEF7BEB75;
 class Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A;
 
-#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14BFD6A0)
-#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS8_0___ONITEMSTARTBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0x14BFF3C0)
+#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDB830C0)
+#define CLASS_2_8D6A893BEF7BEB75___C__DISPLAYCLASS8_0___ONITEMSTARTBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xDB85300)
 
-inline static constexpr unsigned int Class_2_8D6A893BEF7BEB75___c__DisplayClass8_0_TypeDefinitionIndex = 55708;
+inline static constexpr unsigned int Class_2_8D6A893BEF7BEB75___c__DisplayClass8_0_TypeDefinitionIndex = 56945;
 
 class Class_2_8D6A893BEF7BEB75___c__DisplayClass8_0 : public ::System::Object
 {
 public:
 	::Class_2_8D6A893BEF7BEB75* __4__this; // 0x10
-	::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A* item; // 0x18
-	::System::Object* obj; // 0x20
+	::System::Object* obj; // 0x18
+	::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A* item; // 0x20
 
 	::System::Void _ctor()
 	{

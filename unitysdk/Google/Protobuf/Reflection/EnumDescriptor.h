@@ -11,22 +11,22 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x1789FFD0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1789FF60)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x178A0040)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1789FB90)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x197E1980)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x197E1910)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x197E19F0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x197E1540)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 5531;
+	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 5536;
 
 	class EnumDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::System::Type* clrType; // 0x28
-		::Google::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x30
+		::Google::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x28
+		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x30
 		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumValueDescriptor*>* values; // 0x38
-		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x40
+		::System::Type* clrType; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::EnumDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::MessageDescriptor* a3, ::System::Int32 a4, ::System::Type* a5)
 		{

@@ -4,13 +4,13 @@
 #include "unitysdk/RPG/GameCore/NPCBodySize.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CLIENT_NPCEYECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0x15EDEBC0)
-#define RPG_CLIENT_NPCEYECONFIG_METHOD_3_224AD0AC2C730EE1_OFFSET UNITYSDK_OFFSET(0x15EDEE10)
-#define RPG_CLIENT_NPCEYECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15EDEF00)
+#define RPG_CLIENT_NPCEYECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xCEE0260)
+#define RPG_CLIENT_NPCEYECONFIG_METHOD_3_224AD0AC2C730EE1_OFFSET UNITYSDK_OFFSET(0xCEE0520)
+#define RPG_CLIENT_NPCEYECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCEE0610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcEyeConfig_TypeDefinitionIndex = 56148;
+	inline static constexpr unsigned int NpcEyeConfig_TypeDefinitionIndex = 57388;
 
 	class NpcEyeConfig : public ::UnityEngine::ScriptableObject
 	{

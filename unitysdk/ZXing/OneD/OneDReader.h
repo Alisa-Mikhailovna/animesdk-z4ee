@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZXING_ONED_ONEDREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13CE26F0)
+#define ZXING_ONED_ONEDREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2F1310)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int OneDReader_TypeDefinitionIndex = 6403;
+	inline static constexpr unsigned int OneDReader_TypeDefinitionIndex = 6408;
 
 	class OneDReader : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_PATTERN_MATCH_RESULT_SCALE_FACTOR()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OneDReader_TypeDefinitionIndex)->GetStaticField(0x2600);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OneDReader_TypeDefinitionIndex)->GetStaticField(0xE00);
 		}
 		static ::System::Int32* StaticGet_INTEGER_MATH_SHIFT()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OneDReader_TypeDefinitionIndex)->GetStaticField(0x2604);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OneDReader_TypeDefinitionIndex)->GetStaticField(0xE04);
 		}
 
 		static ::System::Void _cctor()

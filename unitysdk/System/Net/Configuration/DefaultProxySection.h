@@ -5,13 +5,13 @@
 namespace System::Configuration { class ConfigurationElement; }
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x181998A0)
-#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_RESET_OFFSET UNITYSDK_OFFSET(0x181998E0)
-#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18199860)
+#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1CCAD980)
+#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_RESET_OFFSET UNITYSDK_OFFSET(0x1CCAD9C0)
+#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD940)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int DefaultProxySection_TypeDefinitionIndex = 3066;
+	inline static constexpr unsigned int DefaultProxySection_TypeDefinitionIndex = 3070;
 
 	class DefaultProxySection : public ::System::Configuration::ConfigurationSection
 	{

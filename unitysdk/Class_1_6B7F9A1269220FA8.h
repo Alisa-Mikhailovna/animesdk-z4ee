@@ -7,21 +7,21 @@ namespace RPG::Client { class AudiencePrefabSpecialTag_Blink; }
 namespace RPG::GameCore { class CharacterAtlasFaceSet; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6B7F9A1269220FA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x178EDF80)
-#define CLASS_1_6B7F9A1269220FA8_METHOD_1_37AACA8481A4B501_OFFSET UNITYSDK_OFFSET(0x178EDAE0)
-#define CLASS_1_6B7F9A1269220FA8_METHOD_1_57C2A99C4A50D8FB_OFFSET UNITYSDK_OFFSET(0x178EDCE0)
-#define CLASS_1_6B7F9A1269220FA8_METHOD_1_5B2CAD1A0582F9BB_OFFSET UNITYSDK_OFFSET(0x178EDFD0)
-#define CLASS_1_6B7F9A1269220FA8__CTOR_OFFSET UNITYSDK_OFFSET(0x178EDA50)
+#define CLASS_1_6B7F9A1269220FA8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14AC3F40)
+#define CLASS_1_6B7F9A1269220FA8_METHOD_1_37AACA8481A4B501_OFFSET UNITYSDK_OFFSET(0x14AC3AA0)
+#define CLASS_1_6B7F9A1269220FA8_METHOD_1_57C2A99C4A50D8FB_OFFSET UNITYSDK_OFFSET(0x14AC3CA0)
+#define CLASS_1_6B7F9A1269220FA8_METHOD_1_5B2CAD1A0582F9BB_OFFSET UNITYSDK_OFFSET(0x14AC3F90)
+#define CLASS_1_6B7F9A1269220FA8__CTOR_OFFSET UNITYSDK_OFFSET(0x14AC3A10)
 
-inline static constexpr unsigned int Class_1_6B7F9A1269220FA8_TypeDefinitionIndex = 64662;
+inline static constexpr unsigned int Class_1_6B7F9A1269220FA8_TypeDefinitionIndex = 66063;
 
 class Class_1_6B7F9A1269220FA8 : public ::System::Object
 {
 public:
-	::RPG::Client::AudiencePrefabSpecialTag_Blink* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::System::Int32>* Field_1_1; // 0x18
+	::Class_1_52DD9E5E2B969CDC* Field_1_0; // 0x10
+	::RPG::Client::AudiencePrefabSpecialTag_Blink* Field_1_1; // 0x18
 	::RPG::GameCore::CharacterAtlasFaceSet* Field_1_2; // 0x20
-	::Class_1_52DD9E5E2B969CDC* Field_1_3; // 0x28
+	::System::Collections::Generic::List_1<::System::Int32>* Field_1_3; // 0x28
 	::System::Single Field_1_4; // 0x30
 	::System::Single Field_1_5; // 0x34
 

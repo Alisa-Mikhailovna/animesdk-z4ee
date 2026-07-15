@@ -5,17 +5,17 @@
 class Class_2_2B2547BD1ECDA4D6;
 namespace Entitas { class IContext; }
 
-#define CLASS_1_3B1EA953A4067E26_1_CLEAR_OFFSET UNITYSDK_OFFSET(0x15F7D110)
-#define CLASS_1_3B1EA953A4067E26_1_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x15F7D160)
-#define CLASS_1_3B1EA953A4067E26_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7D040)
+#define CLASS_1_3B1EA953A4067E26_1_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A79D9A0)
+#define CLASS_1_3B1EA953A4067E26_1_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1A79D9F0)
+#define CLASS_1_3B1EA953A4067E26_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79D8D0)
 
-inline static constexpr unsigned int Class_1_3B1EA953A4067E26_1_TypeDefinitionIndex = 38713;
+inline static constexpr unsigned int Class_1_3B1EA953A4067E26_1_TypeDefinitionIndex = 39521;
 
 class Class_1_3B1EA953A4067E26_1 : public ::System::Object
 {
 public:
-	::Class_2_2B2547BD1ECDA4D6* Field_1_0; // 0x10
-	::Il2CppArray<::Entitas::IContext*>* _allContexts_k__BackingField; // 0x18
+	::Il2CppArray<::Entitas::IContext*>* _allContexts_k__BackingField; // 0x10
+	::Class_2_2B2547BD1ECDA4D6* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

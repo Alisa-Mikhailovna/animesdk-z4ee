@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Protobuf { class IMessage; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class SingleFieldAccessor; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18385770)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x183857B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B83770)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR___C__DISPLAYCLASS2_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x19B837B0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SingleFieldAccessor___c__DisplayClass2_0_TypeDefinitionIndex = 34049;
+	inline static constexpr unsigned int SingleFieldAccessor___c__DisplayClass2_0_TypeDefinitionIndex = 34420;
 
 	class SingleFieldAccessor___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -8,15 +8,15 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_10E2416C2EE85552_OFFSET UNITYSDK_OFFSET(0x18FD1080)
-#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_4EA5C44B2DE84705_OFFSET UNITYSDK_OFFSET(0x18FD1310)
-#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_93187DA7BA964475_OFFSET UNITYSDK_OFFSET(0x18FD0FA0)
-#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_FF6A4BB9EDAF8EBC_OFFSET UNITYSDK_OFFSET(0x18FD1290)
-#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2__CTOR_OFFSET UNITYSDK_OFFSET(0x18FD1020)
+#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_10E2416C2EE85552_OFFSET UNITYSDK_OFFSET(0x1B248AF0)
+#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_216640FAD1D4AA1D_OFFSET UNITYSDK_OFFSET(0x1B248D00)
+#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_4714BCD181BBD3EA_OFFSET UNITYSDK_OFFSET(0x1B248D40)
+#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_66D62400EBEAD5FF_OFFSET UNITYSDK_OFFSET(0x1B248AA0)
+#define RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B248AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareFloorCustomFloatV2_TypeDefinitionIndex = 19556;
+	inline static constexpr unsigned int ByCompareFloorCustomFloatV2_TypeDefinitionIndex = 19915;
 
 	class ByCompareFloorCustomFloatV2 : public ::RPG::GameCore::PredicateConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_93187DA7BA964475(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareFloorCustomFloatV2*& a2)
+		static ::System::Void Method_4_66D62400EBEAD5FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareFloorCustomFloatV2*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareFloorCustomFloatV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_93187DA7BA964475_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareFloorCustomFloatV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_66D62400EBEAD5FF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_10E2416C2EE85552(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareFloorCustomFloatV2* a2)
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareFloorCustomFloatV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_10E2416C2EE85552_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FF6A4BB9EDAF8EBC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareFloorCustomFloatV2*& a2)
+		static ::System::Void Method_4_216640FAD1D4AA1D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareFloorCustomFloatV2*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareFloorCustomFloatV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_FF6A4BB9EDAF8EBC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareFloorCustomFloatV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_216640FAD1D4AA1D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4EA5C44B2DE84705(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareFloorCustomFloatV2* a2)
+		static ::System::Void Method_4_4714BCD181BBD3EA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareFloorCustomFloatV2* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareFloorCustomFloatV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_4EA5C44B2DE84705_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareFloorCustomFloatV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREFLOORCUSTOMFLOATV2_METHOD_4_4714BCD181BBD3EA_OFFSET))(a1, a2);
 		}
 	};
 }

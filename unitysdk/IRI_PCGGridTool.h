@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define IRI_PCGGRIDTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x14062410)
+#define IRI_PCGGRIDTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x15252F30)
 
-inline static constexpr unsigned int IRI_PCGGridTool_TypeDefinitionIndex = 44847;
+inline static constexpr unsigned int IRI_PCGGridTool_TypeDefinitionIndex = 45764;
 
 class IRI_PCGGridTool : public ::UnityEngine::MonoBehaviour
 {

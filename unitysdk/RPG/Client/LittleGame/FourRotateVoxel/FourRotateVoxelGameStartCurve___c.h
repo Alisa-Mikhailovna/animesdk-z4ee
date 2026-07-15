@@ -6,24 +6,24 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x179B3CA0)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x179B3CE0)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C___SOLVELIQUIDEFFECT_B__39_0_OFFSET UNITYSDK_OFFSET(0x179B3CF0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9CD3B0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC9CD3F0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C___SOLVELIQUIDEFFECT_B__39_0_OFFSET UNITYSDK_OFFSET(0xC9CD400)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex = 71369;
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex = 72894;
 
 	class FourRotateVoxelGameStartCurve___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__39_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex)->GetStaticField(0x45E20);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex)->GetStaticField(0x3D120);
 		}
 		static ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve___c**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex)->GetStaticField(0x45E28);
+			return (::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve___c**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex)->GetStaticField(0x3D128);
 		}
 
 		static ::System::Void _cctor()

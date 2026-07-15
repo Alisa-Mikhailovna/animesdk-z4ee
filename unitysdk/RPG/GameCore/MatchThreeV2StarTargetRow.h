@@ -6,21 +6,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1999C060)
-#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1999C290)
+#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5D65B0)
+#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D67E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2StarTargetRow_TypeDefinitionIndex = 11436;
+	inline static constexpr unsigned int MatchThreeV2StarTargetRow_TypeDefinitionIndex = 11536;
 
 	class MatchThreeV2StarTargetRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FinishParamList; // 0x10
-		::RPG::GameCore::MatchThreeV2StarTargetFinishType FinishType; // 0x18
-		::System::UInt32 Reward; // 0x1C
-		::RPG::Client::TextID Desc; // 0x20
-		::System::UInt32 StarTargetID; // 0x30
+		::RPG::Client::TextID Desc; // 0x18
+		::System::UInt32 StarTargetID; // 0x28
+		::RPG::GameCore::MatchThreeV2StarTargetFinishType FinishType; // 0x2C
+		::System::UInt32 Reward; // 0x30
 
 		::System::Void _ctor()
 		{

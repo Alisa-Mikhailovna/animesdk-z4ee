@@ -6,20 +6,20 @@
 namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class OnEventCallBack; }
 
-#define CLASS_1_6ADC80F6389B979E_METHOD_1_1092C5537716905B_OFFSET UNITYSDK_OFFSET(0x15899680)
-#define CLASS_1_6ADC80F6389B979E_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x158996E0)
-#define CLASS_1_6ADC80F6389B979E_METHOD_1_9B8E5DC06BFA4147_OFFSET UNITYSDK_OFFSET(0x15899580)
-#define CLASS_1_6ADC80F6389B979E__CTOR_OFFSET UNITYSDK_OFFSET(0x15899670)
+#define CLASS_1_6ADC80F6389B979E_METHOD_1_1092C5537716905B_OFFSET UNITYSDK_OFFSET(0xB482390)
+#define CLASS_1_6ADC80F6389B979E_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB4823F0)
+#define CLASS_1_6ADC80F6389B979E_METHOD_1_9B8E5DC06BFA4147_OFFSET UNITYSDK_OFFSET(0xB482290)
+#define CLASS_1_6ADC80F6389B979E__CTOR_OFFSET UNITYSDK_OFFSET(0xB482380)
 
-inline static constexpr unsigned int Class_1_6ADC80F6389B979E_TypeDefinitionIndex = 63852;
+inline static constexpr unsigned int Class_1_6ADC80F6389B979E_TypeDefinitionIndex = 65221;
 
 class Class_1_6ADC80F6389B979E : public ::System::Object
 {
 public:
-	::RPG::GameCore::OnEventCallBack* Field_1_0; // 0x10
-	::RPG::GameCore::EventManager* Field_1_1; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::RPG::GameCore::EventType Field_1_3; // 0x24
+	::RPG::GameCore::EventManager* Field_1_0; // 0x10
+	::RPG::GameCore::OnEventCallBack* Field_1_1; // 0x18
+	::RPG::GameCore::EventType Field_1_2; // 0x20
+	::System::UInt32 Field_1_3; // 0x24
 
 	::System::Void _ctor()
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CFC950)
-#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18CFC990)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFDF140)
+#define RPG_CLIENT_PIXAIR_PIXAIRPLANESTATUSCONTROL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCFDF180)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatusControl___c_TypeDefinitionIndex = 73570;
+	inline static constexpr unsigned int PixAirPlaneStatusControl___c_TypeDefinitionIndex = 75219;
 
 	class PixAirPlaneStatusControl___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::PixAir::PixAirPlaneStatusControl___c** StaticGet___9()
 		{
-			return (::RPG::Client::PixAir::PixAirPlaneStatusControl___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x7CF0);
+			return (::RPG::Client::PixAir::PixAirPlaneStatusControl___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirPlaneStatusControl___c_TypeDefinitionIndex)->GetStaticField(0x68E80);
 		}
 
 		static ::System::Void _cctor()

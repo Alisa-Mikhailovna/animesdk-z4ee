@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define XLUA_BLACKLISTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57EE60)
+#define XLUA_BLACKLISTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3C6B70)
 
 namespace XLua
 {
-	inline static constexpr unsigned int BlackListAttribute_TypeDefinitionIndex = 5600;
+	inline static constexpr unsigned int BlackListAttribute_TypeDefinitionIndex = 5605;
 
 	class BlackListAttribute : public ::System::Attribute
 	{

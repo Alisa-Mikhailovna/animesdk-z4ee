@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_3616FDE8A71D0590_2;
+class Class_2_3616FDE8A71D0590_1;
 namespace Entitas { class IContext; }
 
-#define CLASS_1_C6C5256FBDC1500F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16902020)
-#define CLASS_1_C6C5256FBDC1500F_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x16902130)
-#define CLASS_1_C6C5256FBDC1500F_GET_CAKERACECORE_OFFSET UNITYSDK_OFFSET(0x16902120)
-#define CLASS_1_C6C5256FBDC1500F__CTOR_OFFSET UNITYSDK_OFFSET(0x16901F50)
+#define CLASS_1_C6C5256FBDC1500F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5071A0)
+#define CLASS_1_C6C5256FBDC1500F_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1A5072A0)
+#define CLASS_1_C6C5256FBDC1500F_GET_CAKERACECORE_OFFSET UNITYSDK_OFFSET(0x1A507290)
+#define CLASS_1_C6C5256FBDC1500F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5070D0)
 
-inline static constexpr unsigned int Class_1_C6C5256FBDC1500F_TypeDefinitionIndex = 34616;
+inline static constexpr unsigned int Class_1_C6C5256FBDC1500F_TypeDefinitionIndex = 35280;
 
 class Class_1_C6C5256FBDC1500F : public ::System::Object
 {
 public:
 	::Il2CppArray<::Entitas::IContext*>* _allContexts_k__BackingField; // 0x10
-	::Class_2_3616FDE8A71D0590_2* _cakeRaceCore_k__BackingField; // 0x18
+	::Class_2_3616FDE8A71D0590_1* _cakeRaceCore_k__BackingField; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -28,9 +28,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6C5256FBDC1500F_DISPOSE_OFFSET))(this);
 	}
 
-	::Class_2_3616FDE8A71D0590_2* get_cakeRaceCore()
+	::Class_2_3616FDE8A71D0590_1* get_cakeRaceCore()
 	{
-		return ((::Class_2_3616FDE8A71D0590_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6C5256FBDC1500F_GET_CAKERACECORE_OFFSET))(this);
+		return ((::Class_2_3616FDE8A71D0590_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_C6C5256FBDC1500F_GET_CAKERACECORE_OFFSET))(this);
 	}
 
 	::Il2CppArray<::Entitas::IContext*>* get_allContexts()

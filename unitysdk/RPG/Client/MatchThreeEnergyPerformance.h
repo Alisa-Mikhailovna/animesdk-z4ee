@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MATCHTHREEENERGYPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19745990)
+#define RPG_CLIENT_MATCHTHREEENERGYPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xCB44160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeEnergyPerformance_TypeDefinitionIndex = 61631;
+	inline static constexpr unsigned int MatchThreeEnergyPerformance_TypeDefinitionIndex = 62993;
 
 	class MatchThreeEnergyPerformance : public ::UnityEngine::MonoBehaviour
 	{

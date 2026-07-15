@@ -4,12 +4,12 @@
 
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BADGECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x18123AF0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BADGECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x18123BE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BADGECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xD6FBAC0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BADGECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xD6FBBB0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_BadgeComparer_TypeDefinitionIndex = 69376;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_BadgeComparer_TypeDefinitionIndex = 70897;
 
 	class TrainPartyBuildDisplayWallContext_BadgeComparer : public ::System::Object
 	{

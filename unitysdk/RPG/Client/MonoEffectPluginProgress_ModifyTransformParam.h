@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_METHOD_1_FD7514C64FB1B043_OFFSET UNITYSDK_OFFSET(0x174BEC60)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x174BEE30)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_METHOD_1_FD7514C64FB1B043_OFFSET UNITYSDK_OFFSET(0xCCC44C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCCC4690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyTransformParam_TypeDefinitionIndex = 65544;
+	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyTransformParam_TypeDefinitionIndex = 66959;
 
 	class MonoEffectPluginProgress_ModifyTransformParam : public ::System::Object
 	{

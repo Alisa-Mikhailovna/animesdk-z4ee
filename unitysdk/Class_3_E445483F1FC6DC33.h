@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CameraFollowEntityTimeScale; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E445483F1FC6DC33_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A821C0)
-#define CLASS_3_E445483F1FC6DC33__CTOR_OFFSET UNITYSDK_OFFSET(0x14A82190)
+#define CLASS_3_E445483F1FC6DC33_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152B9AC0)
+#define CLASS_3_E445483F1FC6DC33__CTOR_OFFSET UNITYSDK_OFFSET(0x152B9A90)
 
-inline static constexpr unsigned int Class_3_E445483F1FC6DC33_TypeDefinitionIndex = 51314;
+inline static constexpr unsigned int Class_3_E445483F1FC6DC33_TypeDefinitionIndex = 52421;
 
 class Class_3_E445483F1FC6DC33 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CameraFollowEntityTimeScale*>
 {

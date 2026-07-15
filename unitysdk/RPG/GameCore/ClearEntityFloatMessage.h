@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARENTITYFLOATMESSAGE_METHOD_3_15BFEC2D7E73AAC9_OFFSET UNITYSDK_OFFSET(0x1A30E5C0)
-#define RPG_GAMECORE_CLEARENTITYFLOATMESSAGE_METHOD_3_73D3A38D13684085_OFFSET UNITYSDK_OFFSET(0x1A30E650)
-#define RPG_GAMECORE_CLEARENTITYFLOATMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A30E620)
+#define RPG_GAMECORE_CLEARENTITYFLOATMESSAGE_METHOD_3_73D3A38D13684085_OFFSET UNITYSDK_OFFSET(0x1B35E060)
+#define RPG_GAMECORE_CLEARENTITYFLOATMESSAGE_METHOD_3_AE5DC3DD41091FD2_OFFSET UNITYSDK_OFFSET(0x1B35E010)
+#define RPG_GAMECORE_CLEARENTITYFLOATMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35E050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearEntityFloatMessage_TypeDefinitionIndex = 21948;
+	inline static constexpr unsigned int ClearEntityFloatMessage_TypeDefinitionIndex = 22382;
 
 	class ClearEntityFloatMessage : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYFLOATMESSAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_15BFEC2D7E73AAC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityFloatMessage*& a2)
+		static ::System::Void Method_3_AE5DC3DD41091FD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityFloatMessage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityFloatMessage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYFLOATMESSAGE_METHOD_3_15BFEC2D7E73AAC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityFloatMessage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYFLOATMESSAGE_METHOD_3_AE5DC3DD41091FD2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_73D3A38D13684085(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityFloatMessage* a2)

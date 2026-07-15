@@ -6,19 +6,19 @@
 namespace RPGTools::Timeline::Emotion { class EmoBakedPose; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBAKEDPOSEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x199CB040)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBAKEDPOSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199CB030)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBAKEDPOSEDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCCB030)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBAKEDPOSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDCCB020)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBakedPoseData_TypeDefinitionIndex = 46016;
+	inline static constexpr unsigned int EmoBakedPoseData_TypeDefinitionIndex = 46955;
 
 	class EmoBakedPoseData : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::UnityEngine::AnimationCurve** StaticGet_s_EaseInOutCurve()
 		{
-			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(EmoBakedPoseData_TypeDefinitionIndex)->GetStaticField(0x9F40);
+			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(EmoBakedPoseData_TypeDefinitionIndex)->GetStaticField(0x6B660);
 		}
 		::RPGTools::Timeline::Emotion::BlendCurve Curve; // 0x18
 		::Il2CppArray<::RPGTools::Timeline::Emotion::EmoBakedPose*>* Poses; // 0x20

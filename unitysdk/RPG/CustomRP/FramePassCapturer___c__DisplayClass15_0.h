@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/AsyncGPUReadbackRequest.h"
 
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x157F5F80)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER___C__DISPLAYCLASS15_0___STARTCAPTUREFRAMEANDPARAMS_B__0_OFFSET UNITYSDK_OFFSET(0x157F5F90)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA7B040)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER___C__DISPLAYCLASS15_0___STARTCAPTUREFRAMEANDPARAMS_B__0_OFFSET UNITYSDK_OFFSET(0x1AA7B050)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FramePassCapturer___c__DisplayClass15_0_TypeDefinitionIndex = 35299;
+	inline static constexpr unsigned int FramePassCapturer___c__DisplayClass15_0_TypeDefinitionIndex = 36081;
 
 	class FramePassCapturer___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
 		::System::Int32 height; // 0x10
-		::System::Int32 width; // 0x14
-		::System::Boolean readbackEnded; // 0x18
+		::System::Boolean readbackEnded; // 0x14
+		::System::Int32 width; // 0x18
 
 		::System::Void _ctor()
 		{

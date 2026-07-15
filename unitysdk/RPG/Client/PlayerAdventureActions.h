@@ -6,55 +6,55 @@ namespace InControl { class PlayerTwoAxisAction; }
 namespace InControl { class TwoAxisInputControl; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_CAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0x194E83F0)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_ISCAMERAACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x194E8600)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_INIT_OFFSET UNITYSDK_OFFSET(0x194E7790)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_RESETCAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0x194E8340)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_SETCAMERAROTATIONACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x194E7FA0)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x194E8610)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x194E7750)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_CAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xD097150)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_ISCAMERAACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xD097360)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_INIT_OFFSET UNITYSDK_OFFSET(0xD096500)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_RESETCAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xD0970B0)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_SETCAMERAROTATIONACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xD096D10)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD097370)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xD0964C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerAdventureActions_TypeDefinitionIndex = 57334;
+	inline static constexpr unsigned int PlayerAdventureActions_TypeDefinitionIndex = 58594;
 
 	class PlayerAdventureActions : public ::Class_2_559FD6C5998F578D
 	{
 	public:
-		static ::System::String** StaticGet_LeftStickDown()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD060);
-		}
-		static ::System::String** StaticGet_LeftStickRight()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD068);
-		}
 		static ::System::String** StaticGet_LeftStickUp()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD070);
-		}
-		static ::System::String** StaticGet_LeftStickLeft()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD078);
-		}
-		static ::System::String** StaticGet_RightStickLeft()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD080);
-		}
-		static ::System::String** StaticGet_RightStickDown()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD088);
-		}
-		static ::System::String** StaticGet_RightStickUp()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD090);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F190);
 		}
 		static ::System::String** StaticGet_RightStickRight()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0xD098);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F198);
 		}
-		::InControl::PlayerTwoAxisAction* _CameraRotationActionOverride; // 0x98
-		::InControl::PlayerTwoAxisAction* _CameraRotationAction; // 0xA0
+		static ::System::String** StaticGet_RightStickLeft()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F1A0);
+		}
+		static ::System::String** StaticGet_LeftStickLeft()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F1A8);
+		}
+		static ::System::String** StaticGet_RightStickUp()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F1B0);
+		}
+		static ::System::String** StaticGet_RightStickDown()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F1B8);
+		}
+		static ::System::String** StaticGet_LeftStickDown()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F1C0);
+		}
+		static ::System::String** StaticGet_LeftStickRight()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(PlayerAdventureActions_TypeDefinitionIndex)->GetStaticField(0x5F1C8);
+		}
+		::InControl::PlayerTwoAxisAction* _CameraRotationAction; // 0x98
+		::InControl::PlayerTwoAxisAction* _CameraRotationActionOverride; // 0xA0
 		::InControl::TwoAxisInputControl* _CameraRotationActionOverridePsPlatform; // 0xA8
 		::System::Boolean _IsCameraRotationActionOverride; // 0xB0
 

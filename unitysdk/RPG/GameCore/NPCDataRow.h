@@ -7,23 +7,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x190FF360)
-#define RPG_GAMECORE_NPCDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x190FFB20)
+#define RPG_GAMECORE_NPCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B66B270)
+#define RPG_GAMECORE_NPCDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66B9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCDataRow_TypeDefinitionIndex = 13608;
+	inline static constexpr unsigned int NPCDataRow_TypeDefinitionIndex = 13756;
 
 	class NPCDataRow : public ::System::Object
 	{
 	public:
 		::System::String* ConfigEntityPath; // 0x10
 		::System::String* JsonPath; // 0x18
-		::System::UInt32 SeriesID; // 0x20
-		::RPG::Client::TextID DefaultNPCTitle; // 0x28
+		::RPG::Client::TextID DefaultNPCTitle; // 0x20
+		::RPG::GameCore::NPCSubType SubType; // 0x30
+		::System::UInt32 ID; // 0x34
 		::RPG::Client::TextID DefaultNPCName; // 0x38
-		::System::UInt32 ID; // 0x48
-		::RPG::GameCore::NPCSubType SubType; // 0x4C
+		::System::UInt32 SeriesID; // 0x48
 
 		::System::Void _ctor()
 		{

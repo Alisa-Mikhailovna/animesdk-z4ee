@@ -5,16 +5,16 @@
 class Class_2_48488E8DBD9F6BCE;
 namespace RPG::GameCore { class DiceCombatTaskConfig_InitExtraColorDice; }
 
-#define CLASS_2_5E6CDC7673679DEB_METHOD_2_BD2F8ECECEAD4800_OFFSET UNITYSDK_OFFSET(0x158F1230)
-#define CLASS_2_5E6CDC7673679DEB__CTOR_OFFSET UNITYSDK_OFFSET(0x158F1220)
+#define CLASS_2_5E6CDC7673679DEB_METHOD_2_BD2F8ECECEAD4800_OFFSET UNITYSDK_OFFSET(0x1A594D10)
+#define CLASS_2_5E6CDC7673679DEB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A594D00)
 
-inline static constexpr unsigned int Class_2_5E6CDC7673679DEB_TypeDefinitionIndex = 34397;
+inline static constexpr unsigned int Class_2_5E6CDC7673679DEB_TypeDefinitionIndex = 34779;
 
 class Class_2_5E6CDC7673679DEB : public ::Class_1_B55037134F9E6688
 {
 public:
-	::Class_2_48488E8DBD9F6BCE* Field_2_0; // 0x18
-	::RPG::GameCore::DiceCombatTaskConfig_InitExtraColorDice* Field_2_1; // 0x20
+	::RPG::GameCore::DiceCombatTaskConfig_InitExtraColorDice* Field_2_0; // 0x18
+	::Class_2_48488E8DBD9F6BCE* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_InitExtraColorDice* a1, ::Class_2_48488E8DBD9F6BCE* a2)
 	{

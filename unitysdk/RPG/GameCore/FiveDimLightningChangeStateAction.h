@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_3480EC9A2A19A379_OFFSET UNITYSDK_OFFSET(0x199E10D0)
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_587F683E7DA9B7D4_OFFSET UNITYSDK_OFFSET(0x199F7080)
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x199E10B0)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_15098C46CEC614E3_OFFSET UNITYSDK_OFFSET(0x1B436600)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_370E27C9EAE8EFB0_OFFSET UNITYSDK_OFFSET(0x1B436640)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B436630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLightningChangeStateAction_TypeDefinitionIndex = 17873;
+	inline static constexpr unsigned int FiveDimLightningChangeStateAction_TypeDefinitionIndex = 18050;
 
 	class FiveDimLightningChangeStateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -23,14 +23,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_587F683E7DA9B7D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLightningChangeStateAction*& a2)
+		static ::System::Void Method_3_15098C46CEC614E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLightningChangeStateAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLightningChangeStateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_587F683E7DA9B7D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLightningChangeStateAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_15098C46CEC614E3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3480EC9A2A19A379(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLightningChangeStateAction* a2)
+		static ::System::Void Method_3_370E27C9EAE8EFB0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLightningChangeStateAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLightningChangeStateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_3480EC9A2A19A379_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLightningChangeStateAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCHANGESTATEACTION_METHOD_3_370E27C9EAE8EFB0_OFFSET))(a1, a2);
 		}
 	};
 }

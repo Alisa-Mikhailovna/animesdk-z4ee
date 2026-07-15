@@ -9,53 +9,53 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_GOODS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A44D4C0)
-#define PROTO_GOODS_CLONE_OFFSET UNITYSDK_OFFSET(0x1A44D0F0)
-#define PROTO_GOODS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A44D280)
-#define PROTO_GOODS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A44D1F0)
-#define PROTO_GOODS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A44D300)
-#define PROTO_GOODS_GET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1A44D170)
-#define PROTO_GOODS_GET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x1A44D1B0)
-#define PROTO_GOODS_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1A44D150)
-#define PROTO_GOODS_GET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1A44D1D0)
-#define PROTO_GOODS_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1A44D190)
-#define PROTO_GOODS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A44D050)
-#define PROTO_GOODS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A44D850)
-#define PROTO_GOODS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A44D7F0)
-#define PROTO_GOODS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A44D080)
-#define PROTO_GOODS_SET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1A44D180)
-#define PROTO_GOODS_SET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x1A44D1C0)
-#define PROTO_GOODS_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1A44D160)
-#define PROTO_GOODS_SET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1A44D1E0)
-#define PROTO_GOODS_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1A44D1A0)
-#define PROTO_GOODS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A44D360)
-#define PROTO_GOODS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A44D3C0)
-#define PROTO_GOODS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A44D910)
-#define PROTO_GOODS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A44D0A0)
-#define PROTO_GOODS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A44D090)
+#define PROTO_GOODS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BC76D90)
+#define PROTO_GOODS_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC76930)
+#define PROTO_GOODS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC76A90)
+#define PROTO_GOODS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC76A30)
+#define PROTO_GOODS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC76AE0)
+#define PROTO_GOODS_GET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1BC76A10)
+#define PROTO_GOODS_GET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x1BC769D0)
+#define PROTO_GOODS_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1BC769F0)
+#define PROTO_GOODS_GET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1BC769B0)
+#define PROTO_GOODS_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1BC76990)
+#define PROTO_GOODS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BC76890)
+#define PROTO_GOODS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BC77120)
+#define PROTO_GOODS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BC770C0)
+#define PROTO_GOODS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC768C0)
+#define PROTO_GOODS_SET_BEGINTIME_OFFSET UNITYSDK_OFFSET(0x1BC76A20)
+#define PROTO_GOODS_SET_BUYTIMES_OFFSET UNITYSDK_OFFSET(0x1BC769E0)
+#define PROTO_GOODS_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0x1BC76A00)
+#define PROTO_GOODS_SET_GOODSID_OFFSET UNITYSDK_OFFSET(0x1BC769C0)
+#define PROTO_GOODS_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0x1BC769A0)
+#define PROTO_GOODS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC76B40)
+#define PROTO_GOODS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BC76BA0)
+#define PROTO_GOODS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC771E0)
+#define PROTO_GOODS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC768E0)
+#define PROTO_GOODS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC768D0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int Goods_TypeDefinitionIndex = 32390;
+	inline static constexpr unsigned int Goods_TypeDefinitionIndex = 32766;
 
 	class Goods : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::Goods*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::Goods*>**)Il2CppClass::FromTypeDefinitionIndex(Goods_TypeDefinitionIndex)->GetStaticField(0x3D240);
+			return (::Google::Protobuf::MessageParser_1<::Proto::Goods*>**)Il2CppClass::FromTypeDefinitionIndex(Goods_TypeDefinitionIndex)->GetStaticField(0x3D9D0);
 		}
-		// static const ::System::Int32 EndTimeFieldNumber = 0x7; // 0x0
-		// static const ::System::Int32 BeginTimeFieldNumber = 0xA; // 0x0
-		// static const ::System::Int32 ItemIdFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 BuyTimesFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 GoodsIdFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 ItemIdFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 GoodsIdFieldNumber = 0x6; // 0x0
+		// static const ::System::Int32 BuyTimesFieldNumber = 0x7; // 0x0
+		// static const ::System::Int32 EndTimeFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 BeginTimeFieldNumber = 0xF; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::UInt32 goodsId_; // 0x18
-		::System::UInt32 buyTimes_; // 0x1C
-		::System::Int64 beginTime_; // 0x20
-		::System::UInt32 itemId_; // 0x28
-		::System::Int64 endTime_; // 0x30
+		::System::Int64 endTime_; // 0x18
+		::System::UInt32 itemId_; // 0x20
+		::System::Int64 beginTime_; // 0x28
+		::System::UInt32 buyTimes_; // 0x30
+		::System::UInt32 goodsId_; // 0x34
 
 		::System::Void _ctor()
 		{
@@ -87,6 +87,36 @@ namespace Proto
 			return ((::Proto::Goods*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_CLONE_OFFSET))(this);
 		}
 
+		::System::UInt32 get_ItemId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_ITEMID_OFFSET))(this);
+		}
+
+		::System::Void set_ItemId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GOODS_SET_ITEMID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_GoodsId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_GOODSID_OFFSET))(this);
+		}
+
+		::System::Void set_GoodsId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GOODS_SET_GOODSID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_BuyTimes()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_BUYTIMES_OFFSET))(this);
+		}
+
+		::System::Void set_BuyTimes(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GOODS_SET_BUYTIMES_OFFSET))(this, a1);
+		}
+
 		::System::Int64 get_EndTime()
 		{
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_ENDTIME_OFFSET))(this);
@@ -105,36 +135,6 @@ namespace Proto
 		::System::Void set_BeginTime(::System::Int64 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + PROTO_GOODS_SET_BEGINTIME_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_ItemId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_ITEMID_OFFSET))(this);
-		}
-
-		::System::Void set_ItemId(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GOODS_SET_ITEMID_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_BuyTimes()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_BUYTIMES_OFFSET))(this);
-		}
-
-		::System::Void set_BuyTimes(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GOODS_SET_BUYTIMES_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 get_GoodsId()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GOODS_GET_GOODSID_OFFSET))(this);
-		}
-
-		::System::Void set_GoodsId(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GOODS_SET_GOODSID_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

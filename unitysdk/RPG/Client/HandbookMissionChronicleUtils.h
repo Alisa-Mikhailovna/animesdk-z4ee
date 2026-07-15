@@ -5,13 +5,14 @@
 namespace RPG::Client { class MissionChronicleMainPathData; }
 namespace RPG::Client { class MissionChronicleSubPathData; }
 
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_ISMISSIONINPATH_1_OFFSET UNITYSDK_OFFSET(0x1768B780)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_ISMISSIONINPATH_OFFSET UNITYSDK_OFFSET(0x1768AFA0)
-#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_TRYFINDSUBPATHDATAFROMMAINPATH_OFFSET UNITYSDK_OFFSET(0x17695940)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_GETMAINPATHFROMCHAPTERDATALISTBY_OFFSET UNITYSDK_OFFSET(0xC8826A0)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_ISMISSIONINPATH_1_OFFSET UNITYSDK_OFFSET(0xC878140)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_ISMISSIONINPATH_OFFSET UNITYSDK_OFFSET(0xC877730)
+#define RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_TRYFINDSUBPATHDATAFROMMAINPATH_OFFSET UNITYSDK_OFFSET(0xC882600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookMissionChronicleUtils_TypeDefinitionIndex = 61359;
+	inline static constexpr unsigned int HandbookMissionChronicleUtils_TypeDefinitionIndex = 62703;
 
 	class HandbookMissionChronicleUtils : public ::System::Object
 	{
@@ -29,6 +30,11 @@ namespace RPG::Client
 		static ::RPG::Client::MissionChronicleSubPathData* TryFindSubPathDataFromMainPath(::System::UInt32 a1, ::RPG::Client::MissionChronicleMainPathData* a2)
 		{
 			return ((::RPG::Client::MissionChronicleSubPathData*(*)(::System::UInt32, ::RPG::Client::MissionChronicleMainPathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_TRYFINDSUBPATHDATAFROMMAINPATH_OFFSET))(a1, a2);
+		}
+
+		static ::RPG::Client::MissionChronicleMainPathData* GetMainPathFromChapterDataListBy(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::MissionChronicleMainPathData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMISSIONCHRONICLEUTILS_GETMAINPATHFROMCHAPTERDATALISTBY_OFFSET))(a1);
 		}
 	};
 }

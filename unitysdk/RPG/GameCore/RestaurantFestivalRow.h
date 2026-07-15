@@ -5,26 +5,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTFESTIVALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A2F4450)
-#define RPG_GAMECORE_RESTAURANTFESTIVALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F4940)
+#define RPG_GAMECORE_RESTAURANTFESTIVALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B728B80)
+#define RPG_GAMECORE_RESTAURANTFESTIVALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B729070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantFestivalRow_TypeDefinitionIndex = 10917;
+	inline static constexpr unsigned int RestaurantFestivalRow_TypeDefinitionIndex = 10967;
 
 	class RestaurantFestivalRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* FOList; // 0x10
-		::Il2CppArray<::System::UInt32>* MaterialList; // 0x18
+		::Il2CppArray<::System::UInt32>* MaterialList; // 0x10
+		::Il2CppArray<::System::UInt32>* FOList; // 0x18
 		::Il2CppArray<::System::UInt32>* TagList; // 0x20
-		::RPG::Client::TextID Detail; // 0x28
-		::System::UInt32 FestivalID; // 0x38
-		::System::Boolean IsShowToast; // 0x3C
-		::RPG::Client::TextID Toast; // 0x40
-		::System::UInt32 CustomerUpNumber; // 0x50
-		::System::Single PriceIncrease; // 0x54
-		::RPG::Client::TextID Title; // 0x58
+		::System::Single PriceIncrease; // 0x28
+		::System::UInt32 CustomerUpNumber; // 0x2C
+		::RPG::Client::TextID Title; // 0x30
+		::System::Boolean IsShowToast; // 0x40
+		::System::UInt32 FestivalID; // 0x44
+		::RPG::Client::TextID Toast; // 0x48
+		::RPG::Client::TextID Detail; // 0x58
 		::RPG::Client::TextID Name; // 0x68
 
 		::System::Void _ctor()

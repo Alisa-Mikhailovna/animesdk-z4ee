@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class StoryCharacterVisibleClip; }
 
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B61500)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B61520)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B61510)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B61790)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B617A0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD1CC90)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD1CCB0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD1CCA0)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD1CEF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryCharacterVisibleBehaviour_TypeDefinitionIndex = 45605;
+	inline static constexpr unsigned int StoryCharacterVisibleBehaviour_TypeDefinitionIndex = 46539;
 
 	class StoryCharacterVisibleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

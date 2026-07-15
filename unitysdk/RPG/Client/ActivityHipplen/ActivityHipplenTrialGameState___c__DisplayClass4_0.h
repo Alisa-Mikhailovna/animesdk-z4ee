@@ -6,19 +6,19 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenTrialGameState; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRIALGAMESTATE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x186C90F0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRIALGAMESTATE___C__DISPLAYCLASS4_0__RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0x186C9600)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRIALGAMESTATE___C__DISPLAYCLASS4_0__RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_B__1_OFFSET UNITYSDK_OFFSET(0x186C97F0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRIALGAMESTATE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB3D480)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRIALGAMESTATE___C__DISPLAYCLASS4_0__RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_B__0_OFFSET UNITYSDK_OFFSET(0xBB3D990)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENTRIALGAMESTATE___C__DISPLAYCLASS4_0__RPG_CLIENT_ACTIVITYHIPPLEN_IACTIVITYHIPPLENGAMESTATE_ONENTER_B__1_OFFSET UNITYSDK_OFFSET(0xBB3DB90)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenTrialGameState___c__DisplayClass4_0_TypeDefinitionIndex = 70402;
+	inline static constexpr unsigned int ActivityHipplenTrialGameState___c__DisplayClass4_0_TypeDefinitionIndex = 71925;
 
 	class ActivityHipplenTrialGameState___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game; // 0x18
+		::RPG::Client::ActivityHipplen::ActivityHipplenGameInstance* game; // 0x10
+		::System::Action* __9__1; // 0x18
 		::RPG::Client::ActivityHipplen::ActivityHipplenTrialGameState* __4__this; // 0x20
 
 		::System::Void _ctor()

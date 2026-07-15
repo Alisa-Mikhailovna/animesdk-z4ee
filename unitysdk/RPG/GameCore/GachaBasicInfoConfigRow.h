@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GACHABASICINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C884F0)
-#define RPG_GAMECORE_GACHABASICINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C889E0)
+#define RPG_GAMECORE_GACHABASICINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A6D50)
+#define RPG_GAMECORE_GACHABASICINFOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A7240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaBasicInfoConfigRow_TypeDefinitionIndex = 12717;
+	inline static constexpr unsigned int GachaBasicInfoConfigRow_TypeDefinitionIndex = 12854;
 
 	class GachaBasicInfoConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* PoolLabelIcon; // 0x10
 		::System::String* PoolLabelIconSelected; // 0x18
-		::System::String* PrefabPath; // 0x20
-		::System::String* StartTime; // 0x28
+		::System::String* StartTime; // 0x20
+		::System::String* PrefabPath; // 0x28
 		::System::String* EndTime; // 0x30
-		::RPG::Client::TextID PoolDesc; // 0x38
-		::RPG::Client::TextID PoolName; // 0x48
-		::RPG::GameCore::GachaType GachaType; // 0x58
-		::System::UInt32 SortID; // 0x5C
-		::RPG::Client::TextID PoolDescFTC; // 0x60
-		::RPG::Client::TextID TypeTitle; // 0x70
-		::System::UInt32 GachaID; // 0x80
+		::System::UInt32 SortID; // 0x38
+		::RPG::Client::TextID PoolDesc; // 0x40
+		::RPG::Client::TextID TypeTitle; // 0x50
+		::System::UInt32 GachaID; // 0x60
+		::RPG::GameCore::GachaType GachaType; // 0x64
+		::RPG::Client::TextID PoolName; // 0x68
+		::RPG::Client::TextID PoolDescFTC; // 0x78
 
 		::System::Void _ctor()
 		{

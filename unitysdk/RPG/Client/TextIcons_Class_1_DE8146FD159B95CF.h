@@ -6,12 +6,12 @@ namespace UnityEngine { class CanvasRenderer; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x141FF930)
-#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF__CTOR_OFFSET UNITYSDK_OFFSET(0x14203580)
+#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xD67A160)
+#define RPG_CLIENT_TEXTICONS_CLASS_1_DE8146FD159B95CF__CTOR_OFFSET UNITYSDK_OFFSET(0xD67DEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_Class_1_DE8146FD159B95CF_TypeDefinitionIndex = 67905;
+	inline static constexpr unsigned int TextIcons_Class_1_DE8146FD159B95CF_TypeDefinitionIndex = 69391;
 
 	class TextIcons_Class_1_DE8146FD159B95CF : public ::System::Object
 	{

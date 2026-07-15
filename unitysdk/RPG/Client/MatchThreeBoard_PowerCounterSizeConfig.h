@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD_POWERCOUNTERSIZECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x19743450)
+#define RPG_CLIENT_MATCHTHREEBOARD_POWERCOUNTERSIZECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB42700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex = 61601;
+	inline static constexpr unsigned int MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex = 62963;
 
 	struct alignas(8) MatchThreeBoard_PowerCounterSizeConfig
 	{
-		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_M()
+		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_S()
 		{
-			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x50BF0);
+			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x49CD0);
 		}
 		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_L()
 		{
-			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x50C00);
+			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x49CE0);
 		}
-		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_S()
+		static ::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig* StaticGet_M()
 		{
-			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x50C10);
+			return (::RPG::Client::MatchThreeBoard_PowerCounterSizeConfig*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeBoard_PowerCounterSizeConfig_TypeDefinitionIndex)->GetStaticField(0x49CF0);
 		}
 		::System::Int32 FontSize; // 0x10
 		::System::Single ShadowOffset; // 0x14

@@ -8,25 +8,24 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerWaitEating; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_0E74019F6DE29040_METHOD_3_0D7F0C9DBEFD8449_OFFSET UNITYSDK_OFFSET(0x160D6480)
-#define CLASS_3_0E74019F6DE29040_METHOD_3_41F5D9C0F0A306F5_OFFSET UNITYSDK_OFFSET(0x160D6220)
-#define CLASS_3_0E74019F6DE29040_METHOD_3_B1EA412ACAE87C15_OFFSET UNITYSDK_OFFSET(0x160D6850)
-#define CLASS_3_0E74019F6DE29040_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160D5750)
-#define CLASS_3_0E74019F6DE29040_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x160D5990)
-#define CLASS_3_0E74019F6DE29040_TICK_OFFSET UNITYSDK_OFFSET(0x160D59E0)
-#define CLASS_3_0E74019F6DE29040__CTOR_OFFSET UNITYSDK_OFFSET(0x160D5700)
-#define CLASS_3_0E74019F6DE29040___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0x160D6B50)
+#define CLASS_3_0E74019F6DE29040_METHOD_3_0D7F0C9DBEFD8449_OFFSET UNITYSDK_OFFSET(0x155BE940)
+#define CLASS_3_0E74019F6DE29040_METHOD_3_41F5D9C0F0A306F5_OFFSET UNITYSDK_OFFSET(0x155BE690)
+#define CLASS_3_0E74019F6DE29040_METHOD_3_B1EA412ACAE87C15_OFFSET UNITYSDK_OFFSET(0x155BED10)
+#define CLASS_3_0E74019F6DE29040_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155BDBB0)
+#define CLASS_3_0E74019F6DE29040_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155BDE00)
+#define CLASS_3_0E74019F6DE29040_TICK_OFFSET UNITYSDK_OFFSET(0x155BDE50)
+#define CLASS_3_0E74019F6DE29040__CTOR_OFFSET UNITYSDK_OFFSET(0x155BDB60)
 
-inline static constexpr unsigned int Class_3_0E74019F6DE29040_TypeDefinitionIndex = 48772;
+inline static constexpr unsigned int Class_3_0E74019F6DE29040_TypeDefinitionIndex = 49785;
 
 class Class_3_0E74019F6DE29040 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_ElfCustomerWaitEating*>
 {
 public:
-	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_0; // 0x28
+	::RPG::Client::ElfRestaurantGameInstance* Field_3_0; // 0x28
 	::System::String* Field_3_1; // 0x30
-	::RPG::Client::ElfRestaurantGameInstance* Field_3_2; // 0x38
-	::System::Boolean Field_3_3; // 0x40
-	::System::Single Field_3_4; // 0x44
+	::RPG::Client::LittleGame::ElfRestaurantGameEntity* Field_3_2; // 0x38
+	::System::Single Field_3_3; // 0x40
+	::System::Boolean Field_3_4; // 0x44
 	::System::Single Field_3_5; // 0x48
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerWaitEating* a2)
@@ -62,10 +61,5 @@ public:
 	::System::Void Method_3_B1EA412ACAE87C15()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_0E74019F6DE29040_METHOD_3_B1EA412ACAE87C15_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_0E74019F6DE29040___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

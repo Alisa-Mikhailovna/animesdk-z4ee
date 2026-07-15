@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRIGGERROGUEBUFFSELECT_METHOD_3_65574B95C1FD16D0_OFFSET UNITYSDK_OFFSET(0x19A4CF50)
-#define RPG_GAMECORE_TRIGGERROGUEBUFFSELECT_METHOD_3_91ACE3D6152CCA70_OFFSET UNITYSDK_OFFSET(0x19A4CFE0)
-#define RPG_GAMECORE_TRIGGERROGUEBUFFSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4CFB0)
+#define RPG_GAMECORE_TRIGGERROGUEBUFFSELECT_METHOD_3_866921BCA86B4074_OFFSET UNITYSDK_OFFSET(0x1B9A82C0)
+#define RPG_GAMECORE_TRIGGERROGUEBUFFSELECT_METHOD_3_91ACE3D6152CCA70_OFFSET UNITYSDK_OFFSET(0x1B9A8310)
+#define RPG_GAMECORE_TRIGGERROGUEBUFFSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A8300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerRogueBuffSelect_TypeDefinitionIndex = 19339;
+	inline static constexpr unsigned int TriggerRogueBuffSelect_TypeDefinitionIndex = 19695;
 
 	class TriggerRogueBuffSelect : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUEBUFFSELECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_65574B95C1FD16D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerRogueBuffSelect*& a2)
+		static ::System::Void Method_3_866921BCA86B4074(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerRogueBuffSelect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerRogueBuffSelect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUEBUFFSELECT_METHOD_3_65574B95C1FD16D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerRogueBuffSelect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERROGUEBUFFSELECT_METHOD_3_866921BCA86B4074_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_91ACE3D6152CCA70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerRogueBuffSelect* a2)

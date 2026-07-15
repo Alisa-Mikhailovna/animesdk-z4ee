@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_3CD6E3B4A8AD91EF_OFFSET UNITYSDK_OFFSET(0x14C8E880)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_95D40074EC7C1AA6_OFFSET UNITYSDK_OFFSET(0x14C8DFD0)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_D155D4917B3D2C6A_OFFSET UNITYSDK_OFFSET(0x14C8DCB0)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_F1A79A1F46BD9DD3_OFFSET UNITYSDK_OFFSET(0x14C8E790)
-#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x14C8E9E0)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_3CD6E3B4A8AD91EF_OFFSET UNITYSDK_OFFSET(0xC2DB620)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_95D40074EC7C1AA6_OFFSET UNITYSDK_OFFSET(0xC2DAE10)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_D155D4917B3D2C6A_OFFSET UNITYSDK_OFFSET(0xC2DAAF0)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM_METHOD_1_F1A79A1F46BD9DD3_OFFSET UNITYSDK_OFFSET(0xC2DB530)
+#define RPG_CLIENT_DYNAMICMATERIALLOADER_RENDERERLOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC2DB780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicMaterialLoader_RendererLoadItem_TypeDefinitionIndex = 63994;
+	inline static constexpr unsigned int DynamicMaterialLoader_RendererLoadItem_TypeDefinitionIndex = 65365;
 
 	class DynamicMaterialLoader_RendererLoadItem : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet__TmpNameIDs()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DynamicMaterialLoader_RendererLoadItem_TypeDefinitionIndex)->GetStaticField(0x9EE0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DynamicMaterialLoader_RendererLoadItem_TypeDefinitionIndex)->GetStaticField(0x67760);
 		}
 		::UnityEngine::Renderer* Renderer; // 0x10
 		::Il2CppArray<::RPG::Client::DynamicMaterialLoader_MaterialLoadItem*>* Mats; // 0x18

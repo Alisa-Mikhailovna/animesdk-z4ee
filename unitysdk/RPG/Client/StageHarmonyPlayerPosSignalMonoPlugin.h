@@ -11,13 +11,14 @@ namespace RPG::Client { class StageHarmonyPlayerPosSignalBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0x17C30D20)
-#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0x17C30B10)
-#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17C31250)
+#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0xD53DFC0)
+#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0xD53DD50)
+#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_UNLOAD_OFFSET UNITYSDK_OFFSET(0xD53DF70)
+#define RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD53E560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyPlayerPosSignalMonoPlugin_TypeDefinitionIndex = 66343;
+	inline static constexpr unsigned int StageHarmonyPlayerPosSignalMonoPlugin_TypeDefinitionIndex = 67768;
 
 	class StageHarmonyPlayerPosSignalMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonyPlayerPosSignalBehavior*>
 	{
@@ -40,6 +41,11 @@ namespace RPG::Client
 		::System::Void Load(::Struct_2_CC45B4503679E14E_10 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_LOAD_OFFSET))(this, a1);
+		}
+
+		::System::Void UnLoad(::Struct_2_CC45B4503679E14E_10 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYPLAYERPOSSIGNALMONOPLUGIN_UNLOAD_OFFSET))(this, a1);
 		}
 
 		::System::Void Dump(::Struct_2_CC45B4503679E14E_10 a1)

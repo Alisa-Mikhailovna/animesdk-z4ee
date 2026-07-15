@@ -6,11 +6,11 @@
 namespace UnityEngine::UIElements { class IPointerEvent; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
-#define UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET UNITYSDK_OFFSET(0x19F82F40)
+#define UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET UNITYSDK_OFFSET(0x1D0DD160)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerEventsHelper_TypeDefinitionIndex = 6226;
+	inline static constexpr unsigned int PointerEventsHelper_TypeDefinitionIndex = 6231;
 
 	class PointerEventsHelper : public ::System::Object
 	{

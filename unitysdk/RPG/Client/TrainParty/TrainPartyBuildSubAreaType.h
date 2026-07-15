@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildSubAreaType_TypeDefinitionIndex = 69386;
+	inline static constexpr unsigned int TrainPartyBuildSubAreaType_TypeDefinitionIndex = 70907;
 
 	enum class TrainPartyBuildSubAreaType : ::System::Int32
 	{

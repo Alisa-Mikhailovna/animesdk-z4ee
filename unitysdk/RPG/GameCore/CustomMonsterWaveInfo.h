@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_CUSTOMMONSTERWAVEINFO_METHOD_3_38C4923D84540706_OFFSET UNITYSDK_OFFSET(0x19B24120)
-#define RPG_GAMECORE_CUSTOMMONSTERWAVEINFO_METHOD_3_F60A0C1D9490FE0D_OFFSET UNITYSDK_OFFSET(0x19B240A0)
-#define RPG_GAMECORE_CUSTOMMONSTERWAVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19B240F0)
+#define RPG_GAMECORE_CUSTOMMONSTERWAVEINFO_METHOD_3_38C4923D84540706_OFFSET UNITYSDK_OFFSET(0x1B38FC60)
+#define RPG_GAMECORE_CUSTOMMONSTERWAVEINFO_METHOD_3_FCE3155CB5DC51EB_OFFSET UNITYSDK_OFFSET(0x1B38FC20)
+#define RPG_GAMECORE_CUSTOMMONSTERWAVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38FC50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomMonsterWaveInfo_TypeDefinitionIndex = 22405;
+	inline static constexpr unsigned int CustomMonsterWaveInfo_TypeDefinitionIndex = 22847;
 
 	class CustomMonsterWaveInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMMONSTERWAVEINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F60A0C1D9490FE0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomMonsterWaveInfo*& a2)
+		static ::System::Void Method_3_FCE3155CB5DC51EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomMonsterWaveInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomMonsterWaveInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMMONSTERWAVEINFO_METHOD_3_F60A0C1D9490FE0D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CustomMonsterWaveInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CUSTOMMONSTERWAVEINFO_METHOD_3_FCE3155CB5DC51EB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_38C4923D84540706(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CustomMonsterWaveInfo* a2)

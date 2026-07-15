@@ -5,9 +5,9 @@
 class Class_1_CE573B7713B36D39;
 namespace RPG::GameCore { class FiveDimMusicDirectorComponentConfig; }
 
-#define CLASS_1_9F2020BE8A023252__CTOR_OFFSET UNITYSDK_OFFSET(0x167F25B0)
+#define CLASS_1_9F2020BE8A023252__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C8C80)
 
-inline static constexpr unsigned int Class_1_9F2020BE8A023252_TypeDefinitionIndex = 39993;
+inline static constexpr unsigned int Class_1_9F2020BE8A023252_TypeDefinitionIndex = 40806;
 
 class Class_1_9F2020BE8A023252 : public ::System::Object
 {

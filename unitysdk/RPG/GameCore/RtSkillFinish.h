@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RTSKILLFINISH_METHOD_3_0F882B84EFBB8AFF_OFFSET UNITYSDK_OFFSET(0x1A159D10)
-#define RPG_GAMECORE_RTSKILLFINISH_METHOD_3_E0B0B89BD7886B8B_OFFSET UNITYSDK_OFFSET(0x1A159C00)
-#define RPG_GAMECORE_RTSKILLFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A159CE0)
+#define RPG_GAMECORE_RTSKILLFINISH_METHOD_3_0F882B84EFBB8AFF_OFFSET UNITYSDK_OFFSET(0x1B7C2730)
+#define RPG_GAMECORE_RTSKILLFINISH_METHOD_3_355177F9273555C2_OFFSET UNITYSDK_OFFSET(0x1B7C2660)
+#define RPG_GAMECORE_RTSKILLFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C2720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillFinish_TypeDefinitionIndex = 22893;
+	inline static constexpr unsigned int RtSkillFinish_TypeDefinitionIndex = 23360;
 
 	class RtSkillFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E0B0B89BD7886B8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSkillFinish*& a2)
+		static ::System::Void Method_3_355177F9273555C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSkillFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSkillFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLFINISH_METHOD_3_E0B0B89BD7886B8B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSkillFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLFINISH_METHOD_3_355177F9273555C2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0F882B84EFBB8AFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSkillFinish* a2)

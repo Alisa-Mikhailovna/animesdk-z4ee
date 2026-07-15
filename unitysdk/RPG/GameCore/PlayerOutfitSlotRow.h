@@ -8,23 +8,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYEROUTFITSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A767DC0)
-#define RPG_GAMECORE_PLAYEROUTFITSLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A768080)
+#define RPG_GAMECORE_PLAYEROUTFITSLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6CF570)
+#define RPG_GAMECORE_PLAYEROUTFITSLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6CF830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerOutfitSlotRow_TypeDefinitionIndex = 13782;
+	inline static constexpr unsigned int PlayerOutfitSlotRow_TypeDefinitionIndex = 13930;
 
 	class PlayerOutfitSlotRow : public ::System::Object
 	{
 	public:
-		::System::String* SlotIconPath; // 0x10
-		::System::String* VirtualCameraPath; // 0x18
-		::System::UInt32 DefaultOutfitID; // 0x20
-		::System::UInt32 SlotTipsIntroID; // 0x24
-		::RPG::Client::TextID SlotName; // 0x28
-		::RPG::GameCore::AvatarBaseType LimitBaseType; // 0x38
-		::RPG::GameCore::PlayerOutfitSlotType SlotType; // 0x3C
+		::System::String* VirtualCameraPath; // 0x10
+		::System::String* SlotIconPath; // 0x18
+		::System::UInt32 SlotTipsIntroID; // 0x20
+		::RPG::GameCore::PlayerOutfitSlotType SlotType; // 0x24
+		::System::UInt32 DefaultOutfitID; // 0x28
+		::RPG::GameCore::AvatarBaseType LimitBaseType; // 0x2C
+		::RPG::Client::TextID SlotName; // 0x30
 
 		::System::Void _ctor()
 		{

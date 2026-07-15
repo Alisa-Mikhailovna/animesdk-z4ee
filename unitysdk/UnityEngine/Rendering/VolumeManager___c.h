@@ -4,20 +4,20 @@
 
 namespace UnityEngine::Rendering { class VolumeManager; }
 
-#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6044B0)
-#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6044E0)
-#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1A6044F0)
+#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF13B40)
+#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF13B70)
+#define UNITYENGINE_RENDERING_VOLUMEMANAGER___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1CF13B80)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeManager___c_TypeDefinitionIndex = 33813;
+	inline static constexpr unsigned int VolumeManager___c_TypeDefinitionIndex = 34184;
 
 	class VolumeManager___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::VolumeManager___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::VolumeManager___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager___c_TypeDefinitionIndex)->GetStaticField(0x47760);
+			return (::UnityEngine::Rendering::VolumeManager___c**)Il2CppClass::FromTypeDefinitionIndex(VolumeManager___c_TypeDefinitionIndex)->GetStaticField(0x49A10);
 		}
 
 		static ::System::Void _cctor()

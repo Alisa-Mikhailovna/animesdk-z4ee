@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALTALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x6BD370)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALTALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7BDC0)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarbleSealTalkConfig_TypeDefinitionIndex = 69746;
+	inline static constexpr unsigned int MarbleSealTalkConfig_TypeDefinitionIndex = 71269;
 
 	struct alignas(4) MarbleSealTalkConfig
 	{

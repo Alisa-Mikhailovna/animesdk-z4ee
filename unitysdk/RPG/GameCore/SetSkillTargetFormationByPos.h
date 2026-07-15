@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TargetFormationPosConfig; }
 
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_40EAA5A2F21BB840_OFFSET UNITYSDK_OFFSET(0x1A79B740)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_B9C6A6FDB5EFD9C4_OFFSET UNITYSDK_OFFSET(0x1A79B810)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79B7C0)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_69155FD652E32A09_OFFSET UNITYSDK_OFFSET(0x1B8B1960)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_B9C6A6FDB5EFD9C4_OFFSET UNITYSDK_OFFSET(0x1B8B1A00)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B19C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 21270;
+	inline static constexpr unsigned int SetSkillTargetFormationByPos_TypeDefinitionIndex = 21685;
 
 	class SetSkillTargetFormationByPos : public ::RPG::GameCore::TaskConfig
 	{
@@ -46,9 +46,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_40EAA5A2F21BB840(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos*& a2)
+		static ::System::Void Method_3_69155FD652E32A09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_40EAA5A2F21BB840_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTargetFormationByPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTARGETFORMATIONBYPOS_METHOD_3_69155FD652E32A09_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B9C6A6FDB5EFD9C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTargetFormationByPos* a2)

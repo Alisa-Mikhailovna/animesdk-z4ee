@@ -5,24 +5,24 @@
 namespace RPG::Client { class Effect_KaleidoscopeAnimatorBehavior_ParticleData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14CCAA20)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CCAA50)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C___UPDATE_B__8_0_OFFSET UNITYSDK_OFFSET(0x14CCAA60)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC31F840)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC31F880)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORBEHAVIOR___C___UPDATE_B__8_0_OFFSET UNITYSDK_OFFSET(0xC31F890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex = 65911;
+	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex = 67336;
 
 	class Effect_KaleidoscopeAnimatorBehavior___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::Effect_KaleidoscopeAnimatorBehavior_ParticleData*, ::System::Boolean>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::RPG::Client::Effect_KaleidoscopeAnimatorBehavior_ParticleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex)->GetStaticField(0xBED0);
-		}
 		static ::RPG::Client::Effect_KaleidoscopeAnimatorBehavior___c** StaticGet___9()
 		{
-			return (::RPG::Client::Effect_KaleidoscopeAnimatorBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex)->GetStaticField(0xBED8);
+			return (::RPG::Client::Effect_KaleidoscopeAnimatorBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68360);
+		}
+		static ::System::Func_2<::RPG::Client::Effect_KaleidoscopeAnimatorBehavior_ParticleData*, ::System::Boolean>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::RPG::Client::Effect_KaleidoscopeAnimatorBehavior_ParticleData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Effect_KaleidoscopeAnimatorBehavior___c_TypeDefinitionIndex)->GetStaticField(0x68368);
 		}
 
 		static ::System::Void _cctor()

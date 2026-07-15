@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19B607C0)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x19B60940)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19B609B0)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19B60A90)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x19B60B30)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDD1BFE0)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xDD1C160)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD1C1D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SpecialVisionTrack_TypeDefinitionIndex = 45596;
+	inline static constexpr unsigned int SpecialVisionTrack_TypeDefinitionIndex = 46530;
 
 	class SpecialVisionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

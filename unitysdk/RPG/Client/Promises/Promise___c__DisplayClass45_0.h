@@ -6,20 +6,20 @@ namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1B53C0D0)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CATCH_B__1_OFFSET UNITYSDK_OFFSET(0x1B53C0F0)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CATCH_B__2_OFFSET UNITYSDK_OFFSET(0x1B53C250)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B539C40)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CATCH_B__0_OFFSET UNITYSDK_OFFSET(0x1AA2AD50)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CATCH_B__1_OFFSET UNITYSDK_OFFSET(0x1AA2AD70)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CATCH_B__2_OFFSET UNITYSDK_OFFSET(0x1AA2AE90)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA287D0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass45_0_TypeDefinitionIndex = 9566;
+	inline static constexpr unsigned int Promise___c__DisplayClass45_0_TypeDefinitionIndex = 9578;
 
 	class Promise___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Exception*>* onRejected; // 0x10
-		::RPG::Client::Promises::Promise* resultPromise; // 0x18
+		::RPG::Client::Promises::Promise* resultPromise; // 0x10
+		::System::Action_1<::System::Exception*>* onRejected; // 0x18
 
 		::System::Void _ctor()
 		{

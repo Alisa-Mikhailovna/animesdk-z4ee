@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int ItemOverrideReason_TypeDefinitionIndex = 68898;
+	inline static constexpr unsigned int ItemOverrideReason_TypeDefinitionIndex = 70430;
 
 	enum class ItemOverrideReason : ::System::Int32
 	{

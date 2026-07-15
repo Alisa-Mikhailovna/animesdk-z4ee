@@ -5,29 +5,29 @@
 class Class_1_8CF94E0F14A91ED3_4;
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x170B9FA0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x170B9FE0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET UNITYSDK_OFFSET(0x170BA070)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET UNITYSDK_OFFSET(0x170B9FF0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD144F30)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD144F70)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___CHECKPUZZLEFINISH_B__31_0_OFFSET UNITYSDK_OFFSET(0xD145000)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEBOARD___C___SETPUZZLEANSWER_B__23_0_OFFSET UNITYSDK_OFFSET(0xD144F80)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleBoard___c_TypeDefinitionIndex = 73049;
+	inline static constexpr unsigned int DeployPuzzleBoard___c_TypeDefinitionIndex = 74574;
 
 	class DeployPuzzleBoard___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Prop::DeployPuzzleBoard___c** StaticGet___9()
-		{
-			return (::RPG::Client::Prop::DeployPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x14470);
-		}
 		static ::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>** StaticGet___9__23_0()
 		{
-			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x14478);
+			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x2AC0);
 		}
 		static ::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>** StaticGet___9__31_0()
 		{
-			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x14480);
+			return (::System::Comparison_1<::Class_1_8CF94E0F14A91ED3_4*>**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x2AC8);
+		}
+		static ::RPG::Client::Prop::DeployPuzzleBoard___c** StaticGet___9()
+		{
+			return (::RPG::Client::Prop::DeployPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(DeployPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x2AD0);
 		}
 
 		static ::System::Void _cctor()

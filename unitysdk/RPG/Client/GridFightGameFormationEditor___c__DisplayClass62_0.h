@@ -5,18 +5,18 @@
 namespace RPG::Client { class GridFightGameFormationEditor; }
 namespace RPG::Client { class GridFightRoleConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D2ECF0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS62_0__GETFIRSTEMPTYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x18D33200)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS62_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC727C30)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR___C__DISPLAYCLASS62_0__GETFIRSTEMPTYINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xC72BDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor___c__DisplayClass62_0_TypeDefinitionIndex = 60444;
+	inline static constexpr unsigned int GridFightGameFormationEditor___c__DisplayClass62_0_TypeDefinitionIndex = 61735;
 
 	class GridFightGameFormationEditor___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightRoleConfig* config; // 0x10
-		::RPG::Client::GridFightGameFormationEditor* __4__this; // 0x18
+		::RPG::Client::GridFightGameFormationEditor* __4__this; // 0x10
+		::RPG::Client::GridFightRoleConfig* config; // 0x18
 
 		::System::Void _ctor()
 		{

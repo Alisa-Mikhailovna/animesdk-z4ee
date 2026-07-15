@@ -3,31 +3,31 @@
 #include "unitysdk/Class_1_5F51D4049EA87B7B.h"
 #include "unitysdk/RPG/GameCore/ControlSkillType.h"
 
-class Class_1_827373C1CEDFE355;
+class Class_1_43B0AF86156D9901;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UseSkill; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E3380DCB17A96B08_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13839EC0)
-#define CLASS_2_E3380DCB17A96B08_METHOD_2_02980F4548431707_OFFSET UNITYSDK_OFFSET(0x1383AA20)
-#define CLASS_2_E3380DCB17A96B08_METHOD_2_71C65FBF3C554E6C_OFFSET UNITYSDK_OFFSET(0x1383A7F0)
-#define CLASS_2_E3380DCB17A96B08_METHOD_2_D09AC5057F1B1192_OFFSET UNITYSDK_OFFSET(0x1383AC50)
-#define CLASS_2_E3380DCB17A96B08_METHOD_2_E275D84836CC3563_OFFSET UNITYSDK_OFFSET(0x1383A2B0)
-#define CLASS_2_E3380DCB17A96B08_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13839F10)
-#define CLASS_2_E3380DCB17A96B08_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1383ABA0)
-#define CLASS_2_E3380DCB17A96B08_TICK_OFFSET UNITYSDK_OFFSET(0x1383ABF0)
-#define CLASS_2_E3380DCB17A96B08__CTOR_OFFSET UNITYSDK_OFFSET(0x13839E50)
+#define CLASS_2_E3380DCB17A96B08_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15358200)
+#define CLASS_2_E3380DCB17A96B08_METHOD_2_169EC9D1EEF7B1CE_OFFSET UNITYSDK_OFFSET(0x15358730)
+#define CLASS_2_E3380DCB17A96B08_METHOD_2_71C65FBF3C554E6C_OFFSET UNITYSDK_OFFSET(0x15358F00)
+#define CLASS_2_E3380DCB17A96B08_METHOD_2_7DE6CFC02F305A54_OFFSET UNITYSDK_OFFSET(0x153593D0)
+#define CLASS_2_E3380DCB17A96B08_METHOD_2_F748C80BF81B510B_OFFSET UNITYSDK_OFFSET(0x15359130)
+#define CLASS_2_E3380DCB17A96B08_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15358250)
+#define CLASS_2_E3380DCB17A96B08_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15359320)
+#define CLASS_2_E3380DCB17A96B08_TICK_OFFSET UNITYSDK_OFFSET(0x15359370)
+#define CLASS_2_E3380DCB17A96B08__CTOR_OFFSET UNITYSDK_OFFSET(0x15358190)
 
-inline static constexpr unsigned int Class_2_E3380DCB17A96B08_TypeDefinitionIndex = 50841;
+inline static constexpr unsigned int Class_2_E3380DCB17A96B08_TypeDefinitionIndex = 51926;
 
 class Class_2_E3380DCB17A96B08 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_827373C1CEDFE355* Field_2_0; // 0x18
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_0; // 0x18
 	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::GameCore::UseSkill* Field_2_2; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_2_3; // 0x30
+	::Class_1_43B0AF86156D9901* Field_2_2; // 0x28
+	::RPG::GameCore::UseSkill* Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UseSkill* a2)
 	{
@@ -59,18 +59,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::ControlSkillType, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_E3380DCB17A96B08_METHOD_2_71C65FBF3C554E6C_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_02980F4548431707(::System::Int32 a1, ::RPG::GameCore::GameEntity* a2)
+	::System::Void Method_2_F748C80BF81B510B(::System::Int32 a1, ::RPG::GameCore::GameEntity* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_E3380DCB17A96B08_METHOD_2_02980F4548431707_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_E3380DCB17A96B08_METHOD_2_F748C80BF81B510B_OFFSET))(this, a1, a2);
 	}
 
-	::RPG::GameCore::GameEntity* Method_2_E275D84836CC3563(::System::Int32 a1)
+	::RPG::GameCore::GameEntity* Method_2_169EC9D1EEF7B1CE(::System::Int32 a1)
 	{
-		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_E3380DCB17A96B08_METHOD_2_E275D84836CC3563_OFFSET))(this, a1);
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_E3380DCB17A96B08_METHOD_2_169EC9D1EEF7B1CE_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_D09AC5057F1B1192(::System::Int32 a1, ::RPG::GameCore::GameEntity* a2)
+	::System::Void Method_2_7DE6CFC02F305A54(::System::Int32 a1, ::RPG::GameCore::GameEntity* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_E3380DCB17A96B08_METHOD_2_D09AC5057F1B1192_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_E3380DCB17A96B08_METHOD_2_7DE6CFC02F305A54_OFFSET))(this, a1, a2);
 	}
 };

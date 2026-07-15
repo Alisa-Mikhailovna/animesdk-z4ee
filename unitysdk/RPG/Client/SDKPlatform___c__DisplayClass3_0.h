@@ -7,12 +7,12 @@ namespace RPG::Client { class SDKPlatform; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x176D2510)
-#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS3_0__PAYORDER_B__0_OFFSET UNITYSDK_OFFSET(0x176D2F80)
+#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4D1720)
+#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS3_0__PAYORDER_B__0_OFFSET UNITYSDK_OFFSET(0xD4D26D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SDKPlatform___c__DisplayClass3_0_TypeDefinitionIndex = 56071;
+	inline static constexpr unsigned int SDKPlatform___c__DisplayClass3_0_TypeDefinitionIndex = 57310;
 
 	class SDKPlatform___c__DisplayClass3_0 : public ::System::Object
 	{

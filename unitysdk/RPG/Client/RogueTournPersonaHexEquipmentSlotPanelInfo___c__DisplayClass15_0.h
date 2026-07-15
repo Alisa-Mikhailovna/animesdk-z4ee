@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IRogueTournHex; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D7CB30)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__DISPLAYCLASS15_0___REMOVEINVALIDHEXES_B__0_OFFSET UNITYSDK_OFFSET(0x18D7CC50)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD46DCA0)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__DISPLAYCLASS15_0___REMOVEINVALIDHEXES_B__0_OFFSET UNITYSDK_OFFSET(0xD46DDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo___c__DisplayClass15_0_TypeDefinitionIndex = 68088;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo___c__DisplayClass15_0_TypeDefinitionIndex = 69574;
 
 	class RogueTournPersonaHexEquipmentSlotPanelInfo___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -7,15 +7,15 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_1F0F222EF76CBE2E_OFFSET UNITYSDK_OFFSET(0x1A161050)
-#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_2CC13B44D3C4319C_OFFSET UNITYSDK_OFFSET(0x1A160F40)
-#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_6D2B772FEB132862_OFFSET UNITYSDK_OFFSET(0x1A160EB0)
-#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_76710D1B3C837200_OFFSET UNITYSDK_OFFSET(0x1A1610C0)
-#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A160F20)
+#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_2CC13B44D3C4319C_OFFSET UNITYSDK_OFFSET(0x1B7C9E40)
+#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_83563DFB91ADE1CB_OFFSET UNITYSDK_OFFSET(0x1B7C9FA0)
+#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_EEC81788D4BB93E6_OFFSET UNITYSDK_OFFSET(0x1B7C9F50)
+#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_FBEB54ABF1B3B8F4_OFFSET UNITYSDK_OFFSET(0x1B7C9DE0)
+#define RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C9E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTargetMapTargetInTrigger_TypeDefinitionIndex = 22924;
+	inline static constexpr unsigned int RtTargetMapTargetInTrigger_TypeDefinitionIndex = 23391;
 
 	class RtTargetMapTargetInTrigger : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6D2B772FEB132862(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetMapTargetInTrigger*& a2)
+		static ::System::Void Method_3_FBEB54ABF1B3B8F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetMapTargetInTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetMapTargetInTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_6D2B772FEB132862_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetMapTargetInTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_FBEB54ABF1B3B8F4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2CC13B44D3C4319C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtTargetMapTargetInTrigger* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtTargetMapTargetInTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_2CC13B44D3C4319C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1F0F222EF76CBE2E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapTargetInTrigger*& a2)
+		static ::System::Void Method_3_EEC81788D4BB93E6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapTargetInTrigger*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapTargetInTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_1F0F222EF76CBE2E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapTargetInTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_EEC81788D4BB93E6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_76710D1B3C837200(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapTargetInTrigger* a2)
+		static ::System::Void Method_3_83563DFB91ADE1CB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtTargetMapTargetInTrigger* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapTargetInTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_76710D1B3C837200_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtTargetMapTargetInTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTTARGETMAPTARGETINTRIGGER_METHOD_3_83563DFB91ADE1CB_OFFSET))(a1, a2);
 		}
 	};
 }

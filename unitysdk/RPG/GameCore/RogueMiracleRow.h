@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3334F0)
-#define RPG_GAMECORE_ROGUEMIRACLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B333C50)
+#define RPG_GAMECORE_ROGUEMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B773140)
+#define RPG_GAMECORE_ROGUEMIRACLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7738A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMiracleRow_TypeDefinitionIndex = 13994;
+	inline static constexpr unsigned int RogueMiracleRow_TypeDefinitionIndex = 14142;
 
 	class RogueMiracleRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MiracleID; // 0x10
-		::System::UInt32 MiracleDisplayID; // 0x14
-		::System::UInt32 MiracleEffectDisplayID; // 0x18
-		::System::UInt32 UnlockHandbookMiracleID; // 0x1C
+		::System::UInt32 UnlockHandbookMiracleID; // 0x10
+		::System::UInt32 MiracleEffectDisplayID; // 0x14
+		::System::UInt32 MiracleDisplayID; // 0x18
+		::System::UInt32 MiracleID; // 0x1C
 
 		::System::Void _ctor()
 		{

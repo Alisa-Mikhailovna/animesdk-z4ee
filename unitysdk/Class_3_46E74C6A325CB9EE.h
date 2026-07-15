@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ForceSetDialogCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_46E74C6A325CB9EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1663D660)
-#define CLASS_3_46E74C6A325CB9EE__CTOR_OFFSET UNITYSDK_OFFSET(0x1663D630)
+#define CLASS_3_46E74C6A325CB9EE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15449960)
+#define CLASS_3_46E74C6A325CB9EE__CTOR_OFFSET UNITYSDK_OFFSET(0x15449930)
 
-inline static constexpr unsigned int Class_3_46E74C6A325CB9EE_TypeDefinitionIndex = 54325;
+inline static constexpr unsigned int Class_3_46E74C6A325CB9EE_TypeDefinitionIndex = 55548;
 
 class Class_3_46E74C6A325CB9EE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ForceSetDialogCamera*>
 {

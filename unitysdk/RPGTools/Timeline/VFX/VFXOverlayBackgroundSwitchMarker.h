@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYBACKGROUNDSWITCHMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x17749C80)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYBACKGROUNDSWITCHMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xDD32510)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayBackgroundSwitchMarker_TypeDefinitionIndex = 45934;
+	inline static constexpr unsigned int VFXOverlayBackgroundSwitchMarker_TypeDefinitionIndex = 46873;
 
 	class VFXOverlayBackgroundSwitchMarker : public ::UnityEngine::Timeline::Marker
 	{

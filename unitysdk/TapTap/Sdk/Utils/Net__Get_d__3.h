@@ -8,27 +8,27 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class WWW; }
 
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B472B50)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B4732A0)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B473300)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B4732B0)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B472B40)
-#define TAPTAP_SDK_UTILS_NET__GET_D__3__CTOR_OFFSET UNITYSDK_OFFSET(0x1B471D90)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1CD93A60)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CD941E0)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1CD94240)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1CD941F0)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CD93A50)
+#define TAPTAP_SDK_UTILS_NET__GET_D__3__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD928A0)
 
 namespace TapTap::Sdk::Utils
 {
-	inline static constexpr unsigned int Net__Get_d__3_TypeDefinitionIndex = 7087;
+	inline static constexpr unsigned int Net__Get_d__3_TypeDefinitionIndex = 7093;
 
 	class Net__Get_d__3 : public ::System::Object
 	{
 	public:
-		::System::String* authorization; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* queryParams; // 0x18
-		::System::Action_2<::System::Int32, ::System::String*>* methodForError; // 0x20
-		::System::Object* __2__current; // 0x28
-		::System::Action_1<::System::String*>* methodForResult; // 0x30
-		::System::String* url; // 0x38
-		::UnityEngine::WWW* _w_5__2; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* queryParams; // 0x10
+		::System::Object* __2__current; // 0x18
+		::System::String* authorization; // 0x20
+		::System::Action_1<::System::String*>* methodForResult; // 0x28
+		::System::Action_2<::System::Int32, ::System::String*>* methodForError; // 0x30
+		::UnityEngine::WWW* _w_5__2; // 0x38
+		::System::String* url; // 0x40
 		::System::Int32 __1__state; // 0x48
 
 		::System::Void _ctor(::System::Int32 a1)

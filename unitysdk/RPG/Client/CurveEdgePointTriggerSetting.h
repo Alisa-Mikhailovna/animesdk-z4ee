@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CURVEEDGEPOINTTRIGGERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x15F3A910)
+#define RPG_CLIENT_CURVEEDGEPOINTTRIGGERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0xC1C8A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveEdgePointTriggerSetting_TypeDefinitionIndex = 64137;
+	inline static constexpr unsigned int CurveEdgePointTriggerSetting_TypeDefinitionIndex = 65508;
 
 	class CurveEdgePointTriggerSetting : public ::System::Object
 	{

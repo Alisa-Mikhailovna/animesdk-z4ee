@@ -7,12 +7,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELTRIGGERINFO_METHOD_2_3617773D477CAA19_OFFSET UNITYSDK_OFFSET(0x1A114D90)
-#define RPG_GAMECORE_LEVELTRIGGERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A117A40)
+#define RPG_GAMECORE_LEVELTRIGGERINFO_METHOD_2_3617773D477CAA19_OFFSET UNITYSDK_OFFSET(0x1B55E4D0)
+#define RPG_GAMECORE_LEVELTRIGGERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B575D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelTriggerInfo_TypeDefinitionIndex = 16379;
+	inline static constexpr unsigned int LevelTriggerInfo_TypeDefinitionIndex = 16541;
 
 	class LevelTriggerInfo : public ::RPG::GameCore::JsonConfig
 	{

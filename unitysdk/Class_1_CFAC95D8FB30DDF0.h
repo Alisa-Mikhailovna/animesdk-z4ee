@@ -10,22 +10,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_CFAC95D8FB30DDF0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x150CBD50)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_22C0158FB807DDF4_OFFSET UNITYSDK_OFFSET(0x150CBF70)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_70CD9A040B4290BE_OFFSET UNITYSDK_OFFSET(0x150CBDB0)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_C9063D175A882741_OFFSET UNITYSDK_OFFSET(0x150CC910)
-#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_F1850BAC83E812F4_OFFSET UNITYSDK_OFFSET(0x150CC6B0)
-#define CLASS_1_CFAC95D8FB30DDF0__CTOR_OFFSET UNITYSDK_OFFSET(0x16395C40)
+#define CLASS_1_CFAC95D8FB30DDF0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1444F210)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_22C0158FB807DDF4_OFFSET UNITYSDK_OFFSET(0x1444F390)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_C9063D175A882741_OFFSET UNITYSDK_OFFSET(0x1444FCB0)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_EC90937CEA9AFCA9_OFFSET UNITYSDK_OFFSET(0x1444F260)
+#define CLASS_1_CFAC95D8FB30DDF0_METHOD_1_F1850BAC83E812F4_OFFSET UNITYSDK_OFFSET(0x1444FA50)
+#define CLASS_1_CFAC95D8FB30DDF0__CTOR_OFFSET UNITYSDK_OFFSET(0x144501D0)
 
-inline static constexpr unsigned int Class_1_CFAC95D8FB30DDF0_TypeDefinitionIndex = 53483;
+inline static constexpr unsigned int Class_1_CFAC95D8FB30DDF0_TypeDefinitionIndex = 54699;
 
 class Class_1_CFAC95D8FB30DDF0 : public ::System::Object
 {
 public:
-	::Class_1_D7003CCDED916330* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* Field_1_1; // 0x18
-	::RPG::GameCore::TaskContext* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::Class_1_EF881A12952D8CEA*>* Field_1_3; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_EF881A12952D8CEA*>* Field_1_1; // 0x18
+	::Class_1_D7003CCDED916330* Field_1_2; // 0x20
+	::RPG::GameCore::TaskContext* Field_1_3; // 0x28
 	::System::Int32 Field_1_4; // 0x30
 	::System::Int32 Field_1_5; // 0x34
 
@@ -54,8 +54,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*))((::PBYTE)hIl2Cpp + CLASS_1_CFAC95D8FB30DDF0_METHOD_1_F1850BAC83E812F4_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_70CD9A040B4290BE()
+	::System::Void Method_1_EC90937CEA9AFCA9()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CFAC95D8FB30DDF0_METHOD_1_70CD9A040B4290BE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_CFAC95D8FB30DDF0_METHOD_1_EC90937CEA9AFCA9_OFFSET))(this);
 	}
 };

@@ -5,12 +5,12 @@
 
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175F16C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__GETACTIVITYDYINGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x175F16E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C2830)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS11_0__GETACTIVITYDYINGDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0x1A0C2850)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ActivityFilter___c__DisplayClass11_0_TypeDefinitionIndex = 1687;
+	inline static constexpr unsigned int ActivityFilter___c__DisplayClass11_0_TypeDefinitionIndex = 1691;
 
 	class ActivityFilter___c__DisplayClass11_0 : public ::System::Object
 	{

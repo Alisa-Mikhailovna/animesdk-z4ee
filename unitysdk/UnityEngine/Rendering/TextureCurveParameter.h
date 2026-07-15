@@ -4,12 +4,12 @@
 
 namespace UnityEngine::Rendering { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1A5F0240)
-#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5F0200)
+#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1CEFBDD0)
+#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFBC80)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 33804;
+	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 34175;
 
 	class TextureCurveParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Rendering::TextureCurve*>
 	{

@@ -5,14 +5,12 @@
 
 namespace UnityEngine { class Animator; }
 
-#define STATEMOVEUP_METHOD_4_D00EFFFA316CD3C0_OFFSET UNITYSDK_OFFSET(0x13ECF960)
-#define STATEMOVEUP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x13ECF520)
-#define STATEMOVEUP_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13ECF5D0)
-#define STATEMOVEUP__CTOR_OFFSET UNITYSDK_OFFSET(0x13ECFA30)
-#define STATEMOVEUP___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x13ECFA40)
-#define STATEMOVEUP___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x13ECFA50)
+#define STATEMOVEUP_METHOD_4_D00EFFFA316CD3C0_OFFSET UNITYSDK_OFFSET(0xDD6A750)
+#define STATEMOVEUP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xDD6A310)
+#define STATEMOVEUP_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDD6A3C0)
+#define STATEMOVEUP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD6A820)
 
-inline static constexpr unsigned int StateMoveUp_TypeDefinitionIndex = 44612;
+inline static constexpr unsigned int StateMoveUp_TypeDefinitionIndex = 45484;
 
 class StateMoveUp : public ::UnityEngine::StateMachineBehaviour
 {
@@ -39,15 +37,5 @@ public:
 	::System::Single Method_4_D00EFFFA316CD3C0(::System::Single a1, ::System::Single a2, ::System::Single a3)
 	{
 		return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + STATEMOVEUP_METHOD_4_D00EFFFA316CD3C0_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + STATEMOVEUP___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + STATEMOVEUP___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 	}
 };

@@ -4,9 +4,9 @@
 
 class AkCallbackManager_BGMCallback;
 
-#define AKCALLBACKMANAGER_BGMCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD12B0)
+#define AKCALLBACKMANAGER_BGMCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1ABD60)
 
-inline static constexpr unsigned int AkCallbackManager_BGMCallbackPackage_TypeDefinitionIndex = 41211;
+inline static constexpr unsigned int AkCallbackManager_BGMCallbackPackage_TypeDefinitionIndex = 42026;
 
 class AkCallbackManager_BGMCallbackPackage : public ::System::Object
 {

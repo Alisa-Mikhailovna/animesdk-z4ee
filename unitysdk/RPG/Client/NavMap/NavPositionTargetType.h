@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavPositionTargetType_TypeDefinitionIndex = 69623;
+	inline static constexpr unsigned int NavPositionTargetType_TypeDefinitionIndex = 71146;
 
 	enum class NavPositionTargetType : ::System::Int32
 	{

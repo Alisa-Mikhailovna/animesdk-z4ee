@@ -2,40 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_45BB92167AED63A0_58;
-class Class_1_4BC858D7C27E10ED_46;
-class Class_1_905995C4C61F81F7_14;
+class Class_1_45BB92167AED63A0_65;
+class Class_1_6CB2450063991035_14;
+class Class_1_905995C4C61F81F7_13;
 class Class_1_D9F432CB1A34324B_1;
 namespace RPG::Client { class MonopolyFriendRankingDisplayDataItem; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_ADDLIKECOUNT_OFFSET UNITYSDK_OFFSET(0x187F3A50)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x187F2700)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_GET_ALLPLAYERDISPLAYDATALIST_OFFSET UNITYSDK_OFFSET(0x187F3C60)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_GET_LIKEDUIDSET_OFFSET UNITYSDK_OFFSET(0x187F3C40)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_INIT_OFFSET UNITYSDK_OFFSET(0x187F25F0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_SET_LIKEDUIDSET_OFFSET UNITYSDK_OFFSET(0x187F3C50)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_SORTFRIENDRANKDATA_OFFSET UNITYSDK_OFFSET(0x187F2D30)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCFRIENDRANK_OFFSET UNITYSDK_OFFSET(0x187F2860)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKENOTIFY_OFFSET UNITYSDK_OFFSET(0x187F31A0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKERSP_OFFSET UNITYSDK_OFFSET(0x187F38A0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCSOCIALINFO_OFFSET UNITYSDK_OFFSET(0x187F3580)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO_UNINIT_OFFSET UNITYSDK_OFFSET(0x187F26C0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187F3CB0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_ADDLIKECOUNT_OFFSET UNITYSDK_OFFSET(0xCD4A330)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD48C20)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_GET_ALLPLAYERDISPLAYDATALIST_OFFSET UNITYSDK_OFFSET(0xCD4A540)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_GET_LIKEDUIDSET_OFFSET UNITYSDK_OFFSET(0xCD4A520)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCD48B10)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_SET_LIKEDUIDSET_OFFSET UNITYSDK_OFFSET(0xCD4A530)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_SORTFRIENDRANKDATA_OFFSET UNITYSDK_OFFSET(0xCD49390)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCFRIENDRANK_OFFSET UNITYSDK_OFFSET(0xCD48D80)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKENOTIFY_OFFSET UNITYSDK_OFFSET(0xCD49800)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKERSP_OFFSET UNITYSDK_OFFSET(0xCD4A180)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCSOCIALINFO_OFFSET UNITYSDK_OFFSET(0xCD49D20)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO_UNINIT_OFFSET UNITYSDK_OFFSET(0xCD48BE0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCD4A590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyFriendInfo_TypeDefinitionIndex = 61946;
+	inline static constexpr unsigned int MonopolyFriendInfo_TypeDefinitionIndex = 63311;
 
 	class MonopolyFriendInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::MonopolyFriendRankingDisplayDataItem*>* _PlayerDisplayDataList; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::MonopolyFriendRankingDisplayDataItem*>* _TotalPlayerDisplayDataList; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _LikedUIDSet_k__BackingField; // 0x20
-		::RPG::Client::MonopolyFriendRankingDisplayDataItem* SelfDisplayData; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::MonopolyFriendRankingDisplayDataItem*>* _DailyPlayerDisplayDataList; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::MonopolyFriendRankingDisplayDataItem*>* _TotalPlayerDisplayDataList; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::MonopolyFriendRankingDisplayDataItem*>* _PlayerDisplayDataList; // 0x18
+		::RPG::Client::MonopolyFriendRankingDisplayDataItem* SelfDisplayData; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::MonopolyFriendRankingDisplayDataItem*>* _DailyPlayerDisplayDataList; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _LikedUIDSet_k__BackingField; // 0x30
 		::System::Boolean IsDaily; // 0x38
 
 		::System::Void _ctor()
@@ -58,14 +58,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SyncFriendRank(::Class_1_4BC858D7C27E10ED_46* a1)
+		::System::Void SyncFriendRank(::Class_1_6CB2450063991035_14* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4BC858D7C27E10ED_46*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCFRIENDRANK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_6CB2450063991035_14*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCFRIENDRANK_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncLikeNotify(::Class_1_45BB92167AED63A0_58* a1)
+		::System::Void SyncLikeNotify(::Class_1_45BB92167AED63A0_65* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_45BB92167AED63A0_58*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKENOTIFY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_45BB92167AED63A0_65*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKENOTIFY_OFFSET))(this, a1);
 		}
 
 		::System::Void SyncSocialInfo(::Class_1_D9F432CB1A34324B_1* a1)
@@ -73,9 +73,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Class_1_D9F432CB1A34324B_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCSOCIALINFO_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncLikeRsp(::Class_1_905995C4C61F81F7_14* a1)
+		::System::Void SyncLikeRsp(::Class_1_905995C4C61F81F7_13* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_905995C4C61F81F7_14*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKERSP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_905995C4C61F81F7_13*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYFRIENDINFO_SYNCLIKERSP_OFFSET))(this, a1);
 		}
 
 		::System::Void AddLikeCount(::System::UInt32 a1)

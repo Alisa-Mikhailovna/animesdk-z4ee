@@ -3,13 +3,13 @@
 #include "unitysdk/RPG/Client/ElectricChainV2/Line.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_3422201382CE593B_OFFSET UNITYSDK_OFFSET(0x156DCCE0)
-#define RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_DF64B90BA25AAE64_OFFSET UNITYSDK_OFFSET(0x156DCBB0)
-#define RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x156D93F0)
+#define RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_527527A45EAD8A25_OFFSET UNITYSDK_OFFSET(0xC362870)
+#define RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_A93CA8A3372168B2_OFFSET UNITYSDK_OFFSET(0xC362A80)
+#define RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xC35EED0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int StraightLine_TypeDefinitionIndex = 68697;
+	inline static constexpr unsigned int StraightLine_TypeDefinitionIndex = 70195;
 
 	class StraightLine : public ::RPG::Client::ElectricChainV2::Line
 	{
@@ -19,14 +19,14 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_2_DF64B90BA25AAE64(::System::Single a1)
+		::UnityEngine::Vector3 Method_2_527527A45EAD8A25(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_DF64B90BA25AAE64_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_527527A45EAD8A25_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_2_3422201382CE593B()
+		::System::Single Method_2_A93CA8A3372168B2()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_3422201382CE593B_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_STRAIGHTLINE_METHOD_2_A93CA8A3372168B2_OFFSET))(this);
 		}
 	};
 }

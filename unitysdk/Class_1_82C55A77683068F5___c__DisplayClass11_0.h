@@ -5,16 +5,16 @@
 class Class_1_82C55A77683068F5;
 namespace System { class Action; }
 
-#define CLASS_1_82C55A77683068F5___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19290DC0)
-#define CLASS_1_82C55A77683068F5___C__DISPLAYCLASS11_0__GETACTION_B__0_OFFSET UNITYSDK_OFFSET(0x19290E90)
+#define CLASS_1_82C55A77683068F5___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C8C5870)
+#define CLASS_1_82C55A77683068F5___C__DISPLAYCLASS11_0__GETACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1C8C5940)
 
-inline static constexpr unsigned int Class_1_82C55A77683068F5___c__DisplayClass11_0_TypeDefinitionIndex = 33498;
+inline static constexpr unsigned int Class_1_82C55A77683068F5___c__DisplayClass11_0_TypeDefinitionIndex = 33868;
 
 class Class_1_82C55A77683068F5___c__DisplayClass11_0 : public ::System::Object
 {
 public:
-	::System::Action* action; // 0x10
-	::Class_1_82C55A77683068F5* __4__this; // 0x18
+	::Class_1_82C55A77683068F5* __4__this; // 0x10
+	::System::Action* action; // 0x18
 	::System::Int32 id; // 0x20
 
 	::System::Void _ctor()

@@ -5,15 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_0C2FFB81EDA9BDB3_OFFSET UNITYSDK_OFFSET(0x19D90420)
-#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_2D90ACED9ED6630F_OFFSET UNITYSDK_OFFSET(0x19D904A0)
-#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_606916E40CB3357A_OFFSET UNITYSDK_OFFSET(0x19D90210)
-#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_9CEB163A7F796DA0_OFFSET UNITYSDK_OFFSET(0x19D902E0)
-#define RPG_GAMECORE_BYHASINSERTABILITYPENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x19D90290)
+#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_1E995031DDCC6C63_OFFSET UNITYSDK_OFFSET(0x1B293EC0)
+#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_9B3DFC5CEB06886B_OFFSET UNITYSDK_OFFSET(0x1B294070)
+#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_9CEB163A7F796DA0_OFFSET UNITYSDK_OFFSET(0x1B293F00)
+#define RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_FE8A9FEB2BAE82F6_OFFSET UNITYSDK_OFFSET(0x1B294040)
+#define RPG_GAMECORE_BYHASINSERTABILITYPENDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B293EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHasInsertAbilityPending_TypeDefinitionIndex = 22250;
+	inline static constexpr unsigned int ByHasInsertAbilityPending_TypeDefinitionIndex = 22690;
 
 	class ByHasInsertAbilityPending : public ::RPG::GameCore::PredicateConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_606916E40CB3357A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasInsertAbilityPending*& a2)
+		static ::System::Void Method_4_1E995031DDCC6C63(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasInsertAbilityPending*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasInsertAbilityPending*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_606916E40CB3357A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasInsertAbilityPending*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_1E995031DDCC6C63_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_9CEB163A7F796DA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasInsertAbilityPending* a2)
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasInsertAbilityPending*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_9CEB163A7F796DA0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0C2FFB81EDA9BDB3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityPending*& a2)
+		static ::System::Void Method_4_FE8A9FEB2BAE82F6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityPending*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityPending*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_0C2FFB81EDA9BDB3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityPending*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_FE8A9FEB2BAE82F6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2D90ACED9ED6630F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityPending* a2)
+		static ::System::Void Method_4_9B3DFC5CEB06886B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityPending* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityPending*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_2D90ACED9ED6630F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityPending*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYPENDING_METHOD_4_9B3DFC5CEB06886B_OFFSET))(a1, a2);
 		}
 	};
 }

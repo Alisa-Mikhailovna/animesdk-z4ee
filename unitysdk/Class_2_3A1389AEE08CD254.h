@@ -1,40 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_275515F210334D06.h"
+#include "unitysdk/Class_1_C92397EFA3C50959.h"
 
-#define CLASS_2_3A1389AEE08CD254_CLEAR_OFFSET UNITYSDK_OFFSET(0x17862BA0)
-#define CLASS_2_3A1389AEE08CD254_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x17862B40)
-#define CLASS_2_3A1389AEE08CD254_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x17862B00)
-#define CLASS_2_3A1389AEE08CD254_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17862AC0)
-#define CLASS_2_3A1389AEE08CD254__CTOR_OFFSET UNITYSDK_OFFSET(0x17862BE0)
+#define CLASS_2_3A1389AEE08CD254_METHOD_2_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x14B275D0)
+#define CLASS_2_3A1389AEE08CD254__CTOR_OFFSET UNITYSDK_OFFSET(0x14B27590)
 
-inline static constexpr unsigned int Class_2_3A1389AEE08CD254_TypeDefinitionIndex = 71470;
+inline static constexpr unsigned int Class_2_3A1389AEE08CD254_TypeDefinitionIndex = 65863;
 
-class Class_2_3A1389AEE08CD254 : public ::Class_1_275515F210334D06
+class Class_2_3A1389AEE08CD254 : public ::Class_1_C92397EFA3C50959
 {
 public:
-	::System::Void _ctor()
+	::System::Void _ctor(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3A1389AEE08CD254__CTOR_OFFSET))(this);
-	}
-
-	::System::Void Method_2_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3A1389AEE08CD254_METHOD_2_CA373AA1C7054598_OFFSET))(this);
-	}
-
-	::System::Void Method_2_CA373AA1C7054598_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3A1389AEE08CD254_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_3A1389AEE08CD254__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_2685B6183E614529(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_3A1389AEE08CD254_METHOD_2_2685B6183E614529_OFFSET))(this, a1);
-	}
-
-	::System::Void Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3A1389AEE08CD254_CLEAR_OFFSET))(this);
 	}
 };

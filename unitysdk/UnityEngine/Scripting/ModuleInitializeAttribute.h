@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SCRIPTING_MODULEINITIALIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x198DDA20)
+#define UNITYENGINE_SCRIPTING_MODULEINITIALIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D059F70)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int ModuleInitializeAttribute_TypeDefinitionIndex = 4483;
+	inline static constexpr unsigned int ModuleInitializeAttribute_TypeDefinitionIndex = 4488;
 
 	class ModuleInitializeAttribute : public ::System::Attribute
 	{

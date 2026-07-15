@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_METHOD_3_5654CD8CB3F1A609_OFFSET UNITYSDK_OFFSET(0x1A7A2FC0)
-#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_METHOD_3_EBCDDAE1154636BF_OFFSET UNITYSDK_OFFSET(0x1A7A2EE0)
-#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A2F20)
+#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_METHOD_3_5654CD8CB3F1A609_OFFSET UNITYSDK_OFFSET(0x1B8B8940)
+#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_METHOD_3_9C88328A43D717C1_OFFSET UNITYSDK_OFFSET(0x1B8B8800)
+#define RPG_GAMECORE_SETULTRASKILLASSETPRELOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B88B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetUltraSkillAssetPreload_TypeDefinitionIndex = 21562;
+	inline static constexpr unsigned int SetUltraSkillAssetPreload_TypeDefinitionIndex = 21984;
 
 	class SetUltraSkillAssetPreload : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLASSETPRELOAD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EBCDDAE1154636BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUltraSkillAssetPreload*& a2)
+		static ::System::Void Method_3_9C88328A43D717C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUltraSkillAssetPreload*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetUltraSkillAssetPreload*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_METHOD_3_EBCDDAE1154636BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetUltraSkillAssetPreload*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLASSETPRELOAD_METHOD_3_9C88328A43D717C1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5654CD8CB3F1A609(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUltraSkillAssetPreload* a2)

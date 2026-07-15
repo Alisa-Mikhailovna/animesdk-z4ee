@@ -8,23 +8,20 @@ namespace RPG::Client { class MonoEmoPlayableGraph; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_18750566D9DA0473_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15555E40)
-#define CLASS_2_18750566D9DA0473_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x15555E60)
-#define CLASS_2_18750566D9DA0473_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15555F90)
-#define CLASS_2_18750566D9DA0473_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15556000)
-#define CLASS_2_18750566D9DA0473_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15555E50)
-#define CLASS_2_18750566D9DA0473__CTOR_OFFSET UNITYSDK_OFFSET(0x15556350)
-#define CLASS_2_18750566D9DA0473___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x15556360)
-#define CLASS_2_18750566D9DA0473___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15556370)
-#define CLASS_2_18750566D9DA0473___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15556380)
+#define CLASS_2_18750566D9DA0473_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xB43C820)
+#define CLASS_2_18750566D9DA0473_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB43C840)
+#define CLASS_2_18750566D9DA0473_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB43C980)
+#define CLASS_2_18750566D9DA0473_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB43C9F0)
+#define CLASS_2_18750566D9DA0473_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xB43C830)
+#define CLASS_2_18750566D9DA0473__CTOR_OFFSET UNITYSDK_OFFSET(0xB43CD40)
 
-inline static constexpr unsigned int Class_2_18750566D9DA0473_TypeDefinitionIndex = 45171;
+inline static constexpr unsigned int Class_2_18750566D9DA0473_TypeDefinitionIndex = 46095;
 
 class Class_2_18750566D9DA0473 : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::String* _CharacterUniqueName_k__BackingField; // 0x10
-	::RPG::Client::MonoEmoPlayableGraph* Field_2_1; // 0x18
+	::RPG::Client::MonoEmoPlayableGraph* Field_2_0; // 0x10
+	::System::String* _CharacterUniqueName_k__BackingField; // 0x18
 	::System::Boolean Field_2_2; // 0x20
 
 	::System::Void _ctor()
@@ -55,20 +52,5 @@ public:
 	::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_18750566D9DA0473_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_18750566D9DA0473___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_18750566D9DA0473___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_18750566D9DA0473___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 	}
 };

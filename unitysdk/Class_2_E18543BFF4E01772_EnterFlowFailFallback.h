@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_E18543BFF4E01772_EnterFlowFailFallback_TypeDefinitionIndex = 72240;
+inline static constexpr unsigned int Class_2_E18543BFF4E01772_EnterFlowFailFallback_TypeDefinitionIndex = 73765;
 
 enum class Class_2_E18543BFF4E01772_EnterFlowFailFallback : ::System::Int32
 {

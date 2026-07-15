@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class NotifyFarmUnlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_674FDAD99E39E0BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161D0580)
-#define CLASS_3_674FDAD99E39E0BD__CTOR_OFFSET UNITYSDK_OFFSET(0x161D0550)
+#define CLASS_3_674FDAD99E39E0BD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6C5BC0)
+#define CLASS_3_674FDAD99E39E0BD__CTOR_OFFSET UNITYSDK_OFFSET(0xB6C5B90)
 
-inline static constexpr unsigned int Class_3_674FDAD99E39E0BD_TypeDefinitionIndex = 49573;
+inline static constexpr unsigned int Class_3_674FDAD99E39E0BD_TypeDefinitionIndex = 50627;
 
 class Class_3_674FDAD99E39E0BD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::NotifyFarmUnlock*>
 {

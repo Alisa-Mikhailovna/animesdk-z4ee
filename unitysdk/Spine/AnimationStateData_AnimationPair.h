@@ -5,12 +5,12 @@
 namespace Spine { class Animation; }
 namespace System { class String; }
 
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3730EC0)
-#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x66B770)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3A0D430)
+#define SPINE_ANIMATIONSTATEDATA_ANIMATIONPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x80E20)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationStateData_AnimationPair_TypeDefinitionIndex = 36701;
+	inline static constexpr unsigned int AnimationStateData_AnimationPair_TypeDefinitionIndex = 37483;
 
 	struct alignas(8) AnimationStateData_AnimationPair
 	{

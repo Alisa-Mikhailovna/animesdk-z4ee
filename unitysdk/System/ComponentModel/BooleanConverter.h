@@ -8,23 +8,23 @@ namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::ComponentModel { class TypeConverter_StandardValuesCollection; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x18E9A970)
-#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x18E9A9D0)
-#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_GETSTANDARDVALUESEXCLUSIVE_OFFSET UNITYSDK_OFFSET(0x18E9ADD0)
-#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_GETSTANDARDVALUESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x18E9ADE0)
-#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_GETSTANDARDVALUES_OFFSET UNITYSDK_OFFSET(0x18E9AC20)
-#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9ADF0)
+#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1CC6F5F0)
+#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1CC6F650)
+#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_GETSTANDARDVALUESEXCLUSIVE_OFFSET UNITYSDK_OFFSET(0x1CC6FA50)
+#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_GETSTANDARDVALUESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1CC6FA60)
+#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER_GETSTANDARDVALUES_OFFSET UNITYSDK_OFFSET(0x1CC6F8A0)
+#define SYSTEM_COMPONENTMODEL_BOOLEANCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC6FA70)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int BooleanConverter_TypeDefinitionIndex = 2553;
+	inline static constexpr unsigned int BooleanConverter_TypeDefinitionIndex = 2557;
 
 	class BooleanConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:
 		static ::System::ComponentModel::TypeConverter_StandardValuesCollection** StaticGet_values()
 		{
-			return (::System::ComponentModel::TypeConverter_StandardValuesCollection**)Il2CppClass::FromTypeDefinitionIndex(BooleanConverter_TypeDefinitionIndex)->GetStaticField(0x1BE40);
+			return (::System::ComponentModel::TypeConverter_StandardValuesCollection**)Il2CppClass::FromTypeDefinitionIndex(BooleanConverter_TypeDefinitionIndex)->GetStaticField(0x29700);
 		}
 
 		::System::Void _ctor()

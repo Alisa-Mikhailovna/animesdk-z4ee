@@ -6,12 +6,12 @@ namespace RPG::Client { class GridFightEffectController; }
 namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18909620)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1890B260)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6D8230)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS28_0__PLAYUPGRADEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC6D9E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_0_TypeDefinitionIndex = 60273;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass28_0_TypeDefinitionIndex = 61562;
 
 	class GridFightEffectController___c__DisplayClass28_0 : public ::System::Object
 	{

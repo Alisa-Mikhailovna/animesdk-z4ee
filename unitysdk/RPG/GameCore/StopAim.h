@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPAIM_METHOD_3_58D3286A0D54A58F_OFFSET UNITYSDK_OFFSET(0x19350690)
-#define RPG_GAMECORE_STOPAIM_METHOD_3_A0839F8F323F1694_OFFSET UNITYSDK_OFFSET(0x19350600)
-#define RPG_GAMECORE_STOPAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x19350660)
+#define RPG_GAMECORE_STOPAIM_METHOD_3_58D3286A0D54A58F_OFFSET UNITYSDK_OFFSET(0x1B911190)
+#define RPG_GAMECORE_STOPAIM_METHOD_3_60FD34F3D59AC77E_OFFSET UNITYSDK_OFFSET(0x1B911140)
+#define RPG_GAMECORE_STOPAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B911180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopAim_TypeDefinitionIndex = 21179;
+	inline static constexpr unsigned int StopAim_TypeDefinitionIndex = 21594;
 
 	class StopAim : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0839F8F323F1694(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopAim*& a2)
+		static ::System::Void Method_3_60FD34F3D59AC77E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopAim*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM_METHOD_3_A0839F8F323F1694_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPAIM_METHOD_3_60FD34F3D59AC77E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_58D3286A0D54A58F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopAim* a2)

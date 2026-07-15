@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB_METHOD_3_5AFA1412A58683B1_OFFSET UNITYSDK_OFFSET(0x1A795810)
-#define RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB_METHOD_3_8492CC7A052AB96D_OFFSET UNITYSDK_OFFSET(0x1A795890)
-#define RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A795860)
+#define RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB_METHOD_3_4302F6AD92ADA9BA_OFFSET UNITYSDK_OFFSET(0x1B8AC670)
+#define RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB_METHOD_3_8492CC7A052AB96D_OFFSET UNITYSDK_OFFSET(0x1B8AC6B0)
+#define RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AC6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterPhasePointPrefab_TypeDefinitionIndex = 21981;
+	inline static constexpr unsigned int SetMonsterPhasePointPrefab_TypeDefinitionIndex = 22415;
 
 	class SetMonsterPhasePointPrefab : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5AFA1412A58683B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterPhasePointPrefab*& a2)
+		static ::System::Void Method_3_4302F6AD92ADA9BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterPhasePointPrefab*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterPhasePointPrefab*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB_METHOD_3_5AFA1412A58683B1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterPhasePointPrefab*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERPHASEPOINTPREFAB_METHOD_3_4302F6AD92ADA9BA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8492CC7A052AB96D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterPhasePointPrefab* a2)

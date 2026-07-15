@@ -7,14 +7,13 @@ namespace EnviromentSystem { class EnviroLocalLightGroupProperty_LLGKeyValuePair
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_METHOD_3_AA919A9E63C8C412_OFFSET UNITYSDK_OFFSET(0x139310D0)
-#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13930F50)
-#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x13931310)
-#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13931320)
+#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_METHOD_3_AA919A9E63C8C412_OFFSET UNITYSDK_OFFSET(0x14533230)
+#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x145330B0)
+#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x14533470)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int LLGKeyValuePairsScAsset_TypeDefinitionIndex = 46371;
+	inline static constexpr unsigned int LLGKeyValuePairsScAsset_TypeDefinitionIndex = 47336;
 
 	class LLGKeyValuePairsScAsset : public ::UnityEngine::ScriptableObject
 	{
@@ -34,11 +33,6 @@ namespace EnviromentSystemV2Space
 		::System::Void Method_3_AA919A9E63C8C412(::EnviromentSystem::EnviroLocalLightGroupProperty* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroLocalLightGroupProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_METHOD_3_AA919A9E63C8C412_OFFSET))(this, a1);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

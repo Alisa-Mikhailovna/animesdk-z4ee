@@ -5,12 +5,12 @@
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1847CF20)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1847CFC0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION_SET_BASETYPENAME_OFFSET UNITYSDK_OFFSET(0x1CB76DB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPERESTRICTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CB76E50)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSimpleTypeRestriction_TypeDefinitionIndex = 2203;
+	inline static constexpr unsigned int XmlSchemaSimpleTypeRestriction_TypeDefinitionIndex = 2207;
 
 	class XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{

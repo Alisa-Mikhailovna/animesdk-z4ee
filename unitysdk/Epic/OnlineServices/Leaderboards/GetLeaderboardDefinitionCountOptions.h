@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDDEFINITIONCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5B3A30)
+#define EPIC_ONLINESERVICES_LEADERBOARDS_GETLEADERBOARDDEFINITIONCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xAC36190)
 
 namespace Epic::OnlineServices::Leaderboards
 {
-	inline static constexpr unsigned int GetLeaderboardDefinitionCountOptions_TypeDefinitionIndex = 42821;
+	inline static constexpr unsigned int GetLeaderboardDefinitionCountOptions_TypeDefinitionIndex = 43682;
 
 	class GetLeaderboardDefinitionCountOptions : public ::System::Object
 	{

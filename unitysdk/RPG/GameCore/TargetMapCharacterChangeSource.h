@@ -5,15 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_003DB2681021A24E_OFFSET UNITYSDK_OFFSET(0x1AC5B540)
-#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_7AB6117CDE418C85_OFFSET UNITYSDK_OFFSET(0x1AC5B730)
-#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_AACDA6004FD3887A_OFFSET UNITYSDK_OFFSET(0x1AC5B670)
-#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_CDC32779702730C4_OFFSET UNITYSDK_OFFSET(0x1AC5B780)
-#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5B650)
+#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_018062C2DA2CD7D7_OFFSET UNITYSDK_OFFSET(0x1B9558B0)
+#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_AACDA6004FD3887A_OFFSET UNITYSDK_OFFSET(0x1B955990)
+#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_BFD2CDFFC8FF7CAB_OFFSET UNITYSDK_OFFSET(0x1B955A50)
+#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_F9D3429DF9E2ED1E_OFFSET UNITYSDK_OFFSET(0x1B955A80)
+#define RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B955980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapCharacterChangeSource_TypeDefinitionIndex = 22659;
+	inline static constexpr unsigned int TargetMapCharacterChangeSource_TypeDefinitionIndex = 23122;
 
 	class TargetMapCharacterChangeSource : public ::RPG::GameCore::TargetSeqOperation
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_003DB2681021A24E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapCharacterChangeSource*& a2)
+		static ::System::Void Method_3_018062C2DA2CD7D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapCharacterChangeSource*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapCharacterChangeSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_003DB2681021A24E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapCharacterChangeSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_018062C2DA2CD7D7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AACDA6004FD3887A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapCharacterChangeSource* a2)
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapCharacterChangeSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_AACDA6004FD3887A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7AB6117CDE418C85(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapCharacterChangeSource*& a2)
+		static ::System::Void Method_3_BFD2CDFFC8FF7CAB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapCharacterChangeSource*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapCharacterChangeSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_7AB6117CDE418C85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapCharacterChangeSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_BFD2CDFFC8FF7CAB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CDC32779702730C4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapCharacterChangeSource* a2)
+		static ::System::Void Method_3_F9D3429DF9E2ED1E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapCharacterChangeSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapCharacterChangeSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_CDC32779702730C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapCharacterChangeSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPCHARACTERCHANGESOURCE_METHOD_3_F9D3429DF9E2ED1E_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STOPBATTLEPOSTURETYPE_METHOD_3_4A0DD9E230B05D41_OFFSET UNITYSDK_OFFSET(0x19350A80)
-#define RPG_GAMECORE_STOPBATTLEPOSTURETYPE_METHOD_3_D5EF567A0AA7B255_OFFSET UNITYSDK_OFFSET(0x19350B90)
-#define RPG_GAMECORE_STOPBATTLEPOSTURETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19350B60)
+#define RPG_GAMECORE_STOPBATTLEPOSTURETYPE_METHOD_3_2046C967D5D8BC18_OFFSET UNITYSDK_OFFSET(0x1B911540)
+#define RPG_GAMECORE_STOPBATTLEPOSTURETYPE_METHOD_3_D5EF567A0AA7B255_OFFSET UNITYSDK_OFFSET(0x1B911610)
+#define RPG_GAMECORE_STOPBATTLEPOSTURETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B911600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopBattlePostureType_TypeDefinitionIndex = 19311;
+	inline static constexpr unsigned int StopBattlePostureType_TypeDefinitionIndex = 19667;
 
 	class StopBattlePostureType : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPBATTLEPOSTURETYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4A0DD9E230B05D41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopBattlePostureType*& a2)
+		static ::System::Void Method_3_2046C967D5D8BC18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopBattlePostureType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopBattlePostureType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPBATTLEPOSTURETYPE_METHOD_3_4A0DD9E230B05D41_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopBattlePostureType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPBATTLEPOSTURETYPE_METHOD_3_2046C967D5D8BC18_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D5EF567A0AA7B255(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopBattlePostureType* a2)

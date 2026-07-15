@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyFateLevelParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_C0232F8FAEA206D6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BD3C20)
-#define CLASS_3_C0232F8FAEA206D6__CTOR_OFFSET UNITYSDK_OFFSET(0x16BD3BF0)
+#define CLASS_3_C0232F8FAEA206D6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB950F30)
+#define CLASS_3_C0232F8FAEA206D6__CTOR_OFFSET UNITYSDK_OFFSET(0xB950F00)
 
-inline static constexpr unsigned int Class_3_C0232F8FAEA206D6_TypeDefinitionIndex = 51563;
+inline static constexpr unsigned int Class_3_C0232F8FAEA206D6_TypeDefinitionIndex = 52705;
 
 class Class_3_C0232F8FAEA206D6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyFateLevelParam*>
 {

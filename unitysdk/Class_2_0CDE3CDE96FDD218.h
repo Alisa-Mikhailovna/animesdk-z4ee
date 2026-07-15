@@ -9,23 +9,23 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_0CDE3CDE96FDD218_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1473C0C0)
-#define CLASS_2_0CDE3CDE96FDD218_METHOD_2_AC977D6B357479CA_OFFSET UNITYSDK_OFFSET(0x1473C160)
-#define CLASS_2_0CDE3CDE96FDD218_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1473C530)
-#define CLASS_2_0CDE3CDE96FDD218_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1473C430)
-#define CLASS_2_0CDE3CDE96FDD218_TICK_OFFSET UNITYSDK_OFFSET(0x1473C4D0)
-#define CLASS_2_0CDE3CDE96FDD218__CTOR_OFFSET UNITYSDK_OFFSET(0x1473C0B0)
+#define CLASS_2_0CDE3CDE96FDD218_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14A03410)
+#define CLASS_2_0CDE3CDE96FDD218_METHOD_2_AC977D6B357479CA_OFFSET UNITYSDK_OFFSET(0x14A034B0)
+#define CLASS_2_0CDE3CDE96FDD218_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A03880)
+#define CLASS_2_0CDE3CDE96FDD218_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14A03780)
+#define CLASS_2_0CDE3CDE96FDD218_TICK_OFFSET UNITYSDK_OFFSET(0x14A03820)
+#define CLASS_2_0CDE3CDE96FDD218__CTOR_OFFSET UNITYSDK_OFFSET(0x14A03400)
 
-inline static constexpr unsigned int Class_2_0CDE3CDE96FDD218_TypeDefinitionIndex = 54495;
+inline static constexpr unsigned int Class_2_0CDE3CDE96FDD218_TypeDefinitionIndex = 55719;
 
 class Class_2_0CDE3CDE96FDD218 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::Class_2_37D832480CB327E1* Field_2_1; // 0x20
-	::RPG::GameCore::PropAttachMove* Field_2_2; // 0x28
-	::RPG::GameCore::PropComponent* Field_2_3; // 0x30
-	::RPG::GameCore::GameEntity* Field_2_4; // 0x38
+	::Class_2_37D832480CB327E1* Field_2_0; // 0x18
+	::RPG::GameCore::PropComponent* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_3; // 0x30
+	::RPG::GameCore::PropAttachMove* Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropAttachMove* a2)
 	{

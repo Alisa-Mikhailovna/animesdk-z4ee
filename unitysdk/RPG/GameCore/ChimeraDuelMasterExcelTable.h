@@ -13,46 +13,46 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1A513520)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A513580)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A5133F0)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1A5130E0)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1A513390)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1A5136D0)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A513160)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1A513710)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A5138E0)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1A5142C0)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A5145F0)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1A513840)
-#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A5137A0)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_ASZLINQENUMERABLE_OFFSET UNITYSDK_OFFSET(0x1B34C2C0)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B34C320)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B34C190)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B34BE80)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B34C130)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B34C470)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B34BF00)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B34C4B0)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B34C680)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B34D060)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B34D380)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B34C5E0)
+#define RPG_GAMECORE_CHIMERADUELMASTEREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B34C540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelMasterExcelTable_TypeDefinitionIndex = 10679;
+	inline static constexpr unsigned int ChimeraDuelMasterExcelTable_TypeDefinitionIndex = 10729;
 
 	class ChimeraDuelMasterExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0xF8C0);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0xF8C8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0x46B0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0x46B8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelMasterRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelMasterRow*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0xF8D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraDuelMasterRow*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0x46C0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0x4CA0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CB0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0x4CA1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelMasterExcelTable_TypeDefinitionIndex)->GetStaticField(0x2CB1);
 		}
 
 		static ::System::Void _cctor()

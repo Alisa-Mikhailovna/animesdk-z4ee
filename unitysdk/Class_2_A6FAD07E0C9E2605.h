@@ -4,33 +4,32 @@
 #include "unitysdk/RPG/Client/NoteInputResult.h"
 #include "unitysdk/RPG/GameCore/PuzzleCustomEvent.h"
 
-class Class_1_04316EB8ECDF7B06;
 class Class_1_3F51724BA2A18D7F;
+class Class_1_C67F599303150E7F;
 namespace RPG::Client { class MusicRhythmBoard; }
 namespace RPG::GameCore { class MusicRhythmTimelineConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_3422201382CE593B_OFFSET UNITYSDK_OFFSET(0x14E2D670)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_3BFE3B9EF8374F61_OFFSET UNITYSDK_OFFSET(0x14E2DAA0)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_5D0BCFABEB41AF6A_OFFSET UNITYSDK_OFFSET(0x14E2CCE0)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_62593EE2FE331D20_OFFSET UNITYSDK_OFFSET(0x14E2C660)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0x14E2C980)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_848EF232ABA55F2A_OFFSET UNITYSDK_OFFSET(0x14E2D820)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_8754E829AC664E5E_OFFSET UNITYSDK_OFFSET(0x14E2D750)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_9090E30CA1810942_OFFSET UNITYSDK_OFFSET(0x14E2DB90)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_B5CADED4AFE2B258_OFFSET UNITYSDK_OFFSET(0x14E2DAF0)
-#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_D6CB0E4FF045AA06_OFFSET UNITYSDK_OFFSET(0x14E2C1F0)
-#define CLASS_2_A6FAD07E0C9E2605__CTOR_OFFSET UNITYSDK_OFFSET(0x14E2C140)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_3422201382CE593B_OFFSET UNITYSDK_OFFSET(0xD04F920)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_3BFE3B9EF8374F61_OFFSET UNITYSDK_OFFSET(0xD04FD50)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_5D0BCFABEB41AF6A_OFFSET UNITYSDK_OFFSET(0xD04EF70)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_62593EE2FE331D20_OFFSET UNITYSDK_OFFSET(0xD04E8E0)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0xD04EC00)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_848EF232ABA55F2A_OFFSET UNITYSDK_OFFSET(0xD04FAD0)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_8754E829AC664E5E_OFFSET UNITYSDK_OFFSET(0xD04FA00)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_9781C7D655F75A69_OFFSET UNITYSDK_OFFSET(0xD04FDA0)
+#define CLASS_2_A6FAD07E0C9E2605_METHOD_2_D6CB0E4FF045AA06_OFFSET UNITYSDK_OFFSET(0xD04E470)
+#define CLASS_2_A6FAD07E0C9E2605__CTOR_OFFSET UNITYSDK_OFFSET(0xD04E3C0)
 
-inline static constexpr unsigned int Class_2_A6FAD07E0C9E2605_TypeDefinitionIndex = 56244;
+inline static constexpr unsigned int Class_2_A6FAD07E0C9E2605_TypeDefinitionIndex = 57483;
 
 class Class_2_A6FAD07E0C9E2605 : public ::Class_1_422F2D395BEF4FA5
 {
 public:
 	::System::Collections::Generic::List_1<::System::Single>* Field_2_0; // 0xD8
-	::System::Boolean Field_2_1; // 0xE0
+	::System::Single Field_2_1; // 0xE0
 	::System::Single Field_2_2; // 0xE4
-	::System::Single Field_2_3; // 0xE8
+	::System::Boolean Field_2_3; // 0xE8
 	::System::Single Field_2_4; // 0xEC
 	::System::Single Field_2_5; // 0xF0
 
@@ -59,9 +58,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_A6FAD07E0C9E2605_METHOD_2_5D0BCFABEB41AF6A_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_848EF232ABA55F2A(::RPG::Client::NoteInputResult a1, ::Class_1_3F51724BA2A18D7F* a2, ::Class_1_04316EB8ECDF7B06* a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Boolean a9)
+	::System::Void Method_2_848EF232ABA55F2A(::RPG::Client::NoteInputResult a1, ::Class_1_3F51724BA2A18D7F* a2, ::Class_1_C67F599303150E7F* a3, ::System::Single a4, ::System::Single a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::Boolean a9)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::NoteInputResult, ::Class_1_3F51724BA2A18D7F*, ::Class_1_04316EB8ECDF7B06*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_A6FAD07E0C9E2605_METHOD_2_848EF232ABA55F2A_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::NoteInputResult, ::Class_1_3F51724BA2A18D7F*, ::Class_1_C67F599303150E7F*, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_A6FAD07E0C9E2605_METHOD_2_848EF232ABA55F2A_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 	}
 
 	::System::Void Method_2_8754E829AC664E5E(::RPG::GameCore::PuzzleCustomEvent a1)
@@ -79,13 +78,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_A6FAD07E0C9E2605_METHOD_2_3BFE3B9EF8374F61_OFFSET))(this);
 	}
 
-	::System::Void Method_2_B5CADED4AFE2B258(::System::Single a1)
+	::System::Void Method_2_9781C7D655F75A69(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_A6FAD07E0C9E2605_METHOD_2_B5CADED4AFE2B258_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_2_9090E30CA1810942(::RPG::GameCore::PuzzleCustomEvent a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PuzzleCustomEvent))((::PBYTE)hIl2Cpp + CLASS_2_A6FAD07E0C9E2605_METHOD_2_9090E30CA1810942_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_A6FAD07E0C9E2605_METHOD_2_9781C7D655F75A69_OFFSET))(this, a1);
 	}
 };

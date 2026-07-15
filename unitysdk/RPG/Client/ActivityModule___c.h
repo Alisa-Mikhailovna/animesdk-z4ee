@@ -3,7 +3,7 @@
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_455008579EB95638_5;
+class Class_1_7FF19F6206AF6DD7_5;
 namespace RPG::Client { class ActivityPhaseData; }
 namespace RPG::Client { class GridFightResidentActivityPanelData; }
 namespace RPG::Client { class RogueResidentActivityPanelData; }
@@ -11,64 +11,64 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17BD2E60)
-#define RPG_CLIENT_ACTIVITYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17BD2E90)
-#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTGRIDFIGHTACTIVITYIDFORREWARDCOUNT_B__16_0_OFFSET UNITYSDK_OFFSET(0x17BD2F10)
-#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTGRIDFIGHTACTIVITYIDFORREWARDCOUNT_B__16_1_OFFSET UNITYSDK_OFFSET(0x17BD2FD0)
-#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTTOURNROGUEACTIVITYIDFORREWARDCOUNT_B__59_0_OFFSET UNITYSDK_OFFSET(0x17BD3090)
-#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTTOURNROGUEACTIVITYIDFORREWARDCOUNT_B__59_1_OFFSET UNITYSDK_OFFSET(0x17BD3150)
-#define RPG_CLIENT_ACTIVITYMODULE___C__ISHANDBOOKPHASEALLFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0x17BD2EA0)
-#define RPG_CLIENT_ACTIVITYMODULE___C__ONLOGINFINISH_B__113_0_OFFSET UNITYSDK_OFFSET(0x17BD3210)
-#define RPG_CLIENT_ACTIVITYMODULE___C___ONGETACTIVITYREWARDCOUNTDATASCRSP_B__133_0_OFFSET UNITYSDK_OFFSET(0x17BD3220)
-#define RPG_CLIENT_ACTIVITYMODULE___C___ONGETALLACTIVITYREWARDCOUNTDATASCRSP_B__134_0_OFFSET UNITYSDK_OFFSET(0x17BD3240)
-#define RPG_CLIENT_ACTIVITYMODULE___C___PREPAREMISSIONDATA_B__138_0_OFFSET UNITYSDK_OFFSET(0x17BD3260)
+#define RPG_CLIENT_ACTIVITYMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBC34130)
+#define RPG_CLIENT_ACTIVITYMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBC34160)
+#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTGRIDFIGHTACTIVITYIDFORREWARDCOUNT_B__16_0_OFFSET UNITYSDK_OFFSET(0xBC34250)
+#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTGRIDFIGHTACTIVITYIDFORREWARDCOUNT_B__16_1_OFFSET UNITYSDK_OFFSET(0xBC34290)
+#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTTOURNROGUEACTIVITYIDFORREWARDCOUNT_B__59_0_OFFSET UNITYSDK_OFFSET(0xBC34350)
+#define RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTTOURNROGUEACTIVITYIDFORREWARDCOUNT_B__59_1_OFFSET UNITYSDK_OFFSET(0xBC343A0)
+#define RPG_CLIENT_ACTIVITYMODULE___C__ISHANDBOOKPHASEALLFINISHED_B__7_0_OFFSET UNITYSDK_OFFSET(0xBC34170)
+#define RPG_CLIENT_ACTIVITYMODULE___C__ONLOGINFINISH_B__114_0_OFFSET UNITYSDK_OFFSET(0xBC34460)
+#define RPG_CLIENT_ACTIVITYMODULE___C___ONGETACTIVITYREWARDCOUNTDATASCRSP_B__134_0_OFFSET UNITYSDK_OFFSET(0xBC34470)
+#define RPG_CLIENT_ACTIVITYMODULE___C___ONGETALLACTIVITYREWARDCOUNTDATASCRSP_B__135_0_OFFSET UNITYSDK_OFFSET(0xBC34490)
+#define RPG_CLIENT_ACTIVITYMODULE___C___PREPAREMISSIONDATA_B__139_0_OFFSET UNITYSDK_OFFSET(0xBC344B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityModule___c_TypeDefinitionIndex = 57678;
+	inline static constexpr unsigned int ActivityModule___c_TypeDefinitionIndex = 58944;
 
 	class ActivityModule___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::GridFightResidentActivityPanelData*, ::System::String*>** StaticGet___9__16_1()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightResidentActivityPanelData*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43030);
+		}
+		static ::System::Action** StaticGet___9__114_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43038);
+		}
+		static ::System::Action** StaticGet___9__139_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43040);
+		}
 		static ::RPG::Client::ActivityModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52EE0);
+			return (::RPG::Client::ActivityModule___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43048);
 		}
-		static ::System::Func_2<::RPG::Client::RogueResidentActivityPanelData*, ::System::String*>** StaticGet___9__59_1()
+		static ::System::Func_2<::Class_1_7FF19F6206AF6DD7_5*, ::System::UInt32>** StaticGet___9__134_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueResidentActivityPanelData*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52EE8);
-		}
-		static ::System::Action** StaticGet___9__113_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52EF0);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhaseData*>, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhaseData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52EF8);
-		}
-		static ::System::Action** StaticGet___9__138_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52F00);
-		}
-		static ::System::Func_2<::Class_1_455008579EB95638_5*, ::System::UInt32>** StaticGet___9__134_0()
-		{
-			return (::System::Func_2<::Class_1_455008579EB95638_5*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52F08);
+			return (::System::Func_2<::Class_1_7FF19F6206AF6DD7_5*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43050);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightResidentActivityPanelData*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightResidentActivityPanelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52F10);
+			return (::System::Func_2<::RPG::Client::GridFightResidentActivityPanelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43058);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhaseData*>, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ActivityPhaseData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43060);
 		}
 		static ::System::Func_2<::RPG::Client::RogueResidentActivityPanelData*, ::System::Boolean>** StaticGet___9__59_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueResidentActivityPanelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52F18);
+			return (::System::Func_2<::RPG::Client::RogueResidentActivityPanelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43068);
 		}
-		static ::System::Func_2<::RPG::Client::GridFightResidentActivityPanelData*, ::System::String*>** StaticGet___9__16_1()
+		static ::System::Func_2<::RPG::Client::RogueResidentActivityPanelData*, ::System::String*>** StaticGet___9__59_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightResidentActivityPanelData*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52F20);
+			return (::System::Func_2<::RPG::Client::RogueResidentActivityPanelData*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43070);
 		}
-		static ::System::Func_2<::Class_1_455008579EB95638_5*, ::System::UInt32>** StaticGet___9__133_0()
+		static ::System::Func_2<::Class_1_7FF19F6206AF6DD7_5*, ::System::UInt32>** StaticGet___9__135_0()
 		{
-			return (::System::Func_2<::Class_1_455008579EB95638_5*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x52F28);
+			return (::System::Func_2<::Class_1_7FF19F6206AF6DD7_5*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityModule___c_TypeDefinitionIndex)->GetStaticField(0x43078);
 		}
 
 		static ::System::Void _cctor()
@@ -106,24 +106,24 @@ namespace RPG::Client
 			return ((::System::String*(*)(::PVOID, ::RPG::Client::RogueResidentActivityPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C__FINDCURRENTTOURNROGUEACTIVITYIDFORREWARDCOUNT_B__59_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _OnLoginFinish_b__113_0()
+		::System::Void _OnLoginFinish_b__114_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C__ONLOGINFINISH_B__113_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C__ONLOGINFINISH_B__114_0_OFFSET))(this);
 		}
 
-		::System::UInt32 __OnGetActivityRewardCountDataScRsp_b__133_0(::Class_1_455008579EB95638_5* a1)
+		::System::UInt32 __OnGetActivityRewardCountDataScRsp_b__134_0(::Class_1_7FF19F6206AF6DD7_5* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_1_455008579EB95638_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C___ONGETACTIVITYREWARDCOUNTDATASCRSP_B__133_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C___ONGETACTIVITYREWARDCOUNTDATASCRSP_B__134_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 __OnGetAllActivityRewardCountDataScRsp_b__134_0(::Class_1_455008579EB95638_5* a1)
+		::System::UInt32 __OnGetAllActivityRewardCountDataScRsp_b__135_0(::Class_1_7FF19F6206AF6DD7_5* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::Class_1_455008579EB95638_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C___ONGETALLACTIVITYREWARDCOUNTDATASCRSP_B__134_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::Class_1_7FF19F6206AF6DD7_5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C___ONGETALLACTIVITYREWARDCOUNTDATASCRSP_B__135_0_OFFSET))(this, a1);
 		}
 
-		::System::Void __PrepareMissionData_b__138_0()
+		::System::Void __PrepareMissionData_b__139_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C___PREPAREMISSIONDATA_B__138_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMODULE___C___PREPAREMISSIONDATA_B__139_0_OFFSET))(this);
 		}
 	};
 }

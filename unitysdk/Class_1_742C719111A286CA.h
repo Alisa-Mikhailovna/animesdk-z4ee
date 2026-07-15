@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CakeRaceAnimState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_742C719111A286CA__CTOR_OFFSET UNITYSDK_OFFSET(0x162D4390)
+#define CLASS_1_742C719111A286CA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4DAD70)
 
-inline static constexpr unsigned int Class_1_742C719111A286CA_TypeDefinitionIndex = 34919;
+inline static constexpr unsigned int Class_1_742C719111A286CA_TypeDefinitionIndex = 35701;
 
 class Class_1_742C719111A286CA : public ::System::Object
 {

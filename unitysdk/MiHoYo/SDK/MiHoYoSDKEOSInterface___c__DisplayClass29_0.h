@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x193BDC10)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__INITSDK_B__1_OFFSET UNITYSDK_OFFSET(0x193BDC20)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAE9E00)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS29_0__INITSDK_B__1_OFFSET UNITYSDK_OFFSET(0xAAE9E10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass29_0_TypeDefinitionIndex = 43714;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass29_0_TypeDefinitionIndex = 44576;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass29_0 : public ::System::Object
 	{

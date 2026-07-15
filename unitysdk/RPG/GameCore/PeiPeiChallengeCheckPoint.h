@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PEIPEICHALLENGECHECKPOINT_METHOD_2_884724326AC753ED_OFFSET UNITYSDK_OFFSET(0x19D1BAD0)
-#define RPG_GAMECORE_PEIPEICHALLENGECHECKPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D1BBB0)
+#define RPG_GAMECORE_PEIPEICHALLENGECHECKPOINT_METHOD_2_884724326AC753ED_OFFSET UNITYSDK_OFFSET(0x1B68EC40)
+#define RPG_GAMECORE_PEIPEICHALLENGECHECKPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B68ED20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PeiPeiChallengeCheckPoint_TypeDefinitionIndex = 20021;
+	inline static constexpr unsigned int PeiPeiChallengeCheckPoint_TypeDefinitionIndex = 20393;
 
 	class PeiPeiChallengeCheckPoint : public ::RPG::GameCore::JsonConfig
 	{

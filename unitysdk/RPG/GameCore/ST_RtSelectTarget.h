@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ST_RTSELECTTARGET_METHOD_4_0B07E09C09ACF7AF_OFFSET UNITYSDK_OFFSET(0x1A182490)
-#define RPG_GAMECORE_ST_RTSELECTTARGET_METHOD_4_22DE152C31FCA315_OFFSET UNITYSDK_OFFSET(0x1A16FF60)
-#define RPG_GAMECORE_ST_RTSELECTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A16FF10)
+#define RPG_GAMECORE_ST_RTSELECTTARGET_METHOD_4_22DE152C31FCA315_OFFSET UNITYSDK_OFFSET(0x1B7E02A0)
+#define RPG_GAMECORE_ST_RTSELECTTARGET_METHOD_4_3C694E9A8190F87E_OFFSET UNITYSDK_OFFSET(0x1B7E0260)
+#define RPG_GAMECORE_ST_RTSELECTTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7E0290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_RtSelectTarget_TypeDefinitionIndex = 22753;
+	inline static constexpr unsigned int ST_RtSelectTarget_TypeDefinitionIndex = 23220;
 
 	class ST_RtSelectTarget : public ::RPG::GameCore::STTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_RTSELECTTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_0B07E09C09ACF7AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_RtSelectTarget*& a2)
+		static ::System::Void Method_4_3C694E9A8190F87E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_RtSelectTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_RtSelectTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_RTSELECTTARGET_METHOD_4_0B07E09C09ACF7AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_RtSelectTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_RTSELECTTARGET_METHOD_4_3C694E9A8190F87E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_22DE152C31FCA315(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_RtSelectTarget* a2)

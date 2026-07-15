@@ -11,41 +11,41 @@ namespace Proto { class DisplayAvatarDetailInfo; }
 namespace Proto { class PlayerSimpleInfo; }
 namespace System { class String; }
 
-#define PROTO_PLAYERASSISTINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1AB06D50)
-#define PROTO_PLAYERASSISTINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1AB06560)
-#define PROTO_PLAYERASSISTINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1AB066C0)
-#define PROTO_PLAYERASSISTINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AB065D0)
-#define PROTO_PLAYERASSISTINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AB067A0)
-#define PROTO_PLAYERASSISTINFO_GET_ASSISTAVATAR_OFFSET UNITYSDK_OFFSET(0x1AB065B0)
-#define PROTO_PLAYERASSISTINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1AB06440)
-#define PROTO_PLAYERASSISTINFO_GET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1AB06590)
-#define PROTO_PLAYERASSISTINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1AB07280)
-#define PROTO_PLAYERASSISTINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1AB06DE0)
-#define PROTO_PLAYERASSISTINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1AB06470)
-#define PROTO_PLAYERASSISTINFO_SET_ASSISTAVATAR_OFFSET UNITYSDK_OFFSET(0x1AB065C0)
-#define PROTO_PLAYERASSISTINFO_SET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1AB065A0)
-#define PROTO_PLAYERASSISTINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AB06C70)
-#define PROTO_PLAYERASSISTINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1AB06CD0)
-#define PROTO_PLAYERASSISTINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB07510)
-#define PROTO_PLAYERASSISTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AB06490)
-#define PROTO_PLAYERASSISTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB06480)
+#define PROTO_PLAYERASSISTINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BC89420)
+#define PROTO_PLAYERASSISTINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC889B0)
+#define PROTO_PLAYERASSISTINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC88C50)
+#define PROTO_PLAYERASSISTINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC88A20)
+#define PROTO_PLAYERASSISTINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC88E80)
+#define PROTO_PLAYERASSISTINFO_GET_ASSISTAVATAR_OFFSET UNITYSDK_OFFSET(0x1BC889E0)
+#define PROTO_PLAYERASSISTINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BC88890)
+#define PROTO_PLAYERASSISTINFO_GET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1BC88A00)
+#define PROTO_PLAYERASSISTINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BC89950)
+#define PROTO_PLAYERASSISTINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BC894B0)
+#define PROTO_PLAYERASSISTINFO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC888C0)
+#define PROTO_PLAYERASSISTINFO_SET_ASSISTAVATAR_OFFSET UNITYSDK_OFFSET(0x1BC889F0)
+#define PROTO_PLAYERASSISTINFO_SET_PLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1BC88A10)
+#define PROTO_PLAYERASSISTINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC892E0)
+#define PROTO_PLAYERASSISTINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BC89340)
+#define PROTO_PLAYERASSISTINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC89BE0)
+#define PROTO_PLAYERASSISTINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC888E0)
+#define PROTO_PLAYERASSISTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC888D0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PlayerAssistInfo_TypeDefinitionIndex = 27163;
+	inline static constexpr unsigned int PlayerAssistInfo_TypeDefinitionIndex = 27667;
 
 	class PlayerAssistInfo : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::PlayerAssistInfo*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::PlayerAssistInfo*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAssistInfo_TypeDefinitionIndex)->GetStaticField(0x3E890);
+			return (::Google::Protobuf::MessageParser_1<::Proto::PlayerAssistInfo*>**)Il2CppClass::FromTypeDefinitionIndex(PlayerAssistInfo_TypeDefinitionIndex)->GetStaticField(0x1C5D0);
 		}
-		// static const ::System::Int32 PlayerInfoFieldNumber = 0xD; // 0x0
-		// static const ::System::Int32 AssistAvatarFieldNumber = 0x4; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		// static const ::System::Int32 AssistAvatarFieldNumber = 0xC; // 0x0
+		// static const ::System::Int32 PlayerInfoFieldNumber = 0xA; // 0x0
+		::Proto::PlayerSimpleInfo* playerInfo_; // 0x10
 		::Proto::DisplayAvatarDetailInfo* assistAvatar_; // 0x18
-		::Proto::PlayerSimpleInfo* playerInfo_; // 0x20
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
 
 		::System::Void _ctor()
 		{
@@ -77,16 +77,6 @@ namespace Proto
 			return ((::Proto::PlayerAssistInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERASSISTINFO_CLONE_OFFSET))(this);
 		}
 
-		::Proto::PlayerSimpleInfo* get_PlayerInfo()
-		{
-			return ((::Proto::PlayerSimpleInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERASSISTINFO_GET_PLAYERINFO_OFFSET))(this);
-		}
-
-		::System::Void set_PlayerInfo(::Proto::PlayerSimpleInfo* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERASSISTINFO_SET_PLAYERINFO_OFFSET))(this, a1);
-		}
-
 		::Proto::DisplayAvatarDetailInfo* get_AssistAvatar()
 		{
 			return ((::Proto::DisplayAvatarDetailInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERASSISTINFO_GET_ASSISTAVATAR_OFFSET))(this);
@@ -95,6 +85,16 @@ namespace Proto
 		::System::Void set_AssistAvatar(::Proto::DisplayAvatarDetailInfo* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Proto::DisplayAvatarDetailInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERASSISTINFO_SET_ASSISTAVATAR_OFFSET))(this, a1);
+		}
+
+		::Proto::PlayerSimpleInfo* get_PlayerInfo()
+		{
+			return ((::Proto::PlayerSimpleInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_PLAYERASSISTINFO_GET_PLAYERINFO_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerInfo(::Proto::PlayerSimpleInfo* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Proto::PlayerSimpleInfo*))((::PBYTE)hIl2Cpp + PROTO_PLAYERASSISTINFO_SET_PLAYERINFO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/RestaurantNormalEventType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_5AB8CD80EDFC275F__CTOR_OFFSET UNITYSDK_OFFSET(0x1834F440)
+#define CLASS_1_5AB8CD80EDFC275F__CTOR_OFFSET UNITYSDK_OFFSET(0x1A77AAE0)
 
-inline static constexpr unsigned int Class_1_5AB8CD80EDFC275F_TypeDefinitionIndex = 38841;
+inline static constexpr unsigned int Class_1_5AB8CD80EDFC275F_TypeDefinitionIndex = 39650;
 
 class Class_1_5AB8CD80EDFC275F : public ::System::Object
 {

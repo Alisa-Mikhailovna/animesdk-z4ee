@@ -7,18 +7,18 @@ class Class_2_5AC0D8B32AD9BFBE;
 namespace RPG::Client { class MonoEffect; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A13270)
-#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS18_0___FIRETRAILEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x14A13AF0)
+#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14734860)
+#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS18_0___FIRETRAILEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x14734E10)
 
-inline static constexpr unsigned int Class_2_5AC0D8B32AD9BFBE___c__DisplayClass18_0_TypeDefinitionIndex = 56642;
+inline static constexpr unsigned int Class_2_5AC0D8B32AD9BFBE___c__DisplayClass18_0_TypeDefinitionIndex = 57888;
 
 class Class_2_5AC0D8B32AD9BFBE___c__DisplayClass18_0 : public ::System::Object
 {
 public:
 	::UnityEngine::GameObject* targetGo; // 0x10
-	::RPG::Client::MonoEffect* energyEffect; // 0x18
-	::Class_2_5AC0D8B32AD9BFBE* __4__this; // 0x20
-	::UnityEngine::GameObject* transitGo; // 0x28
+	::UnityEngine::GameObject* transitGo; // 0x18
+	::RPG::Client::MonoEffect* energyEffect; // 0x20
+	::Class_2_5AC0D8B32AD9BFBE* __4__this; // 0x28
 	::System::Int32 energyNum; // 0x30
 
 	::System::Void _ctor()

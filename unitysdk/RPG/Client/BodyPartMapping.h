@@ -8,14 +8,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_BODYPARTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0x182BF420)
-#define RPG_CLIENT_BODYPARTMAPPING_FINDBODYPART_OFFSET UNITYSDK_OFFSET(0x182BF560)
-#define RPG_CLIENT_BODYPARTMAPPING_GETALLBODYPART_OFFSET UNITYSDK_OFFSET(0x182BF6B0)
-#define RPG_CLIENT_BODYPARTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x182BF3A0)
+#define RPG_CLIENT_BODYPARTMAPPING_AWAKE_OFFSET UNITYSDK_OFFSET(0xBEBC610)
+#define RPG_CLIENT_BODYPARTMAPPING_FINDBODYPART_OFFSET UNITYSDK_OFFSET(0xBEBC750)
+#define RPG_CLIENT_BODYPARTMAPPING_GETALLBODYPART_OFFSET UNITYSDK_OFFSET(0xBEBC8A0)
+#define RPG_CLIENT_BODYPARTMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xBEBC590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BodyPartMapping_TypeDefinitionIndex = 63954;
+	inline static constexpr unsigned int BodyPartMapping_TypeDefinitionIndex = 65325;
 
 	class BodyPartMapping : public ::UnityEngine::MonoBehaviour
 	{

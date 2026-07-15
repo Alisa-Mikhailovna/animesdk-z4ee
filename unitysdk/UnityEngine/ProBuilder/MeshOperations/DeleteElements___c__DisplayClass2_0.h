@@ -5,12 +5,12 @@
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC25A180)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS2_0__DELETEFACES_B__0_OFFSET UNITYSDK_OFFSET(0xC25C160)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE49B60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_DELETEELEMENTS___C__DISPLAYCLASS2_0__DELETEFACES_B__0_OFFSET UNITYSDK_OFFSET(0x1CE4BC50)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int DeleteElements___c__DisplayClass2_0_TypeDefinitionIndex = 40874;
+	inline static constexpr unsigned int DeleteElements___c__DisplayClass2_0_TypeDefinitionIndex = 41689;
 
 	class DeleteElements___c__DisplayClass2_0 : public ::System::Object
 	{

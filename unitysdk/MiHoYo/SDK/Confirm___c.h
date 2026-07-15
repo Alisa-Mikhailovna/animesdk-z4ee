@@ -4,29 +4,29 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_CONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1725EFC0)
-#define MIHOYO_SDK_CONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1725F000)
-#define MIHOYO_SDK_CONFIRM___C__SHOWPLUGINUI_B__23_2_OFFSET UNITYSDK_OFFSET(0x1725F010)
-#define MIHOYO_SDK_CONFIRM___C__SHOW_B__24_1_OFFSET UNITYSDK_OFFSET(0x1725F0B0)
+#define MIHOYO_SDK_CONFIRM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BCF480)
+#define MIHOYO_SDK_CONFIRM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19BCF4C0)
+#define MIHOYO_SDK_CONFIRM___C__SHOWPLUGINUI_B__23_2_OFFSET UNITYSDK_OFFSET(0x19BCF4D0)
+#define MIHOYO_SDK_CONFIRM___C__SHOW_B__24_1_OFFSET UNITYSDK_OFFSET(0x19BCF570)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Confirm___c_TypeDefinitionIndex = 8177;
+	inline static constexpr unsigned int Confirm___c_TypeDefinitionIndex = 8188;
 
 	class Confirm___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__23_2()
+		static ::MiHoYo::SDK::Confirm___c** StaticGet___9()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Confirm___c_TypeDefinitionIndex)->GetStaticField(0xDE40);
+			return (::MiHoYo::SDK::Confirm___c**)Il2CppClass::FromTypeDefinitionIndex(Confirm___c_TypeDefinitionIndex)->GetStaticField(0x109D0);
 		}
 		static ::System::Action** StaticGet___9__24_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Confirm___c_TypeDefinitionIndex)->GetStaticField(0xDE48);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Confirm___c_TypeDefinitionIndex)->GetStaticField(0x109D8);
 		}
-		static ::MiHoYo::SDK::Confirm___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__23_2()
 		{
-			return (::MiHoYo::SDK::Confirm___c**)Il2CppClass::FromTypeDefinitionIndex(Confirm___c_TypeDefinitionIndex)->GetStaticField(0xDE50);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Confirm___c_TypeDefinitionIndex)->GetStaticField(0x109E0);
 		}
 
 		static ::System::Void _cctor()

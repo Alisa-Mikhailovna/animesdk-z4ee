@@ -4,9 +4,9 @@
 
 namespace RPG::Client::LittleGame::PixAir { class PixAirPlaneStatistics; }
 
-#define CLASS_1_F1EBB8C2BED43B17__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7AD10)
+#define CLASS_1_F1EBB8C2BED43B17__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79B7A0)
 
-inline static constexpr unsigned int Class_1_F1EBB8C2BED43B17_TypeDefinitionIndex = 40257;
+inline static constexpr unsigned int Class_1_F1EBB8C2BED43B17_TypeDefinitionIndex = 41072;
 
 class Class_1_F1EBB8C2BED43B17 : public ::System::Object
 {

@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYSUMMONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19546710)
-#define RPG_GAMECORE_ACTIVITYSUMMONSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19546B30)
+#define RPG_GAMECORE_ACTIVITYSUMMONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B135670)
+#define RPG_GAMECORE_ACTIVITYSUMMONSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B135A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivitySummonSkillRow_TypeDefinitionIndex = 11836;
+	inline static constexpr unsigned int ActivitySummonSkillRow_TypeDefinitionIndex = 11936;
 
 	class ActivitySummonSkillRow : public ::System::Object
 	{
@@ -22,11 +22,11 @@ namespace RPG::GameCore
 		::System::String* SkillIconPath; // 0x18
 		::System::String* SkillTriggerKey; // 0x20
 		::Il2CppArray<::RPG::GameCore::FixPoint>* SkillParmList; // 0x28
-		::RPG::Client::TextID SimpleSkillDesc; // 0x30
-		::System::UInt32 SkillID; // 0x40
-		::RPG::GameCore::ActivitySummonSkillType SkillType; // 0x44
-		::RPG::Client::TextID SkillDesc; // 0x48
-		::RPG::Client::TextID SkillName; // 0x58
+		::System::UInt32 SkillID; // 0x30
+		::RPG::GameCore::ActivitySummonSkillType SkillType; // 0x34
+		::RPG::Client::TextID SkillName; // 0x38
+		::RPG::Client::TextID SimpleSkillDesc; // 0x48
+		::RPG::Client::TextID SkillDesc; // 0x58
 
 		::System::Void _ctor()
 		{

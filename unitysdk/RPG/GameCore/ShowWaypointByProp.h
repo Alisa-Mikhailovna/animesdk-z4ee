@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_METHOD_3_6B6F417A21602FC7_OFFSET UNITYSDK_OFFSET(0x1A00E3D0)
-#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_METHOD_3_F62CCBBED8F88C0C_OFFSET UNITYSDK_OFFSET(0x1A00E490)
-#define RPG_GAMECORE_SHOWWAYPOINTBYPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A00E440)
+#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_METHOD_3_838CD773E264A718_OFFSET UNITYSDK_OFFSET(0x1B8D7BB0)
+#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_METHOD_3_F62CCBBED8F88C0C_OFFSET UNITYSDK_OFFSET(0x1B8D7C20)
+#define RPG_GAMECORE_SHOWWAYPOINTBYPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D7C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowWaypointByProp_TypeDefinitionIndex = 19729;
+	inline static constexpr unsigned int ShowWaypointByProp_TypeDefinitionIndex = 20088;
 
 	class ShowWaypointByProp : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWWAYPOINTBYPROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6B6F417A21602FC7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowWaypointByProp*& a2)
+		static ::System::Void Method_3_838CD773E264A718(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowWaypointByProp*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowWaypointByProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWWAYPOINTBYPROP_METHOD_3_6B6F417A21602FC7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowWaypointByProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWWAYPOINTBYPROP_METHOD_3_838CD773E264A718_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F62CCBBED8F88C0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowWaypointByProp* a2)

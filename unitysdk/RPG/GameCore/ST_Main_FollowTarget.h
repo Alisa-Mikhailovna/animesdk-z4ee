@@ -12,13 +12,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_A558AE52630B5535_OFFSET UNITYSDK_OFFSET(0x1A181690)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET UNITYSDK_OFFSET(0x1A16B1A0)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A16B0F0)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET UNITYSDK_OFFSET(0x1B7DC380)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET UNITYSDK_OFFSET(0x1B7DC470)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7DC410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 18995;
+	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 19346;
 
 	class ST_Main_FollowTarget : public ::RPG::GameCore::STTaskConfig
 	{
@@ -69,9 +69,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A558AE52630B5535(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget*& a2)
+		static ::System::Void Method_4_264316AD54C25836(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_FollowTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_A558AE52630B5535_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_FollowTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_F9500BFFD2643CF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget* a2)

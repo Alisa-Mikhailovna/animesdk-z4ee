@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE_METHOD_4_1839A79FFB1125EC_OFFSET UNITYSDK_OFFSET(0x1B319B10)
-#define RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE_METHOD_4_B704497C12159B08_OFFSET UNITYSDK_OFFSET(0x1B319A30)
-#define RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B319AB0)
+#define RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE_METHOD_4_1839A79FFB1125EC_OFFSET UNITYSDK_OFFSET(0x1B9E7CE0)
+#define RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE_METHOD_4_A31B5CFDE33BB5E1_OFFSET UNITYSDK_OFFSET(0x1B9E7C90)
+#define RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E7CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGraphDynamicValueChange_TypeDefinitionIndex = 19571;
+	inline static constexpr unsigned int WaitGraphDynamicValueChange_TypeDefinitionIndex = 19930;
 
 	class WaitGraphDynamicValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B704497C12159B08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGraphDynamicValueChange*& a2)
+		static ::System::Void Method_4_A31B5CFDE33BB5E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGraphDynamicValueChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGraphDynamicValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE_METHOD_4_B704497C12159B08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGraphDynamicValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGRAPHDYNAMICVALUECHANGE_METHOD_4_A31B5CFDE33BB5E1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_1839A79FFB1125EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGraphDynamicValueChange* a2)

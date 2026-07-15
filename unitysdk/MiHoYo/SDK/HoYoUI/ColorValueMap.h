@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOUI_COLORVALUEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1939B170)
+#define MIHOYO_SDK_HOYOUI_COLORVALUEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xAAC4D10)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int ColorValueMap_TypeDefinitionIndex = 44088;
+	inline static constexpr unsigned int ColorValueMap_TypeDefinitionIndex = 44951;
 
 	class ColorValueMap : public ::MiHoYo::SDK::HoYoUI::SerializableDictionary_2<::System::String*, ::UnityEngine::Color>
 	{

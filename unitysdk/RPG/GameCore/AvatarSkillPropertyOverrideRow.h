@@ -1,24 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AttackType.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x176466E0)
-#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17646DA0)
+#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1DD890)
+#define RPG_GAMECORE_AVATARSKILLPROPERTYOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1DDF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillPropertyOverrideRow_TypeDefinitionIndex = 12109;
+	inline static constexpr unsigned int AvatarSkillPropertyOverrideRow_TypeDefinitionIndex = 12241;
 
 	class AvatarSkillPropertyOverrideRow : public ::System::Object
 	{
 	public:
 		::System::String* ReplacePointIconPrefab; // 0x10
 		::System::UInt32 SkillID; // 0x18
-		::System::Boolean DisableIconColorHint; // 0x1C
-		::System::Boolean IsSecretSkillNeed; // 0x1D
+		::RPG::GameCore::AttackType DisplayAttackType; // 0x1C
+		::System::Boolean IsSecretSkillNeed; // 0x20
+		::System::Boolean OverrideAttackType; // 0x21
+		::System::Boolean DisableIconColorHint; // 0x22
 
 		::System::Void _ctor()
 		{

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_366F5963C959A536_OFFSET UNITYSDK_OFFSET(0x1954CB10)
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_501A7CF27571A67D_OFFSET UNITYSDK_OFFSET(0x1954CA90)
-#define RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1954CAE0)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_911E4483C973161F_OFFSET UNITYSDK_OFFSET(0x1B13B720)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_FC262C355AD2E912_OFFSET UNITYSDK_OFFSET(0x1B13B6D0)
+#define RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B13B710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddFinishMissionData_PlayMessageAdaptive_TypeDefinitionIndex = 20717;
+	inline static constexpr unsigned int AddFinishMissionData_PlayMessageAdaptive_TypeDefinitionIndex = 21132;
 
 	class AddFinishMissionData_PlayMessageAdaptive : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_501A7CF27571A67D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive*& a2)
+		static ::System::Void Method_3_FC262C355AD2E912(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_501A7CF27571A67D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_FC262C355AD2E912_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_366F5963C959A536(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive* a2)
+		static ::System::Void Method_3_911E4483C973161F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_366F5963C959A536_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddFinishMissionData_PlayMessageAdaptive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDFINISHMISSIONDATA_PLAYMESSAGEADAPTIVE_METHOD_3_911E4483C973161F_OFFSET))(a1, a2);
 		}
 	};
 }

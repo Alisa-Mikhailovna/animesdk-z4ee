@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveStarData_StarInfo; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18634B80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0___GETSTARNEEDEDCHAPTER_B__0_OFFSET UNITYSDK_OFFSET(0x18634FE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBBD9F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTARDATA___C__DISPLAYCLASS6_0___GETSTARNEEDEDCHAPTER_B__0_OFFSET UNITYSDK_OFFSET(0xBBBDE50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveStarData___c__DisplayClass6_0_TypeDefinitionIndex = 70207;
+	inline static constexpr unsigned int IdleLiveStarData___c__DisplayClass6_0_TypeDefinitionIndex = 71730;
 
 	class IdleLiveStarData___c__DisplayClass6_0 : public ::System::Object
 	{

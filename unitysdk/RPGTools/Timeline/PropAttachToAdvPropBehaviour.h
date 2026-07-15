@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class PropAttachToAdvPropClip; }
 
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B53740)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B53760)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19B53750)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B53A50)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19B53A60)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD0EB60)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDD0EB80)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDD0EB70)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD0EE70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropAttachToAdvPropBehaviour_TypeDefinitionIndex = 45529;
+	inline static constexpr unsigned int PropAttachToAdvPropBehaviour_TypeDefinitionIndex = 46463;
 
 	class PropAttachToAdvPropBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

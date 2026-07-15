@@ -7,37 +7,38 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARDEMOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17629A40)
-#define RPG_GAMECORE_AVATARDEMOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1762A620)
+#define RPG_GAMECORE_AVATARDEMOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C0C40)
+#define RPG_GAMECORE_AVATARDEMOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C1870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDemoConfigRow_TypeDefinitionIndex = 12164;
+	inline static constexpr unsigned int AvatarDemoConfigRow_TypeDefinitionIndex = 12298;
 
 	class AvatarDemoConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x10
+		::System::String* OperationRecordPath; // 0x10
 		::Il2CppArray<::System::UInt32>* ConfigList1; // 0x18
-		::System::String* OperationRecordPath; // 0x20
+		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x20
 		::Il2CppArray<::System::UInt32>* NpcMonsterIDList1; // 0x28
-		::Il2CppArray<::System::String*>* OverrideDisplaySkillTriggerKeyList; // 0x30
+		::Il2CppArray<::System::UInt32>* SPList; // 0x30
 		::Il2CppArray<::System::UInt32>* EventIDList1; // 0x38
-		::System::UInt32 RandomSeed; // 0x40
-		::System::UInt32 RaidID; // 0x44
-		::System::UInt32 GuideGroupID; // 0x48
-		::System::UInt32 MapEntranceID; // 0x4C
-		::System::UInt32 MazeGroupID1; // 0x50
-		::System::UInt32 ScoringGroupID; // 0x54
-		::RPG::GameCore::AvatarDemoStageType StageType; // 0x58
-		::System::UInt32 RewardID; // 0x5C
+		::Il2CppArray<::System::String*>* OverrideDisplaySkillTriggerKeyList; // 0x40
+		::RPG::Client::TextID AvatarDemoTitle; // 0x48
+		::System::UInt32 ScoringGroupID; // 0x58
+		::System::UInt32 MazeGroupID1; // 0x5C
 		::RPG::Client::TextID AvatarDemoGuide; // 0x60
-		::System::UInt32 AvatarID; // 0x70
-		::System::UInt32 StageID; // 0x74
-		::System::Boolean EnableSwitchAvatar; // 0x78
-		::System::Boolean EnableMazeSkillEffect; // 0x79
-		::System::Boolean NormalWaveNotShowDetail; // 0x7A
-		::RPG::Client::TextID AvatarDemoTitle; // 0x80
+		::System::UInt32 RaidID; // 0x70
+		::System::UInt32 RandomSeed; // 0x74
+		::System::UInt32 AvatarID; // 0x78
+		::System::UInt32 RewardID; // 0x7C
+		::RPG::GameCore::AvatarDemoStageType StageType; // 0x80
+		::System::UInt32 GuideGroupID; // 0x84
+		::System::UInt32 StageID; // 0x88
+		::System::UInt32 MapEntranceID; // 0x8C
+		::System::Boolean EnableSwitchAvatar; // 0x90
+		::System::Boolean EnableMazeSkillEffect; // 0x91
+		::System::Boolean NormalWaveNotShowDetail; // 0x92
 
 		::System::Void _ctor()
 		{

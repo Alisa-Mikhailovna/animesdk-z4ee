@@ -6,18 +6,18 @@ namespace RPG::Client::DiceCombat { class DiceCombatForceRefreshEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS44_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0x17EFEB50)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17EFB3E0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS44_0__APPENDFORCEREFRESHEVENTHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xC235700)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BATTLECONTEXT___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC231DA0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BattleContext___c__DisplayClass44_0_TypeDefinitionIndex = 70740;
+	inline static constexpr unsigned int DiceCombatV2BattleContext___c__DisplayClass44_0_TypeDefinitionIndex = 72253;
 
 	class DiceCombatV2BattleContext___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent*>* eventHandler; // 0x10
-		::XLua::LuaTable* target; // 0x18
+		::XLua::LuaTable* target; // 0x10
+		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::DiceCombat::DiceCombatForceRefreshEvent*>* eventHandler; // 0x18
 
 		::System::Void _ctor()
 		{

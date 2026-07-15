@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A76D490)
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A76D640)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6D0280)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D0430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 13811;
+	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 13959;
 
 	class PlayerReturnAssistConfigRow : public ::System::Object
 	{

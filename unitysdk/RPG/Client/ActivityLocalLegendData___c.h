@@ -5,24 +5,24 @@
 namespace RPG::Client { class ActivityLocalLegendLevelData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17B9C3D0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17B9C410)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__GET_SHOWREDDOT_B__33_0_OFFSET UNITYSDK_OFFSET(0x17B9C420)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBBFA890)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBBFA8D0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDDATA___C__GET_SHOWREDDOT_B__33_0_OFFSET UNITYSDK_OFFSET(0xBBFA8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendData___c_TypeDefinitionIndex = 57557;
+	inline static constexpr unsigned int ActivityLocalLegendData___c_TypeDefinitionIndex = 58819;
 
 	class ActivityLocalLegendData___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ActivityLocalLegendData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityLocalLegendData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x52160);
+			return (::RPG::Client::ActivityLocalLegendData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x3E5B0);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityLocalLegendLevelData*, ::System::Boolean>** StaticGet___9__33_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityLocalLegendLevelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x52168);
+			return (::System::Func_2<::RPG::Client::ActivityLocalLegendLevelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityLocalLegendData___c_TypeDefinitionIndex)->GetStaticField(0x3E5B8);
 		}
 
 		static ::System::Void _cctor()

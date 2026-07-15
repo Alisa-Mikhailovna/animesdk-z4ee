@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_HTMLTERNARYTREE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A7CE00)
+#define SYSTEM_XML_HTMLTERNARYTREE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB30A40)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int HtmlTernaryTree_TypeDefinitionIndex = 1792;
+	inline static constexpr unsigned int HtmlTernaryTree_TypeDefinitionIndex = 1796;
 
 	class HtmlTernaryTree : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_htmlElements()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(HtmlTernaryTree_TypeDefinitionIndex)->GetStaticField(0x14D20);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_htmlAttributes()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(HtmlTernaryTree_TypeDefinitionIndex)->GetStaticField(0x14D28);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(HtmlTernaryTree_TypeDefinitionIndex)->GetStaticField(0x22470);
+		}
+		static ::Il2CppArray<::System::Byte>** StaticGet_htmlElements()
+		{
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(HtmlTernaryTree_TypeDefinitionIndex)->GetStaticField(0x22478);
 		}
 
 		static ::System::Void _cctor()

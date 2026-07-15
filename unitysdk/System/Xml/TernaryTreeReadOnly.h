@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_TERNARYTREEREADONLY_FINDCASEINSENSITIVESTRING_OFFSET UNITYSDK_OFFSET(0x16CD8730)
-#define SYSTEM_XML_TERNARYTREEREADONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x16CD8720)
+#define SYSTEM_XML_TERNARYTREEREADONLY_FINDCASEINSENSITIVESTRING_OFFSET UNITYSDK_OFFSET(0x1CBC8780)
+#define SYSTEM_XML_TERNARYTREEREADONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CBC8770)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int TernaryTreeReadOnly_TypeDefinitionIndex = 1813;
+	inline static constexpr unsigned int TernaryTreeReadOnly_TypeDefinitionIndex = 1817;
 
 	class TernaryTreeReadOnly : public ::System::Object
 	{

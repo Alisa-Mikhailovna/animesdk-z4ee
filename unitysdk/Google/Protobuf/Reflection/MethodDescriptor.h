@@ -8,22 +8,22 @@ namespace Google::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1A3744B0)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A374440)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x1A374430)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3742D0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x19803950)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x198038E0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x198038D0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19803770)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 5553;
+	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 5558;
 
 	class MethodDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::ServiceDescriptor* service; // 0x28
-		::Google::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x30
-		::Google::Protobuf::Reflection::MessageDescriptor* outputType; // 0x38
-		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x40
+		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x28
+		::Google::Protobuf::Reflection::MessageDescriptor* outputType; // 0x30
+		::Google::Protobuf::Reflection::ServiceDescriptor* service; // 0x38
+		::Google::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::MethodDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::ServiceDescriptor* a3, ::System::Int32 a4)
 		{

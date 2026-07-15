@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockTargetActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_88B92A3A2100C879_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147BA760)
-#define CLASS_3_88B92A3A2100C879__CTOR_OFFSET UNITYSDK_OFFSET(0x147BA730)
+#define CLASS_3_88B92A3A2100C879_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F0EA0)
+#define CLASS_3_88B92A3A2100C879__CTOR_OFFSET UNITYSDK_OFFSET(0xB5F0E70)
 
-inline static constexpr unsigned int Class_3_88B92A3A2100C879_TypeDefinitionIndex = 51513;
+inline static constexpr unsigned int Class_3_88B92A3A2100C879_TypeDefinitionIndex = 52655;
 
 class Class_3_88B92A3A2100C879 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockTargetActionDelay*>
 {

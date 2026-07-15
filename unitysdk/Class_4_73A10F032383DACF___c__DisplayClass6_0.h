@@ -6,16 +6,16 @@ class Class_2_B66C1067C0468FBB;
 class Class_4_73A10F032383DACF;
 namespace RPG::GameCore { class ChimeraDuelMasterSelectorConfig; }
 
-#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A54CA0)
-#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0___SELECTENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x14A54EB0)
+#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15284A90)
+#define CLASS_4_73A10F032383DACF___C__DISPLAYCLASS6_0___SELECTENTITIES_B__0_OFFSET UNITYSDK_OFFSET(0x15284C80)
 
-inline static constexpr unsigned int Class_4_73A10F032383DACF___c__DisplayClass6_0_TypeDefinitionIndex = 72158;
+inline static constexpr unsigned int Class_4_73A10F032383DACF___c__DisplayClass6_0_TypeDefinitionIndex = 73683;
 
 class Class_4_73A10F032383DACF___c__DisplayClass6_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::ChimeraDuelMasterSelectorConfig* masterConfig; // 0x10
-	::Class_4_73A10F032383DACF* __4__this; // 0x18
+	::Class_4_73A10F032383DACF* __4__this; // 0x10
+	::RPG::GameCore::ChimeraDuelMasterSelectorConfig* masterConfig; // 0x18
 
 	::System::Void _ctor()
 	{

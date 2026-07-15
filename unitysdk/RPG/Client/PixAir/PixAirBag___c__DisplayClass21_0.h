@@ -4,12 +4,12 @@
 
 namespace RPG::Client::PixAir { class PixAirSlot; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0__ADDNEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x1992F5B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1992DAC0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0__ADDNEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xCFAA2C0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBAG___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCFA84B0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBag___c__DisplayClass21_0_TypeDefinitionIndex = 73648;
+	inline static constexpr unsigned int PixAirBag___c__DisplayClass21_0_TypeDefinitionIndex = 75297;
 
 	class PixAirBag___c__DisplayClass21_0 : public ::System::Object
 	{

@@ -5,18 +5,18 @@
 
 namespace MiHoYo::SDK::Console::OS { class PayManagerPS; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161A0910)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS10_0__LAUNCHCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x161A35A0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C3CCF0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERPS___C__DISPLAYCLASS10_0__LAUNCHCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x19C408B0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerPS___c__DisplayClass10_0_TypeDefinitionIndex = 8754;
+	inline static constexpr unsigned int PayManagerPS___c__DisplayClass10_0_TypeDefinitionIndex = 8766;
 
 	class PayManagerPS___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::ConsoleProduct product; // 0x10
-		::MiHoYo::SDK::Console::OS::PayManagerPS* __4__this; // 0x40
+		::MiHoYo::SDK::Console::OS::PayManagerPS* __4__this; // 0x10
+		::MiHoYo::SDK::Console::ConsoleProduct product; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKCONFIRMWITHJOYPAD_JOYPADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16AE7B90)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKCONFIRMWITHJOYPAD_JOYPADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB3BC20)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKConfirmWithJoypad_JoypadConfig_TypeDefinitionIndex = 44110;
+	inline static constexpr unsigned int HoYoSDKConfirmWithJoypad_JoypadConfig_TypeDefinitionIndex = 44977;
 
 	class HoYoSDKConfirmWithJoypad_JoypadConfig : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UIElements { class PointerMoveEvent; }
 
-#define UNITYENGINE_UIELEMENTS_MOUSEMOVEEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x19F8D8F0)
-#define UNITYENGINE_UIELEMENTS_MOUSEMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F8D930)
+#define UNITYENGINE_UIELEMENTS_MOUSEMOVEEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1D0E83E0)
+#define UNITYENGINE_UIELEMENTS_MOUSEMOVEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E8420)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseMoveEvent_TypeDefinitionIndex = 6216;
+	inline static constexpr unsigned int MouseMoveEvent_TypeDefinitionIndex = 6221;
 
 	class MouseMoveEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseMoveEvent*>
 	{

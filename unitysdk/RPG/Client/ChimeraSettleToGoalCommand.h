@@ -4,13 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x1829F0D0)
-#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0x182A28A0)
-#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND___IFIXBASEPROXY__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0x182A2910)
+#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xC1534D0)
+#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xC156620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleToGoalCommand_TypeDefinitionIndex = 59402;
+	inline static constexpr unsigned int ChimeraSettleToGoalCommand_TypeDefinitionIndex = 60673;
 
 	class ChimeraSettleToGoalCommand : public ::RPG::Client::ChimeraSettleCommandBase
 	{
@@ -25,11 +24,6 @@ namespace RPG::Client
 		::System::Void _ExecuteImpl()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__ExecuteImpl()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND___IFIXBASEPROXY__EXECUTEIMPL_OFFSET))(this);
 		}
 	};
 }

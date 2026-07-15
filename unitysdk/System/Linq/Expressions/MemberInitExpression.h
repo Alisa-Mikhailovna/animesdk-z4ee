@@ -6,12 +6,12 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 namespace System::Linq::Expressions { class MemberBinding; }
 namespace System::Linq::Expressions { class NewExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1A6A0C50)
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1A6A0C40)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_BINDINGS_OFFSET UNITYSDK_OFFSET(0x1CABB720)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERINITEXPRESSION_GET_NEWEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1CABB710)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberInitExpression_TypeDefinitionIndex = 3234;
+	inline static constexpr unsigned int MemberInitExpression_TypeDefinitionIndex = 3238;
 
 	class MemberInitExpression : public ::System::Linq::Expressions::Expression
 	{

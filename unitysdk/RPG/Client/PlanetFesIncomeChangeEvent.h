@@ -3,11 +3,11 @@
 #include "unitysdk/System/Numerics/BigInteger.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PLANETFESINCOMECHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1850C810)
+#define RPG_CLIENT_PLANETFESINCOMECHANGEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD010E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesIncomeChangeEvent_TypeDefinitionIndex = 62299;
+	inline static constexpr unsigned int PlanetFesIncomeChangeEvent_TypeDefinitionIndex = 63665;
 
 	class PlanetFesIncomeChangeEvent : public ::System::Object
 	{

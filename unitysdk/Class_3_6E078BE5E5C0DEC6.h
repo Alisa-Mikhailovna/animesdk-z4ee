@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowGridFightProgressToWhitebox; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6E078BE5E5C0DEC6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1640AD80)
-#define CLASS_3_6E078BE5E5C0DEC6__CTOR_OFFSET UNITYSDK_OFFSET(0x1640AD50)
+#define CLASS_3_6E078BE5E5C0DEC6_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB156590)
+#define CLASS_3_6E078BE5E5C0DEC6__CTOR_OFFSET UNITYSDK_OFFSET(0xB156560)
 
-inline static constexpr unsigned int Class_3_6E078BE5E5C0DEC6_TypeDefinitionIndex = 54766;
+inline static constexpr unsigned int Class_3_6E078BE5E5C0DEC6_TypeDefinitionIndex = 55993;
 
 class Class_3_6E078BE5E5C0DEC6 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowGridFightProgressToWhitebox*>
 {

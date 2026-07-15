@@ -9,13 +9,13 @@ namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_144E021651DDBD8D_OFFSET UNITYSDK_OFFSET(0x1A3A5390)
-#define RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_D6AD7BF514627227_OFFSET UNITYSDK_OFFSET(0x1A3A5320)
-#define RPG_GAMECORE_FIVEDIMSPIKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3A5370)
+#define RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_86AA40C9FF57A154_OFFSET UNITYSDK_OFFSET(0x1B44A320)
+#define RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_F2723B93DC5C2D72_OFFSET UNITYSDK_OFFSET(0x1B44A2E0)
+#define RPG_GAMECORE_FIVEDIMSPIKECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B44A310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSpikeConfig_TypeDefinitionIndex = 17683;
+	inline static constexpr unsigned int FiveDimSpikeConfig_TypeDefinitionIndex = 17857;
 
 	class FiveDimSpikeConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -39,14 +39,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPIKECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D6AD7BF514627227(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpikeConfig*& a2)
+		static ::System::Void Method_3_F2723B93DC5C2D72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpikeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpikeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_D6AD7BF514627227_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpikeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_F2723B93DC5C2D72_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_144E021651DDBD8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpikeConfig* a2)
+		static ::System::Void Method_3_86AA40C9FF57A154(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSpikeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpikeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_144E021651DDBD8D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSpikeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPIKECONFIG_METHOD_3_86AA40C9FF57A154_OFFSET))(a1, a2);
 		}
 	};
 }

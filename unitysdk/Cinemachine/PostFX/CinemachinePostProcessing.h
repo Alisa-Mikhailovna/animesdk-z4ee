@@ -6,12 +6,12 @@
 
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define CINEMACHINE_POSTFX_CINEMACHINEPOSTPROCESSING_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B444870)
-#define CINEMACHINE_POSTFX_CINEMACHINEPOSTPROCESSING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B444880)
+#define CINEMACHINE_POSTFX_CINEMACHINEPOSTPROCESSING_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x156FBDB0)
+#define CINEMACHINE_POSTFX_CINEMACHINEPOSTPROCESSING__CTOR_OFFSET UNITYSDK_OFFSET(0x156FBDC0)
 
 namespace Cinemachine::PostFX
 {
-	inline static constexpr unsigned int CinemachinePostProcessing_TypeDefinitionIndex = 36946;
+	inline static constexpr unsigned int CinemachinePostProcessing_TypeDefinitionIndex = 37728;
 
 	class CinemachinePostProcessing : public ::Cinemachine::CinemachineExtension
 	{

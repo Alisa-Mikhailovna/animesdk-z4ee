@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1837ED00)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1837ED40)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C___CTOR_B__4_4_OFFSET UNITYSDK_OFFSET(0x1837ED50)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B7C5B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7C5F0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C___CTOR_B__4_4_OFFSET UNITYSDK_OFFSET(0x19B7C600)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor___c_TypeDefinitionIndex = 34034;
+	inline static constexpr unsigned int MessageDescriptor___c_TypeDefinitionIndex = 34405;
 
 	class MessageDescriptor___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor___c**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x49420);
+			return (::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor___c**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x4BE50);
 		}
 		static ::System::Func_2<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>** StaticGet___9__4_4()
 		{
-			return (::System::Func_2<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x49428);
+			return (::System::Func_2<::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x4BE58);
 		}
 
 		static ::System::Void _cctor()

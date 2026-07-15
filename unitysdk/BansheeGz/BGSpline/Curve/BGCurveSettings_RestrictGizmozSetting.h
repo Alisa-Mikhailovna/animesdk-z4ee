@@ -7,22 +7,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_COMPLY_OFFSET UNITYSDK_OFFSET(0x1B577B90)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_GET_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1B577A60)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_GET_VALID_OFFSET UNITYSDK_OFFSET(0x1B577A80)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_ISSHOWING_OFFSET UNITYSDK_OFFSET(0x1B577A90)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5776B0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_COMPLY_OFFSET UNITYSDK_OFFSET(0x1A40CAF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_GET_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1A40C9C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_GET_VALID_OFFSET UNITYSDK_OFFSET(0x1A40C9E0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING_ISSHOWING_OFFSET UNITYSDK_OFFSET(0x1A40C9F0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_RESTRICTGIZMOZSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A40C610)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveSettings_RestrictGizmozSetting_TypeDefinitionIndex = 34111;
+	inline static constexpr unsigned int BGCurveSettings_RestrictGizmozSetting_TypeDefinitionIndex = 34482;
 
 	class BGCurveSettings_RestrictGizmozSetting : public ::System::Object
 	{
 	public:
-		::System::String* value; // 0x10
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>>* fromToList; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::Int32>* numbersList; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::Int32>* numbersList; // 0x10
+		::System::String* value; // 0x18
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>>* fromToList; // 0x20
 		::System::Boolean valid; // 0x28
 
 		::System::Void _ctor(::System::String* a1)

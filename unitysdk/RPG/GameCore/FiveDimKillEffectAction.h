@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameKillEffectParams; }
 
-#define RPG_GAMECORE_FIVEDIMKILLEFFECTACTION_METHOD_3_6F4F70C55A92EB76_OFFSET UNITYSDK_OFFSET(0x199E0FE0)
-#define RPG_GAMECORE_FIVEDIMKILLEFFECTACTION_METHOD_3_C955AEBFCEDFE0AA_OFFSET UNITYSDK_OFFSET(0x199F57B0)
-#define RPG_GAMECORE_FIVEDIMKILLEFFECTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x199E0FC0)
+#define RPG_GAMECORE_FIVEDIMKILLEFFECTACTION_METHOD_3_6F4F70C55A92EB76_OFFSET UNITYSDK_OFFSET(0x1B4346A0)
+#define RPG_GAMECORE_FIVEDIMKILLEFFECTACTION_METHOD_3_EFFC29FDF5A5ADB3_OFFSET UNITYSDK_OFFSET(0x1B4345F0)
+#define RPG_GAMECORE_FIVEDIMKILLEFFECTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B434690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimKillEffectAction_TypeDefinitionIndex = 17830;
+	inline static constexpr unsigned int FiveDimKillEffectAction_TypeDefinitionIndex = 18007;
 
 	class FiveDimKillEffectAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMKILLEFFECTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C955AEBFCEDFE0AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimKillEffectAction*& a2)
+		static ::System::Void Method_3_EFFC29FDF5A5ADB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimKillEffectAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimKillEffectAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMKILLEFFECTACTION_METHOD_3_C955AEBFCEDFE0AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimKillEffectAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMKILLEFFECTACTION_METHOD_3_EFFC29FDF5A5ADB3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6F4F70C55A92EB76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimKillEffectAction* a2)

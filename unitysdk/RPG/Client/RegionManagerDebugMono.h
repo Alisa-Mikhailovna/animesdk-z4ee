@@ -6,11 +6,11 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_REGIONMANAGERDEBUGMONO__CTOR_OFFSET UNITYSDK_OFFSET(0x174AB370)
+#define RPG_CLIENT_REGIONMANAGERDEBUGMONO__CTOR_OFFSET UNITYSDK_OFFSET(0xD2D7730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionManagerDebugMono_TypeDefinitionIndex = 58166;
+	inline static constexpr unsigned int RegionManagerDebugMono_TypeDefinitionIndex = 59428;
 
 	class RegionManagerDebugMono : public ::UnityEngine::MonoBehaviour
 	{

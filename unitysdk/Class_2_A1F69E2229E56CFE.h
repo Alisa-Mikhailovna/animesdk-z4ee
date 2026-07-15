@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class GameWorld; }
 namespace RPG::GameCore { class RtBattleMode; }
 
-#define CLASS_2_A1F69E2229E56CFE__CTOR_OFFSET UNITYSDK_OFFSET(0x15D331B0)
+#define CLASS_2_A1F69E2229E56CFE__CTOR_OFFSET UNITYSDK_OFFSET(0x15210650)
 
-inline static constexpr unsigned int Class_2_A1F69E2229E56CFE_TypeDefinitionIndex = 50733;
+inline static constexpr unsigned int Class_2_A1F69E2229E56CFE_TypeDefinitionIndex = 51815;
 
 class Class_2_A1F69E2229E56CFE : public ::Class_1_47EE63CB5C4DC8FC_19
 {

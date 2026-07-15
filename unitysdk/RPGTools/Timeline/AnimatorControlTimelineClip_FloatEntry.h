@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_FLOATENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x198B3280)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_FLOATENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xDC941A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlTimelineClip_FloatEntry_TypeDefinitionIndex = 45118;
+	inline static constexpr unsigned int AnimatorControlTimelineClip_FloatEntry_TypeDefinitionIndex = 46036;
 
 	class AnimatorControlTimelineClip_FloatEntry : public ::System::Object
 	{

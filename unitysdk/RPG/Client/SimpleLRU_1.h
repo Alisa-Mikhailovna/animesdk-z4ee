@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleLRU_1_TypeDefinitionIndex = 68324;
+	inline static constexpr unsigned int SimpleLRU_1_TypeDefinitionIndex = 69813;
 
 	template <typename T>
 	class SimpleLRU_1 : public ::System::Object

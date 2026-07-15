@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C3EB60)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x18C3ECE0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C3ED50)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C3EE30)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x18C3EED0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDCEC010)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xDCEC190)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCEC200)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamBulletCommentsTrack_TypeDefinitionIndex = 45464;
+	inline static constexpr unsigned int LiveStreamBulletCommentsTrack_TypeDefinitionIndex = 46398;
 
 	class LiveStreamBulletCommentsTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

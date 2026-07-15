@@ -2,6 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AttackFormulaType.h"
 #include "unitysdk/RPG/GameCore/AttackType.h"
+#include "unitysdk/RPG/GameCore/DamageIntegerizeCategory.h"
 #include "unitysdk/RPG/GameCore/FinalDamageFormulaType.h"
 #include "unitysdk/RPG/GameCore/HitTimeSlowIntensity.h"
 #include "unitysdk/RPG/GameCore/HitTimeSlowType.h"
@@ -17,14 +18,14 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACKDATA_METHOD_2_7E9645886120E859_OFFSET UNITYSDK_OFFSET(0x18BE8FB0)
-#define RPG_GAMECORE_ATTACKDATA_METHOD_2_9F0425A182D9ECC3_OFFSET UNITYSDK_OFFSET(0x18BE9490)
-#define RPG_GAMECORE_ATTACKDATA_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x18BEA670)
-#define RPG_GAMECORE_ATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE90F0)
+#define RPG_GAMECORE_ATTACKDATA_METHOD_2_7E9645886120E859_OFFSET UNITYSDK_OFFSET(0x1B1B57A0)
+#define RPG_GAMECORE_ATTACKDATA_METHOD_2_9F0425A182D9ECC3_OFFSET UNITYSDK_OFFSET(0x1B1B5C80)
+#define RPG_GAMECORE_ATTACKDATA_SHAREBYCOPY_OFFSET UNITYSDK_OFFSET(0x1B1B6EA0)
+#define RPG_GAMECORE_ATTACKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B58E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackData_TypeDefinitionIndex = 21359;
+	inline static constexpr unsigned int AttackData_TypeDefinitionIndex = 21777;
 
 	class AttackData : public ::RPG::GameCore::JsonConfig
 	{
@@ -40,6 +41,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* DamageMulRatio; // 0x50
 		::System::Boolean IsIndirect; // 0x58
 		::System::Boolean IsNotHit; // 0x59
+		::RPG::GameCore::DamageIntegerizeCategory IntegerizeCategory; // 0x5C
 		::RPG::GameCore::DynamicFloat* SPHitRatio; // 0x60
 		::RPG::GameCore::AttackDamageTypeConfig* StanceDamageType; // 0x68
 		::System::Boolean ForceMatchStanceWeakness; // 0x70

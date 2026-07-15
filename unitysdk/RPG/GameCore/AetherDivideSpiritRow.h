@@ -11,45 +11,45 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BC1FE0)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC41A0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B18BAD0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B18DC80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritRow_TypeDefinitionIndex = 10499;
+	inline static constexpr unsigned int AetherDivideSpiritRow_TypeDefinitionIndex = 10547;
 
 	class AetherDivideSpiritRow : public ::System::Object
 	{
 	public:
-		::System::String* AvatarSideIconPath; // 0x10
-		::System::String* AIPath; // 0x18
-		::System::String* MiddleAvatarHeadIconPath; // 0x20
-		::System::String* TeamLeftPrefabPath; // 0x28
-		::System::String* SideAvatarHeadIconPath; // 0x30
-		::System::String* ManikinJsonPath; // 0x38
-		::System::String* ActionAvatarHeadIconPath; // 0x40
-		::System::String* DefaultAvatarModelPath; // 0x48
-		::System::String* AtlasAvatarHeadIconPath; // 0x50
-		::System::String* DefaultAvatarHeadIconPath; // 0x58
-		::System::String* JsonPath; // 0x60
-		::System::String* UltraSkillCutInPrefabPath; // 0x68
-		::Il2CppArray<::RPG::GameCore::AetherPassiveSkillType>* PassiveSkillSlotList; // 0x70
-		::Il2CppArray<::System::UInt32>* RecommendPassiveSkillList; // 0x78
-		::System::String* WaitingAvatarHeadIconPath; // 0x80
-		::System::String* TeamRightPrefabPath; // 0x88
-		::Il2CppArray<::System::UInt32>* SkillList; // 0x90
-		::System::String* AvatarVOTag; // 0x98
-		::System::String* ManikinAvatarModelPath; // 0xA0
+		::System::String* UltraSkillCutInPrefabPath; // 0x10
+		::System::String* SideAvatarHeadIconPath; // 0x18
+		::System::String* TeamLeftPrefabPath; // 0x20
+		::Il2CppArray<::System::UInt32>* SkillList; // 0x28
+		::System::String* DefaultAvatarModelPath; // 0x30
+		::System::String* JsonPath; // 0x38
+		::System::String* AIPath; // 0x40
+		::System::String* DefaultAvatarHeadIconPath; // 0x48
+		::System::String* ActionAvatarHeadIconPath; // 0x50
+		::System::String* ManikinAvatarModelPath; // 0x58
+		::System::String* MiddleAvatarHeadIconPath; // 0x60
+		::Il2CppArray<::System::UInt32>* RecommendPassiveSkillList; // 0x68
+		::System::String* ManikinJsonPath; // 0x70
+		::System::String* AtlasAvatarHeadIconPath; // 0x78
+		::System::String* TeamRightPrefabPath; // 0x80
+		::System::String* WaitingAvatarHeadIconPath; // 0x88
+		::System::String* AvatarSideIconPath; // 0x90
+		::Il2CppArray<::RPG::GameCore::AetherPassiveSkillType>* PassiveSkillSlotList; // 0x98
+		::System::String* AvatarVOTag; // 0xA0
 		::System::UInt32 GymLocation; // 0xA8
-		::RPG::Client::TextID SpiritDescription; // 0xB0
-		::RPG::Client::TextID AvatarName; // 0xC0
-		::RPG::GameCore::AetherSpiritType SpiritType; // 0xD0
-		::System::UInt32 AvatarID; // 0xD4
-		::RPG::GameCore::FixPoint SPMax; // 0xD8
-		::System::UInt32 ExpItemID; // 0xE0
-		::RPG::GameCore::AetherRarityType Rarity; // 0xE4
-		::System::UInt32 MaxPromotion; // 0xE8
-		::RPG::GameCore::AttackDamageType DamageType; // 0xEC
+		::RPG::GameCore::AttackDamageType DamageType; // 0xAC
+		::System::UInt32 ExpItemID; // 0xB0
+		::RPG::GameCore::AetherSpiritType SpiritType; // 0xB4
+		::RPG::GameCore::AetherRarityType Rarity; // 0xB8
+		::RPG::GameCore::FixPoint SPMax; // 0xC0
+		::RPG::Client::TextID AvatarName; // 0xC8
+		::System::UInt32 MaxPromotion; // 0xD8
+		::System::UInt32 AvatarID; // 0xDC
+		::RPG::Client::TextID SpiritDescription; // 0xE0
 		::RPG::Client::TextID SpiritUnlockDescription; // 0xF0
 
 		::System::Void _ctor()

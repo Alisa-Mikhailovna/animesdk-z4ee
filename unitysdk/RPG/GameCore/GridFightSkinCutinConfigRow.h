@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1BF100)
-#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BF230)
+#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4EECD0)
+#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4EEE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSkinCutinConfigRow_TypeDefinitionIndex = 12916;
+	inline static constexpr unsigned int GridFightSkinCutinConfigRow_TypeDefinitionIndex = 13064;
 
 	class GridFightSkinCutinConfigRow : public ::System::Object
 	{

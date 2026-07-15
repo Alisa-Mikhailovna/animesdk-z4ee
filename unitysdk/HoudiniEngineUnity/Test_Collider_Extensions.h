@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_Collider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B453610)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B453730)
-#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4535D0)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x19923540)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x19923660)
+#define HOUDINIENGINEUNITY_TEST_COLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x19923500)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Collider_Extensions_TypeDefinitionIndex = 37756;
+	inline static constexpr unsigned int Test_Collider_Extensions_TypeDefinitionIndex = 38564;
 
 	class Test_Collider_Extensions : public ::System::Object
 	{

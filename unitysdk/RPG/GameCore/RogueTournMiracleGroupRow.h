@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19409200)
-#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194092C0)
+#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B79E3A0)
+#define RPG_GAMECORE_ROGUETOURNMIRACLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79E460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournMiracleGroupRow_TypeDefinitionIndex = 14288;
+	inline static constexpr unsigned int RogueTournMiracleGroupRow_TypeDefinitionIndex = 14436;
 
 	class RogueTournMiracleGroupRow : public ::System::Object
 	{

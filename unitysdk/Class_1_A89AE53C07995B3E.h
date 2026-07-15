@@ -4,18 +4,18 @@
 #include "unitysdk/System/ReadOnlySpan_1.h"
 #include "unitysdk/System/Span_1.h"
 
-#define CLASS_1_A89AE53C07995B3E_METHOD_1_111B9AF80FD1A405_OFFSET UNITYSDK_OFFSET(0x1444FD20)
-#define CLASS_1_A89AE53C07995B3E_METHOD_1_9DC8DFFDACA4486A_OFFSET UNITYSDK_OFFSET(0x1444F9E0)
-#define CLASS_1_A89AE53C07995B3E__CCTOR_OFFSET UNITYSDK_OFFSET(0x14450060)
+#define CLASS_1_A89AE53C07995B3E_METHOD_1_111B9AF80FD1A405_OFFSET UNITYSDK_OFFSET(0x152FA710)
+#define CLASS_1_A89AE53C07995B3E_METHOD_1_A559E77758D0BB85_OFFSET UNITYSDK_OFFSET(0x152FA3F0)
+#define CLASS_1_A89AE53C07995B3E__CCTOR_OFFSET UNITYSDK_OFFSET(0x152FAA50)
 
-inline static constexpr unsigned int Class_1_A89AE53C07995B3E_TypeDefinitionIndex = 71697;
+inline static constexpr unsigned int Class_1_A89AE53C07995B3E_TypeDefinitionIndex = 73222;
 
 class Class_1_A89AE53C07995B3E : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::UInt16>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A89AE53C07995B3E_TypeDefinitionIndex)->GetStaticField(0x271A0);
+		return (::Il2CppArray<::System::UInt16>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A89AE53C07995B3E_TypeDefinitionIndex)->GetStaticField(0x240E0);
 	}
 	// static const ::System::Int32 Field_1_1 = 0x8; // 0x0
 
@@ -24,9 +24,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_A89AE53C07995B3E__CCTOR_OFFSET))();
 	}
 
-	static ::System::UInt16 Method_1_9DC8DFFDACA4486A(::System::ReadOnlySpan_1<::System::Byte> a1)
+	static ::System::UInt16 Method_1_A559E77758D0BB85(::System::ReadOnlySpan_1<::System::Byte> a1)
 	{
-		return ((::System::UInt16(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + CLASS_1_A89AE53C07995B3E_METHOD_1_9DC8DFFDACA4486A_OFFSET))(a1);
+		return ((::System::UInt16(*)(::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + CLASS_1_A89AE53C07995B3E_METHOD_1_A559E77758D0BB85_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_111B9AF80FD1A405(::System::Int32 a1, ::System::UInt16 a2, ::System::Span_1<::System::Byte> a3)

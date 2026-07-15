@@ -10,49 +10,49 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_0CDF2B3642B24CA1_OFFSET UNITYSDK_OFFSET(0x18030180)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_0E9F43A224C382F3_OFFSET UNITYSDK_OFFSET(0x1802F910)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_2A0281D329D7C545_OFFSET UNITYSDK_OFFSET(0x18030C90)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_48A0CDCBA80AA4B7_OFFSET UNITYSDK_OFFSET(0x18030FA0)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_51079FB52566EE6B_OFFSET UNITYSDK_OFFSET(0x1802FEE0)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_AD74BB7B5B7BAE9A_OFFSET UNITYSDK_OFFSET(0x180303A0)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_C38802C35E2C0864_OFFSET UNITYSDK_OFFSET(0x1802F3E0)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_EC5BD8883A765EC3_OFFSET UNITYSDK_OFFSET(0x1802E640)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_EDC14BF43D2DE2A9_OFFSET UNITYSDK_OFFSET(0x1802DED0)
-#define CLASS_1_B226C8FD1D4397E7_METHOD_1_F9F3136523DD73B7_OFFSET UNITYSDK_OFFSET(0x18030B90)
-#define CLASS_1_B226C8FD1D4397E7__CTOR_OFFSET UNITYSDK_OFFSET(0x18031330)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_0CDF2B3642B24CA1_OFFSET UNITYSDK_OFFSET(0x14CFE3E0)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_0E9F43A224C382F3_OFFSET UNITYSDK_OFFSET(0x14CFDB70)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_2A0281D329D7C545_OFFSET UNITYSDK_OFFSET(0x14CFEF00)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_48A0CDCBA80AA4B7_OFFSET UNITYSDK_OFFSET(0x14CFF040)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_51079FB52566EE6B_OFFSET UNITYSDK_OFFSET(0x14CFE140)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_AD74BB7B5B7BAE9A_OFFSET UNITYSDK_OFFSET(0x14CFE600)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_C38802C35E2C0864_OFFSET UNITYSDK_OFFSET(0x14CFD670)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_EC5BD8883A765EC3_OFFSET UNITYSDK_OFFSET(0x14CFC8C0)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_EDC14BF43D2DE2A9_OFFSET UNITYSDK_OFFSET(0x14CFC290)
+#define CLASS_1_B226C8FD1D4397E7_METHOD_1_F9F3136523DD73B7_OFFSET UNITYSDK_OFFSET(0x14CFEE00)
+#define CLASS_1_B226C8FD1D4397E7__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFF270)
 
-inline static constexpr unsigned int Class_1_B226C8FD1D4397E7_TypeDefinitionIndex = 46175;
+inline static constexpr unsigned int Class_1_B226C8FD1D4397E7_TypeDefinitionIndex = 47140;
 
 class Class_1_B226C8FD1D4397E7 : public ::System::Object
 {
 public:
-	::UnityEngine::RenderTexture* Field_1_0; // 0x10
+	::UnityEngine::Texture2D* Field_1_0; // 0x10
 	::UnityEngine::RenderTexture* Field_1_1; // 0x18
 	::UnityEngine::RenderTexture* Field_1_2; // 0x20
 	::UnityEngine::RenderTexture* Field_1_3; // 0x28
-	::UnityEngine::Material* Field_1_4; // 0x30
-	::Il2CppArray<::UnityEngine::Color>* Field_1_5; // 0x38
+	::UnityEngine::RenderTexture* Field_1_4; // 0x30
+	::UnityEngine::ComputeShader* Field_1_5; // 0x38
 	::UnityEngine::RenderTexture* Field_1_6; // 0x40
-	::UnityEngine::RenderTexture* Field_1_7; // 0x48
-	::UnityEngine::RenderTexture* Field_1_8; // 0x50
+	::UnityEngine::Material* Field_1_7; // 0x48
+	::Il2CppArray<::UnityEngine::Color>* Field_1_8; // 0x50
 	::UnityEngine::RenderTexture* Field_1_9; // 0x58
 	::UnityEngine::RenderTexture* Field_1_10; // 0x60
 	::UnityEngine::RenderTexture* Field_1_11; // 0x68
-	::UnityEngine::Material* Field_1_12; // 0x70
-	::UnityEngine::ComputeShader* Field_1_13; // 0x78
-	::UnityEngine::ComputeShader* Field_1_14; // 0x80
-	::UnityEngine::RenderTexture* Field_1_15; // 0x88
-	::UnityEngine::Texture2D* Field_1_16; // 0x90
-	::System::Single Field_1_17; // 0x98
-	::System::Int32 Field_1_18; // 0x9C
+	::UnityEngine::RenderTexture* Field_1_12; // 0x70
+	::UnityEngine::RenderTexture* Field_1_13; // 0x78
+	::UnityEngine::RenderTexture* Field_1_14; // 0x80
+	::UnityEngine::Material* Field_1_15; // 0x88
+	::UnityEngine::ComputeShader* Field_1_16; // 0x90
+	::System::Int32 Field_1_17; // 0x98
+	::System::Single Field_1_18; // 0x9C
 	::System::Single Field_1_19; // 0xA0
 	::System::Single Field_1_20; // 0xA4
 	::System::Single Field_1_21; // 0xA8
-	::System::Boolean Field_1_22; // 0xAC
-	::System::Single Field_1_23; // 0xB0
+	::System::Int32 Field_1_22; // 0xAC
+	::System::Boolean Field_1_23; // 0xB0
 	::System::Single Field_1_24; // 0xB4
-	::System::Int32 Field_1_25; // 0xB8
+	::System::Single Field_1_25; // 0xB8
 
 	::System::Void _ctor()
 	{

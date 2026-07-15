@@ -4,24 +4,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1768FB80)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1768FBC0)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C___INITROGUETOURNRELICSETIDTOGUIDEDATAMAP_B__28_0_OFFSET UNITYSDK_OFFSET(0x1768FBD0)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC87C620)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC87C660)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C___INITROGUETOURNRELICSETIDTOGUIDEDATAMAP_B__28_0_OFFSET UNITYSDK_OFFSET(0xC87C670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideData___c_TypeDefinitionIndex = 61349;
+	inline static constexpr unsigned int HandbookGrowthGuideData___c_TypeDefinitionIndex = 62693;
 
 	class HandbookGrowthGuideData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::HandbookGrowthGuideData___c** StaticGet___9()
-		{
-			return (::RPG::Client::HandbookGrowthGuideData___c**)Il2CppClass::FromTypeDefinitionIndex(HandbookGrowthGuideData___c_TypeDefinitionIndex)->GetStaticField(0x38CE0);
-		}
 		static ::System::Comparison_1<::System::UInt32>** StaticGet___9__28_0()
 		{
-			return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HandbookGrowthGuideData___c_TypeDefinitionIndex)->GetStaticField(0x38CE8);
+			return (::System::Comparison_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HandbookGrowthGuideData___c_TypeDefinitionIndex)->GetStaticField(0x30210);
+		}
+		static ::RPG::Client::HandbookGrowthGuideData___c** StaticGet___9()
+		{
+			return (::RPG::Client::HandbookGrowthGuideData___c**)Il2CppClass::FromTypeDefinitionIndex(HandbookGrowthGuideData___c_TypeDefinitionIndex)->GetStaticField(0x30218);
 		}
 
 		static ::System::Void _cctor()

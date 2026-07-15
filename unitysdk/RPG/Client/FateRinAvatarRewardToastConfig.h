@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ChooseDeliveryToastConfig.h"
+
+namespace System { class String; }
+
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_GET_UINAME_OFFSET UNITYSDK_OFFSET(0xC5AE190)
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_GET_UIPATH_OFFSET UNITYSDK_OFFSET(0xC5AE120)
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_GET__UINAMEOFTRIALAVATARDIALOG_OFFSET UNITYSDK_OFFSET(0xC5AE200)
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_ISTOASTSEEN_OFFSET UNITYSDK_OFFSET(0xC5AE260)
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_MARKTOASTSEEN_OFFSET UNITYSDK_OFFSET(0xC5AE310)
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_TRYDELAYTOAST_OFFSET UNITYSDK_OFFSET(0xC5AE3D0)
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC5AE630)
+#define RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG__ISTRIALAVATARDIALOGONTOP_OFFSET UNITYSDK_OFFSET(0xC5AE480)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int FateRinAvatarRewardToastConfig_TypeDefinitionIndex = 60738;
+
+	class FateRinAvatarRewardToastConfig : public ::RPG::Client::ChooseDeliveryToastConfig
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG__CTOR_OFFSET))(this);
+		}
+
+		::System::String* get_UIPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_GET_UIPATH_OFFSET))(this);
+		}
+
+		::System::String* get_UIName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_GET_UINAME_OFFSET))(this);
+		}
+
+		static ::System::String* get__UINameOfTrialAvatarDialog()
+		{
+			return ((::System::String*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_GET__UINAMEOFTRIALAVATARDIALOG_OFFSET))();
+		}
+
+		::System::Boolean IsToastSeen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_ISTOASTSEEN_OFFSET))(this);
+		}
+
+		::System::Void MarkToastSeen()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_MARKTOASTSEEN_OFFSET))(this);
+		}
+
+		::System::Boolean TryDelayToast()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG_TRYDELAYTOAST_OFFSET))(this);
+		}
+
+		::System::Boolean _IsTrialAvatarDialogOnTop()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERINAVATARREWARDTOASTCONFIG__ISTRIALAVATARDIALOGONTOP_OFFSET))(this);
+		}
+	};
+}

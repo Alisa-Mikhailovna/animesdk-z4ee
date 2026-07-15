@@ -3,19 +3,19 @@
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SYSTEMCLOCK_GET_NOW_OFFSET UNITYSDK_OFFSET(0x1B373A00)
-#define UNITYENGINE_SYSTEMCLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B373A90)
+#define UNITYENGINE_SYSTEMCLOCK_GET_NOW_OFFSET UNITYSDK_OFFSET(0x1D060380)
+#define UNITYENGINE_SYSTEMCLOCK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D060410)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SystemClock_TypeDefinitionIndex = 4376;
+	inline static constexpr unsigned int SystemClock_TypeDefinitionIndex = 4381;
 
 	class SystemClock : public ::System::Object
 	{
 	public:
 		static ::System::DateTime* StaticGet_s_Epoch()
 		{
-			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SystemClock_TypeDefinitionIndex)->GetStaticField(0xABE0);
+			return (::System::DateTime*)Il2CppClass::FromTypeDefinitionIndex(SystemClock_TypeDefinitionIndex)->GetStaticField(0x9750);
 		}
 
 		static ::System::Void _cctor()

@@ -6,19 +6,19 @@ namespace RPG::CustomRP { class DebugStrCb; }
 namespace RPG::CustomRP { class DebugStringMsg; }
 namespace RPG::CustomRP { class IRPMessage; }
 
-#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR_ONMSG_OFFSET UNITYSDK_OFFSET(0x157EF610)
-#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x157EF690)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR_ONMSG_OFFSET UNITYSDK_OFFSET(0x1AA742E0)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA74360)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugStringMsgCreator_TypeDefinitionIndex = 35417;
+	inline static constexpr unsigned int DebugStringMsgCreator_TypeDefinitionIndex = 36199;
 
 	class DebugStringMsgCreator : public ::RPG::CustomRP::BaseMsgCreator_1<::RPG::CustomRP::DebugStringMsg*>
 	{
 	public:
 		static ::RPG::CustomRP::DebugStrCb** StaticGet_strCb()
 		{
-			return (::RPG::CustomRP::DebugStrCb**)Il2CppClass::FromTypeDefinitionIndex(DebugStringMsgCreator_TypeDefinitionIndex)->GetStaticField(0x5DB30);
+			return (::RPG::CustomRP::DebugStrCb**)Il2CppClass::FromTypeDefinitionIndex(DebugStringMsgCreator_TypeDefinitionIndex)->GetStaticField(0x624B0);
 		}
 
 		::System::Void _ctor()

@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_FIGHTACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x18AD6C50)
-#define RPG_CLIENT_FIGHTACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18AD6C40)
-#define RPG_CLIENT_FIGHTACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x18AD7330)
+#define RPG_CLIENT_FIGHTACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xC5C4F20)
+#define RPG_CLIENT_FIGHTACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5C4F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightActivityData_TypeDefinitionIndex = 57618;
+	inline static constexpr unsigned int FightActivityData_TypeDefinitionIndex = 58883;
 
 	class FightActivityData : public ::RPG::Client::ActivityPanelData
 	{
@@ -21,11 +20,6 @@ namespace RPG::Client
 		::System::Boolean IsShowNormalRedDot()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
-		}
-
-		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
 		}
 	};
 }

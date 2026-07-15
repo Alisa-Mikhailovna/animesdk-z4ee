@@ -8,13 +8,12 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17B7ED80)
-#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17B7EDD0)
-#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17B7EDE0)
+#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBA7C220)
+#define RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBA7C270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ARWavingTimeSychronizeMonoPlugin_TypeDefinitionIndex = 65779;
+	inline static constexpr unsigned int ARWavingTimeSychronizeMonoPlugin_TypeDefinitionIndex = 67196;
 
 	class ARWavingTimeSychronizeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ARWavingTimeSychronizeBehavior*>
 	{
@@ -39,11 +38,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARWAVINGTIMESYCHRONIZEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

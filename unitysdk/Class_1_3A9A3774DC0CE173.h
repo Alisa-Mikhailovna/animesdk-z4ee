@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_B6A3FA7992F9F37E_1.h"
+#include "unitysdk/Struct_2_B6A3FA7992F9F37E.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define CLASS_1_3A9A3774DC0CE173_CLEAR_OFFSET UNITYSDK_OFFSET(0x16824CE0)
-#define CLASS_1_3A9A3774DC0CE173__CTOR_OFFSET UNITYSDK_OFFSET(0x16824D30)
+#define CLASS_1_3A9A3774DC0CE173_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8FC3B0)
+#define CLASS_1_3A9A3774DC0CE173__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8FC400)
 
-inline static constexpr unsigned int Class_1_3A9A3774DC0CE173_TypeDefinitionIndex = 39983;
+inline static constexpr unsigned int Class_1_3A9A3774DC0CE173_TypeDefinitionIndex = 40796;
 
 class Class_1_3A9A3774DC0CE173 : public ::System::Object
 {
 public:
 	::RPG::GameCore::MiniGameHundredFloorConfig* Field_1_0; // 0x10
-	::Struct_2_B6A3FA7992F9F37E_1 Field_1_1; // 0x18
+	::Struct_2_B6A3FA7992F9F37E Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

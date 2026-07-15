@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCHARACTERANIMFOLLOW_METHOD_3_4078938773529B69_OFFSET UNITYSDK_OFFSET(0x1A1E8B60)
-#define RPG_GAMECORE_SETCHARACTERANIMFOLLOW_METHOD_3_C99D894D21181D25_OFFSET UNITYSDK_OFFSET(0x1A1E8BE0)
-#define RPG_GAMECORE_SETCHARACTERANIMFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E8BB0)
+#define RPG_GAMECORE_SETCHARACTERANIMFOLLOW_METHOD_3_C99D894D21181D25_OFFSET UNITYSDK_OFFSET(0x1B88A0E0)
+#define RPG_GAMECORE_SETCHARACTERANIMFOLLOW_METHOD_3_FC1E8BEFDB998F72_OFFSET UNITYSDK_OFFSET(0x1B88A0A0)
+#define RPG_GAMECORE_SETCHARACTERANIMFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88A0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterAnimFollow_TypeDefinitionIndex = 21414;
+	inline static constexpr unsigned int SetCharacterAnimFollow_TypeDefinitionIndex = 21832;
 
 	class SetCharacterAnimFollow : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERANIMFOLLOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4078938773529B69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAnimFollow*& a2)
+		static ::System::Void Method_3_FC1E8BEFDB998F72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAnimFollow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterAnimFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERANIMFOLLOW_METHOD_3_4078938773529B69_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterAnimFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERANIMFOLLOW_METHOD_3_FC1E8BEFDB998F72_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C99D894D21181D25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAnimFollow* a2)

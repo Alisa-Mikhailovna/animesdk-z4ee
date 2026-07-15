@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ITEM_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x1B446880)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ITEM_LERP_OFFSET UNITYSDK_OFFSET(0x1B4467A0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ITEM_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0x156FDDE0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CACHECURVE_ITEM_LERP_OFFSET UNITYSDK_OFFSET(0x156FDD00)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_CacheCurve_Item_TypeDefinitionIndex = 36911;
+	inline static constexpr unsigned int TargetPositionCache_CacheCurve_Item_TypeDefinitionIndex = 37693;
 
 	struct alignas(4) TargetPositionCache_CacheCurve_Item
 	{

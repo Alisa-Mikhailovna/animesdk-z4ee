@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PlayerForceWalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_328513F687295FDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C247F0)
-#define CLASS_3_328513F687295FDD__CTOR_OFFSET UNITYSDK_OFFSET(0x15C247C0)
+#define CLASS_3_328513F687295FDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x125E4C40)
+#define CLASS_3_328513F687295FDD__CTOR_OFFSET UNITYSDK_OFFSET(0x125E4C10)
 
-inline static constexpr unsigned int Class_3_328513F687295FDD_TypeDefinitionIndex = 54484;
+inline static constexpr unsigned int Class_3_328513F687295FDD_TypeDefinitionIndex = 55708;
 
 class Class_3_328513F687295FDD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayerForceWalk*>
 {

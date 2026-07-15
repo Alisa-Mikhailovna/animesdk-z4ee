@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline::BattlePerform { class BPTalkClip; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x198BC480)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198BC4A0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x198BC490)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x198BC630)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198BC640)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xDC9C890)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDC9C8B0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xDC9C8A0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDC9CA30)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPTalkBehaviour_TypeDefinitionIndex = 46078;
+	inline static constexpr unsigned int BPTalkBehaviour_TypeDefinitionIndex = 47017;
 
 	class BPTalkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline::BattlePerform
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

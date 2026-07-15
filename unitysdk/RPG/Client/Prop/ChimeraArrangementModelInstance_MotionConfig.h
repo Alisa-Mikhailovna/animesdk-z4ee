@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELINSTANCE_MOTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x166C6870)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELINSTANCE_MOTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F9AB0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraArrangementModelInstance_MotionConfig_TypeDefinitionIndex = 72981;
+	inline static constexpr unsigned int ChimeraArrangementModelInstance_MotionConfig_TypeDefinitionIndex = 74506;
 
 	class ChimeraArrangementModelInstance_MotionConfig : public ::System::Object
 	{

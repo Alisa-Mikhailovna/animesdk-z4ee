@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_CRITICALFINALIZEROBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1970BD20)
-#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_CRITICALFINALIZEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1970BD10)
+#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_CRITICALFINALIZEROBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1A1B44D0)
+#define SYSTEM_RUNTIME_CONSTRAINEDEXECUTION_CRITICALFINALIZEROBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B44C0)
 
 namespace System::Runtime::ConstrainedExecution
 {
-	inline static constexpr unsigned int CriticalFinalizerObject_TypeDefinitionIndex = 1332;
+	inline static constexpr unsigned int CriticalFinalizerObject_TypeDefinitionIndex = 1334;
 
 	class CriticalFinalizerObject : public ::System::Object
 	{

@@ -9,13 +9,13 @@ namespace System
 	class CompatibilitySwitches : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3120);
-		}
 		static ::System::Boolean* StaticGet_IsAppEarlierThanWindowsPhone8()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3121);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3630);
+		}
+		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3631);
 		}
 	};
 }

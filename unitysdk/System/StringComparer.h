@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define SYSTEM_STRINGCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x142E78D0)
-#define SYSTEM_STRINGCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x142E7A60)
-#define SYSTEM_STRINGCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x142E7AC0)
-#define SYSTEM_STRINGCOMPARER_GET_CURRENTCULTUREIGNORECASE_OFFSET UNITYSDK_OFFSET(0x142E77A0)
-#define SYSTEM_STRINGCOMPARER_GET_INVARIANTCULTUREIGNORECASE_OFFSET UNITYSDK_OFFSET(0x142E7770)
-#define SYSTEM_STRINGCOMPARER_GET_ORDINALIGNORECASE_OFFSET UNITYSDK_OFFSET(0x142E78A0)
-#define SYSTEM_STRINGCOMPARER_GET_ORDINAL_OFFSET UNITYSDK_OFFSET(0x142E7870)
-#define SYSTEM_STRINGCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x142E7B50)
-#define SYSTEM_STRINGCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x142E7B40)
+#define SYSTEM_STRINGCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x19FF54A0)
+#define SYSTEM_STRINGCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x19FF56F0)
+#define SYSTEM_STRINGCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19FF5840)
+#define SYSTEM_STRINGCOMPARER_GET_CURRENTCULTUREIGNORECASE_OFFSET UNITYSDK_OFFSET(0x19FF53A0)
+#define SYSTEM_STRINGCOMPARER_GET_INVARIANTCULTUREIGNORECASE_OFFSET UNITYSDK_OFFSET(0x19FF5370)
+#define SYSTEM_STRINGCOMPARER_GET_ORDINALIGNORECASE_OFFSET UNITYSDK_OFFSET(0x19FF5470)
+#define SYSTEM_STRINGCOMPARER_GET_ORDINAL_OFFSET UNITYSDK_OFFSET(0x19FF5440)
+#define SYSTEM_STRINGCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FF59B0)
+#define SYSTEM_STRINGCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FF59A0)
 
 namespace System
 {
@@ -21,19 +21,19 @@ namespace System
 	class StringComparer : public ::System::Object
 	{
 	public:
-		static ::System::StringComparer** StaticGet__ordinalIgnoreCase()
+		static ::System::StringComparer** StaticGet__ordinal()
 		{
 			return (::System::StringComparer**)Il2CppClass::FromTypeDefinitionIndex(StringComparer_TypeDefinitionIndex)->GetStaticField(0x3B0);
 		}
-		static ::System::StringComparer** StaticGet__invariantCultureIgnoreCase()
+		static ::System::StringComparer** StaticGet__invariantCulture()
 		{
 			return (::System::StringComparer**)Il2CppClass::FromTypeDefinitionIndex(StringComparer_TypeDefinitionIndex)->GetStaticField(0x3B8);
 		}
-		static ::System::StringComparer** StaticGet__invariantCulture()
+		static ::System::StringComparer** StaticGet__ordinalIgnoreCase()
 		{
 			return (::System::StringComparer**)Il2CppClass::FromTypeDefinitionIndex(StringComparer_TypeDefinitionIndex)->GetStaticField(0x3C0);
 		}
-		static ::System::StringComparer** StaticGet__ordinal()
+		static ::System::StringComparer** StaticGet__invariantCultureIgnoreCase()
 		{
 			return (::System::StringComparer**)Il2CppClass::FromTypeDefinitionIndex(StringComparer_TypeDefinitionIndex)->GetStaticField(0x3C8);
 		}

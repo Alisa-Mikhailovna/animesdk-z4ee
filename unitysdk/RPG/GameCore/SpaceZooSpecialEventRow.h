@@ -7,21 +7,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SPACEZOOSPECIALEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19329EC0)
-#define RPG_GAMECORE_SPACEZOOSPECIALEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1932A120)
+#define RPG_GAMECORE_SPACEZOOSPECIALEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8E8EF0)
+#define RPG_GAMECORE_SPACEZOOSPECIALEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E9150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooSpecialEventRow_TypeDefinitionIndex = 11796;
+	inline static constexpr unsigned int SpaceZooSpecialEventRow_TypeDefinitionIndex = 11896;
 
 	class SpaceZooSpecialEventRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID HintTip; // 0x10
-		::System::UInt32 SpecialCatID; // 0x20
-		::RPG::GameCore::SpaceZooMaskType ProgenitorIsMask; // 0x24
-		::RPG::GameCore::SpaceZooSpicalEventState EventState; // 0x28
-		::RPG::GameCore::SpaceZooMaskType SpecialCatIsMask; // 0x2C
+		::RPG::GameCore::SpaceZooMaskType ProgenitorIsMask; // 0x20
+		::RPG::GameCore::SpaceZooMaskType SpecialCatIsMask; // 0x24
+		::System::UInt32 SpecialCatID; // 0x28
+		::RPG::GameCore::SpaceZooSpicalEventState EventState; // 0x2C
 
 		::System::Void _ctor()
 		{

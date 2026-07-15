@@ -5,13 +5,13 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0x179EDE90)
-#define RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER_ONSCROLL_OFFSET UNITYSDK_OFFSET(0x179EDE10)
-#define RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x179EDF10)
+#define RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xBE05800)
+#define RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER_ONSCROLL_OFFSET UNITYSDK_OFFSET(0xBE05780)
+#define RPG_CLIENT_AVATARPATHCHANGEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0xBE05880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeEventListener_TypeDefinitionIndex = 66688;
+	inline static constexpr unsigned int AvatarPathChangeEventListener_TypeDefinitionIndex = 68125;
 
 	class AvatarPathChangeEventListener : public ::UnityEngine::MonoBehaviour
 	{

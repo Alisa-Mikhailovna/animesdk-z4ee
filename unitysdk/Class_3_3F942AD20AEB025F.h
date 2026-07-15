@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class ModifyCurvePropGroupObjectState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3F942AD20AEB025F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14466660)
-#define CLASS_3_3F942AD20AEB025F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144666A0)
-#define CLASS_3_3F942AD20AEB025F__CTOR_OFFSET UNITYSDK_OFFSET(0x14466630)
-#define CLASS_3_3F942AD20AEB025F___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14466D40)
+#define CLASS_3_3F942AD20AEB025F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15314FE0)
+#define CLASS_3_3F942AD20AEB025F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15315020)
+#define CLASS_3_3F942AD20AEB025F__CTOR_OFFSET UNITYSDK_OFFSET(0x15314FB0)
 
-inline static constexpr unsigned int Class_3_3F942AD20AEB025F_TypeDefinitionIndex = 54409;
+inline static constexpr unsigned int Class_3_3F942AD20AEB025F_TypeDefinitionIndex = 55632;
 
 class Class_3_3F942AD20AEB025F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyCurvePropGroupObjectState*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3F942AD20AEB025F_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3F942AD20AEB025F___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

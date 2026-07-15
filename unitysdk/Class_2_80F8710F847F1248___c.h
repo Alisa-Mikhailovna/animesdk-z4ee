@@ -8,27 +8,27 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_80F8710F847F1248___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A83B800)
-#define CLASS_2_80F8710F847F1248___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A83B840)
-#define CLASS_2_80F8710F847F1248___C___CTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A83B850)
-#define CLASS_2_80F8710F847F1248___C___CTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1A83B880)
+#define CLASS_2_80F8710F847F1248___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A84D8F0)
+#define CLASS_2_80F8710F847F1248___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A84D930)
+#define CLASS_2_80F8710F847F1248___C___CTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1A84D940)
+#define CLASS_2_80F8710F847F1248___C___CTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1A84D970)
 
-inline static constexpr unsigned int Class_2_80F8710F847F1248___c_TypeDefinitionIndex = 38948;
+inline static constexpr unsigned int Class_2_80F8710F847F1248___c_TypeDefinitionIndex = 39757;
 
 class Class_2_80F8710F847F1248___c : public ::System::Object
 {
 public:
+	static ::Class_2_80F8710F847F1248___c** StaticGet___9()
+	{
+		return (::Class_2_80F8710F847F1248___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_80F8710F847F1248___c_TypeDefinitionIndex)->GetStaticField(0x47DE0);
+	}
 	static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__23_0()
 	{
-		return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_80F8710F847F1248___c_TypeDefinitionIndex)->GetStaticField(0x48AB0);
+		return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_80F8710F847F1248___c_TypeDefinitionIndex)->GetStaticField(0x47DE8);
 	}
 	static ::System::Func_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>** StaticGet___9__23_1()
 	{
-		return (::System::Func_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_80F8710F847F1248___c_TypeDefinitionIndex)->GetStaticField(0x48AB8);
-	}
-	static ::Class_2_80F8710F847F1248___c** StaticGet___9()
-	{
-		return (::Class_2_80F8710F847F1248___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_80F8710F847F1248___c_TypeDefinitionIndex)->GetStaticField(0x48AC0);
+		return (::System::Func_1<::RPG::Client::LittleGame::ElfRestaurantGameEntity*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_80F8710F847F1248___c_TypeDefinitionIndex)->GetStaticField(0x47DF0);
 	}
 
 	static ::System::Void _cctor()

@@ -4,9 +4,9 @@
 
 class IRI_ModuleCustomData;
 
-#define IRI_REFCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14062430)
+#define IRI_REFCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15252F50)
 
-inline static constexpr unsigned int IRI_RefCustomData_TypeDefinitionIndex = 44520;
+inline static constexpr unsigned int IRI_RefCustomData_TypeDefinitionIndex = 45392;
 
 class IRI_RefCustomData : public ::UnityEngine::MonoBehaviour
 {

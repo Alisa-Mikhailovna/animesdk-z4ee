@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoTimelineControlGameLevelGroup_TriggerActionConfig.h"
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERACTIONCONFIG_ACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17AFD020)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERACTIONCONFIG_ACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2B090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Active_TypeDefinitionIndex = 56490;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Active_TypeDefinitionIndex = 57730;
 
 	class MonoTimelineControlGameLevelGroup_TriggerActionConfig_Active : public ::RPG::Client::MonoTimelineControlGameLevelGroup_TriggerActionConfig
 	{

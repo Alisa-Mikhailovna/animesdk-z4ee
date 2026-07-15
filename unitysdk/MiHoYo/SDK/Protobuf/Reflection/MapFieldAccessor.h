@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FieldDescriptor; }
 namespace System { class Object; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MAPFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1837E070)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_MAPFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x183727C0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MAPFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x19B7B5D0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_MAPFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B6EEF0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MapFieldAccessor_TypeDefinitionIndex = 34030;
+	inline static constexpr unsigned int MapFieldAccessor_TypeDefinitionIndex = 34401;
 
 	class MapFieldAccessor : public ::MiHoYo::SDK::Protobuf::Reflection::FieldAccessorBase
 	{

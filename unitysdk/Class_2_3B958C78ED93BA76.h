@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightRole_GridFightRoleBuilder.h"
 
-class Class_0_16E4307DCC419505_787;
+class Class_0_16E4307DCC419505_825;
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightTrait; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_3B958C78ED93BA76_CLEAR_OFFSET UNITYSDK_OFFSET(0x14E33400)
-#define CLASS_2_3B958C78ED93BA76_CREATEEQUIPITEMS_OFFSET UNITYSDK_OFFSET(0x14E337C0)
-#define CLASS_2_3B958C78ED93BA76_CREATEPROPERTYPROVIDER_OFFSET UNITYSDK_OFFSET(0x14E33570)
-#define CLASS_2_3B958C78ED93BA76_CREATETRAITS_OFFSET UNITYSDK_OFFSET(0x14E33AA0)
-#define CLASS_2_3B958C78ED93BA76_METHOD_2_E9C0A4FCB77B6D02_OFFSET UNITYSDK_OFFSET(0x14E332A0)
-#define CLASS_2_3B958C78ED93BA76_METHOD_2_FBFAC0ABE83B99C6_OFFSET UNITYSDK_OFFSET(0x14E33310)
-#define CLASS_2_3B958C78ED93BA76_METHOD_2_FC92856EB75E0661_OFFSET UNITYSDK_OFFSET(0x14E33500)
-#define CLASS_2_3B958C78ED93BA76__CTOR_OFFSET UNITYSDK_OFFSET(0x14E334A0)
-#define CLASS_2_3B958C78ED93BA76___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x14E33B30)
+#define CLASS_2_3B958C78ED93BA76_CLEAR_OFFSET UNITYSDK_OFFSET(0xD0558B0)
+#define CLASS_2_3B958C78ED93BA76_CREATEEQUIPITEMS_OFFSET UNITYSDK_OFFSET(0xD055C70)
+#define CLASS_2_3B958C78ED93BA76_CREATEPROPERTYPROVIDER_OFFSET UNITYSDK_OFFSET(0xD055A20)
+#define CLASS_2_3B958C78ED93BA76_CREATETRAITS_OFFSET UNITYSDK_OFFSET(0xD055F60)
+#define CLASS_2_3B958C78ED93BA76_METHOD_2_E9C0A4FCB77B6D02_OFFSET UNITYSDK_OFFSET(0xD055750)
+#define CLASS_2_3B958C78ED93BA76_METHOD_2_FBFAC0ABE83B99C6_OFFSET UNITYSDK_OFFSET(0xD0557C0)
+#define CLASS_2_3B958C78ED93BA76_METHOD_2_FC92856EB75E0661_OFFSET UNITYSDK_OFFSET(0xD0559B0)
+#define CLASS_2_3B958C78ED93BA76__CTOR_OFFSET UNITYSDK_OFFSET(0xD055950)
 
-inline static constexpr unsigned int Class_2_3B958C78ED93BA76_TypeDefinitionIndex = 60876;
+inline static constexpr unsigned int Class_2_3B958C78ED93BA76_TypeDefinitionIndex = 62188;
 
 class Class_2_3B958C78ED93BA76 : public ::RPG::Client::GridFightRole_GridFightRoleBuilder
 {
@@ -51,9 +50,9 @@ public:
 		return ((::Class_2_3B958C78ED93BA76*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + CLASS_2_3B958C78ED93BA76_METHOD_2_FC92856EB75E0661_OFFSET))(this, a1);
 	}
 
-	::Class_0_16E4307DCC419505_787* CreatePropertyProvider(::RPG::Client::GridFightRole* a1)
+	::Class_0_16E4307DCC419505_825* CreatePropertyProvider(::RPG::Client::GridFightRole* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_787*(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + CLASS_2_3B958C78ED93BA76_CREATEPROPERTYPROVIDER_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_825*(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + CLASS_2_3B958C78ED93BA76_CREATEPROPERTYPROVIDER_OFFSET))(this, a1);
 	}
 
 	::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipItemData*>* CreateEquipItems(::RPG::Client::GridFightRole* a1)
@@ -64,10 +63,5 @@ public:
 	::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightTrait*>* CreateTraits(::RPG::Client::GridFightRole* a1)
 	{
 		return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightTrait*>*(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + CLASS_2_3B958C78ED93BA76_CREATETRAITS_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3B958C78ED93BA76___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 	}
 };

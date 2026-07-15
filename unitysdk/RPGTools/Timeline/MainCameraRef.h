@@ -6,13 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C3FB30)
-#define RPGTOOLS_TIMELINE_MAINCAMERAREF__CTOR_OFFSET UNITYSDK_OFFSET(0x18C40330)
-#define RPGTOOLS_TIMELINE_MAINCAMERAREF___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C40420)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDCECDB0)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREF__CTOR_OFFSET UNITYSDK_OFFSET(0xDCED740)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MainCameraRef_TypeDefinitionIndex = 45714;
+	inline static constexpr unsigned int MainCameraRef_TypeDefinitionIndex = 46653;
 
 	class MainCameraRef : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -29,11 +28,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERAREF_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERAREF___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

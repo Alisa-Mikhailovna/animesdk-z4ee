@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOBASESDK_MOCKFUNCTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x193B2980)
+#define MIHOYO_SDK_MIHOYOBASESDK_MOCKFUNCTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xAADDE80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoBaseSDK_MockFunctionInfo_TypeDefinitionIndex = 43663;
+	inline static constexpr unsigned int MiHoYoBaseSDK_MockFunctionInfo_TypeDefinitionIndex = 44524;
 
 	class MiHoYoBaseSDK_MockFunctionInfo : public ::System::Object
 	{

@@ -6,10 +6,10 @@ class Class_1_2594562E2DDF2BC6;
 namespace RPG::Client { class CakeRaceStartGameData; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14E622C0)
-#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__TRYSTARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0x14E63210)
+#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD364CD0)
+#define CLASS_1_2594562E2DDF2BC6___C__DISPLAYCLASS25_0__TRYSTARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0xD365C70)
 
-inline static constexpr unsigned int Class_1_2594562E2DDF2BC6___c__DisplayClass25_0_TypeDefinitionIndex = 71027;
+inline static constexpr unsigned int Class_1_2594562E2DDF2BC6___c__DisplayClass25_0_TypeDefinitionIndex = 72540;
 
 class Class_1_2594562E2DDF2BC6___c__DisplayClass25_0 : public ::System::Object
 {

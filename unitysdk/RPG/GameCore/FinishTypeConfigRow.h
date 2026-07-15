@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FINISHTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A41BC30)
-#define RPG_GAMECORE_FINISHTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A41BD90)
+#define RPG_GAMECORE_FINISHTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B41A5D0)
+#define RPG_GAMECORE_FINISHTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B41A730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishTypeConfigRow_TypeDefinitionIndex = 13486;
+	inline static constexpr unsigned int FinishTypeConfigRow_TypeDefinitionIndex = 13634;
 
 	class FinishTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::Boolean NeedVerseParam; // 0x10
-		::RPG::GameCore::QuestFinishType FinishType; // 0x14
+		::RPG::GameCore::QuestFinishType FinishType; // 0x10
+		::System::Boolean NeedVerseParam; // 0x14
 
 		::System::Void _ctor()
 		{

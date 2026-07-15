@@ -5,10 +5,10 @@
 
 namespace System { class String; }
 
-#define BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET UNITYSDK_OFFSET(0x156E1C00)
-#define BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET UNITYSDK_OFFSET(0x156E1C50)
+#define BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET UNITYSDK_OFFSET(0x1AA2F7A0)
+#define BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET UNITYSDK_OFFSET(0x1AA2F7F0)
 
-inline static constexpr unsigned int BatchAnimationHelper_TypeDefinitionIndex = 35146;
+inline static constexpr unsigned int BatchAnimationHelper_TypeDefinitionIndex = 35928;
 
 class BatchAnimationHelper : public ::System::Object
 {

@@ -5,24 +5,24 @@
 namespace RPG::Client { class EvolveBuildStage; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DC23E0)
-#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DC2410)
-#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__INITSTAGES_B__9_0_OFFSET UNITYSDK_OFFSET(0x17DC2420)
+#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC416940)
+#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC416970)
+#define RPG_CLIENT_EVOLVEBUILDSEASONDATA___C__INITSTAGES_B__9_0_OFFSET UNITYSDK_OFFSET(0xC416980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildSeasonData___c_TypeDefinitionIndex = 59728;
+	inline static constexpr unsigned int EvolveBuildSeasonData___c_TypeDefinitionIndex = 61013;
 
 	class EvolveBuildSeasonData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::EvolveBuildStage*>** StaticGet___9__9_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildStage*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0x14A30);
-		}
 		static ::RPG::Client::EvolveBuildSeasonData___c** StaticGet___9()
 		{
-			return (::RPG::Client::EvolveBuildSeasonData___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0x14A38);
+			return (::RPG::Client::EvolveBuildSeasonData___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0x6B6D0);
+		}
+		static ::System::Comparison_1<::RPG::Client::EvolveBuildStage*>** StaticGet___9__9_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildStage*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildSeasonData___c_TypeDefinitionIndex)->GetStaticField(0x6B6D8);
 		}
 
 		static ::System::Void _cctor()

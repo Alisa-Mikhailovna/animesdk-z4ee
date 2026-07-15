@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_BoxCollider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class BoxCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B452680)
-#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4527A0)
-#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B452640)
+#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x199224D0)
+#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x199225F0)
+#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x19922490)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_BoxCollider_Extensions_TypeDefinitionIndex = 37759;
+	inline static constexpr unsigned int Test_BoxCollider_Extensions_TypeDefinitionIndex = 38567;
 
 	class Test_BoxCollider_Extensions : public ::System::Object
 	{

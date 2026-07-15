@@ -5,9 +5,9 @@
 namespace Mono::Globalization::Unicode { class Level2Map; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__BUILDTAILORINGTABLES_B__17_0_OFFSET UNITYSDK_OFFSET(0x13F676B0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13F67670)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13F676A0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__BUILDTAILORINGTABLES_B__17_0_OFFSET UNITYSDK_OFFSET(0x19F48D30)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F48CF0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19F48D20)
 
 namespace Mono::Globalization::Unicode
 {
@@ -16,13 +16,13 @@ namespace Mono::Globalization::Unicode
 	class MSCompatUnicodeTable___c : public ::System::Object
 	{
 	public:
-		static ::Mono::Globalization::Unicode::MSCompatUnicodeTable___c** StaticGet___9()
-		{
-			return (::Mono::Globalization::Unicode::MSCompatUnicodeTable___c**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0x1D90);
-		}
 		static ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>** StaticGet___9__17_0()
 		{
-			return (::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0x1D98);
+			return (::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0x1DC0);
+		}
+		static ::Mono::Globalization::Unicode::MSCompatUnicodeTable___c** StaticGet___9()
+		{
+			return (::Mono::Globalization::Unicode::MSCompatUnicodeTable___c**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTable___c_TypeDefinitionIndex)->GetStaticField(0x1DC8);
 		}
 
 		static ::System::Void _cctor()

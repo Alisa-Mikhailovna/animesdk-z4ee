@@ -3,7 +3,7 @@
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceLoanPrepareType_TypeDefinitionIndex = 71039;
+	inline static constexpr unsigned int CakeRaceLoanPrepareType_TypeDefinitionIndex = 72552;
 
 	enum class CakeRaceLoanPrepareType : ::System::Int32
 	{

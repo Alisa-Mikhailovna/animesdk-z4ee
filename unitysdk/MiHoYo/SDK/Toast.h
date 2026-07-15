@@ -8,30 +8,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x16A5A080)
-#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x16A5AA00)
-#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x16A5A6D0)
-#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16A5A940)
-#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x16A5A1A0)
-#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x16A465E0)
-#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x16A5A170)
-#define MIHOYO_SDK_TOAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x16A5AB10)
-#define MIHOYO_SDK_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x16A5AAD0)
+#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x19E1B9F0)
+#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x19E1C410)
+#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x19E1C0E0)
+#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x19E1C350)
+#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x19E1BBC0)
+#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x19E07CB0)
+#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x19E1BB20)
+#define MIHOYO_SDK_TOAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E1C520)
+#define MIHOYO_SDK_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1C4E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8168;
+	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8179;
 
 	class Toast : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_autoHideTask()
-		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x1BCF0);
-		}
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x1BCF8);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x29C60);
+		}
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_autoHideTask()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x29C68);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		::System::String* content; // 0x58

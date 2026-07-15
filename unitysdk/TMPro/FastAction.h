@@ -7,14 +7,14 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 
-#define TMPRO_FASTACTION_ADD_OFFSET UNITYSDK_OFFSET(0x155AE2F0)
-#define TMPRO_FASTACTION_CALL_OFFSET UNITYSDK_OFFSET(0x155AE4F0)
-#define TMPRO_FASTACTION_REMOVE_OFFSET UNITYSDK_OFFSET(0x155AE3F0)
-#define TMPRO_FASTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x155AE560)
+#define TMPRO_FASTACTION_ADD_OFFSET UNITYSDK_OFFSET(0x1CF163C0)
+#define TMPRO_FASTACTION_CALL_OFFSET UNITYSDK_OFFSET(0x1CF165C0)
+#define TMPRO_FASTACTION_REMOVE_OFFSET UNITYSDK_OFFSET(0x1CF164C0)
+#define TMPRO_FASTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF16630)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int FastAction_TypeDefinitionIndex = 40914;
+	inline static constexpr unsigned int FastAction_TypeDefinitionIndex = 41729;
 
 	class FastAction : public ::System::Object
 	{

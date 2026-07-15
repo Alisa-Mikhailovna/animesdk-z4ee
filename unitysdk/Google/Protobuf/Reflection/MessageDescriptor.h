@@ -19,47 +19,47 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T1, typename T2> class ReadOnlyDictionary_2; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CREATEJSONFIELDMAP_OFFSET UNITYSDK_OFFSET(0x178BD420)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x178B0110)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x178BD9E0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x178BD8D0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x178BD970)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ENUMTYPES_OFFSET UNITYSDK_OFFSET(0x178BD9C0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x178BD9A0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_FIELDS_OFFSET UNITYSDK_OFFSET(0x178BD990)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWELLKNOWNTYPE_OFFSET UNITYSDK_OFFSET(0x1788C5C0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWRAPPERTYPE_OFFSET UNITYSDK_OFFSET(0x1788FCE0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x178A8D60)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x178BD9B0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ONEOFS_OFFSET UNITYSDK_OFFSET(0x178BD9D0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x178BD980)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x178BD960)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x178BDA10)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x178B1380)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CREATEJSONFIELDMAP_OFFSET UNITYSDK_OFFSET(0x197FFDE0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x197F2D50)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_FINDFIELDBYNUMBER_OFFSET UNITYSDK_OFFSET(0x19800550)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x19800440)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_CLRTYPE_OFFSET UNITYSDK_OFFSET(0x198004E0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ENUMTYPES_OFFSET UNITYSDK_OFFSET(0x19800530)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x19800510)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_FIELDS_OFFSET UNITYSDK_OFFSET(0x19800500)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWELLKNOWNTYPE_OFFSET UNITYSDK_OFFSET(0x197CA910)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ISWRAPPERTYPE_OFFSET UNITYSDK_OFFSET(0x197CF120)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x197EAFD0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_NESTEDTYPES_OFFSET UNITYSDK_OFFSET(0x19800520)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_ONEOFS_OFFSET UNITYSDK_OFFSET(0x19800540)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x198004F0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x198004D0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x19800580)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x197F4490)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor_TypeDefinitionIndex = 5549;
+	inline static constexpr unsigned int MessageDescriptor_TypeDefinitionIndex = 5554;
 
 	class MessageDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_WellKnownTypeNames()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor_TypeDefinitionIndex)->GetStaticField(0x3B140);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessageDescriptor_TypeDefinitionIndex)->GetStaticField(0x43860);
 		}
-		::System::Collections::Generic::IDictionary_2<::System::String*, ::Google::Protobuf::Reflection::FieldDescriptor*>* jsonFieldMap; // 0x28
+		::Google::Protobuf::Reflection::MessageDescriptor* _ContainingType_k__BackingField; // 0x28
 		::System::Type* _ClrType_k__BackingField; // 0x30
-		::Google::Protobuf::MessageParser* _Parser_k__BackingField; // 0x38
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumDescriptor*>* _EnumTypes_k__BackingField; // 0x40
-		::Google::Protobuf::Reflection::DescriptorProto* _Proto_k__BackingField; // 0x48
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MessageDescriptor*>* _NestedTypes_k__BackingField; // 0x50
-		::Google::Protobuf::Reflection::MessageDescriptor_FieldCollection* _Fields_k__BackingField; // 0x58
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::OneofDescriptor*>* _Oneofs_k__BackingField; // 0x38
+		::Google::Protobuf::Reflection::ExtensionCollection* _Extensions_k__BackingField; // 0x40
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumDescriptor*>* _EnumTypes_k__BackingField; // 0x48
+		::System::Collections::Generic::IDictionary_2<::System::String*, ::Google::Protobuf::Reflection::FieldDescriptor*>* jsonFieldMap; // 0x50
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MessageDescriptor*>* _NestedTypes_k__BackingField; // 0x58
 		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* fieldsInNumberOrder; // 0x60
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* fieldsInDeclarationOrder; // 0x68
-		::Google::Protobuf::Reflection::MessageDescriptor* _ContainingType_k__BackingField; // 0x70
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::OneofDescriptor*>* _Oneofs_k__BackingField; // 0x78
-		::Google::Protobuf::Reflection::ExtensionCollection* _Extensions_k__BackingField; // 0x80
+		::Google::Protobuf::Reflection::DescriptorProto* _Proto_k__BackingField; // 0x68
+		::Google::Protobuf::MessageParser* _Parser_k__BackingField; // 0x70
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FieldDescriptor*>* fieldsInDeclarationOrder; // 0x78
+		::Google::Protobuf::Reflection::MessageDescriptor_FieldCollection* _Fields_k__BackingField; // 0x80
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::DescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::MessageDescriptor* a3, ::System::Int32 a4, ::Google::Protobuf::Reflection::GeneratedClrTypeInfo* a5)
 		{

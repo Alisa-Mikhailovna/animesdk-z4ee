@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x15CE2D60)
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x15CE2DA0)
-#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__65_0_OFFSET UNITYSDK_OFFSET(0x15CE2DB0)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE5D230)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE5D270)
+#define RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__64_0_OFFSET UNITYSDK_OFFSET(0xBE5D280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleGamePageContext___c_TypeDefinitionIndex = 66978;
+	inline static constexpr unsigned int BattleGamePageContext___c_TypeDefinitionIndex = 68422;
 
 	class BattleGamePageContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__65_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x5F840);
-		}
 		static ::RPG::Client::BattleGamePageContext___c** StaticGet___9()
 		{
-			return (::RPG::Client::BattleGamePageContext___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x5F848);
+			return (::RPG::Client::BattleGamePageContext___c**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x56550);
+		}
+		static ::System::Action** StaticGet___9__64_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(BattleGamePageContext___c_TypeDefinitionIndex)->GetStaticField(0x56558);
 		}
 
 		static ::System::Void _cctor()
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Void __ToggleAvatarPanel_b__65_0()
+		::System::Void __ToggleAvatarPanel_b__64_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__65_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEGAMEPAGECONTEXT___C___TOGGLEAVATARPANEL_B__64_0_OFFSET))(this);
 		}
 	};
 }

@@ -7,12 +7,12 @@ namespace System { class IAsyncResult; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x1A068C10)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1A068CB0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1A068CD0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1A068CC0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1A068CE0)
-#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A067940)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_CBWRAPPER_OFFSET UNITYSDK_OFFSET(0x1A14B3C0)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1A14B460)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1A14B480)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1A14B470)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1A14B490)
+#define SYSTEM_IO_FILESTREAMASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A14A040)
 
 namespace System::IO
 {
@@ -23,13 +23,13 @@ namespace System::IO
 	public:
 		::System::Object* state; // 0x10
 		::System::Threading::ManualResetEvent* wh; // 0x18
-		::System::AsyncCallback* cb; // 0x20
-		::System::AsyncCallback* realcb; // 0x28
-		::System::Int32 OriginalCount; // 0x30
-		::System::Int32 BytesRead; // 0x34
+		::System::AsyncCallback* realcb; // 0x20
+		::System::AsyncCallback* cb; // 0x28
+		::System::Boolean completed; // 0x30
+		::System::Boolean completedSynch; // 0x31
+		::System::Int32 OriginalCount; // 0x34
 		::System::Int32 Count; // 0x38
-		::System::Boolean completedSynch; // 0x3C
-		::System::Boolean completed; // 0x3D
+		::System::Int32 BytesRead; // 0x3C
 
 		::System::Void _ctor(::System::AsyncCallback* a1, ::System::Object* a2)
 		{

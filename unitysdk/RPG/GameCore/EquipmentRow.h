@@ -8,35 +8,35 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EQUIPMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D80690)
-#define RPG_GAMECORE_EQUIPMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D848D0)
+#define RPG_GAMECORE_EQUIPMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3EF4C0)
+#define RPG_GAMECORE_EQUIPMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3F36B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentRow_TypeDefinitionIndex = 12602;
+	inline static constexpr unsigned int EquipmentRow_TypeDefinitionIndex = 12739;
 
 	class EquipmentRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* RankUpCostList; // 0x10
-		::Il2CppArray<::System::Single>* ItemRightPanelOffset; // 0x18
-		::System::String* ThumbnailPath; // 0x20
+		::Il2CppArray<::System::Single>* ItemRightPanelOffset; // 0x10
+		::Il2CppArray<::System::Single>* BattleDialogOffset; // 0x18
+		::Il2CppArray<::System::UInt32>* RankUpCostList; // 0x20
 		::System::String* ImagePath; // 0x28
-		::Il2CppArray<::System::Single>* GachaResultOffset; // 0x30
-		::Il2CppArray<::System::Single>* AvatarDetailOffset; // 0x38
-		::Il2CppArray<::System::Single>* BattleDialogOffset; // 0x40
-		::System::UInt32 ExpProvide; // 0x48
-		::System::UInt32 SkillID; // 0x4C
-		::RPG::Client::TextID EquipmentDesc; // 0x50
-		::System::UInt32 CoinCost; // 0x60
-		::System::UInt32 EquipmentID; // 0x64
-		::RPG::Client::TextID EquipmentName; // 0x68
-		::System::Boolean Release; // 0x78
-		::System::UInt32 MaxPromotion; // 0x7C
-		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x80
-		::System::UInt32 ExpType; // 0x84
-		::RPG::GameCore::CombatPowerLightconeRarityType Rarity; // 0x88
-		::System::UInt32 MaxRank; // 0x8C
+		::System::String* ThumbnailPath; // 0x30
+		::Il2CppArray<::System::Single>* GachaResultOffset; // 0x38
+		::Il2CppArray<::System::Single>* AvatarDetailOffset; // 0x40
+		::System::UInt32 ExpType; // 0x48
+		::System::Boolean Release; // 0x4C
+		::System::UInt32 EquipmentID; // 0x50
+		::System::UInt32 MaxRank; // 0x54
+		::RPG::Client::TextID EquipmentDesc; // 0x58
+		::System::UInt32 ExpProvide; // 0x68
+		::RPG::GameCore::AvatarBaseType AvatarBaseType; // 0x6C
+		::System::UInt32 MaxPromotion; // 0x70
+		::System::UInt32 SkillID; // 0x74
+		::RPG::GameCore::CombatPowerLightconeRarityType Rarity; // 0x78
+		::System::UInt32 CoinCost; // 0x7C
+		::RPG::Client::TextID EquipmentName; // 0x80
 
 		::System::Void _ctor()
 		{

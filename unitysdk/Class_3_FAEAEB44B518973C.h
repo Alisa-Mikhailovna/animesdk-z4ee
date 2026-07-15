@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAllMissionWaypointsVisiable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FAEAEB44B518973C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x132D3D80)
-#define CLASS_3_FAEAEB44B518973C__CTOR_OFFSET UNITYSDK_OFFSET(0x132D3D50)
+#define CLASS_3_FAEAEB44B518973C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14CAAD60)
+#define CLASS_3_FAEAEB44B518973C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CAAD30)
 
-inline static constexpr unsigned int Class_3_FAEAEB44B518973C_TypeDefinitionIndex = 54659;
+inline static constexpr unsigned int Class_3_FAEAEB44B518973C_TypeDefinitionIndex = 55884;
 
 class Class_3_FAEAEB44B518973C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAllMissionWaypointsVisiable*>
 {

@@ -6,28 +6,28 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x176165B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x17616520)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x17616480)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x1760DF80)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x17616640)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17616340)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x1A0EB610)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x1A0EB510)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x1A0EB4E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x1A0E2690)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0EB630)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EB3A0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1596;
+	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1600;
 
 	class NameInfo : public ::System::Diagnostics::Tracing::ConcurrentSetItem_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Diagnostics::Tracing::EventTags>, ::System::Diagnostics::Tracing::NameInfo*>
 	{
 	public:
 		static ::System::Int32* StaticGet_lastIdentity()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NameInfo_TypeDefinitionIndex)->GetStaticField(0x30B0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NameInfo_TypeDefinitionIndex)->GetStaticField(0x3580);
 		}
 		::Il2CppArray<::System::Byte>* nameMetadata; // 0x10
 		::System::String* name; // 0x18
-		::System::Int32 identity; // 0x20
-		::System::Diagnostics::Tracing::EventTags tags; // 0x24
+		::System::Diagnostics::Tracing::EventTags tags; // 0x20
+		::System::Int32 identity; // 0x24
 
 		::System::Void _ctor(::System::String* a1, ::System::Diagnostics::Tracing::EventTags a2, ::System::Int32 a3)
 		{

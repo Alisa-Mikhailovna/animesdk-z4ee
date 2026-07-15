@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SwordTrainingSetDynamicValueByAllyRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_71942FDDDA31276C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D86320)
-#define CLASS_3_71942FDDDA31276C__CTOR_OFFSET UNITYSDK_OFFSET(0x16D86240)
+#define CLASS_3_71942FDDDA31276C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1F7910)
+#define CLASS_3_71942FDDDA31276C__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F7830)
 
-inline static constexpr unsigned int Class_3_71942FDDDA31276C_TypeDefinitionIndex = 52021;
+inline static constexpr unsigned int Class_3_71942FDDDA31276C_TypeDefinitionIndex = 53177;
 
 class Class_3_71942FDDDA31276C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwordTrainingSetDynamicValueByAllyRank*>
 {

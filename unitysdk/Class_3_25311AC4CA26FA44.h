@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByTriggeredTrackedSearch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_25311AC4CA26FA44_EVALUATE_OFFSET UNITYSDK_OFFSET(0x134FB8B0)
-#define CLASS_3_25311AC4CA26FA44__CTOR_OFFSET UNITYSDK_OFFSET(0x134FB880)
+#define CLASS_3_25311AC4CA26FA44_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1497DA30)
+#define CLASS_3_25311AC4CA26FA44__CTOR_OFFSET UNITYSDK_OFFSET(0x1497DA00)
 
-inline static constexpr unsigned int Class_3_25311AC4CA26FA44_TypeDefinitionIndex = 49644;
+inline static constexpr unsigned int Class_3_25311AC4CA26FA44_TypeDefinitionIndex = 50698;
 
 class Class_3_25311AC4CA26FA44 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByTriggeredTrackedSearch*>
 {

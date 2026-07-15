@@ -5,24 +5,24 @@
 namespace RPG::Client { class ChallengePeakTarget; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A3B6B0)
-#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A3B6F0)
-#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__GETCOUNTOFPASSEDTARGETSINEASYMODE_B__66_0_OFFSET UNITYSDK_OFFSET(0x17A3B700)
+#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBFAA950)
+#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBFAA990)
+#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__GETCOUNTOFPASSEDTARGETSINEASYMODE_B__66_0_OFFSET UNITYSDK_OFFSET(0xBFAA9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakBoss___c_TypeDefinitionIndex = 59103;
+	inline static constexpr unsigned int ChallengePeakBoss___c_TypeDefinitionIndex = 60374;
 
 	class ChallengePeakBoss___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChallengePeakBoss___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChallengePeakBoss___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakBoss___c_TypeDefinitionIndex)->GetStaticField(0x67460);
-		}
 		static ::System::Func_2<::RPG::Client::ChallengePeakTarget*, ::System::Boolean>** StaticGet___9__66_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengePeakTarget*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakBoss___c_TypeDefinitionIndex)->GetStaticField(0x67468);
+			return (::System::Func_2<::RPG::Client::ChallengePeakTarget*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakBoss___c_TypeDefinitionIndex)->GetStaticField(0x60F00);
+		}
+		static ::RPG::Client::ChallengePeakBoss___c** StaticGet___9()
+		{
+			return (::RPG::Client::ChallengePeakBoss___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakBoss___c_TypeDefinitionIndex)->GetStaticField(0x60F08);
 		}
 
 		static ::System::Void _cctor()

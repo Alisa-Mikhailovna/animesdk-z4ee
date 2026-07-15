@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace ZXing::Common { class BitMatrix; }
 namespace ZXing::Common { class EncodingOptions; }
 
-#define ZXING_COLOR32RENDERER_GET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x13CC1B60)
-#define ZXING_COLOR32RENDERER_GET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x13CC1B40)
-#define ZXING_COLOR32RENDERER_RENDER_OFFSET UNITYSDK_OFFSET(0x13CC1B80)
-#define ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x13CC1B70)
-#define ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x13CC1B50)
-#define ZXING_COLOR32RENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x13CC1B00)
+#define ZXING_COLOR32RENDERER_GET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1D2CF7A0)
+#define ZXING_COLOR32RENDERER_GET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1D2CF780)
+#define ZXING_COLOR32RENDERER_RENDER_OFFSET UNITYSDK_OFFSET(0x1D2CF7C0)
+#define ZXING_COLOR32RENDERER_SET_BACKGROUND_OFFSET UNITYSDK_OFFSET(0x1D2CF7B0)
+#define ZXING_COLOR32RENDERER_SET_FOREGROUND_OFFSET UNITYSDK_OFFSET(0x1D2CF790)
+#define ZXING_COLOR32RENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CF740)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int Color32Renderer_TypeDefinitionIndex = 6451;
+	inline static constexpr unsigned int Color32Renderer_TypeDefinitionIndex = 6456;
 
 	class Color32Renderer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Color32 _Background_k__BackingField; // 0x10
-		::UnityEngine::Color32 _Foreground_k__BackingField; // 0x14
+		::UnityEngine::Color32 _Foreground_k__BackingField; // 0x10
+		::UnityEngine::Color32 _Background_k__BackingField; // 0x14
 
 		::System::Void _ctor()
 		{

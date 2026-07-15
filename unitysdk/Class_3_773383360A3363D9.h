@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SetTargetColliderLayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_773383360A3363D9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14E31A00)
-#define CLASS_3_773383360A3363D9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14E31A40)
-#define CLASS_3_773383360A3363D9__CTOR_OFFSET UNITYSDK_OFFSET(0x14E319D0)
-#define CLASS_3_773383360A3363D9___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14E31D90)
+#define CLASS_3_773383360A3363D9_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD053F40)
+#define CLASS_3_773383360A3363D9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD053F80)
+#define CLASS_3_773383360A3363D9__CTOR_OFFSET UNITYSDK_OFFSET(0xD053F10)
 
-inline static constexpr unsigned int Class_3_773383360A3363D9_TypeDefinitionIndex = 49774;
+inline static constexpr unsigned int Class_3_773383360A3363D9_TypeDefinitionIndex = 50829;
 
 class Class_3_773383360A3363D9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetColliderLayer*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_773383360A3363D9_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_773383360A3363D9___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

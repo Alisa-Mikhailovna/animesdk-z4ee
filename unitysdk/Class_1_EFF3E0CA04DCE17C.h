@@ -5,15 +5,15 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class String; }
 
-#define CLASS_1_EFF3E0CA04DCE17C__CTOR_OFFSET UNITYSDK_OFFSET(0x16315820)
+#define CLASS_1_EFF3E0CA04DCE17C__CTOR_OFFSET UNITYSDK_OFFSET(0x1440D260)
 
-inline static constexpr unsigned int Class_1_EFF3E0CA04DCE17C_TypeDefinitionIndex = 73920;
+inline static constexpr unsigned int Class_1_EFF3E0CA04DCE17C_TypeDefinitionIndex = 76302;
 
 class Class_1_EFF3E0CA04DCE17C : public ::System::Object
 {
 public:
-	::RPG::Client::Promises::Promise* Field_1_0; // 0x10
-	::System::String* Field_1_1; // 0x18
+	::System::String* Field_1_0; // 0x10
+	::RPG::Client::Promises::Promise* Field_1_1; // 0x18
 	::System::Boolean Field_1_2; // 0x20
 	::System::Boolean Field_1_3; // 0x21
 

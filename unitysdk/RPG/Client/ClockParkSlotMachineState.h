@@ -8,32 +8,30 @@ namespace RPG::Client { class ClockParkEffectDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_CONTINUEGACHA_OFFSET UNITYSDK_OFFSET(0x1782ED60)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_EXITGACHA_OFFSET UNITYSDK_OFFSET(0x1782EEB0)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_GETBUFFEFFECTDATAITEMS_OFFSET UNITYSDK_OFFSET(0x1782E970)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_GETSORTEDLOTTERYLIST_OFFSET UNITYSDK_OFFSET(0x1782EFF0)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_ISSHOWDICEPLACEMENT_OFFSET UNITYSDK_OFFSET(0x1782E930)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_SYNCGACHAINFO_OFFSET UNITYSDK_OFFSET(0x17827F60)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_SYNCLOTTERYID_OFFSET UNITYSDK_OFFSET(0x17826AD0)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17828E30)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE__ONENTER_OFFSET UNITYSDK_OFFSET(0x1782E2A0)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE___IFIXBASEPROXY_ISSHOWDICEPLACEMENT_OFFSET UNITYSDK_OFFSET(0x1782F090)
-#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE___IFIXBASEPROXY__ONENTER_OFFSET UNITYSDK_OFFSET(0x1782F030)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_CONTINUEGACHA_OFFSET UNITYSDK_OFFSET(0xC189760)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_EXITGACHA_OFFSET UNITYSDK_OFFSET(0xC1898B0)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_GETBUFFEFFECTDATAITEMS_OFFSET UNITYSDK_OFFSET(0xC1892E0)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_GETSORTEDLOTTERYLIST_OFFSET UNITYSDK_OFFSET(0xC1899F0)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_ISSHOWDICEPLACEMENT_OFFSET UNITYSDK_OFFSET(0xC1891C0)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_SYNCGACHAINFO_OFFSET UNITYSDK_OFFSET(0xC189200)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_SYNCLOTTERYID_OFFSET UNITYSDK_OFFSET(0xC189260)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC189A30)
+#define RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE__ONENTER_OFFSET UNITYSDK_OFFSET(0xC188B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkSlotMachineState_TypeDefinitionIndex = 57503;
+	inline static constexpr unsigned int ClockParkSlotMachineState_TypeDefinitionIndex = 58765;
 
 	class ClockParkSlotMachineState : public ::RPG::Client::BaseClockParkGameState
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ClockParkEffectDataItem*>* _EffectDataItemList; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* LotteryIDList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::ClockParkAttributeType, ::System::Int32>* GachaCost; // 0x28
-		::System::UInt32 GachaRandom; // 0x30
-		::System::UInt32 GachaRemainTime; // 0x34
-		::System::UInt32 GachaTotalCount; // 0x38
-		::System::UInt32 ResultLotteryID; // 0x3C
+		::System::Collections::Generic::List_1<::System::UInt32>* LotteryIDList; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::ClockParkAttributeType, ::System::Int32>* GachaCost; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ClockParkEffectDataItem*>* _EffectDataItemList; // 0x28
+		::System::UInt32 ResultLotteryID; // 0x30
+		::System::UInt32 GachaTotalCount; // 0x34
+		::System::UInt32 GachaRemainTime; // 0x38
+		::System::UInt32 GachaRandom; // 0x3C
 
 		::System::Void _ctor()
 		{
@@ -78,16 +76,6 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::UInt32>* GetSortedLotteryList()
 		{
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE_GETSORTEDLOTTERYLIST_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__OnEnter(::RPG::Client::ClockParkGameStateEnum a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ClockParkGameStateEnum))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE___IFIXBASEPROXY__ONENTER_OFFSET))(this, a1);
-		}
-
-		::System::Boolean __iFixBaseProxy_IsShowDicePlacement()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOCKPARKSLOTMACHINESTATE___IFIXBASEPROXY_ISSHOWDICEPLACEMENT_OFFSET))(this);
 		}
 	};
 }

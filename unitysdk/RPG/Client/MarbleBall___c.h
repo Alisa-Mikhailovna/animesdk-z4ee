@@ -5,24 +5,24 @@
 namespace RPG::Client { class MarbleSkill; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MARBLEBALL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19013030)
-#define RPG_CLIENT_MARBLEBALL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19013070)
-#define RPG_CLIENT_MARBLEBALL___C__GETSKILLS_B__21_0_OFFSET UNITYSDK_OFFSET(0x19013080)
+#define RPG_CLIENT_MARBLEBALL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB1FAD0)
+#define RPG_CLIENT_MARBLEBALL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCB1FB10)
+#define RPG_CLIENT_MARBLEBALL___C__GETSKILLS_B__21_0_OFFSET UNITYSDK_OFFSET(0xCB1FB20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBall___c_TypeDefinitionIndex = 61516;
+	inline static constexpr unsigned int MarbleBall___c_TypeDefinitionIndex = 62878;
 
 	class MarbleBall___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::MarbleBall___c** StaticGet___9()
 		{
-			return (::RPG::Client::MarbleBall___c**)Il2CppClass::FromTypeDefinitionIndex(MarbleBall___c_TypeDefinitionIndex)->GetStaticField(0x506B0);
+			return (::RPG::Client::MarbleBall___c**)Il2CppClass::FromTypeDefinitionIndex(MarbleBall___c_TypeDefinitionIndex)->GetStaticField(0x48BF0);
 		}
 		static ::System::Comparison_1<::RPG::Client::MarbleSkill*>** StaticGet___9__21_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MarbleSkill*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleBall___c_TypeDefinitionIndex)->GetStaticField(0x506B8);
+			return (::System::Comparison_1<::RPG::Client::MarbleSkill*>**)Il2CppClass::FromTypeDefinitionIndex(MarbleBall___c_TypeDefinitionIndex)->GetStaticField(0x48BF8);
 		}
 
 		static ::System::Void _cctor()

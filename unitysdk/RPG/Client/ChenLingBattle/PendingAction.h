@@ -9,23 +9,23 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18DC6E10)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0x18DC6EB0)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x18DC6E70)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0x18DC6D90)
-#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC6D80)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC05C110)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_GET_ACTIONINFO_OFFSET UNITYSDK_OFFSET(0xC05C1B0)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC05C170)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION_ONENTER_OFFSET UNITYSDK_OFFSET(0xC05C090)
+#define RPG_CLIENT_CHENLINGBATTLE_PENDINGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC05C080)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 70858;
+	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 72371;
 
 	class PendingAction : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x10
-		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x18
-		::RPG::Client::Promises::Promise* _FinishedPromise; // 0x20
-		::RPG::Client::LuaUIGameFlowContext* _Page; // 0x28
+		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* _GameContext; // 0x10
+		::RPG::Client::ChenLingBattle::ActionInfo* _ActionInfo; // 0x18
+		::RPG::Client::LuaUIGameFlowContext* _Page; // 0x20
+		::RPG::Client::Promises::Promise* _FinishedPromise; // 0x28
 
 		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1, ::RPG::Client::ChenLingBattle::ActionInfo* a2)
 		{

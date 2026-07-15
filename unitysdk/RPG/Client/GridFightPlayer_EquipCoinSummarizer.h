@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_6D4DDF404C3CCC18.h"
-#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+#include "unitysdk/Enum_3_75A1C8C41006A504.h"
 
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x19789260)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x197892B0)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0x19789570)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x19789670)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x19789680)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x197896E0)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER___IFIXBASEPROXY_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0x19789740)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xC7B2390)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xC7B23E0)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0xC7B27F0)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B2940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayer_EquipCoinSummarizer_TypeDefinitionIndex = 60848;
+	inline static constexpr unsigned int GridFightPlayer_EquipCoinSummarizer_TypeDefinitionIndex = 62148;
 
-	class GridFightPlayer_EquipCoinSummarizer : public ::Class_1_6D4DDF404C3CCC18
+	class GridFightPlayer_EquipCoinSummarizer : public ::Class_1_41E07A9DDAB7FC78
 	{
 	public:
 		::RPG::Client::GridFightGameModifier* _CurModifier; // 0x10
@@ -31,34 +28,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+		::System::Boolean IsConcernedWith(::Enum_3_75A1C8C41006A504 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A1C8C41006A504))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET))(this, a1);
 		}
 
-		::System::Void UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
+		::System::Void UpdateBefore(::Enum_3_75A1C8C41006A504 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_75A1C8C41006A504, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UpdateCoin(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATECOIN_OFFSET))(this, a1);
-		}
-
-		::System::Boolean __iFixBaseProxy_IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_UpdateCoin(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER___IFIXBASEPROXY_UPDATECOIN_OFFSET))(this, a1);
 		}
 	};
 }

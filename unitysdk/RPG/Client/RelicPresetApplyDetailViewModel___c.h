@@ -5,24 +5,24 @@
 namespace RPG::Client { class RelicPresetPlanViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14CEF260)
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14CEF2A0)
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__GETNOTEMPTYPLANVIEWMODELS_B__14_0_OFFSET UNITYSDK_OFFSET(0x14CEF2B0)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD2EDB60)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD2EDBA0)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__GETNOTEMPTYPLANVIEWMODELS_B__14_0_OFFSET UNITYSDK_OFFSET(0xD2EDBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex = 62497;
+	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex = 63863;
 
 	class RelicPresetApplyDetailViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x28F70);
+			return (::System::Func_2<::RPG::Client::RelicPresetPlanViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1D440);
 		}
 		static ::RPG::Client::RelicPresetApplyDetailViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::RelicPresetApplyDetailViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x28F78);
+			return (::RPG::Client::RelicPresetApplyDetailViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RelicPresetApplyDetailViewModel___c_TypeDefinitionIndex)->GetStaticField(0x1D448);
 		}
 
 		static ::System::Void _cctor()

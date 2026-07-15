@@ -6,29 +6,29 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1867EE10)
-#define MIHOYO_SDK_NETWORKMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1867EE40)
-#define MIHOYO_SDK_NETWORKMANAGER___C__GETQUERYURL_B__51_0_OFFSET UNITYSDK_OFFSET(0x1867EE50)
-#define MIHOYO_SDK_NETWORKMANAGER___C__GETQUERYURL_B__51_1_OFFSET UNITYSDK_OFFSET(0x1867EE60)
+#define MIHOYO_SDK_NETWORKMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D54D50)
+#define MIHOYO_SDK_NETWORKMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D54D80)
+#define MIHOYO_SDK_NETWORKMANAGER___C__GETQUERYURL_B__51_0_OFFSET UNITYSDK_OFFSET(0x19D54D90)
+#define MIHOYO_SDK_NETWORKMANAGER___C__GETQUERYURL_B__51_1_OFFSET UNITYSDK_OFFSET(0x19D54DA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c_TypeDefinitionIndex = 8118;
+	inline static constexpr unsigned int NetworkManager___c_TypeDefinitionIndex = 8128;
 
 	class NetworkManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>** StaticGet___9__51_1()
+		static ::MiHoYo::SDK::NetworkManager___c** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NetworkManager___c_TypeDefinitionIndex)->GetStaticField(0x15E90);
+			return (::MiHoYo::SDK::NetworkManager___c**)Il2CppClass::FromTypeDefinitionIndex(NetworkManager___c_TypeDefinitionIndex)->GetStaticField(0x23970);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>** StaticGet___9__51_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NetworkManager___c_TypeDefinitionIndex)->GetStaticField(0x15E98);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NetworkManager___c_TypeDefinitionIndex)->GetStaticField(0x23978);
 		}
-		static ::MiHoYo::SDK::NetworkManager___c** StaticGet___9()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>** StaticGet___9__51_1()
 		{
-			return (::MiHoYo::SDK::NetworkManager___c**)Il2CppClass::FromTypeDefinitionIndex(NetworkManager___c_TypeDefinitionIndex)->GetStaticField(0x15EA0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::String*>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NetworkManager___c_TypeDefinitionIndex)->GetStaticField(0x23980);
 		}
 
 		static ::System::Void _cctor()

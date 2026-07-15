@@ -6,13 +6,12 @@
 
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18C35E40)
-#define RPGTOOLS_TIMELINE_HIDEPROMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C36380)
-#define RPGTOOLS_TIMELINE_HIDEPROMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18C36390)
+#define RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDCE1100)
+#define RPGTOOLS_TIMELINE_HIDEPROMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xDCE1650)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideProMixer_TypeDefinitionIndex = 45430;
+	inline static constexpr unsigned int HideProMixer_TypeDefinitionIndex = 46364;
 
 	class HideProMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

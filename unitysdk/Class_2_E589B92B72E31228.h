@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelWaitReplaceEffectNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E589B92B72E31228_METHOD_2_3C6CBBFA8E8A125D_OFFSET UNITYSDK_OFFSET(0x13E16FD0)
-#define CLASS_2_E589B92B72E31228__CTOR_OFFSET UNITYSDK_OFFSET(0x13E170D0)
+#define CLASS_2_E589B92B72E31228_METHOD_2_3C6CBBFA8E8A125D_OFFSET UNITYSDK_OFFSET(0xAEC1290)
+#define CLASS_2_E589B92B72E31228__CTOR_OFFSET UNITYSDK_OFFSET(0xAEC1390)
 
-inline static constexpr unsigned int Class_2_E589B92B72E31228_TypeDefinitionIndex = 72221;
+inline static constexpr unsigned int Class_2_E589B92B72E31228_TypeDefinitionIndex = 73746;
 
-class Class_2_E589B92B72E31228 : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_E589B92B72E31228 : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* Field_2_0; // 0x10
-	::RPG::GameCore::ChimeraDuelWaitReplaceEffectNode* Field_2_1; // 0x18
+	::RPG::GameCore::ChimeraDuelWaitReplaceEffectNode* Field_2_0; // 0x10
+	::System::Collections::Generic::List_1<::System::Int32>* Field_2_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -7,41 +7,41 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DAMAGETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B2CDF0)
-#define RPG_GAMECORE_DAMAGETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B2DA90)
+#define RPG_GAMECORE_DAMAGETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B398980)
+#define RPG_GAMECORE_DAMAGETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B399610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageTypeRow_TypeDefinitionIndex = 12491;
+	inline static constexpr unsigned int DamageTypeRow_TypeDefinitionIndex = 12628;
 
 	class DamageTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* SkillTreeLightColor; // 0x10
-		::System::String* SPMazeInfoEffFront; // 0x18
-		::System::String* NormalDamage; // 0x20
-		::System::String* SkillTreeLeftPanelColor; // 0x28
-		::System::String* IconNatureColorSimple; // 0x30
-		::System::String* Light1Color; // 0x38
-		::System::String* Color; // 0x40
-		::System::String* SkillTreePanelPath; // 0x48
-		::System::String* LightColor; // 0x50
-		::System::String* IconNatureForWeakActive; // 0x58
+		::System::String* Color; // 0x10
+		::System::String* DamageTypeIconPath; // 0x18
+		::System::String* SPInfoEffFront; // 0x20
+		::System::String* SkillTreeLightColor; // 0x28
+		::System::String* IconNatureForWeakActive; // 0x30
+		::System::String* SkillTreeLeftPanelColor; // 0x38
+		::System::String* IconNatureColorSimple; // 0x40
+		::System::String* NormalDamage; // 0x48
+		::System::String* IconNatureForWeakUnactive; // 0x50
+		::System::String* IconNatureColor; // 0x58
 		::System::String* SkillBtnEff; // 0x60
-		::System::String* DamageTypeIconPath; // 0x68
-		::System::String* MazeEnterBattleWeakIconPath; // 0x70
-		::System::String* ShaderColor; // 0x78
-		::System::String* IconNatureForWeakUnactive; // 0x80
-		::System::String* CriticalDamage; // 0x88
+		::System::String* MazeEnterBattleWeakIconPath; // 0x68
+		::System::String* SkillTreePanelPath; // 0x70
+		::System::String* UnfullColor; // 0x78
+		::System::String* SPMazeInfoEffFront; // 0x80
+		::System::String* IconNatureWhite; // 0x88
 		::System::String* SPInfoEffFrontDouble; // 0x90
-		::System::String* IconNatureWhite; // 0x98
-		::System::String* SPInfoEffFront; // 0xA0
-		::System::String* IconNatureColor; // 0xA8
-		::System::String* SkillTreeDecoColor; // 0xB0
-		::System::String* UnfullColor; // 0xB8
-		::RPG::Client::TextID DamageTypeName; // 0xC0
+		::System::String* Light1Color; // 0x98
+		::System::String* SkillTreeDecoColor; // 0xA0
+		::System::String* LightColor; // 0xA8
+		::System::String* ShaderColor; // 0xB0
+		::System::String* CriticalDamage; // 0xB8
+		::RPG::Client::TextID DamageTypeIntro; // 0xC0
 		::RPG::GameCore::AttackDamageType ID; // 0xD0
-		::RPG::Client::TextID DamageTypeIntro; // 0xD8
+		::RPG::Client::TextID DamageTypeName; // 0xD8
 
 		::System::Void _ctor()
 		{

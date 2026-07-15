@@ -5,12 +5,12 @@
 namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
 namespace RPG::Client { class GridFightFlowDirector_ITransitionRule; }
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18935F00)
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0___TRIGGERTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0x18936C80)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC70AB10)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR___C__DISPLAYCLASS53_0___TRIGGERTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0xC70BB00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector___c__DisplayClass53_0_TypeDefinitionIndex = 60395;
+	inline static constexpr unsigned int GridFightFlowDirector___c__DisplayClass53_0_TypeDefinitionIndex = 61686;
 
 	class GridFightFlowDirector___c__DisplayClass53_0 : public ::System::Object
 	{

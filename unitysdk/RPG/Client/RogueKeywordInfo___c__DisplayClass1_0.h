@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueKeywordData; }
 
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184D9150)
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0__GETROGUEKEYWORDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x184DA3A0)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD3AEFA0)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0__GETROGUEKEYWORDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD3B0110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueKeywordInfo___c__DisplayClass1_0_TypeDefinitionIndex = 62903;
+	inline static constexpr unsigned int RogueKeywordInfo___c__DisplayClass1_0_TypeDefinitionIndex = 64270;
 
 	class RogueKeywordInfo___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -5,14 +5,14 @@
 
 namespace RPG::Client::ElectricChainV2 { class Shape; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_LINE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x156D9AD0)
-#define RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x156DB3F0)
-#define RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_EDCA216BAAE60E47_OFFSET UNITYSDK_OFFSET(0x156DA410)
-#define RPG_CLIENT_ELECTRICCHAINV2_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x156D5770)
+#define RPG_CLIENT_ELECTRICCHAINV2_LINE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xC35F5D0)
+#define RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0xC360C80)
+#define RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_CA075F4B01D48113_OFFSET UNITYSDK_OFFSET(0xC35FE60)
+#define RPG_CLIENT_ELECTRICCHAINV2_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0xC35A800)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Line_TypeDefinitionIndex = 68696;
+	inline static constexpr unsigned int Line_TypeDefinitionIndex = 70194;
 
 	class Line : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_LINE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_1_EDCA216BAAE60E47(::System::Single a1)
+		::UnityEngine::Vector3 Method_1_CA075F4B01D48113(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_EDCA216BAAE60E47_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_CA075F4B01D48113_OFFSET))(this, a1);
 		}
 
 		::System::Single get_Length()
@@ -35,9 +35,9 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_LINE_GET_LENGTH_OFFSET))(this);
 		}
 
-		::System::Void Method_1_9681042564541CD6()
+		::System::Void Method_1_B09E78EE7EE4F8FA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_LINE_METHOD_1_B09E78EE7EE4F8FA_OFFSET))(this);
 		}
 	};
 }

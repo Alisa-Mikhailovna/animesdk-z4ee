@@ -5,18 +5,18 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14403A70)
-#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS26_0__LUABINDDRAGSTARTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x14404960)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD7BA6E0)
+#define RPG_CLIENT_UIDRAGGABLEMANAGER___C__DISPLAYCLASS26_0__LUABINDDRAGSTARTCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xD7BB680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggableManager___c__DisplayClass26_0_TypeDefinitionIndex = 64615;
+	inline static constexpr unsigned int UIDraggableManager___c__DisplayClass26_0_TypeDefinitionIndex = 66016;
 
 	class UIDraggableManager___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::XLua::LuaTable* listener; // 0x10
-		::System::Action_2<::XLua::LuaTable*, ::System::Object*>* callback; // 0x18
+		::System::Action_2<::XLua::LuaTable*, ::System::Object*>* callback; // 0x10
+		::XLua::LuaTable* listener; // 0x18
 
 		::System::Void _ctor()
 		{

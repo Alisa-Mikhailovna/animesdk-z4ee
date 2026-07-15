@@ -7,23 +7,23 @@ namespace InControl { class BindingListenOptions; }
 namespace InControl { class BindingSource; }
 namespace InControl { class InputDevice; }
 
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x1523F0E0)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x1523F3C0)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x1523F060)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x1523F050)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1523F6D0)
-#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1523F6C0)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x19973CA0)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTENFORCONTROL_OFFSET UNITYSDK_OFFSET(0x19973F80)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_LISTEN_OFFSET UNITYSDK_OFFSET(0x19973C20)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER_RESET_OFFSET UNITYSDK_OFFSET(0x19973C10)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19974290)
+#define INCONTROL_MOUSEBINDINGSOURCELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19974280)
 
 namespace InControl
 {
-	inline static constexpr unsigned int MouseBindingSourceListener_TypeDefinitionIndex = 37841;
+	inline static constexpr unsigned int MouseBindingSourceListener_TypeDefinitionIndex = 38649;
 
 	class MouseBindingSourceListener : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet_ScrollWheelThreshold()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MouseBindingSourceListener_TypeDefinitionIndex)->GetStaticField(0x56F0);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(MouseBindingSourceListener_TypeDefinitionIndex)->GetStaticField(0x6490);
 		}
 		::InControl::Mouse detectFound; // 0x10
 		::System::Int32 detectPhase; // 0x14

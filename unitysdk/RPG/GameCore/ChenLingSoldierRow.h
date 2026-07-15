@@ -7,30 +7,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGSOLDIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A502DB0)
-#define RPG_GAMECORE_CHENLINGSOLDIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A503330)
+#define RPG_GAMECORE_CHENLINGSOLDIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B33C740)
+#define RPG_GAMECORE_CHENLINGSOLDIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33CCC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSoldierRow_TypeDefinitionIndex = 10612;
+	inline static constexpr unsigned int ChenLingSoldierRow_TypeDefinitionIndex = 10662;
 
 	class ChenLingSoldierRow : public ::System::Object
 	{
 	public:
-		::System::String* SmallIconPath; // 0x10
-		::System::String* SmallIconOutlinePath; // 0x18
-		::Il2CppArray<::System::UInt32>* AtkSkillIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* PromotionConditionList; // 0x30
-		::System::String* ModelPath; // 0x38
-		::RPG::Client::TextID PromotionSkillDesc; // 0x40
-		::System::UInt32 ID; // 0x50
-		::System::Boolean IsOnlyForEnemy; // 0x54
-		::System::UInt32 PromotionEffectID; // 0x58
-		::System::UInt32 InitialMaxLevel; // 0x5C
-		::RPG::Client::TextID Name; // 0x60
-		::RPG::Client::TextID SkillDesc; // 0x70
-		::RPG::GameCore::ChenLingBattleInitPosition Position; // 0x80
+		::System::String* ModelPath; // 0x10
+		::Il2CppArray<::System::UInt32>* PromotionConditionList; // 0x18
+		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x20
+		::System::String* SmallIconOutlinePath; // 0x28
+		::Il2CppArray<::System::UInt32>* AtkSkillIDList; // 0x30
+		::System::String* SmallIconPath; // 0x38
+		::RPG::Client::TextID Name; // 0x40
+		::System::Boolean IsOnlyForEnemy; // 0x50
+		::RPG::Client::TextID PromotionSkillDesc; // 0x58
+		::System::UInt32 InitialMaxLevel; // 0x68
+		::System::UInt32 ID; // 0x6C
+		::RPG::GameCore::ChenLingBattleInitPosition Position; // 0x70
+		::System::UInt32 PromotionEffectID; // 0x74
+		::RPG::Client::TextID SkillDesc; // 0x78
 
 		::System::Void _ctor()
 		{

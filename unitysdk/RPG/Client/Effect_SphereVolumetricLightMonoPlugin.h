@@ -17,22 +17,21 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x156C4C70)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0x156C4BF0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x156C4F30)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x156C4CC0)
-#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x156C4FC0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC34AA20)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETVOLUMETRICLIGHTRESULTRT_OFFSET UNITYSDK_OFFSET(0xC34A9A0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xC34ACE0)
+#define RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC34AA70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 65975;
+	inline static constexpr unsigned int Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex = 67400;
 
 	class Effect_SphereVolumetricLightMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_SphereVolumetricLightBehavior*>
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_Field_7_0()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0xDF50);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Effect_SphereVolumetricLightMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x68BF0);
 		}
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Blockers; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Holes; // 0x38
@@ -80,11 +79,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_SPHEREVOLUMETRICLIGHTMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

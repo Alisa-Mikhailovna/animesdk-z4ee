@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletSectionState_TypeDefinitionIndex = 67624;
+	inline static constexpr unsigned int BookletSectionState_TypeDefinitionIndex = 69108;
 
 	enum class BookletSectionState : ::System::Int32
 	{

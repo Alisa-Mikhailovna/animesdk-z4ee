@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Common::OS { class AgeGatePayValidationManager; }
 namespace MiHoYo::SDK::UI::OS { class IAgeGateParentalPermissionDialog; }
 
-#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17250360)
-#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS33_0__ONPARENTALCONSENTEMAILSENT_B__0_OFFSET UNITYSDK_OFFSET(0x17251050)
+#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBE860)
+#define MIHOYO_SDK_COMMON_OS_AGEGATEPAYVALIDATIONMANAGER___C__DISPLAYCLASS33_0__ONPARENTALCONSENTEMAILSENT_B__0_OFFSET UNITYSDK_OFFSET(0x19BBF780)
 
 namespace MiHoYo::SDK::Common::OS
 {
-	inline static constexpr unsigned int AgeGatePayValidationManager___c__DisplayClass33_0_TypeDefinitionIndex = 8491;
+	inline static constexpr unsigned int AgeGatePayValidationManager___c__DisplayClass33_0_TypeDefinitionIndex = 8503;
 
 	class AgeGatePayValidationManager___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Common::OS::AgeGatePayValidationManager* __4__this; // 0x10
-		::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog* dialog; // 0x18
+		::MiHoYo::SDK::UI::OS::IAgeGateParentalPermissionDialog* dialog; // 0x10
+		::MiHoYo::SDK::Common::OS::AgeGatePayValidationManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

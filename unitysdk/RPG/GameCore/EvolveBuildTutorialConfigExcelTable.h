@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A3F7B50)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A3F79E0)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1A3F76D0)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1A3F7980)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1A3F7D20)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A3F7750)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1A3F7D60)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3F7F30)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1A3F8170)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3F8520)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1A3F7E90)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A3F7DF0)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B3FDAE0)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B3FD970)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B3FD660)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B3FD910)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B3FDCB0)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3FD6E0)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3FDCF0)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3FDEC0)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B3FE100)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3FE4A0)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B3FDE20)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3FDD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex = 10994;
+	inline static constexpr unsigned int EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex = 11044;
 
 	class EvolveBuildTutorialConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16930);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x35300);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildTutorialConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildTutorialConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16938);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EvolveBuildTutorialConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x35308);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16940);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7FD0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x35310);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7FD1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8B90);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildTutorialConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8B91);
 		}
 
 		static ::System::Void _cctor()

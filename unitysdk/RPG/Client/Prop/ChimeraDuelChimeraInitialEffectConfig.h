@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class ChimeraDuelInitialEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG_QUERYINITIALEFFECT_OFFSET UNITYSDK_OFFSET(0x166D6910)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x166D6A90)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG_QUERYINITIALEFFECT_OFFSET UNITYSDK_OFFSET(0xD109710)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAINITIALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD109890)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraInitialEffectConfig_TypeDefinitionIndex = 72839;
+	inline static constexpr unsigned int ChimeraDuelChimeraInitialEffectConfig_TypeDefinitionIndex = 74364;
 
 	class ChimeraDuelChimeraInitialEffectConfig : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE_METHOD_3_2830705DE36EDE93_OFFSET UNITYSDK_OFFSET(0x1A79E070)
-#define RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE_METHOD_3_CDB72EEE20CA3AC7_OFFSET UNITYSDK_OFFSET(0x1A79DFF0)
-#define RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79E040)
+#define RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE_METHOD_3_2830705DE36EDE93_OFFSET UNITYSDK_OFFSET(0x1B8B4010)
+#define RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE_METHOD_3_7FCEAFAC708E33EC_OFFSET UNITYSDK_OFFSET(0x1B8B3FD0)
+#define RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B4000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetAlwaysAutoBattle_TypeDefinitionIndex = 21253;
+	inline static constexpr unsigned int SetTargetAlwaysAutoBattle_TypeDefinitionIndex = 21668;
 
 	class SetTargetAlwaysAutoBattle : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CDB72EEE20CA3AC7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAlwaysAutoBattle*& a2)
+		static ::System::Void Method_3_7FCEAFAC708E33EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAlwaysAutoBattle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAlwaysAutoBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE_METHOD_3_CDB72EEE20CA3AC7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAlwaysAutoBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETALWAYSAUTOBATTLE_METHOD_3_7FCEAFAC708E33EC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2830705DE36EDE93(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAlwaysAutoBattle* a2)

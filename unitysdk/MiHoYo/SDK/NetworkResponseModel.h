@@ -6,12 +6,12 @@ namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_NETWORKRESPONSEMODEL_TOJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x18683310)
-#define MIHOYO_SDK_NETWORKRESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1867E740)
+#define MIHOYO_SDK_NETWORKRESPONSEMODEL_TOJSONOBJECT_OFFSET UNITYSDK_OFFSET(0x19D59360)
+#define MIHOYO_SDK_NETWORKRESPONSEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19D54360)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkResponseModel_TypeDefinitionIndex = 8119;
+	inline static constexpr unsigned int NetworkResponseModel_TypeDefinitionIndex = 8129;
 
 	class NetworkResponseModel : public ::System::Object
 	{

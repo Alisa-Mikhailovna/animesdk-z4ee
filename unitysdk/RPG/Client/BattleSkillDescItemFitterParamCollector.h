@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_ADDTEXTITEM_OFFSET UNITYSDK_OFFSET(0x1790A690)
-#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_CREATE_OFFSET UNITYSDK_OFFSET(0x1790A580)
-#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1790A640)
+#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_ADDTEXTITEM_OFFSET UNITYSDK_OFFSET(0xBE9A630)
+#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR_CREATE_OFFSET UNITYSDK_OFFSET(0xBE9A520)
+#define RPG_CLIENT_BATTLESKILLDESCITEMFITTERPARAMCOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBE9A5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescItemFitterParamCollector_TypeDefinitionIndex = 67179;
+	inline static constexpr unsigned int BattleSkillDescItemFitterParamCollector_TypeDefinitionIndex = 68631;
 
 	class BattleSkillDescItemFitterParamCollector : public ::System::Object
 	{

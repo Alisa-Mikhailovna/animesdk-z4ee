@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLETOMAZESHOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1790CD30)
+#define RPG_CLIENT_BATTLETOMAZESHOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBE9CCD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleToMazeShotConfig_TypeDefinitionIndex = 65186;
+	inline static constexpr unsigned int BattleToMazeShotConfig_TypeDefinitionIndex = 66596;
 
 	class BattleToMazeShotConfig : public ::System::Object
 	{

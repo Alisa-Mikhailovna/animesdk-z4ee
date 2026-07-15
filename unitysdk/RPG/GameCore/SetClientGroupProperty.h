@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SETCLIENTGROUPPROPERTY_METHOD_3_23929BE0BB4AB4FD_OFFSET UNITYSDK_OFFSET(0x1A1EB6F0)
-#define RPG_GAMECORE_SETCLIENTGROUPPROPERTY_METHOD_3_94377F4940052DB6_OFFSET UNITYSDK_OFFSET(0x1A1EB670)
-#define RPG_GAMECORE_SETCLIENTGROUPPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EB6C0)
+#define RPG_GAMECORE_SETCLIENTGROUPPROPERTY_METHOD_3_23929BE0BB4AB4FD_OFFSET UNITYSDK_OFFSET(0x1B88C870)
+#define RPG_GAMECORE_SETCLIENTGROUPPROPERTY_METHOD_3_8C16F94ED19BC1E4_OFFSET UNITYSDK_OFFSET(0x1B88C830)
+#define RPG_GAMECORE_SETCLIENTGROUPPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88C860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetClientGroupProperty_TypeDefinitionIndex = 19585;
+	inline static constexpr unsigned int SetClientGroupProperty_TypeDefinitionIndex = 19944;
 
 	class SetClientGroupProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCLIENTGROUPPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_94377F4940052DB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetClientGroupProperty*& a2)
+		static ::System::Void Method_3_8C16F94ED19BC1E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetClientGroupProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetClientGroupProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCLIENTGROUPPROPERTY_METHOD_3_94377F4940052DB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetClientGroupProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCLIENTGROUPPROPERTY_METHOD_3_8C16F94ED19BC1E4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_23929BE0BB4AB4FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetClientGroupProperty* a2)

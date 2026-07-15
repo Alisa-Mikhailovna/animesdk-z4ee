@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x37CADD0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x39CC130)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleProduct_TypeDefinitionIndex = 8646;
+	inline static constexpr unsigned int ConsoleProduct_TypeDefinitionIndex = 8658;
 
 	struct alignas(8) ConsoleProduct
 	{

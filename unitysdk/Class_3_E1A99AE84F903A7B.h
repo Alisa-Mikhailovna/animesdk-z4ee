@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_17282789426EAD93.h"
+#include "unitysdk/Class_2_5F69A1738A3628CB.h"
 #include "unitysdk/RPG/Client/PlanetFesFloatingController_CoinAmount.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client { class PlanetFesFloatingController; }
 namespace System { class String; }
 
-#define CLASS_3_E1A99AE84F903A7B_METHOD_3_CE621DA0B2A1B7C9_OFFSET UNITYSDK_OFFSET(0x171E5CA0)
-#define CLASS_3_E1A99AE84F903A7B_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x171E5D50)
-#define CLASS_3_E1A99AE84F903A7B__CTOR_OFFSET UNITYSDK_OFFSET(0x171E5E40)
-#define CLASS_3_E1A99AE84F903A7B__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0x171E5E50)
-#define CLASS_3_E1A99AE84F903A7B___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x171E5E60)
+#define CLASS_3_E1A99AE84F903A7B_METHOD_3_CE621DA0B2A1B7C9_OFFSET UNITYSDK_OFFSET(0xB4D2AE0)
+#define CLASS_3_E1A99AE84F903A7B_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB4D2B90)
+#define CLASS_3_E1A99AE84F903A7B__CTOR_OFFSET UNITYSDK_OFFSET(0xB4D2F30)
+#define CLASS_3_E1A99AE84F903A7B__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB4D2F40)
 
-inline static constexpr unsigned int Class_3_E1A99AE84F903A7B_TypeDefinitionIndex = 69550;
+inline static constexpr unsigned int Class_3_E1A99AE84F903A7B_TypeDefinitionIndex = 71073;
 
-class Class_3_E1A99AE84F903A7B : public ::Class_2_17282789426EAD93
+class Class_3_E1A99AE84F903A7B : public ::Class_2_5F69A1738A3628CB
 {
 public:
 	::System::String* Field_3_0; // 0x28
@@ -40,10 +39,5 @@ public:
 	::System::Void _OnExecute_b__1_0()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E1A99AE84F903A7B__ONEXECUTE_B__1_0_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E1A99AE84F903A7B___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
 	}
 };

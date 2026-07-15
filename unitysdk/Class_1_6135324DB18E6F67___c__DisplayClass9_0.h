@@ -6,16 +6,16 @@
 class Class_1_6135324DB18E6F67;
 namespace RPG::Client::Prop { class ChimeraPreparationStateControllerBase; }
 
-#define CLASS_1_6135324DB18E6F67___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17286310)
-#define CLASS_1_6135324DB18E6F67___C__DISPLAYCLASS9_0__SWITCHTO_B__0_OFFSET UNITYSDK_OFFSET(0x17286680)
+#define CLASS_1_6135324DB18E6F67___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14604190)
+#define CLASS_1_6135324DB18E6F67___C__DISPLAYCLASS9_0__SWITCHTO_B__0_OFFSET UNITYSDK_OFFSET(0x14604650)
 
-inline static constexpr unsigned int Class_1_6135324DB18E6F67___c__DisplayClass9_0_TypeDefinitionIndex = 72992;
+inline static constexpr unsigned int Class_1_6135324DB18E6F67___c__DisplayClass9_0_TypeDefinitionIndex = 74517;
 
 class Class_1_6135324DB18E6F67___c__DisplayClass9_0 : public ::System::Object
 {
 public:
-	::Class_1_6135324DB18E6F67* __4__this; // 0x10
-	::RPG::Client::Prop::ChimeraPreparationStateControllerBase* lastStateController; // 0x18
+	::RPG::Client::Prop::ChimeraPreparationStateControllerBase* lastStateController; // 0x10
+	::Class_1_6135324DB18E6F67* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

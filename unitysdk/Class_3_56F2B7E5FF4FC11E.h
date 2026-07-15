@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByDrinkMakerCheersStoryDrinkHasMade; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_56F2B7E5FF4FC11E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x147D42C0)
-#define CLASS_3_56F2B7E5FF4FC11E__CTOR_OFFSET UNITYSDK_OFFSET(0x147D4290)
+#define CLASS_3_56F2B7E5FF4FC11E_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB611C20)
+#define CLASS_3_56F2B7E5FF4FC11E__CTOR_OFFSET UNITYSDK_OFFSET(0xB611BF0)
 
-inline static constexpr unsigned int Class_3_56F2B7E5FF4FC11E_TypeDefinitionIndex = 54177;
+inline static constexpr unsigned int Class_3_56F2B7E5FF4FC11E_TypeDefinitionIndex = 55400;
 
 class Class_3_56F2B7E5FF4FC11E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByDrinkMakerCheersStoryDrinkHasMade*>
 {

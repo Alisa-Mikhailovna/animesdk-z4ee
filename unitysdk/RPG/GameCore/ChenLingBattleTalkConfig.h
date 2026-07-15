@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingAbilityConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLETALKCONFIG_METHOD_2_5F489AB94C737957_OFFSET UNITYSDK_OFFSET(0x1A155530)
-#define RPG_GAMECORE_CHENLINGBATTLETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1555E0)
+#define RPG_GAMECORE_CHENLINGBATTLETALKCONFIG_METHOD_2_5F489AB94C737957_OFFSET UNITYSDK_OFFSET(0x1B330590)
+#define RPG_GAMECORE_CHENLINGBATTLETALKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B330640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleTalkConfig_TypeDefinitionIndex = 15040;
+	inline static constexpr unsigned int ChenLingBattleTalkConfig_TypeDefinitionIndex = 15204;
 
 	class ChenLingBattleTalkConfig : public ::RPG::GameCore::JsonConfig
 	{

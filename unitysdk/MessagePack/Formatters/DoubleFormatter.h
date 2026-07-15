@@ -6,21 +6,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FF6FA0)
-#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FF6F90)
-#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FF7040)
-#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF6F80)
+#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE4670)
+#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE4660)
+#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AE4710)
+#define MESSAGEPACK_FORMATTERS_DOUBLEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE4650)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DoubleFormatter_TypeDefinitionIndex = 7419;
+	inline static constexpr unsigned int DoubleFormatter_TypeDefinitionIndex = 7425;
 
 	class DoubleFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::DoubleFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::DoubleFormatter**)Il2CppClass::FromTypeDefinitionIndex(DoubleFormatter_TypeDefinitionIndex)->GetStaticField(0x8570);
+			return (::MessagePack::Formatters::DoubleFormatter**)Il2CppClass::FromTypeDefinitionIndex(DoubleFormatter_TypeDefinitionIndex)->GetStaticField(0xB220);
 		}
 
 		::System::Void _ctor()

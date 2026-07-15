@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/MonoTimelineControlGameLevelGroup_TriggerActionConfig.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERACTIONCONFIG_MOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x17AFD030)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERACTIONCONFIG_MOVE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2B0A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Move_TypeDefinitionIndex = 56488;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Move_TypeDefinitionIndex = 57728;
 
 	class MonoTimelineControlGameLevelGroup_TriggerActionConfig_Move : public ::RPG::Client::MonoTimelineControlGameLevelGroup_TriggerActionConfig
 	{

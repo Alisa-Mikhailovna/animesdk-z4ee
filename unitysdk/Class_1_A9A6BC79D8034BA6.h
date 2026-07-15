@@ -6,23 +6,23 @@ namespace RPG::GameCore { class HoyoTagInfo; }
 namespace RPG::GameCore { class HoyoTagNodeInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_A9A6BC79D8034BA6_METHOD_1_4C288C0C3DC7B4CA_OFFSET UNITYSDK_OFFSET(0x191B1490)
-#define CLASS_1_A9A6BC79D8034BA6_METHOD_1_62C3F50DADE97056_OFFSET UNITYSDK_OFFSET(0x191B1660)
-#define CLASS_1_A9A6BC79D8034BA6_METHOD_1_B00A1D822E6F5C31_OFFSET UNITYSDK_OFFSET(0x191B1400)
-#define CLASS_1_A9A6BC79D8034BA6__CCTOR_OFFSET UNITYSDK_OFFSET(0x191B1940)
+#define CLASS_1_A9A6BC79D8034BA6_METHOD_1_4C288C0C3DC7B4CA_OFFSET UNITYSDK_OFFSET(0x1B040E30)
+#define CLASS_1_A9A6BC79D8034BA6_METHOD_1_62C3F50DADE97056_OFFSET UNITYSDK_OFFSET(0x1B041000)
+#define CLASS_1_A9A6BC79D8034BA6_METHOD_1_B00A1D822E6F5C31_OFFSET UNITYSDK_OFFSET(0x1B040DA0)
+#define CLASS_1_A9A6BC79D8034BA6__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0412E0)
 
-inline static constexpr unsigned int Class_1_A9A6BC79D8034BA6_TypeDefinitionIndex = 23487;
+inline static constexpr unsigned int Class_1_A9A6BC79D8034BA6_TypeDefinitionIndex = 23976;
 
 class Class_1_A9A6BC79D8034BA6 : public ::System::Object
 {
 public:
-	static ::RPG::GameCore::HoyoTagInfo** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::HoyoTagNodeInfo*>** StaticGet_Field_1_0()
 	{
-		return (::RPG::GameCore::HoyoTagInfo**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A9A6BC79D8034BA6_TypeDefinitionIndex)->GetStaticField(0x64EA0);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::HoyoTagNodeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A9A6BC79D8034BA6_TypeDefinitionIndex)->GetStaticField(0xC320);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::HoyoTagNodeInfo*>** StaticGet_Field_1_1()
+	static ::RPG::GameCore::HoyoTagInfo** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::HoyoTagNodeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A9A6BC79D8034BA6_TypeDefinitionIndex)->GetStaticField(0x64EA8);
+		return (::RPG::GameCore::HoyoTagInfo**)Il2CppClass::FromTypeDefinitionIndex(Class_1_A9A6BC79D8034BA6_TypeDefinitionIndex)->GetStaticField(0xC328);
 	}
 
 	static ::System::Void _cctor()

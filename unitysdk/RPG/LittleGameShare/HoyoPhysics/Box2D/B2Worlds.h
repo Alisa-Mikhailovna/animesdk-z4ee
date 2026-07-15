@@ -1,0 +1,468 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2AABB.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BodyEvents.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BodyId.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Capsule.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ChainId.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ContactEvents.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ContactId.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Counters.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ExplosionContext.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ExplosionDef.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2JointEvents.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2JointId.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Profile.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2QueryFilter.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2RayCastInput.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2RayResult.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SensorEvents.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeCastInput.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeProxy.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2TreeStats.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WorldDef.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WorldMoverCastContext.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WorldMoverContext.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WorldOverlapContext.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WorldQueryContext.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2WorldRayCastContext.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2Contact; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2ContactSim; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2StepContext; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2CastResultFcn; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2CustomFilterFcn; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2FrictionCallback; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2OverlapResultFcn; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2PlaneResultFcn; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2PreSolveFcn; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2RestitutionCallback; }
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2TaskCallback; }
+
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2ADDNONTOUCHINGCONTACT_OFFSET UNITYSDK_OFFSET(0x1A70D2B0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2BODY_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A70F410)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2CHAIN_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A70F4F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2COLLIDETASK_OFFSET UNITYSDK_OFFSET(0x1A70CC00)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2COLLIDE_OFFSET UNITYSDK_OFFSET(0x1A70D5C0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2CONTACT_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A715630)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2CREATEWORLD_OFFSET UNITYSDK_OFFSET(0x1A709790)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTADDTASKFCN_OFFSET UNITYSDK_OFFSET(0x1A709680)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTFINISHTASKFCN_OFFSET UNITYSDK_OFFSET(0x1A7096F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTFRICTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A709700)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTRESTITUTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A709720)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DESTROYWORLD_OFFSET UNITYSDK_OFFSET(0x1A70BA90)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2GETWORLDLOCKED_OFFSET UNITYSDK_OFFSET(0x1A6F6E90)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2INITWORLD_OFFSET UNITYSDK_OFFSET(0x1A709850)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2JOINT_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A70F560)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2REMOVENONTOUCHINGCONTACT_OFFSET UNITYSDK_OFFSET(0x1A70D4E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2SHAPE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1A70F480)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2UPDATETREESTASK_OFFSET UNITYSDK_OFFSET(0x1A70D240)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2VALIDATECONNECTIVITY_OFFSET UNITYSDK_OFFSET(0x1A715620)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2VALIDATECONTACTS_OFFSET UNITYSDK_OFFSET(0x1A70ED10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2VALIDATESOLVERSETS_OFFSET UNITYSDK_OFFSET(0x1A6F6DF0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTMOVER_OFFSET UNITYSDK_OFFSET(0x1A713E70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTRAYCLOSEST_OFFSET UNITYSDK_OFFSET(0x1A713210)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTRAY_OFFSET UNITYSDK_OFFSET(0x1A712C30)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTSHAPE_OFFSET UNITYSDK_OFFSET(0x1A7138D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_COLLIDEMOVER_OFFSET UNITYSDK_OFFSET(0x1A714630)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_DUMPMEMORYSTATS_OFFSET UNITYSDK_OFFSET(0x1A70FFF0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLECONTINUOUS_OFFSET UNITYSDK_OFFSET(0x1A70F720)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLESLEEPING_OFFSET UNITYSDK_OFFSET(0x1A70F5D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLESPECULATIVE_OFFSET UNITYSDK_OFFSET(0x1A715600)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLEWARMSTARTING_OFFSET UNITYSDK_OFFSET(0x1A70F690)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_EXPLODE_OFFSET UNITYSDK_OFFSET(0x1A7153A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETAWAKEBODYCOUNT_OFFSET UNITYSDK_OFFSET(0x1A70F6E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETBODYEVENTS_OFFSET UNITYSDK_OFFSET(0x1A70F230)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETCONTACTEVENTS_OFFSET UNITYSDK_OFFSET(0x1A70F310)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETCOUNTERS_OFFSET UNITYSDK_OFFSET(0x1A70FA50)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETGRAVITY_OFFSET UNITYSDK_OFFSET(0x1A714BC0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETHITEVENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1A70F8B0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETJOINTEVENTS_OFFSET UNITYSDK_OFFSET(0x1A70F3C0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETMAXIMUMLINEARSPEED_OFFSET UNITYSDK_OFFSET(0x1A70F9D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETPROFILE_OFFSET UNITYSDK_OFFSET(0x1A70F9F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETRESTITUTIONTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1A70F800)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETSENSOREVENTS_OFFSET UNITYSDK_OFFSET(0x1A70F280)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETUSERDATA_OFFSET UNITYSDK_OFFSET(0x1A70FE50)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ISCONTINUOUSENABLED_OFFSET UNITYSDK_OFFSET(0x1A70F750)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ISSLEEPINGENABLED_OFFSET UNITYSDK_OFFSET(0x1A70F670)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ISWARMSTARTINGENABLED_OFFSET UNITYSDK_OFFSET(0x1A70F6C0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_OVERLAPAABB_OFFSET UNITYSDK_OFFSET(0x1A711AF0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_OVERLAPSHAPE_OFFSET UNITYSDK_OFFSET(0x1A712210)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_REBUILDSTATICTREE_OFFSET UNITYSDK_OFFSET(0x1A715560)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETCONTACTTUNING_OFFSET UNITYSDK_OFFSET(0x1A70F8D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETCUSTOMFILTERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A714B40)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETFRICTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A70FE70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETGRAVITY_OFFSET UNITYSDK_OFFSET(0x1A714BA0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETHITEVENTTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1A70F820)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETMAXIMUMLINEARSPEED_OFFSET UNITYSDK_OFFSET(0x1A70F9A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETPRESOLVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1A714B70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETRESTITUTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A70FF30)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETRESTITUTIONTHRESHOLD_OFFSET UNITYSDK_OFFSET(0x1A70F770)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETUSERDATA_OFFSET UNITYSDK_OFFSET(0x1A70FE30)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_STEP_OFFSET UNITYSDK_OFFSET(0x1A70ED20)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_EXPLOSIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A714BE0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_MOVERCASTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A713D10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_RAYCASTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A7129D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_RAYCASTCLOSESTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A713030)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_SHAPECASTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A7136D0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_TREECOLLIDECALLBACK_OFFSET UNITYSDK_OFFSET(0x1A714360)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_TREEOVERLAPCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A711ED0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_TREEQUERYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1A711A10)
+
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D
+{
+	inline static constexpr unsigned int B2Worlds_TypeDefinitionIndex = 35273;
+
+	class B2Worlds : public ::System::Object
+	{
+	public:
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* b2GetWorldLocked(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2GETWORLDLOCKED_OFFSET))(a1);
+		}
+
+		static ::System::Object* b2DefaultAddTaskFcn(::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4, ::System::Object* a5)
+		{
+			return ((::System::Object*(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::b2TaskCallback*, ::System::Int32, ::System::Int32, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTADDTASKFCN_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void b2DefaultFinishTaskFcn(::System::Object* a1, ::System::Object* a2)
+		{
+			return ((::System::Void(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTFINISHTASKFCN_OFFSET))(a1, a2);
+		}
+
+		static ::System::Single b2DefaultFrictionCallback(::System::Single a1, ::System::Int32 a2, ::System::Single a3, ::System::Int32 a4)
+		{
+			return ((::System::Single(*)(::System::Single, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTFRICTIONCALLBACK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Single b2DefaultRestitutionCallback(::System::Single a1, ::System::Int32 a2, ::System::Single a3, ::System::Int32 a4)
+		{
+			return ((::System::Single(*)(::System::Single, ::System::Int32, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DEFAULTRESTITUTIONCALLBACK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* b2CreateWorld(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldDef& a1, ::System::UInt16 a2)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldDef&, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2CREATEWORLD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void b2InitWorld(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldDef& a2, ::System::UInt16 a3)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldDef&, ::System::UInt16))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2INITWORLD_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void b2DestroyWorld(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2DESTROYWORLD_OFFSET))(a1);
+		}
+
+		static ::System::Void b2CollideTask(::System::Int32 a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Object* a4)
+		{
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::UInt32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2COLLIDETASK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void b2UpdateTreesTask(::System::Int32 a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Object* a4)
+		{
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::UInt32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2UPDATETREESTASK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void b2AddNonTouchingContact(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Contact* a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactSim* a3)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Contact*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactSim*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2ADDNONTOUCHINGCONTACT_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void b2RemoveNonTouchingContact(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2REMOVENONTOUCHINGCONTACT_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void b2Collide(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2StepContext* a1)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2StepContext*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2COLLIDE_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_Step(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Single a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_STEP_OFFSET))(a1, a2, a3);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyEvents b2World_GetBodyEvents(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyEvents(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETBODYEVENTS_OFFSET))(a1);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorEvents b2World_GetSensorEvents(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorEvents(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETSENSOREVENTS_OFFSET))(a1);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactEvents b2World_GetContactEvents(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactEvents(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETCONTACTEVENTS_OFFSET))(a1);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointEvents b2World_GetJointEvents(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointEvents(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETJOINTEVENTS_OFFSET))(a1);
+		}
+
+		static ::System::Boolean b2Body_IsValid(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2BODY_ISVALID_OFFSET))(a1);
+		}
+
+		static ::System::Boolean b2Shape_IsValid(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2SHAPE_ISVALID_OFFSET))(a1);
+		}
+
+		static ::System::Boolean b2Chain_IsValid(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainId a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ChainId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2CHAIN_ISVALID_OFFSET))(a1);
+		}
+
+		static ::System::Boolean b2Joint_IsValid(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointId a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2JOINT_ISVALID_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_EnableSleeping(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLESLEEPING_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean b2World_IsSleepingEnabled(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ISSLEEPINGENABLED_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_EnableWarmStarting(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLEWARMSTARTING_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean b2World_IsWarmStartingEnabled(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ISWARMSTARTINGENABLED_OFFSET))(a1);
+		}
+
+		static ::System::Int32 b2World_GetAwakeBodyCount(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETAWAKEBODYCOUNT_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_EnableContinuous(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLECONTINUOUS_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean b2World_IsContinuousEnabled(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ISCONTINUOUSENABLED_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_SetRestitutionThreshold(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETRESTITUTIONTHRESHOLD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Single b2World_GetRestitutionThreshold(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETRESTITUTIONTHRESHOLD_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_SetHitEventThreshold(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETHITEVENTTHRESHOLD_OFFSET))(a1, a2);
+		}
+
+		static ::System::Single b2World_GetHitEventThreshold(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETHITEVENTTHRESHOLD_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_SetContactTuning(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETCONTACTTUNING_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void b2World_SetMaximumLinearSpeed(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETMAXIMUMLINEARSPEED_OFFSET))(a1, a2);
+		}
+
+		static ::System::Single b2World_GetMaximumLinearSpeed(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETMAXIMUMLINEARSPEED_OFFSET))(a1);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Profile b2World_GetProfile(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Profile(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETPROFILE_OFFSET))(a1);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Counters b2World_GetCounters(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Counters(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETCOUNTERS_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_SetUserData(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Object* a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETUSERDATA_OFFSET))(a1, a2);
+		}
+
+		static ::System::Object* b2World_GetUserData(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Object*(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETUSERDATA_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_SetFrictionCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FrictionCallback* a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2FrictionCallback*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETFRICTIONCALLBACK_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void b2World_SetRestitutionCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2RestitutionCallback* a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2RestitutionCallback*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETRESTITUTIONCALLBACK_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void b2World_DumpMemoryStats(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_DUMPMEMORYSTATS_OFFSET))(a1);
+		}
+
+		static ::System::Boolean TreeQueryCallback(::System::Int32 a1, ::System::UInt64 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldQueryContext& a3)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldQueryContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_TREEQUERYCALLBACK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats b2World_OverlapAABB(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AABB a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2OverlapResultFcn* a4, ::System::Object* a5)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AABB, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2OverlapResultFcn*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_OVERLAPAABB_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Boolean TreeOverlapCallback(::System::Int32 a1, ::System::UInt64 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldOverlapContext& a3)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldOverlapContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_TREEOVERLAPCALLBACK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats b2World_OverlapShape(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeProxy& a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2OverlapResultFcn* a4, ::System::Object* a5)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeProxy&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2OverlapResultFcn*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_OVERLAPSHAPE_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Single RayCastCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2RayCastInput& a1, ::System::Int32 a2, ::System::UInt64 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext& a4)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2RayCastInput&, ::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_RAYCASTCALLBACK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats b2World_CastRay(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter a4, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2CastResultFcn* a5, ::System::Object* a6)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2CastResultFcn*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTRAY_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Single RayCastClosestCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2RayCastInput& a1, ::System::Int32 a2, ::System::UInt64 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext& a4)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2RayCastInput&, ::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_RAYCASTCLOSESTCALLBACK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2RayResult b2World_CastRayClosest(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter a4, ::System::Boolean a5)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2RayResult(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTRAYCLOSEST_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Single ShapeCastCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeCastInput& a1, ::System::Int32 a2, ::System::UInt64 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext& a4)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeCastInput&, ::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldRayCastContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_SHAPECASTCALLBACK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats b2World_CastShape(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeProxy& a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter a4, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2CastResultFcn* a5, ::System::Object* a6)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2TreeStats(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeProxy&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2CastResultFcn*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTSHAPE_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Single MoverCastCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeCastInput& a1, ::System::Int32 a2, ::System::UInt64 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverCastContext& a4)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeCastInput&, ::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverCastContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_MOVERCASTCALLBACK_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Single b2World_CastMover(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter a4)
+		{
+			return ((::System::Single(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_CASTMOVER_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Boolean TreeCollideCallback(::System::Int32 a1, ::System::UInt64 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverContext& a3)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2WorldMoverContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_TREECOLLIDECALLBACK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void b2World_CollideMover(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule& a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter a3, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2PlaneResultFcn* a4, ::System::Object* a5)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule&, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2QueryFilter, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2PlaneResultFcn*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_COLLIDEMOVER_OFFSET))(a1, a2, a3, a4, a5);
+		}
+
+		static ::System::Void b2World_SetCustomFilterCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2CustomFilterFcn* a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2CustomFilterFcn*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETCUSTOMFILTERCALLBACK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void b2World_SetPreSolveCallback(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2PreSolveFcn* a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::b2PreSolveFcn*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETPRESOLVECALLBACK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void b2World_SetGravity(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_SETGRAVITY_OFFSET))(a1, a2);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 b2World_GetGravity(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_GETGRAVITY_OFFSET))(a1);
+		}
+
+		static ::System::Boolean ExplosionCallback(::System::Int32 a1, ::System::UInt64 a2, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionContext& a3)
+		{
+			return ((::System::Boolean(*)(::System::Int32, ::System::UInt64, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionContext&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_EXPLOSIONCALLBACK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void b2World_Explode(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionDef& a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ExplosionDef&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_EXPLODE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void b2World_RebuildStaticTree(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_REBUILDSTATICTREE_OFFSET))(a1);
+		}
+
+		static ::System::Void b2World_EnableSpeculative(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2WORLD_ENABLESPECULATIVE_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void b2ValidateConnectivity(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2VALIDATECONNECTIVITY_OFFSET))(a1);
+		}
+
+		static ::System::Void b2ValidateSolverSets(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2VALIDATESOLVERSETS_OFFSET))(a1);
+		}
+
+		static ::System::Void b2ValidateContacts(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* a1)
+		{
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2VALIDATECONTACTS_OFFSET))(a1);
+		}
+
+		static ::System::Boolean b2Contact_IsValid(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactId a1)
+		{
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactId))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDS_B2CONTACT_ISVALID_OFFSET))(a1);
+		}
+	};
+}

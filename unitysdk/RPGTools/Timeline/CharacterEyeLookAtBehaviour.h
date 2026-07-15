@@ -7,13 +7,12 @@
 namespace RPGTools::Timeline { class CharacterEyeLookAtData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTEREYELOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198C9730)
-#define RPGTOOLS_TIMELINE_CHARACTEREYELOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x198C9AA0)
-#define RPGTOOLS_TIMELINE_CHARACTEREYELOOKATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x198C9AB0)
+#define RPGTOOLS_TIMELINE_CHARACTEREYELOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCA96E0)
+#define RPGTOOLS_TIMELINE_CHARACTEREYELOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCA9A60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterEyeLookAtBehaviour_TypeDefinitionIndex = 45274;
+	inline static constexpr unsigned int CharacterEyeLookAtBehaviour_TypeDefinitionIndex = 46198;
 
 	class CharacterEyeLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -29,11 +28,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTEREYELOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTEREYELOOKATBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

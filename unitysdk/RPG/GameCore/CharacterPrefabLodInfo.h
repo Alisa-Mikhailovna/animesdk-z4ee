@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERPREFABLODINFO_METHOD_2_EC20A3E7C21F67BD_OFFSET UNITYSDK_OFFSET(0x1A145390)
-#define RPG_GAMECORE_CHARACTERPREFABLODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A145450)
+#define RPG_GAMECORE_CHARACTERPREFABLODINFO_METHOD_2_EC20A3E7C21F67BD_OFFSET UNITYSDK_OFFSET(0x1B320050)
+#define RPG_GAMECORE_CHARACTERPREFABLODINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B320110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterPrefabLodInfo_TypeDefinitionIndex = 18114;
+	inline static constexpr unsigned int CharacterPrefabLodInfo_TypeDefinitionIndex = 18348;
 
 	class CharacterPrefabLodInfo : public ::RPG::GameCore::JsonConfig
 	{

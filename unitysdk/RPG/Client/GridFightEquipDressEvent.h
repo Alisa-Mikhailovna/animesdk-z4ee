@@ -6,11 +6,11 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPDRESSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1891B0B0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPDRESSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC6EAF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipDressEvent_TypeDefinitionIndex = 60701;
+	inline static constexpr unsigned int GridFightEquipDressEvent_TypeDefinitionIndex = 61993;
 
 	class GridFightEquipDressEvent : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* EquipUIDs; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* EquipUIDsToRank; // 0x20
 		::RPG::Client::GridFightPlacementType PlacementType; // 0x28
-		::System::UInt32 MemberUID; // 0x2C
-		::System::Boolean IsFromCraft; // 0x30
-		::System::Boolean IsFromTrack; // 0x31
+		::System::Boolean IsFromTrack; // 0x2C
+		::System::Boolean IsFromCraft; // 0x2D
+		::System::UInt32 MemberUID; // 0x30
 		::System::UInt32 PlacementIndex; // 0x34
 
 		::System::Void _ctor()

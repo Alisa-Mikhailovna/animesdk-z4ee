@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C87150)
-#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C87400)
+#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4A59B0)
+#define RPG_GAMECORE_FUNCTIONHUDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4A5C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunctionHudConfigRow_TypeDefinitionIndex = 12672;
+	inline static constexpr unsigned int FunctionHudConfigRow_TypeDefinitionIndex = 12809;
 
 	class FunctionHudConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* OverrideHudIconPath; // 0x10
+		::System::String* RedDotHud; // 0x10
 		::System::String* RedDot; // 0x18
-		::System::String* RedDotHud; // 0x20
+		::System::String* OverrideHudIconPath; // 0x20
 		::System::String* IconPath; // 0x28
-		::System::UInt32 FunctionID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::RPG::Client::TextID Name; // 0x38
+		::RPG::Client::TextID Name; // 0x30
+		::System::UInt32 ID; // 0x40
+		::System::UInt32 FunctionID; // 0x44
 
 		::System::Void _ctor()
 		{

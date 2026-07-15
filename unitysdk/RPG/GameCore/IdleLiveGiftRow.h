@@ -7,31 +7,31 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGIFTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD76E0)
-#define RPG_GAMECORE_IDLELIVEGIFTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD7BA0)
+#define RPG_GAMECORE_IDLELIVEGIFTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B526F00)
+#define RPG_GAMECORE_IDLELIVEGIFTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5273C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGiftRow_TypeDefinitionIndex = 11289;
+	inline static constexpr unsigned int IdleLiveGiftRow_TypeDefinitionIndex = 11389;
 
 	class IdleLiveGiftRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::Client::TextID MainText; // 0x18
-		::System::UInt32 UnlockID; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::System::UInt32 SourceID; // 0x30
-		::System::Single ProtectTime; // 0x34
-		::System::UInt32 Count; // 0x38
-		::System::UInt32 DonateValue; // 0x3C
-		::RPG::GameCore::IdleLiveGiftSourceType SourceType; // 0x40
-		::System::UInt32 RewardID; // 0x44
-		::System::UInt32 SenderID; // 0x48
-		::System::UInt32 RarityType; // 0x4C
-		::System::UInt32 FinalActChapterIndex; // 0x50
-		::System::Single FlySpeed; // 0x54
-		::System::UInt32 TriggerID; // 0x58
+		::System::UInt32 Count; // 0x18
+		::System::Single ProtectTime; // 0x1C
+		::System::Single FlySpeed; // 0x20
+		::System::UInt32 RewardID; // 0x24
+		::System::UInt32 ID; // 0x28
+		::RPG::GameCore::IdleLiveGiftSourceType SourceType; // 0x2C
+		::System::UInt32 RarityType; // 0x30
+		::System::UInt32 DonateValue; // 0x34
+		::System::UInt32 TriggerID; // 0x38
+		::System::UInt32 SenderID; // 0x3C
+		::System::UInt32 UnlockID; // 0x40
+		::RPG::Client::TextID MainText; // 0x48
+		::System::UInt32 FinalActChapterIndex; // 0x58
+		::System::UInt32 SourceID; // 0x5C
 
 		::System::Void _ctor()
 		{

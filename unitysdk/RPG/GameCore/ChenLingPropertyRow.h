@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A502500)
-#define RPG_GAMECORE_CHENLINGPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A502750)
+#define RPG_GAMECORE_CHENLINGPROPERTYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B33BFE0)
+#define RPG_GAMECORE_CHENLINGPROPERTYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33C230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingPropertyRow_TypeDefinitionIndex = 10618;
+	inline static constexpr unsigned int ChenLingPropertyRow_TypeDefinitionIndex = 10668;
 
 	class ChenLingPropertyRow : public ::System::Object
 	{

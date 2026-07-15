@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E612F0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E61330)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__GET_ISVALID_B__14_0_OFFSET UNITYSDK_OFFSET(0x17E61340)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDB0400)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBDB0440)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__GET_ISVALID_B__14_0_OFFSET UNITYSDK_OFFSET(0xBDB0450)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataNode___c_TypeDefinitionIndex = 68779;
+	inline static constexpr unsigned int AstraFXDataNode___c_TypeDefinitionIndex = 70279;
 
 	class AstraFXDataNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::AstraFX::AstraFXDataNodeDescription, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::Client::AstraFX::AstraFXDataNodeDescription, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AstraFXDataNode___c_TypeDefinitionIndex)->GetStaticField(0x5D830);
+			return (::System::Func_2<::RPG::Client::AstraFX::AstraFXDataNodeDescription, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AstraFXDataNode___c_TypeDefinitionIndex)->GetStaticField(0x4F270);
 		}
 		static ::RPG::Client::AstraFX::AstraFXDataNode___c** StaticGet___9()
 		{
-			return (::RPG::Client::AstraFX::AstraFXDataNode___c**)Il2CppClass::FromTypeDefinitionIndex(AstraFXDataNode___c_TypeDefinitionIndex)->GetStaticField(0x5D838);
+			return (::RPG::Client::AstraFX::AstraFXDataNode___c**)Il2CppClass::FromTypeDefinitionIndex(AstraFXDataNode___c_TypeDefinitionIndex)->GetStaticField(0x4F278);
 		}
 
 		static ::System::Void _cctor()

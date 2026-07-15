@@ -6,13 +6,13 @@ namespace CriWare { class CriAtomExSequencer_EventCallback; }
 namespace CriWare { class CriAtomExSequencer_EventCbFunc; }
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXSEQUENCER_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E42A10)
-#define CRIWARE_CRIATOMEXSEQUENCER_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E42B10)
-#define CRIWARE_CRIATOMEXSEQUENCER_SETEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x19E4B410)
+#define CRIWARE_CRIATOMEXSEQUENCER_ADD_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x15742D70)
+#define CRIWARE_CRIATOMEXSEQUENCER_REMOVE_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x15742E70)
+#define CRIWARE_CRIATOMEXSEQUENCER_SETEVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1574D670)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSequencer_TypeDefinitionIndex = 37041;
+	inline static constexpr unsigned int CriAtomExSequencer_TypeDefinitionIndex = 37840;
 
 	class CriAtomExSequencer : public ::System::Object
 	{

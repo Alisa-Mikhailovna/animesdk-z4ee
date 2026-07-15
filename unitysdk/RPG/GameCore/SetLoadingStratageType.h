@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETLOADINGSTRATAGETYPE_METHOD_3_0E16831AC1DE9E45_OFFSET UNITYSDK_OFFSET(0x1A790CD0)
-#define RPG_GAMECORE_SETLOADINGSTRATAGETYPE_METHOD_3_1A8E79B7C454BBEE_OFFSET UNITYSDK_OFFSET(0x1A790C50)
-#define RPG_GAMECORE_SETLOADINGSTRATAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A790CA0)
+#define RPG_GAMECORE_SETLOADINGSTRATAGETYPE_METHOD_3_0E16831AC1DE9E45_OFFSET UNITYSDK_OFFSET(0x1B8A80F0)
+#define RPG_GAMECORE_SETLOADINGSTRATAGETYPE_METHOD_3_D4C8EC5A8B2ED5C4_OFFSET UNITYSDK_OFFSET(0x1B8A80B0)
+#define RPG_GAMECORE_SETLOADINGSTRATAGETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A80E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLoadingStratageType_TypeDefinitionIndex = 20356;
+	inline static constexpr unsigned int SetLoadingStratageType_TypeDefinitionIndex = 20771;
 
 	class SetLoadingStratageType : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOADINGSTRATAGETYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1A8E79B7C454BBEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoadingStratageType*& a2)
+		static ::System::Void Method_3_D4C8EC5A8B2ED5C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoadingStratageType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLoadingStratageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOADINGSTRATAGETYPE_METHOD_3_1A8E79B7C454BBEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLoadingStratageType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOADINGSTRATAGETYPE_METHOD_3_D4C8EC5A8B2ED5C4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0E16831AC1DE9E45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoadingStratageType* a2)

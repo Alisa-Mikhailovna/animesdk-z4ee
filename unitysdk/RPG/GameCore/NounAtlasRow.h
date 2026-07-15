@@ -5,25 +5,25 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NOUNATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19109210)
-#define RPG_GAMECORE_NOUNATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19109620)
+#define RPG_GAMECORE_NOUNATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B675BA0)
+#define RPG_GAMECORE_NOUNATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B675FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NounAtlasRow_TypeDefinitionIndex = 12083;
+	inline static constexpr unsigned int NounAtlasRow_TypeDefinitionIndex = 12215;
 
 	class NounAtlasRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RelatedTerms; // 0x10
-		::System::Boolean IsIntroPage; // 0x18
-		::System::UInt32 Unlock; // 0x1C
+		::System::UInt32 Type; // 0x18
 		::RPG::Client::TextID NounDesc; // 0x20
-		::System::UInt32 ID; // 0x30
-		::RPG::Client::TextID UnlockDesc; // 0x38
-		::RPG::Client::TextID NounTitle; // 0x48
-		::System::UInt32 Type; // 0x58
-		::System::Int32 SortID; // 0x5C
+		::RPG::Client::TextID UnlockDesc; // 0x30
+		::RPG::Client::TextID NounTitle; // 0x40
+		::System::UInt32 ID; // 0x50
+		::System::Boolean IsIntroPage; // 0x54
+		::System::Int32 SortID; // 0x58
+		::System::UInt32 Unlock; // 0x5C
 
 		::System::Void _ctor()
 		{

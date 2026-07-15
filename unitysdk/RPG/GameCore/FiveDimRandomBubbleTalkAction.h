@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimActionRandomBubbleTalkInfoGroup; }
 
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_26BCED3E66228E34_OFFSET UNITYSDK_OFFSET(0x1A39EE50)
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_BA9031E315B6B22C_OFFSET UNITYSDK_OFFSET(0x1A39EDE0)
-#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A39EE30)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_26BCED3E66228E34_OFFSET UNITYSDK_OFFSET(0x1B444560)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_AF44C1856300F8B3_OFFSET UNITYSDK_OFFSET(0x1B444510)
+#define RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B444550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRandomBubbleTalkAction_TypeDefinitionIndex = 17864;
+	inline static constexpr unsigned int FiveDimRandomBubbleTalkAction_TypeDefinitionIndex = 18041;
 
 	class FiveDimRandomBubbleTalkAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BA9031E315B6B22C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*& a2)
+		static ::System::Void Method_3_AF44C1856300F8B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_BA9031E315B6B22C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRandomBubbleTalkAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRANDOMBUBBLETALKACTION_METHOD_3_AF44C1856300F8B3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_26BCED3E66228E34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRandomBubbleTalkAction* a2)

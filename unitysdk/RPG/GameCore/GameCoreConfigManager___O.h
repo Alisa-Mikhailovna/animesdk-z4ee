@@ -7,18 +7,18 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConfigManager___O_TypeDefinitionIndex = 52760;
+	inline static constexpr unsigned int GameCoreConfigManager___O_TypeDefinitionIndex = 53971;
 
 	class GameCoreConfigManager___O : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet__1____OnConfigsLoadFinished()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConfigManager___O_TypeDefinitionIndex)->GetStaticField(0x67890);
-		}
 		static ::System::Action_1<::System::Single>** StaticGet__0____OnConfigLoadingProgressChanged()
 		{
-			return (::System::Action_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConfigManager___O_TypeDefinitionIndex)->GetStaticField(0x67898);
+			return (::System::Action_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConfigManager___O_TypeDefinitionIndex)->GetStaticField(0x62960);
+		}
+		static ::System::Action** StaticGet__1____OnConfigsLoadFinished()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConfigManager___O_TypeDefinitionIndex)->GetStaticField(0x62968);
 		}
 	};
 }

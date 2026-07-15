@@ -12,23 +12,23 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2RAW_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x37508C0)
-#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2RAW_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x37508D0)
+#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2RAW_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2D0EC30)
+#define CLASS_1_25538049F7DB29C4__GETSHEETVALUESV2RAW_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2D0EC40)
 
-inline static constexpr unsigned int Class_1_25538049F7DB29C4__GetSheetValuesV2Raw_d__9_TypeDefinitionIndex = 46862;
+inline static constexpr unsigned int Class_1_25538049F7DB29C4__GetSheetValuesV2Raw_d__9_TypeDefinitionIndex = 47827;
 
 struct alignas(8) Class_1_25538049F7DB29C4__GetSheetValuesV2Raw_d__9
 {
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__2; // 0x10
-	::Class_1_25538049F7DB29C4* __4__this; // 0x20
-	::System::Net::Http::HttpClient* _client_5__3; // 0x28
-	::System::String* docID; // 0x30
-	::System::String* sheetID; // 0x38
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__3; // 0x40
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x50
-	::System::String* rangeAddress; // 0x58
-	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x60
-	::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x78
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__3; // 0x10
+	::System::Net::Http::HttpClient* _client_5__3; // 0x20
+	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x28
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__2; // 0x40
+	::System::String* sheetID; // 0x50
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x58
+	::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x60
+	::Class_1_25538049F7DB29C4* __4__this; // 0x68
+	::System::String* rangeAddress; // 0x70
+	::System::String* docID; // 0x78
 	::System::Int32 __1__state; // 0x80
 
 	::System::Void MoveNext()

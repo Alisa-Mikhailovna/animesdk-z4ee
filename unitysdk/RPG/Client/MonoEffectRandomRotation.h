@@ -6,13 +6,12 @@
 namespace RPG::Client { class MonoEffectRandomRotationContorlBehaviorlBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x174CAC10)
-#define RPG_CLIENT_MONOEFFECTRANDOMROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x174CAC60)
-#define RPG_CLIENT_MONOEFFECTRANDOMROTATION___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x174CAC80)
+#define RPG_CLIENT_MONOEFFECTRANDOMROTATION_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCCCF870)
+#define RPG_CLIENT_MONOEFFECTRANDOMROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0xCCCF8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectRandomRotation_TypeDefinitionIndex = 64166;
+	inline static constexpr unsigned int MonoEffectRandomRotation_TypeDefinitionIndex = 65537;
 
 	class MonoEffectRandomRotation : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MonoEffectRandomRotationContorlBehaviorlBehavior*>
 	{
@@ -38,11 +37,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTRANDOMROTATION_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTRANDOMROTATION___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

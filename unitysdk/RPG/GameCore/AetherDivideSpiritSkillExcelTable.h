@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x18BC4630)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x18BC44C0)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x18BC41B0)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x18BC4460)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x18BC47C0)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x18BC4230)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x18BC4800)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BC49D0)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x18BC5430)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18BC57A0)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x18BC4930)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x18BC4890)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B18E110)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B18DFA0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B18DC90)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B18DF40)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B18E2A0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B18DD10)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B18E2E0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B18E4B0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B18EF10)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B18F280)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B18E410)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITSKILLEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B18E370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex = 10504;
+	inline static constexpr unsigned int AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex = 10552;
 
 	class AetherDivideSpiritSkillExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x2640);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x2648);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x23640);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideSpiritSkillRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideSpiritSkillRow*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x2650);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDivideSpiritSkillRow*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x23648);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x23650);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0xFB0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x6E70);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0xFB1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AetherDivideSpiritSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x6E71);
 		}
 
 		static ::System::Void _cctor()

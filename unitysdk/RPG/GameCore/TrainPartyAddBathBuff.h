@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYADDBATHBUFF_METHOD_3_33752FA822E5249A_OFFSET UNITYSDK_OFFSET(0x16D26AA0)
-#define RPG_GAMECORE_TRAINPARTYADDBATHBUFF_METHOD_3_F0B65C35D89D3AA3_OFFSET UNITYSDK_OFFSET(0x16D26B20)
-#define RPG_GAMECORE_TRAINPARTYADDBATHBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x16D26AF0)
+#define RPG_GAMECORE_TRAINPARTYADDBATHBUFF_METHOD_3_44FDAF36E0E18890_OFFSET UNITYSDK_OFFSET(0x1B97D170)
+#define RPG_GAMECORE_TRAINPARTYADDBATHBUFF_METHOD_3_F0B65C35D89D3AA3_OFFSET UNITYSDK_OFFSET(0x1B97D1B0)
+#define RPG_GAMECORE_TRAINPARTYADDBATHBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97D1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyAddBathBuff_TypeDefinitionIndex = 21133;
+	inline static constexpr unsigned int TrainPartyAddBathBuff_TypeDefinitionIndex = 21548;
 
 	class TrainPartyAddBathBuff : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYADDBATHBUFF__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_33752FA822E5249A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyAddBathBuff*& a2)
+		static ::System::Void Method_3_44FDAF36E0E18890(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyAddBathBuff*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyAddBathBuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYADDBATHBUFF_METHOD_3_33752FA822E5249A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyAddBathBuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYADDBATHBUFF_METHOD_3_44FDAF36E0E18890_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F0B65C35D89D3AA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyAddBathBuff* a2)

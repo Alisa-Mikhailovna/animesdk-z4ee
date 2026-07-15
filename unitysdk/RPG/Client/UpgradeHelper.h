@@ -5,12 +5,12 @@
 
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define RPG_CLIENT_UPGRADEHELPER_CHECKLINEUPNEEDSSHOWUPGRADE_OFFSET UNITYSDK_OFFSET(0x14BA8C10)
-#define RPG_CLIENT_UPGRADEHELPER_GETUPGRADEAVAILABLEAVATAR_OFFSET UNITYSDK_OFFSET(0x14BA8C60)
+#define RPG_CLIENT_UPGRADEHELPER_CHECKLINEUPNEEDSSHOWUPGRADE_OFFSET UNITYSDK_OFFSET(0xD81EEF0)
+#define RPG_CLIENT_UPGRADEHELPER_GETUPGRADEAVAILABLEAVATAR_OFFSET UNITYSDK_OFFSET(0xD81EF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UpgradeHelper_TypeDefinitionIndex = 58618;
+	inline static constexpr unsigned int UpgradeHelper_TypeDefinitionIndex = 59889;
 
 	class UpgradeHelper : public ::System::Object
 	{

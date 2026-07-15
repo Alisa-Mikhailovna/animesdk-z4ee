@@ -7,13 +7,12 @@ namespace RPG::Client { class ActivitySummonStage; }
 namespace RPG::GameCore { class ActivityQuestRewardDataRow; }
 namespace RPG::GameCore { class ActivitySummonRewardTabRow; }
 
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1676E880)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1676E7F0)
-#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1676E9B0)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xBC72400)
+#define RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBC72370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 57907;
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 59173;
 
 	class ActivitySummonQuestRewardTabInfo : public ::RPG::Client::CommonActivityQuestRewardTabInfo
 	{
@@ -30,11 +29,6 @@ namespace RPG::Client
 		::RPG::Client::TextID get_Title()
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO_GET_TITLE_OFFSET))(this);
-		}
-
-		::RPG::Client::TextID __iFixBaseProxy_get_Title()
-		{
-			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSUMMONQUESTREWARDTABINFO___IFIXBASEPROXY_GET_TITLE_OFFSET))(this);
 		}
 	};
 }

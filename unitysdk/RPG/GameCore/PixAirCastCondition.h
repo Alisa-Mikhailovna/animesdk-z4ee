@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 
-#define RPG_GAMECORE_PIXAIRCASTCONDITION_METHOD_2_BE7E5A314C5AC875_OFFSET UNITYSDK_OFFSET(0x19D3F650)
-#define RPG_GAMECORE_PIXAIRCASTCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19D3F7D0)
+#define RPG_GAMECORE_PIXAIRCASTCONDITION_METHOD_2_BE7E5A314C5AC875_OFFSET UNITYSDK_OFFSET(0x1B6B22B0)
+#define RPG_GAMECORE_PIXAIRCASTCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B2430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirCastCondition_TypeDefinitionIndex = 15436;
+	inline static constexpr unsigned int PixAirCastCondition_TypeDefinitionIndex = 15607;
 
 	class PixAirCastCondition : public ::RPG::GameCore::JsonConfig
 	{

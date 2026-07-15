@@ -6,34 +6,34 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_MESSAGEPREVIEW_OFFSET UNITYSDK_OFFSET(0x186E25B0)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACEPREVIEW_OFFSET UNITYSDK_OFFSET(0x186E2670)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x186E25A0)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_MATCHES_OFFSET UNITYSDK_OFFSET(0x186E2900)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_SET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x186E2550)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x186E2990)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x186E24A0)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x186E2490)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_MESSAGEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1C9CD800)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1C9CD8C0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x1C9CD7F0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_MATCHES_OFFSET UNITYSDK_OFFSET(0x1C9CDB80)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_SET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x1C9CD7A0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9CDC10)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C9CD6F0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9CD6E0)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ConsoleEntry_TypeDefinitionIndex = 35722;
+	inline static constexpr unsigned int ConsoleEntry_TypeDefinitionIndex = 36504;
 
 	class ConsoleEntry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet__stackTracePreviewMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleEntry_TypeDefinitionIndex)->GetStaticField(0x60A70);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleEntry_TypeDefinitionIndex)->GetStaticField(0x63A60);
 		}
 		// static const ::System::Int32 MessagePreviewLength = 0xB4; // 0x0
 		// static const ::System::Int32 StackTracePreviewLength = 0x78; // 0x0
-		::System::String* _messagePreview; // 0x10
+		::System::String* Message; // 0x10
 		::System::String* _stackTrace; // 0x18
-		::System::String* _stackTracePreview; // 0x20
-		::System::String* Message; // 0x28
-		::System::Int32 Count; // 0x30
-		::UnityEngine::LogType LogType; // 0x34
+		::System::String* _messagePreview; // 0x20
+		::System::String* _stackTracePreview; // 0x28
+		::UnityEngine::LogType LogType; // 0x30
+		::System::Int32 Count; // 0x34
 
 		::System::Void _ctor()
 		{

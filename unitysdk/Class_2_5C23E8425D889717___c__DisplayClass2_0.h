@@ -4,10 +4,10 @@
 
 namespace RPG::Client { class BattleGamePhase; }
 
-#define CLASS_2_5C23E8425D889717___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1777BD30)
-#define CLASS_2_5C23E8425D889717___C__DISPLAYCLASS2_0__PHASEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x1777D0F0)
+#define CLASS_2_5C23E8425D889717___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14CBF2D0)
+#define CLASS_2_5C23E8425D889717___C__DISPLAYCLASS2_0__PHASEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x14CC0640)
 
-inline static constexpr unsigned int Class_2_5C23E8425D889717___c__DisplayClass2_0_TypeDefinitionIndex = 57187;
+inline static constexpr unsigned int Class_2_5C23E8425D889717___c__DisplayClass2_0_TypeDefinitionIndex = 58445;
 
 class Class_2_5C23E8425D889717___c__DisplayClass2_0 : public ::System::Object
 {

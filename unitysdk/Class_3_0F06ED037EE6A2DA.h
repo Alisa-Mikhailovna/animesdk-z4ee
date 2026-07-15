@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckModifierCallBackIsInfected; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0F06ED037EE6A2DA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x178CDC60)
-#define CLASS_3_0F06ED037EE6A2DA__CTOR_OFFSET UNITYSDK_OFFSET(0x178CDC30)
+#define CLASS_3_0F06ED037EE6A2DA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14AA3090)
+#define CLASS_3_0F06ED037EE6A2DA__CTOR_OFFSET UNITYSDK_OFFSET(0x14AA3060)
 
-inline static constexpr unsigned int Class_3_0F06ED037EE6A2DA_TypeDefinitionIndex = 50945;
+inline static constexpr unsigned int Class_3_0F06ED037EE6A2DA_TypeDefinitionIndex = 52030;
 
 class Class_3_0F06ED037EE6A2DA : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckModifierCallBackIsInfected*>
 {

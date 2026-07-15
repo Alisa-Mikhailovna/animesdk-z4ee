@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByGridFightCharacterIsPreset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CB2ABD997FB23A8B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x142B6BA0)
-#define CLASS_3_CB2ABD997FB23A8B__CTOR_OFFSET UNITYSDK_OFFSET(0x142B6B70)
+#define CLASS_3_CB2ABD997FB23A8B_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14B575B0)
+#define CLASS_3_CB2ABD997FB23A8B__CTOR_OFFSET UNITYSDK_OFFSET(0x14B57580)
 
-inline static constexpr unsigned int Class_3_CB2ABD997FB23A8B_TypeDefinitionIndex = 51046;
+inline static constexpr unsigned int Class_3_CB2ABD997FB23A8B_TypeDefinitionIndex = 52131;
 
 class Class_3_CB2ABD997FB23A8B : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByGridFightCharacterIsPreset*>
 {

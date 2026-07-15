@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A086810)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A086470)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19B3D200)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19B3D280)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1A0869E0)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A0865E0)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1A086A20)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A086BF0)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1A086D80)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0870E0)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1A086B50)
-#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A086AB0)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B3A8850)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B3A86E0)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B3A83D0)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B3A8680)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B3A8A20)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3A8450)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3A8A60)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3A8C30)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B3A8DC0)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3A9120)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B3A8B90)
+#define RPG_GAMECORE_DIALOGUEICONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3A8AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueIconExcelTable_TypeDefinitionIndex = 12503;
+	inline static constexpr unsigned int DialogueIconExcelTable_TypeDefinitionIndex = 12640;
 
 	class DialogueIconExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DialogueIconRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DialogueIconRow*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x13190);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DialogueIconRow*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x31410);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x13198);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x31418);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x131A0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x5710);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x31420);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x5711);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x8580);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DialogueIconExcelTable_TypeDefinitionIndex)->GetStaticField(0x8581);
 		}
 
 		static ::System::Void _cctor()

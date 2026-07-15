@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x17628BD0)
-#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17628DB0)
+#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1BFE10)
+#define RPG_GAMECORE_AVATARCOBRANDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1BFFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarCobrandConfigRow_TypeDefinitionIndex = 12094;
+	inline static constexpr unsigned int AvatarCobrandConfigRow_TypeDefinitionIndex = 12226;
 
 	class AvatarCobrandConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* OnStateName; // 0x10
-		::System::String* StateGroupName; // 0x18
-		::System::String* OffStateName; // 0x20
-		::System::String* AudioLanguage; // 0x28
+		::System::String* StateGroupName; // 0x10
+		::System::String* OnStateName; // 0x18
+		::System::String* AudioLanguage; // 0x20
+		::System::String* OffStateName; // 0x28
 		::System::UInt32 ID; // 0x30
 
 		::System::Void _ctor()

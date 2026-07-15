@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEPARAMENTRY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1933F510)
-#define RPG_GAMECORE_STAGEPARAMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1933F650)
+#define RPG_GAMECORE_STAGEPARAMENTRY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8FFD00)
+#define RPG_GAMECORE_STAGEPARAMENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8FFE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageParamEntry_TypeDefinitionIndex = 14407;
+	inline static constexpr unsigned int StageParamEntry_TypeDefinitionIndex = 14555;
 
 	class StageParamEntry : public ::System::Object
 	{

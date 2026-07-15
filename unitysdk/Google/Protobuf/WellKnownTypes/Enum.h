@@ -15,52 +15,52 @@ namespace Google::Protobuf::WellKnownTypes { class Option; }
 namespace Google::Protobuf::WellKnownTypes { class SourceContext; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A38B010)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CLONE_OFFSET UNITYSDK_OFFSET(0x1A38A800)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A38A950)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A38A8F0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A38AAB0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A38A320)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A38A850)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A38A2C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x1A38A8B0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1A38A8D0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A38B600)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A38B2E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A38A4A0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1A38A860)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x1A38A8C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1A38A8E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A38AE30)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A38AE90)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A38B7C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A38A580)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A38A500)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1981BE70)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_CLONE_OFFSET UNITYSDK_OFFSET(0x1981B670)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1981B7C0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1981B760)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1981B960)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1981B130)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1981B6C0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1981B0D0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x1981B720)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_GET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1981B740)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1981C3B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1981C090)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1981B310)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1981B6D0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SOURCECONTEXT_OFFSET UNITYSDK_OFFSET(0x1981B730)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_SET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1981B750)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1981BBF0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1981BC50)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1981C570)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1981B3F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_ENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1981B370)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 5449;
+	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 5454;
 
 	class Enum : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>** StaticGet__repeated_options_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x3C820);
-		}
 		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Enum*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Enum*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x3C828);
+			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Enum*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x44540);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::EnumValue*>** StaticGet__repeated_enumvalue_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::EnumValue*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x3C830);
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::EnumValue*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x44548);
 		}
-		::Google::Protobuf::WellKnownTypes::SourceContext* sourceContext_; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::Option*>* options_; // 0x18
-		::System::String* name_; // 0x20
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::EnumValue*>* enumvalue_; // 0x28
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
+		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>** StaticGet__repeated_options_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::WellKnownTypes::Option*>**)Il2CppClass::FromTypeDefinitionIndex(Enum_TypeDefinitionIndex)->GetStaticField(0x44550);
+		}
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::Option*>* options_; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::WellKnownTypes::EnumValue*>* enumvalue_; // 0x18
+		::Google::Protobuf::WellKnownTypes::SourceContext* sourceContext_; // 0x20
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x28
+		::System::String* name_; // 0x30
 		::Google::Protobuf::WellKnownTypes::Syntax syntax_; // 0x38
 
 		::System::Void _ctor()

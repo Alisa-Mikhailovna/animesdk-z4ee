@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_DROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17AFB810)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_DROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCD29880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_DropConfig_TypeDefinitionIndex = 56482;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_DropConfig_TypeDefinitionIndex = 57722;
 
 	class MonoTimelineControlGameLevelCell_DropConfig : public ::System::Object
 	{

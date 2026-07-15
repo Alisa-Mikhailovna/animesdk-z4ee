@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMFLUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199EF220)
-#define RPG_GAMECORE_FIVEDIMFLUTECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199EF6B0)
+#define RPG_GAMECORE_FIVEDIMFLUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B42EA60)
+#define RPG_GAMECORE_FIVEDIMFLUTECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42EEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFluteConfigRow_TypeDefinitionIndex = 13444;
+	inline static constexpr unsigned int FiveDimFluteConfigRow_TypeDefinitionIndex = 13592;
 
 	class FiveDimFluteConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* GPName; // 0x10
-		::System::String* Code; // 0x18
-		::RPG::Client::TextID TeleAreaName; // 0x20
-		::System::UInt32 FiveDimAnchorID; // 0x30
-		::System::UInt32 EntranceID; // 0x34
-		::System::UInt32 GroupID; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::System::UInt32 ContainerID; // 0x40
-		::System::Int16 GPValue; // 0x44
-		::System::UInt32 TeleAnchorID; // 0x48
-		::RPG::GameCore::FiveDimFluteEffectType Type; // 0x4C
-		::RPG::Client::TextID AutoPlayChangeGPFailTextmapKey; // 0x50
+		::System::String* Code; // 0x10
+		::System::String* GPName; // 0x18
+		::RPG::GameCore::FiveDimFluteEffectType Type; // 0x20
+		::System::UInt32 GroupID; // 0x24
+		::System::UInt32 FiveDimAnchorID; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::RPG::Client::TextID TeleAreaName; // 0x30
+		::System::UInt32 EntranceID; // 0x40
+		::System::UInt32 ContainerID; // 0x44
+		::RPG::Client::TextID AutoPlayChangeGPFailTextmapKey; // 0x48
+		::System::Int16 GPValue; // 0x58
+		::System::UInt32 TeleAnchorID; // 0x5C
 
 		::System::Void _ctor()
 		{

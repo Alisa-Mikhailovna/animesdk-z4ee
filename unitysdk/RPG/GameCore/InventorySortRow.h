@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_INVENTORYSORTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18E47610)
-#define RPG_GAMECORE_INVENTORYSORTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18E47C50)
+#define RPG_GAMECORE_INVENTORYSORTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5366A0)
+#define RPG_GAMECORE_INVENTORYSORTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B536CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InventorySortRow_TypeDefinitionIndex = 13185;
+	inline static constexpr unsigned int InventorySortRow_TypeDefinitionIndex = 13333;
 
 	class InventorySortRow : public ::System::Object
 	{

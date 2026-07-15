@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_477;
+class Class_1_D17272E82AE804C2_540;
 namespace RPG::Client { class HeliobusSkillData; }
 
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0__CTOR_OFFSET UNITYSDK_OFFSET(0x165D1F90)
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0___ONCMDHELIOBUSUNLOCKSKILLSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x165D2410)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8ACC70)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0___ONCMDHELIOBUSUNLOCKSKILLSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xC8ACF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusModule___c__DisplayClass93_0_TypeDefinitionIndex = 61402;
+	inline static constexpr unsigned int HeliobusModule___c__DisplayClass93_0_TypeDefinitionIndex = 62747;
 
 	class HeliobusModule___c__DisplayClass93_0 : public ::System::Object
 	{
 	public:
-		::Class_1_D17272E82AE804C2_477* ntf; // 0x10
+		::Class_1_D17272E82AE804C2_540* ntf; // 0x10
 
 		::System::Void _ctor()
 		{

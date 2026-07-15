@@ -5,13 +5,13 @@
 namespace UnityEngine { class Rigidbody; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY_AWAKE_OFFSET UNITYSDK_OFFSET(0x14D39C80)
-#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x14D39CF0)
-#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x14D39DD0)
+#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C994000)
+#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1C994070)
+#define SPINE_UNITY_FOLLOWLOCATIONRIGIDBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C994150)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int FollowLocationRigidbody_TypeDefinitionIndex = 41439;
+	inline static constexpr unsigned int FollowLocationRigidbody_TypeDefinitionIndex = 42254;
 
 	class FollowLocationRigidbody : public ::UnityEngine::MonoBehaviour
 	{

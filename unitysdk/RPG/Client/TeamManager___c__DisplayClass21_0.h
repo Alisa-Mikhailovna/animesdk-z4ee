@@ -7,12 +7,12 @@ namespace RPG::Client { class TeamManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x141EB4B0)
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS21_0___CREATEMEMBERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x141EB4C0)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD64A980)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS21_0___CREATEMEMBERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xD64A990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager___c__DisplayClass21_0_TypeDefinitionIndex = 56808;
+	inline static constexpr unsigned int TeamManager___c__DisplayClass21_0_TypeDefinitionIndex = 58055;
 
 	class TeamManager___c__DisplayClass21_0 : public ::System::Object
 	{

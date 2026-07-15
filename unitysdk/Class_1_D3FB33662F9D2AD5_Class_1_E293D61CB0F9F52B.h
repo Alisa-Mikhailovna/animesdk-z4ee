@@ -5,9 +5,9 @@
 namespace RootMotion::FinalIK { class RotationLimit; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_D3FB33662F9D2AD5_CLASS_1_E293D61CB0F9F52B__CTOR_OFFSET UNITYSDK_OFFSET(0x149D4B40)
+#define CLASS_1_D3FB33662F9D2AD5_CLASS_1_E293D61CB0F9F52B__CTOR_OFFSET UNITYSDK_OFFSET(0xB1845C0)
 
-inline static constexpr unsigned int Class_1_D3FB33662F9D2AD5_Class_1_E293D61CB0F9F52B_TypeDefinitionIndex = 64028;
+inline static constexpr unsigned int Class_1_D3FB33662F9D2AD5_Class_1_E293D61CB0F9F52B_TypeDefinitionIndex = 65399;
 
 class Class_1_D3FB33662F9D2AD5_Class_1_E293D61CB0F9F52B : public ::System::Object
 {

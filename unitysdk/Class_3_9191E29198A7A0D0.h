@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvStopTickValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9191E29198A7A0D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1499A490)
-#define CLASS_3_9191E29198A7A0D0__CTOR_OFFSET UNITYSDK_OFFSET(0x1499A460)
+#define CLASS_3_9191E29198A7A0D0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDED4B60)
+#define CLASS_3_9191E29198A7A0D0__CTOR_OFFSET UNITYSDK_OFFSET(0xDED4B30)
 
-inline static constexpr unsigned int Class_3_9191E29198A7A0D0_TypeDefinitionIndex = 54099;
+inline static constexpr unsigned int Class_3_9191E29198A7A0D0_TypeDefinitionIndex = 55322;
 
 class Class_3_9191E29198A7A0D0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvStopTickValue*>
 {

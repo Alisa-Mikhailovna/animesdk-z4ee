@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATMODIFIERCONFIG_METHOD_2_C979AB0429B43E79_OFFSET UNITYSDK_OFFSET(0x1A08D2A0)
-#define RPG_GAMECORE_DICECOMBATMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A08DAD0)
+#define RPG_GAMECORE_DICECOMBATMODIFIERCONFIG_METHOD_2_C979AB0429B43E79_OFFSET UNITYSDK_OFFSET(0x1B3AF250)
+#define RPG_GAMECORE_DICECOMBATMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3AFA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatModifierConfig_TypeDefinitionIndex = 15286;
+	inline static constexpr unsigned int DiceCombatModifierConfig_TypeDefinitionIndex = 15450;
 
 	class DiceCombatModifierConfig : public ::RPG::GameCore::JsonConfig
 	{

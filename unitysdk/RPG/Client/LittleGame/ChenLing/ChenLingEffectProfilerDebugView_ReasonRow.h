@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_REASONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x17E17BC0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGEFFECTPROFILERDEBUGVIEW_REASONROW__CTOR_OFFSET UNITYSDK_OFFSET(0xC973320)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingEffectProfilerDebugView_ReasonRow_TypeDefinitionIndex = 72364;
+	inline static constexpr unsigned int ChenLingEffectProfilerDebugView_ReasonRow_TypeDefinitionIndex = 73889;
 
 	class ChenLingEffectProfilerDebugView_ReasonRow : public ::System::Object
 	{

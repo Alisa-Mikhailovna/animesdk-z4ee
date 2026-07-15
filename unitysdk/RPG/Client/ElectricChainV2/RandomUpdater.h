@@ -5,13 +5,13 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x156DA4C0)
-#define RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_FCAE20CD32D19671_OFFSET UNITYSDK_OFFSET(0x156D77E0)
-#define RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x156DB380)
+#define RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_0BC9ABBB077CFD32_OFFSET UNITYSDK_OFFSET(0xC35FF70)
+#define RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_43D33F88F40D8EAB_OFFSET UNITYSDK_OFFSET(0xC35CEF0)
+#define RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0xC360C10)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int RandomUpdater_TypeDefinitionIndex = 68683;
+	inline static constexpr unsigned int RandomUpdater_TypeDefinitionIndex = 70181;
 
 	class RandomUpdater : public ::System::Object
 	{
@@ -26,14 +26,14 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_FCAE20CD32D19671(::System::Single a1)
+		::System::Boolean Method_1_43D33F88F40D8EAB(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_FCAE20CD32D19671_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_43D33F88F40D8EAB_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 Method_1_F10A0D072D26C4BF()
+		::UnityEngine::Vector3 Method_1_0BC9ABBB077CFD32()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_F10A0D072D26C4BF_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_RANDOMUPDATER_METHOD_1_0BC9ABBB077CFD32_OFFSET))(this);
 		}
 	};
 }

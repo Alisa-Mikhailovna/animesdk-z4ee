@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/Client/ExeCode.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_581;
+class Class_0_16E4307DCC419505_616;
 
-#define CLASS_2_570AC78C01FF8379_CLASS_1_D230CDD4634D4F20__CTOR_OFFSET UNITYSDK_OFFSET(0x145F0240)
+#define CLASS_2_570AC78C01FF8379_CLASS_1_D230CDD4634D4F20__CTOR_OFFSET UNITYSDK_OFFSET(0xBD83EE0)
 
-inline static constexpr unsigned int Class_2_570AC78C01FF8379_Class_1_D230CDD4634D4F20_TypeDefinitionIndex = 55693;
+inline static constexpr unsigned int Class_2_570AC78C01FF8379_Class_1_D230CDD4634D4F20_TypeDefinitionIndex = 56930;
 
 class Class_2_570AC78C01FF8379_Class_1_D230CDD4634D4F20 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_581* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_616* Field_1_0; // 0x10
 	::System::Object* Field_1_1; // 0x18
 	::RPG::Client::ExeCode Field_1_2; // 0x20
 

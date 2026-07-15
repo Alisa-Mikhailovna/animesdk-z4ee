@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PreloadStageBattleEventEffects; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_80FE3C23951449A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1481BD30)
-#define CLASS_3_80FE3C23951449A4__CTOR_OFFSET UNITYSDK_OFFSET(0x1481BD00)
+#define CLASS_3_80FE3C23951449A4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB325740)
+#define CLASS_3_80FE3C23951449A4__CTOR_OFFSET UNITYSDK_OFFSET(0xB325710)
 
-inline static constexpr unsigned int Class_3_80FE3C23951449A4_TypeDefinitionIndex = 54494;
+inline static constexpr unsigned int Class_3_80FE3C23951449A4_TypeDefinitionIndex = 55718;
 
 class Class_3_80FE3C23951449A4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PreloadStageBattleEventEffects*>
 {

@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace TMPro { class TMP_Text; }
 
-#define TMPRO_TMP_LINKINFO_GETLINKID_OFFSET UNITYSDK_OFFSET(0x37A90A0)
-#define TMPRO_TMP_LINKINFO_GETLINKTEXT_OFFSET UNITYSDK_OFFSET(0x37A9090)
-#define TMPRO_TMP_LINKINFO_SETLINKID_OFFSET UNITYSDK_OFFSET(0x37A9080)
+#define TMPRO_TMP_LINKINFO_GETLINKID_OFFSET UNITYSDK_OFFSET(0x3A210C0)
+#define TMPRO_TMP_LINKINFO_GETLINKTEXT_OFFSET UNITYSDK_OFFSET(0x3A210B0)
+#define TMPRO_TMP_LINKINFO_SETLINKID_OFFSET UNITYSDK_OFFSET(0x3A210A0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_LinkInfo_TypeDefinitionIndex = 41065;
+	inline static constexpr unsigned int TMP_LinkInfo_TypeDefinitionIndex = 41880;
 
 	struct alignas(8) TMP_LinkInfo
 	{

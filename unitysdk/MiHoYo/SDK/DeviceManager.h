@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_DEVICEMANAGER_CHECKINVALIDDEVICEID_OFFSET UNITYSDK_OFFSET(0x144E7DE0)
-#define MIHOYO_SDK_DEVICEMANAGER_GETDEVICEID_OFFSET UNITYSDK_OFFSET(0x144E6060)
-#define MIHOYO_SDK_DEVICEMANAGER_ONDEVICEIDREADY_OFFSET UNITYSDK_OFFSET(0x144E7C80)
-#define MIHOYO_SDK_DEVICEMANAGER_SETDEVICEID_OFFSET UNITYSDK_OFFSET(0x144E7BE0)
-#define MIHOYO_SDK_DEVICEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x144E7F80)
-#define MIHOYO_SDK_DEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x144E7BD0)
+#define MIHOYO_SDK_DEVICEMANAGER_CHECKINVALIDDEVICEID_OFFSET UNITYSDK_OFFSET(0xAAA5A20)
+#define MIHOYO_SDK_DEVICEMANAGER_GETDEVICEID_OFFSET UNITYSDK_OFFSET(0xAAA47A0)
+#define MIHOYO_SDK_DEVICEMANAGER_ONDEVICEIDREADY_OFFSET UNITYSDK_OFFSET(0xAAA58C0)
+#define MIHOYO_SDK_DEVICEMANAGER_SETDEVICEID_OFFSET UNITYSDK_OFFSET(0xAAA5820)
+#define MIHOYO_SDK_DEVICEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xAAA5BC0)
+#define MIHOYO_SDK_DEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xAAA5810)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceManager_TypeDefinitionIndex = 43688;
+	inline static constexpr unsigned int DeviceManager_TypeDefinitionIndex = 44550;
 
 	class DeviceManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::DeviceManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::DeviceManager**)Il2CppClass::FromTypeDefinitionIndex(DeviceManager_TypeDefinitionIndex)->GetStaticField(0xA9D0);
+			return (::MiHoYo::SDK::DeviceManager**)Il2CppClass::FromTypeDefinitionIndex(DeviceManager_TypeDefinitionIndex)->GetStaticField(0xA5B0);
 		}
 		// static const ::System::String* DEVICE_ID; // 0x0
 		// static const ::System::String* REGISTRY_KEY_NAME; // 0x0

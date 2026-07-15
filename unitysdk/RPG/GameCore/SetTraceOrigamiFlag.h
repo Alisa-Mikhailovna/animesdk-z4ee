@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETTRACEORIGAMIFLAG_METHOD_3_4D550F98A6CF6B8C_OFFSET UNITYSDK_OFFSET(0x1A7A25E0)
-#define RPG_GAMECORE_SETTRACEORIGAMIFLAG_METHOD_3_939B4861772FF118_OFFSET UNITYSDK_OFFSET(0x1A7A26F0)
-#define RPG_GAMECORE_SETTRACEORIGAMIFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A26C0)
+#define RPG_GAMECORE_SETTRACEORIGAMIFLAG_METHOD_3_4943D573ABFEE755_OFFSET UNITYSDK_OFFSET(0x1B8B8040)
+#define RPG_GAMECORE_SETTRACEORIGAMIFLAG_METHOD_3_939B4861772FF118_OFFSET UNITYSDK_OFFSET(0x1B8B8110)
+#define RPG_GAMECORE_SETTRACEORIGAMIFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B8100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTraceOrigamiFlag_TypeDefinitionIndex = 20646;
+	inline static constexpr unsigned int SetTraceOrigamiFlag_TypeDefinitionIndex = 21061;
 
 	class SetTraceOrigamiFlag : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTRACEORIGAMIFLAG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4D550F98A6CF6B8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTraceOrigamiFlag*& a2)
+		static ::System::Void Method_3_4943D573ABFEE755(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTraceOrigamiFlag*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTraceOrigamiFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTRACEORIGAMIFLAG_METHOD_3_4D550F98A6CF6B8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTraceOrigamiFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTRACEORIGAMIFLAG_METHOD_3_4943D573ABFEE755_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_939B4861772FF118(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTraceOrigamiFlag* a2)

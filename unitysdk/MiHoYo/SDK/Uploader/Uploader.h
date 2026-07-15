@@ -10,49 +10,49 @@ namespace MiHoYo::SDK::Uploader { class UploadCallbackAction; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define MIHOYO_SDK_UPLOADER_UPLOADER_GENERATETASKID_OFFSET UNITYSDK_OFFSET(0x19B9C190)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_GET_MAXERRORRETRY_OFFSET UNITYSDK_OFFSET(0x19B9C010)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_GET_MAXTASKCOUNT_OFFSET UNITYSDK_OFFSET(0x19B9C0D0)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_LOG_OFFSET UNITYSDK_OFFSET(0x19B9C740)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_NOTIFYUPLOADTASKCOMPLETED_OFFSET UNITYSDK_OFFSET(0x19B99FB0)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_SET_MAXERRORRETRY_OFFSET UNITYSDK_OFFSET(0x19B9C070)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_SET_MAXTASKCOUNT_OFFSET UNITYSDK_OFFSET(0x19B9C130)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_UPDATETASKS_OFFSET UNITYSDK_OFFSET(0x19B9C4F0)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_UPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0x19B9C870)
-#define MIHOYO_SDK_UPLOADER_UPLOADER_UPLOADFILE_OFFSET UNITYSDK_OFFSET(0x19B9C2B0)
-#define MIHOYO_SDK_UPLOADER_UPLOADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B9CAB0)
-#define MIHOYO_SDK_UPLOADER_UPLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B999C0)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_GENERATETASKID_OFFSET UNITYSDK_OFFSET(0xAB83A00)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_GET_MAXERRORRETRY_OFFSET UNITYSDK_OFFSET(0xAB83880)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_GET_MAXTASKCOUNT_OFFSET UNITYSDK_OFFSET(0xAB83940)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_LOG_OFFSET UNITYSDK_OFFSET(0xAB84030)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_NOTIFYUPLOADTASKCOMPLETED_OFFSET UNITYSDK_OFFSET(0xAB81820)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_SET_MAXERRORRETRY_OFFSET UNITYSDK_OFFSET(0xAB838E0)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_SET_MAXTASKCOUNT_OFFSET UNITYSDK_OFFSET(0xAB839A0)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_UPDATETASKS_OFFSET UNITYSDK_OFFSET(0xAB83D50)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_UPLOADBUFFER_OFFSET UNITYSDK_OFFSET(0xAB84160)
+#define MIHOYO_SDK_UPLOADER_UPLOADER_UPLOADFILE_OFFSET UNITYSDK_OFFSET(0xAB83B20)
+#define MIHOYO_SDK_UPLOADER_UPLOADER__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB84390)
+#define MIHOYO_SDK_UPLOADER_UPLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xAB81230)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int Uploader_TypeDefinitionIndex = 44029;
+	inline static constexpr unsigned int Uploader_TypeDefinitionIndex = 44891;
 
 	class Uploader : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_aid()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x149E0);
-		}
 		static ::MiHoYo::SDK::Uploader::OnLogAction** StaticGet_OnLog()
 		{
-			return (::MiHoYo::SDK::Uploader::OnLogAction**)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x149E8);
+			return (::MiHoYo::SDK::Uploader::OnLogAction**)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x1CFA0);
 		}
-		static ::System::Int32* StaticGet_m_nMaxErrorRetry()
+		static ::System::String** StaticGet_aid()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x7BF0);
-		}
-		static ::System::Int32* StaticGet_sm_nTaskID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x7BF4);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x1CFA8);
 		}
 		static ::System::Int32* StaticGet_m_nMaxTaskCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x7BF8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x6770);
 		}
-		::System::Collections::Generic::Queue_1<::MiHoYo::SDK::Uploader::Task*>* m_queuePendingTasks; // 0x10
-		::System::String* dir; // 0x18
-		::System::Object* m_mutexForTask; // 0x20
+		static ::System::Int32* StaticGet_m_nMaxErrorRetry()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x6774);
+		}
+		static ::System::Int32* StaticGet_sm_nTaskID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Uploader_TypeDefinitionIndex)->GetStaticField(0x6778);
+		}
+		::System::Object* m_mutexForTask; // 0x10
+		::System::Collections::Generic::Queue_1<::MiHoYo::SDK::Uploader::Task*>* m_queuePendingTasks; // 0x18
+		::System::String* dir; // 0x20
 		::MiHoYo::SDK::Uploader::NativeUploaderInterface* m_nativeUploader; // 0x28
 		::MiHoYo::SDK::Uploader::Provider provider; // 0x30
 		::System::Int32 m_nRunningTasksCount; // 0x34

@@ -7,22 +7,22 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UniversalHotFixBaseTask; }
 namespace System { class Object; }
 
-#define CLASS_2_23D2CD7D9920A53A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17F43C00)
-#define CLASS_2_23D2CD7D9920A53A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F43C40)
-#define CLASS_2_23D2CD7D9920A53A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17F43CC0)
-#define CLASS_2_23D2CD7D9920A53A_TICK_OFFSET UNITYSDK_OFFSET(0x17F43D10)
-#define CLASS_2_23D2CD7D9920A53A__CTOR_OFFSET UNITYSDK_OFFSET(0x17F43B80)
+#define CLASS_2_23D2CD7D9920A53A_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14A3BEF0)
+#define CLASS_2_23D2CD7D9920A53A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A3BF30)
+#define CLASS_2_23D2CD7D9920A53A_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x14A3BFB0)
+#define CLASS_2_23D2CD7D9920A53A_TICK_OFFSET UNITYSDK_OFFSET(0x14A3C000)
+#define CLASS_2_23D2CD7D9920A53A__CTOR_OFFSET UNITYSDK_OFFSET(0x14A3BE70)
 
-inline static constexpr unsigned int Class_2_23D2CD7D9920A53A_TypeDefinitionIndex = 52102;
+inline static constexpr unsigned int Class_2_23D2CD7D9920A53A_TypeDefinitionIndex = 53259;
 
 class Class_2_23D2CD7D9920A53A : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::UniversalHotFixBaseTask* Field_2_0; // 0x18
-	::Class_1_B798001FE639F577* Field_2_1; // 0x20
-	::System::Object* Field_2_2; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
-	::System::Object* Field_2_4; // 0x38
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::System::Object* Field_2_1; // 0x20
+	::RPG::GameCore::UniversalHotFixBaseTask* Field_2_2; // 0x28
+	::System::Object* Field_2_3; // 0x30
+	::Class_1_B798001FE639F577* Field_2_4; // 0x38
 	::System::Object* Field_2_5; // 0x40
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UniversalHotFixBaseTask* a2)

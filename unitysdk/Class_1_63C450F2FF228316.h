@@ -4,15 +4,15 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define CLASS_1_63C450F2FF228316__CTOR_OFFSET UNITYSDK_OFFSET(0x1780D030)
+#define CLASS_1_63C450F2FF228316__CTOR_OFFSET UNITYSDK_OFFSET(0xB56C110)
 
-inline static constexpr unsigned int Class_1_63C450F2FF228316_TypeDefinitionIndex = 55960;
+inline static constexpr unsigned int Class_1_63C450F2FF228316_TypeDefinitionIndex = 57199;
 
 class Class_1_63C450F2FF228316 : public ::System::Object
 {
 public:
-	::UnityEngine::Color Field_1_0; // 0x10
-	::UnityEngine::Rect Field_1_1; // 0x20
+	::UnityEngine::Rect Field_1_0; // 0x10
+	::UnityEngine::Color Field_1_1; // 0x20
 
 	::System::Void _ctor()
 	{

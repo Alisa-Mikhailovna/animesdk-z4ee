@@ -10,34 +10,34 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TapTap::Sdk { class UIElement; }
 namespace UnityEngine { class GameObject; }
 
-#define TAPTAP_SDK_UIMANAGER_CREATECONTAINER_OFFSET UNITYSDK_OFFSET(0x1B4706E0)
-#define TAPTAP_SDK_UIMANAGER_DESTORYCONTAINER_OFFSET UNITYSDK_OFFSET(0x1B470900)
-#define TAPTAP_SDK_UIMANAGER_POPUIELEMENT_OFFSET UNITYSDK_OFFSET(0x1B4702D0)
-#define TAPTAP_SDK_UIMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x1B46A640)
-#define TAPTAP_SDK_UIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B470AB0)
-#define TAPTAP_SDK_UIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B470A60)
-#define TAPTAP_SDK_UIMANAGER__DESTORYCONTAINER_B__11_0_OFFSET UNITYSDK_OFFSET(0x1B470AC0)
+#define TAPTAP_SDK_UIMANAGER_CREATECONTAINER_OFFSET UNITYSDK_OFFSET(0x1CD91010)
+#define TAPTAP_SDK_UIMANAGER_DESTORYCONTAINER_OFFSET UNITYSDK_OFFSET(0x1CD91300)
+#define TAPTAP_SDK_UIMANAGER_POPUIELEMENT_OFFSET UNITYSDK_OFFSET(0x1CD90C90)
+#define TAPTAP_SDK_UIMANAGER_POP_OFFSET UNITYSDK_OFFSET(0x1CD8AA70)
+#define TAPTAP_SDK_UIMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD91570)
+#define TAPTAP_SDK_UIMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD91520)
+#define TAPTAP_SDK_UIMANAGER__DESTORYCONTAINER_B__11_0_OFFSET UNITYSDK_OFFSET(0x1CD91580)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int UIManager_TypeDefinitionIndex = 7062;
+	inline static constexpr unsigned int UIManager_TypeDefinitionIndex = 7068;
 
 	class UIManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_RESULT_SUCCESS()
+		static ::System::Int32* StaticGet_RESULT_BACK()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x540);
 		}
-		static ::System::Int32* StaticGet_RESULT_BACK()
+		static ::System::Int32* StaticGet_RESULT_CLOSE()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x544);
 		}
-		static ::System::Int32* StaticGet_RESULT_FAILED()
+		static ::System::Int32* StaticGet_RESULT_SUCCESS()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x548);
 		}
-		static ::System::Int32* StaticGet_RESULT_CLOSE()
+		static ::System::Int32* StaticGet_RESULT_FAILED()
 		{
 			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIManager_TypeDefinitionIndex)->GetStaticField(0x54C);
 		}

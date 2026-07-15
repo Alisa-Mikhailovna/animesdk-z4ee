@@ -6,18 +6,18 @@
 
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define CLASS_1_634284739E90CAFA__CTOR_OFFSET UNITYSDK_OFFSET(0x15F6AA80)
+#define CLASS_1_634284739E90CAFA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A78AF30)
 
-inline static constexpr unsigned int Class_1_634284739E90CAFA_TypeDefinitionIndex = 40316;
+inline static constexpr unsigned int Class_1_634284739E90CAFA_TypeDefinitionIndex = 41131;
 
 class Class_1_634284739E90CAFA : public ::System::Object
 {
 public:
 	::RPG::GameCore::ChenLingBattleEffectConfig* Field_1_0; // 0x10
 	::RPG::GameCore::FixPoint Field_1_1; // 0x18
-	::RPG::GameCore::FixPoint Field_1_2; // 0x20
-	::RPG::GameCore::ChenLingBattleBuffType Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x2C
+	::RPG::GameCore::ChenLingBattleBuffType Field_1_2; // 0x20
+	::System::Boolean Field_1_3; // 0x24
+	::RPG::GameCore::FixPoint Field_1_4; // 0x28
 	::RPG::GameCore::FixPoint Field_1_5; // 0x30
 	::RPG::GameCore::FixPoint Field_1_6; // 0x38
 

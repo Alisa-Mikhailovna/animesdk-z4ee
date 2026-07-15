@@ -6,13 +6,12 @@
 
 namespace RPGTools::Timeline::Audio { class WwiseExternalStopLoopSFXConfig; }
 
-#define CLASS_2_2D5790B68126F4E7_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x14AB6560)
-#define CLASS_2_2D5790B68126F4E7_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x14AB6580)
-#define CLASS_2_2D5790B68126F4E7_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x14AB6570)
-#define CLASS_2_2D5790B68126F4E7__CTOR_OFFSET UNITYSDK_OFFSET(0x14AB6750)
-#define CLASS_2_2D5790B68126F4E7___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x14AB6760)
+#define CLASS_2_2D5790B68126F4E7_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x154E29E0)
+#define CLASS_2_2D5790B68126F4E7_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x154E2A00)
+#define CLASS_2_2D5790B68126F4E7_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x154E29F0)
+#define CLASS_2_2D5790B68126F4E7__CTOR_OFFSET UNITYSDK_OFFSET(0x154E2BD0)
 
-inline static constexpr unsigned int Class_2_2D5790B68126F4E7_TypeDefinitionIndex = 46102;
+inline static constexpr unsigned int Class_2_2D5790B68126F4E7_TypeDefinitionIndex = 47041;
 
 class Class_2_2D5790B68126F4E7 : public ::UnityEngine::Playables::PlayableBehaviour
 {
@@ -37,10 +36,5 @@ public:
 	::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_2D5790B68126F4E7_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + CLASS_2_2D5790B68126F4E7___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 	}
 };

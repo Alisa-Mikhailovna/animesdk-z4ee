@@ -3,52 +3,52 @@
 #include "unitysdk/InControl/InputRangeType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define INCONTROL_INPUTRANGE_EXCLUDES_1_OFFSET UNITYSDK_OFFSET(0x1522D190)
-#define INCONTROL_INPUTRANGE_EXCLUDES_OFFSET UNITYSDK_OFFSET(0x37A3F10)
-#define INCONTROL_INPUTRANGE_INCLUDES_OFFSET UNITYSDK_OFFSET(0x37A3EE0)
-#define INCONTROL_INPUTRANGE_REMAP_1_OFFSET UNITYSDK_OFFSET(0x1522D260)
-#define INCONTROL_INPUTRANGE_REMAP_OFFSET UNITYSDK_OFFSET(0x1523C160)
-#define INCONTROL_INPUTRANGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1523C1E0)
-#define INCONTROL_INPUTRANGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x37A3E40)
-#define INCONTROL_INPUTRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x37A3E30)
+#define INCONTROL_INPUTRANGE_EXCLUDES_1_OFFSET UNITYSDK_OFFSET(0x19961150)
+#define INCONTROL_INPUTRANGE_EXCLUDES_OFFSET UNITYSDK_OFFSET(0x39C8200)
+#define INCONTROL_INPUTRANGE_INCLUDES_OFFSET UNITYSDK_OFFSET(0x39C81D0)
+#define INCONTROL_INPUTRANGE_REMAP_1_OFFSET UNITYSDK_OFFSET(0x19961220)
+#define INCONTROL_INPUTRANGE_REMAP_OFFSET UNITYSDK_OFFSET(0x19970A10)
+#define INCONTROL_INPUTRANGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19970A90)
+#define INCONTROL_INPUTRANGE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x39C8130)
+#define INCONTROL_INPUTRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x39C8120)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputRange_TypeDefinitionIndex = 37862;
+	inline static constexpr unsigned int InputRange_TypeDefinitionIndex = 38670;
 
 	struct alignas(4) InputRange
 	{
 		static ::Il2CppArray<::InControl::InputRange>** StaticGet_typeToRange()
 		{
-			return (::Il2CppArray<::InControl::InputRange>**)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x12F40);
-		}
-		static ::InControl::InputRange* StaticGet_ZeroToOne()
-		{
-			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x5620);
-		}
-		static ::InControl::InputRange* StaticGet_OneToMinusOne()
-		{
-			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x562C);
-		}
-		static ::InControl::InputRange* StaticGet_MinusOneToOne()
-		{
-			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x5638);
+			return (::Il2CppArray<::InControl::InputRange>**)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x1B920);
 		}
 		static ::InControl::InputRange* StaticGet_None()
 		{
-			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x5644);
-		}
-		static ::InControl::InputRange* StaticGet_ZeroToMinusOne()
-		{
-			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x5650);
+			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x6350);
 		}
 		static ::InControl::InputRange* StaticGet_OneToZero()
 		{
-			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x565C);
+			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x635C);
+		}
+		static ::InControl::InputRange* StaticGet_ZeroToOne()
+		{
+			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x6368);
+		}
+		static ::InControl::InputRange* StaticGet_OneToMinusOne()
+		{
+			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x6374);
+		}
+		static ::InControl::InputRange* StaticGet_MinusOneToOne()
+		{
+			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x6380);
 		}
 		static ::InControl::InputRange* StaticGet_MinusOneToZero()
 		{
-			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x5668);
+			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x638C);
+		}
+		static ::InControl::InputRange* StaticGet_ZeroToMinusOne()
+		{
+			return (::InControl::InputRange*)Il2CppClass::FromTypeDefinitionIndex(InputRange_TypeDefinitionIndex)->GetStaticField(0x6398);
 		}
 		::System::Single Value0; // 0x10
 		::System::Single Value1; // 0x14

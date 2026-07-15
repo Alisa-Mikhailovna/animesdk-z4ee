@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1775A870)
+#define SCENENLIGHTMANAGER_IRRADIANCECACHE_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD42E50)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int IrradianceCache_ExportData_TypeDefinitionIndex = 46292;
+	inline static constexpr unsigned int IrradianceCache_ExportData_TypeDefinitionIndex = 47257;
 
 	class IrradianceCache_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

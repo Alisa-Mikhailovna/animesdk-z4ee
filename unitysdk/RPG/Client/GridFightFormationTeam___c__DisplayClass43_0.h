@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D1DC10)
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS43_0__ISROLEUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0x18D21790)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC719610)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS43_0__ISROLEUNLOCK_B__0_OFFSET UNITYSDK_OFFSET(0xC719620)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass43_0_TypeDefinitionIndex = 60454;
+	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass43_0_TypeDefinitionIndex = 61745;
 
 	class GridFightFormationTeam___c__DisplayClass43_0 : public ::System::Object
 	{

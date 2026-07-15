@@ -4,13 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x19B5E000)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5E080)
-#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x19B5E090)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xDD19950)
+#define RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD199D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowHipplenGrowthDialogBehaviour_TypeDefinitionIndex = 45581;
+	inline static constexpr unsigned int ShowHipplenGrowthDialogBehaviour_TypeDefinitionIndex = 46515;
 
 	class ShowHipplenGrowthDialogBehaviour : public ::RPGTools::Timeline::BaseShowDialogBehaviour
 	{
@@ -23,11 +22,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWHIPPLENGROWTHDIALOGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

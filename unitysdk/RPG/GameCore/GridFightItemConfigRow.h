@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC89C90)
-#define RPG_GAMECORE_GRIDFIGHTITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC89EF0)
+#define RPG_GAMECORE_GRIDFIGHTITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4DD510)
+#define RPG_GAMECORE_GRIDFIGHTITEMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4DD770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightItemConfigRow_TypeDefinitionIndex = 12809;
+	inline static constexpr unsigned int GridFightItemConfigRow_TypeDefinitionIndex = 12945;
 
 	class GridFightItemConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* SmallIconPath; // 0x10
 		::System::String* IconPath; // 0x18
-		::System::Int32 ItemPriority; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::Client::TextID ItemName; // 0x28
+		::RPG::Client::TextID ItemName; // 0x20
+		::System::Int32 ItemPriority; // 0x30
+		::System::UInt32 ID; // 0x34
 
 		::System::Void _ctor()
 		{

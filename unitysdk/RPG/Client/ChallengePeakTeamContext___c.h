@@ -5,39 +5,39 @@
 namespace RPG::Client { class ChallengePeakTeam; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A513C0)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CHECKANYNORMALTEAMHASCHANGED_B__30_0_OFFSET UNITYSDK_OFFSET(0x17A51430)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CHECKANYNORMALTEAMISEMPTY_B__29_0_OFFSET UNITYSDK_OFFSET(0x17A51410)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CHECKANYNORMALTEAMNEEDFORCESAVE_B__31_0_OFFSET UNITYSDK_OFFSET(0x17A51450)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17A51400)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C___CHECKHAVEEQUIPMENTCONFLICT_B__42_0_OFFSET UNITYSDK_OFFSET(0x17A514C0)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBFC2090)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CHECKANYNORMALTEAMHASCHANGED_B__30_0_OFFSET UNITYSDK_OFFSET(0xBFC2100)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CHECKANYNORMALTEAMISEMPTY_B__29_0_OFFSET UNITYSDK_OFFSET(0xBFC20E0)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CHECKANYNORMALTEAMNEEDFORCESAVE_B__31_0_OFFSET UNITYSDK_OFFSET(0xBFC2120)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBFC20D0)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C___CHECKHAVEEQUIPMENTCONFLICT_B__42_0_OFFSET UNITYSDK_OFFSET(0xBFC2190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakTeamContext___c_TypeDefinitionIndex = 59138;
+	inline static constexpr unsigned int ChallengePeakTeamContext___c_TypeDefinitionIndex = 60409;
 
 	class ChallengePeakTeamContext___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChallengePeakTeamContext___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChallengePeakTeamContext___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x676D0);
-		}
-		static ::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>** StaticGet___9__31_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x676D8);
+			return (::RPG::Client::ChallengePeakTeamContext___c**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x61820);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__42_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x676E0);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x61828);
 		}
 		static ::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x676E8);
+			return (::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x61830);
+		}
+		static ::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>** StaticGet___9__31_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x61838);
 		}
 		static ::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x676F0);
+			return (::System::Func_2<::RPG::Client::ChallengePeakTeam*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChallengePeakTeamContext___c_TypeDefinitionIndex)->GetStaticField(0x61840);
 		}
 
 		static ::System::Void _cctor()

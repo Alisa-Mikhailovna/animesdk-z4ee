@@ -8,24 +8,24 @@ namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1B579CD0)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B579ED0)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1B579F20)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B579E50)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B579C50)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x15786490)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x157867B0)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x157868D0)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15786610)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x157862F0)
 
 namespace DesperateDevs::Utils
 {
-	inline static constexpr unsigned int PublicMemberInfo_TypeDefinitionIndex = 7096;
+	inline static constexpr unsigned int PublicMemberInfo_TypeDefinitionIndex = 7102;
 
 	class PublicMemberInfo : public ::System::Object
 	{
 	public:
 		::System::Reflection::FieldInfo* _fieldInfo; // 0x10
-		::Il2CppArray<::DesperateDevs::Utils::AttributeInfo*>* attributes; // 0x18
-		::System::Reflection::PropertyInfo* _propertyInfo; // 0x20
-		::System::Type* type; // 0x28
-		::System::String* name; // 0x30
+		::System::Reflection::PropertyInfo* _propertyInfo; // 0x18
+		::System::Type* type; // 0x20
+		::System::String* name; // 0x28
+		::Il2CppArray<::DesperateDevs::Utils::AttributeInfo*>* attributes; // 0x30
 
 		::System::Void _ctor(::System::Reflection::FieldInfo* a1)
 		{

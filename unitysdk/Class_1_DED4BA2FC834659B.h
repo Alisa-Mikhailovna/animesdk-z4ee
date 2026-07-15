@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/Client/ActivityHipplen/StatusViewData.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1153;
-class Class_1_81F809EAA518CA97;
+class Class_0_16E4307DCC419505_1199;
+class Class_1_8303B8E58A593199;
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectCalculator; }
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenWorkData; }
 namespace RPG::GameCore { class ActivityHipplenIncidentRow; }
@@ -12,24 +12,24 @@ namespace RPG::GameCore { class HipplenIncidentConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_DED4BA2FC834659B_METHOD_1_2F0BBBAFE5EB4707_OFFSET UNITYSDK_OFFSET(0x13527A60)
-#define CLASS_1_DED4BA2FC834659B_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x13527940)
-#define CLASS_1_DED4BA2FC834659B_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x13527A00)
-#define CLASS_1_DED4BA2FC834659B_METHOD_1_7B3711015280C5D2_OFFSET UNITYSDK_OFFSET(0x135279A0)
-#define CLASS_1_DED4BA2FC834659B_METHOD_1_85B9302C2E00DD31_OFFSET UNITYSDK_OFFSET(0x13527780)
-#define CLASS_1_DED4BA2FC834659B_METHOD_1_E11AC65AA0DC2249_OFFSET UNITYSDK_OFFSET(0x13527CF0)
-#define CLASS_1_DED4BA2FC834659B_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x13527760)
-#define CLASS_1_DED4BA2FC834659B__CTOR_OFFSET UNITYSDK_OFFSET(0x13527770)
+#define CLASS_1_DED4BA2FC834659B_METHOD_1_1E77F9DFFAEE3100_OFFSET UNITYSDK_OFFSET(0xB999990)
+#define CLASS_1_DED4BA2FC834659B_METHOD_1_2F0BBBAFE5EB4707_OFFSET UNITYSDK_OFFSET(0xB999AB0)
+#define CLASS_1_DED4BA2FC834659B_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xB9996E0)
+#define CLASS_1_DED4BA2FC834659B_METHOD_1_40A4162001997C75_OFFSET UNITYSDK_OFFSET(0xB999740)
+#define CLASS_1_DED4BA2FC834659B_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB999930)
+#define CLASS_1_DED4BA2FC834659B_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xB999A20)
+#define CLASS_1_DED4BA2FC834659B_METHOD_1_DF2A78D8DB25ED05_OFFSET UNITYSDK_OFFSET(0xB999D50)
+#define CLASS_1_DED4BA2FC834659B__CTOR_OFFSET UNITYSDK_OFFSET(0xB999730)
 
-inline static constexpr unsigned int Class_1_DED4BA2FC834659B_TypeDefinitionIndex = 70416;
+inline static constexpr unsigned int Class_1_DED4BA2FC834659B_TypeDefinitionIndex = 71939;
 
 class Class_1_DED4BA2FC834659B : public ::System::Object
 {
 public:
-	::Class_1_81F809EAA518CA97* Field_1_0; // 0x10
-	::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* Field_1_1; // 0x18
+	::System::Action* Field_1_0; // 0x10
+	::Class_1_8303B8E58A593199* Field_1_1; // 0x18
 	::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* Field_1_2; // 0x20
-	::System::Action* Field_1_3; // 0x28
+	::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* Field_1_3; // 0x28
 	::RPG::GameCore::ActivityHipplenIncidentRow* Field_1_4; // 0x30
 
 	::System::Void _ctor(::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* a1, ::RPG::GameCore::ActivityHipplenIncidentRow* a2, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* a3)
@@ -37,24 +37,24 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData*, ::RPG::GameCore::ActivityHipplenIncidentRow*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator*))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Boolean Method_1_F0088C88851A7DFB()
+	::System::Boolean Method_1_391A84BCD9F51317()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_391A84BCD9F51317_OFFSET))(this);
 	}
 
-	::System::Void Method_1_85B9302C2E00DD31(::RPG::GameCore::HipplenIncidentConfig* a1, ::System::Action* a2)
+	::System::Void Method_1_40A4162001997C75(::RPG::GameCore::HipplenIncidentConfig* a1, ::System::Action* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenIncidentConfig*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_85B9302C2E00DD31_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::HipplenIncidentConfig*, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_40A4162001997C75_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_1_7B3711015280C5D2(::Class_0_16E4307DCC419505_1153* a1)
+	::System::Void Method_1_1E77F9DFFAEE3100(::Class_0_16E4307DCC419505_1199* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1153*))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_7B3711015280C5D2_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1199*))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_1E77F9DFFAEE3100_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_4343F372F34C05BF()
+	::System::Void Method_1_9681042564541CD6()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_9681042564541CD6_OFFSET))(this);
 	}
 
 	::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* Method_1_2F0BBBAFE5EB4707()
@@ -62,13 +62,13 @@ public:
 		return ((::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_2F0BBBAFE5EB4707_OFFSET))(this);
 	}
 
-	::System::Void Method_1_E11AC65AA0DC2249()
+	::System::Void Method_1_DF2A78D8DB25ED05()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_E11AC65AA0DC2249_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_DF2A78D8DB25ED05_OFFSET))(this);
 	}
 
-	::System::Void Method_1_4343F372F34C05BF_1()
+	::System::Void Method_1_4343F372F34C05BF()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_4343F372F34C05BF_1_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_DED4BA2FC834659B_METHOD_1_4343F372F34C05BF_OFFSET))(this);
 	}
 };

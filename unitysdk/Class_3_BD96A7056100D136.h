@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define CLASS_3_BD96A7056100D136_INTERP_OFFSET UNITYSDK_OFFSET(0x15BE6DA0)
-#define CLASS_3_BD96A7056100D136__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15BE6D10)
-#define CLASS_3_BD96A7056100D136__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE6CB0)
+#define CLASS_3_BD96A7056100D136_INTERP_OFFSET UNITYSDK_OFFSET(0x14C071A0)
+#define CLASS_3_BD96A7056100D136__CTOR_1_OFFSET UNITYSDK_OFFSET(0x14C07120)
+#define CLASS_3_BD96A7056100D136__CTOR_OFFSET UNITYSDK_OFFSET(0x14C070C0)
 
-inline static constexpr unsigned int Class_3_BD96A7056100D136_TypeDefinitionIndex = 69099;
+inline static constexpr unsigned int Class_3_BD96A7056100D136_TypeDefinitionIndex = 70618;
 
 class Class_3_BD96A7056100D136 : public ::RPG::Client::OpenWorld::VolumeParameter_1<::UnityEngine::Color>
 {

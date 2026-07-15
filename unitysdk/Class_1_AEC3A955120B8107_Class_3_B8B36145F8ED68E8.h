@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_0_16E4307DCC419505_326;
+class Class_0_16E4307DCC419505_350;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Component; }
 
-#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x153A3090)
-#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x153A30C0)
-#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_INVOKE_OFFSET UNITYSDK_OFFSET(0x153A3080)
-#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8__CTOR_OFFSET UNITYSDK_OFFSET(0x153A2F90)
+#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14790C00)
+#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14790C30)
+#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_INVOKE_OFFSET UNITYSDK_OFFSET(0x14790BF0)
+#define CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8__CTOR_OFFSET UNITYSDK_OFFSET(0x14790B00)
 
-inline static constexpr unsigned int Class_1_AEC3A955120B8107_Class_3_B8B36145F8ED68E8_TypeDefinitionIndex = 46264;
+inline static constexpr unsigned int Class_1_AEC3A955120B8107_Class_3_B8B36145F8ED68E8_TypeDefinitionIndex = 47229;
 
 class Class_1_AEC3A955120B8107_Class_3_B8B36145F8ED68E8 : public ::System::MulticastDelegate
 {
@@ -23,9 +23,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::Class_0_16E4307DCC419505_326* Invoke(::UnityEngine::Component* a1)
+	::Class_0_16E4307DCC419505_350* Invoke(::UnityEngine::Component* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_326*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_INVOKE_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_350*(*)(::PVOID, ::UnityEngine::Component*))((::PBYTE)hIl2Cpp + CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_INVOKE_OFFSET))(this, a1);
 	}
 
 	::System::IAsyncResult* BeginInvoke(::UnityEngine::Component* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
@@ -33,8 +33,8 @@ public:
 		return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Component*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 	}
 
-	::Class_0_16E4307DCC419505_326* EndInvoke(::System::IAsyncResult* a1)
+	::Class_0_16E4307DCC419505_350* EndInvoke(::System::IAsyncResult* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_326*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_ENDINVOKE_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_350*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLASS_1_AEC3A955120B8107_CLASS_3_B8B36145F8ED68E8_ENDINVOKE_OFFSET))(this, a1);
 	}
 };

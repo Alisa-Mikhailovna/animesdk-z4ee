@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICENTITYPARAM_METHOD_3_011D1A4769FE1F22_OFFSET UNITYSDK_OFFSET(0x1A1EE870)
-#define RPG_GAMECORE_SETDYNAMICENTITYPARAM_METHOD_3_E473DA5A0230B331_OFFSET UNITYSDK_OFFSET(0x1A1EE8F0)
-#define RPG_GAMECORE_SETDYNAMICENTITYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EE8C0)
+#define RPG_GAMECORE_SETDYNAMICENTITYPARAM_METHOD_3_768643E49C17340C_OFFSET UNITYSDK_OFFSET(0x1B88F600)
+#define RPG_GAMECORE_SETDYNAMICENTITYPARAM_METHOD_3_E473DA5A0230B331_OFFSET UNITYSDK_OFFSET(0x1B88F640)
+#define RPG_GAMECORE_SETDYNAMICENTITYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88F630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicEntityParam_TypeDefinitionIndex = 21433;
+	inline static constexpr unsigned int SetDynamicEntityParam_TypeDefinitionIndex = 21853;
 
 	class SetDynamicEntityParam : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICENTITYPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_011D1A4769FE1F22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicEntityParam*& a2)
+		static ::System::Void Method_3_768643E49C17340C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicEntityParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicEntityParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICENTITYPARAM_METHOD_3_011D1A4769FE1F22_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicEntityParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICENTITYPARAM_METHOD_3_768643E49C17340C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E473DA5A0230B331(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicEntityParam* a2)

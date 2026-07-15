@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetCameraAxis; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_01219D1316EF1686_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F182A0)
-#define CLASS_3_01219D1316EF1686__CTOR_OFFSET UNITYSDK_OFFSET(0x15F18270)
+#define CLASS_3_01219D1316EF1686_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25ECC0)
+#define CLASS_3_01219D1316EF1686__CTOR_OFFSET UNITYSDK_OFFSET(0xC25EC90)
 
-inline static constexpr unsigned int Class_3_01219D1316EF1686_TypeDefinitionIndex = 51670;
+inline static constexpr unsigned int Class_3_01219D1316EF1686_TypeDefinitionIndex = 52813;
 
 class Class_3_01219D1316EF1686 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetCameraAxis*>
 {

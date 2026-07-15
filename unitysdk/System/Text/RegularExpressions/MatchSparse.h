@@ -7,12 +7,12 @@ namespace System::Collections { class Hashtable; }
 namespace System::Text::RegularExpressions { class GroupCollection; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHSPARSE_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1492C920)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHSPARSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1492C890)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHSPARSE_GET_GROUPS_OFFSET UNITYSDK_OFFSET(0x1CD45B40)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHSPARSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD45AB0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int MatchSparse_TypeDefinitionIndex = 2508;
+	inline static constexpr unsigned int MatchSparse_TypeDefinitionIndex = 2512;
 
 	class MatchSparse : public ::System::Text::RegularExpressions::Match
 	{

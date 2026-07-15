@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_E408E6D7F3D1822C.h"
+#include "unitysdk/Class_2_980BB27C20DEC196.h"
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define CLASS_3_9038145D85E9F490_METHOD_3_9D0CF92250557C23_OFFSET UNITYSDK_OFFSET(0x152806E0)
-#define CLASS_3_9038145D85E9F490_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x152807D0)
-#define CLASS_3_9038145D85E9F490_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15280760)
-#define CLASS_3_9038145D85E9F490__CTOR_OFFSET UNITYSDK_OFFSET(0x15280830)
-#define CLASS_3_9038145D85E9F490___IFIXBASEPROXY_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x152808A0)
-#define CLASS_3_9038145D85E9F490___IFIXBASEPROXY_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15280840)
+#define CLASS_3_9038145D85E9F490_METHOD_3_9D0CF92250557C23_OFFSET UNITYSDK_OFFSET(0xB353030)
+#define CLASS_3_9038145D85E9F490_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB353120)
+#define CLASS_3_9038145D85E9F490_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB3530B0)
+#define CLASS_3_9038145D85E9F490__CTOR_OFFSET UNITYSDK_OFFSET(0xB353180)
 
-inline static constexpr unsigned int Class_3_9038145D85E9F490_TypeDefinitionIndex = 61569;
+inline static constexpr unsigned int Class_3_9038145D85E9F490_TypeDefinitionIndex = 62931;
 
-class Class_3_9038145D85E9F490 : public ::Class_2_E408E6D7F3D1822C
+class Class_3_9038145D85E9F490 : public ::Class_2_980BB27C20DEC196
 {
 public:
 	::RPG::GameCore::Match3::BombType Field_3_0; // 0x28
 	::System::UInt32 Field_3_1; // 0x2C
-	::UnityEngine::Vector2 Field_3_2; // 0x30
-	::System::UInt32 Field_3_3; // 0x38
+	::System::UInt32 Field_3_2; // 0x30
+	::UnityEngine::Vector2 Field_3_3; // 0x34
 
 	::System::Void _ctor()
 	{
@@ -41,15 +39,5 @@ public:
 	::System::Void OnClear()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9038145D85E9F490_ONCLEAR_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnExecute()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9038145D85E9F490___IFIXBASEPROXY_ONEXECUTE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnClear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9038145D85E9F490___IFIXBASEPROXY_ONCLEAR_OFFSET))(this);
 	}
 };

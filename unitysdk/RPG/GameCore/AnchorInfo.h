@@ -9,27 +9,27 @@ namespace RPG::GameCore { class LevelAnchorParameter; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0x1688F620)
-#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x16875420)
-#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x168754B0)
-#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0x1688F5D0)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1688F5B0)
-#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1688F580)
+#define RPG_GAMECORE_ANCHORINFO_GETAREAANCHORNAME_OFFSET UNITYSDK_OFFSET(0xD993A70)
+#define RPG_GAMECORE_ANCHORINFO_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xD9938B0)
+#define RPG_GAMECORE_ANCHORINFO_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xD993940)
+#define RPG_GAMECORE_ANCHORINFO_INITFORCAMERA_OFFSET UNITYSDK_OFFSET(0xD993A20)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD993A00)
+#define RPG_GAMECORE_ANCHORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD9939D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 54044;
+	inline static constexpr unsigned int AnchorInfo_TypeDefinitionIndex = 55267;
 
 	class AnchorInfo : public ::System::Object
 	{
 	public:
-		::System::String* AreaName; // 0x10
-		::UnityEngine::Transform* TransRoot; // 0x18
-		::System::String* Name; // 0x20
-		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x28
+		::UnityEngine::Transform* TransRoot; // 0x10
+		::System::String* Name; // 0x18
+		::RPG::GameCore::LevelAnchorParameter* CustomParameter; // 0x20
+		::System::String* AreaName; // 0x28
 		::UnityEngine::Vector3 _Postion; // 0x30
-		::System::UInt32 ID; // 0x3C
-		::UnityEngine::Quaternion _Rotation; // 0x40
+		::UnityEngine::Quaternion _Rotation; // 0x3C
+		::System::UInt32 ID; // 0x4C
 		::RPG::GameCore::LevelAnchorUsage Usage; // 0x50
 
 		::System::Void _ctor(::UnityEngine::Transform* a1)

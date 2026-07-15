@@ -6,11 +6,11 @@ namespace RPG::Client { class AttachMappingItem; }
 namespace RPG::Client { class TriggerInfoConfigItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRIGGERINFOMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x17FD50E0)
+#define RPG_CLIENT_TRIGGERINFOMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xD759320)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TriggerInfoMapping_TypeDefinitionIndex = 64467;
+	inline static constexpr unsigned int TriggerInfoMapping_TypeDefinitionIndex = 65838;
 
 	class TriggerInfoMapping : public ::UnityEngine::MonoBehaviour
 	{

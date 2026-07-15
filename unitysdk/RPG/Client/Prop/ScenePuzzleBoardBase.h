@@ -6,15 +6,14 @@ namespace RPG::Client::Prop { class ScenePuzzleItemBase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12C83DA0)
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_METHOD_6_90C7606F2C268BB2_OFFSET UNITYSDK_OFFSET(0x12C83950)
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0x12C83A90)
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x12C83E40)
-#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12C83EE0)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD228D60)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_METHOD_6_90C7606F2C268BB2_OFFSET UNITYSDK_OFFSET(0xD228880)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD2289C0)
+#define RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD228E00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ScenePuzzleBoardBase_TypeDefinitionIndex = 73374;
+	inline static constexpr unsigned int ScenePuzzleBoardBase_TypeDefinitionIndex = 74899;
 
 	class ScenePuzzleBoardBase : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
@@ -39,11 +38,6 @@ namespace RPG::Client::Prop
 		::System::Void Dispose()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE_DISPOSE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Dispose()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SCENEPUZZLEBOARDBASE___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 		}
 	};
 }

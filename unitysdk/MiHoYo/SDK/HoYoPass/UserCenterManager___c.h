@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::HoYoPass { class UserCenterManager_UserCenterJsBridge; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14C69A90)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14C69AD0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__REGISTERRESULTHANDLER_B__15_2_OFFSET UNITYSDK_OFFSET(0x14C69AE0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D1F350)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D1F390)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__REGISTERRESULTHANDLER_B__15_2_OFFSET UNITYSDK_OFFSET(0x19D1F3A0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 8217;
+	inline static constexpr unsigned int UserCenterManager___c_TypeDefinitionIndex = 8229;
 
 	class UserCenterManager___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::HoYoPass::UserCenterManager_UserCenterJsBridge** StaticGet___9__15_2()
 		{
-			return (::MiHoYo::SDK::HoYoPass::UserCenterManager_UserCenterJsBridge**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x13F00);
+			return (::MiHoYo::SDK::HoYoPass::UserCenterManager_UserCenterJsBridge**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x21AC0);
 		}
 		static ::MiHoYo::SDK::HoYoPass::UserCenterManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::HoYoPass::UserCenterManager___c**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x13F08);
+			return (::MiHoYo::SDK::HoYoPass::UserCenterManager___c**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager___c_TypeDefinitionIndex)->GetStaticField(0x21AC8);
 		}
 
 		static ::System::Void _cctor()

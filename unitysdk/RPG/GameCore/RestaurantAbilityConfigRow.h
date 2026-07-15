@@ -8,23 +8,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A2F12C0)
-#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2F1610)
+#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B7259F0)
+#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B725D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantAbilityConfigRow_TypeDefinitionIndex = 10901;
+	inline static constexpr unsigned int RestaurantAbilityConfigRow_TypeDefinitionIndex = 10951;
 
 	class RestaurantAbilityConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* BuffList; // 0x10
-		::Il2CppArray<::System::Single>* DynamicValues; // 0x18
+		::Il2CppArray<::System::Single>* DynamicValues; // 0x10
+		::Il2CppArray<::System::String*>* BuffList; // 0x18
 		::RPG::Client::TextID Detail; // 0x20
-		::RPG::Client::TextID Name; // 0x30
-		::RPG::GameCore::RestaurantEmployeeAbility Type; // 0x40
-		::System::UInt32 AbilityID; // 0x44
-		::RPG::GameCore::ElfTargetType TargetType; // 0x48
+		::RPG::GameCore::RestaurantEmployeeAbility Type; // 0x30
+		::System::UInt32 AbilityID; // 0x34
+		::RPG::GameCore::ElfTargetType TargetType; // 0x38
+		::RPG::Client::TextID Name; // 0x40
 
 		::System::Void _ctor()
 		{

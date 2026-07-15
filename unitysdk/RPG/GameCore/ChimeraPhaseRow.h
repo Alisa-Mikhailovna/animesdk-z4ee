@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3066C0)
-#define RPG_GAMECORE_CHIMERAPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A306920)
+#define RPG_GAMECORE_CHIMERAPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B356280)
+#define RPG_GAMECORE_CHIMERAPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3564E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraPhaseRow_TypeDefinitionIndex = 12406;
+	inline static constexpr unsigned int ChimeraPhaseRow_TypeDefinitionIndex = 12539;
 
 	class ChimeraPhaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TargetParam; // 0x10
 		::Il2CppArray<::System::UInt32>* RoundList; // 0x18
-		::System::UInt32 PhaseID; // 0x20
-		::RPG::GameCore::ChimeraPhaseTargetType TargetType; // 0x24
-		::System::Int32 LeaderChariotState; // 0x28
-		::System::UInt32 NextPhaseID; // 0x2C
+		::System::UInt32 NextPhaseID; // 0x20
+		::System::Int32 LeaderChariotState; // 0x24
+		::RPG::GameCore::ChimeraPhaseTargetType TargetType; // 0x28
+		::System::UInt32 PhaseID; // 0x2C
 
 		::System::Void _ctor()
 		{

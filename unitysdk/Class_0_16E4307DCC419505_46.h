@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace Entitas { class IComponent; }
+class Class_1_68567FA2484DF545;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_46_TypeDefinitionIndex = 34690;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_46_TypeDefinitionIndex = 35375;
 
 class Class_0_16E4307DCC419505_46
 {

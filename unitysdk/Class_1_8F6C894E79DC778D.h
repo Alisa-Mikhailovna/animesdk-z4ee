@@ -9,31 +9,31 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_8F6C894E79DC778D_METHOD_1_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0x16457FD0)
-#define CLASS_1_8F6C894E79DC778D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16458820)
-#define CLASS_1_8F6C894E79DC778D__CCTOR_OFFSET UNITYSDK_OFFSET(0x16458880)
-#define CLASS_1_8F6C894E79DC778D__CTOR_OFFSET UNITYSDK_OFFSET(0x16457F70)
+#define CLASS_1_8F6C894E79DC778D_METHOD_1_3CCA0B8A31B650A8_OFFSET UNITYSDK_OFFSET(0x1486D500)
+#define CLASS_1_8F6C894E79DC778D_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1486DD50)
+#define CLASS_1_8F6C894E79DC778D__CCTOR_OFFSET UNITYSDK_OFFSET(0x1486DDC0)
+#define CLASS_1_8F6C894E79DC778D__CTOR_OFFSET UNITYSDK_OFFSET(0x1486D4A0)
 
-inline static constexpr unsigned int Class_1_8F6C894E79DC778D_TypeDefinitionIndex = 73005;
+inline static constexpr unsigned int Class_1_8F6C894E79DC778D_TypeDefinitionIndex = 74530;
 
 class Class_1_8F6C894E79DC778D : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6C894E79DC778D_TypeDefinitionIndex)->GetStaticField(0x12600);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6C894E79DC778D_TypeDefinitionIndex)->GetStaticField(0x10A90);
 	}
 	static ::System::Int32* StaticGet_Field_1_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6C894E79DC778D_TypeDefinitionIndex)->GetStaticField(0x12604);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_8F6C894E79DC778D_TypeDefinitionIndex)->GetStaticField(0x10A94);
 	}
 	// static const ::System::String* Field_1_2; // 0x0
-	::UnityEngine::GameObject* Field_1_3; // 0x10
-	::UnityEngine::Transform* Field_1_4; // 0x18
+	::UnityEngine::Transform* Field_1_3; // 0x10
+	::RPG::Client::Prop::ChimeraEntranceAnchorConfig* Field_1_4; // 0x18
 	::UnityEngine::Animator* Field_1_5; // 0x20
-	::RPG::Client::Prop::ChimeraGameObjectBuilder* Field_1_6; // 0x28
-	::RPG::Client::Prop::ChimeraEntranceAnchorConfig* Field_1_7; // 0x30
-	::UnityEngine::GameObject* Field_1_8; // 0x38
+	::UnityEngine::GameObject* Field_1_6; // 0x28
+	::UnityEngine::GameObject* Field_1_7; // 0x30
+	::RPG::Client::Prop::ChimeraGameObjectBuilder* Field_1_8; // 0x38
 
 	::System::Void _ctor(::RPG::Client::Prop::ChimeraEntranceAnchorConfig* a1, ::UnityEngine::Transform* a2)
 	{

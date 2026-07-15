@@ -6,13 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x198B7330)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x198B7530)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x198B7610)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDC98100)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDC98300)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseEventTimelineTrack_TypeDefinitionIndex = 46090;
+	inline static constexpr unsigned int WwiseEventTimelineTrack_TypeDefinitionIndex = 47029;
 
 	class WwiseEventTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -25,11 +24,6 @@ namespace RPGTools::Timeline::Audio
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

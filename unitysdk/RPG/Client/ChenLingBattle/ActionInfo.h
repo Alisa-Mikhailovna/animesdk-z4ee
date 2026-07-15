@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_ECB0576E84484CA9;
+class Class_1_8271AFF79E02658D;
 
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO_GET_ACTIONUID_OFFSET UNITYSDK_OFFSET(0x17B29C00)
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO_SET_ACTIONUID_OFFSET UNITYSDK_OFFSET(0x17B29C10)
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17B29BE0)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO_GET_ACTIONUID_OFFSET UNITYSDK_OFFSET(0xC03B4E0)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO_SET_ACTIONUID_OFFSET UNITYSDK_OFFSET(0xC03B4F0)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC03B4C0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ActionInfo_TypeDefinitionIndex = 70965;
+	inline static constexpr unsigned int ActionInfo_TypeDefinitionIndex = 72478;
 
 	class ActionInfo : public ::System::Object
 	{
 	public:
 		::System::UInt32 _ActionUID_k__BackingField; // 0x10
 
-		::System::Void _ctor(::Class_1_ECB0576E84484CA9* a1)
+		::System::Void _ctor(::Class_1_8271AFF79E02658D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_ECB0576E84484CA9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_8271AFF79E02658D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ACTIONINFO__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ActionUID()

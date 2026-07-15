@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GraphicsSettingRequirements; }
 namespace RPG::GameCore { class RenderResolution; }
 
-#define RPG_GAMECORE_DEVICEINFO_METHOD_2_FE735B0BCD4FC6CB_OFFSET UNITYSDK_OFFSET(0x19B38710)
-#define RPG_GAMECORE_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19B38BD0)
+#define RPG_GAMECORE_DEVICEINFO_METHOD_2_FE735B0BCD4FC6CB_OFFSET UNITYSDK_OFFSET(0x1B3A3920)
+#define RPG_GAMECORE_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3A3DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 17362;
+	inline static constexpr unsigned int DeviceInfo_TypeDefinitionIndex = 17535;
 
 	class DeviceInfo : public ::RPG::GameCore::JsonConfig
 	{

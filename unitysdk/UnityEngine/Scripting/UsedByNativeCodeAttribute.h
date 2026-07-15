@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_SCRIPTING_USEDBYNATIVECODEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B579310)
-#define UNITYENGINE_SCRIPTING_USEDBYNATIVECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B579300)
+#define UNITYENGINE_SCRIPTING_USEDBYNATIVECODEATTRIBUTE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1D0C9FD0)
+#define UNITYENGINE_SCRIPTING_USEDBYNATIVECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C9FC0)
 
 namespace UnityEngine::Scripting
 {
-	inline static constexpr unsigned int UsedByNativeCodeAttribute_TypeDefinitionIndex = 3725;
+	inline static constexpr unsigned int UsedByNativeCodeAttribute_TypeDefinitionIndex = 3729;
 
 	class UsedByNativeCodeAttribute : public ::System::Attribute
 	{

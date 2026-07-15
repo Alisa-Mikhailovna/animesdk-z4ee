@@ -4,12 +4,12 @@
 
 namespace CriWare { class CriAudioWriteStream_Delegate; }
 
-#define CRIWARE_CRIAUDIOWRITESTREAM___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19E58C40)
-#define CRIWARE_CRIAUDIOWRITESTREAM___C__DISPLAYCLASS12_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x19E58C50)
+#define CRIWARE_CRIAUDIOWRITESTREAM___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1575CDB0)
+#define CRIWARE_CRIAUDIOWRITESTREAM___C__DISPLAYCLASS12_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1575CDC0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAudioWriteStream___c__DisplayClass12_0_TypeDefinitionIndex = 37138;
+	inline static constexpr unsigned int CriAudioWriteStream___c__DisplayClass12_0_TypeDefinitionIndex = 37938;
 
 	class CriAudioWriteStream___c__DisplayClass12_0 : public ::System::Object
 	{

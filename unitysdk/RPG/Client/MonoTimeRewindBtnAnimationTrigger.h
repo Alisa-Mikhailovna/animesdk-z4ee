@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOTIMEREWINDBTNANIMATIONTRIGGER_TRIGGERAUDIOEVENT_OFFSET UNITYSDK_OFFSET(0x17AF9770)
-#define RPG_CLIENT_MONOTIMEREWINDBTNANIMATIONTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17AF9900)
+#define RPG_CLIENT_MONOTIMEREWINDBTNANIMATIONTRIGGER_TRIGGERAUDIOEVENT_OFFSET UNITYSDK_OFFSET(0xCD277E0)
+#define RPG_CLIENT_MONOTIMEREWINDBTNANIMATIONTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD27970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimeRewindBtnAnimationTrigger_TypeDefinitionIndex = 64494;
+	inline static constexpr unsigned int MonoTimeRewindBtnAnimationTrigger_TypeDefinitionIndex = 65894;
 
 	class MonoTimeRewindBtnAnimationTrigger : public ::UnityEngine::MonoBehaviour
 	{

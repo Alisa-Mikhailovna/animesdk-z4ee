@@ -5,74 +5,74 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_IPADDRESS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x17CF4DC0)
-#define SYSTEM_NET_IPADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x17CF4E60)
-#define SYSTEM_NET_IPADDRESS_GETADDRESSBYTES_OFFSET UNITYSDK_OFFSET(0x17CDA690)
-#define SYSTEM_NET_IPADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x17CF5040)
-#define SYSTEM_NET_IPADDRESS_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x17CF4280)
-#define SYSTEM_NET_IPADDRESS_GET_ISBROADCAST_OFFSET UNITYSDK_OFFSET(0x17CF4DD0)
-#define SYSTEM_NET_IPADDRESS_GET_SCOPEID_OFFSET UNITYSDK_OFFSET(0x17CF4290)
-#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_1_OFFSET UNITYSDK_OFFSET(0x17CF4B50)
-#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_2_OFFSET UNITYSDK_OFFSET(0x17CF4BB0)
-#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_OFFSET UNITYSDK_OFFSET(0x17CF4A70)
-#define SYSTEM_NET_IPADDRESS_INTERNALPARSE_OFFSET UNITYSDK_OFFSET(0x17CF3EF0)
-#define SYSTEM_NET_IPADDRESS_ISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x17CF4CC0)
-#define SYSTEM_NET_IPADDRESS_MAPTOIPV6_OFFSET UNITYSDK_OFFSET(0x17CF50D0)
-#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_1_OFFSET UNITYSDK_OFFSET(0x17CF4C20)
-#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_OFFSET UNITYSDK_OFFSET(0x17CF4BC0)
-#define SYSTEM_NET_IPADDRESS_PARSE_OFFSET UNITYSDK_OFFSET(0x17CC8A20)
-#define SYSTEM_NET_IPADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17CC9010)
-#define SYSTEM_NET_IPADDRESS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x17CC8E10)
-#define SYSTEM_NET_IPADDRESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CF51D0)
-#define SYSTEM_NET_IPADDRESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17CF3C70)
-#define SYSTEM_NET_IPADDRESS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x17CF3E40)
-#define SYSTEM_NET_IPADDRESS__CTOR_3_OFFSET UNITYSDK_OFFSET(0x17CF3EA0)
-#define SYSTEM_NET_IPADDRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x17CF3BE0)
+#define SYSTEM_NET_IPADDRESS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1CCF3B40)
+#define SYSTEM_NET_IPADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1CCF3BC0)
+#define SYSTEM_NET_IPADDRESS_GETADDRESSBYTES_OFFSET UNITYSDK_OFFSET(0x1CCD61D0)
+#define SYSTEM_NET_IPADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CCF3D60)
+#define SYSTEM_NET_IPADDRESS_GET_ADDRESSFAMILY_OFFSET UNITYSDK_OFFSET(0x1CCF3100)
+#define SYSTEM_NET_IPADDRESS_GET_ISBROADCAST_OFFSET UNITYSDK_OFFSET(0x1CCF3B50)
+#define SYSTEM_NET_IPADDRESS_GET_SCOPEID_OFFSET UNITYSDK_OFFSET(0x1CCF3110)
+#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_1_OFFSET UNITYSDK_OFFSET(0x1CCF3950)
+#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_2_OFFSET UNITYSDK_OFFSET(0x1CCF3980)
+#define SYSTEM_NET_IPADDRESS_HOSTTONETWORKORDER_OFFSET UNITYSDK_OFFSET(0x1CCF38F0)
+#define SYSTEM_NET_IPADDRESS_INTERNALPARSE_OFFSET UNITYSDK_OFFSET(0x1CCF2D70)
+#define SYSTEM_NET_IPADDRESS_ISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x1CCF3A40)
+#define SYSTEM_NET_IPADDRESS_MAPTOIPV6_OFFSET UNITYSDK_OFFSET(0x1CCF3E50)
+#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_1_OFFSET UNITYSDK_OFFSET(0x1CCF3A00)
+#define SYSTEM_NET_IPADDRESS_NETWORKTOHOSTORDER_OFFSET UNITYSDK_OFFSET(0x1CCF3990)
+#define SYSTEM_NET_IPADDRESS_PARSE_OFFSET UNITYSDK_OFFSET(0x1CCC2500)
+#define SYSTEM_NET_IPADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CCC29B0)
+#define SYSTEM_NET_IPADDRESS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1CCC27E0)
+#define SYSTEM_NET_IPADDRESS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF3F50)
+#define SYSTEM_NET_IPADDRESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CCF2AF0)
+#define SYSTEM_NET_IPADDRESS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CCF2CC0)
+#define SYSTEM_NET_IPADDRESS__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1CCF2D20)
+#define SYSTEM_NET_IPADDRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF2A60)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IPAddress_TypeDefinitionIndex = 2732;
+	inline static constexpr unsigned int IPAddress_TypeDefinitionIndex = 2736;
 
 	class IPAddress : public ::System::Object
 	{
 	public:
-		static ::System::Net::IPAddress** StaticGet_None()
+		static ::System::Net::IPAddress** StaticGet_IPv6Loopback()
 		{
-			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x9320);
-		}
-		static ::System::Net::IPAddress** StaticGet_Loopback()
-		{
-			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x9328);
-		}
-		static ::System::Net::IPAddress** StaticGet_Any()
-		{
-			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x9330);
+			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x6330);
 		}
 		static ::System::Net::IPAddress** StaticGet_IPv6None()
 		{
-			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x9338);
+			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x6338);
+		}
+		static ::System::Net::IPAddress** StaticGet_Loopback()
+		{
+			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x6340);
 		}
 		static ::System::Net::IPAddress** StaticGet_IPv6Any()
 		{
-			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x9340);
+			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x6348);
 		}
 		static ::System::Net::IPAddress** StaticGet_Broadcast()
 		{
-			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x9348);
+			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x6350);
 		}
-		static ::System::Net::IPAddress** StaticGet_IPv6Loopback()
+		static ::System::Net::IPAddress** StaticGet_None()
 		{
-			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x9350);
+			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x6358);
+		}
+		static ::System::Net::IPAddress** StaticGet_Any()
+		{
+			return (::System::Net::IPAddress**)Il2CppClass::FromTypeDefinitionIndex(IPAddress_TypeDefinitionIndex)->GetStaticField(0x6360);
 		}
 		// static const ::System::Int64 LoopbackMask = 0xFF; // 0x0
 		// static const ::System::Int32 IPv4AddressBytes = 0x4; // 0x0
 		// static const ::System::Int32 IPv6AddressBytes = 0x10; // 0x0
 		// static const ::System::Int32 NumberOfLabels = 0x8; // 0x0
-		::Il2CppArray<::System::UInt16>* m_Numbers; // 0x10
-		::System::String* m_ToString; // 0x18
-		::System::Net::Sockets::AddressFamily m_Family; // 0x20
-		::System::Int32 m_HashCode; // 0x24
-		::System::Int64 m_ScopeId; // 0x28
+		::System::String* m_ToString; // 0x10
+		::Il2CppArray<::System::UInt16>* m_Numbers; // 0x18
+		::System::Int64 m_ScopeId; // 0x20
+		::System::Int32 m_HashCode; // 0x28
+		::System::Net::Sockets::AddressFamily m_Family; // 0x2C
 		::System::Int64 m_Address; // 0x30
 
 		::System::Void _ctor(::System::Int64 a1)

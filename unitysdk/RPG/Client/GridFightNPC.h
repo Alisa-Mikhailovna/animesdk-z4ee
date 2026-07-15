@@ -3,11 +3,12 @@
 #include "unitysdk/RPG/Client/GridFightGridMember.h"
 #include "unitysdk/RPG/Client/GridFightGridMemberType.h"
 
-class Class_0_16E4307DCC419505_773;
-class Class_1_4BC858D7C27E10ED_31;
+class Class_0_16E4307DCC419505_804;
+class Class_1_10F56A639581CEB1_13;
 class Class_1_AE4553DBAC72BB2D;
 namespace RPG::Client { class GridFightEquipComponent; }
 namespace RPG::Client { class GridFightNPCConfig; }
+namespace RPG::Client { class GridFightRoleEffect; }
 namespace RPG::Client { class GridFightTraitComponent; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -15,55 +16,58 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTNPC_ADD_ONACTIVECHANGED_OFFSET UNITYSDK_OFFSET(0x19774CD0)
-#define RPG_CLIENT_GRIDFIGHTNPC_CONTAINSTRAIT_OFFSET UNITYSDK_OFFSET(0x19774D90)
-#define RPG_CLIENT_GRIDFIGHTNPC_CREATEBATTLE_OFFSET UNITYSDK_OFFSET(0x197747B0)
-#define RPG_CLIENT_GRIDFIGHTNPC_CREATE_OFFSET UNITYSDK_OFFSET(0x197744B0)
-#define RPG_CLIENT_GRIDFIGHTNPC_GET_CANACTIVETRAIT_OFFSET UNITYSDK_OFFSET(0x19774CC0)
-#define RPG_CLIENT_GRIDFIGHTNPC_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19774CA0)
-#define RPG_CLIENT_GRIDFIGHTNPC_GET_EQUIPCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19774C80)
-#define RPG_CLIENT_GRIDFIGHTNPC_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x19774C50)
-#define RPG_CLIENT_GRIDFIGHTNPC_GET_TRAITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19774C60)
-#define RPG_CLIENT_GRIDFIGHTNPC_REMOVE_ONACTIVECHANGED_OFFSET UNITYSDK_OFFSET(0x19774D30)
-#define RPG_CLIENT_GRIDFIGHTNPC_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x19774CB0)
-#define RPG_CLIENT_GRIDFIGHTNPC_SET_EQUIPCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19774C90)
-#define RPG_CLIENT_GRIDFIGHTNPC_SET_TRAITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x19774C70)
-#define RPG_CLIENT_GRIDFIGHTNPC_UPDATE_OFFSET UNITYSDK_OFFSET(0x19774B60)
-#define RPG_CLIENT_GRIDFIGHTNPC__CONTAINSTRAIT_B__23_0_OFFSET UNITYSDK_OFFSET(0x19775140)
-#define RPG_CLIENT_GRIDFIGHTNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x197743B0)
-#define RPG_CLIENT_GRIDFIGHTNPC__ONEQUIPCOMPONENTCOLLECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0x19774FB0)
-#define RPG_CLIENT_GRIDFIGHTNPC__ONEQUIPCOMPONENTPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x19774EB0)
+#define RPG_CLIENT_GRIDFIGHTNPC_ADD_ONACTIVECHANGED_OFFSET UNITYSDK_OFFSET(0xC798730)
+#define RPG_CLIENT_GRIDFIGHTNPC_CONTAINSTRAIT_OFFSET UNITYSDK_OFFSET(0xC7987F0)
+#define RPG_CLIENT_GRIDFIGHTNPC_CREATEBATTLE_OFFSET UNITYSDK_OFFSET(0xC7980F0)
+#define RPG_CLIENT_GRIDFIGHTNPC_CREATE_OFFSET UNITYSDK_OFFSET(0xC797D80)
+#define RPG_CLIENT_GRIDFIGHTNPC_GET_CANACTIVETRAIT_OFFSET UNITYSDK_OFFSET(0xC7986C0)
+#define RPG_CLIENT_GRIDFIGHTNPC_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xC798680)
+#define RPG_CLIENT_GRIDFIGHTNPC_GET_EQUIPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC798660)
+#define RPG_CLIENT_GRIDFIGHTNPC_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0xC7985F0)
+#define RPG_CLIENT_GRIDFIGHTNPC_GET_ROLEEFFECT_OFFSET UNITYSDK_OFFSET(0xC7986A0)
+#define RPG_CLIENT_GRIDFIGHTNPC_GET_TRAITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC798640)
+#define RPG_CLIENT_GRIDFIGHTNPC_REMOVE_ONACTIVECHANGED_OFFSET UNITYSDK_OFFSET(0xC798790)
+#define RPG_CLIENT_GRIDFIGHTNPC_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xC798690)
+#define RPG_CLIENT_GRIDFIGHTNPC_SET_EQUIPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC798670)
+#define RPG_CLIENT_GRIDFIGHTNPC_SET_ROLEEFFECT_OFFSET UNITYSDK_OFFSET(0xC7986B0)
+#define RPG_CLIENT_GRIDFIGHTNPC_SET_TRAITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xC798650)
+#define RPG_CLIENT_GRIDFIGHTNPC_UPDATE_OFFSET UNITYSDK_OFFSET(0xC798500)
+#define RPG_CLIENT_GRIDFIGHTNPC__CONTAINSTRAIT_B__27_0_OFFSET UNITYSDK_OFFSET(0xC798BA0)
+#define RPG_CLIENT_GRIDFIGHTNPC__CTOR_OFFSET UNITYSDK_OFFSET(0xC797C80)
+#define RPG_CLIENT_GRIDFIGHTNPC__ONEQUIPCOMPONENTCOLLECTIONCHANGED_OFFSET UNITYSDK_OFFSET(0xC798A10)
+#define RPG_CLIENT_GRIDFIGHTNPC__ONEQUIPCOMPONENTPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xC798910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightNPC_TypeDefinitionIndex = 60838;
+	inline static constexpr unsigned int GridFightNPC_TypeDefinitionIndex = 62138;
 
 	class GridFightNPC : public ::RPG::Client::GridFightGridMember
 	{
 	public:
-		::RPG::Client::GridFightTraitComponent* _TraitComponent_k__BackingField; // 0x20
-		::System::Action* OnActiveChanged; // 0x28
-		::RPG::Client::GridFightNPCConfig* _Config_k__BackingField; // 0x30
-		::RPG::Client::GridFightEquipComponent* _EquipComponent_k__BackingField; // 0x38
+		::RPG::Client::GridFightNPCConfig* _Config_k__BackingField; // 0x20
+		::RPG::Client::GridFightEquipComponent* _EquipComponent_k__BackingField; // 0x28
+		::System::Action* OnActiveChanged; // 0x30
+		::RPG::Client::GridFightRoleEffect* _RoleEffect_k__BackingField; // 0x38
+		::RPG::Client::GridFightTraitComponent* _TraitComponent_k__BackingField; // 0x40
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		static ::RPG::Client::GridFightNPC* Create(::Class_1_4BC858D7C27E10ED_31* a1, ::Class_0_16E4307DCC419505_773* a2)
+		static ::RPG::Client::GridFightNPC* Create(::Class_1_10F56A639581CEB1_13* a1, ::Class_0_16E4307DCC419505_804* a2)
 		{
-			return ((::RPG::Client::GridFightNPC*(*)(::Class_1_4BC858D7C27E10ED_31*, ::Class_0_16E4307DCC419505_773*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_CREATE_OFFSET))(a1, a2);
+			return ((::RPG::Client::GridFightNPC*(*)(::Class_1_10F56A639581CEB1_13*, ::Class_0_16E4307DCC419505_804*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_CREATE_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::Client::GridFightNPC* CreateBattle(::Class_1_AE4553DBAC72BB2D* a1, ::Class_0_16E4307DCC419505_773* a2)
+		static ::RPG::Client::GridFightNPC* CreateBattle(::Class_1_AE4553DBAC72BB2D* a1, ::Class_0_16E4307DCC419505_804* a2)
 		{
-			return ((::RPG::Client::GridFightNPC*(*)(::Class_1_AE4553DBAC72BB2D*, ::Class_0_16E4307DCC419505_773*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_CREATEBATTLE_OFFSET))(a1, a2);
+			return ((::RPG::Client::GridFightNPC*(*)(::Class_1_AE4553DBAC72BB2D*, ::Class_0_16E4307DCC419505_804*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_CREATEBATTLE_OFFSET))(a1, a2);
 		}
 
-		::System::Void Update(::Class_1_4BC858D7C27E10ED_31* a1)
+		::System::Void Update(::Class_1_10F56A639581CEB1_13* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4BC858D7C27E10ED_31*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_UPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_10F56A639581CEB1_13*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_UPDATE_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightGridMemberType get_MemberType()
@@ -101,6 +105,16 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightNPCConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_SET_CONFIG_OFFSET))(this, a1);
 		}
 
+		::RPG::Client::GridFightRoleEffect* get_RoleEffect()
+		{
+			return ((::RPG::Client::GridFightRoleEffect*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_GET_ROLEEFFECT_OFFSET))(this);
+		}
+
+		::System::Void set_RoleEffect(::RPG::Client::GridFightRoleEffect* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRoleEffect*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_SET_ROLEEFFECT_OFFSET))(this, a1);
+		}
+
 		::System::Boolean get_CanActiveTrait()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC_GET_CANACTIVETRAIT_OFFSET))(this);
@@ -131,9 +145,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC__ONEQUIPCOMPONENTCOLLECTIONCHANGED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _ContainsTrait_b__23_0(::System::UInt32 a1)
+		::System::Boolean _ContainsTrait_b__27_0(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC__CONTAINSTRAIT_B__23_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC__CONTAINSTRAIT_B__27_0_OFFSET))(this, a1);
 		}
 	};
 }

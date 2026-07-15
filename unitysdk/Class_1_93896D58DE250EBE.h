@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class FloatCurve; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_93896D58DE250EBE_CLEAR_OFFSET UNITYSDK_OFFSET(0x14A15FE0)
-#define CLASS_1_93896D58DE250EBE__CTOR_OFFSET UNITYSDK_OFFSET(0x14A16030)
+#define CLASS_1_93896D58DE250EBE_CLEAR_OFFSET UNITYSDK_OFFSET(0x14737380)
+#define CLASS_1_93896D58DE250EBE__CTOR_OFFSET UNITYSDK_OFFSET(0x147373D0)
 
-inline static constexpr unsigned int Class_1_93896D58DE250EBE_TypeDefinitionIndex = 53188;
+inline static constexpr unsigned int Class_1_93896D58DE250EBE_TypeDefinitionIndex = 54403;
 
 class Class_1_93896D58DE250EBE : public ::System::Object
 {

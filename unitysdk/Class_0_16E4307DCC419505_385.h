@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_276321B6B122C69C.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/RelicType.h"
 
-class Class_1_C85C4DAB350DD5FC;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_385_TypeDefinitionIndex = 48557;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_385_TypeDefinitionIndex = 49625;
 
 class Class_0_16E4307DCC419505_385
 {

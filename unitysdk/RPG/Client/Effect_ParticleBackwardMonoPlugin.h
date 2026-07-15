@@ -10,13 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x156B0150)
-#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x156B01A0)
-#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x156B0300)
+#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3377C0)
+#define RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC337810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticleBackwardMonoPlugin_TypeDefinitionIndex = 65937;
+	inline static constexpr unsigned int Effect_ParticleBackwardMonoPlugin_TypeDefinitionIndex = 67362;
 
 	class Effect_ParticleBackwardMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ParticleBackwardBehavior*>
 	{
@@ -50,11 +49,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEBACKWARDMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

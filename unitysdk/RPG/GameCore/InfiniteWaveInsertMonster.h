@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_INFINITEWAVEINSERTMONSTER_METHOD_3_7DFDC224EF9CC547_OFFSET UNITYSDK_OFFSET(0x19AE1FE0)
-#define RPG_GAMECORE_INFINITEWAVEINSERTMONSTER_METHOD_3_C9B2E853D025EAA8_OFFSET UNITYSDK_OFFSET(0x19AE2060)
-#define RPG_GAMECORE_INFINITEWAVEINSERTMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE2030)
+#define RPG_GAMECORE_INFINITEWAVEINSERTMONSTER_METHOD_3_2D92CFFEAF99049D_OFFSET UNITYSDK_OFFSET(0x1B531800)
+#define RPG_GAMECORE_INFINITEWAVEINSERTMONSTER_METHOD_3_C9B2E853D025EAA8_OFFSET UNITYSDK_OFFSET(0x1B531840)
+#define RPG_GAMECORE_INFINITEWAVEINSERTMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B531830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfiniteWaveInsertMonster_TypeDefinitionIndex = 21991;
+	inline static constexpr unsigned int InfiniteWaveInsertMonster_TypeDefinitionIndex = 22425;
 
 	class InfiniteWaveInsertMonster : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEINSERTMONSTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7DFDC224EF9CC547(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveInsertMonster*& a2)
+		static ::System::Void Method_3_2D92CFFEAF99049D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveInsertMonster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfiniteWaveInsertMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEINSERTMONSTER_METHOD_3_7DFDC224EF9CC547_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfiniteWaveInsertMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEINSERTMONSTER_METHOD_3_2D92CFFEAF99049D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C9B2E853D025EAA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveInsertMonster* a2)

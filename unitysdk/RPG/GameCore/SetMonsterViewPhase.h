@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_1E701FAEFBCCA000_OFFSET UNITYSDK_OFFSET(0x1A795EF0)
-#define RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_77D02E6125E1D74B_OFFSET UNITYSDK_OFFSET(0x1A795E20)
-#define RPG_GAMECORE_SETMONSTERVIEWPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A795EA0)
+#define RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_0B568452227DE65F_OFFSET UNITYSDK_OFFSET(0x1B8ACBC0)
+#define RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_1E701FAEFBCCA000_OFFSET UNITYSDK_OFFSET(0x1B8ACC60)
+#define RPG_GAMECORE_SETMONSTERVIEWPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8ACC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterViewPhase_TypeDefinitionIndex = 21491;
+	inline static constexpr unsigned int SetMonsterViewPhase_TypeDefinitionIndex = 21912;
 
 	class SetMonsterViewPhase : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_77D02E6125E1D74B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterViewPhase*& a2)
+		static ::System::Void Method_3_0B568452227DE65F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterViewPhase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterViewPhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_77D02E6125E1D74B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterViewPhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_0B568452227DE65F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1E701FAEFBCCA000(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterViewPhase* a2)

@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ABILITYPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198844F0)
-#define RPG_GAMECORE_ABILITYPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19884640)
+#define RPG_GAMECORE_ABILITYPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B0F5420)
+#define RPG_GAMECORE_ABILITYPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F5570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPropertyValue_TypeDefinitionIndex = 12145;
+	inline static constexpr unsigned int AbilityPropertyValue_TypeDefinitionIndex = 12277;
 
 	class AbilityPropertyValue : public ::System::Object
 	{

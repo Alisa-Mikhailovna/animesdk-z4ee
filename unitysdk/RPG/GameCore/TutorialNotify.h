@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALNOTIFY_METHOD_3_2063F8F256FBF943_OFFSET UNITYSDK_OFFSET(0x19A5F1E0)
-#define RPG_GAMECORE_TUTORIALNOTIFY_METHOD_3_39E35993C027B418_OFFSET UNITYSDK_OFFSET(0x19A5F160)
-#define RPG_GAMECORE_TUTORIALNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x19A5F1B0)
+#define RPG_GAMECORE_TUTORIALNOTIFY_METHOD_3_2063F8F256FBF943_OFFSET UNITYSDK_OFFSET(0x1B9BB8E0)
+#define RPG_GAMECORE_TUTORIALNOTIFY_METHOD_3_369E2A8F7DEFAE1E_OFFSET UNITYSDK_OFFSET(0x1B9BB8A0)
+#define RPG_GAMECORE_TUTORIALNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BB8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialNotify_TypeDefinitionIndex = 23022;
+	inline static constexpr unsigned int TutorialNotify_TypeDefinitionIndex = 23489;
 
 	class TutorialNotify : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALNOTIFY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_39E35993C027B418(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialNotify*& a2)
+		static ::System::Void Method_3_369E2A8F7DEFAE1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialNotify*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialNotify*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALNOTIFY_METHOD_3_39E35993C027B418_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialNotify*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALNOTIFY_METHOD_3_369E2A8F7DEFAE1E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2063F8F256FBF943(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialNotify* a2)

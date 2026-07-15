@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropInteractOverrideData01; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STARTPROPINTERACTMODE_METHOD_3_2887BFAFA512FE24_OFFSET UNITYSDK_OFFSET(0x19349E70)
-#define RPG_GAMECORE_STARTPROPINTERACTMODE_METHOD_3_9D6A12818703D061_OFFSET UNITYSDK_OFFSET(0x19349D30)
-#define RPG_GAMECORE_STARTPROPINTERACTMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19349DE0)
+#define RPG_GAMECORE_STARTPROPINTERACTMODE_METHOD_3_2887BFAFA512FE24_OFFSET UNITYSDK_OFFSET(0x1B90ABE0)
+#define RPG_GAMECORE_STARTPROPINTERACTMODE_METHOD_3_C36B2CD695C5F1FA_OFFSET UNITYSDK_OFFSET(0x1B90AB60)
+#define RPG_GAMECORE_STARTPROPINTERACTMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B90ABB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartPropInteractMode_TypeDefinitionIndex = 19248;
+	inline static constexpr unsigned int StartPropInteractMode_TypeDefinitionIndex = 19604;
 
 	class StartPropInteractMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPINTERACTMODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9D6A12818703D061(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartPropInteractMode*& a2)
+		static ::System::Void Method_3_C36B2CD695C5F1FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartPropInteractMode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartPropInteractMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPINTERACTMODE_METHOD_3_9D6A12818703D061_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartPropInteractMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTPROPINTERACTMODE_METHOD_3_C36B2CD695C5F1FA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2887BFAFA512FE24(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartPropInteractMode* a2)

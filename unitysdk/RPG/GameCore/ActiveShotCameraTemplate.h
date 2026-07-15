@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraBlend; }
 
-#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_METHOD_3_B7DD1B10ABB59A5F_OFFSET UNITYSDK_OFFSET(0x1988FBE0)
-#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_METHOD_3_BE99036A267CCA14_OFFSET UNITYSDK_OFFSET(0x1988FB60)
-#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1988FBB0)
+#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_METHOD_3_812B30A261FD3B0A_OFFSET UNITYSDK_OFFSET(0x1B100110)
+#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_METHOD_3_B7DD1B10ABB59A5F_OFFSET UNITYSDK_OFFSET(0x1B100160)
+#define RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B100150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveShotCameraTemplate_TypeDefinitionIndex = 19683;
+	inline static constexpr unsigned int ActiveShotCameraTemplate_TypeDefinitionIndex = 20042;
 
 	class ActiveShotCameraTemplate : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BE99036A267CCA14(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveShotCameraTemplate*& a2)
+		static ::System::Void Method_3_812B30A261FD3B0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveShotCameraTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveShotCameraTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_METHOD_3_BE99036A267CCA14_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveShotCameraTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVESHOTCAMERATEMPLATE_METHOD_3_812B30A261FD3B0A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B7DD1B10ABB59A5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveShotCameraTemplate* a2)

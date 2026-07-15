@@ -6,15 +6,13 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x199B3860)
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B3700)
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x199B38E0)
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x199B3900)
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B38F0)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xDCB3CD0)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xDCB3B70)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xDCB3D50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStorySteerMixer_TypeDefinitionIndex = 45324;
+	inline static constexpr unsigned int CharacterStorySteerMixer_TypeDefinitionIndex = 46248;
 
 	class CharacterStorySteerMixer : public ::RPGTools::Timeline::OverrideTransformMixer
 	{
@@ -34,16 +32,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYSTEERMIXER___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

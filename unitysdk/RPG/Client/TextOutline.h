@@ -15,114 +15,114 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class RampData; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_TEXTOUTLINE_APPLYFANCYPARAMS_OFFSET UNITYSDK_OFFSET(0x142099F0)
-#define RPG_CLIENT_TEXTOUTLINE_APPLYOUTLINE_OFFSET UNITYSDK_OFFSET(0x1420AB10)
-#define RPG_CLIENT_TEXTOUTLINE_AWAKE_OFFSET UNITYSDK_OFFSET(0x142090A0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0x142085F0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLORLB_OFFSET UNITYSDK_OFFSET(0x14208AE0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0x142086E0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLORLT_OFFSET UNITYSDK_OFFSET(0x142088E0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLORMODE_OFFSET UNITYSDK_OFFSET(0x14208600)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLORRB_OFFSET UNITYSDK_OFFSET(0x14208BE0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0x142087E0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLORRT_OFFSET UNITYSDK_OFFSET(0x142089E0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x142085C0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_ISFANCYINSTANCE_OFFSET UNITYSDK_OFFSET(0x14209950)
-#define RPG_CLIENT_TEXTOUTLINE_GET_RAMPOFFSET_OFFSET UNITYSDK_OFFSET(0x14208EE0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_RAMPROTATION_OFFSET UNITYSDK_OFFSET(0x14208CE0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_RAMPSCALE_OFFSET UNITYSDK_OFFSET(0x14208DE0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_REQUIREBASEMESH_OFFSET UNITYSDK_OFFSET(0x142085E0)
-#define RPG_CLIENT_TEXTOUTLINE_GET_SHADERCHANNELS_OFFSET UNITYSDK_OFFSET(0x14209BB0)
-#define RPG_CLIENT_TEXTOUTLINE_INITMATERIAL_OFFSET UNITYSDK_OFFSET(0x142092E0)
-#define RPG_CLIENT_TEXTOUTLINE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x14209CA0)
-#define RPG_CLIENT_TEXTOUTLINE_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0x1420A660)
-#define RPG_CLIENT_TEXTOUTLINE_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1420A610)
-#define RPG_CLIENT_TEXTOUTLINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1420A330)
-#define RPG_CLIENT_TEXTOUTLINE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x14209120)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLORLB_OFFSET UNITYSDK_OFFSET(0x14208AF0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0x142086F0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLORLT_OFFSET UNITYSDK_OFFSET(0x142088F0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLORMODE_OFFSET UNITYSDK_OFFSET(0x14208610)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLORRB_OFFSET UNITYSDK_OFFSET(0x14208BF0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0x142087F0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLORRT_OFFSET UNITYSDK_OFFSET(0x142089F0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x142085D0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_RAMPOFFSET_OFFSET UNITYSDK_OFFSET(0x14208EF0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_RAMPROTATION_OFFSET UNITYSDK_OFFSET(0x14208CF0)
-#define RPG_CLIENT_TEXTOUTLINE_SET_RAMPSCALE_OFFSET UNITYSDK_OFFSET(0x14208DF0)
-#define RPG_CLIENT_TEXTOUTLINE_START_OFFSET UNITYSDK_OFFSET(0x14209290)
-#define RPG_CLIENT_TEXTOUTLINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1420BF20)
-#define RPG_CLIENT_TEXTOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x14208FE0)
-#define RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0x1420BFE0)
-#define RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0x1420C0C0)
-#define RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1420C0B0)
-#define RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1420BFF0)
-#define RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_START_OFFSET UNITYSDK_OFFSET(0x1420C0A0)
+#define RPG_CLIENT_TEXTOUTLINE_APPLYFANCYPARAMS_OFFSET UNITYSDK_OFFSET(0xD684E70)
+#define RPG_CLIENT_TEXTOUTLINE_APPLYOUTLINE_OFFSET UNITYSDK_OFFSET(0xD685E50)
+#define RPG_CLIENT_TEXTOUTLINE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD6844F0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_ADDBASEMESH_OFFSET UNITYSDK_OFFSET(0xD6832C0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLORLB_OFFSET UNITYSDK_OFFSET(0xD683BA0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0xD6834A0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLORLT_OFFSET UNITYSDK_OFFSET(0xD683820)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLORMODE_OFFSET UNITYSDK_OFFSET(0xD683310)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLORRB_OFFSET UNITYSDK_OFFSET(0xD683D60)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0xD683660)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLORRT_OFFSET UNITYSDK_OFFSET(0xD6839E0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_COLOR_OFFSET UNITYSDK_OFFSET(0xD6831C0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_ISFANCYINSTANCE_OFFSET UNITYSDK_OFFSET(0xD684DD0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_RAMPOFFSET_OFFSET UNITYSDK_OFFSET(0xD684280)
+#define RPG_CLIENT_TEXTOUTLINE_GET_RAMPROTATION_OFFSET UNITYSDK_OFFSET(0xD683F20)
+#define RPG_CLIENT_TEXTOUTLINE_GET_RAMPSCALE_OFFSET UNITYSDK_OFFSET(0xD6840D0)
+#define RPG_CLIENT_TEXTOUTLINE_GET_REQUIREBASEMESH_OFFSET UNITYSDK_OFFSET(0xD683280)
+#define RPG_CLIENT_TEXTOUTLINE_GET_SHADERCHANNELS_OFFSET UNITYSDK_OFFSET(0xD685030)
+#define RPG_CLIENT_TEXTOUTLINE_INITMATERIAL_OFFSET UNITYSDK_OFFSET(0xD684700)
+#define RPG_CLIENT_TEXTOUTLINE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD685120)
+#define RPG_CLIENT_TEXTOUTLINE_MODIFYMESH_1_OFFSET UNITYSDK_OFFSET(0xD685B80)
+#define RPG_CLIENT_TEXTOUTLINE_MODIFYMESH_OFFSET UNITYSDK_OFFSET(0xD685B30)
+#define RPG_CLIENT_TEXTOUTLINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD685850)
+#define RPG_CLIENT_TEXTOUTLINE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD684570)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLORLB_OFFSET UNITYSDK_OFFSET(0xD683C00)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLORLEFT_OFFSET UNITYSDK_OFFSET(0xD683500)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLORLT_OFFSET UNITYSDK_OFFSET(0xD683880)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLORMODE_OFFSET UNITYSDK_OFFSET(0xD683350)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLORRB_OFFSET UNITYSDK_OFFSET(0xD683DC0)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLORRIGHT_OFFSET UNITYSDK_OFFSET(0xD6836C0)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLORRT_OFFSET UNITYSDK_OFFSET(0xD683A40)
+#define RPG_CLIENT_TEXTOUTLINE_SET_COLOR_OFFSET UNITYSDK_OFFSET(0xD683220)
+#define RPG_CLIENT_TEXTOUTLINE_SET_RAMPOFFSET_OFFSET UNITYSDK_OFFSET(0xD6842D0)
+#define RPG_CLIENT_TEXTOUTLINE_SET_RAMPROTATION_OFFSET UNITYSDK_OFFSET(0xD683F70)
+#define RPG_CLIENT_TEXTOUTLINE_SET_RAMPSCALE_OFFSET UNITYSDK_OFFSET(0xD684120)
+#define RPG_CLIENT_TEXTOUTLINE_START_OFFSET UNITYSDK_OFFSET(0xD6846B0)
+#define RPG_CLIENT_TEXTOUTLINE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD6875A0)
+#define RPG_CLIENT_TEXTOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xD684430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextOutline_TypeDefinitionIndex = 67909;
+	inline static constexpr unsigned int TextOutline_TypeDefinitionIndex = 69395;
 
 	class TextOutline : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:
-		static ::UnityEngine::Material** StaticGet_m_OutlineFancyMat()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x4E7A0);
-		}
-		static ::UnityEngine::PassTagID* StaticGet__DefaultUnlit()
-		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x4E7A8);
-		}
 		static ::UnityEngine::Material** StaticGet_m_OutlineMat()
 		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x4E7B8);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x42980);
 		}
 		static ::UnityEngine::PassTagID* StaticGet__WorldUI()
 		{
-			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x4E7C0);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x42988);
 		}
-		static ::System::Int32* StaticGet__NoiseTexID()
+		static ::UnityEngine::Material** StaticGet_m_OutlineFancyMat()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFB0);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x42998);
 		}
-		static ::System::Int32* StaticGet__ColorTexSpeedID()
+		static ::UnityEngine::PassTagID* StaticGet__DefaultUnlit()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFB4);
+			return (::UnityEngine::PassTagID*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0x429A0);
 		}
-		static ::System::Int32* StaticGet__ElementPosID()
+		static ::System::Int32* StaticGet__ZTest()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFB8);
-		}
-		static ::System::Int32* StaticGet_m_FancyCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFBC);
-		}
-		static ::System::Int32* StaticGet_m_Count()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFC0);
-		}
-		static ::System::Int32* StaticGet__ColorTexID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFC4);
-		}
-		static ::System::Int32* StaticGet__OutlineScale()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFC8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8E0);
 		}
 		static ::System::Int32* StaticGet__NoiseSpeedID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xEFCC);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8E4);
+		}
+		static ::System::Int32* StaticGet_m_Count()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8E8);
+		}
+		static ::System::Int32* StaticGet__NoiseTexID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8EC);
+		}
+		static ::System::Int32* StaticGet_m_FancyCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8F0);
+		}
+		static ::System::Int32* StaticGet__ElementPosID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8F4);
+		}
+		static ::System::Int32* StaticGet__OutlineScale()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8F8);
+		}
+		static ::System::Int32* StaticGet__ColorTexSpeedID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA8FC);
+		}
+		static ::System::Int32* StaticGet__ColorTexID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TextOutline_TypeDefinitionIndex)->GetStaticField(0xA900);
 		}
 		// static const ::System::Single _OUTLINE_SAMPLE_LOW; // 0x0
 		// static const ::System::Single _OUTLINE_SAMPLE_HIGH; // 0x0
 		::RPG::Client::TextOutline_Mode renderMode; // 0x20
-		::UnityEngine::Color outlineColor; // 0x24
-		::System::Single outlineWidth; // 0x34
-		::System::Single highQualityThreshold; // 0x38
-		::System::Boolean haloOutline; // 0x3C
-		::System::Boolean useFancyOutline; // 0x3D
-		::UnityEngine::UI::ColorMode m_ColorMode; // 0x40
+		::System::Boolean alwaysOnTop; // 0x24
+		::UnityEngine::Color outlineColor; // 0x28
+		::System::Single outlineWidth; // 0x38
+		::System::Single highQualityThreshold; // 0x3C
+		::System::Boolean haloOutline; // 0x40
+		::System::Boolean useFancyOutline; // 0x41
+		::UnityEngine::UI::ColorMode m_ColorMode; // 0x44
 		::UnityEngine::UI::RampData* m_RampData; // 0x48
 		::UnityEngine::Color m_RampColorLeft; // 0x50
 		::UnityEngine::Color m_RampColorRight; // 0x60
@@ -328,31 +328,6 @@ namespace RPG::Client
 		::UnityEngine::AdditionalCanvasShaderChannels get_shaderChannels()
 		{
 			return ((::UnityEngine::AdditionalCanvasShaderChannels(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTOUTLINE_GET_SHADERCHANNELS_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Awake()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_AWAKE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnDisable()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_ONDISABLE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Start()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_START_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnDestroy()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_ONDESTROY_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_ModifyMesh(::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEXTOUTLINE___IFIXBASEPROXY_MODIFYMESH_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -6,42 +6,42 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELMASTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A513930)
-#define RPG_GAMECORE_CHIMERADUELMASTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A514880)
+#define RPG_GAMECORE_CHIMERADUELMASTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B34C6D0)
+#define RPG_GAMECORE_CHIMERADUELMASTERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34D610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelMasterRow_TypeDefinitionIndex = 10678;
+	inline static constexpr unsigned int ChimeraDuelMasterRow_TypeDefinitionIndex = 10728;
 
 	class ChimeraDuelMasterRow : public ::System::Object
 	{
 	public:
-		::System::String* DrawEmojiPath; // 0x10
-		::System::String* FigurePath; // 0x18
-		::System::String* MasterHeadIconPath; // 0x20
+		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x10
+		::System::String* DrawEmojiPath; // 0x18
+		::System::String* VictoryEmojiPath; // 0x20
 		::System::String* BattleVSBodyType; // 0x28
-		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x30
-		::System::String* LossEmojiPath; // 0x38
-		::System::String* VictoryEmojiPath; // 0x40
+		::System::String* LossEmojiPath; // 0x30
+		::System::String* MasterHeadIconPath; // 0x38
+		::System::String* FigurePath; // 0x40
 		::System::String* FriendChallengeMasterIcon; // 0x48
 		::System::String* MasterAudio; // 0x50
-		::System::UInt32 UnlockRequiredGameID; // 0x58
-		::System::UInt32 MasterDisplayOrder; // 0x5C
-		::System::UInt32 BattleOpponentAvatarFloorConfigID; // 0x60
-		::RPG::Client::TextID RecommendationTitle; // 0x68
-		::RPG::Client::TextID DrawText; // 0x78
-		::RPG::Client::TextID MasterSkillDescription; // 0x88
-		::System::UInt32 BattleAvatarFloorConfigID; // 0x98
-		::System::UInt32 Difficulty; // 0x9C
-		::RPG::Client::TextID VictoryText; // 0xA0
-		::RPG::Client::TextID LossText; // 0xB0
-		::System::UInt32 FloorGroupID; // 0xC0
-		::System::UInt32 SignatureChimeraID; // 0xC4
-		::System::UInt32 AvatarID; // 0xC8
-		::System::UInt32 TalkSentenceID; // 0xCC
-		::RPG::Client::TextID ChimeraSkillDescription; // 0xD0
-		::System::UInt32 MasterID; // 0xE0
-		::System::UInt32 MasterSelectAvatarFloorConfigID; // 0xE4
+		::RPG::Client::TextID MasterSkillDescription; // 0x58
+		::RPG::Client::TextID ChimeraSkillDescription; // 0x68
+		::System::UInt32 UnlockRequiredGameID; // 0x78
+		::System::UInt32 SignatureChimeraID; // 0x7C
+		::RPG::Client::TextID DrawText; // 0x80
+		::RPG::Client::TextID RecommendationTitle; // 0x90
+		::RPG::Client::TextID LossText; // 0xA0
+		::System::UInt32 MasterID; // 0xB0
+		::System::UInt32 AvatarID; // 0xB4
+		::System::UInt32 MasterDisplayOrder; // 0xB8
+		::System::UInt32 FloorGroupID; // 0xBC
+		::System::UInt32 Difficulty; // 0xC0
+		::RPG::Client::TextID VictoryText; // 0xC8
+		::System::UInt32 TalkSentenceID; // 0xD8
+		::System::UInt32 MasterSelectAvatarFloorConfigID; // 0xDC
+		::System::UInt32 BattleAvatarFloorConfigID; // 0xE0
+		::System::UInt32 BattleOpponentAvatarFloorConfigID; // 0xE4
 
 		::System::Void _ctor()
 		{

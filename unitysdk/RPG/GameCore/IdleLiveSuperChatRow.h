@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVESUPERCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ADB9A0)
-#define RPG_GAMECORE_IDLELIVESUPERCHATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADBC60)
+#define RPG_GAMECORE_IDLELIVESUPERCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B52B1C0)
+#define RPG_GAMECORE_IDLELIVESUPERCHATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B52B480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSuperChatRow_TypeDefinitionIndex = 11286;
+	inline static constexpr unsigned int IdleLiveSuperChatRow_TypeDefinitionIndex = 11386;
 
 	class IdleLiveSuperChatRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ScSenderID; // 0x10
-		::System::UInt32 UnlockID; // 0x14
-		::RPG::Client::TextID MainText; // 0x18
-		::System::UInt32 RewardID; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::System::Single Duration; // 0x30
-		::System::UInt32 TriggerID; // 0x34
+		::System::UInt32 UnlockID; // 0x10
+		::System::Single Duration; // 0x14
+		::System::UInt32 ScSenderID; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 TriggerID; // 0x20
+		::System::UInt32 RewardID; // 0x24
+		::RPG::Client::TextID MainText; // 0x28
 
 		::System::Void _ctor()
 		{

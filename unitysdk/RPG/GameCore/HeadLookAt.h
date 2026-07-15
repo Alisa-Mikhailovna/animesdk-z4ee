@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HEADLOOKAT_METHOD_3_46BB0CDE63E0237F_OFFSET UNITYSDK_OFFSET(0x1A1D14C0)
-#define RPG_GAMECORE_HEADLOOKAT_METHOD_3_97F3B0EBA9621CCE_OFFSET UNITYSDK_OFFSET(0x1A1D1420)
-#define RPG_GAMECORE_HEADLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1D1480)
+#define RPG_GAMECORE_HEADLOOKAT_METHOD_3_46BB0CDE63E0237F_OFFSET UNITYSDK_OFFSET(0x1B500F60)
+#define RPG_GAMECORE_HEADLOOKAT_METHOD_3_CD5344F05BC193D2_OFFSET UNITYSDK_OFFSET(0x1B500F10)
+#define RPG_GAMECORE_HEADLOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B500F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeadLookAt_TypeDefinitionIndex = 20463;
+	inline static constexpr unsigned int HeadLookAt_TypeDefinitionIndex = 20878;
 
 	class HeadLookAt : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEADLOOKAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_97F3B0EBA9621CCE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeadLookAt*& a2)
+		static ::System::Void Method_3_CD5344F05BC193D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeadLookAt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeadLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEADLOOKAT_METHOD_3_97F3B0EBA9621CCE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeadLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEADLOOKAT_METHOD_3_CD5344F05BC193D2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_46BB0CDE63E0237F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeadLookAt* a2)

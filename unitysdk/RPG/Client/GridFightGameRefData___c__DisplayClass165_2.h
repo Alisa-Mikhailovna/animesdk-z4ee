@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B;
-class Class_1_C0277CE3A38B20B6;
+class Class_1_50210DAEB46E0CD5;
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18D49E00)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_2___COLLECTEQUIPSANDTRAIT_B__2_OFFSET UNITYSDK_OFFSET(0x18D4E9C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_2__CTOR_OFFSET UNITYSDK_OFFSET(0xC743820)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_2___COLLECTEQUIPSANDTRAIT_B__2_OFFSET UNITYSDK_OFFSET(0xC748730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass165_2_TypeDefinitionIndex = 60518;
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass165_2_TypeDefinitionIndex = 61809;
 
 	class GridFightGameRefData___c__DisplayClass165_2 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_2__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __CollectEquipsAndTrait_b__2(::Class_1_C0277CE3A38B20B6* a1)
+		::System::Boolean __CollectEquipsAndTrait_b__2(::Class_1_50210DAEB46E0CD5* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_C0277CE3A38B20B6*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_2___COLLECTEQUIPSANDTRAIT_B__2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_50210DAEB46E0CD5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_2___COLLECTEQUIPSANDTRAIT_B__2_OFFSET))(this, a1);
 		}
 	};
 }

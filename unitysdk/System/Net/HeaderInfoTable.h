@@ -7,34 +7,34 @@ namespace System::Collections { class Hashtable; }
 namespace System::Net { class HeaderInfo; }
 namespace System::Net { class HeaderParser; }
 
-#define SYSTEM_NET_HEADERINFOTABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x17CDD6E0)
-#define SYSTEM_NET_HEADERINFOTABLE_PARSEMULTIVALUE_OFFSET UNITYSDK_OFFSET(0x17CDB840)
-#define SYSTEM_NET_HEADERINFOTABLE_PARSESINGLEVALUE_OFFSET UNITYSDK_OFFSET(0x17CDB800)
-#define SYSTEM_NET_HEADERINFOTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x17CDBB20)
-#define SYSTEM_NET_HEADERINFOTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17CDD7B0)
+#define SYSTEM_NET_HEADERINFOTABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1CCD9540)
+#define SYSTEM_NET_HEADERINFOTABLE_PARSEMULTIVALUE_OFFSET UNITYSDK_OFFSET(0x1CCD7450)
+#define SYSTEM_NET_HEADERINFOTABLE_PARSESINGLEVALUE_OFFSET UNITYSDK_OFFSET(0x1CCD7410)
+#define SYSTEM_NET_HEADERINFOTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCD78F0)
+#define SYSTEM_NET_HEADERINFOTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD9670)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HeaderInfoTable_TypeDefinitionIndex = 2766;
+	inline static constexpr unsigned int HeaderInfoTable_TypeDefinitionIndex = 2770;
 
 	class HeaderInfoTable : public ::System::Object
 	{
 	public:
-		static ::System::Net::HeaderInfo** StaticGet_UnknownHeaderInfo()
-		{
-			return (::System::Net::HeaderInfo**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x24F00);
-		}
-		static ::System::Net::HeaderParser** StaticGet_MultiParser()
-		{
-			return (::System::Net::HeaderParser**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x24F08);
-		}
 		static ::System::Net::HeaderParser** StaticGet_SingleParser()
 		{
-			return (::System::Net::HeaderParser**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x24F10);
+			return (::System::Net::HeaderParser**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x2C700);
 		}
 		static ::System::Collections::Hashtable** StaticGet_HeaderHashTable()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x24F18);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x2C708);
+		}
+		static ::System::Net::HeaderInfo** StaticGet_UnknownHeaderInfo()
+		{
+			return (::System::Net::HeaderInfo**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x2C710);
+		}
+		static ::System::Net::HeaderParser** StaticGet_MultiParser()
+		{
+			return (::System::Net::HeaderParser**)Il2CppClass::FromTypeDefinitionIndex(HeaderInfoTable_TypeDefinitionIndex)->GetStaticField(0x2C718);
 		}
 
 		static ::System::Void _cctor()

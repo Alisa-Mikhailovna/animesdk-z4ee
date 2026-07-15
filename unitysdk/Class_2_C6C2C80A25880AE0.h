@@ -6,12 +6,11 @@
 namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define CLASS_2_C6C2C80A25880AE0_METHOD_2_2C0E978E0D14BBE3_OFFSET UNITYSDK_OFFSET(0x14F25080)
-#define CLASS_2_C6C2C80A25880AE0_METHOD_2_5D52480485F5EF91_OFFSET UNITYSDK_OFFSET(0x14F24F20)
-#define CLASS_2_C6C2C80A25880AE0_METHOD_2_C98D8ED5133B6D9C_OFFSET UNITYSDK_OFFSET(0x14F24FC0)
-#define CLASS_2_C6C2C80A25880AE0__CTOR_OFFSET UNITYSDK_OFFSET(0x14F24F10)
+#define CLASS_2_C6C2C80A25880AE0_METHOD_2_5D52480485F5EF91_OFFSET UNITYSDK_OFFSET(0x15187A80)
+#define CLASS_2_C6C2C80A25880AE0_METHOD_2_C98D8ED5133B6D9C_OFFSET UNITYSDK_OFFSET(0x15187B20)
+#define CLASS_2_C6C2C80A25880AE0__CTOR_OFFSET UNITYSDK_OFFSET(0x15187A70)
 
-inline static constexpr unsigned int Class_2_C6C2C80A25880AE0_TypeDefinitionIndex = 69897;
+inline static constexpr unsigned int Class_2_C6C2C80A25880AE0_TypeDefinitionIndex = 71420;
 
 class Class_2_C6C2C80A25880AE0 : public ::Class_1_5FB2896E6C484E49
 {
@@ -29,10 +28,5 @@ public:
 	::System::Boolean Method_2_C98D8ED5133B6D9C(::RPG::Client::SwordTrainingStatusChangeInfo* a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SwordTrainingStatusChangeInfo*))((::PBYTE)hIl2Cpp + CLASS_2_C6C2C80A25880AE0_METHOD_2_C98D8ED5133B6D9C_OFFSET))(this, a1);
-	}
-
-	::System::Boolean Method_2_2C0E978E0D14BBE3(::RPG::Client::SwordTrainingStatusChangeInfo* a1)
-	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SwordTrainingStatusChangeInfo*))((::PBYTE)hIl2Cpp + CLASS_2_C6C2C80A25880AE0_METHOD_2_2C0E978E0D14BBE3_OFFSET))(this, a1);
 	}
 };

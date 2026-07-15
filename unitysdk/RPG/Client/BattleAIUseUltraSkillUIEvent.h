@@ -4,17 +4,17 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_BATTLEAIUSEULTRASKILLUIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x17A17A80)
+#define RPG_CLIENT_BATTLEAIUSEULTRASKILLUIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBE366C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAIUseUltraSkillUIEvent_TypeDefinitionIndex = 67973;
+	inline static constexpr unsigned int BattleAIUseUltraSkillUIEvent_TypeDefinitionIndex = 69459;
 
 	class BattleAIUseUltraSkillUIEvent : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x10
-		::RPG::GameCore::GameEntity* Caster; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x10
+		::RPG::GameCore::GameEntity* Target; // 0x18
 		::System::Int32 SkillIndex; // 0x20
 
 		::System::Void _ctor()

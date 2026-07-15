@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define SRDEBUGUTIL_ASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1B2C8570)
-#define SRDEBUGUTIL_ASSERT_OFFSET UNITYSDK_OFFSET(0x1B2C86D0)
-#define SRDEBUGUTIL_EDITORASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1B2C87B0)
-#define SRDEBUGUTIL_EDITORASSERT_OFFSET UNITYSDK_OFFSET(0x1B2C87C0)
-#define SRDEBUGUTIL_GET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1B2C8550)
-#define SRDEBUGUTIL_SET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1B2C8560)
+#define SRDEBUGUTIL_ASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1C9FD920)
+#define SRDEBUGUTIL_ASSERT_OFFSET UNITYSDK_OFFSET(0x1C9FDAE0)
+#define SRDEBUGUTIL_EDITORASSERTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1C9FDBC0)
+#define SRDEBUGUTIL_EDITORASSERT_OFFSET UNITYSDK_OFFSET(0x1C9FDBD0)
+#define SRDEBUGUTIL_GET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1C9FD900)
+#define SRDEBUGUTIL_SET_ISFIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1C9FD910)
 
-inline static constexpr unsigned int SRDebugUtil_TypeDefinitionIndex = 33542;
+inline static constexpr unsigned int SRDebugUtil_TypeDefinitionIndex = 33913;
 
 class SRDebugUtil : public ::System::Object
 {
 public:
 	static ::System::Boolean* StaticGet__IsFixedUpdate_k__BackingField()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SRDebugUtil_TypeDefinitionIndex)->GetStaticField(0xD2B0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SRDebugUtil_TypeDefinitionIndex)->GetStaticField(0xB3B0);
 	}
 	// static const ::System::Int32 LineBufferCount = 0x200; // 0x0
 

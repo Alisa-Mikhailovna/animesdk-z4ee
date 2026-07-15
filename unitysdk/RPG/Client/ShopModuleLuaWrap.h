@@ -5,20 +5,20 @@
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_SHOPMODULELUAWRAP_FINDSHOPTYPEOFITEM_OFFSET UNITYSDK_OFFSET(0x175510D0)
-#define RPG_CLIENT_SHOPMODULELUAWRAP_SETFINDSHOPIDOFITEMFUNC_OFFSET UNITYSDK_OFFSET(0x175511E0)
-#define RPG_CLIENT_SHOPMODULELUAWRAP_SETLUATABLE_OFFSET UNITYSDK_OFFSET(0x17551190)
-#define RPG_CLIENT_SHOPMODULELUAWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0x17551180)
+#define RPG_CLIENT_SHOPMODULELUAWRAP_FINDSHOPTYPEOFITEM_OFFSET UNITYSDK_OFFSET(0xD4F22D0)
+#define RPG_CLIENT_SHOPMODULELUAWRAP_SETFINDSHOPIDOFITEMFUNC_OFFSET UNITYSDK_OFFSET(0xD4F23E0)
+#define RPG_CLIENT_SHOPMODULELUAWRAP_SETLUATABLE_OFFSET UNITYSDK_OFFSET(0xD4F2390)
+#define RPG_CLIENT_SHOPMODULELUAWRAP__CTOR_OFFSET UNITYSDK_OFFSET(0xD4F2380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShopModuleLuaWrap_TypeDefinitionIndex = 63574;
+	inline static constexpr unsigned int ShopModuleLuaWrap_TypeDefinitionIndex = 64941;
 
 	class ShopModuleLuaWrap : public ::System::Object
 	{
 	public:
-		::System::Func_3<::XLua::LuaTable*, ::System::UInt32, ::System::UInt32>* _FindShopIDOfItemLuaFunc; // 0x10
-		::XLua::LuaTable* _LuaTable; // 0x18
+		::XLua::LuaTable* _LuaTable; // 0x10
+		::System::Func_3<::XLua::LuaTable*, ::System::UInt32, ::System::UInt32>* _FindShopIDOfItemLuaFunc; // 0x18
 
 		::System::Void _ctor()
 		{

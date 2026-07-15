@@ -8,26 +8,26 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_1_FEB155D0266B65E2_METHOD_1_3BC9430E920E18AE_OFFSET UNITYSDK_OFFSET(0x13FABA10)
-#define CLASS_1_FEB155D0266B65E2_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0x13FAB9B0)
-#define CLASS_1_FEB155D0266B65E2__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FAC0A0)
+#define CLASS_1_FEB155D0266B65E2_METHOD_1_3BC9430E920E18AE_OFFSET UNITYSDK_OFFSET(0x14628820)
+#define CLASS_1_FEB155D0266B65E2_METHOD_1_8B50C99A62E03A3E_OFFSET UNITYSDK_OFFSET(0x146287C0)
+#define CLASS_1_FEB155D0266B65E2__CCTOR_OFFSET UNITYSDK_OFFSET(0x14628EB0)
 
-inline static constexpr unsigned int Class_1_FEB155D0266B65E2_TypeDefinitionIndex = 68821;
+inline static constexpr unsigned int Class_1_FEB155D0266B65E2_TypeDefinitionIndex = 70321;
 
 class Class_1_FEB155D0266B65E2 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0xE30);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0x8590);
 	}
 	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0xE34);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0x8594);
 	}
 	static ::System::Boolean* StaticGet_Field_1_2()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0xE35);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_FEB155D0266B65E2_TypeDefinitionIndex)->GetStaticField(0x8595);
 	}
 	// static const ::System::String* Field_1_3; // 0x0
 	// static const ::System::String* Field_1_4; // 0x0

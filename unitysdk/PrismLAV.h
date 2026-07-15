@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GeometryEdit/Prism.h"
 
-#define PRISMLAV__CTOR_OFFSET UNITYSDK_OFFSET(0x17B78870)
+#define PRISMLAV__CTOR_OFFSET UNITYSDK_OFFSET(0xBA75D20)
 
-inline static constexpr unsigned int PrismLAV_TypeDefinitionIndex = 44647;
+inline static constexpr unsigned int PrismLAV_TypeDefinitionIndex = 45525;
 
 class PrismLAV : public ::GeometryEdit::Prism
 {

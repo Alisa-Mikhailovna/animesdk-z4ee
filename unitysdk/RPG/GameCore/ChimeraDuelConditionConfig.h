@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraDuelPredicateBase; }
 
-#define RPG_GAMECORE_CHIMERADUELCONDITIONCONFIG_METHOD_2_39E032DC64E44C22_OFFSET UNITYSDK_OFFSET(0x1A50D2B0)
-#define RPG_GAMECORE_CHIMERADUELCONDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50D3A0)
+#define RPG_GAMECORE_CHIMERADUELCONDITIONCONFIG_METHOD_2_39E032DC64E44C22_OFFSET UNITYSDK_OFFSET(0x1B346350)
+#define RPG_GAMECORE_CHIMERADUELCONDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B346440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelConditionConfig_TypeDefinitionIndex = 15251;
+	inline static constexpr unsigned int ChimeraDuelConditionConfig_TypeDefinitionIndex = 15415;
 
 	class ChimeraDuelConditionConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_39195E3400377C24_OFFSET UNITYSDK_OFFSET(0x19A4CA90)
-#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_E288DF4A51329FDB_OFFSET UNITYSDK_OFFSET(0x19A4CBE0)
-#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4CB50)
+#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_92F8A44ECE5A2031_OFFSET UNITYSDK_OFFSET(0x1B9A7F10)
+#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_E288DF4A51329FDB_OFFSET UNITYSDK_OFFSET(0x1B9A7F90)
+#define RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A7F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerReplaceCharacterPresetEffect_TypeDefinitionIndex = 19128;
+	inline static constexpr unsigned int TriggerReplaceCharacterPresetEffect_TypeDefinitionIndex = 19484;
 
 	class TriggerReplaceCharacterPresetEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_39195E3400377C24(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*& a2)
+		static ::System::Void Method_3_92F8A44ECE5A2031(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_39195E3400377C24_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERREPLACECHARACTERPRESETEFFECT_METHOD_3_92F8A44ECE5A2031_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E288DF4A51329FDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerReplaceCharacterPresetEffect* a2)

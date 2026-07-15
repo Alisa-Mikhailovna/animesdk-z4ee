@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QTEUIData_TriggerType_TypeDefinitionIndex = 66533;
+	inline static constexpr unsigned int QTEUIData_TriggerType_TypeDefinitionIndex = 67969;
 
 	enum class QTEUIData_TriggerType : ::System::Int32
 	{

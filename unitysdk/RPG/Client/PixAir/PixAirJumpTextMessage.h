@@ -5,44 +5,44 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x18CEDA20)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x18CED710)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x18CED740)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_TEXTTYPE_OFFSET UNITYSDK_OFFSET(0x18CED720)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18CEDA00)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x18CEDA40)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0x18CEDA30)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_TEXTTYPE_OFFSET UNITYSDK_OFFSET(0x18CED730)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x18CEDA10)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0x18CEDA60)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CEDA70)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x18CED6E0)
-#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE__TRYLOADSIZETHRESHOLDCONFIG_OFFSET UNITYSDK_OFFSET(0x18CED800)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xCFCFC30)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCFCF920)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_SIZE_OFFSET UNITYSDK_OFFSET(0xCFCF950)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_TEXTTYPE_OFFSET UNITYSDK_OFFSET(0xCFCF930)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xCFCFC10)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xCFCFC50)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xCFCFC40)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_TEXTTYPE_OFFSET UNITYSDK_OFFSET(0xCFCF940)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xCFCFC20)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xCFCFC70)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE__CCTOR_OFFSET UNITYSDK_OFFSET(0xCFCFC80)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCFCF8F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRJUMPTEXTMESSAGE__TRYLOADSIZETHRESHOLDCONFIG_OFFSET UNITYSDK_OFFSET(0xCFCFA10)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirJumpTextMessage_TypeDefinitionIndex = 73529;
+	inline static constexpr unsigned int PixAirJumpTextMessage_TypeDefinitionIndex = 75178;
 
 	class PixAirJumpTextMessage : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet__SizeThresholdMedium()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PixAirJumpTextMessage_TypeDefinitionIndex)->GetStaticField(0x3600);
-		}
 		static ::System::Boolean* StaticGet__IsSizeThresholdConfigLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PixAirJumpTextMessage_TypeDefinitionIndex)->GetStaticField(0x3604);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PixAirJumpTextMessage_TypeDefinitionIndex)->GetStaticField(0x14640);
 		}
 		static ::System::Int32* StaticGet__SizeThresholdLarge()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PixAirJumpTextMessage_TypeDefinitionIndex)->GetStaticField(0x3608);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PixAirJumpTextMessage_TypeDefinitionIndex)->GetStaticField(0x14644);
 		}
-		::RPG::Client::PixAir::PixAirJumpTextType _TextType_k__BackingField; // 0x10
-		::System::Int32 _SenderRuntimeID_k__BackingField; // 0x14
-		::UnityEngine::Vector3 _WorldPosition_k__BackingField; // 0x18
-		::System::Int32 _Value_k__BackingField; // 0x24
-		::System::Boolean _IsPlayer_k__BackingField; // 0x28
+		static ::System::Int32* StaticGet__SizeThresholdMedium()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PixAirJumpTextMessage_TypeDefinitionIndex)->GetStaticField(0x14648);
+		}
+		::System::Boolean _IsPlayer_k__BackingField; // 0x10
+		::UnityEngine::Vector3 _WorldPosition_k__BackingField; // 0x14
+		::System::Int32 _Value_k__BackingField; // 0x20
+		::System::Int32 _SenderRuntimeID_k__BackingField; // 0x24
+		::RPG::Client::PixAir::PixAirJumpTextType _TextType_k__BackingField; // 0x28
 
 		::System::Void _ctor(::System::Int32 a1, ::RPG::Client::PixAir::PixAirJumpTextType a2, ::System::Boolean a3, ::System::Int32 a4, ::UnityEngine::Vector3 a5)
 		{

@@ -5,28 +5,28 @@
 namespace RPG::Client { class FollowPointMapping; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F5228F8C22090BDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1727A0C0)
-#define CLASS_1_F5228F8C22090BDC_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x1727A160)
-#define CLASS_1_F5228F8C22090BDC_METHOD_1_5BEABDEB671A2571_OFFSET UNITYSDK_OFFSET(0x17279D60)
-#define CLASS_1_F5228F8C22090BDC_METHOD_1_939FB33D4F7545B2_OFFSET UNITYSDK_OFFSET(0x17279EC0)
-#define CLASS_1_F5228F8C22090BDC_METHOD_1_9DB2C80C0CD4760B_OFFSET UNITYSDK_OFFSET(0x17279CF0)
-#define CLASS_1_F5228F8C22090BDC_METHOD_1_AF965D5833A685A2_OFFSET UNITYSDK_OFFSET(0x1727A170)
-#define CLASS_1_F5228F8C22090BDC_METHOD_1_B501FD3352312876_OFFSET UNITYSDK_OFFSET(0x17279FD0)
-#define CLASS_1_F5228F8C22090BDC_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x1727A150)
-#define CLASS_1_F5228F8C22090BDC__CTOR_OFFSET UNITYSDK_OFFSET(0x1727A2C0)
+#define CLASS_1_F5228F8C22090BDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x145F6E40)
+#define CLASS_1_F5228F8C22090BDC_METHOD_1_3A1279E9D527F2F8_OFFSET UNITYSDK_OFFSET(0x145F6BE0)
+#define CLASS_1_F5228F8C22090BDC_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x145F6EE0)
+#define CLASS_1_F5228F8C22090BDC_METHOD_1_9DB2C80C0CD4760B_OFFSET UNITYSDK_OFFSET(0x145F6B70)
+#define CLASS_1_F5228F8C22090BDC_METHOD_1_AF965D5833A685A2_OFFSET UNITYSDK_OFFSET(0x145F6EF0)
+#define CLASS_1_F5228F8C22090BDC_METHOD_1_B501FD3352312876_OFFSET UNITYSDK_OFFSET(0x145F6D50)
+#define CLASS_1_F5228F8C22090BDC_METHOD_1_B8E2805AA024C2AE_OFFSET UNITYSDK_OFFSET(0x145F6CC0)
+#define CLASS_1_F5228F8C22090BDC_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x145F6ED0)
+#define CLASS_1_F5228F8C22090BDC__CTOR_OFFSET UNITYSDK_OFFSET(0x145F7040)
 
-inline static constexpr unsigned int Class_1_F5228F8C22090BDC_TypeDefinitionIndex = 64010;
+inline static constexpr unsigned int Class_1_F5228F8C22090BDC_TypeDefinitionIndex = 65381;
 
 class Class_1_F5228F8C22090BDC : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_0()
+	static ::System::Single* StaticGet_Field_1_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F5228F8C22090BDC_TypeDefinitionIndex)->GetStaticField(0x9320);
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F5228F8C22090BDC_TypeDefinitionIndex)->GetStaticField(0x64B0);
 	}
-	static ::System::Single* StaticGet_Field_1_1()
+	static ::System::Boolean* StaticGet_Field_1_1()
 	{
-		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F5228F8C22090BDC_TypeDefinitionIndex)->GetStaticField(0x9324);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_F5228F8C22090BDC_TypeDefinitionIndex)->GetStaticField(0x64B4);
 	}
 	::System::Collections::Generic::List_1<::RPG::Client::FollowPointMapping*>* Field_1_2; // 0x10
 
@@ -40,14 +40,14 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F5228F8C22090BDC_METHOD_1_9DB2C80C0CD4760B_OFFSET))(this);
 	}
 
-	::System::Void Method_1_5BEABDEB671A2571(::RPG::Client::FollowPointMapping* a1)
+	::System::Void Method_1_3A1279E9D527F2F8(::RPG::Client::FollowPointMapping* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::FollowPointMapping*))((::PBYTE)hIl2Cpp + CLASS_1_F5228F8C22090BDC_METHOD_1_5BEABDEB671A2571_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::FollowPointMapping*))((::PBYTE)hIl2Cpp + CLASS_1_F5228F8C22090BDC_METHOD_1_3A1279E9D527F2F8_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_939FB33D4F7545B2(::RPG::Client::FollowPointMapping* a1)
+	::System::Void Method_1_B8E2805AA024C2AE(::RPG::Client::FollowPointMapping* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::FollowPointMapping*))((::PBYTE)hIl2Cpp + CLASS_1_F5228F8C22090BDC_METHOD_1_939FB33D4F7545B2_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::FollowPointMapping*))((::PBYTE)hIl2Cpp + CLASS_1_F5228F8C22090BDC_METHOD_1_B8E2805AA024C2AE_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_B501FD3352312876(::System::Single a1)

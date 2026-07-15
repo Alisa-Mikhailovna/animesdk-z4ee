@@ -7,12 +7,11 @@ class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class Remodifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1DC04894A21B4BE8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159FE750)
-#define CLASS_3_1DC04894A21B4BE8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159FE810)
-#define CLASS_3_1DC04894A21B4BE8__CTOR_OFFSET UNITYSDK_OFFSET(0x159FE5D0)
-#define CLASS_3_1DC04894A21B4BE8___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159FF5F0)
+#define CLASS_3_1DC04894A21B4BE8_DISPOSE_OFFSET UNITYSDK_OFFSET(0xADD8E30)
+#define CLASS_3_1DC04894A21B4BE8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xADD9030)
+#define CLASS_3_1DC04894A21B4BE8__CTOR_OFFSET UNITYSDK_OFFSET(0xADD8CB0)
 
-inline static constexpr unsigned int Class_3_1DC04894A21B4BE8_TypeDefinitionIndex = 51653;
+inline static constexpr unsigned int Class_3_1DC04894A21B4BE8_TypeDefinitionIndex = 52796;
 
 class Class_3_1DC04894A21B4BE8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::Remodifier*>
 {
@@ -34,10 +33,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1DC04894A21B4BE8_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1DC04894A21B4BE8___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

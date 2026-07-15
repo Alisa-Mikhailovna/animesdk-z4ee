@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMELINESTATECONFIG_METHOD_2_8AB1B2FC1F1233F9_OFFSET UNITYSDK_OFFSET(0x16D1D850)
-#define RPG_GAMECORE_TIMELINESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16D1D9F0)
+#define RPG_GAMECORE_TIMELINESTATECONFIG_METHOD_2_8AB1B2FC1F1233F9_OFFSET UNITYSDK_OFFSET(0x1B974D40)
+#define RPG_GAMECORE_TIMELINESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B974EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineStateConfig_TypeDefinitionIndex = 15783;
+	inline static constexpr unsigned int TimelineStateConfig_TypeDefinitionIndex = 15957;
 
 	class TimelineStateConfig : public ::RPG::GameCore::JsonConfig
 	{

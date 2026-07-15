@@ -7,12 +7,12 @@ namespace UnityEngine::ProBuilder { class ActionResult; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SUBDIVISION_SUBDIVIDE_1_OFFSET UNITYSDK_OFFSET(0xC277AB0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SUBDIVISION_SUBDIVIDE_OFFSET UNITYSDK_OFFSET(0xC277A30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SUBDIVISION_SUBDIVIDE_1_OFFSET UNITYSDK_OFFSET(0x1CE684F0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_SUBDIVISION_SUBDIVIDE_OFFSET UNITYSDK_OFFSET(0x1CE68470)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int Subdivision_TypeDefinitionIndex = 40895;
+	inline static constexpr unsigned int Subdivision_TypeDefinitionIndex = 41710;
 
 	class Subdivision : public ::System::Object
 	{

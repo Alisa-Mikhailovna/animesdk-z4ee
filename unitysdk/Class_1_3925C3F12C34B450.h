@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_97;
+class Class_0_16E4307DCC419505_116;
 namespace System { class String; }
 
-#define CLASS_1_3925C3F12C34B450__CTOR_OFFSET UNITYSDK_OFFSET(0x1960FA30)
+#define CLASS_1_3925C3F12C34B450__CTOR_OFFSET UNITYSDK_OFFSET(0x1A93B2D0)
 
-inline static constexpr unsigned int Class_1_3925C3F12C34B450_TypeDefinitionIndex = 39877;
+inline static constexpr unsigned int Class_1_3925C3F12C34B450_TypeDefinitionIndex = 40688;
 
 class Class_1_3925C3F12C34B450 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_97* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_116* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
 	::System::UInt32 Field_1_2; // 0x20
 	::System::ValueTuple_2<::System::UInt32, ::System::UInt32> Field_1_3; // 0x24

@@ -5,12 +5,12 @@
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_COMPOSITECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x18123D20)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_COMPOSITECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x181231E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_COMPOSITECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xD6FBDD0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_COMPOSITECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xD6FB1C0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_CompositeComparer_TypeDefinitionIndex = 69371;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_CompositeComparer_TypeDefinitionIndex = 70892;
 
 	class TrainPartyBuildDisplayWallContext_CompositeComparer : public ::System::Object
 	{

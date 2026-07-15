@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class EntityMoveTrack; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETTRACKMOVE_METHOD_3_2EDB580E08743F56_OFFSET UNITYSDK_OFFSET(0x1A7A0310)
-#define RPG_GAMECORE_SETTARGETTRACKMOVE_METHOD_3_DA272B5338D94423_OFFSET UNITYSDK_OFFSET(0x1A7A01F0)
-#define RPG_GAMECORE_SETTARGETTRACKMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7A0290)
+#define RPG_GAMECORE_SETTARGETTRACKMOVE_METHOD_3_2EDB580E08743F56_OFFSET UNITYSDK_OFFSET(0x1B8B6020)
+#define RPG_GAMECORE_SETTARGETTRACKMOVE_METHOD_3_31FF36CFC9611CDA_OFFSET UNITYSDK_OFFSET(0x1B8B5F40)
+#define RPG_GAMECORE_SETTARGETTRACKMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B5FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetTrackMove_TypeDefinitionIndex = 19038;
+	inline static constexpr unsigned int SetTargetTrackMove_TypeDefinitionIndex = 19391;
 
 	class SetTargetTrackMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETTRACKMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DA272B5338D94423(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetTrackMove*& a2)
+		static ::System::Void Method_3_31FF36CFC9611CDA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetTrackMove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetTrackMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETTRACKMOVE_METHOD_3_DA272B5338D94423_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetTrackMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETTRACKMOVE_METHOD_3_31FF36CFC9611CDA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2EDB580E08743F56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetTrackMove* a2)

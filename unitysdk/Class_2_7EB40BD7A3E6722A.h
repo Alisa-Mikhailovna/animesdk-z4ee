@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelFireEffectNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_7EB40BD7A3E6722A_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x16C31850)
-#define CLASS_2_7EB40BD7A3E6722A__CTOR_OFFSET UNITYSDK_OFFSET(0x16C318F0)
+#define CLASS_2_7EB40BD7A3E6722A_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x13814020)
+#define CLASS_2_7EB40BD7A3E6722A__CTOR_OFFSET UNITYSDK_OFFSET(0x138140C0)
 
-inline static constexpr unsigned int Class_2_7EB40BD7A3E6722A_TypeDefinitionIndex = 72200;
+inline static constexpr unsigned int Class_2_7EB40BD7A3E6722A_TypeDefinitionIndex = 73725;
 
-class Class_2_7EB40BD7A3E6722A : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_7EB40BD7A3E6722A : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
 	::RPG::GameCore::ChimeraDuelFireEffectNode* Field_2_0; // 0x10

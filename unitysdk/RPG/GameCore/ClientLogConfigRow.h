@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValue; }
 
-#define RPG_GAMECORE_CLIENTLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A310660)
-#define RPG_GAMECORE_CLIENTLOGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A310840)
+#define RPG_GAMECORE_CLIENTLOGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B35FC90)
+#define RPG_GAMECORE_CLIENTLOGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35FE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClientLogConfigRow_TypeDefinitionIndex = 12597;
+	inline static constexpr unsigned int ClientLogConfigRow_TypeDefinitionIndex = 12734;
 
 	class ClientLogConfigRow : public ::System::Object
 	{

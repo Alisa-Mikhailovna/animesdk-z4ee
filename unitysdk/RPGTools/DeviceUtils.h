@@ -4,32 +4,32 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0x19BB7580)
-#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0x19BB7450)
-#define RPGTOOLS_DEVICEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BB7700)
+#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0xABA00B0)
+#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0xAB9FF80)
+#define RPGTOOLS_DEVICEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xABA0230)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 44272;
+	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 45142;
 
 	class DeviceUtils : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_MESSAGE_OBJECT_NAME()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B20);
-		}
-		static ::System::String** StaticGet_MESSAGE_BETTERY_CHANGED()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B28);
-		}
 		static ::System::String** StaticGet_MESSAGE_WIFI_STATE_CHANGED()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B30);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x20C20);
 		}
 		static ::System::String** StaticGet_MESSAGE_WIFI_RSSI_CHANGED()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x15B38);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x20C28);
+		}
+		static ::System::String** StaticGet_MESSAGE_BETTERY_CHANGED()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x20C30);
+		}
+		static ::System::String** StaticGet_MESSAGE_OBJECT_NAME()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DeviceUtils_TypeDefinitionIndex)->GetStaticField(0x20C38);
 		}
 		// static const ::System::Int32 BATTERY_LEVEL_MAX = 0x64; // 0x0
 

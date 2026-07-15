@@ -5,16 +5,16 @@
 class Class_1_6545FC19FD7354A7;
 namespace RPG::GameCore { class PerformanceDynamicLoadCharacter; }
 
-#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C0F530)
-#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS55_0___ONDYNAMICLOADSTORYCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0x15C0F540)
+#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11FC1820)
+#define CLASS_1_6545FC19FD7354A7___C__DISPLAYCLASS55_0___ONDYNAMICLOADSTORYCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0x11FD8A00)
 
-inline static constexpr unsigned int Class_1_6545FC19FD7354A7___c__DisplayClass55_0_TypeDefinitionIndex = 56754;
+inline static constexpr unsigned int Class_1_6545FC19FD7354A7___c__DisplayClass55_0_TypeDefinitionIndex = 58001;
 
 class Class_1_6545FC19FD7354A7___c__DisplayClass55_0 : public ::System::Object
 {
 public:
-	::Class_1_6545FC19FD7354A7* __4__this; // 0x10
-	::RPG::GameCore::PerformanceDynamicLoadCharacter* param; // 0x18
+	::RPG::GameCore::PerformanceDynamicLoadCharacter* param; // 0x10
+	::Class_1_6545FC19FD7354A7* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

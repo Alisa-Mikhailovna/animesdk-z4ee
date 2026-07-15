@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_FF80A1ACD786CECB_6_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15427BC0)
-#define CLASS_1_FF80A1ACD786CECB_6__CTOR_OFFSET UNITYSDK_OFFSET(0x15427BB0)
+#define CLASS_1_FF80A1ACD786CECB_6_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x14653150)
+#define CLASS_1_FF80A1ACD786CECB_6__CTOR_OFFSET UNITYSDK_OFFSET(0x14653140)
 
-inline static constexpr unsigned int Class_1_FF80A1ACD786CECB_6_TypeDefinitionIndex = 73531;
+inline static constexpr unsigned int Class_1_FF80A1ACD786CECB_6_TypeDefinitionIndex = 75180;
 
 class Class_1_FF80A1ACD786CECB_6 : public ::System::Object
 {

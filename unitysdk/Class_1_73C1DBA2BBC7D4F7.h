@@ -8,20 +8,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 class Class_1_980894BED8163CEE;
 
-#define CLASS_1_73C1DBA2BBC7D4F7_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x12FBCB50)
-#define CLASS_1_73C1DBA2BBC7D4F7__CTOR_OFFSET UNITYSDK_OFFSET(0x12FBCD90)
+#define CLASS_1_73C1DBA2BBC7D4F7_METHOD_1_BA928C31B09C0D39_OFFSET UNITYSDK_OFFSET(0x1B7F73D0)
+#define CLASS_1_73C1DBA2BBC7D4F7__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7F7610)
 
-inline static constexpr unsigned int Class_1_73C1DBA2BBC7D4F7_TypeDefinitionIndex = 14643;
+inline static constexpr unsigned int Class_1_73C1DBA2BBC7D4F7_TypeDefinitionIndex = 14801;
 
 class Class_1_73C1DBA2BBC7D4F7 : public ::System::Object
 {
 public:
 	::Il2CppArray<::Class_1_980894BED8163CEE*>* Field_1_0; // 0x10
-	::RPG::GameCore::RelicType Field_1_1; // 0x18
+	::System::UInt32 Field_1_1; // 0x18
 	::System::UInt32 Field_1_2; // 0x1C
-	::System::UInt32 Field_1_3; // 0x20
-	::RPG::GameCore::CombatPowerRelicRarityType Field_1_4; // 0x24
-	::RPG::GameCore::UpgradeAvatarSubRelicType Field_1_5; // 0x28
+	::RPG::GameCore::CombatPowerRelicRarityType Field_1_3; // 0x20
+	::RPG::GameCore::UpgradeAvatarSubRelicType Field_1_4; // 0x24
+	::RPG::GameCore::RelicType Field_1_5; // 0x28
 
 	::System::Void _ctor()
 	{

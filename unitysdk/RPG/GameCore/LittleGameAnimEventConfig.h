@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG_METHOD_3_00877CD7C2D45D1C_OFFSET UNITYSDK_OFFSET(0x1A1238B0)
-#define RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG_METHOD_3_624C08F5859DA452_OFFSET UNITYSDK_OFFSET(0x1A1237D0)
-#define RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A123850)
+#define RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG_METHOD_3_00877CD7C2D45D1C_OFFSET UNITYSDK_OFFSET(0x1B583670)
+#define RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG_METHOD_3_EE777C73CA333DED_OFFSET UNITYSDK_OFFSET(0x1B5835B0)
+#define RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B583620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAnimEventConfig_TypeDefinitionIndex = 17931;
+	inline static constexpr unsigned int LittleGameAnimEventConfig_TypeDefinitionIndex = 18110;
 
 	class LittleGameAnimEventConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_624C08F5859DA452(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAnimEventConfig*& a2)
+		static ::System::Void Method_3_EE777C73CA333DED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAnimEventConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAnimEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG_METHOD_3_624C08F5859DA452_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAnimEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEANIMEVENTCONFIG_METHOD_3_EE777C73CA333DED_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_00877CD7C2D45D1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAnimEventConfig* a2)

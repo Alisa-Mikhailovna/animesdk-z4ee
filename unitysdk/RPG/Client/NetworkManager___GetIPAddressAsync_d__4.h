@@ -9,18 +9,18 @@ namespace System { class String; }
 namespace System::Net { class IPHostEntry; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x37B4DF0)
-#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3750890)
+#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14E880)
+#define RPG_CLIENT_NETWORKMANAGER___GETIPADDRESSASYNC_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x14A960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager___GetIPAddressAsync_d__4_TypeDefinitionIndex = 64867;
+	inline static constexpr unsigned int NetworkManager___GetIPAddressAsync_d__4_TypeDefinitionIndex = 66268;
 
 	struct alignas(8) NetworkManager___GetIPAddressAsync_d__4
 	{
-		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::IPHostEntry*> __u__1; // 0x10
-		::RPG::Client::NetworkManager* __4__this; // 0x18
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x20
+		::RPG::Client::NetworkManager* __4__this; // 0x10
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::IPHostEntry*> __u__1; // 0x38
 		::System::String* url; // 0x40
 		::System::Int32 __1__state; // 0x48
 

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18292720)
-#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS21_0___PERFORMINITCOMMANDS_B__0_OFFSET UNITYSDK_OFFSET(0x18294D00)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC148FD0)
+#define RPG_CLIENT_CHIMERAGAMEINSTANCE___C__DISPLAYCLASS21_0___PERFORMINITCOMMANDS_B__0_OFFSET UNITYSDK_OFFSET(0xC14AD60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGameInstance___c__DisplayClass21_0_TypeDefinitionIndex = 56498;
+	inline static constexpr unsigned int ChimeraGameInstance___c__DisplayClass21_0_TypeDefinitionIndex = 57738;
 
 	class ChimeraGameInstance___c__DisplayClass21_0 : public ::System::Object
 	{

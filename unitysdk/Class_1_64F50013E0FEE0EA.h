@@ -11,20 +11,20 @@ namespace RPG::Client { class RogueTournBuildRefTeamPathMemberData; }
 namespace RPG::Client { class RogueTournHexData; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CLASS_1_64F50013E0FEE0EA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1435DDC0)
-#define CLASS_1_64F50013E0FEE0EA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1435DE00)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_2C9A202A2EA76ADF_OFFSET UNITYSDK_OFFSET(0x1435F5F0)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_43BDCEBE95790DB1_OFFSET UNITYSDK_OFFSET(0x1435E210)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_644708AFA6751462_OFFSET UNITYSDK_OFFSET(0x1435EDE0)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_691BDEF0E8F0672A_OFFSET UNITYSDK_OFFSET(0x1435EF80)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_C03D9FBFC43500EE_OFFSET UNITYSDK_OFFSET(0x1435E9F0)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_C1380749696FE8E6_OFFSET UNITYSDK_OFFSET(0x1435F370)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_C21701A03164B3E2_OFFSET UNITYSDK_OFFSET(0x1435E600)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_C4B22CED049E81B8_OFFSET UNITYSDK_OFFSET(0x1435F6D0)
-#define CLASS_1_64F50013E0FEE0EA_METHOD_1_E0A19741303D7DF0_OFFSET UNITYSDK_OFFSET(0x1435DE70)
-#define CLASS_1_64F50013E0FEE0EA__CTOR_OFFSET UNITYSDK_OFFSET(0x1435F850)
+#define CLASS_1_64F50013E0FEE0EA_CLEAR_OFFSET UNITYSDK_OFFSET(0xACDA610)
+#define CLASS_1_64F50013E0FEE0EA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xACDA650)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_2C9A202A2EA76ADF_OFFSET UNITYSDK_OFFSET(0xACDC8D0)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_4A58B57CE6AF343C_OFFSET UNITYSDK_OFFSET(0xACDB7D0)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_644708AFA6751462_OFFSET UNITYSDK_OFFSET(0xACDBDA0)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_80D266CA6414D25C_OFFSET UNITYSDK_OFFSET(0xACDB1E0)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_885495EB8E8CDBAD_OFFSET UNITYSDK_OFFSET(0xACDC510)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_C4B22CED049E81B8_OFFSET UNITYSDK_OFFSET(0xACDC9B0)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_DB8CFACC790831D3_OFFSET UNITYSDK_OFFSET(0xACDABF0)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_E0A19741303D7DF0_OFFSET UNITYSDK_OFFSET(0xACDA6C0)
+#define CLASS_1_64F50013E0FEE0EA_METHOD_1_E14B285D0B7520C8_OFFSET UNITYSDK_OFFSET(0xACDBF40)
+#define CLASS_1_64F50013E0FEE0EA__CTOR_OFFSET UNITYSDK_OFFSET(0xACDCB30)
 
-inline static constexpr unsigned int Class_1_64F50013E0FEE0EA_TypeDefinitionIndex = 63151;
+inline static constexpr unsigned int Class_1_64F50013E0FEE0EA_TypeDefinitionIndex = 64518;
 
 class Class_1_64F50013E0FEE0EA : public ::System::Object
 {
@@ -49,19 +49,19 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::RPG::Client::IRogueTournBuildRefDataItem*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_E0A19741303D7DF0_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_43BDCEBE95790DB1(::System::Collections::Generic::IList_1<::RPG::Client::RogueFormulaData*>* a1)
+	::System::Int32 Method_1_DB8CFACC790831D3(::System::Collections::Generic::IList_1<::RPG::Client::RogueFormulaData*>* a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::RogueFormulaData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_43BDCEBE95790DB1_OFFSET))(this, a1);
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::RogueFormulaData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_DB8CFACC790831D3_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_C21701A03164B3E2(::System::Collections::Generic::IList_1<::RPG::Client::RogueTournHexData*>* a1)
+	::System::Int32 Method_1_80D266CA6414D25C(::System::Collections::Generic::IList_1<::RPG::Client::RogueTournHexData*>* a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::RogueTournHexData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_C21701A03164B3E2_OFFSET))(this, a1);
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::RogueTournHexData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_80D266CA6414D25C_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_C03D9FBFC43500EE(::System::Collections::Generic::IList_1<::RPG::Client::RogueTournBuildRefTeamData*>* a1)
+	::System::Int32 Method_1_4A58B57CE6AF343C(::System::Collections::Generic::IList_1<::RPG::Client::RogueTournBuildRefTeamData*>* a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::RogueTournBuildRefTeamData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_C03D9FBFC43500EE_OFFSET))(this, a1);
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::RogueTournBuildRefTeamData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_4A58B57CE6AF343C_OFFSET))(this, a1);
 	}
 
 	::System::Int32 Method_1_644708AFA6751462(::RPG::Client::RogueTournBuildRefTeamData* a1)
@@ -69,14 +69,14 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueTournBuildRefTeamData*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_644708AFA6751462_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_691BDEF0E8F0672A(::System::Collections::Generic::IList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>* a1)
+	::System::Int32 Method_1_E14B285D0B7520C8(::System::Collections::Generic::IList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>* a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_691BDEF0E8F0672A_OFFSET))(this, a1);
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_E14B285D0B7520C8_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_C1380749696FE8E6(::RPG::Client::IRogueTournBuildRefTeamMemberData* a1)
+	::System::Int32 Method_1_885495EB8E8CDBAD(::RPG::Client::IRogueTournBuildRefTeamMemberData* a1)
 	{
-		return ((::System::Int32(*)(::PVOID, ::RPG::Client::IRogueTournBuildRefTeamMemberData*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_C1380749696FE8E6_OFFSET))(this, a1);
+		return ((::System::Int32(*)(::PVOID, ::RPG::Client::IRogueTournBuildRefTeamMemberData*))((::PBYTE)hIl2Cpp + CLASS_1_64F50013E0FEE0EA_METHOD_1_885495EB8E8CDBAD_OFFSET))(this, a1);
 	}
 
 	::System::Int32 Method_1_2C9A202A2EA76ADF(::RPG::Client::RogueTournBuildRefTeamAvatarMemberData* a1)

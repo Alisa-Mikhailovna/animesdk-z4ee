@@ -8,23 +8,22 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x164442E0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_METHOD_5_17C76E3E11978D77_OFFSET UNITYSDK_OFFSET(0x16444D10)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16445070)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x164451E0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x164450F0)
-#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x164452B0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD6D2EF0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_METHOD_5_17C76E3E11978D77_OFFSET UNITYSDK_OFFSET(0xD6D3AB0)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD6D3E10)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CCTOR_OFFSET UNITYSDK_OFFSET(0xD6D3F80)
+#define RPG_CLIENT_TIMELINE_MANAVIDEOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD6D3E90)
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoTrack_TypeDefinitionIndex = 68507;
+	inline static constexpr unsigned int ManaVideoTrack_TypeDefinitionIndex = 70001;
 
 	class ManaVideoTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>** StaticGet_bindDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(ManaVideoTrack_TypeDefinitionIndex)->GetStaticField(0x50280);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(ManaVideoTrack_TypeDefinitionIndex)->GetStaticField(0x44A20);
 		}
 		::System::Guid guid; // 0xC8
 
@@ -51,11 +50,6 @@ namespace RPG::Client::Timeline
 		static ::System::Void Method_5_17C76E3E11978D77(::RPG::Client::Timeline::ManaVideoTrack* a1)
 		{
 			return ((::System::Void(*)(::RPG::Client::Timeline::ManaVideoTrack*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOTRACK_METHOD_5_17C76E3E11978D77_OFFSET))(a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMELINE_MANAVIDEOTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

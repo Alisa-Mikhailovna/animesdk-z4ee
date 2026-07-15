@@ -8,29 +8,29 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195441C0)
-#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19544680)
+#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B133160)
+#define RPG_GAMECORE_ACTIVITYSTARFIGHTGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B133620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityStarFightGroupRow_TypeDefinitionIndex = 11817;
+	inline static constexpr unsigned int ActivityStarFightGroupRow_TypeDefinitionIndex = 11917;
 
 	class ActivityStarFightGroupRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* ElementList; // 0x10
-		::Il2CppArray<::System::UInt32>* EvaluateWave; // 0x18
+		::Il2CppArray<::System::UInt32>* EvaluateWave; // 0x10
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* ElementList; // 0x18
 		::System::String* GroupPicPath; // 0x20
 		::Il2CppArray<::System::UInt32>* TrialAvatar; // 0x28
 		::System::UInt32 MazeBuffID; // 0x30
-		::RPG::GameCore::StarFightSeason Season; // 0x34
-		::RPG::Client::TextID FightStageDesc; // 0x38
-		::System::UInt32 PerfectWave; // 0x48
-		::System::UInt32 GroupID; // 0x4C
-		::RPG::Client::TextID GroupTitle; // 0x50
-		::System::UInt32 TutorialGuideID; // 0x60
-		::System::UInt32 ActivityModuleID; // 0x64
-		::System::UInt32 PerfectQuest; // 0x68
+		::System::UInt32 TutorialGuideID; // 0x34
+		::System::UInt32 PerfectWave; // 0x38
+		::System::UInt32 GroupID; // 0x3C
+		::RPG::Client::TextID GroupTitle; // 0x40
+		::System::UInt32 PerfectQuest; // 0x50
+		::System::UInt32 ActivityModuleID; // 0x54
+		::RPG::GameCore::StarFightSeason Season; // 0x58
+		::RPG::Client::TextID FightStageDesc; // 0x60
 
 		::System::Void _ctor()
 		{

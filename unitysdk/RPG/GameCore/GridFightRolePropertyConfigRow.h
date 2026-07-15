@@ -7,24 +7,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1B9CB0)
-#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1BA040)
+#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E9A40)
+#define RPG_GAMECORE_GRIDFIGHTROLEPROPERTYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E9DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRolePropertyConfigRow_TypeDefinitionIndex = 12874;
+	inline static constexpr unsigned int GridFightRolePropertyConfigRow_TypeDefinitionIndex = 13022;
 
 	class GridFightRolePropertyConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* MiniIconPath; // 0x10
 		::System::String* IconPath; // 0x18
-		::RPG::Client::TextID PropertyName; // 0x20
-		::RPG::Client::TextID PanelPropertyName; // 0x30
-		::System::UInt32 Order; // 0x40
-		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x44
-		::System::UInt32 ExtraEffectID; // 0x48
-		::System::Boolean IsDisplay; // 0x4C
+		::RPG::Client::TextID PanelPropertyName; // 0x20
+		::System::Boolean IsDisplay; // 0x30
+		::System::UInt32 ExtraEffectID; // 0x34
+		::RPG::Client::TextID PropertyName; // 0x38
+		::System::UInt32 Order; // 0x48
+		::RPG::GameCore::AvatarPropertyType PropertyType; // 0x4C
 
 		::System::Void _ctor()
 		{

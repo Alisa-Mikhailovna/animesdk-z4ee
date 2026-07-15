@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/IncrementalReadDecoder.h"
 
-#define SYSTEM_XML_BINHEXDECODER_DECODE_1_OFFSET UNITYSDK_OFFSET(0x18A6C8D0)
-#define SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET UNITYSDK_OFFSET(0x18A6C650)
-#define SYSTEM_XML_BINHEXDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x18A6C470)
-#define SYSTEM_XML_BINHEXDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x18A6C460)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_1_OFFSET UNITYSDK_OFFSET(0x1CB1FDD0)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET UNITYSDK_OFFSET(0x1CB1FB50)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1CB1F970)
+#define SYSTEM_XML_BINHEXDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x1CB1F960)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int BinHexDecoder_TypeDefinitionIndex = 1779;
+	inline static constexpr unsigned int BinHexDecoder_TypeDefinitionIndex = 1783;
 
 	class BinHexDecoder : public ::System::Xml::IncrementalReadDecoder
 	{
 	public:
 		::Il2CppArray<::System::Byte>* buffer; // 0x10
-		::System::Boolean hasHalfByteCached; // 0x18
-		::System::Byte cachedHalfByte; // 0x19
+		::System::Int32 endIndex; // 0x18
 		::System::Int32 curIndex; // 0x1C
-		::System::Int32 endIndex; // 0x20
+		::System::Byte cachedHalfByte; // 0x20
+		::System::Boolean hasHalfByteCached; // 0x21
 
 		::System::Boolean get_IsFull()
 		{

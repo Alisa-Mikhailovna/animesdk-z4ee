@@ -2,36 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_4_EC5C27B86F3A2D8A;
+class Class_4_F60973754F5DAEE6;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D3FF619E4EE06A5B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168ADA30)
-#define CLASS_3_D3FF619E4EE06A5B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168ADA70)
-#define CLASS_3_D3FF619E4EE06A5B__CTOR_OFFSET UNITYSDK_OFFSET(0x168ADA00)
-#define CLASS_3_D3FF619E4EE06A5B___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168ADBC0)
+#define CLASS_3_D3FF619E4EE06A5B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FE2D40)
+#define CLASS_3_D3FF619E4EE06A5B__CTOR_OFFSET UNITYSDK_OFFSET(0x11FE2D10)
 
-inline static constexpr unsigned int Class_3_D3FF619E4EE06A5B_TypeDefinitionIndex = 50387;
+inline static constexpr unsigned int Class_3_D3FF619E4EE06A5B_TypeDefinitionIndex = 50925;
 
-class Class_3_D3FF619E4EE06A5B : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_4_EC5C27B86F3A2D8A*>
+class Class_3_D3FF619E4EE06A5B : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_4_F60973754F5DAEE6*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_EC5C27B86F3A2D8A* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_F60973754F5DAEE6* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_4_EC5C27B86F3A2D8A*))((::PBYTE)hIl2Cpp + CLASS_3_D3FF619E4EE06A5B__CTOR_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D3FF619E4EE06A5B_DISPOSE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_4_F60973754F5DAEE6*))((::PBYTE)hIl2Cpp + CLASS_3_D3FF619E4EE06A5B__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D3FF619E4EE06A5B_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_D3FF619E4EE06A5B___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

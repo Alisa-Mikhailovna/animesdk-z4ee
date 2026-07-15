@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTPATHLIST_METHOD_2_B574A2CCF3B1730A_OFFSET UNITYSDK_OFFSET(0x19D667F0)
-#define RPG_GAMECORE_EFFECTPATHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19D668E0)
+#define RPG_GAMECORE_EFFECTPATHLIST_METHOD_2_B574A2CCF3B1730A_OFFSET UNITYSDK_OFFSET(0x1B3D6310)
+#define RPG_GAMECORE_EFFECTPATHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D6400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectPathList_TypeDefinitionIndex = 15533;
+	inline static constexpr unsigned int EffectPathList_TypeDefinitionIndex = 15704;
 
 	class EffectPathList : public ::RPG::GameCore::JsonConfig
 	{

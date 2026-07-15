@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPGTOOLS_EFFECTEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0x198A9F10)
+#define RPGTOOLS_EFFECTEDITOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDC86E40)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int EffectEditor_TypeDefinitionIndex = 45093;
+	inline static constexpr unsigned int EffectEditor_TypeDefinitionIndex = 46011;
 
 	class EffectEditor : public ::UnityEngine::MonoBehaviour
 	{

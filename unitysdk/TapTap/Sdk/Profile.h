@@ -4,25 +4,25 @@
 
 namespace System { class String; }
 
-#define TAPTAP_SDK_PROFILE_CURRENTPROFILE_OFFSET UNITYSDK_OFFSET(0x1B469040)
-#define TAPTAP_SDK_PROFILE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B468FF0)
-#define TAPTAP_SDK_PROFILE_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x1B469010)
-#define TAPTAP_SDK_PROFILE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1B469000)
-#define TAPTAP_SDK_PROFILE_SET_OPENID_OFFSET UNITYSDK_OFFSET(0x1B469020)
-#define TAPTAP_SDK_PROFILE_SET_UNIONID_OFFSET UNITYSDK_OFFSET(0x1B469030)
-#define TAPTAP_SDK_PROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4693D0)
+#define TAPTAP_SDK_PROFILE_CURRENTPROFILE_OFFSET UNITYSDK_OFFSET(0x1CD89470)
+#define TAPTAP_SDK_PROFILE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1CD89420)
+#define TAPTAP_SDK_PROFILE_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x1CD89440)
+#define TAPTAP_SDK_PROFILE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1CD89430)
+#define TAPTAP_SDK_PROFILE_SET_OPENID_OFFSET UNITYSDK_OFFSET(0x1CD89450)
+#define TAPTAP_SDK_PROFILE_SET_UNIONID_OFFSET UNITYSDK_OFFSET(0x1CD89460)
+#define TAPTAP_SDK_PROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD89800)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int Profile_TypeDefinitionIndex = 7081;
+	inline static constexpr unsigned int Profile_TypeDefinitionIndex = 7087;
 
 	class Profile : public ::System::Object
 	{
 	public:
-		::System::String* _Avatar_k__BackingField; // 0x10
-		::System::String* _Openid_k__BackingField; // 0x18
-		::System::String* _Unionid_k__BackingField; // 0x20
-		::System::String* _Name_k__BackingField; // 0x28
+		::System::String* _Openid_k__BackingField; // 0x10
+		::System::String* _Avatar_k__BackingField; // 0x18
+		::System::String* _Name_k__BackingField; // 0x20
+		::System::String* _Unionid_k__BackingField; // 0x28
 
 		::System::Void _ctor()
 		{

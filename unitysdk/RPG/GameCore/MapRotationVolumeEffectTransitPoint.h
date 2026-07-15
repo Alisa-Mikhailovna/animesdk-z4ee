@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT_METHOD_2_770C866017E63CBA_OFFSET UNITYSDK_OFFSET(0x19C29C00)
-#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C29CE0)
+#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT_METHOD_2_770C866017E63CBA_OFFSET UNITYSDK_OFFSET(0x1B5AB110)
+#define RPG_GAMECORE_MAPROTATIONVOLUMEEFFECTTRANSITPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5AB1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationVolumeEffectTransitPoint_TypeDefinitionIndex = 21079;
+	inline static constexpr unsigned int MapRotationVolumeEffectTransitPoint_TypeDefinitionIndex = 21494;
 
 	class MapRotationVolumeEffectTransitPoint : public ::RPG::GameCore::JsonConfig
 	{

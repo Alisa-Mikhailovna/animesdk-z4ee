@@ -8,13 +8,13 @@ namespace RPG::GameCore { class MazeBuffParamKey; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_METHOD_3_0FA8291611E9A366_OFFSET UNITYSDK_OFFSET(0x1A1FCCA0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_METHOD_3_EBA63F379A1E200B_OFFSET UNITYSDK_OFFSET(0x1A1FCC20)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1FCC70)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_METHOD_3_0FA8291611E9A366_OFFSET UNITYSDK_OFFSET(0x1B897240)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_METHOD_3_F7558DAA5520E1E3_OFFSET UNITYSDK_OFFSET(0x1B897200)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B897230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByMazeBuffConfig_TypeDefinitionIndex = 22529;
+	inline static constexpr unsigned int SetDynamicValueByMazeBuffConfig_TypeDefinitionIndex = 22980;
 
 	class SetDynamicValueByMazeBuffConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EBA63F379A1E200B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByMazeBuffConfig*& a2)
+		static ::System::Void Method_3_F7558DAA5520E1E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByMazeBuffConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByMazeBuffConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_METHOD_3_EBA63F379A1E200B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByMazeBuffConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_METHOD_3_F7558DAA5520E1E3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0FA8291611E9A366(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByMazeBuffConfig* a2)

@@ -5,11 +5,10 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_F9358A7140055A7E_1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x14E0C330)
-#define CLASS_2_F9358A7140055A7E_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14E0C320)
-#define CLASS_2_F9358A7140055A7E_1___IFIXBASEPROXY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x14E0C380)
+#define CLASS_2_F9358A7140055A7E_1_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x146FA900)
+#define CLASS_2_F9358A7140055A7E_1__CTOR_OFFSET UNITYSDK_OFFSET(0x146FA8F0)
 
-inline static constexpr unsigned int Class_2_F9358A7140055A7E_1_TypeDefinitionIndex = 52883;
+inline static constexpr unsigned int Class_2_F9358A7140055A7E_1_TypeDefinitionIndex = 54095;
 
 class Class_2_F9358A7140055A7E_1 : public ::Class_1_179553DEA16830ED_1
 {
@@ -22,10 +21,5 @@ public:
 	::RPG::GameCore::EventType GetEventType()
 	{
 		return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F9358A7140055A7E_1_GETEVENTTYPE_OFFSET))(this);
-	}
-
-	::RPG::GameCore::EventType __iFixBaseProxy_GetEventType()
-	{
-		return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F9358A7140055A7E_1___IFIXBASEPROXY_GETEVENTTYPE_OFFSET))(this);
 	}
 };

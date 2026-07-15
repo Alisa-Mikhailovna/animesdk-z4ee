@@ -7,23 +7,23 @@ namespace RPG::Client { class EquipmentItemData; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANACQUIRE_OFFSET UNITYSDK_OFFSET(0x1624DE20)
-#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANEQUIP_OFFSET UNITYSDK_OFFSET(0x1624DE80)
-#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1624DEE0)
+#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANACQUIRE_OFFSET UNITYSDK_OFFSET(0xC919360)
+#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM_GET_CANEQUIP_OFFSET UNITYSDK_OFFSET(0xC9193D0)
+#define RPG_CLIENT_LIGHTCONEGROWTHRECOMMENDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC919440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeGrowthRecommendItem_TypeDefinitionIndex = 61287;
+	inline static constexpr unsigned int LightConeGrowthRecommendItem_TypeDefinitionIndex = 62629;
 
 	class LightConeGrowthRecommendItem : public ::RPG::Client::BaseLightConeRecommendGuideItem
 	{
 	public:
-		::System::Func_1<::System::String*>* GetGuideDesc; // 0x28
-		::RPG::Client::EquipmentItemData* LightConeData; // 0x30
-		::System::String* MarkIconPath; // 0x38
-		::System::Single UsageRate; // 0x40
-		::RPG::Client::LightConeRecommendType Type; // 0x44
-		::System::UInt32 EquippedAvatarID; // 0x48
+		::System::String* MarkIconPath; // 0x28
+		::System::Func_1<::System::String*>* GetGuideDesc; // 0x30
+		::RPG::Client::EquipmentItemData* LightConeData; // 0x38
+		::System::UInt32 EquippedAvatarID; // 0x40
+		::System::Single UsageRate; // 0x44
+		::RPG::Client::LightConeRecommendType Type; // 0x48
 
 		::System::Void _ctor()
 		{

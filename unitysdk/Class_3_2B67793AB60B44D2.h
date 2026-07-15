@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialChimeraArrangementDisableDragging; }
 
-#define CLASS_3_2B67793AB60B44D2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154C24C0)
-#define CLASS_3_2B67793AB60B44D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154C2440)
-#define CLASS_3_2B67793AB60B44D2__CTOR_OFFSET UNITYSDK_OFFSET(0x154C2410)
-#define CLASS_3_2B67793AB60B44D2___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154C2530)
+#define CLASS_3_2B67793AB60B44D2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1133FBF0)
+#define CLASS_3_2B67793AB60B44D2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1133FB70)
+#define CLASS_3_2B67793AB60B44D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1133FB40)
 
-inline static constexpr unsigned int Class_3_2B67793AB60B44D2_TypeDefinitionIndex = 54949;
+inline static constexpr unsigned int Class_3_2B67793AB60B44D2_TypeDefinitionIndex = 56182;
 
 class Class_3_2B67793AB60B44D2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TutorialChimeraArrangementDisableDragging*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void Dispose()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2B67793AB60B44D2_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2B67793AB60B44D2___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/CFObject.h"
 
-#define MONO_NET_CFARRAY_CFARRAYGETCOUNT_OFFSET UNITYSDK_OFFSET(0x18E77620)
-#define MONO_NET_CFARRAY_CFARRAYGETVALUEATINDEX_OFFSET UNITYSDK_OFFSET(0x18E77780)
-#define MONO_NET_CFARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x18E776A0)
-#define MONO_NET_CFARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x18E77810)
-#define MONO_NET_CFARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E77230)
-#define MONO_NET_CFARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x18E77110)
+#define MONO_NET_CFARRAY_CFARRAYGETCOUNT_OFFSET UNITYSDK_OFFSET(0x1CC47C20)
+#define MONO_NET_CFARRAY_CFARRAYGETVALUEATINDEX_OFFSET UNITYSDK_OFFSET(0x1CC47D80)
+#define MONO_NET_CFARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1CC47CA0)
+#define MONO_NET_CFARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1CC47E10)
+#define MONO_NET_CFARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC47830)
+#define MONO_NET_CFARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CC47710)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFArray_TypeDefinitionIndex = 2395;
+	inline static constexpr unsigned int CFArray_TypeDefinitionIndex = 2399;
 
 	class CFArray : public ::Mono::Net::CFObject
 	{
 	public:
 		static ::System::IntPtr* StaticGet_kCFTypeArrayCallbacks()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(CFArray_TypeDefinitionIndex)->GetStaticField(0x8B70);
+			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(CFArray_TypeDefinitionIndex)->GetStaticField(0x7790);
 		}
 
 		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)

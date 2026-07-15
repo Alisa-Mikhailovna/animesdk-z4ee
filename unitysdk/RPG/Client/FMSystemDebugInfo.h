@@ -5,12 +5,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FMSYSTEMDEBUGINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1825A0C0)
-#define RPG_CLIENT_FMSYSTEMDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1825A190)
+#define RPG_CLIENT_FMSYSTEMDEBUGINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0xC42E480)
+#define RPG_CLIENT_FMSYSTEMDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC42E550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMSystemDebugInfo_TypeDefinitionIndex = 63936;
+	inline static constexpr unsigned int FMSystemDebugInfo_TypeDefinitionIndex = 65307;
 
 	class FMSystemDebugInfo : public ::UnityEngine::MonoBehaviour
 	{

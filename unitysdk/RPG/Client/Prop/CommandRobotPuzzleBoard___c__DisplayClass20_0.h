@@ -5,12 +5,12 @@
 
 namespace RPG::Client::Prop { class CommandRobotPuzzleBoard; }
 
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBOARD___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170B1320)
-#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBOARD___C__DISPLAYCLASS20_0___NAVIGATETONEXTPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0x170B2390)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBOARD___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD13C730)
+#define RPG_CLIENT_PROP_COMMANDROBOTPUZZLEBOARD___C__DISPLAYCLASS20_0___NAVIGATETONEXTPOSITION_B__0_OFFSET UNITYSDK_OFFSET(0xD13D4B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CommandRobotPuzzleBoard___c__DisplayClass20_0_TypeDefinitionIndex = 73032;
+	inline static constexpr unsigned int CommandRobotPuzzleBoard___c__DisplayClass20_0_TypeDefinitionIndex = 74557;
 
 	class CommandRobotPuzzleBoard___c__DisplayClass20_0 : public ::System::Object
 	{

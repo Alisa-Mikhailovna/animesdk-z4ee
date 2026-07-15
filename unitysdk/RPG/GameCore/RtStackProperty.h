@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_RTSTACKPROPERTY_METHOD_3_66E5A3E868B1F6DC_OFFSET UNITYSDK_OFFSET(0x1A15A9A0)
-#define RPG_GAMECORE_RTSTACKPROPERTY_METHOD_3_C2554CFA801BCD95_OFFSET UNITYSDK_OFFSET(0x1A15A920)
-#define RPG_GAMECORE_RTSTACKPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A15A970)
+#define RPG_GAMECORE_RTSTACKPROPERTY_METHOD_3_66E5A3E868B1F6DC_OFFSET UNITYSDK_OFFSET(0x1B7C3290)
+#define RPG_GAMECORE_RTSTACKPROPERTY_METHOD_3_6D88498B572A40B9_OFFSET UNITYSDK_OFFSET(0x1B7C3250)
+#define RPG_GAMECORE_RTSTACKPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C3280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStackProperty_TypeDefinitionIndex = 22888;
+	inline static constexpr unsigned int RtStackProperty_TypeDefinitionIndex = 23355;
 
 	class RtStackProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTACKPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C2554CFA801BCD95(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStackProperty*& a2)
+		static ::System::Void Method_3_6D88498B572A40B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStackProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStackProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTACKPROPERTY_METHOD_3_C2554CFA801BCD95_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStackProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTACKPROPERTY_METHOD_3_6D88498B572A40B9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_66E5A3E868B1F6DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStackProperty* a2)

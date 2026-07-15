@@ -6,28 +6,28 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x151F5840)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGTRIANGULATOR2D_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D9C10)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGTriangulator2D_Config_TypeDefinitionIndex = 34153;
+	inline static constexpr unsigned int BGTriangulator2D_Config_TypeDefinitionIndex = 34524;
 
 	class BGTriangulator2D_Config : public ::System::Object
 	{
 	public:
-		::BansheeGz::BGSpline::Components::BGPpu PixelsPerUnitBack; // 0x10
-		::BansheeGz::BGSpline::Components::BGPpu PixelsPerUnit; // 0x18
-		::BansheeGz::BGSpline::Curve::BGCurve_Mode2DEnum Mode2D; // 0x20
-		::System::Boolean Closed; // 0x24
-		::System::Boolean Flip; // 0x25
-		::System::Boolean DoubleSided; // 0x26
-		::System::Boolean AutoFlip; // 0x27
-		::UnityEngine::Vector2 OffsetUV; // 0x28
-		::UnityEngine::Vector2 OffsetBackUV; // 0x30
-		::UnityEngine::Vector2 ScaleBackUV; // 0x38
+		::System::Boolean Flip; // 0x10
+		::System::Boolean DoubleSided; // 0x11
+		::System::Boolean Closed; // 0x12
+		::System::Boolean AutoFlip; // 0x13
+		::BansheeGz::BGSpline::Components::BGPpu PixelsPerUnit; // 0x14
+		::UnityEngine::Vector2 ScaleBackUV; // 0x1C
+		::UnityEngine::Vector2 OffsetUV; // 0x24
+		::UnityEngine::Vector2 OffsetBackUV; // 0x2C
+		::BansheeGz::BGSpline::Curve::BGCurve_Mode2DEnum Mode2D; // 0x34
+		::BansheeGz::BGSpline::Components::BGPpu TextureSize; // 0x38
 		::BansheeGz::BGSpline::Components::BGTriangulator2D_Config_UvModeEnum UvMode; // 0x40
-		::BansheeGz::BGSpline::Components::BGPpu TextureSize; // 0x44
-		::UnityEngine::Vector2 ScaleUV; // 0x4C
+		::UnityEngine::Vector2 ScaleUV; // 0x44
+		::BansheeGz::BGSpline::Components::BGPpu PixelsPerUnitBack; // 0x4C
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 namespace RPG::Client { class SubMissionData; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_ELFRESTAURANTPROGRESSINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168353E0)
-#define RPG_CLIENT_ELFRESTAURANTPROGRESSINFO___C__DISPLAYCLASS11_0__ISCURRENTDAYLOCKNEXTDAYMISSIONFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x16836CD0)
+#define RPG_CLIENT_ELFRESTAURANTPROGRESSINFO___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3B7540)
+#define RPG_CLIENT_ELFRESTAURANTPROGRESSINFO___C__DISPLAYCLASS11_0__ISCURRENTDAYLOCKNEXTDAYMISSIONFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xC3B8940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantProgressInfo___c__DisplayClass11_0_TypeDefinitionIndex = 59651;
+	inline static constexpr unsigned int ElfRestaurantProgressInfo___c__DisplayClass11_0_TypeDefinitionIndex = 60936;
 
 	class ElfRestaurantProgressInfo___c__DisplayClass11_0 : public ::System::Object
 	{

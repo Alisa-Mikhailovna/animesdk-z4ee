@@ -6,16 +6,17 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 
+namespace RPGTools::Timeline { class CharacterDitherBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x198C93F0)
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x198C93E0)
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x198C9550)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCA93C0)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDCA93B0)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDCA9530)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterDitherClip_TypeDefinitionIndex = 45247;
+	inline static constexpr unsigned int CharacterDitherClip_TypeDefinitionIndex = 46171;
 
 	class CharacterDitherClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -28,6 +29,7 @@ namespace RPGTools::Timeline
 		::System::String* FadeOutEffect; // 0x38
 		::System::Single FadeOutEffectTime; // 0x40
 		::System::Boolean LoadEffectAysnc; // 0x44
+		::RPGTools::Timeline::CharacterDitherBehaviour* Template; // 0x48
 
 		::System::Void _ctor()
 		{

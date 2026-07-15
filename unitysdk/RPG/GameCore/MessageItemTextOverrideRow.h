@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A6322F0)
-#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A632490)
+#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B5F4B20)
+#define RPG_GAMECORE_MESSAGEITEMTEXTOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5F4CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageItemTextOverrideRow_TypeDefinitionIndex = 13752;
+	inline static constexpr unsigned int MessageItemTextOverrideRow_TypeDefinitionIndex = 13900;
 
 	class MessageItemTextOverrideRow : public ::System::Object
 	{
 	public:
 		::System::String* Conditions; // 0x10
-		::RPG::Client::TextID MainText; // 0x18
-		::System::UInt32 ItemID; // 0x28
+		::System::UInt32 ItemID; // 0x18
+		::RPG::Client::TextID MainText; // 0x20
 
 		::System::Void _ctor()
 		{

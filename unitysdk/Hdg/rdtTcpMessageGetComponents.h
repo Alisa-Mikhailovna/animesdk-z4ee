@@ -5,12 +5,12 @@
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGEGETCOMPONENTS_READ_OFFSET UNITYSDK_OFFSET(0x375D3B0)
-#define HDG_RDTTCPMESSAGEGETCOMPONENTS_WRITE_OFFSET UNITYSDK_OFFSET(0x375D380)
+#define HDG_RDTTCPMESSAGEGETCOMPONENTS_READ_OFFSET UNITYSDK_OFFSET(0x271C0)
+#define HDG_RDTTCPMESSAGEGETCOMPONENTS_WRITE_OFFSET UNITYSDK_OFFSET(0x27130)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageGetComponents_TypeDefinitionIndex = 44338;
+	inline static constexpr unsigned int rdtTcpMessageGetComponents_TypeDefinitionIndex = 45208;
 
 	struct alignas(4) rdtTcpMessageGetComponents
 	{

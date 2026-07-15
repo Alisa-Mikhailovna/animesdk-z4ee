@@ -6,15 +6,14 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_LEVELNPCMATERIALREPLACER_CHANGENPCMATERIAL_OFFSET UNITYSDK_OFFSET(0x16249D40)
-#define RPG_CLIENT_LEVELNPCMATERIALREPLACER_METHOD_6_BFC434719CC16F3C_OFFSET UNITYSDK_OFFSET(0x16249EF0)
-#define RPG_CLIENT_LEVELNPCMATERIALREPLACER_REPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0x16249D90)
-#define RPG_CLIENT_LEVELNPCMATERIALREPLACER__CTOR_OFFSET UNITYSDK_OFFSET(0x16249F90)
-#define RPG_CLIENT_LEVELNPCMATERIALREPLACER___IFIXBASEPROXY_REPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0x16249FA0)
+#define RPG_CLIENT_LEVELNPCMATERIALREPLACER_CHANGENPCMATERIAL_OFFSET UNITYSDK_OFFSET(0xC914D80)
+#define RPG_CLIENT_LEVELNPCMATERIALREPLACER_METHOD_6_BFC434719CC16F3C_OFFSET UNITYSDK_OFFSET(0xC914F30)
+#define RPG_CLIENT_LEVELNPCMATERIALREPLACER_REPLACEMATERIAL_OFFSET UNITYSDK_OFFSET(0xC914DD0)
+#define RPG_CLIENT_LEVELNPCMATERIALREPLACER__CTOR_OFFSET UNITYSDK_OFFSET(0xC914FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LevelNpcMaterialReplacer_TypeDefinitionIndex = 64563;
+	inline static constexpr unsigned int LevelNpcMaterialReplacer_TypeDefinitionIndex = 65963;
 
 	class LevelNpcMaterialReplacer : public ::RPG::Client::MaterialReplacerBase
 	{
@@ -39,11 +38,6 @@ namespace RPG::Client
 		::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*> Method_6_BFC434719CC16F3C()
 		{
 			return ((::System::ValueTuple_2<::System::String*, ::System::Collections::Generic::IEnumerable_1<::System::String*>*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELNPCMATERIALREPLACER_METHOD_6_BFC434719CC16F3C_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_ReplaceMaterial()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LEVELNPCMATERIALREPLACER___IFIXBASEPROXY_REPLACEMATERIAL_OFFSET))(this);
 		}
 	};
 }

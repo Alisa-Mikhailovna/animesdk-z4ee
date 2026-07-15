@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEffectAnimatorSyncWithTimeLine; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D86E730BF8B89E48_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D30B10)
-#define CLASS_3_D86E730BF8B89E48__CTOR_OFFSET UNITYSDK_OFFSET(0x15D30AE0)
+#define CLASS_3_D86E730BF8B89E48_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1520DDD0)
+#define CLASS_3_D86E730BF8B89E48__CTOR_OFFSET UNITYSDK_OFFSET(0x1520DDA0)
 
-inline static constexpr unsigned int Class_3_D86E730BF8B89E48_TypeDefinitionIndex = 51828;
+inline static constexpr unsigned int Class_3_D86E730BF8B89E48_TypeDefinitionIndex = 52976;
 
 class Class_3_D86E730BF8B89E48 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine*>
 {

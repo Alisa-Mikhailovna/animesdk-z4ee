@@ -8,25 +8,25 @@ namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600_CLEAR_OFFSET UNITYSDK_OFFSET(0x1828F220)
-#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600_METHOD_1_79E872D90798D236_OFFSET UNITYSDK_OFFSET(0x1828E1C0)
-#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600_METHOD_1_91895701433CBFE0_OFFSET UNITYSDK_OFFSET(0x1828EDF0)
-#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600__CTOR_OFFSET UNITYSDK_OFFSET(0x1828ED70)
+#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600_CLEAR_OFFSET UNITYSDK_OFFSET(0xC145A50)
+#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600_METHOD_1_79E872D90798D236_OFFSET UNITYSDK_OFFSET(0xC1449F0)
+#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600_METHOD_1_91895701433CBFE0_OFFSET UNITYSDK_OFFSET(0xC145620)
+#define RPG_CLIENT_CHIMERAFIREBULLETMANAGER_CLASS_1_8203F020DB866600__CTOR_OFFSET UNITYSDK_OFFSET(0xC1455A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraFireBulletManager_Class_1_8203F020DB866600_TypeDefinitionIndex = 64227;
+	inline static constexpr unsigned int ChimeraFireBulletManager_Class_1_8203F020DB866600_TypeDefinitionIndex = 65598;
 
 	class ChimeraFireBulletManager_Class_1_8203F020DB866600 : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Field_1_0; // 0x10
-		::UnityEngine::AnimationCurve* Field_1_1; // 0x18
-		::UnityEngine::Transform* Field_1_2; // 0x20
-		::UnityEngine::AnimationCurve* Field_1_3; // 0x28
+		::RPG::GameCore::ChimeraWorkFireBullet* Field_1_1; // 0x18
+		::UnityEngine::AnimationCurve* Field_1_2; // 0x20
+		::UnityEngine::Transform* Field_1_3; // 0x28
 		::System::Action* Field_1_4; // 0x30
 		::UnityEngine::Transform* Field_1_5; // 0x38
-		::RPG::GameCore::ChimeraWorkFireBullet* Field_1_6; // 0x40
+		::UnityEngine::AnimationCurve* Field_1_6; // 0x40
 		::System::Boolean Field_1_7; // 0x48
 		::System::Single Field_1_8; // 0x4C
 		::System::Single Field_1_9; // 0x50

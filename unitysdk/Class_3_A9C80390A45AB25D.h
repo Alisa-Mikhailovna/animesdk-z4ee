@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PreloadMap; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A9C80390A45AB25D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13FDF4C0)
-#define CLASS_3_A9C80390A45AB25D__CTOR_OFFSET UNITYSDK_OFFSET(0x13FDF490)
+#define CLASS_3_A9C80390A45AB25D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14917EE0)
+#define CLASS_3_A9C80390A45AB25D__CTOR_OFFSET UNITYSDK_OFFSET(0x14917EB0)
 
-inline static constexpr unsigned int Class_3_A9C80390A45AB25D_TypeDefinitionIndex = 54493;
+inline static constexpr unsigned int Class_3_A9C80390A45AB25D_TypeDefinitionIndex = 55717;
 
 class Class_3_A9C80390A45AB25D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PreloadMap*>
 {

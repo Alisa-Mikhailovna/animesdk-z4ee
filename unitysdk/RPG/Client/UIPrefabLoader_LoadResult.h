@@ -5,12 +5,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x14B8F3C0)
-#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x14B8EA10)
+#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0xD802C90)
+#define RPG_CLIENT_UIPREFABLOADER_LOADRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xD8022D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader_LoadResult_TypeDefinitionIndex = 68254;
+	inline static constexpr unsigned int UIPrefabLoader_LoadResult_TypeDefinitionIndex = 69743;
 
 	class UIPrefabLoader_LoadResult : public ::System::Object
 	{

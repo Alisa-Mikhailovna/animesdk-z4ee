@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18542C40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0__PREVIEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0x18543CD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB63800)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_BASESPEQUIPINVENTORYDISPLAYDATA___C__DISPLAYCLASS26_0__PREVIEWEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xBB648B0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c__DisplayClass26_0_TypeDefinitionIndex = 70308;
+	inline static constexpr unsigned int BaseSpEquipInventoryDisplayData___c__DisplayClass26_0_TypeDefinitionIndex = 71831;
 
 	class BaseSpEquipInventoryDisplayData___c__DisplayClass26_0 : public ::System::Object
 	{

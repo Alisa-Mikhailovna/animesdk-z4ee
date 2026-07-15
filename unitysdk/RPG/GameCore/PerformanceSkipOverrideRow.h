@@ -8,28 +8,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x19D2C210)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D2C5B0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x19D2D240)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x19D2D2A0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2D2C0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B69F0F0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B69F490)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B6A0170)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B6A01D0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6A01F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 13689;
+	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 13837;
 
 	class PerformanceSkipOverrideRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* OverrideCharacterList; // 0x10
-		::System::UInt32 PerformanceID; // 0x18
-		::System::UInt32 OverrideImportantFlag; // 0x1C
+		::System::UInt32 IsOverrideCharacter; // 0x18
+		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x1C
 		::RPG::Client::TextID Desc; // 0x20
 		::System::UInt32 PackID; // 0x30
-		::System::UInt32 IsOverrideImportantFlag; // 0x34
-		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x38
+		::System::UInt32 PerformanceID; // 0x34
+		::System::UInt32 OverrideImportantFlag; // 0x38
 		::System::UInt32 IsConfirmRequiredToSkipFlag; // 0x3C
-		::System::UInt32 IsOverrideCharacter; // 0x40
+		::System::UInt32 IsOverrideImportantFlag; // 0x40
 
 		::System::Void _ctor()
 		{

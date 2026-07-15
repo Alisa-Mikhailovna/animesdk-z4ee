@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_5EC8E3A5E7BE15F2__CTOR_OFFSET UNITYSDK_OFFSET(0x178D0290)
+#define CLASS_1_5EC8E3A5E7BE15F2__CTOR_OFFSET UNITYSDK_OFFSET(0x14AA59C0)
 
-inline static constexpr unsigned int Class_1_5EC8E3A5E7BE15F2_TypeDefinitionIndex = 50728;
+inline static constexpr unsigned int Class_1_5EC8E3A5E7BE15F2_TypeDefinitionIndex = 51810;
 
 class Class_1_5EC8E3A5E7BE15F2 : public ::System::Object
 {

@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TALKVERIFICATIONDISTANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19875100)
-#define RPG_GAMECORE_TALKVERIFICATIONDISTANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19875230)
+#define RPG_GAMECORE_TALKVERIFICATIONDISTANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B944D50)
+#define RPG_GAMECORE_TALKVERIFICATIONDISTANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B944E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkVerificationDistanceRow_TypeDefinitionIndex = 14451;
+	inline static constexpr unsigned int TalkVerificationDistanceRow_TypeDefinitionIndex = 14609;
 
 	class TalkVerificationDistanceRow : public ::System::Object
 	{
 	public:
-		::System::Single Distance; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::Single Distance; // 0x14
 
 		::System::Void _ctor()
 		{

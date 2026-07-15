@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERWALKINGEFFECT_METHOD_3_071A17A42EB4D493_OFFSET UNITYSDK_OFFSET(0x19A52120)
-#define RPG_GAMECORE_TRIGGERWALKINGEFFECT_METHOD_3_0CFFD8BD6CFAF8A9_OFFSET UNITYSDK_OFFSET(0x19A521C0)
-#define RPG_GAMECORE_TRIGGERWALKINGEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A52180)
+#define RPG_GAMECORE_TRIGGERWALKINGEFFECT_METHOD_3_0CFFD8BD6CFAF8A9_OFFSET UNITYSDK_OFFSET(0x1B9AECA0)
+#define RPG_GAMECORE_TRIGGERWALKINGEFFECT_METHOD_3_6D40DE1F27965894_OFFSET UNITYSDK_OFFSET(0x1B9AEC30)
+#define RPG_GAMECORE_TRIGGERWALKINGEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AEC80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerWalkingEffect_TypeDefinitionIndex = 21204;
+	inline static constexpr unsigned int TriggerWalkingEffect_TypeDefinitionIndex = 21619;
 
 	class TriggerWalkingEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERWALKINGEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_071A17A42EB4D493(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerWalkingEffect*& a2)
+		static ::System::Void Method_3_6D40DE1F27965894(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerWalkingEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerWalkingEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERWALKINGEFFECT_METHOD_3_071A17A42EB4D493_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerWalkingEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERWALKINGEFFECT_METHOD_3_6D40DE1F27965894_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0CFFD8BD6CFAF8A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerWalkingEffect* a2)

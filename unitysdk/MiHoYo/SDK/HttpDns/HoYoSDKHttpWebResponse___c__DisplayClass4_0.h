@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::HttpDns { class HoYoSDKHttpWebResponse; }
 namespace System::IO { class Stream; }
 
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x193A0B10)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__DOHTTPREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x193A1000)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAACB530)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS4_0__DOHTTPREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0xAACBA10)
 
 namespace MiHoYo::SDK::HttpDns
 {
-	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass4_0_TypeDefinitionIndex = 44062;
+	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass4_0_TypeDefinitionIndex = 44924;
 
 	class HoYoSDKHttpWebResponse___c__DisplayClass4_0 : public ::System::Object
 	{

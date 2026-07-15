@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class StageMonsterRewardItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13711C40)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13711C80)
-#define RPG_GAMECORE_GAMEPLAYSTATIC___C__GETMONSTERDROPREWARDDATA_B__73_0_OFFSET UNITYSDK_OFFSET(0x13711C90)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDAA8710)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDAA8750)
+#define RPG_GAMECORE_GAMEPLAYSTATIC___C__GETMONSTERDROPREWARDDATA_B__73_0_OFFSET UNITYSDK_OFFSET(0xDAA8760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GamePlayStatic___c_TypeDefinitionIndex = 55183;
+	inline static constexpr unsigned int GamePlayStatic___c_TypeDefinitionIndex = 56416;
 
 	class GamePlayStatic___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::GameCore::StageMonsterRewardItem*>** StaticGet___9__73_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::StageMonsterRewardItem*>**)Il2CppClass::FromTypeDefinitionIndex(GamePlayStatic___c_TypeDefinitionIndex)->GetStaticField(0x67B10);
+			return (::System::Comparison_1<::RPG::GameCore::StageMonsterRewardItem*>**)Il2CppClass::FromTypeDefinitionIndex(GamePlayStatic___c_TypeDefinitionIndex)->GetStaticField(0x630D0);
 		}
 		static ::RPG::GameCore::GamePlayStatic___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::GamePlayStatic___c**)Il2CppClass::FromTypeDefinitionIndex(GamePlayStatic___c_TypeDefinitionIndex)->GetStaticField(0x67B18);
+			return (::RPG::GameCore::GamePlayStatic___c**)Il2CppClass::FromTypeDefinitionIndex(GamePlayStatic___c_TypeDefinitionIndex)->GetStaticField(0x630D8);
 		}
 
 		static ::System::Void _cctor()

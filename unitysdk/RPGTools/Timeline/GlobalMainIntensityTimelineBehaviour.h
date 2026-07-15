@@ -6,15 +6,13 @@
 
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x18C353C0)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18C34FF0)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x18C35540)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x18C35560)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x18C35550)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xDCDEDC0)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xDCDE740)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xDCDF060)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GlobalMainIntensityTimelineBehaviour_TypeDefinitionIndex = 45741;
+	inline static constexpr unsigned int GlobalMainIntensityTimelineBehaviour_TypeDefinitionIndex = 46680;
 
 	class GlobalMainIntensityTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -41,16 +39,6 @@ namespace RPGTools::Timeline
 		::System::Void OnGraphStop(::UnityEngine::Playables::Playable a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
 	};
 }

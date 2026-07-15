@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19870900)
-#define RPG_GAMECORE_TALKBACKGROUNDCG__CTOR_OFFSET UNITYSDK_OFFSET(0x19870C00)
+#define RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B940590)
+#define RPG_GAMECORE_TALKBACKGROUNDCG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B940890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkBackgroundCG_TypeDefinitionIndex = 23062;
+	inline static constexpr unsigned int TalkBackgroundCG_TypeDefinitionIndex = 23529;
 
 	class TalkBackgroundCG : public ::RPG::GameCore::JsonConfig
 	{

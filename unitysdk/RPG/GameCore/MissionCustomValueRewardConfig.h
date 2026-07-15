@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG_METHOD_2_93AE016657D20715_OFFSET UNITYSDK_OFFSET(0x1969C540)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG_METHOD_2_C6666C7724773823_OFFSET UNITYSDK_OFFSET(0x1969C6D0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1969C6C0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG_METHOD_2_0465B54857FEE23C_OFFSET UNITYSDK_OFFSET(0x1B5FE8A0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG_METHOD_2_93AE016657D20715_OFFSET UNITYSDK_OFFSET(0x1B5FE710)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5FE890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueRewardConfig_TypeDefinitionIndex = 18039;
+	inline static constexpr unsigned int MissionCustomValueRewardConfig_TypeDefinitionIndex = 18243;
 
 	class MissionCustomValueRewardConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValueRewardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG_METHOD_2_93AE016657D20715_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_C6666C7724773823(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueRewardConfig*& a2)
+		static ::System::Void Method_2_0465B54857FEE23C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueRewardConfig*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueRewardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG_METHOD_2_C6666C7724773823_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueRewardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEREWARDCONFIG_METHOD_2_0465B54857FEE23C_OFFSET))(a1, a2);
 		}
 	};
 }

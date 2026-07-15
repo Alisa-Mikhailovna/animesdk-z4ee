@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class RemoveMiniEmoEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E3192BBDEB0160FD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1453BC50)
-#define CLASS_3_E3192BBDEB0160FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1453BC90)
-#define CLASS_3_E3192BBDEB0160FD__CTOR_OFFSET UNITYSDK_OFFSET(0x1453BC20)
-#define CLASS_3_E3192BBDEB0160FD___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1453C160)
+#define CLASS_3_E3192BBDEB0160FD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1131A450)
+#define CLASS_3_E3192BBDEB0160FD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1131A490)
+#define CLASS_3_E3192BBDEB0160FD__CTOR_OFFSET UNITYSDK_OFFSET(0x1131A420)
 
-inline static constexpr unsigned int Class_3_E3192BBDEB0160FD_TypeDefinitionIndex = 51663;
+inline static constexpr unsigned int Class_3_E3192BBDEB0160FD_TypeDefinitionIndex = 52806;
 
 class Class_3_E3192BBDEB0160FD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveMiniEmoEffect*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E3192BBDEB0160FD_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E3192BBDEB0160FD___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

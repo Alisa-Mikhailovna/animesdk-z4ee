@@ -6,12 +6,12 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSRESULT_FROMJSONSTRING_OFFSET UNITYSDK_OFFSET(0x14C4B310)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x14C631A0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSRESULT_FROMJSONSTRING_OFFSET UNITYSDK_OFFSET(0x19D00330)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19D18BB0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager_HoYoPassResult_TypeDefinitionIndex = 8242;
+	inline static constexpr unsigned int LoginManager_HoYoPassResult_TypeDefinitionIndex = 8254;
 
 	class LoginManager_HoYoPassResult : public ::System::Object
 	{

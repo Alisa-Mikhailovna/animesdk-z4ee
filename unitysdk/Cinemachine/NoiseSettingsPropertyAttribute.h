@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_NOISESETTINGSPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B444850)
+#define CINEMACHINE_NOISESETTINGSPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x156FBD90)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int NoiseSettingsPropertyAttribute_TypeDefinitionIndex = 36892;
+	inline static constexpr unsigned int NoiseSettingsPropertyAttribute_TypeDefinitionIndex = 37674;
 
 	class NoiseSettingsPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{

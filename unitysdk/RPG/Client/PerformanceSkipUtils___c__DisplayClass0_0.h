@@ -6,21 +6,21 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146C8200)
-#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_0__SHOWPERFORMANCESKIPDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x146C8FA0)
-#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_0__SHOWPERFORMANCESKIPDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x146C9000)
+#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF5CF20)
+#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_0__SHOWPERFORMANCESKIPDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xCF5DD30)
+#define RPG_CLIENT_PERFORMANCESKIPUTILS___C__DISPLAYCLASS0_0__SHOWPERFORMANCESKIPDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0xCF5DD90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceSkipUtils___c__DisplayClass0_0_TypeDefinitionIndex = 56766;
+	inline static constexpr unsigned int PerformanceSkipUtils___c__DisplayClass0_0_TypeDefinitionIndex = 58013;
 
 	class PerformanceSkipUtils___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
 		::System::Action_1<::System::Boolean>* dispatch; // 0x10
 		::System::UInt32 performanceID; // 0x18
-		::System::Guid guid; // 0x1C
-		::RPG::GameCore::ELevelPerformanceType performanceType; // 0x2C
+		::RPG::GameCore::ELevelPerformanceType performanceType; // 0x1C
+		::System::Guid guid; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER_METHOD_3_55423A6816910B82_OFFSET UNITYSDK_OFFSET(0x196AFED0)
-#define RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER_METHOD_3_C341C0B4861FF80E_OFFSET UNITYSDK_OFFSET(0x196AFFF0)
-#define RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x196AFF70)
+#define RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER_METHOD_3_53ABADE33409C04B_OFFSET UNITYSDK_OFFSET(0x1B611EE0)
+#define RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER_METHOD_3_C341C0B4861FF80E_OFFSET UNITYSDK_OFFSET(0x1B611FE0)
+#define RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B611F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyShieldValueByNewShieldModifier_TypeDefinitionIndex = 22315;
+	inline static constexpr unsigned int ModifyShieldValueByNewShieldModifier_TypeDefinitionIndex = 22756;
 
 	class ModifyShieldValueByNewShieldModifier : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_55423A6816910B82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShieldValueByNewShieldModifier*& a2)
+		static ::System::Void Method_3_53ABADE33409C04B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShieldValueByNewShieldModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyShieldValueByNewShieldModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER_METHOD_3_55423A6816910B82_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyShieldValueByNewShieldModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELDVALUEBYNEWSHIELDMODIFIER_METHOD_3_53ABADE33409C04B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C341C0B4861FF80E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShieldValueByNewShieldModifier* a2)

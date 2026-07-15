@@ -4,10 +4,10 @@
 
 namespace System::Security::Util { class Tokenizer_StringMaker; }
 
-#define SYSTEM_SHAREDSTATICS_GETSHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x142D3840)
-#define SYSTEM_SHAREDSTATICS_RELEASESHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x142D3E20)
-#define SYSTEM_SHAREDSTATICS__CCTOR_OFFSET UNITYSDK_OFFSET(0x142DBD30)
-#define SYSTEM_SHAREDSTATICS__CTOR_OFFSET UNITYSDK_OFFSET(0x142DBD20)
+#define SYSTEM_SHAREDSTATICS_GETSHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x19FDDC10)
+#define SYSTEM_SHAREDSTATICS_RELEASESHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x19FDE1F0)
+#define SYSTEM_SHAREDSTATICS__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FE7220)
+#define SYSTEM_SHAREDSTATICS__CTOR_OFFSET UNITYSDK_OFFSET(0x19FE7210)
 
 namespace System
 {
@@ -18,7 +18,7 @@ namespace System
 	public:
 		static ::System::SharedStatics** StaticGet__sharedStatics()
 		{
-			return (::System::SharedStatics**)Il2CppClass::FromTypeDefinitionIndex(SharedStatics_TypeDefinitionIndex)->GetStaticField(0x110E0);
+			return (::System::SharedStatics**)Il2CppClass::FromTypeDefinitionIndex(SharedStatics_TypeDefinitionIndex)->GetStaticField(0x1B7C0);
 		}
 		::System::Security::Util::Tokenizer_StringMaker* _maker; // 0x10
 

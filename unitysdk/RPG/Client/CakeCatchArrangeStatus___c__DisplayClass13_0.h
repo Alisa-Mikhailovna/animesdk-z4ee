@@ -4,18 +4,18 @@
 
 namespace RPG::Client { class CakeCatchFreeAreaPosition; }
 
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182EB570)
-#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0__ISPLACEDINFREEAREA_B__0_OFFSET UNITYSDK_OFFSET(0x182EB690)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBEEB8C0)
+#define RPG_CLIENT_CAKECATCHARRANGESTATUS___C__DISPLAYCLASS13_0__ISPLACEDINFREEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xBEEB9E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchArrangeStatus___c__DisplayClass13_0_TypeDefinitionIndex = 58927;
+	inline static constexpr unsigned int CakeCatchArrangeStatus___c__DisplayClass13_0_TypeDefinitionIndex = 60198;
 
 	class CakeCatchArrangeStatus___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Int32 index; // 0x10
-		::System::UInt32 slotId; // 0x14
+		::System::UInt32 slotId; // 0x10
+		::System::Int32 index; // 0x14
 
 		::System::Void _ctor()
 		{

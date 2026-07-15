@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_868FBEEAE7597F7D_OFFSET UNITYSDK_OFFSET(0x1969C030)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_D7EAEB1F921AAC5B_OFFSET UNITYSDK_OFFSET(0x1969BC90)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1969C9B0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_57C6FFDD77C870E3_OFFSET UNITYSDK_OFFSET(0x1B5FE100)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_D7EAEB1F921AAC5B_OFFSET UNITYSDK_OFFSET(0x1B5FDC00)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5FECA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueTuple_TypeDefinitionIndex = 18040;
+	inline static constexpr unsigned int MissionCustomValueTuple_TypeDefinitionIndex = 18244;
 
 	class MissionCustomValueTuple : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValueTuple*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_D7EAEB1F921AAC5B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_868FBEEAE7597F7D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueTuple*& a2)
+		static ::System::Void Method_2_57C6FFDD77C870E3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueTuple*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueTuple*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_868FBEEAE7597F7D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueTuple*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUETUPLE_METHOD_2_57C6FFDD77C870E3_OFFSET))(a1, a2);
 		}
 	};
 }

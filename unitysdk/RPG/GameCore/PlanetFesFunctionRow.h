@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESFUNCTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D4BFF0)
-#define RPG_GAMECORE_PLANETFESFUNCTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D4C210)
+#define RPG_GAMECORE_PLANETFESFUNCTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6BEB90)
+#define RPG_GAMECORE_PLANETFESFUNCTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6BEDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesFunctionRow_TypeDefinitionIndex = 11697;
+	inline static constexpr unsigned int PlanetFesFunctionRow_TypeDefinitionIndex = 11797;
 
 	class PlanetFesFunctionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::RPG::Client::TextID Description; // 0x18
-		::System::UInt32 SkillID; // 0x28
-		::RPG::GameCore::PlanetFesFunctionType FunctionType; // 0x2C
+		::RPG::GameCore::PlanetFesFunctionType FunctionType; // 0x18
+		::System::UInt32 SkillID; // 0x1C
+		::RPG::Client::TextID Description; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEARCADETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A9CFBB0)
-#define RPG_GAMECORE_ROGUEARCADETYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9D03F0)
+#define RPG_GAMECORE_ROGUEARCADETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B73FD60)
+#define RPG_GAMECORE_ROGUEARCADETYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7405E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueArcadeTypeConfigRow_TypeDefinitionIndex = 13943;
+	inline static constexpr unsigned int RogueArcadeTypeConfigRow_TypeDefinitionIndex = 14091;
 
 	class RogueArcadeTypeConfigRow : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* PicPathList; // 0x10
 		::RPG::Client::TextID DetailedName; // 0x18
 		::RPG::Client::TextID ExitDesc; // 0x28
-		::RPG::Client::TextID BriefName; // 0x38
-		::RPG::Client::TextID Desc; // 0x48
+		::RPG::Client::TextID Desc; // 0x38
+		::RPG::Client::TextID BriefName; // 0x48
 		::System::UInt32 ArcadeID; // 0x58
 
 		::System::Void _ctor()

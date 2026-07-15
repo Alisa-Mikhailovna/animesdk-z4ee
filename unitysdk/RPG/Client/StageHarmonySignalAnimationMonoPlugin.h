@@ -8,13 +8,12 @@ namespace RPG::Client { class StageHarmonySignalAnimationBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17C34680)
-#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17C346D0)
-#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17C34790)
+#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD541460)
+#define RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD5414B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonySignalAnimationMonoPlugin_TypeDefinitionIndex = 66356;
+	inline static constexpr unsigned int StageHarmonySignalAnimationMonoPlugin_TypeDefinitionIndex = 67781;
 
 	class StageHarmonySignalAnimationMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonySignalAnimationBehavior*>
 	{
@@ -34,11 +33,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYSIGNALANIMATIONMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

@@ -6,27 +6,24 @@ class Class_2_E450C4D97FC83888;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_443965D776E927BD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1810AE90)
-#define CLASS_2_443965D776E927BD_METHOD_2_278DE3B6BE616E54_OFFSET UNITYSDK_OFFSET(0x1810B750)
-#define CLASS_2_443965D776E927BD_METHOD_2_3C927B51D2142A24_OFFSET UNITYSDK_OFFSET(0x1810C500)
-#define CLASS_2_443965D776E927BD_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1810C4A0)
-#define CLASS_2_443965D776E927BD_METHOD_2_8B5E3014AFF7F8EA_OFFSET UNITYSDK_OFFSET(0x1810B060)
-#define CLASS_2_443965D776E927BD__CTOR_OFFSET UNITYSDK_OFFSET(0x1810ACC0)
-#define CLASS_2_443965D776E927BD___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1810C440)
+#define CLASS_2_443965D776E927BD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AA219C0)
+#define CLASS_2_443965D776E927BD_METHOD_2_278DE3B6BE616E54_OFFSET UNITYSDK_OFFSET(0x1AA22280)
+#define CLASS_2_443965D776E927BD_METHOD_2_8B5E3014AFF7F8EA_OFFSET UNITYSDK_OFFSET(0x1AA21B90)
+#define CLASS_2_443965D776E927BD__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA217F0)
 
-inline static constexpr unsigned int Class_2_443965D776E927BD_TypeDefinitionIndex = 39230;
+inline static constexpr unsigned int Class_2_443965D776E927BD_TypeDefinitionIndex = 40039;
 
 class Class_2_443965D776E927BD : public ::Class_1_5BE136E515AF9A61
 {
 public:
-	::Class_2_E450C4D97FC83888* Field_2_0; // 0x18
-	::System::String* Field_2_1; // 0x20
-	::System::String* Field_2_2; // 0x28
-	::System::Collections::Generic::List_1<::Class_2_E450C4D97FC83888*>* Field_2_3; // 0x30
-	::System::Single Field_2_4; // 0x38
+	::System::String* Field_2_0; // 0x18
+	::Class_2_E450C4D97FC83888* Field_2_1; // 0x20
+	::System::Collections::Generic::List_1<::Class_2_E450C4D97FC83888*>* Field_2_2; // 0x28
+	::System::String* Field_2_3; // 0x30
+	::System::Int32 Field_2_4; // 0x38
 	::System::Single Field_2_5; // 0x3C
 	::System::Single Field_2_6; // 0x40
-	::System::Int32 Field_2_7; // 0x44
+	::System::Single Field_2_7; // 0x44
 	::System::Single Field_2_8; // 0x48
 	::System::Int32 Field_2_9; // 0x4C
 
@@ -48,20 +45,5 @@ public:
 	::System::Void Method_2_278DE3B6BE616E54(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_443965D776E927BD_METHOD_2_278DE3B6BE616E54_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_443965D776E927BD___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void Method_2_5790A55946AA509D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_443965D776E927BD_METHOD_2_5790A55946AA509D_OFFSET))(this);
-	}
-
-	::System::Void Method_2_3C927B51D2142A24(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_2_443965D776E927BD_METHOD_2_3C927B51D2142A24_OFFSET))(this, a1);
 	}
 };

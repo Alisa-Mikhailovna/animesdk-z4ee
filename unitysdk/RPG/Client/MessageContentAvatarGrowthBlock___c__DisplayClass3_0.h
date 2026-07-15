@@ -5,12 +5,12 @@
 namespace RPG::Client { class MessageContentAvatarGrowthBlock; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1792BF00)
-#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__REQUESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1792C030)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA7040)
+#define RPG_CLIENT_MESSAGECONTENTAVATARGROWTHBLOCK___C__DISPLAYCLASS3_0__REQUESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCBA7170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentAvatarGrowthBlock___c__DisplayClass3_0_TypeDefinitionIndex = 59194;
+	inline static constexpr unsigned int MessageContentAvatarGrowthBlock___c__DisplayClass3_0_TypeDefinitionIndex = 60465;
 
 	class MessageContentAvatarGrowthBlock___c__DisplayClass3_0 : public ::System::Object
 	{

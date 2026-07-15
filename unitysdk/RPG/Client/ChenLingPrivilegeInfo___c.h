@@ -7,34 +7,34 @@ namespace RPG::Client { class ChenLingPrivilege; }
 namespace RPG::Client { class ChenLingPrivilegeTreeNode; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18867E20)
-#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18867E60)
-#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C__GET_ACTIVATEDCOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0x18867EC0)
-#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C___BUILDPRIVILEGETREE_B__6_0_OFFSET UNITYSDK_OFFSET(0x18867E70)
-#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C___BUILDPRIVILEGETREE_B__6_1_OFFSET UNITYSDK_OFFSET(0x18867EA0)
+#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0D82C0)
+#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC0D8300)
+#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C__GET_ACTIVATEDCOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0xC0D8360)
+#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C___BUILDPRIVILEGETREE_B__6_0_OFFSET UNITYSDK_OFFSET(0xC0D8310)
+#define RPG_CLIENT_CHENLINGPRIVILEGEINFO___C___BUILDPRIVILEGETREE_B__6_1_OFFSET UNITYSDK_OFFSET(0xC0D8340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingPrivilegeInfo___c_TypeDefinitionIndex = 57449;
+	inline static constexpr unsigned int ChenLingPrivilegeInfo___c_TypeDefinitionIndex = 58711;
 
 	class ChenLingPrivilegeInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::UInt32>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x68570);
-		}
-		static ::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x68578);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingPrivilege*>, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingPrivilege*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x68580);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingPrivilege*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x600D0);
 		}
 		static ::RPG::Client::ChenLingPrivilegeInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingPrivilegeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x68588);
+			return (::RPG::Client::ChenLingPrivilegeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x600D8);
+		}
+		static ::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::UInt32>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x600E0);
+		}
+		static ::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::Boolean>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChenLingPrivilegeTreeNode*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingPrivilegeInfo___c_TypeDefinitionIndex)->GetStaticField(0x600E8);
 		}
 
 		static ::System::Void _cctor()

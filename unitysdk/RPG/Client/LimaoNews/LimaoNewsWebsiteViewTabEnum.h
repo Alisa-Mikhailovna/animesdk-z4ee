@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsWebsiteViewTabEnum_TypeDefinitionIndex = 73892;
+	inline static constexpr unsigned int LimaoNewsWebsiteViewTabEnum_TypeDefinitionIndex = 75543;
 
 	enum class LimaoNewsWebsiteViewTabEnum : ::System::Int32
 	{

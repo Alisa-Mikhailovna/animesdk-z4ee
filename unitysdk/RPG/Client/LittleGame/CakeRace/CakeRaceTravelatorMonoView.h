@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACETRAVELATORMONOVIEW_UPDATESPEED_OFFSET UNITYSDK_OFFSET(0x17E13310)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACETRAVELATORMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x17E135D0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACETRAVELATORMONOVIEW_UPDATESPEED_OFFSET UNITYSDK_OFFSET(0xC96E570)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACETRAVELATORMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC96E830)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceTravelatorMonoView_TypeDefinitionIndex = 72680;
+	inline static constexpr unsigned int CakeRaceTravelatorMonoView_TypeDefinitionIndex = 74205;
 
 	class CakeRaceTravelatorMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceTrapMonoView
 	{

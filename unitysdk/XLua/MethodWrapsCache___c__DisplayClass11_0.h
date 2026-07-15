@@ -8,22 +8,22 @@ namespace System::Reflection { class EventInfo; }
 namespace System::Reflection { class MethodInfo; }
 namespace XLua { class MethodWrapsCache; }
 
-#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xEDD5FF0)
-#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS11_0__GETEVENTWRAP_B__0_OFFSET UNITYSDK_OFFSET(0xEDD6290)
+#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13DA8820)
+#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS11_0__GETEVENTWRAP_B__0_OFFSET UNITYSDK_OFFSET(0x13DA8C00)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass11_0_TypeDefinitionIndex = 46999;
+	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass11_0_TypeDefinitionIndex = 47965;
 
 	class MethodWrapsCache___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Reflection::MethodInfo* remove; // 0x10
+		::System::Type* type; // 0x10
 		::XLua::MethodWrapsCache* __4__this; // 0x18
-		::System::String* eventName; // 0x20
-		::System::Reflection::MethodInfo* add; // 0x28
-		::System::Reflection::EventInfo* eventInfo; // 0x30
-		::System::Type* type; // 0x38
+		::System::Reflection::EventInfo* eventInfo; // 0x20
+		::System::String* eventName; // 0x28
+		::System::Reflection::MethodInfo* remove; // 0x30
+		::System::Reflection::MethodInfo* add; // 0x38
 		::System::Int32 start_idx; // 0x40
 		::System::Boolean is_static; // 0x44
 

@@ -6,12 +6,12 @@ namespace RPG::Client { class SubMissionData; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182B1580)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS42_0___ISROUNDANYSUBMISSIONFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0x182B1C50)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC167F50)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__DISPLAYCLASS42_0___ISROUNDANYSUBMISSIONFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0xC168830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass42_0_TypeDefinitionIndex = 59451;
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c__DisplayClass42_0_TypeDefinitionIndex = 60722;
 
 	class ChimeraWorkRoundInfo___c__DisplayClass42_0 : public ::System::Object
 	{

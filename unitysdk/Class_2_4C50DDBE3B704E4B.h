@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define CLASS_2_4C50DDBE3B704E4B_GET_CONTAINERNAME_OFFSET UNITYSDK_OFFSET(0x145FAB80)
-#define CLASS_2_4C50DDBE3B704E4B_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0x145FAB90)
-#define CLASS_2_4C50DDBE3B704E4B_GET_PARAMKINDS_OFFSET UNITYSDK_OFFSET(0x145FABA0)
-#define CLASS_2_4C50DDBE3B704E4B__CTOR_1_OFFSET UNITYSDK_OFFSET(0x145FACF0)
-#define CLASS_2_4C50DDBE3B704E4B__CTOR_OFFSET UNITYSDK_OFFSET(0x145FABB0)
+#define CLASS_2_4C50DDBE3B704E4B_GET_CONTAINERNAME_OFFSET UNITYSDK_OFFSET(0xBFDE090)
+#define CLASS_2_4C50DDBE3B704E4B_GET_METHODNAME_OFFSET UNITYSDK_OFFSET(0xBFDE0A0)
+#define CLASS_2_4C50DDBE3B704E4B_GET_PARAMKINDS_OFFSET UNITYSDK_OFFSET(0xBFDE0B0)
+#define CLASS_2_4C50DDBE3B704E4B__CTOR_1_OFFSET UNITYSDK_OFFSET(0xBFDE200)
+#define CLASS_2_4C50DDBE3B704E4B__CTOR_OFFSET UNITYSDK_OFFSET(0xBFDE0C0)
 
-inline static constexpr unsigned int Class_2_4C50DDBE3B704E4B_TypeDefinitionIndex = 46219;
+inline static constexpr unsigned int Class_2_4C50DDBE3B704E4B_TypeDefinitionIndex = 47184;
 
 class Class_2_4C50DDBE3B704E4B : public ::System::Attribute
 {
 public:
-	::System::String* _MethodName_k__BackingField; // 0x10
-	::System::String* _ContainerName_k__BackingField; // 0x18
-	::Il2CppArray<::LightCodeGen::VarKind>* _ParamKinds_k__BackingField; // 0x20
+	::System::String* _ContainerName_k__BackingField; // 0x10
+	::Il2CppArray<::LightCodeGen::VarKind>* _ParamKinds_k__BackingField; // 0x18
+	::System::String* _MethodName_k__BackingField; // 0x20
 
 	::System::Void _ctor(::System::String* a1, ::System::String* a2)
 	{

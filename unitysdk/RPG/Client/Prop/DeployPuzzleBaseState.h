@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleBaseState_TypeDefinitionIndex = 73037;
+	inline static constexpr unsigned int DeployPuzzleBaseState_TypeDefinitionIndex = 74562;
 
 	enum class DeployPuzzleBaseState : ::System::Int32
 	{

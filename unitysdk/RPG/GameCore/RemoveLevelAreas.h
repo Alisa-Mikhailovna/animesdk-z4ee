@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_REMOVELEVELAREAS_METHOD_3_005A3981F5C18742_OFFSET UNITYSDK_OFFSET(0x1A2E7AF0)
-#define RPG_GAMECORE_REMOVELEVELAREAS_METHOD_3_9777AB04C2479B6B_OFFSET UNITYSDK_OFFSET(0x1A2E7A70)
-#define RPG_GAMECORE_REMOVELEVELAREAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2E7AC0)
+#define RPG_GAMECORE_REMOVELEVELAREAS_METHOD_3_005A3981F5C18742_OFFSET UNITYSDK_OFFSET(0x1B71CEF0)
+#define RPG_GAMECORE_REMOVELEVELAREAS_METHOD_3_F07511D251EDEB39_OFFSET UNITYSDK_OFFSET(0x1B71CEB0)
+#define RPG_GAMECORE_REMOVELEVELAREAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71CEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveLevelAreas_TypeDefinitionIndex = 19603;
+	inline static constexpr unsigned int RemoveLevelAreas_TypeDefinitionIndex = 19962;
 
 	class RemoveLevelAreas : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVELEVELAREAS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9777AB04C2479B6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveLevelAreas*& a2)
+		static ::System::Void Method_3_F07511D251EDEB39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveLevelAreas*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveLevelAreas*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVELEVELAREAS_METHOD_3_9777AB04C2479B6B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveLevelAreas*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVELEVELAREAS_METHOD_3_F07511D251EDEB39_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_005A3981F5C18742(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveLevelAreas* a2)

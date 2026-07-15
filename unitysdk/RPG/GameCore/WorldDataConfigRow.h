@@ -7,33 +7,33 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WORLDDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B32C350)
-#define RPG_GAMECORE_WORLDDATACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B32CED0)
+#define RPG_GAMECORE_WORLDDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9F81C0)
+#define RPG_GAMECORE_WORLDDATACONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F8CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldDataConfigRow_TypeDefinitionIndex = 13342;
+	inline static constexpr unsigned int WorldDataConfigRow_TypeDefinitionIndex = 13490;
 
 	class WorldDataConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ChronicleWorldProcessingPath; // 0x10
-		::System::String* ChapterIconBigPath; // 0x18
-		::System::String* ChronicleWorldSubBgPath; // 0x20
-		::System::String* ChronicleWorldPredictPath; // 0x28
-		::System::String* ChronicleWorldBgPath; // 0x30
-		::System::String* SmallWorldIconPath; // 0x38
-		::Il2CppArray<::RPG::GameCore::MapSpaceType>* MapSpaceTypeList; // 0x40
-		::RPG::Client::TextID WorldDesc; // 0x48
-		::System::Single CameraWidth; // 0x58
-		::System::Boolean IsRealWorld; // 0x5C
-		::System::Boolean IsShow; // 0x5D
-		::RPG::Client::TextID WorldLanguageName; // 0x60
-		::RPG::Client::TextID SimpleWorldDesc; // 0x70
-		::System::UInt32 ID; // 0x80
-		::RPG::GameCore::MapSpaceType TrainSpaceType; // 0x84
-		::RPG::Client::TextID WorldName; // 0x88
-		::System::Single CameraHeight; // 0x98
+		::Il2CppArray<::RPG::GameCore::MapSpaceType>* MapSpaceTypeList; // 0x10
+		::System::String* ChronicleWorldBgPath; // 0x18
+		::System::String* ChapterIconBigPath; // 0x20
+		::System::String* ChronicleWorldProcessingPath; // 0x28
+		::System::String* SmallWorldIconPath; // 0x30
+		::System::String* ChronicleWorldSubBgPath; // 0x38
+		::System::String* ChronicleWorldPredictPath; // 0x40
+		::System::UInt32 ID; // 0x48
+		::System::Single CameraWidth; // 0x4C
+		::RPG::GameCore::MapSpaceType TrainSpaceType; // 0x50
+		::RPG::Client::TextID WorldDesc; // 0x58
+		::RPG::Client::TextID WorldName; // 0x68
+		::System::Boolean IsShow; // 0x78
+		::System::Boolean IsRealWorld; // 0x79
+		::System::Single CameraHeight; // 0x7C
+		::RPG::Client::TextID SimpleWorldDesc; // 0x80
+		::RPG::Client::TextID WorldLanguageName; // 0x90
 
 		::System::Void _ctor()
 		{

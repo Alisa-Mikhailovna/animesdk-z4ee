@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGameShare/ReplicationFlag.h"
 
-class Class_0_16E4307DCC419505_25;
-class Class_0_16E4307DCC419505_26;
+class Class_1_78A7ED2C7E071DF9;
+class Class_1_8278C4CB5E7C57A4;
+class Class_1_829CFD6018DBC4E4;
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_42_TypeDefinitionIndex = 34667;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_42_TypeDefinitionIndex = 35369;
 
 class Class_0_16E4307DCC419505_42
 {

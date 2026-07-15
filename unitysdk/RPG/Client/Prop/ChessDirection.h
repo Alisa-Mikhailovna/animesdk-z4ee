@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChessDirection_TypeDefinitionIndex = 73311;
+	inline static constexpr unsigned int ChessDirection_TypeDefinitionIndex = 74836;
 
 	enum class ChessDirection : ::System::Int32
 	{

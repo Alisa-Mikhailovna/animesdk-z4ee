@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelEventType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_AF312BD3F30375EA_CLEAR_OFFSET UNITYSDK_OFFSET(0x150466B0)
-#define CLASS_1_AF312BD3F30375EA_METHOD_1_21CB0D991D0749D9_OFFSET UNITYSDK_OFFSET(0x15046620)
-#define CLASS_1_AF312BD3F30375EA__CTOR_OFFSET UNITYSDK_OFFSET(0x15046700)
+#define CLASS_1_AF312BD3F30375EA_CLEAR_OFFSET UNITYSDK_OFFSET(0xB0D8810)
+#define CLASS_1_AF312BD3F30375EA_METHOD_1_21CB0D991D0749D9_OFFSET UNITYSDK_OFFSET(0xB0D8780)
+#define CLASS_1_AF312BD3F30375EA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0D8860)
 
-inline static constexpr unsigned int Class_1_AF312BD3F30375EA_TypeDefinitionIndex = 72071;
+inline static constexpr unsigned int Class_1_AF312BD3F30375EA_TypeDefinitionIndex = 73596;
 
 class Class_1_AF312BD3F30375EA : public ::System::Object
 {
 public:
 	::System::Object* Field_1_0; // 0x10
-	::RPG::GameCore::ChimeraDuelEventType Field_1_1; // 0x18
-	::System::Int32 Field_1_2; // 0x1C
+	::System::Int32 Field_1_1; // 0x18
+	::RPG::GameCore::ChimeraDuelEventType Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

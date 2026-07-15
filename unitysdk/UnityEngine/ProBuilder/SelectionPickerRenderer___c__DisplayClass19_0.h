@@ -5,12 +5,12 @@
 
 namespace UnityEngine::ProBuilder { class SharedVertex; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15C4DC70)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__PICKVERTICESINRECT_B__0_OFFSET UNITYSDK_OFFSET(0x15C50E80)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE99050)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER___C__DISPLAYCLASS19_0__PICKVERTICESINRECT_B__0_OFFSET UNITYSDK_OFFSET(0x1CE9C620)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer___c__DisplayClass19_0_TypeDefinitionIndex = 40807;
+	inline static constexpr unsigned int SelectionPickerRenderer___c__DisplayClass19_0_TypeDefinitionIndex = 41622;
 
 	class SelectionPickerRenderer___c__DisplayClass19_0 : public ::System::Object
 	{

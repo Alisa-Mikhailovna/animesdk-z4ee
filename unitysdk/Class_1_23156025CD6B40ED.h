@@ -6,10 +6,10 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_23156025CD6B40ED_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x16925DC0)
-#define CLASS_1_23156025CD6B40ED__CTOR_OFFSET UNITYSDK_OFFSET(0x169261C0)
+#define CLASS_1_23156025CD6B40ED_METHOD_1_95FA3048B3F79507_OFFSET UNITYSDK_OFFSET(0x1AF43D20)
+#define CLASS_1_23156025CD6B40ED__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF44120)
 
-inline static constexpr unsigned int Class_1_23156025CD6B40ED_TypeDefinitionIndex = 10800;
+inline static constexpr unsigned int Class_1_23156025CD6B40ED_TypeDefinitionIndex = 10850;
 
 class Class_1_23156025CD6B40ED : public ::System::Object
 {
@@ -19,11 +19,11 @@ public:
 	::System::String* Field_1_2; // 0x20
 	::System::String* Field_1_3; // 0x28
 	::System::String* Field_1_4; // 0x30
-	::Il2CppArray<::System::Single>* Field_1_5; // 0x38
+	::System::String* Field_1_5; // 0x38
 	::System::String* Field_1_6; // 0x40
 	::System::String* Field_1_7; // 0x48
 	::System::String* Field_1_8; // 0x50
-	::System::String* Field_1_9; // 0x58
+	::Il2CppArray<::System::Single>* Field_1_9; // 0x58
 	::System::String* Field_1_10; // 0x60
 	::RPG::GameCore::DiceCombatDiceType Field_1_11; // 0x68
 

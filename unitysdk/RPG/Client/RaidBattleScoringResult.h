@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_RAIDBATTLESCORINGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x174879E0)
+#define RPG_CLIENT_RAIDBATTLESCORINGRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xD2B2B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RaidBattleScoringResult_TypeDefinitionIndex = 62423;
+	inline static constexpr unsigned int RaidBattleScoringResult_TypeDefinitionIndex = 63789;
 
 	class RaidBattleScoringResult : public ::System::Object
 	{

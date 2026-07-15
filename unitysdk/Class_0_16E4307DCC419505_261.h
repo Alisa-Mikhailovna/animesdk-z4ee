@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_260;
-namespace Entitas { class IEntity; }
-namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_43BD383C98B4C0C5_33;
+class Class_2_B9E8C2EEAA5C96EC;
+namespace RPG::GameCore { class FiveDimWindowControllerComponentConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_261_TypeDefinitionIndex = 40282;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_261_TypeDefinitionIndex = 41020;
 
 class Class_0_16E4307DCC419505_261
 {

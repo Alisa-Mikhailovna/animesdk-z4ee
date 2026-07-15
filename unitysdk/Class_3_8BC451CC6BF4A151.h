@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByDelayCumulate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8BC451CC6BF4A151_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179B8B20)
-#define CLASS_3_8BC451CC6BF4A151__CTOR_OFFSET UNITYSDK_OFFSET(0x179B8A40)
+#define CLASS_3_8BC451CC6BF4A151_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154838A0)
+#define CLASS_3_8BC451CC6BF4A151__CTOR_OFFSET UNITYSDK_OFFSET(0x154837C0)
 
-inline static constexpr unsigned int Class_3_8BC451CC6BF4A151_TypeDefinitionIndex = 51770;
+inline static constexpr unsigned int Class_3_8BC451CC6BF4A151_TypeDefinitionIndex = 52917;
 
 class Class_3_8BC451CC6BF4A151 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByDelayCumulate*>
 {

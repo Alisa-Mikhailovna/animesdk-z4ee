@@ -8,13 +8,13 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterData
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEALL_OFFSET UNITYSDK_OFFSET(0x181C2E40)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEONE_OFFSET UNITYSDK_OFFSET(0x181C5880)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x181C5870)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEALL_OFFSET UNITYSDK_OFFSET(0xBF6FEC0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY_CREATEONE_OFFSET UNITYSDK_OFFSET(0xBF73190)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGEVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xBF73180)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageViewModel_Factory_TypeDefinitionIndex = 74230;
+	inline static constexpr unsigned int ChallengeTierceStageViewModel_Factory_TypeDefinitionIndex = 76614;
 
 	class ChallengeTierceStageViewModel_Factory : public ::System::Object
 	{

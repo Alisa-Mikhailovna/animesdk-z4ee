@@ -7,18 +7,18 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConfirmDialogUtil___O_TypeDefinitionIndex = 67928;
+	inline static constexpr unsigned int ConfirmDialogUtil___O_TypeDefinitionIndex = 69414;
 
 	class ConfirmDialogUtil___O : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::NotifyHandler** StaticGet__1___OnFocusChange()
-		{
-			return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___O_TypeDefinitionIndex)->GetStaticField(0x1C80);
-		}
 		static ::System::Action** StaticGet__0___OnDialogExit()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___O_TypeDefinitionIndex)->GetStaticField(0x1C88);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___O_TypeDefinitionIndex)->GetStaticField(0x64080);
+		}
+		static ::RPG::Client::NotifyHandler** StaticGet__1___OnFocusChange()
+		{
+			return (::RPG::Client::NotifyHandler**)Il2CppClass::FromTypeDefinitionIndex(ConfirmDialogUtil___O_TypeDefinitionIndex)->GetStaticField(0x64088);
 		}
 	};
 }

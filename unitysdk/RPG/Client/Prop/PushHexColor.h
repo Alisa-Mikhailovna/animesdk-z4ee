@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PushHexColor_TypeDefinitionIndex = 73139;
+	inline static constexpr unsigned int PushHexColor_TypeDefinitionIndex = 74664;
 
 	enum class PushHexColor : ::System::Int32
 	{

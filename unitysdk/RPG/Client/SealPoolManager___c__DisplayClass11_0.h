@@ -5,13 +5,13 @@
 namespace RPG::Client { class SealPoolManager; }
 namespace UnityEngine { class Rigidbody; }
 
-#define RPG_CLIENT_SEALPOOLMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x175405F0)
-#define RPG_CLIENT_SEALPOOLMANAGER___C__DISPLAYCLASS11_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x17540860)
-#define RPG_CLIENT_SEALPOOLMANAGER___C__DISPLAYCLASS11_0__UPDATE_B__1_OFFSET UNITYSDK_OFFSET(0x17540A30)
+#define RPG_CLIENT_SEALPOOLMANAGER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD4E0A00)
+#define RPG_CLIENT_SEALPOOLMANAGER___C__DISPLAYCLASS11_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xD4E0C70)
+#define RPG_CLIENT_SEALPOOLMANAGER___C__DISPLAYCLASS11_0__UPDATE_B__1_OFFSET UNITYSDK_OFFSET(0xD4E0E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SealPoolManager___c__DisplayClass11_0_TypeDefinitionIndex = 56467;
+	inline static constexpr unsigned int SealPoolManager___c__DisplayClass11_0_TypeDefinitionIndex = 57707;
 
 	class SealPoolManager___c__DisplayClass11_0 : public ::System::Object
 	{

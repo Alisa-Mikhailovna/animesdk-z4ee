@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_METHOD_3_7F594083C0BA46DA_OFFSET UNITYSDK_OFFSET(0x1A79E1F0)
-#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_METHOD_3_C24602D2718DBFA9_OFFSET UNITYSDK_OFFSET(0x1A79E270)
-#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79E240)
+#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_METHOD_3_C24602D2718DBFA9_OFFSET UNITYSDK_OFFSET(0x1B8B41D0)
+#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_METHOD_3_DF059D171B80C884_OFFSET UNITYSDK_OFFSET(0x1B8B4190)
+#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B41C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetAnimSpeedScale_TypeDefinitionIndex = 21638;
+	inline static constexpr unsigned int SetTargetAnimSpeedScale_TypeDefinitionIndex = 22061;
 
 	class SetTargetAnimSpeedScale : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETANIMSPEEDSCALE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7F594083C0BA46DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAnimSpeedScale*& a2)
+		static ::System::Void Method_3_DF059D171B80C884(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAnimSpeedScale*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAnimSpeedScale*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_METHOD_3_7F594083C0BA46DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetAnimSpeedScale*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_METHOD_3_DF059D171B80C884_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C24602D2718DBFA9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetAnimSpeedScale* a2)

@@ -4,54 +4,54 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_C58549E83E2A95B6;
-class Class_1_F1C57540A2293C7F;
+class Class_1_C891149273D7CFB5;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define CLASS_1_9BA88018AC303C05_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1350FFD0)
-#define CLASS_1_9BA88018AC303C05_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x13510020)
-#define CLASS_1_9BA88018AC303C05_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x1350F250)
-#define CLASS_1_9BA88018AC303C05_METHOD_1_A576F328C56C105D_OFFSET UNITYSDK_OFFSET(0x1350F330)
-#define CLASS_1_9BA88018AC303C05_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x1350F200)
-#define CLASS_1_9BA88018AC303C05_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x13510030)
-#define CLASS_1_9BA88018AC303C05__CTOR_OFFSET UNITYSDK_OFFSET(0x1350F1B0)
+#define CLASS_1_9BA88018AC303C05_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB981890)
+#define CLASS_1_9BA88018AC303C05_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xB9818E0)
+#define CLASS_1_9BA88018AC303C05_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xB9809B0)
+#define CLASS_1_9BA88018AC303C05_METHOD_1_A536C0A3C82A1588_OFFSET UNITYSDK_OFFSET(0xB980A40)
+#define CLASS_1_9BA88018AC303C05_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0xB980960)
+#define CLASS_1_9BA88018AC303C05_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xB9818F0)
+#define CLASS_1_9BA88018AC303C05__CTOR_OFFSET UNITYSDK_OFFSET(0xB980910)
 
-inline static constexpr unsigned int Class_1_9BA88018AC303C05_TypeDefinitionIndex = 53290;
+inline static constexpr unsigned int Class_1_9BA88018AC303C05_TypeDefinitionIndex = 54505;
 
 class Class_1_9BA88018AC303C05 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::RPG::GameCore::TransformComponent* Field_1_1; // 0x18
-	::Il2CppArray<::System::Single>* Field_1_2; // 0x20
-	::Class_1_F1C57540A2293C7F* Field_1_3; // 0x28
-	::Class_1_C58549E83E2A95B6* Field_1_4; // 0x30
+	::Class_1_C58549E83E2A95B6* Field_1_0; // 0x10
+	::Il2CppArray<::System::Single>* Field_1_1; // 0x18
+	::Class_1_C891149273D7CFB5* Field_1_2; // 0x20
+	::RPG::GameCore::GameEntity* Field_1_3; // 0x28
+	::RPG::GameCore::TransformComponent* Field_1_4; // 0x30
 	::Il2CppArray<::System::Single>* Field_1_5; // 0x38
-	::System::Single Field_1_6; // 0x40
-	::UnityEngine::Vector3 Field_1_7; // 0x44
-	::System::Single Field_1_8; // 0x50
-	::UnityEngine::Vector3 Field_1_9; // 0x54
-	::System::Boolean _IsActive_k__BackingField; // 0x60
-	::System::Boolean Field_1_11; // 0x61
+	::UnityEngine::Vector3 Field_1_6; // 0x40
+	::System::Boolean Field_1_7; // 0x4C
+	::System::Boolean _IsActive_k__BackingField; // 0x4D
+	::UnityEngine::Vector3 Field_1_9; // 0x50
+	::System::Single Field_1_10; // 0x5C
+	::System::Single Field_1_11; // 0x60
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_9BA88018AC303C05__CTOR_OFFSET))(this, a1);
 	}
 
-	::Class_1_F1C57540A2293C7F* Method_1_F8B73ECE7F883AC1()
+	::Class_1_C891149273D7CFB5* Method_1_F8B73ECE7F883AC1()
 	{
-		return ((::Class_1_F1C57540A2293C7F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9BA88018AC303C05_METHOD_1_F8B73ECE7F883AC1_OFFSET))(this);
+		return ((::Class_1_C891149273D7CFB5*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9BA88018AC303C05_METHOD_1_F8B73ECE7F883AC1_OFFSET))(this);
 	}
 
-	::System::Void Method_1_1290EA767C459179()
+	::System::Void Method_1_30D1209326FA87FC()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9BA88018AC303C05_METHOD_1_1290EA767C459179_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_9BA88018AC303C05_METHOD_1_30D1209326FA87FC_OFFSET))(this);
 	}
 
-	::System::Void Method_1_A576F328C56C105D(::System::Single a1)
+	::System::Void Method_1_A536C0A3C82A1588(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_9BA88018AC303C05_METHOD_1_A576F328C56C105D_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_9BA88018AC303C05_METHOD_1_A536C0A3C82A1588_OFFSET))(this, a1);
 	}
 
 	::System::Void Dispose()

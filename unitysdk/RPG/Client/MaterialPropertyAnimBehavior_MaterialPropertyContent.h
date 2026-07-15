@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALPROPERTYANIMBEHAVIOR_MATERIALPROPERTYCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0x188EB910)
+#define RPG_CLIENT_MATERIALPROPERTYANIMBEHAVIOR_MATERIALPROPERTYCONTENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB888D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertyAnimBehavior_MaterialPropertyContent_TypeDefinitionIndex = 66137;
+	inline static constexpr unsigned int MaterialPropertyAnimBehavior_MaterialPropertyContent_TypeDefinitionIndex = 67562;
 
 	class MaterialPropertyAnimBehavior_MaterialPropertyContent : public ::System::Object
 	{

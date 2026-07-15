@@ -5,24 +5,24 @@
 namespace System { class UnhandledExceptionEventArgs; }
 namespace System { class UnhandledExceptionEventHandler; }
 
-#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B37C4A0)
-#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B37C4D0)
-#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__REGISTERUECATCHER_B__0_0_OFFSET UNITYSDK_OFFSET(0x1B37C4E0)
+#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D068CF0)
+#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D068D20)
+#define UNITYENGINE_UNHANDLEDEXCEPTIONHANDLER___C__REGISTERUECATCHER_B__0_0_OFFSET UNITYSDK_OFFSET(0x1D068D30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UnhandledExceptionHandler___c_TypeDefinitionIndex = 4341;
+	inline static constexpr unsigned int UnhandledExceptionHandler___c_TypeDefinitionIndex = 4346;
 
 	class UnhandledExceptionHandler___c : public ::System::Object
 	{
 	public:
-		static ::System::UnhandledExceptionEventHandler** StaticGet___9__0_0()
-		{
-			return (::System::UnhandledExceptionEventHandler**)Il2CppClass::FromTypeDefinitionIndex(UnhandledExceptionHandler___c_TypeDefinitionIndex)->GetStaticField(0x369B0);
-		}
 		static ::UnityEngine::UnhandledExceptionHandler___c** StaticGet___9()
 		{
-			return (::UnityEngine::UnhandledExceptionHandler___c**)Il2CppClass::FromTypeDefinitionIndex(UnhandledExceptionHandler___c_TypeDefinitionIndex)->GetStaticField(0x369B8);
+			return (::UnityEngine::UnhandledExceptionHandler___c**)Il2CppClass::FromTypeDefinitionIndex(UnhandledExceptionHandler___c_TypeDefinitionIndex)->GetStaticField(0x3AC00);
+		}
+		static ::System::UnhandledExceptionEventHandler** StaticGet___9__0_0()
+		{
+			return (::System::UnhandledExceptionEventHandler**)Il2CppClass::FromTypeDefinitionIndex(UnhandledExceptionHandler___c_TypeDefinitionIndex)->GetStaticField(0x3AC08);
 		}
 
 		static ::System::Void _cctor()

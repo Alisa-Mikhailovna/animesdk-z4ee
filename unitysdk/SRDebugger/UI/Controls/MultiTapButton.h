@@ -4,12 +4,12 @@
 
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define SRDEBUGGER_UI_CONTROLS_MULTITAPBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x186FAF40)
-#define SRDEBUGGER_UI_CONTROLS_MULTITAPBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x186FAFB0)
+#define SRDEBUGGER_UI_CONTROLS_MULTITAPBUTTON_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1C9E7A60)
+#define SRDEBUGGER_UI_CONTROLS_MULTITAPBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E7AD0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int MultiTapButton_TypeDefinitionIndex = 35692;
+	inline static constexpr unsigned int MultiTapButton_TypeDefinitionIndex = 36474;
 
 	class MultiTapButton : public ::UnityEngine::UI::Button
 	{

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 #include "unitysdk/System/Nullable_1.h"
 
@@ -8,12 +8,12 @@ class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelFireGlobalEffectNode; }
 
-#define CLASS_2_028A4FAD019BD2E5_METHOD_2_16E792B668863BDD_OFFSET UNITYSDK_OFFSET(0x14F875C0)
-#define CLASS_2_028A4FAD019BD2E5__CTOR_OFFSET UNITYSDK_OFFSET(0x14F87640)
+#define CLASS_2_028A4FAD019BD2E5_METHOD_2_16E792B668863BDD_OFFSET UNITYSDK_OFFSET(0x14B11D40)
+#define CLASS_2_028A4FAD019BD2E5__CTOR_OFFSET UNITYSDK_OFFSET(0x14B11DC0)
 
-inline static constexpr unsigned int Class_2_028A4FAD019BD2E5_TypeDefinitionIndex = 72201;
+inline static constexpr unsigned int Class_2_028A4FAD019BD2E5_TypeDefinitionIndex = 73726;
 
-class Class_2_028A4FAD019BD2E5 : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_028A4FAD019BD2E5 : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
 	::RPG::GameCore::ChimeraDuelFireGlobalEffectNode* Field_2_0; // 0x10

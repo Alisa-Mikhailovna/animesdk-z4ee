@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMSKILLINFOCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x179A9980)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_MONOFIVEDIMSKILLINFOCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9C3330)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int MonoFiveDimSkillInfoCustomData_TypeDefinitionIndex = 71765;
+	inline static constexpr unsigned int MonoFiveDimSkillInfoCustomData_TypeDefinitionIndex = 73290;
 
 	class MonoFiveDimSkillInfoCustomData : public ::UnityEngine::MonoBehaviour
 	{

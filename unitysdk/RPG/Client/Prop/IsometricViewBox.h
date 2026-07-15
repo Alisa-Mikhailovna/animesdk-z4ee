@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int IsometricViewBox_TypeDefinitionIndex = 73163;
+	inline static constexpr unsigned int IsometricViewBox_TypeDefinitionIndex = 74688;
 
 	enum class IsometricViewBox : ::System::Int32
 	{

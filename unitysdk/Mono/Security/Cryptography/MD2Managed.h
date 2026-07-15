@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Cryptography/MD2.h"
 
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHCORE_OFFSET UNITYSDK_OFFSET(0x19CBD4B0)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x19CBD850)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19CBD450)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_MD2TRANSFORM_OFFSET UNITYSDK_OFFSET(0x19CBD590)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_PADDING_OFFSET UNITYSDK_OFFSET(0x19CBD340)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CBD9F0)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CTOR_OFFSET UNITYSDK_OFFSET(0x19CBD280)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHCORE_OFFSET UNITYSDK_OFFSET(0x19F1DFC0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x19F1E360)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x19F1DF60)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_MD2TRANSFORM_OFFSET UNITYSDK_OFFSET(0x19F1E0A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_PADDING_OFFSET UNITYSDK_OFFSET(0x19F1DE50)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CCTOR_OFFSET UNITYSDK_OFFSET(0x19F1E500)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CTOR_OFFSET UNITYSDK_OFFSET(0x19F1DD90)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int MD2Managed_TypeDefinitionIndex = 2292;
+	inline static constexpr unsigned int MD2Managed_TypeDefinitionIndex = 2296;
 
 	class MD2Managed : public ::Mono::Security::Cryptography::MD2
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_PI_SUBST()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MD2Managed_TypeDefinitionIndex)->GetStaticField(0x1AE00);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MD2Managed_TypeDefinitionIndex)->GetStaticField(0x280B0);
 		}
-		::Il2CppArray<::System::Byte>* x; // 0x28
-		::Il2CppArray<::System::Byte>* buffer; // 0x30
-		::Il2CppArray<::System::Byte>* state; // 0x38
-		::Il2CppArray<::System::Byte>* checksum; // 0x40
+		::Il2CppArray<::System::Byte>* buffer; // 0x28
+		::Il2CppArray<::System::Byte>* x; // 0x30
+		::Il2CppArray<::System::Byte>* checksum; // 0x38
+		::Il2CppArray<::System::Byte>* state; // 0x40
 		::System::Int32 count; // 0x48
 
 		::System::Void _ctor()

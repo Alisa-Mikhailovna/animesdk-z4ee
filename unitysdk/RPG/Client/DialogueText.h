@@ -5,14 +5,15 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_DIALOGUETEXT_GETNOOVERFLOWCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x18B6AE70)
-#define RPG_CLIENT_DIALOGUETEXT_ISOVERFLOW_OFFSET UNITYSDK_OFFSET(0x18B6AA00)
-#define RPG_CLIENT_DIALOGUETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x18B6B460)
-#define RPG_CLIENT_DIALOGUETEXT__ISLINEOVERFLOW_OFFSET UNITYSDK_OFFSET(0x18B6AE00)
+#define RPG_CLIENT_DIALOGUETEXT_GETNOOVERFLOWCHARCOUNT_OFFSET UNITYSDK_OFFSET(0xC1FFFA0)
+#define RPG_CLIENT_DIALOGUETEXT_ISOVERFLOW_OFFSET UNITYSDK_OFFSET(0xC1FFB30)
+#define RPG_CLIENT_DIALOGUETEXT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0xC1FFA70)
+#define RPG_CLIENT_DIALOGUETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xC200700)
+#define RPG_CLIENT_DIALOGUETEXT__ISLINEOVERFLOW_OFFSET UNITYSDK_OFFSET(0xC1FFF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogueText_TypeDefinitionIndex = 67766;
+	inline static constexpr unsigned int DialogueText_TypeDefinitionIndex = 69250;
 
 	class DialogueText : public ::UnityEngine::UI::Text
 	{
@@ -20,6 +21,11 @@ namespace RPG::Client
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGUETEXT__CTOR_OFFSET))(this);
+		}
+
+		::System::Void set_text(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGUETEXT_SET_TEXT_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsOverflow(::System::String* a1)

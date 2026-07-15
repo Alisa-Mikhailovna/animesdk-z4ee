@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_COMBINE_OFFSET UNITYSDK_OFFSET(0x1B384E00)
-#define SYSTEM_NUMERICS_HASHING_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B384E10)
+#define SYSTEM_NUMERICS_HASHING_HASHHELPERS_COMBINE_OFFSET UNITYSDK_OFFSET(0x1CAD3D60)
+#define SYSTEM_NUMERICS_HASHING_HASHHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAD3D70)
 
 namespace System::Numerics::Hashing
 {
-	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 4964;
+	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 4969;
 
 	class HashHelpers : public ::System::Object
 	{

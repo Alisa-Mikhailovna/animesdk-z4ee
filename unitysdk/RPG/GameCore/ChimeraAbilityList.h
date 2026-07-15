@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraAbilityBase; }
 
-#define RPG_GAMECORE_CHIMERAABILITYLIST_METHOD_2_30928B1A8F1AF327_OFFSET UNITYSDK_OFFSET(0x1A506420)
-#define RPG_GAMECORE_CHIMERAABILITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A506570)
+#define RPG_GAMECORE_CHIMERAABILITYLIST_METHOD_2_30928B1A8F1AF327_OFFSET UNITYSDK_OFFSET(0x1B33FCB0)
+#define RPG_GAMECORE_CHIMERAABILITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B33FE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraAbilityList_TypeDefinitionIndex = 15064;
+	inline static constexpr unsigned int ChimeraAbilityList_TypeDefinitionIndex = 15228;
 
 	class ChimeraAbilityList : public ::RPG::GameCore::JsonConfig
 	{

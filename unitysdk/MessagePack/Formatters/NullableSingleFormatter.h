@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14000670)
-#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x14000650)
-#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14000790)
-#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14000640)
+#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AEE7E0)
+#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AEE7C0)
+#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AEE900)
+#define MESSAGEPACK_FORMATTERS_NULLABLESINGLEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AEE7B0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableSingleFormatter_TypeDefinitionIndex = 7417;
+	inline static constexpr unsigned int NullableSingleFormatter_TypeDefinitionIndex = 7423;
 
 	class NullableSingleFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableSingleFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableSingleFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableSingleFormatter_TypeDefinitionIndex)->GetStaticField(0x8900);
+			return (::MessagePack::Formatters::NullableSingleFormatter**)Il2CppClass::FromTypeDefinitionIndex(NullableSingleFormatter_TypeDefinitionIndex)->GetStaticField(0xB5F0);
 		}
 
 		::System::Void _ctor()

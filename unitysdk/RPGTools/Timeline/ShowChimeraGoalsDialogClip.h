@@ -8,25 +8,25 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19B5D590)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x19B5D580)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B5D7E0)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19B5D760)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD18F10)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xDD18F00)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD19160)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD190E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowChimeraGoalsDialogClip_TypeDefinitionIndex = 45571;
+	inline static constexpr unsigned int ShowChimeraGoalsDialogClip_TypeDefinitionIndex = 46505;
 
 	class ShowChimeraGoalsDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		static ::System::String** StaticGet_UI_LUA_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowChimeraGoalsDialogClip_TypeDefinitionIndex)->GetStaticField(0xDE80);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowChimeraGoalsDialogClip_TypeDefinitionIndex)->GetStaticField(0x6B920);
 		}
 		static ::System::String** StaticGet_UI_NAME()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowChimeraGoalsDialogClip_TypeDefinitionIndex)->GetStaticField(0xDE88);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowChimeraGoalsDialogClip_TypeDefinitionIndex)->GetStaticField(0x6B928);
 		}
 		::System::String* UILuaPath; // 0x18
 		::System::String* UIParam; // 0x20

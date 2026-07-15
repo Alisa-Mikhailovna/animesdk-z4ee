@@ -8,28 +8,28 @@
 namespace RPG::Client { class IWayPointTarget; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ADVENTUREWAYPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x167D9D50)
+#define RPG_CLIENT_ADVENTUREWAYPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBCE2B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureWaypointConfig_TypeDefinitionIndex = 64601;
+	inline static constexpr unsigned int AdventureWaypointConfig_TypeDefinitionIndex = 66002;
 
 	class AdventureWaypointConfig : public ::System::Object
 	{
 	public:
-		::RPG::Client::IWayPointTarget* Target; // 0x10
-		::System::String* PrefabPath; // 0x18
-		::System::String* IconPath; // 0x20
-		::UnityEngine::Vector3 Offset; // 0x28
-		::RPG::Client::AdventureWaypointType WaypointType; // 0x34
-		::System::UInt64 CreateTime; // 0x38
+		::System::String* PrefabPath; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::Client::IWayPointTarget* Target; // 0x20
+		::System::Boolean IsTeleport; // 0x28
+		::System::Boolean IsNew; // 0x29
+		::System::Boolean IsInMinRange; // 0x2A
+		::System::Single ToShowAnimTime; // 0x2C
+		::System::UInt64 CreateTime; // 0x30
+		::System::Single ShowRangeMax; // 0x38
+		::System::Single ShowRangeMin; // 0x3C
 		::UnityEngine::Vector2 Offset2D; // 0x40
-		::System::Single ShowRangeMin; // 0x48
-		::System::Boolean IsInMinRange; // 0x4C
-		::System::Boolean IsNew; // 0x4D
-		::System::Boolean IsTeleport; // 0x4E
-		::System::Single ToShowAnimTime; // 0x50
-		::System::Single ShowRangeMax; // 0x54
+		::UnityEngine::Vector3 Offset; // 0x48
+		::RPG::Client::AdventureWaypointType WaypointType; // 0x54
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_DISC_METHOD_2_4F4018519B20BBDD_OFFSET UNITYSDK_OFFSET(0x156D57A0)
-#define RPG_CLIENT_ELECTRICCHAINV2_DISC__CTOR_OFFSET UNITYSDK_OFFSET(0x156D5950)
+#define RPG_CLIENT_ELECTRICCHAINV2_DISC_METHOD_2_1FE1C290A82B88F3_OFFSET UNITYSDK_OFFSET(0xC35A850)
+#define RPG_CLIENT_ELECTRICCHAINV2_DISC__CTOR_OFFSET UNITYSDK_OFFSET(0xC35AA70)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Disc_TypeDefinitionIndex = 68692;
+	inline static constexpr unsigned int Disc_TypeDefinitionIndex = 70190;
 
 	class Disc : public ::RPG::Client::ElectricChainV2::Shape
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_DISC__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_2_4F4018519B20BBDD()
+		::UnityEngine::Vector3 Method_2_1FE1C290A82B88F3()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_DISC_METHOD_2_4F4018519B20BBDD_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_DISC_METHOD_2_1FE1C290A82B88F3_OFFSET))(this);
 		}
 	};
 }

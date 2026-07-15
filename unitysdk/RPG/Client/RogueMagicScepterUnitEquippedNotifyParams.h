@@ -6,20 +6,20 @@
 
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_ISSLOTUNITEQUIPPED_OFFSET UNITYSDK_OFFSET(0x184F5DC0)
-#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_MERGE_OFFSET UNITYSDK_OFFSET(0x184F5E60)
-#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x184F5EF0)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_ISSLOTUNITEQUIPPED_OFFSET UNITYSDK_OFFSET(0xD3CED50)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS_MERGE_OFFSET UNITYSDK_OFFSET(0xD3CEDF0)
+#define RPG_CLIENT_ROGUEMAGICSCEPTERUNITEQUIPPEDNOTIFYPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xD3CEE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicScepterUnitEquippedNotifyParams_TypeDefinitionIndex = 63056;
+	inline static constexpr unsigned int RogueMagicScepterUnitEquippedNotifyParams_TypeDefinitionIndex = 64423;
 
 	class RogueMagicScepterUnitEquippedNotifyParams : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>>* UnitEquippedSlots; // 0x10
-		::System::UInt32 ScepterID; // 0x18
-		::System::UInt32 Level; // 0x1C
+		::System::UInt32 Level; // 0x18
+		::System::UInt32 ScepterID; // 0x1C
 
 		::System::Void _ctor()
 		{

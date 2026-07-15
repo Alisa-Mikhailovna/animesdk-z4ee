@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT_METHOD_3_3D0374BD480C5984_OFFSET UNITYSDK_OFFSET(0x19EA0000)
-#define RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT_METHOD_3_72D11B0E42E6EF95_OFFSET UNITYSDK_OFFSET(0x19EA0080)
-#define RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x19EA0050)
+#define RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT_METHOD_3_72D11B0E42E6EF95_OFFSET UNITYSDK_OFFSET(0x1B748FA0)
+#define RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT_METHOD_3_B2FDA26161451908_OFFSET UNITYSDK_OFFSET(0x1B748F60)
+#define RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B748F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCurseChestPropInteract_TypeDefinitionIndex = 20878;
+	inline static constexpr unsigned int RogueCurseChestPropInteract_TypeDefinitionIndex = 21293;
 
 	class RogueCurseChestPropInteract : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3D0374BD480C5984(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCurseChestPropInteract*& a2)
+		static ::System::Void Method_3_B2FDA26161451908(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCurseChestPropInteract*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCurseChestPropInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT_METHOD_3_3D0374BD480C5984_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCurseChestPropInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECURSECHESTPROPINTERACT_METHOD_3_B2FDA26161451908_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_72D11B0E42E6EF95(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCurseChestPropInteract* a2)

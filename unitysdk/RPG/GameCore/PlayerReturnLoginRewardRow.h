@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A770080)
-#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A770230)
+#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6D2EB0)
+#define RPG_GAMECORE_PLAYERRETURNLOGINREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6D3060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnLoginRewardRow_TypeDefinitionIndex = 13802;
+	inline static constexpr unsigned int PlayerReturnLoginRewardRow_TypeDefinitionIndex = 13950;
 
 	class PlayerReturnLoginRewardRow : public ::System::Object
 	{

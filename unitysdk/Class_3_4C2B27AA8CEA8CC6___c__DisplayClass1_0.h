@@ -6,16 +6,16 @@ class Class_3_4C2B27AA8CEA8CC6;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropSpecialVisionConfig; }
 
-#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146172F0)
-#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x14617900)
+#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFFBFE0)
+#define CLASS_3_4C2B27AA8CEA8CC6___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBFFC600)
 
-inline static constexpr unsigned int Class_3_4C2B27AA8CEA8CC6___c__DisplayClass1_0_TypeDefinitionIndex = 54723;
+inline static constexpr unsigned int Class_3_4C2B27AA8CEA8CC6___c__DisplayClass1_0_TypeDefinitionIndex = 55948;
 
 class Class_3_4C2B27AA8CEA8CC6___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::Class_3_4C2B27AA8CEA8CC6* __4__this; // 0x10
-	::RPG::GameCore::PropSpecialVisionConfig* config; // 0x18
+	::RPG::GameCore::PropSpecialVisionConfig* config; // 0x10
+	::Class_3_4C2B27AA8CEA8CC6* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

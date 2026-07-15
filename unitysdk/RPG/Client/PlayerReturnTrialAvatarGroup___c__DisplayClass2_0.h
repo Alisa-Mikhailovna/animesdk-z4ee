@@ -5,12 +5,12 @@
 class Class_1_9E840E2FFD45BB99;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x161EEB00)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS2_0__GETTRIALAVATARLIST_B__0_OFFSET UNITYSDK_OFFSET(0x161EED60)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B08C0)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS2_0__GETTRIALAVATARLIST_B__0_OFFSET UNITYSDK_OFFSET(0xD0B0B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerReturnTrialAvatarGroup___c__DisplayClass2_0_TypeDefinitionIndex = 57874;
+	inline static constexpr unsigned int PlayerReturnTrialAvatarGroup___c__DisplayClass2_0_TypeDefinitionIndex = 59140;
 
 	class PlayerReturnTrialAvatarGroup___c__DisplayClass2_0 : public ::System::Object
 	{

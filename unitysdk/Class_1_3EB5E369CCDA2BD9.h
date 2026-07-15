@@ -8,11 +8,11 @@ namespace RPG::Client { class ScheduleTask; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_3EB5E369CCDA2BD9_METHOD_1_1C29ED114451234A_1_OFFSET UNITYSDK_OFFSET(0x15529AD0)
-#define CLASS_1_3EB5E369CCDA2BD9_METHOD_1_1C29ED114451234A_OFFSET UNITYSDK_OFFSET(0x155297D0)
-#define CLASS_1_3EB5E369CCDA2BD9__CTOR_OFFSET UNITYSDK_OFFSET(0x13F10090)
+#define CLASS_1_3EB5E369CCDA2BD9_METHOD_1_1C29ED114451234A_1_OFFSET UNITYSDK_OFFSET(0xBA13BB0)
+#define CLASS_1_3EB5E369CCDA2BD9_METHOD_1_1C29ED114451234A_OFFSET UNITYSDK_OFFSET(0xBA138A0)
+#define CLASS_1_3EB5E369CCDA2BD9__CTOR_OFFSET UNITYSDK_OFFSET(0xBA13EC0)
 
-inline static constexpr unsigned int Class_1_3EB5E369CCDA2BD9_TypeDefinitionIndex = 58391;
+inline static constexpr unsigned int Class_1_3EB5E369CCDA2BD9_TypeDefinitionIndex = 59653;
 
 class Class_1_3EB5E369CCDA2BD9 : public ::System::Object
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/Enum_3_DFCB42601400F441.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MULTIPATHAVATARSETTYPENOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x169C6880)
+#define RPG_CLIENT_MULTIPATHAVATARSETTYPENOTIFYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCDDA550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathAvatarSetTypeNotifyData_TypeDefinitionIndex = 61993;
+	inline static constexpr unsigned int MultiPathAvatarSetTypeNotifyData_TypeDefinitionIndex = 63358;
 
 	class MultiPathAvatarSetTypeNotifyData : public ::System::Object
 	{

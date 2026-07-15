@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_SWITCHBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16A353D0)
+#define MIHOYO_SDK_SWITCHBASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF5C00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SwitchBaseConfig_TypeDefinitionIndex = 7873;
+	inline static constexpr unsigned int SwitchBaseConfig_TypeDefinitionIndex = 7879;
 
 	class SwitchBaseConfig : public ::System::Object
 	{

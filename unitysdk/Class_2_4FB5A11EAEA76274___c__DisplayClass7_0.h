@@ -7,16 +7,16 @@ class Class_2_4FB5A11EAEA76274;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
-#define CLASS_2_4FB5A11EAEA76274___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x145DF3B0)
-#define CLASS_2_4FB5A11EAEA76274___C__DISPLAYCLASS7_0__RELOADEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0x145E0340)
+#define CLASS_2_4FB5A11EAEA76274___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBD73170)
+#define CLASS_2_4FB5A11EAEA76274___C__DISPLAYCLASS7_0__RELOADEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xBD74040)
 
-inline static constexpr unsigned int Class_2_4FB5A11EAEA76274___c__DisplayClass7_0_TypeDefinitionIndex = 50193;
+inline static constexpr unsigned int Class_2_4FB5A11EAEA76274___c__DisplayClass7_0_TypeDefinitionIndex = 51275;
 
 class Class_2_4FB5A11EAEA76274___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::Class_2_4FB5A11EAEA76274* __4__this; // 0x10
-	::RPG::GameCore::BaseModifierInstance_ModifierEffectData* data; // 0x18
+	::RPG::GameCore::BaseModifierInstance_ModifierEffectData* data; // 0x10
+	::Class_2_4FB5A11EAEA76274* __4__this; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -6,12 +6,12 @@
 namespace RPG::Client { class PayModule; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18C78B90)
-#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS39_0___DOPAY_B__0_OFFSET UNITYSDK_OFFSET(0x18C79920)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCF4B930)
+#define RPG_CLIENT_PAYMODULE___C__DISPLAYCLASS39_0___DOPAY_B__0_OFFSET UNITYSDK_OFFSET(0xCF4C540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PayModule___c__DisplayClass39_0_TypeDefinitionIndex = 62119;
+	inline static constexpr unsigned int PayModule___c__DisplayClass39_0_TypeDefinitionIndex = 63484;
 
 	class PayModule___c__DisplayClass39_0 : public ::System::Object
 	{

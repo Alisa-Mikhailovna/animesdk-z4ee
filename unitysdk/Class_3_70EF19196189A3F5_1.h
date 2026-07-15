@@ -6,11 +6,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransitEnvProfile; }
 
-#define CLASS_3_70EF19196189A3F5_1_METHOD_3_5C4548BA617DD291_OFFSET UNITYSDK_OFFSET(0x1588F410)
-#define CLASS_3_70EF19196189A3F5_1_METHOD_3_B6AA07D4FF70A6EC_OFFSET UNITYSDK_OFFSET(0x1588F460)
-#define CLASS_3_70EF19196189A3F5_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1588F400)
+#define CLASS_3_70EF19196189A3F5_1_METHOD_3_5C4548BA617DD291_OFFSET UNITYSDK_OFFSET(0xB477090)
+#define CLASS_3_70EF19196189A3F5_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB477080)
 
-inline static constexpr unsigned int Class_3_70EF19196189A3F5_1_TypeDefinitionIndex = 54905;
+inline static constexpr unsigned int Class_3_70EF19196189A3F5_1_TypeDefinitionIndex = 56137;
 
 class Class_3_70EF19196189A3F5_1 : public ::Class_2_514F769FE6FD8DD1
 {
@@ -23,10 +22,5 @@ public:
 	::RPG::GameCore::EnviromentControlPriority Method_3_5C4548BA617DD291()
 	{
 		return ((::RPG::GameCore::EnviromentControlPriority(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_70EF19196189A3F5_1_METHOD_3_5C4548BA617DD291_OFFSET))(this);
-	}
-
-	::RPG::GameCore::EnviromentControlPriority Method_3_B6AA07D4FF70A6EC()
-	{
-		return ((::RPG::GameCore::EnviromentControlPriority(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_70EF19196189A3F5_1_METHOD_3_B6AA07D4FF70A6EC_OFFSET))(this);
 	}
 };

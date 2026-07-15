@@ -5,18 +5,18 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x185559D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS26_0__GETAVATARSBYPOSTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x18559530)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB76E90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS26_0__GETAVATARSBYPOSTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xBB7B1E0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass26_0_TypeDefinitionIndex = 69968;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass26_0_TypeDefinitionIndex = 71491;
 
 	class IdleLiveBaseTeamInfo___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
-		::System::Boolean isExcludeNew; // 0x10
-		::RPG::GameCore::ILBattleCharacterLocation posType; // 0x14
+		::RPG::GameCore::ILBattleCharacterLocation posType; // 0x10
+		::System::Boolean isExcludeNew; // 0x14
 
 		::System::Void _ctor()
 		{

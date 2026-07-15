@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A0AC460)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1A0AC2F0)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1A0ABFE0)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1A0AC290)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1A0AC5F0)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A0AC060)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1A0AC630)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A0AC800)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1A0ACA10)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0ACD80)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1A0AC760)
-#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1A0AC6C0)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B3C6980)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B3C6810)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B3C6500)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B3C67B0)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B3C6B10)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3C6580)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3C6B50)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B3C6D20)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B3C6F30)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3C72A0)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B3C6C80)
+#define RPG_GAMECORE_DRINKMAKERLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B3C6BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerLevelExcelTable_TypeDefinitionIndex = 12543;
+	inline static constexpr unsigned int DrinkMakerLevelExcelTable_TypeDefinitionIndex = 12680;
 
 	class DrinkMakerLevelExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerLevelRow*>** StaticGet_dataDict_()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x14270);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x328C0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x14278);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x328C8);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerLevelRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x14280);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x7B00);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DrinkMakerLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x328D0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x7B01);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x87D0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x87D1);
 		}
 
 		static ::System::Void _cctor()

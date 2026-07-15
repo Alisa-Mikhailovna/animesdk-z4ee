@@ -7,21 +7,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FF4C60)
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x13FF4C20)
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x13FF4CE0)
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x13FF4C10)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE2230)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x19AE21F0)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AE22B0)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE21E0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ByteMemoryFormatter_TypeDefinitionIndex = 7327;
+	inline static constexpr unsigned int ByteMemoryFormatter_TypeDefinitionIndex = 7333;
 
 	class ByteMemoryFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::ByteMemoryFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::ByteMemoryFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteMemoryFormatter_TypeDefinitionIndex)->GetStaticField(0x8310);
+			return (::MessagePack::Formatters::ByteMemoryFormatter**)Il2CppClass::FromTypeDefinitionIndex(ByteMemoryFormatter_TypeDefinitionIndex)->GetStaticField(0xAF80);
 		}
 
 		::System::Void _ctor()

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_HEADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B18FDF0)
+#define UNITYENGINE_HEADERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D023E10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HeaderAttribute_TypeDefinitionIndex = 4224;
+	inline static constexpr unsigned int HeaderAttribute_TypeDefinitionIndex = 4229;
 
 	class HeaderAttribute : public ::UnityEngine::PropertyAttribute
 	{

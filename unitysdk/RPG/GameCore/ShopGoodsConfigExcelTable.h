@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19FF8D30)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19FF8BC0)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19FF8AE0)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19FF8B60)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19FF79F0)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19FF7A30)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19FF7C60)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19FF7E30)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19FF87C0)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FF8E80)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19FF7D90)
-#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19FF7CF0)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B8C41D0)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B8C4060)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B8C3F80)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B8C4000)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B8C2E90)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B8C2ED0)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B8C3100)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B8C32D0)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B8C3C60)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8C4320)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B8C3230)
+#define RPG_GAMECORE_SHOPGOODSCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B8C3190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopGoodsConfigExcelTable_TypeDefinitionIndex = 14375;
+	inline static constexpr unsigned int ShopGoodsConfigExcelTable_TypeDefinitionIndex = 14523;
 
 	class ShopGoodsConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x47F20);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopGoodsConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopGoodsConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x47F28);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ShopGoodsConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C620);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C628);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x47F30);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE4D0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x5C630);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xE4D1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x101F0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ShopGoodsConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x101F1);
 		}
 
 		static ::System::Void _cctor()

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_1ABCE0D9263E1497_OFFSET UNITYSDK_OFFSET(0x19B21A80)
-#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_57A964080140D912_OFFSET UNITYSDK_OFFSET(0x19B21CA0)
-#define RPG_GAMECORE_CREATESUMMONUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B21AC0)
+#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_1ABCE0D9263E1497_OFFSET UNITYSDK_OFFSET(0x1B38D730)
+#define RPG_GAMECORE_CREATESUMMONUNIT_METHOD_3_57A964080140D912_OFFSET UNITYSDK_OFFSET(0x1B38D930)
+#define RPG_GAMECORE_CREATESUMMONUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38D770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateSummonUnit_TypeDefinitionIndex = 19220;
+	inline static constexpr unsigned int CreateSummonUnit_TypeDefinitionIndex = 19576;
 
 	class CreateSummonUnit : public ::RPG::GameCore::TaskConfig
 	{

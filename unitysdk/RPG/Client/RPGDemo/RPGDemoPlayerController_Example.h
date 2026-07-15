@@ -5,12 +5,12 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17168AD0)
-#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17168C20)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD290410)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xD290560)
 
 namespace RPG::Client::RPGDemo
 {
-	inline static constexpr unsigned int RPGDemoPlayerController_Example_TypeDefinitionIndex = 70585;
+	inline static constexpr unsigned int RPGDemoPlayerController_Example_TypeDefinitionIndex = 72098;
 
 	class RPGDemoPlayerController_Example : public ::UnityEngine::MonoBehaviour
 	{

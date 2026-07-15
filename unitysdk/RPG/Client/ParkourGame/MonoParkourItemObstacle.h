@@ -6,14 +6,13 @@
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x18C59330)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x18C592B0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18C59340)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE___IFIXBASEPROXY_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0x18C59350)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xCF2BB50)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xCF2BAD0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCF2BB60)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourItemObstacle_TypeDefinitionIndex = 69224;
+	inline static constexpr unsigned int MonoParkourItemObstacle_TypeDefinitionIndex = 70745;
 
 	class MonoParkourItemObstacle : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
@@ -37,11 +36,6 @@ namespace RPG::Client::ParkourGame
 		::RPG::Client::ParkourGame::ItemType get_ItemType()
 		{
 			return ((::RPG::Client::ParkourGame::ItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_GET_ITEMTYPE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnTriggered(::RPG::Client::ParkourGame::MonoParkourCharacter* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ParkourGame::MonoParkourCharacter*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE___IFIXBASEPROXY_ONTRIGGERED_OFFSET))(this, a1);
 		}
 	};
 }

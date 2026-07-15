@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ComplexSkillAIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLEXTENSIONCOMPLEXSKILLAICONFIG_METHOD_2_C5289D3817CBD0C3_OFFSET UNITYSDK_OFFSET(0x1A015450)
-#define RPG_GAMECORE_SKILLEXTENSIONCOMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A015640)
+#define RPG_GAMECORE_SKILLEXTENSIONCOMPLEXSKILLAICONFIG_METHOD_2_C5289D3817CBD0C3_OFFSET UNITYSDK_OFFSET(0x1B8DE9F0)
+#define RPG_GAMECORE_SKILLEXTENSIONCOMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DEBE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillExtensionComplexSkillAIConfig_TypeDefinitionIndex = 14801;
+	inline static constexpr unsigned int SkillExtensionComplexSkillAIConfig_TypeDefinitionIndex = 14963;
 
 	class SkillExtensionComplexSkillAIConfig : public ::RPG::GameCore::JsonConfig
 	{

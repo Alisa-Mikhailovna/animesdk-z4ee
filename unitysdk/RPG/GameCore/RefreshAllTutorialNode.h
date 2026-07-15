@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_REFRESHALLTUTORIALNODE_METHOD_3_2ED74DD05038CA6B_OFFSET UNITYSDK_OFFSET(0x19AB3850)
-#define RPG_GAMECORE_REFRESHALLTUTORIALNODE_METHOD_3_DC86820D1181BBDF_OFFSET UNITYSDK_OFFSET(0x19AB3960)
-#define RPG_GAMECORE_REFRESHALLTUTORIALNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB3930)
+#define RPG_GAMECORE_REFRESHALLTUTORIALNODE_METHOD_3_2EBA8D2B2BE65F22_OFFSET UNITYSDK_OFFSET(0x1B70D2B0)
+#define RPG_GAMECORE_REFRESHALLTUTORIALNODE_METHOD_3_DC86820D1181BBDF_OFFSET UNITYSDK_OFFSET(0x1B70D380)
+#define RPG_GAMECORE_REFRESHALLTUTORIALNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70D370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RefreshAllTutorialNode_TypeDefinitionIndex = 23003;
+	inline static constexpr unsigned int RefreshAllTutorialNode_TypeDefinitionIndex = 23470;
 
 	class RefreshAllTutorialNode : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHALLTUTORIALNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2ED74DD05038CA6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshAllTutorialNode*& a2)
+		static ::System::Void Method_3_2EBA8D2B2BE65F22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshAllTutorialNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshAllTutorialNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHALLTUTORIALNODE_METHOD_3_2ED74DD05038CA6B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshAllTutorialNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHALLTUTORIALNODE_METHOD_3_2EBA8D2B2BE65F22_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DC86820D1181BBDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshAllTutorialNode* a2)

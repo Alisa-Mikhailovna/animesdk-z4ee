@@ -12,26 +12,26 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__PROCESSAUTHENTICATION_D__47_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3868EC0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__PROCESSAUTHENTICATION_D__47_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x3750890)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__PROCESSAUTHENTICATION_D__47_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3A14510)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__PROCESSAUTHENTICATION_D__47_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2D0EBD0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int MobileAuthenticatedStream__ProcessAuthentication_d__47_TypeDefinitionIndex = 2427;
+	inline static constexpr unsigned int MobileAuthenticatedStream__ProcessAuthentication_d__47_TypeDefinitionIndex = 2431;
 
 	struct alignas(8) MobileAuthenticatedStream__ProcessAuthentication_d__47
 	{
-		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates; // 0x10
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*> __u__1; // 0x18
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x28
-		::System::String* targetHost; // 0x40
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder; // 0x10
+		::System::String* targetHost; // 0x28
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::Mono::Net::Security::AsyncProtocolResult*> __u__1; // 0x30
+		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates; // 0x40
 		::Mono::Net::Security::MobileAuthenticatedStream* __4__this; // 0x48
 		::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate; // 0x50
 		::System::Security::Authentication::SslProtocols enabledProtocols; // 0x58
-		::System::Int32 __1__state; // 0x5C
-		::System::Boolean serverMode; // 0x60
-		::System::Boolean runSynchronously; // 0x61
-		::System::Boolean clientCertRequired; // 0x62
+		::System::Boolean runSynchronously; // 0x5C
+		::System::Boolean clientCertRequired; // 0x5D
+		::System::Boolean serverMode; // 0x5E
+		::System::Int32 __1__state; // 0x60
 
 		::System::Void MoveNext()
 		{

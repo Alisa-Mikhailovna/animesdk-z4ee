@@ -6,14 +6,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropEventInBattle; }
 namespace System { class Object; }
 
-#define CLASS_3_BAF8A020BC857ED2_METHOD_3_F69068FADEFBD596_OFFSET UNITYSDK_OFFSET(0x12D0B5A0)
-#define CLASS_3_BAF8A020BC857ED2__CTOR_OFFSET UNITYSDK_OFFSET(0x12D0B3D0)
-#define CLASS_3_BAF8A020BC857ED2__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x12D0B710)
-#define CLASS_3_BAF8A020BC857ED2__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x12D0B7D0)
-#define CLASS_3_BAF8A020BC857ED2___IFIXBASEPROXY__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x12D0B890)
-#define CLASS_3_BAF8A020BC857ED2___IFIXBASEPROXY__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x12D0B8A0)
+#define CLASS_3_BAF8A020BC857ED2_METHOD_3_0A604A5B360F30A7_OFFSET UNITYSDK_OFFSET(0x15668DB0)
+#define CLASS_3_BAF8A020BC857ED2__CTOR_OFFSET UNITYSDK_OFFSET(0x15668BE0)
+#define CLASS_3_BAF8A020BC857ED2__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15668EB0)
+#define CLASS_3_BAF8A020BC857ED2__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15668F70)
 
-inline static constexpr unsigned int Class_3_BAF8A020BC857ED2_TypeDefinitionIndex = 49982;
+inline static constexpr unsigned int Class_3_BAF8A020BC857ED2_TypeDefinitionIndex = 51059;
 
 class Class_3_BAF8A020BC857ED2 : public ::RPG::GameCore::AdvWaitingTaskBase_1<::RPG::GameCore::WaitPropEventInBattle*>
 {
@@ -25,9 +23,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitPropEventInBattle*))((::PBYTE)hIl2Cpp + CLASS_3_BAF8A020BC857ED2__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_3_F69068FADEFBD596(::System::Object* a1)
+	::System::Void Method_3_0A604A5B360F30A7(::System::Object* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_BAF8A020BC857ED2_METHOD_3_F69068FADEFBD596_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_3_BAF8A020BC857ED2_METHOD_3_0A604A5B360F30A7_OFFSET))(this, a1);
 	}
 
 	::System::Void _RegisterEventCallback()
@@ -38,15 +36,5 @@ public:
 	::System::Void _UnregisterEventCallback()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BAF8A020BC857ED2__UNREGISTEREVENTCALLBACK_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy__RegisterEventCallback()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BAF8A020BC857ED2___IFIXBASEPROXY__REGISTEREVENTCALLBACK_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy__UnregisterEventCallback()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BAF8A020BC857ED2___IFIXBASEPROXY__UNREGISTEREVENTCALLBACK_OFFSET))(this);
 	}
 };

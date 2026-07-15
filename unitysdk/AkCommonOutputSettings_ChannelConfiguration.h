@@ -6,10 +6,10 @@
 
 class AkChannelConfig;
 
-#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_COPYTO_OFFSET UNITYSDK_OFFSET(0x19DD8330)
-#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19DC4490)
+#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1D1B3170)
+#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D19F190)
 
-inline static constexpr unsigned int AkCommonOutputSettings_ChannelConfiguration_TypeDefinitionIndex = 41216;
+inline static constexpr unsigned int AkCommonOutputSettings_ChannelConfiguration_TypeDefinitionIndex = 42031;
 
 class AkCommonOutputSettings_ChannelConfiguration : public ::System::Object
 {

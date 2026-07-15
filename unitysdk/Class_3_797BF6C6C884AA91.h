@@ -6,11 +6,11 @@ namespace RPG::Client { class QuestData; }
 namespace RPG::GameCore { class ScalePropByCollectionProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_797BF6C6C884AA91_METHOD_3_FD242BC37E556A97_OFFSET UNITYSDK_OFFSET(0x1444F030)
-#define CLASS_3_797BF6C6C884AA91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1444EDA0)
-#define CLASS_3_797BF6C6C884AA91__CTOR_OFFSET UNITYSDK_OFFSET(0x1444ED70)
+#define CLASS_3_797BF6C6C884AA91_METHOD_3_47E3E5CC24595F74_OFFSET UNITYSDK_OFFSET(0x152F9910)
+#define CLASS_3_797BF6C6C884AA91_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152F9680)
+#define CLASS_3_797BF6C6C884AA91__CTOR_OFFSET UNITYSDK_OFFSET(0x152F9650)
 
-inline static constexpr unsigned int Class_3_797BF6C6C884AA91_TypeDefinitionIndex = 54656;
+inline static constexpr unsigned int Class_3_797BF6C6C884AA91_TypeDefinitionIndex = 55881;
 
 class Class_3_797BF6C6C884AA91 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ScalePropByCollectionProgress*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_797BF6C6C884AA91_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::RPG::Client::QuestData* Method_3_FD242BC37E556A97()
+	::RPG::Client::QuestData* Method_3_47E3E5CC24595F74()
 	{
-		return ((::RPG::Client::QuestData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_797BF6C6C884AA91_METHOD_3_FD242BC37E556A97_OFFSET))(this);
+		return ((::RPG::Client::QuestData*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_797BF6C6C884AA91_METHOD_3_47E3E5CC24595F74_OFFSET))(this);
 	}
 };

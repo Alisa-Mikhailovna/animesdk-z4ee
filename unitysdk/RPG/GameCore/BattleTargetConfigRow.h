@@ -9,32 +9,32 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195D7260)
-#define RPG_GAMECORE_BATTLETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195D7CF0)
+#define RPG_GAMECORE_BATTLETARGETCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B206410)
+#define RPG_GAMECORE_BATTLETARGETCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B206EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetConfigRow_TypeDefinitionIndex = 12231;
+	inline static constexpr unsigned int BattleTargetConfigRow_TypeDefinitionIndex = 12365;
 
 	class BattleTargetConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* HintStep; // 0x10
+		::Il2CppArray<::System::UInt32>* MultiTarget; // 0x10
 		::Il2CppArray<::RPG::GameCore::BattleTargetIconType>* MultiTargetIconType; // 0x18
-		::System::String* AbilityName; // 0x20
-		::Il2CppArray<::System::UInt32>* MultiTarget; // 0x28
-		::System::UInt32 IconNum; // 0x30
-		::RPG::GameCore::ParamType ParamType; // 0x34
-		::System::Boolean IsFixableHeight; // 0x38
-		::System::Boolean ShowInScoreCounter; // 0x39
-		::System::Boolean SkipWhenSuccessOnEnterBattle; // 0x3A
-		::System::UInt32 IsShowProgress; // 0x3C
-		::RPG::Client::TextID TargetNameSimple; // 0x40
-		::RPG::Client::TextID TargetName; // 0x50
-		::System::UInt32 ID; // 0x60
-		::RPG::GameCore::BattleTargetIconType IconType; // 0x64
-		::System::UInt32 TargetParam; // 0x68
-		::RPG::GameCore::BattleTargetConfigType Type; // 0x6C
+		::Il2CppArray<::System::UInt32>* HintStep; // 0x20
+		::System::String* AbilityName; // 0x28
+		::RPG::Client::TextID TargetName; // 0x30
+		::RPG::GameCore::ParamType ParamType; // 0x40
+		::System::UInt32 ID; // 0x44
+		::RPG::GameCore::BattleTargetIconType IconType; // 0x48
+		::System::UInt32 IsShowProgress; // 0x4C
+		::System::Boolean ShowInScoreCounter; // 0x50
+		::System::Boolean SkipWhenSuccessOnEnterBattle; // 0x51
+		::System::Boolean IsFixableHeight; // 0x52
+		::System::UInt32 IconNum; // 0x54
+		::RPG::GameCore::BattleTargetConfigType Type; // 0x58
+		::System::UInt32 TargetParam; // 0x5C
+		::RPG::Client::TextID TargetNameSimple; // 0x60
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A2C440)
-#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A2C6A0)
+#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9856F0)
+#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B985950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyWorkingBuffConfigRow_TypeDefinitionIndex = 14555;
+	inline static constexpr unsigned int TrainPartyWorkingBuffConfigRow_TypeDefinitionIndex = 14713;
 
 	class TrainPartyWorkingBuffConfigRow : public ::System::Object
 	{

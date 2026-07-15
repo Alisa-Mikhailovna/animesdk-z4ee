@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_COMPAREPROPSTATE_METHOD_3_244AF7C281CD090C_OFFSET UNITYSDK_OFFSET(0x1A324430)
-#define RPG_GAMECORE_COMPAREPROPSTATE_METHOD_3_D4710D65282ACD8C_OFFSET UNITYSDK_OFFSET(0x1A3244C0)
-#define RPG_GAMECORE_COMPAREPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A324490)
+#define RPG_GAMECORE_COMPAREPROPSTATE_METHOD_3_23C1494132A12510_OFFSET UNITYSDK_OFFSET(0x1B3737B0)
+#define RPG_GAMECORE_COMPAREPROPSTATE_METHOD_3_D4710D65282ACD8C_OFFSET UNITYSDK_OFFSET(0x1B373800)
+#define RPG_GAMECORE_COMPAREPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3737F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComparePropState_TypeDefinitionIndex = 20402;
+	inline static constexpr unsigned int ComparePropState_TypeDefinitionIndex = 20817;
 
 	class ComparePropState : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPAREPROPSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_244AF7C281CD090C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComparePropState*& a2)
+		static ::System::Void Method_3_23C1494132A12510(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComparePropState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComparePropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPAREPROPSTATE_METHOD_3_244AF7C281CD090C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComparePropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPAREPROPSTATE_METHOD_3_23C1494132A12510_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D4710D65282ACD8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComparePropState* a2)

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTVALUECOMMONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B136B0)
-#define RPG_GAMECORE_CONSTVALUECOMMONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B13D20)
+#define RPG_GAMECORE_CONSTVALUECOMMONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B37FC00)
+#define RPG_GAMECORE_CONSTVALUECOMMONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B380280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstValueCommonRow_TypeDefinitionIndex = 12455;
+	inline static constexpr unsigned int ConstValueCommonRow_TypeDefinitionIndex = 12592;
 
 	class ConstValueCommonRow : public ::System::Object
 	{

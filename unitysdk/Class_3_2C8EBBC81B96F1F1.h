@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetLocalPlayerDitherAlpha; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2C8EBBC81B96F1F1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17781680)
-#define CLASS_3_2C8EBBC81B96F1F1__CTOR_OFFSET UNITYSDK_OFFSET(0x17781650)
+#define CLASS_3_2C8EBBC81B96F1F1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14CC4F70)
+#define CLASS_3_2C8EBBC81B96F1F1__CTOR_OFFSET UNITYSDK_OFFSET(0x14CC4F40)
 
-inline static constexpr unsigned int Class_3_2C8EBBC81B96F1F1_TypeDefinitionIndex = 54703;
+inline static constexpr unsigned int Class_3_2C8EBBC81B96F1F1_TypeDefinitionIndex = 55928;
 
 class Class_3_2C8EBBC81B96F1F1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetLocalPlayerDitherAlpha*>
 {

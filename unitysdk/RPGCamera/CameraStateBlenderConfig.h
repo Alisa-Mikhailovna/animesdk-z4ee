@@ -8,25 +8,25 @@
 namespace RPGCamera { class CameraStateBlenderConfig_BlenderConfigParam; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_ADDCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x19BAFF60)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFGBYPARAM_OFFSET UNITYSDK_OFFSET(0x19BB0110)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFG_OFFSET UNITYSDK_OFFSET(0x19BAFEE0)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_GETCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0x19BAFA30)
-#define RPGCAMERA_CAMERASTATEBLENDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BAFF50)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_ADDCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0xAB97AB0)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFGBYPARAM_OFFSET UNITYSDK_OFFSET(0xAB97C60)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_CREATEBLENDERCFG_OFFSET UNITYSDK_OFFSET(0xAB97A30)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG_GETCAMERASTATEBLENDERCONFIG_OFFSET UNITYSDK_OFFSET(0xAB974A0)
+#define RPGCAMERA_CAMERASTATEBLENDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xAB97AA0)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateBlenderConfig_TypeDefinitionIndex = 41753;
+	inline static constexpr unsigned int CameraStateBlenderConfig_TypeDefinitionIndex = 42614;
 
 	class CameraStateBlenderConfig : public ::System::Object
 	{
 	public:
 		::System::Single duration; // 0x10
-		::RPGCamera::CameraStateBlenderConfig_PoleType poleType; // 0x14
+		::EasingFunction_Ease easeType; // 0x14
 		::System::Int32 fromId; // 0x18
-		::EasingFunction_Ease easeType; // 0x1C
-		::System::Int32 toId; // 0x20
-		::RPGCamera::CameraStateBlenderConfig_BlendType blendType; // 0x24
+		::System::Int32 toId; // 0x1C
+		::RPGCamera::CameraStateBlenderConfig_BlendType blendType; // 0x20
+		::RPGCamera::CameraStateBlenderConfig_PoleType poleType; // 0x24
 
 		::System::Void _ctor()
 		{

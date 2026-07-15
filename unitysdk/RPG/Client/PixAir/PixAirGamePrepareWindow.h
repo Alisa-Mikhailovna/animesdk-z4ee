@@ -9,25 +9,23 @@ namespace RPG::Client::PixAir { class PixAirGameProgressControl; }
 namespace RPG::Client::PixAir { class PixAirPrepareContentControl; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1994B5B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1994AE70)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1994B140)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1994AF20)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1994B680)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1994B620)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCFC5B60)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xCFC53F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCFC56F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCFC54D0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGamePrepareWindow_TypeDefinitionIndex = 73555;
+	inline static constexpr unsigned int PixAirGamePrepareWindow_TypeDefinitionIndex = 75204;
 
 	class PixAirGamePrepareWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
 		::UnityEngine::UI::Button* _BtnClose; // 0x40
 		::RPG::Client::PixAir::PixAirGameProgressControl* _ProgressControl; // 0x48
-		::UnityEngine::UI::Button* _BtnSwitch; // 0x50
-		::RPG::Client::PixAir::PixAirGameEquipListControl* _EquipListControl; // 0x58
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x60
+		::RPG::Client::PixAir::PixAirGameEquipListControl* _EquipListControl; // 0x50
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x58
+		::UnityEngine::UI::Button* _BtnSwitch; // 0x60
 		::RPG::Client::PixAir::PixAirPrepareContentControl* _ContentControl; // 0x68
 
 		::System::Void _ctor(::RPG::Client::PixAir::PixAirGamePrepareViewModel* a1, ::Class_1_5F4D64A4B97E38F9* a2)
@@ -48,16 +46,6 @@ namespace RPG::Client::PixAir
 		::RPG::Client::PixAir::PixAirGamePrepareViewModel* get__ViewModel()
 		{
 			return ((::RPG::Client::PixAir::PixAirGamePrepareViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW_GET__VIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__OnInitializeComponent()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__OnBindViewModel()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET))(this);
 		}
 	};
 }

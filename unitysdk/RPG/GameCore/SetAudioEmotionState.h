@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETAUDIOEMOTIONSTATE_METHOD_3_4EF1C3C3C503D216_OFFSET UNITYSDK_OFFSET(0x1A1E3E00)
-#define RPG_GAMECORE_SETAUDIOEMOTIONSTATE_METHOD_3_D43243ED791EA3C7_OFFSET UNITYSDK_OFFSET(0x1A1E3E80)
-#define RPG_GAMECORE_SETAUDIOEMOTIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E3E50)
+#define RPG_GAMECORE_SETAUDIOEMOTIONSTATE_METHOD_3_36F85EA0EE3A373A_OFFSET UNITYSDK_OFFSET(0x1B885B80)
+#define RPG_GAMECORE_SETAUDIOEMOTIONSTATE_METHOD_3_D43243ED791EA3C7_OFFSET UNITYSDK_OFFSET(0x1B885BC0)
+#define RPG_GAMECORE_SETAUDIOEMOTIONSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B885BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAudioEmotionState_TypeDefinitionIndex = 19606;
+	inline static constexpr unsigned int SetAudioEmotionState_TypeDefinitionIndex = 19965;
 
 	class SetAudioEmotionState : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAUDIOEMOTIONSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4EF1C3C3C503D216(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAudioEmotionState*& a2)
+		static ::System::Void Method_3_36F85EA0EE3A373A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAudioEmotionState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAudioEmotionState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAUDIOEMOTIONSTATE_METHOD_3_4EF1C3C3C503D216_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAudioEmotionState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAUDIOEMOTIONSTATE_METHOD_3_36F85EA0EE3A373A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D43243ED791EA3C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAudioEmotionState* a2)

@@ -7,11 +7,11 @@ namespace RPGTools::Timeline { class AnimatorParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_FCVSIMULATIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C320F0)
+#define RPGTOOLS_TIMELINE_FCVSIMULATIONPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xDCDBC10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FCVSimulationParam_TypeDefinitionIndex = 45417;
+	inline static constexpr unsigned int FCVSimulationParam_TypeDefinitionIndex = 46346;
 
 	class FCVSimulationParam : public ::System::Object
 	{

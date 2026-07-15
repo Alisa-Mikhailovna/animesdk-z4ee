@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x158BD670)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_QUERYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2BBD80)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int QueryExpression_TypeDefinitionIndex = 9457;
+	inline static constexpr unsigned int QueryExpression_TypeDefinitionIndex = 9469;
 
 	class QueryExpression : public ::System::Object
 	{

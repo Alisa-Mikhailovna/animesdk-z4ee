@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseLittleGameAbilityTaskConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYCONFIG_METHOD_2_C7B4F09768F2445E_OFFSET UNITYSDK_OFFSET(0x1A11E7A0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11E890)
+#define RPG_GAMECORE_LITTLEGAMEABILITYCONFIG_METHOD_2_C7B4F09768F2445E_OFFSET UNITYSDK_OFFSET(0x1B57CE50)
+#define RPG_GAMECORE_LITTLEGAMEABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B57CF40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityConfig_TypeDefinitionIndex = 20221;
+	inline static constexpr unsigned int LittleGameAbilityConfig_TypeDefinitionIndex = 20595;
 
 	class LittleGameAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{

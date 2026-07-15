@@ -14,23 +14,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 
-#define CLASS_1_C3442CFB67797449_METHOD_1_4DA75A84B4031672_OFFSET UNITYSDK_OFFSET(0x15161F60)
-#define CLASS_1_C3442CFB67797449_METHOD_1_53BE96F98780AE85_OFFSET UNITYSDK_OFFSET(0x15161E50)
-#define CLASS_1_C3442CFB67797449_METHOD_1_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0x151615C0)
-#define CLASS_1_C3442CFB67797449_METHOD_1_783225B2A0229A54_OFFSET UNITYSDK_OFFSET(0x15161980)
-#define CLASS_1_C3442CFB67797449_METHOD_1_B679E9E5B94C6DE8_OFFSET UNITYSDK_OFFSET(0x15162080)
-#define CLASS_1_C3442CFB67797449_METHOD_1_CC220716308E7D40_OFFSET UNITYSDK_OFFSET(0x15161BB0)
-#define CLASS_1_C3442CFB67797449_METHOD_1_F00B760D9C546ACF_OFFSET UNITYSDK_OFFSET(0x15161890)
-#define CLASS_1_C3442CFB67797449__CTOR_OFFSET UNITYSDK_OFFSET(0x15160AE0)
+#define CLASS_1_C3442CFB67797449_METHOD_1_4DA75A84B4031672_OFFSET UNITYSDK_OFFSET(0xB680920)
+#define CLASS_1_C3442CFB67797449_METHOD_1_53BE96F98780AE85_OFFSET UNITYSDK_OFFSET(0xB680800)
+#define CLASS_1_C3442CFB67797449_METHOD_1_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0xB67FF70)
+#define CLASS_1_C3442CFB67797449_METHOD_1_783225B2A0229A54_OFFSET UNITYSDK_OFFSET(0xB680330)
+#define CLASS_1_C3442CFB67797449_METHOD_1_B679E9E5B94C6DE8_OFFSET UNITYSDK_OFFSET(0xB680A40)
+#define CLASS_1_C3442CFB67797449_METHOD_1_CC220716308E7D40_OFFSET UNITYSDK_OFFSET(0xB680560)
+#define CLASS_1_C3442CFB67797449_METHOD_1_F00B760D9C546ACF_OFFSET UNITYSDK_OFFSET(0xB680240)
+#define CLASS_1_C3442CFB67797449__CTOR_OFFSET UNITYSDK_OFFSET(0xB67F480)
 
-inline static constexpr unsigned int Class_1_C3442CFB67797449_TypeDefinitionIndex = 68661;
+inline static constexpr unsigned int Class_1_C3442CFB67797449_TypeDefinitionIndex = 70159;
 
 class Class_1_C3442CFB67797449 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_C3442CFB67797449_TypeDefinitionIndex)->GetStaticField(0x87A0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_C3442CFB67797449_TypeDefinitionIndex)->GetStaticField(0xED0);
 	}
 	::Class_1_913398509518AE8D* Field_1_1; // 0x10
 	::RPG::Client::MonoEmoPlayableGraph* Field_1_2; // 0x18
@@ -40,12 +40,12 @@ public:
 	::RPG::Client::Emotion::EmoPartType Field_1_6; // 0x38
 	::System::Boolean Field_1_7; // 0x3C
 	::System::Boolean Field_1_8; // 0x3D
-	::UnityEngine::Animations::AnimationClipPlayable Field_1_9; // 0x40
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_10; // 0x50
-	::UnityEngine::Animations::AnimationLayerMixerPlayable Field_1_11; // 0x60
-	::UnityEngine::Animations::AnimationMixerPlayable Field_1_12; // 0x70
+	::UnityEngine::Animations::AnimationMixerPlayable Field_1_9; // 0x40
+	::UnityEngine::Animations::AnimationClipPlayable Field_1_10; // 0x50
+	::UnityEngine::Animations::AnimationClipPlayable Field_1_11; // 0x60
+	::UnityEngine::Animations::AnimationLayerMixerPlayable Field_1_12; // 0x70
 	::UnityEngine::Animations::AnimationMixerPlayable Field_1_13; // 0x80
-	::UnityEngine::Animations::AnimationClipPlayable Field_1_14; // 0x90
+	::UnityEngine::Animations::AnimationMixerPlayable Field_1_14; // 0x90
 	::UnityEngine::Animations::AnimationMixerPlayable Field_1_15; // 0xA0
 
 	::System::Void _ctor(::UnityEngine::Playables::PlayableGraph& a1, ::RPG::Client::Emotion::EmoPartType a2, ::RPG::Client::MonoEmoPlayableGraph* a3, ::UnityEngine::AvatarMask* a4, ::UnityEngine::AnimationClip* a5)

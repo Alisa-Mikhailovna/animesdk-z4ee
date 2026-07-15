@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE_METHOD_3_80EEA91EA1AC25F7_OFFSET UNITYSDK_OFFSET(0x1A1E4740)
-#define RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE_METHOD_3_8438FE30B97B73AF_OFFSET UNITYSDK_OFFSET(0x1A1E4620)
-#define RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E46C0)
+#define RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE_METHOD_3_80EEA91EA1AC25F7_OFFSET UNITYSDK_OFFSET(0x1B8863B0)
+#define RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE_METHOD_3_AE7199800A5F3AC6_OFFSET UNITYSDK_OFFSET(0x1B8862B0)
+#define RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B886340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAvatarGlobalBuffState_TypeDefinitionIndex = 21498;
+	inline static constexpr unsigned int SetAvatarGlobalBuffState_TypeDefinitionIndex = 21919;
 
 	class SetAvatarGlobalBuffState : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8438FE30B97B73AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAvatarGlobalBuffState*& a2)
+		static ::System::Void Method_3_AE7199800A5F3AC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAvatarGlobalBuffState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAvatarGlobalBuffState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE_METHOD_3_8438FE30B97B73AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAvatarGlobalBuffState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAVATARGLOBALBUFFSTATE_METHOD_3_AE7199800A5F3AC6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_80EEA91EA1AC25F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAvatarGlobalBuffState* a2)

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWBATTLEUI_METHOD_3_623E72097950A971_OFFSET UNITYSDK_OFFSET(0x19FFD310)
-#define RPG_GAMECORE_SHOWBATTLEUI_METHOD_3_F3396D9868AF6EA8_OFFSET UNITYSDK_OFFSET(0x19FFD3A0)
-#define RPG_GAMECORE_SHOWBATTLEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19FFD370)
+#define RPG_GAMECORE_SHOWBATTLEUI_METHOD_3_F3396D9868AF6EA8_OFFSET UNITYSDK_OFFSET(0x1B8C8540)
+#define RPG_GAMECORE_SHOWBATTLEUI_METHOD_3_F5E2FC103D9BB35D_OFFSET UNITYSDK_OFFSET(0x1B8C84F0)
+#define RPG_GAMECORE_SHOWBATTLEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C8530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleUI_TypeDefinitionIndex = 21275;
+	inline static constexpr unsigned int ShowBattleUI_TypeDefinitionIndex = 21690;
 
 	class ShowBattleUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_623E72097950A971(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUI*& a2)
+		static ::System::Void Method_3_F5E2FC103D9BB35D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUI_METHOD_3_623E72097950A971_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUI_METHOD_3_F5E2FC103D9BB35D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F3396D9868AF6EA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUI* a2)

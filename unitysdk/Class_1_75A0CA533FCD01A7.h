@@ -9,24 +9,24 @@ namespace RPG::AvatarSystem::Property { template <typename T> class PropertyCalc
 namespace RPG::AvatarSystem::Property { template <typename T> class PropertyContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_8B4B3FEAD1B0C4A6_OFFSET UNITYSDK_OFFSET(0x15891180)
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_91C3FC3C50F091F5_OFFSET UNITYSDK_OFFSET(0x15890BB0)
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_9F37E7CBD89B0F24_OFFSET UNITYSDK_OFFSET(0x15890D40)
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_A1C2D6698935310A_OFFSET UNITYSDK_OFFSET(0x158910E0)
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_A32BC614239DEC12_OFFSET UNITYSDK_OFFSET(0x15890FC0)
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_A3F0D11AD82C6BF7_OFFSET UNITYSDK_OFFSET(0x158909F0)
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x15890EE0)
-#define CLASS_1_75A0CA533FCD01A7_METHOD_1_C5F2E178DAEB1793_OFFSET UNITYSDK_OFFSET(0x158908C0)
-#define CLASS_1_75A0CA533FCD01A7__CTOR_OFFSET UNITYSDK_OFFSET(0x15890860)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_8B4B3FEAD1B0C4A6_OFFSET UNITYSDK_OFFSET(0xB478D80)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_91C3FC3C50F091F5_OFFSET UNITYSDK_OFFSET(0xB478830)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_A1C2D6698935310A_OFFSET UNITYSDK_OFFSET(0xB478CE0)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_A32BC614239DEC12_OFFSET UNITYSDK_OFFSET(0xB478BC0)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_A3F0D11AD82C6BF7_OFFSET UNITYSDK_OFFSET(0xB478670)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0xB478AE0)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_C5F2E178DAEB1793_OFFSET UNITYSDK_OFFSET(0xB478540)
+#define CLASS_1_75A0CA533FCD01A7_METHOD_1_E626A3FA3A7A0B04_OFFSET UNITYSDK_OFFSET(0xB4789C0)
+#define CLASS_1_75A0CA533FCD01A7__CTOR_OFFSET UNITYSDK_OFFSET(0xB4784E0)
 
-inline static constexpr unsigned int Class_1_75A0CA533FCD01A7_TypeDefinitionIndex = 69997;
+inline static constexpr unsigned int Class_1_75A0CA533FCD01A7_TypeDefinitionIndex = 71520;
 
 class Class_1_75A0CA533FCD01A7 : public ::System::Object
 {
 public:
-	::RPG::AvatarSystem::Property::PropertyContext_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* Field_1_0; // 0x10
 	::RPG::AvatarSystem::Property::PropertyCalculator_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* Field_1_2; // 0x20
+	::RPG::AvatarSystem::Property::PropertyContext_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -43,9 +43,9 @@ public:
 		return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID, ::RPG::GameCore::IdleLiveAvatarPropertyType))((::PBYTE)hIl2Cpp + CLASS_1_75A0CA533FCD01A7_METHOD_1_91C3FC3C50F091F5_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_9F37E7CBD89B0F24(::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* a1)
+	::System::Void Method_1_E626A3FA3A7A0B04(::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*))((::PBYTE)hIl2Cpp + CLASS_1_75A0CA533FCD01A7_METHOD_1_9F37E7CBD89B0F24_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*))((::PBYTE)hIl2Cpp + CLASS_1_75A0CA533FCD01A7_METHOD_1_E626A3FA3A7A0B04_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_A32BC614239DEC12(::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* a1)

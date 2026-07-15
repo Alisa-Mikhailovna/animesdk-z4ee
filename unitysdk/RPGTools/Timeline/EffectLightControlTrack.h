@@ -6,13 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199BE1E0)
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199BE6D0)
-#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199BE7B0)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDCBE330)
+#define RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCBE990)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EffectLightControlTrack_TypeDefinitionIndex = 45450;
+	inline static constexpr unsigned int EffectLightControlTrack_TypeDefinitionIndex = 46384;
 
 	class EffectLightControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTLIGHTCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

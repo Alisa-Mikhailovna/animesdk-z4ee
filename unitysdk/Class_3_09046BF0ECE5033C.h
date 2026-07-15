@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StopBlendShapesEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_09046BF0ECE5033C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173EEE90)
-#define CLASS_3_09046BF0ECE5033C__CTOR_OFFSET UNITYSDK_OFFSET(0x173EEE60)
+#define CLASS_3_09046BF0ECE5033C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156AD040)
+#define CLASS_3_09046BF0ECE5033C__CTOR_OFFSET UNITYSDK_OFFSET(0x156AD010)
 
-inline static constexpr unsigned int Class_3_09046BF0ECE5033C_TypeDefinitionIndex = 52223;
+inline static constexpr unsigned int Class_3_09046BF0ECE5033C_TypeDefinitionIndex = 53375;
 
 class Class_3_09046BF0ECE5033C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StopBlendShapesEmotion*>
 {

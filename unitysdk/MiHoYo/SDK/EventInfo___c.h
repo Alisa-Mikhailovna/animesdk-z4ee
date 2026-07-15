@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK { class EventInfo; }
 
-#define MIHOYO_SDK_EVENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x144EB3C0)
-#define MIHOYO_SDK_EVENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x144EB400)
-#define MIHOYO_SDK_EVENTINFO___C___CCTOR_B__54_0_OFFSET UNITYSDK_OFFSET(0x144EB410)
+#define MIHOYO_SDK_EVENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAAA9200)
+#define MIHOYO_SDK_EVENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAAA9240)
+#define MIHOYO_SDK_EVENTINFO___C___CCTOR_B__54_0_OFFSET UNITYSDK_OFFSET(0xAAA9250)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int EventInfo___c_TypeDefinitionIndex = 43781;
+	inline static constexpr unsigned int EventInfo___c_TypeDefinitionIndex = 44643;
 
 	class EventInfo___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::EventInfo___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::EventInfo___c**)Il2CppClass::FromTypeDefinitionIndex(EventInfo___c_TypeDefinitionIndex)->GetStaticField(0xB9A0);
+			return (::MiHoYo::SDK::EventInfo___c**)Il2CppClass::FromTypeDefinitionIndex(EventInfo___c_TypeDefinitionIndex)->GetStaticField(0xBB00);
 		}
 
 		static ::System::Void _cctor()

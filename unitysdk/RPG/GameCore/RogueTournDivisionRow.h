@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNDIVISIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19401FC0)
-#define RPG_GAMECORE_ROGUETOURNDIVISIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194022C0)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B797290)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B797590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournDivisionRow_TypeDefinitionIndex = 14219;
+	inline static constexpr unsigned int RogueTournDivisionRow_TypeDefinitionIndex = 14367;
 
 	class RogueTournDivisionRow : public ::System::Object
 	{
 	public:
-		::System::String* DivisionIconPath; // 0x10
+		::System::String* DivisionIconPrefabPath; // 0x10
 		::System::String* DivisionSmallIconPath; // 0x18
-		::System::String* DivisionIconPrefabPath; // 0x20
+		::System::String* DivisionIconPath; // 0x20
 		::RPG::Client::TextID DivisionName; // 0x28
 		::RPG::Client::TextID DivisionHintDesc; // 0x38
 		::System::UInt32 DivisionLevel; // 0x48

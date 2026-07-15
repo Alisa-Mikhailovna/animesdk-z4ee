@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETEFFECTANIMSPEED_METHOD_3_2A46242B0C8A8F15_OFFSET UNITYSDK_OFFSET(0x1A786370)
-#define RPG_GAMECORE_SETEFFECTANIMSPEED_METHOD_3_30B69F64DEA1AA49_OFFSET UNITYSDK_OFFSET(0x1A7863F0)
-#define RPG_GAMECORE_SETEFFECTANIMSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7863C0)
+#define RPG_GAMECORE_SETEFFECTANIMSPEED_METHOD_3_299BDD5073880686_OFFSET UNITYSDK_OFFSET(0x1B89E550)
+#define RPG_GAMECORE_SETEFFECTANIMSPEED_METHOD_3_30B69F64DEA1AA49_OFFSET UNITYSDK_OFFSET(0x1B89E590)
+#define RPG_GAMECORE_SETEFFECTANIMSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89E580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEffectAnimSpeed_TypeDefinitionIndex = 21637;
+	inline static constexpr unsigned int SetEffectAnimSpeed_TypeDefinitionIndex = 22060;
 
 	class SetEffectAnimSpeed : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMSPEED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2A46242B0C8A8F15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimSpeed*& a2)
+		static ::System::Void Method_3_299BDD5073880686(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimSpeed*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectAnimSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMSPEED_METHOD_3_2A46242B0C8A8F15_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEffectAnimSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETEFFECTANIMSPEED_METHOD_3_299BDD5073880686_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_30B69F64DEA1AA49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEffectAnimSpeed* a2)

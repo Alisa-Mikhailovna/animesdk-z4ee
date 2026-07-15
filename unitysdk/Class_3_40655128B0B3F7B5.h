@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AbortModifierPhasePerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_40655128B0B3F7B5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144FD970)
-#define CLASS_3_40655128B0B3F7B5__CTOR_OFFSET UNITYSDK_OFFSET(0x144FD940)
+#define CLASS_3_40655128B0B3F7B5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10C8B590)
+#define CLASS_3_40655128B0B3F7B5__CTOR_OFFSET UNITYSDK_OFFSET(0x10C8B560)
 
-inline static constexpr unsigned int Class_3_40655128B0B3F7B5_TypeDefinitionIndex = 51223;
+inline static constexpr unsigned int Class_3_40655128B0B3F7B5_TypeDefinitionIndex = 52315;
 
 class Class_3_40655128B0B3F7B5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AbortModifierPhasePerform*>
 {

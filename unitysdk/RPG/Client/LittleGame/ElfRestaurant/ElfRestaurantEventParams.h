@@ -6,23 +6,23 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTEVENTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1797B320)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTEVENTPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xC9924F0)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantEventParams_TypeDefinitionIndex = 71782;
+	inline static constexpr unsigned int ElfRestaurantEventParams_TypeDefinitionIndex = 73307;
 
 	class ElfRestaurantEventParams : public ::System::Object
 	{
 	public:
-		::System::String* EventIconPath; // 0x10
-		::System::String* ParamStr; // 0x18
-		::System::String* EventTip; // 0x20
-		::UnityEngine::Vector3 EventWorldPos; // 0x28
-		::System::Single Duration; // 0x34
-		::System::Int32 ParamInt; // 0x38
-		::System::Boolean FollowEntity; // 0x3C
-		::RPG::GameCore::RestaurantNormalEventType Type; // 0x40
+		::System::String* EventTip; // 0x10
+		::System::String* EventIconPath; // 0x18
+		::System::String* ParamStr; // 0x20
+		::RPG::GameCore::RestaurantNormalEventType Type; // 0x28
+		::UnityEngine::Vector3 EventWorldPos; // 0x2C
+		::System::Boolean FollowEntity; // 0x38
+		::System::Int32 ParamInt; // 0x3C
+		::System::Single Duration; // 0x40
 		::System::Int32 EventEntityRuntimeID; // 0x44
 
 		::System::Void _ctor(::RPG::GameCore::RestaurantNormalEventType a1, ::UnityEngine::Vector3 a2, ::System::String* a3, ::System::String* a4, ::System::Single a5)

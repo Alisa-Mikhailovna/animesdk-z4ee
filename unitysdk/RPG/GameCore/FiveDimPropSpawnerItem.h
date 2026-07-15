@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimPropSpawnerParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERITEM_METHOD_2_69FC4F89D2B4863B_OFFSET UNITYSDK_OFFSET(0x1A39DC20)
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A39DD80)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERITEM_METHOD_2_69FC4F89D2B4863B_OFFSET UNITYSDK_OFFSET(0x1B443390)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4434F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPropSpawnerItem_TypeDefinitionIndex = 17681;
+	inline static constexpr unsigned int FiveDimPropSpawnerItem_TypeDefinitionIndex = 17855;
 
 	class FiveDimPropSpawnerItem : public ::RPG::GameCore::JsonConfig
 	{

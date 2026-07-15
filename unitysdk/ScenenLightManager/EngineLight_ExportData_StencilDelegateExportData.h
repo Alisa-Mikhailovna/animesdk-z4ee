@@ -5,11 +5,11 @@
 namespace ScenenLightManager { class TransformExportData; }
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA_STENCILDELEGATEEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1775A7F0)
+#define SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA_STENCILDELEGATEEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD42DD0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineLight_ExportData_StencilDelegateExportData_TypeDefinitionIndex = 46281;
+	inline static constexpr unsigned int EngineLight_ExportData_StencilDelegateExportData_TypeDefinitionIndex = 47246;
 
 	class EngineLight_ExportData_StencilDelegateExportData : public ::System::Object
 	{

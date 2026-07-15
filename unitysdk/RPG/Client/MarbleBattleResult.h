@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_A35B38E5F9115A76_2.h"
+#include "unitysdk/Enum_3_01618AD0437C8486_2.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class MarbleBall; }
@@ -10,31 +10,31 @@ namespace RPG::GameCore { class MarbleMatchTitleRow; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MARBLEBATTLERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0x1901A900)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0x1901B560)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_GAMEMODE_OFFSET UNITYSDK_OFFSET(0x1901B4C0)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x1901B520)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0x1901B540)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_MATCHCONTEXT_OFFSET UNITYSDK_OFFSET(0x1901B580)
-#define RPG_CLIENT_MARBLEBATTLERESULT_SET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0x1901B570)
-#define RPG_CLIENT_MARBLEBATTLERESULT_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x1901B530)
-#define RPG_CLIENT_MARBLEBATTLERESULT_SET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0x1901B550)
-#define RPG_CLIENT_MARBLEBATTLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1901B0F0)
-#define RPG_CLIENT_MARBLEBATTLERESULT__REFRESHRANKRESULTINFO_OFFSET UNITYSDK_OFFSET(0x1901B2C0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0xCB27C00)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0xCB28AF0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_GAMEMODE_OFFSET UNITYSDK_OFFSET(0xCB28A50)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0xCB28AB0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0xCB28AD0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_MATCHCONTEXT_OFFSET UNITYSDK_OFFSET(0xCB28B10)
+#define RPG_CLIENT_MARBLEBATTLERESULT_SET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0xCB28B00)
+#define RPG_CLIENT_MARBLEBATTLERESULT_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0xCB28AC0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_SET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0xCB28AE0)
+#define RPG_CLIENT_MARBLEBATTLERESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xCB28670)
+#define RPG_CLIENT_MARBLEBATTLERESULT__REFRESHRANKRESULTINFO_OFFSET UNITYSDK_OFFSET(0xCB28850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleResult_TypeDefinitionIndex = 61528;
+	inline static constexpr unsigned int MarbleBattleResult_TypeDefinitionIndex = 62890;
 
 	class MarbleBattleResult : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* SubSealIDs; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* TitleParams; // 0x18
+		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _LastRankInfo_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* SubSealIDs; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::MarbleBall*>* Balls; // 0x20
-		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _CurRankInfo_k__BackingField; // 0x28
-		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _LastRankInfo_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::MarbleMatchTitleRow*>* Titles; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::MarbleMatchTitleRow*>* Titles; // 0x28
+		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _CurRankInfo_k__BackingField; // 0x30
+		::System::Collections::Generic::List_1<::System::Int32>* TitleParams; // 0x38
 		::System::Boolean _IsWin_k__BackingField; // 0x40
 
 		::System::Void _ctor()
@@ -87,9 +87,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ActivityMarble::MarbleMatchContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEBATTLERESULT_GET_MATCHCONTEXT_OFFSET))(this);
 		}
 
-		::Enum_3_A35B38E5F9115A76_2 get_GameMode()
+		::Enum_3_01618AD0437C8486_2 get_GameMode()
 		{
-			return ((::Enum_3_A35B38E5F9115A76_2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEBATTLERESULT_GET_GAMEMODE_OFFSET))(this);
+			return ((::Enum_3_01618AD0437C8486_2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MARBLEBATTLERESULT_GET_GAMEMODE_OFFSET))(this);
 		}
 	};
 }

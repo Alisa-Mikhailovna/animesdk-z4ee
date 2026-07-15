@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_5A978C4B9A5F455B_OFFSET UNITYSDK_OFFSET(0x1A137750)
-#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_E3477340100A4016_OFFSET UNITYSDK_OFFSET(0x1A1376D0)
-#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A137720)
+#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_5A978C4B9A5F455B_OFFSET UNITYSDK_OFFSET(0x1B3125A0)
+#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_63FB9728C0AB9912_OFFSET UNITYSDK_OFFSET(0x1B312550)
+#define RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B312590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeTargetModifierEffectState_TypeDefinitionIndex = 21229;
+	inline static constexpr unsigned int ChangeTargetModifierEffectState_TypeDefinitionIndex = 21644;
 
 	class ChangeTargetModifierEffectState : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E3477340100A4016(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeTargetModifierEffectState*& a2)
+		static ::System::Void Method_3_63FB9728C0AB9912(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeTargetModifierEffectState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeTargetModifierEffectState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_E3477340100A4016_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeTargetModifierEffectState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETARGETMODIFIEREFFECTSTATE_METHOD_3_63FB9728C0AB9912_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5A978C4B9A5F455B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeTargetModifierEffectState* a2)

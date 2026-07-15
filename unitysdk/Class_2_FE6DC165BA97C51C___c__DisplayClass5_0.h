@@ -7,17 +7,17 @@ class Class_2_FE6DC165BA97C51C;
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173E71A0)
-#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x173E7360)
+#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x156A4CA0)
+#define CLASS_2_FE6DC165BA97C51C___C__DISPLAYCLASS5_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x156A4E60)
 
-inline static constexpr unsigned int Class_2_FE6DC165BA97C51C___c__DisplayClass5_0_TypeDefinitionIndex = 71194;
+inline static constexpr unsigned int Class_2_FE6DC165BA97C51C___c__DisplayClass5_0_TypeDefinitionIndex = 72707;
 
 class Class_2_FE6DC165BA97C51C___c__DisplayClass5_0 : public ::System::Object
 {
 public:
-	::System::Action_1<::Class_2_037EA204E69EBC75*>* callback; // 0x10
+	::Class_2_037EA204E69EBC75* entity; // 0x10
 	::Class_2_FE6DC165BA97C51C* __4__this; // 0x18
-	::Class_2_037EA204E69EBC75* entity; // 0x20
+	::System::Action_1<::Class_2_037EA204E69EBC75*>* callback; // 0x20
 
 	::System::Void _ctor()
 	{

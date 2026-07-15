@@ -12,25 +12,25 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimAnimatorListenConfig; }
 
-#define CLASS_1_4A36859935C7ABE9_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x16F6CAC0)
-#define CLASS_1_4A36859935C7ABE9_METHOD_1_281255C747FAABE8_OFFSET UNITYSDK_OFFSET(0x16F6CC00)
-#define CLASS_1_4A36859935C7ABE9_METHOD_1_2BC685AEA39CD9DE_OFFSET UNITYSDK_OFFSET(0x16F6D700)
-#define CLASS_1_4A36859935C7ABE9_METHOD_1_37271A3CB72783D5_OFFSET UNITYSDK_OFFSET(0x16F6D240)
-#define CLASS_1_4A36859935C7ABE9_METHOD_1_AB70FF25B0F862BF_OFFSET UNITYSDK_OFFSET(0x16F6D460)
-#define CLASS_1_4A36859935C7ABE9_METHOD_1_B7F991DC594C3820_OFFSET UNITYSDK_OFFSET(0x16F6D860)
-#define CLASS_1_4A36859935C7ABE9_METHOD_1_C0E6E6C9C428BAF7_OFFSET UNITYSDK_OFFSET(0x16F6D4E0)
-#define CLASS_1_4A36859935C7ABE9_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x16F6D1A0)
-#define CLASS_1_4A36859935C7ABE9__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6C920)
+#define CLASS_1_4A36859935C7ABE9_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x145ACFE0)
+#define CLASS_1_4A36859935C7ABE9_METHOD_1_281255C747FAABE8_OFFSET UNITYSDK_OFFSET(0x145AD120)
+#define CLASS_1_4A36859935C7ABE9_METHOD_1_37271A3CB72783D5_OFFSET UNITYSDK_OFFSET(0x145AD770)
+#define CLASS_1_4A36859935C7ABE9_METHOD_1_4518C672652FCAF9_OFFSET UNITYSDK_OFFSET(0x145ADA10)
+#define CLASS_1_4A36859935C7ABE9_METHOD_1_4982AA42FF01B20D_OFFSET UNITYSDK_OFFSET(0x145ADC00)
+#define CLASS_1_4A36859935C7ABE9_METHOD_1_AB70FF25B0F862BF_OFFSET UNITYSDK_OFFSET(0x145AD990)
+#define CLASS_1_4A36859935C7ABE9_METHOD_1_B7F991DC594C3820_OFFSET UNITYSDK_OFFSET(0x145ADD40)
+#define CLASS_1_4A36859935C7ABE9_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x145AD6D0)
+#define CLASS_1_4A36859935C7ABE9__CTOR_OFFSET UNITYSDK_OFFSET(0x145ACE40)
 
-inline static constexpr unsigned int Class_1_4A36859935C7ABE9_TypeDefinitionIndex = 71432;
+inline static constexpr unsigned int Class_1_4A36859935C7ABE9_TypeDefinitionIndex = 72957;
 
 class Class_1_4A36859935C7ABE9 : public ::System::Object
 {
 public:
 	::Class_3_1E4F9B0ED3BF21DE* Field_1_0; // 0x10
 	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* Field_1_1; // 0x18
-	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* Field_1_2; // 0x20
-	::Class_1_B4357A1C72BABC6B* Field_1_3; // 0x28
+	::Class_1_B4357A1C72BABC6B* Field_1_2; // 0x20
+	::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* Field_1_3; // 0x28
 
 	::System::Void _ctor(::Class_1_B4357A1C72BABC6B* a1, ::Class_3_1E4F9B0ED3BF21DE* a2)
 	{
@@ -62,14 +62,14 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::FiveDimAnimatorListenConfig*, ::System::Int32, ::Class_1_4E0C8860CC2DF441*, ::Class_1_4E0C8860CC2DF441*, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>*))((::PBYTE)hIl2Cpp + CLASS_1_4A36859935C7ABE9_METHOD_1_37271A3CB72783D5_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::System::Void Method_1_C0E6E6C9C428BAF7(::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+	::System::Void Method_1_4518C672652FCAF9(::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_4A36859935C7ABE9_METHOD_1_C0E6E6C9C428BAF7_OFFSET))(this, a1, a2, a3, a4);
+		return ((::System::Void(*)(::PVOID, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_4A36859935C7ABE9_METHOD_1_4518C672652FCAF9_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Boolean Method_1_2BC685AEA39CD9DE(::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* a1, ::System::Int32 a2, ::System::Int32 a3)
+	::System::Boolean Method_1_4982AA42FF01B20D(::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* a1, ::System::Int32 a2, ::System::Int32 a3)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_4A36859935C7ABE9_METHOD_1_2BC685AEA39CD9DE_OFFSET))(this, a1, a2, a3);
+		return ((::System::Boolean(*)(::PVOID, ::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_4A36859935C7ABE9_METHOD_1_4982AA42FF01B20D_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_1_B7F991DC594C3820(::Entitas::IGroup_1<::Class_2_B9E8C2EEAA5C96EC*>* a1, ::Class_2_B9E8C2EEAA5C96EC* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)

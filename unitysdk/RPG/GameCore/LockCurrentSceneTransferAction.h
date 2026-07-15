@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_6715D7B0F9C4241B_OFFSET UNITYSDK_OFFSET(0x19C12E90)
-#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_773669F5B8F7C352_OFFSET UNITYSDK_OFFSET(0x19C12F10)
-#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C12EE0)
+#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_49AFBD0849705BCF_OFFSET UNITYSDK_OFFSET(0x1B594600)
+#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_773669F5B8F7C352_OFFSET UNITYSDK_OFFSET(0x1B594640)
+#define RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B594630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockCurrentSceneTransferAction_TypeDefinitionIndex = 20458;
+	inline static constexpr unsigned int LockCurrentSceneTransferAction_TypeDefinitionIndex = 20873;
 
 	class LockCurrentSceneTransferAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6715D7B0F9C4241B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentSceneTransferAction*& a2)
+		static ::System::Void Method_3_49AFBD0849705BCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentSceneTransferAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCurrentSceneTransferAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_6715D7B0F9C4241B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCurrentSceneTransferAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTSCENETRANSFERACTION_METHOD_3_49AFBD0849705BCF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_773669F5B8F7C352(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentSceneTransferAction* a2)

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x149375A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXCHARCLASS_SINGLERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD50B30)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexCharClass_SingleRange_TypeDefinitionIndex = 2498;
+	inline static constexpr unsigned int RegexCharClass_SingleRange_TypeDefinitionIndex = 2502;
 
 	class RegexCharClass_SingleRange : public ::System::Object
 	{

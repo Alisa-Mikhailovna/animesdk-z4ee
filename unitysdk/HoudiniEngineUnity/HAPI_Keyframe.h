@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x3740880)
+#define HOUDINIENGINEUNITY_HAPI_KEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x25B50)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Keyframe_TypeDefinitionIndex = 37546;
+	inline static constexpr unsigned int HAPI_Keyframe_TypeDefinitionIndex = 38354;
 
 	struct alignas(4) HAPI_Keyframe
 	{

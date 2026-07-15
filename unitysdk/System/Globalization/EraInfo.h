@@ -4,8 +4,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1577B880)
-#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1577B830)
+#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A11CDA0)
+#define SYSTEM_GLOBALIZATION_ERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11CD50)
 
 namespace System::Globalization
 {
@@ -14,14 +14,14 @@ namespace System::Globalization
 	class EraInfo : public ::System::Object
 	{
 	public:
-		::System::String* abbrevEraName; // 0x10
+		::System::String* eraName; // 0x10
 		::System::String* englishEraName; // 0x18
-		::System::String* eraName; // 0x20
-		::System::Int32 era; // 0x28
+		::System::String* abbrevEraName; // 0x20
+		::System::Int32 minEraYear; // 0x28
 		::System::Int32 yearOffset; // 0x2C
-		::System::Int32 minEraYear; // 0x30
-		::System::Int32 maxEraYear; // 0x34
-		::System::Int64 ticks; // 0x38
+		::System::Int64 ticks; // 0x30
+		::System::Int32 era; // 0x38
+		::System::Int32 maxEraYear; // 0x3C
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7)
 		{

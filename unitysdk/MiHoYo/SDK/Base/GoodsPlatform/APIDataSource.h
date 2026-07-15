@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class JSONObject; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE_REQUESTGOODSLIST_OFFSET UNITYSDK_OFFSET(0x172385A0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x17238990)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE_REQUESTGOODSLIST_OFFSET UNITYSDK_OFFSET(0x19BA4630)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_APIDATASOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA4A20)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int APIDataSource_TypeDefinitionIndex = 8495;
+	inline static constexpr unsigned int APIDataSource_TypeDefinitionIndex = 8507;
 
 	class APIDataSource : public ::System::Object
 	{

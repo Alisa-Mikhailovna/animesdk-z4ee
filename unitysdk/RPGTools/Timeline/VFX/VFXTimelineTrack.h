@@ -8,16 +8,14 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1774DF20)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1774E020)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_GET_GENDERTYPE_OFFSET UNITYSDK_OFFSET(0x1774E140)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1774E150)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1774E230)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1774E270)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDD36960)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDD36A60)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_GET_GENDERTYPE_OFFSET UNITYSDK_OFFSET(0xDD36B80)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD36B90)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXTimelineTrack_TypeDefinitionIndex = 45957;
+	inline static constexpr unsigned int VFXTimelineTrack_TypeDefinitionIndex = 46896;
 
 	class VFXTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -42,16 +40,6 @@ namespace RPGTools::Timeline::VFX
 		::RPG::GameCore::GenderType get_GenderType()
 		{
 			return ((::RPG::GameCore::GenderType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_GET_GENDERTYPE_OFFSET))(this);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

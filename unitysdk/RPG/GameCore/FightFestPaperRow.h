@@ -6,30 +6,30 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTPAPERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A415A00)
-#define RPG_GAMECORE_FIGHTFESTPAPERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A415FF0)
+#define RPG_GAMECORE_FIGHTFESTPAPERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B414530)
+#define RPG_GAMECORE_FIGHTFESTPAPERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B414B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestPaperRow_TypeDefinitionIndex = 12654;
+	inline static constexpr unsigned int FightFestPaperRow_TypeDefinitionIndex = 12791;
 
 	class FightFestPaperRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* MainFgPathList; // 0x10
-		::System::String* CollectionBgPath; // 0x18
-		::System::String* GameAdFigurePath; // 0x20
-		::System::String* InterviewFgPath; // 0x28
-		::Il2CppArray<::System::String*>* MainBgPathList; // 0x30
-		::System::String* CollectionFgPath; // 0x38
-		::System::String* InterviewBgPath; // 0x40
-		::RPG::Client::TextID IssueNumberText; // 0x48
-		::RPG::Client::TextID MainPageDesc; // 0x58
-		::RPG::Client::TextID MainPageTitle; // 0x68
-		::System::UInt32 PaperID; // 0x78
-		::System::UInt32 UnlockSubMissionID; // 0x7C
-		::RPG::Client::TextID GameAdDesc; // 0x80
-		::RPG::Client::TextID IssueNumber; // 0x90
+		::Il2CppArray<::System::String*>* MainBgPathList; // 0x10
+		::Il2CppArray<::System::String*>* MainFgPathList; // 0x18
+		::System::String* InterviewBgPath; // 0x20
+		::System::String* GameAdFigurePath; // 0x28
+		::System::String* InterviewFgPath; // 0x30
+		::System::String* CollectionBgPath; // 0x38
+		::System::String* CollectionFgPath; // 0x40
+		::RPG::Client::TextID MainPageDesc; // 0x48
+		::System::UInt32 UnlockSubMissionID; // 0x58
+		::System::UInt32 PaperID; // 0x5C
+		::RPG::Client::TextID GameAdDesc; // 0x60
+		::RPG::Client::TextID IssueNumber; // 0x70
+		::RPG::Client::TextID MainPageTitle; // 0x80
+		::RPG::Client::TextID IssueNumberText; // 0x90
 
 		::System::Void _ctor()
 		{

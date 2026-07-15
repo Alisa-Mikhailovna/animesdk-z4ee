@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/PingPong/GameState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_EB1A60234AF92FB2__CTOR_OFFSET UNITYSDK_OFFSET(0x15F7D020)
+#define CLASS_1_EB1A60234AF92FB2__CTOR_OFFSET UNITYSDK_OFFSET(0x1A79D8B0)
 
-inline static constexpr unsigned int Class_1_EB1A60234AF92FB2_TypeDefinitionIndex = 39616;
+inline static constexpr unsigned int Class_1_EB1A60234AF92FB2_TypeDefinitionIndex = 40425;
 
 class Class_1_EB1A60234AF92FB2 : public ::System::Object
 {

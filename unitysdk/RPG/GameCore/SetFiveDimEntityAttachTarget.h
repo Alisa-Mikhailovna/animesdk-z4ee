@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET_METHOD_3_2822733F27C47B12_OFFSET UNITYSDK_OFFSET(0x1A78A9D0)
-#define RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET_METHOD_3_A08757B7740D5B89_OFFSET UNITYSDK_OFFSET(0x1A78AA70)
-#define RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1A78AA30)
+#define RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET_METHOD_3_1C7CCC8A1D274168_OFFSET UNITYSDK_OFFSET(0x1B8A27C0)
+#define RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET_METHOD_3_A08757B7740D5B89_OFFSET UNITYSDK_OFFSET(0x1B8A2810)
+#define RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A2800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFiveDimEntityAttachTarget_TypeDefinitionIndex = 20110;
+	inline static constexpr unsigned int SetFiveDimEntityAttachTarget_TypeDefinitionIndex = 20482;
 
 	class SetFiveDimEntityAttachTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2822733F27C47B12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFiveDimEntityAttachTarget*& a2)
+		static ::System::Void Method_3_1C7CCC8A1D274168(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFiveDimEntityAttachTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFiveDimEntityAttachTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET_METHOD_3_2822733F27C47B12_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFiveDimEntityAttachTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFIVEDIMENTITYATTACHTARGET_METHOD_3_1C7CCC8A1D274168_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A08757B7740D5B89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFiveDimEntityAttachTarget* a2)

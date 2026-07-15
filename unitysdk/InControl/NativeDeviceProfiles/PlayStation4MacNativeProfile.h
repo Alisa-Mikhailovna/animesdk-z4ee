@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION4MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x129D3650)
-#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION4MACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x129D4A80)
+#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION4MACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x199A3910)
+#define INCONTROL_NATIVEDEVICEPROFILES_PLAYSTATION4MACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x199A4CE0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int PlayStation4MacNativeProfile_TypeDefinitionIndex = 38300;
+	inline static constexpr unsigned int PlayStation4MacNativeProfile_TypeDefinitionIndex = 39108;
 
 	class PlayStation4MacNativeProfile : public ::InControl::InputDeviceProfile
 	{

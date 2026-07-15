@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class PropInitDayOfWeekAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D723818E1C317338_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142986F0)
-#define CLASS_3_D723818E1C317338__CTOR_OFFSET UNITYSDK_OFFSET(0x142986C0)
+#define CLASS_3_D723818E1C317338_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14B36660)
+#define CLASS_3_D723818E1C317338__CTOR_OFFSET UNITYSDK_OFFSET(0x14B36630)
 
-inline static constexpr unsigned int Class_3_D723818E1C317338_TypeDefinitionIndex = 49696;
+inline static constexpr unsigned int Class_3_D723818E1C317338_TypeDefinitionIndex = 50750;
 
 class Class_3_D723818E1C317338 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropInitDayOfWeekAction*>
 {

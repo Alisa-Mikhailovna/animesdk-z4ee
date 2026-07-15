@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatAttackConfig; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE_METHOD_3_6B63F2AEB0090AFF_OFFSET UNITYSDK_OFFSET(0x1A0973A0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE_METHOD_3_B16AA230074706F9_OFFSET UNITYSDK_OFFSET(0x1A09DEE0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A097350)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE_METHOD_3_3C8C7FC597D5EB8B_OFFSET UNITYSDK_OFFSET(0x1B3B6630)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE_METHOD_3_6B63F2AEB0090AFF_OFFSET UNITYSDK_OFFSET(0x1B3B6700)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B66F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_AttackDamage_TypeDefinitionIndex = 15274;
+	inline static constexpr unsigned int DiceCombatTaskConfig_AttackDamage_TypeDefinitionIndex = 15438;
 
 	class DiceCombatTaskConfig_AttackDamage : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B16AA230074706F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AttackDamage*& a2)
+		static ::System::Void Method_3_3C8C7FC597D5EB8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AttackDamage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AttackDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE_METHOD_3_B16AA230074706F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AttackDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ATTACKDAMAGE_METHOD_3_3C8C7FC597D5EB8B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6B63F2AEB0090AFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AttackDamage* a2)

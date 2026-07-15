@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RETHROWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A69ABE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RETHROWEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB4D80)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int RethrowException_TypeDefinitionIndex = 3468;
+	inline static constexpr unsigned int RethrowException_TypeDefinitionIndex = 3472;
 
 	class RethrowException : public ::System::Exception
 	{

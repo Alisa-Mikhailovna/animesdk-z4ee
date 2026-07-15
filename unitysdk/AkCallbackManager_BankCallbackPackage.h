@@ -4,9 +4,9 @@
 
 class AkCallbackManager_BankCallback;
 
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DD3770)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AE440)
 
-inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 41209;
+inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 42024;
 
 class AkCallbackManager_BankCallbackPackage : public ::System::Object
 {

@@ -7,21 +7,21 @@
 
 namespace RPG::Client { class MapProp; }
 
-#define CLASS_1_17710F15CC913BFB__CTOR_OFFSET UNITYSDK_OFFSET(0x168DA9E0)
+#define CLASS_1_17710F15CC913BFB__CTOR_OFFSET UNITYSDK_OFFSET(0xAD47580)
 
-inline static constexpr unsigned int Class_1_17710F15CC913BFB_TypeDefinitionIndex = 56686;
+inline static constexpr unsigned int Class_1_17710F15CC913BFB_TypeDefinitionIndex = 57932;
 
 class Class_1_17710F15CC913BFB : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::MVector2>* Field_1_0; // 0x10
-	::RPG::Client::MapProp* Field_1_1; // 0x18
+	::RPG::Client::MapProp* Field_1_0; // 0x10
+	::Il2CppArray<::RPG::MVector2>* Field_1_1; // 0x18
 	::UnityEngine::Vector3 Field_1_2; // 0x20
 	::System::Int32 Field_1_3; // 0x2C
-	::System::Single Field_1_4; // 0x30
+	::System::Int32 Field_1_4; // 0x30
 	::System::Single Field_1_5; // 0x34
-	::System::Int32 Field_1_6; // 0x38
-	::UnityEngine::Vector2 Field_1_7; // 0x3C
+	::UnityEngine::Vector2 Field_1_6; // 0x38
+	::System::Single Field_1_7; // 0x40
 
 	::System::Void _ctor(::System::Int32 a1, ::RPG::Client::MapProp* a2)
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x3834950)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x3A16A50)
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
-	inline static constexpr unsigned int sockaddr_dl_TypeDefinitionIndex = 2964;
+	inline static constexpr unsigned int sockaddr_dl_TypeDefinitionIndex = 2968;
 
 	struct alignas(8) sockaddr_dl
 	{

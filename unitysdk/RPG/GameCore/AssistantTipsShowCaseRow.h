@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x18BE6F40)
-#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x18BE70A0)
+#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1B36F0)
+#define RPG_GAMECORE_ASSISTANTTIPSSHOWCASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B3850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistantTipsShowCaseRow_TypeDefinitionIndex = 12063;
+	inline static constexpr unsigned int AssistantTipsShowCaseRow_TypeDefinitionIndex = 12195;
 
 	class AssistantTipsShowCaseRow : public ::System::Object
 	{

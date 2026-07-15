@@ -5,17 +5,17 @@
 class Class_1_64D890C466F37235;
 namespace System { class String; }
 
-#define CLASS_2_37D832480CB327E1___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1531FF50)
-#define CLASS_2_37D832480CB327E1___C__DISPLAYCLASS67_0___STARTMOVEIMPV2_B__0_OFFSET UNITYSDK_OFFSET(0x15320580)
+#define CLASS_2_37D832480CB327E1___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x11FAC400)
+#define CLASS_2_37D832480CB327E1___C__DISPLAYCLASS67_0___STARTMOVEIMPV2_B__0_OFFSET UNITYSDK_OFFSET(0x11FACA10)
 
-inline static constexpr unsigned int Class_2_37D832480CB327E1___c__DisplayClass67_0_TypeDefinitionIndex = 53627;
+inline static constexpr unsigned int Class_2_37D832480CB327E1___c__DisplayClass67_0_TypeDefinitionIndex = 54846;
 
 class Class_2_37D832480CB327E1___c__DisplayClass67_0 : public ::System::Object
 {
 public:
-	::System::String* startAnchorName; // 0x10
+	::System::String* endAnchorName; // 0x10
 	::Class_1_64D890C466F37235* mapRotationManager; // 0x18
-	::System::String* endAnchorName; // 0x20
+	::System::String* startAnchorName; // 0x20
 
 	::System::Void _ctor()
 	{

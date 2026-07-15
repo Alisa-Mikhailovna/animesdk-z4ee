@@ -8,37 +8,37 @@ class Class_1_70B630442ADDBF4A;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_C16931E567A100F1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x168F4620)
-#define CLASS_1_C16931E567A100F1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x168F4660)
-#define CLASS_1_C16931E567A100F1___C___CALCDICESCOREBYAILEVEL_B__37_0_OFFSET UNITYSDK_OFFSET(0x168F4670)
-#define CLASS_1_C16931E567A100F1___C___CALCSELECTEDDICESCORE_B__38_0_OFFSET UNITYSDK_OFFSET(0x168F46F0)
-#define CLASS_1_C16931E567A100F1___C___CALCSELECTEDDICESCORE_B__38_1_OFFSET UNITYSDK_OFFSET(0x168F47B0)
-#define CLASS_1_C16931E567A100F1___C___GETDICECONTENTWEIGHTLISTMAP_B__41_0_OFFSET UNITYSDK_OFFSET(0x168F4870)
+#define CLASS_1_C16931E567A100F1___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A4F9F20)
+#define CLASS_1_C16931E567A100F1___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F9F60)
+#define CLASS_1_C16931E567A100F1___C___CALCDICESCOREBYAILEVEL_B__37_0_OFFSET UNITYSDK_OFFSET(0x1A4F9F70)
+#define CLASS_1_C16931E567A100F1___C___CALCSELECTEDDICESCORE_B__38_0_OFFSET UNITYSDK_OFFSET(0x1A4F9FF0)
+#define CLASS_1_C16931E567A100F1___C___CALCSELECTEDDICESCORE_B__38_1_OFFSET UNITYSDK_OFFSET(0x1A4FA0B0)
+#define CLASS_1_C16931E567A100F1___C___GETDICECONTENTWEIGHTLISTMAP_B__41_0_OFFSET UNITYSDK_OFFSET(0x1A4FA170)
 
-inline static constexpr unsigned int Class_1_C16931E567A100F1___c_TypeDefinitionIndex = 34479;
+inline static constexpr unsigned int Class_1_C16931E567A100F1___c_TypeDefinitionIndex = 34861;
 
 class Class_1_C16931E567A100F1___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>** StaticGet___9__38_1()
+	static ::System::Func_2<::System::UInt32, ::System::Int64>** StaticGet___9__41_0()
 	{
-		return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x527C0);
+		return (::System::Func_2<::System::UInt32, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x58230);
 	}
 	static ::System::Comparison_1<::System::ValueTuple_2<::Class_1_70B630442ADDBF4A*, ::System::UInt64>>** StaticGet___9__37_0()
 	{
-		return (::System::Comparison_1<::System::ValueTuple_2<::Class_1_70B630442ADDBF4A*, ::System::UInt64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x527C8);
+		return (::System::Comparison_1<::System::ValueTuple_2<::Class_1_70B630442ADDBF4A*, ::System::UInt64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x58238);
 	}
 	static ::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>** StaticGet___9__38_0()
 	{
-		return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x527D0);
+		return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x58240);
+	}
+	static ::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>** StaticGet___9__38_1()
+	{
+		return (::System::Func_2<::System::Single, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x58248);
 	}
 	static ::Class_1_C16931E567A100F1___c** StaticGet___9()
 	{
-		return (::Class_1_C16931E567A100F1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x527D8);
-	}
-	static ::System::Func_2<::System::UInt32, ::System::Int64>** StaticGet___9__41_0()
-	{
-		return (::System::Func_2<::System::UInt32, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x527E0);
+		return (::Class_1_C16931E567A100F1___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C16931E567A100F1___c_TypeDefinitionIndex)->GetStaticField(0x58250);
 	}
 
 	static ::System::Void _cctor()

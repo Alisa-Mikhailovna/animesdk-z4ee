@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 namespace miHoYoEmotion { class BoneShape; }
 
-#define MIHOYOEMOTION_SHAPE_HASBONE_OFFSET UNITYSDK_OFFSET(0x17A89800)
-#define MIHOYOEMOTION_SHAPE_INDEXOFBONE_OFFSET UNITYSDK_OFFSET(0x17A898D0)
-#define MIHOYOEMOTION_SHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x17A89500)
+#define MIHOYOEMOTION_SHAPE_HASBONE_OFFSET UNITYSDK_OFFSET(0xABDB610)
+#define MIHOYOEMOTION_SHAPE_INDEXOFBONE_OFFSET UNITYSDK_OFFSET(0xABDB6E0)
+#define MIHOYOEMOTION_SHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xABDB300)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 41789;
+	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 42650;
 
 	class Shape : public ::System::Object
 	{

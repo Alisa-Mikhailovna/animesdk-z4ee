@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG_METHOD_3_047A418731E79B64_OFFSET UNITYSDK_OFFSET(0x1A40C2C0)
-#define RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG_METHOD_3_1EAFCA2C5F19CBDD_OFFSET UNITYSDK_OFFSET(0x1A40AF90)
-#define RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A40AF40)
+#define RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG_METHOD_3_1EAFCA2C5F19CBDD_OFFSET UNITYSDK_OFFSET(0x1B40C180)
+#define RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG_METHOD_3_B7DBCE2D6568DC19_OFFSET UNITYSDK_OFFSET(0x1B40C130)
+#define RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40C170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateModifierSeckillConfig_TypeDefinitionIndex = 18287;
+	inline static constexpr unsigned int FateModifierSeckillConfig_TypeDefinitionIndex = 18522;
 
 	class FateModifierSeckillConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_047A418731E79B64(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateModifierSeckillConfig*& a2)
+		static ::System::Void Method_3_B7DBCE2D6568DC19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateModifierSeckillConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateModifierSeckillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG_METHOD_3_047A418731E79B64_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateModifierSeckillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEMODIFIERSECKILLCONFIG_METHOD_3_B7DBCE2D6568DC19_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1EAFCA2C5F19CBDD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateModifierSeckillConfig* a2)

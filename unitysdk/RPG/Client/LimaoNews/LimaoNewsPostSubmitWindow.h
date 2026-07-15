@@ -12,28 +12,26 @@ namespace RPG::Client::LimaoNews { class LimaoNewsSubmitLevelControl; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1899CA10)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1899C080)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONANIMATIONTRIGGER_OFFSET UNITYSDK_OFFSET(0x1899CB20)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1899C410)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1899C120)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONLIMAONEWSWEBSITESTATECHANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1899CA80)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1899CC30)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1899CBD0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC952A60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__CTOR_OFFSET UNITYSDK_OFFSET(0xC9520A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONANIMATIONTRIGGER_OFFSET UNITYSDK_OFFSET(0xC952BE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC952470)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC952170)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW__ONLIMAONEWSWEBSITESTATECHANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0xC952B40)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPostSubmitWindow_TypeDefinitionIndex = 73857;
+	inline static constexpr unsigned int LimaoNewsPostSubmitWindow_TypeDefinitionIndex = 75508;
 
 	class LimaoNewsPostSubmitWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::RPG::Client::AnimatorButton* _BtnClose; // 0x40
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x48
-		::RPG::Client::LimaoNews::LimaoNewsSubmitLevelControl* _CurrentLevelControl; // 0x50
-		::UnityEngine::UI::Text* _PostTitle; // 0x58
-		::RPG::Client::MonoAnimationTrigger* _MonoAnimationTriggerRoot; // 0x60
-		::RPG::Client::LimaoNews::LimaoNewsInteractionControl* _InteractionControl; // 0x68
+		::RPG::Client::MonoAnimationTrigger* _MonoAnimationTriggerRoot; // 0x40
+		::RPG::Client::LimaoNews::LimaoNewsInteractionControl* _InteractionControl; // 0x48
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x50
+		::RPG::Client::LimaoNews::LimaoNewsSubmitLevelControl* _CurrentLevelControl; // 0x58
+		::UnityEngine::UI::Text* _PostTitle; // 0x60
+		::RPG::Client::AnimatorButton* _BtnClose; // 0x68
 
 		::System::Void _ctor(::RPG::Client::LimaoNews::LimaoNewsPostSubmitViewModel* a1, ::Class_1_5F4D64A4B97E38F9* a2)
 		{
@@ -63,16 +61,6 @@ namespace RPG::Client::LimaoNews
 		::RPG::Client::LimaoNews::LimaoNewsPostSubmitViewModel* get__ViewModel()
 		{
 			return ((::RPG::Client::LimaoNews::LimaoNewsPostSubmitViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW_GET__VIEWMODEL_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__OnInitializeComponent()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW___IFIXBASEPROXY__ONINITIALIZECOMPONENT_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__OnBindViewModel()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPOSTSUBMITWINDOW___IFIXBASEPROXY__ONBINDVIEWMODEL_OFFSET))(this);
 		}
 	};
 }

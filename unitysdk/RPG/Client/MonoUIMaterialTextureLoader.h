@@ -8,13 +8,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0x187E40C0)
-#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x187E41F0)
-#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x187E4370)
+#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD39BE0)
+#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD39D10)
+#define RPG_CLIENT_MONOUIMATERIALTEXTURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD39E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIMaterialTextureLoader_TypeDefinitionIndex = 64505;
+	inline static constexpr unsigned int MonoUIMaterialTextureLoader_TypeDefinitionIndex = 65905;
 
 	class MonoUIMaterialTextureLoader : public ::UnityEngine::MonoBehaviour
 	{

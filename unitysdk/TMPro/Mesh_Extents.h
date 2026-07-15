@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define TMPRO_MESH_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x37A8C40)
-#define TMPRO_MESH_EXTENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x66B770)
+#define TMPRO_MESH_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3A20B70)
+#define TMPRO_MESH_EXTENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x80E20)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int Mesh_Extents_TypeDefinitionIndex = 41069;
+	inline static constexpr unsigned int Mesh_Extents_TypeDefinitionIndex = 41884;
 
 	struct alignas(4) Mesh_Extents
 	{

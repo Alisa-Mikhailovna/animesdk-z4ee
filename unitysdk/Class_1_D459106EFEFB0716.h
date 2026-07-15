@@ -8,14 +8,14 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 namespace System { class String; }
 
-#define CLASS_1_D459106EFEFB0716_METHOD_1_0B2B6008BD1006E8_OFFSET UNITYSDK_OFFSET(0x160D38A0)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_948A43AE709EF68A_OFFSET UNITYSDK_OFFSET(0x160D36C0)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_9D9CF8F6C2342EE5_OFFSET UNITYSDK_OFFSET(0x160D3E40)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_B5EA5DD8B4C0957C_OFFSET UNITYSDK_OFFSET(0x160D3640)
-#define CLASS_1_D459106EFEFB0716_METHOD_1_E29A6A61C6FD21D1_OFFSET UNITYSDK_OFFSET(0x160D3A00)
-#define CLASS_1_D459106EFEFB0716__CTOR_OFFSET UNITYSDK_OFFSET(0x160D40F0)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_0B2B6008BD1006E8_OFFSET UNITYSDK_OFFSET(0x155BB6C0)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_948A43AE709EF68A_OFFSET UNITYSDK_OFFSET(0x155BB4E0)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_9D9CF8F6C2342EE5_OFFSET UNITYSDK_OFFSET(0x155BBC60)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_B5EA5DD8B4C0957C_OFFSET UNITYSDK_OFFSET(0x155BB460)
+#define CLASS_1_D459106EFEFB0716_METHOD_1_E29A6A61C6FD21D1_OFFSET UNITYSDK_OFFSET(0x155BB820)
+#define CLASS_1_D459106EFEFB0716__CTOR_OFFSET UNITYSDK_OFFSET(0x155BBF10)
 
-inline static constexpr unsigned int Class_1_D459106EFEFB0716_TypeDefinitionIndex = 50641;
+inline static constexpr unsigned int Class_1_D459106EFEFB0716_TypeDefinitionIndex = 51723;
 
 class Class_1_D459106EFEFB0716 : public ::System::Object
 {
@@ -23,16 +23,16 @@ public:
 	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
 	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
-	::RPG::MVector3 Field_1_3; // 0x28
-	::RPG::MVector3 Field_1_4; // 0x34
-	::System::Single Field_1_5; // 0x40
-	::System::Single Field_1_6; // 0x44
+	::System::Single Field_1_3; // 0x28
+	::RPG::MVector3 Field_1_4; // 0x2C
+	::System::Single Field_1_5; // 0x38
+	::RPG::MVector3 Field_1_6; // 0x3C
 	::System::Single Field_1_7; // 0x48
-	::System::Boolean Field_1_8; // 0x4C
+	::System::Single Field_1_8; // 0x4C
 	::System::Single Field_1_9; // 0x50
 	::System::Single Field_1_10; // 0x54
 	::RPG::GameCore::RtBattleAnimMoveOption Field_1_11; // 0x58
-	::System::Single Field_1_12; // 0x5C
+	::System::Boolean Field_1_12; // 0x5C
 	::RPG::MVector3 Field_1_13; // 0x60
 	::System::Single Field_1_14; // 0x6C
 	::RPG::MVector3 Field_1_15; // 0x70

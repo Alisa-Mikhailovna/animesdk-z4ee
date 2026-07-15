@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_METHOD_3_12C6224F4B468EA8_OFFSET UNITYSDK_OFFSET(0x19AAA440)
-#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_METHOD_3_FB7CC1F4E4A833D6_OFFSET UNITYSDK_OFFSET(0x19AAA560)
-#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAA4E0)
+#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_METHOD_3_300E637437D8F54F_OFFSET UNITYSDK_OFFSET(0x1B704400)
+#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_METHOD_3_FB7CC1F4E4A833D6_OFFSET UNITYSDK_OFFSET(0x1B7044E0)
+#define RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1B704480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectMuseumStuff_TypeDefinitionIndex = 19922;
+	inline static constexpr unsigned int RandomSelectMuseumStuff_TypeDefinitionIndex = 20293;
 
 	class RandomSelectMuseumStuff : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_12C6224F4B468EA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectMuseumStuff*& a2)
+		static ::System::Void Method_3_300E637437D8F54F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectMuseumStuff*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectMuseumStuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_METHOD_3_12C6224F4B468EA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RandomSelectMuseumStuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RANDOMSELECTMUSEUMSTUFF_METHOD_3_300E637437D8F54F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FB7CC1F4E4A833D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RandomSelectMuseumStuff* a2)

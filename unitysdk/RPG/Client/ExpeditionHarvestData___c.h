@@ -5,24 +5,24 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EXPEDITIONHARVESTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17DCBA70)
-#define RPG_CLIENT_EXPEDITIONHARVESTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17DCBAA0)
-#define RPG_CLIENT_EXPEDITIONHARVESTDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x17DCBAB0)
+#define RPG_CLIENT_EXPEDITIONHARVESTDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC421D90)
+#define RPG_CLIENT_EXPEDITIONHARVESTDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC421DC0)
+#define RPG_CLIENT_EXPEDITIONHARVESTDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC421DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionHarvestData___c_TypeDefinitionIndex = 59761;
+	inline static constexpr unsigned int ExpeditionHarvestData___c_TypeDefinitionIndex = 61046;
 
 	class ExpeditionHarvestData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ItemDisplayData*>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionHarvestData___c_TypeDefinitionIndex)->GetStaticField(0x15240);
-		}
 		static ::RPG::Client::ExpeditionHarvestData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ExpeditionHarvestData___c**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionHarvestData___c_TypeDefinitionIndex)->GetStaticField(0x15248);
+			return (::RPG::Client::ExpeditionHarvestData___c**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionHarvestData___c_TypeDefinitionIndex)->GetStaticField(0x1AE0);
+		}
+		static ::System::Comparison_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ItemDisplayData*>**)Il2CppClass::FromTypeDefinitionIndex(ExpeditionHarvestData___c_TypeDefinitionIndex)->GetStaticField(0x1AE8);
 		}
 
 		static ::System::Void _cctor()

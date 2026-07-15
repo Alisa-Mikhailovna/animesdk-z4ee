@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_BLUREVENT_PREDISPATCH_OFFSET UNITYSDK_OFFSET(0x19F7F6A0)
-#define UNITYENGINE_UIELEMENTS_BLUREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F7F8A0)
+#define UNITYENGINE_UIELEMENTS_BLUREVENT_PREDISPATCH_OFFSET UNITYSDK_OFFSET(0x1D0D9200)
+#define UNITYENGINE_UIELEMENTS_BLUREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D94D0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int BlurEvent_TypeDefinitionIndex = 6196;
+	inline static constexpr unsigned int BlurEvent_TypeDefinitionIndex = 6201;
 
 	class BlurEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::BlurEvent*>
 	{

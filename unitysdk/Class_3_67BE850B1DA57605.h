@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetEntityUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_67BE850B1DA57605_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x172F6C90)
-#define CLASS_3_67BE850B1DA57605__CTOR_OFFSET UNITYSDK_OFFSET(0x172F6C60)
+#define CLASS_3_67BE850B1DA57605_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x148439F0)
+#define CLASS_3_67BE850B1DA57605__CTOR_OFFSET UNITYSDK_OFFSET(0x148439C0)
 
-inline static constexpr unsigned int Class_3_67BE850B1DA57605_TypeDefinitionIndex = 51844;
+inline static constexpr unsigned int Class_3_67BE850B1DA57605_TypeDefinitionIndex = 52993;
 
 class Class_3_67BE850B1DA57605 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEntityUnselectable*>
 {

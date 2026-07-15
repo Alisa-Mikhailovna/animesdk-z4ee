@@ -5,21 +5,21 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x136A5570)
-#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x136A54B0)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x19854410)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19854350)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_DetailPrototype_TypeDefinitionIndex = 37810;
+	inline static constexpr unsigned int HEU_DetailPrototype_TypeDefinitionIndex = 38618;
 
 	class HEU_DetailPrototype : public ::System::Object
 	{
 	public:
-		::System::String* _prototypePrefab; // 0x10
-		::System::String* _prototypeTexture; // 0x18
-		::System::Single _maxHeight; // 0x20
-		::System::Single _minWidth; // 0x24
-		::System::Single _maxWidth; // 0x28
+		::System::String* _prototypeTexture; // 0x10
+		::System::String* _prototypePrefab; // 0x18
+		::System::Single _maxWidth; // 0x20
+		::System::Single _maxHeight; // 0x24
+		::System::Single _minWidth; // 0x28
 		::System::Single _minHeight; // 0x2C
 		::UnityEngine::Color _healthyColor; // 0x30
 		::UnityEngine::Color _dryColor; // 0x40

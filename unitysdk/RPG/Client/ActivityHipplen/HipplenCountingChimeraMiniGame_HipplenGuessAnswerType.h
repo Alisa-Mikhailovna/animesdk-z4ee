@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_HipplenGuessAnswerType_TypeDefinitionIndex = 70457;
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_HipplenGuessAnswerType_TypeDefinitionIndex = 71980;
 
 	enum class HipplenCountingChimeraMiniGame_HipplenGuessAnswerType : ::System::Int32
 	{

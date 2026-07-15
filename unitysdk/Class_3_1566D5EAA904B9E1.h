@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransferMahJongLayoutEffect; }
 
-#define CLASS_3_1566D5EAA904B9E1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA91B8F0)
-#define CLASS_3_1566D5EAA904B9E1__CTOR_OFFSET UNITYSDK_OFFSET(0xA91B8C0)
+#define CLASS_3_1566D5EAA904B9E1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB83B40)
+#define CLASS_3_1566D5EAA904B9E1__CTOR_OFFSET UNITYSDK_OFFSET(0xEB83B10)
 
-inline static constexpr unsigned int Class_3_1566D5EAA904B9E1_TypeDefinitionIndex = 52031;
+inline static constexpr unsigned int Class_3_1566D5EAA904B9E1_TypeDefinitionIndex = 53187;
 
 class Class_3_1566D5EAA904B9E1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TransferMahJongLayoutEffect*>
 {

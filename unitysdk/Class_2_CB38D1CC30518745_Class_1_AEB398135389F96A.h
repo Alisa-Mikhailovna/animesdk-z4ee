@@ -8,9 +8,9 @@ namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_CB38D1CC30518745_CLASS_1_AEB398135389F96A__CTOR_OFFSET UNITYSDK_OFFSET(0x168B6130)
+#define CLASS_2_CB38D1CC30518745_CLASS_1_AEB398135389F96A__CTOR_OFFSET UNITYSDK_OFFSET(0xAD20AD0)
 
-inline static constexpr unsigned int Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A_TypeDefinitionIndex = 54602;
+inline static constexpr unsigned int Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A_TypeDefinitionIndex = 55827;
 
 class Class_2_CB38D1CC30518745_Class_1_AEB398135389F96A : public ::System::Object
 {

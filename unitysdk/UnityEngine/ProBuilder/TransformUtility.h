@@ -6,22 +6,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_INVERSETRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x15C720A0)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_REPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x15C71A60)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_TRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x15C71C20)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_UNPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x15C718A0)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C72360)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_INVERSETRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x1CEBEEA0)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_REPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x1CEBE860)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_TRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x1CEBEA20)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_UNPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x1CEBE6A0)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEBF160)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int TransformUtility_TypeDefinitionIndex = 40824;
+	inline static constexpr unsigned int TransformUtility_TypeDefinitionIndex = 41639;
 
 	class TransformUtility : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*>** StaticGet_s_ChildStack()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*>**)Il2CppClass::FromTypeDefinitionIndex(TransformUtility_TypeDefinitionIndex)->GetStaticField(0x51E60);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*>**)Il2CppClass::FromTypeDefinitionIndex(TransformUtility_TypeDefinitionIndex)->GetStaticField(0x520E0);
 		}
 
 		static ::System::Void _cctor()

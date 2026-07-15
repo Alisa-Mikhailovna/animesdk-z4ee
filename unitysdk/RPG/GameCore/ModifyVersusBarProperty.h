@@ -11,13 +11,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_MODIFYVERSUSBARPROPERTY_METHOD_3_1A4469B4285A2608_OFFSET UNITYSDK_OFFSET(0x196B1EB0)
-#define RPG_GAMECORE_MODIFYVERSUSBARPROPERTY_METHOD_3_80B89F377FA71134_OFFSET UNITYSDK_OFFSET(0x196B1E30)
-#define RPG_GAMECORE_MODIFYVERSUSBARPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x196B1E80)
+#define RPG_GAMECORE_MODIFYVERSUSBARPROPERTY_METHOD_3_1A4469B4285A2608_OFFSET UNITYSDK_OFFSET(0x1B613C90)
+#define RPG_GAMECORE_MODIFYVERSUSBARPROPERTY_METHOD_3_66EFBF7424798294_OFFSET UNITYSDK_OFFSET(0x1B613C50)
+#define RPG_GAMECORE_MODIFYVERSUSBARPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B613C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyVersusBarProperty_TypeDefinitionIndex = 21892;
+	inline static constexpr unsigned int ModifyVersusBarProperty_TypeDefinitionIndex = 22319;
 
 	class ModifyVersusBarProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYVERSUSBARPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_80B89F377FA71134(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyVersusBarProperty*& a2)
+		static ::System::Void Method_3_66EFBF7424798294(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyVersusBarProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyVersusBarProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYVERSUSBARPROPERTY_METHOD_3_80B89F377FA71134_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyVersusBarProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYVERSUSBARPROPERTY_METHOD_3_66EFBF7424798294_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1A4469B4285A2608(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyVersusBarProperty* a2)

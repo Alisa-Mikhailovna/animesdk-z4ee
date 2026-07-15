@@ -8,10 +8,10 @@ class Class_2_D84B4578A743B6D7;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkRecommendDiceEX; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_6271301AC04D7ABC_METHOD_2_89EF21CA0414B145_OFFSET UNITYSDK_OFFSET(0x19209380)
-#define CLASS_2_6271301AC04D7ABC__CTOR_OFFSET UNITYSDK_OFFSET(0x19209190)
+#define CLASS_2_6271301AC04D7ABC_METHOD_2_33E2FA8E6403B93D_OFFSET UNITYSDK_OFFSET(0x1A694CB0)
+#define CLASS_2_6271301AC04D7ABC__CTOR_OFFSET UNITYSDK_OFFSET(0x1A694AC0)
 
-inline static constexpr unsigned int Class_2_6271301AC04D7ABC_TypeDefinitionIndex = 34361;
+inline static constexpr unsigned int Class_2_6271301AC04D7ABC_TypeDefinitionIndex = 34743;
 
 class Class_2_6271301AC04D7ABC : public ::Class_1_B55037134F9E6688
 {
@@ -24,8 +24,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDiceEX*, ::Class_1_D8BECDCE48063EC7*))((::PBYTE)hIl2Cpp + CLASS_2_6271301AC04D7ABC__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_89EF21CA0414B145()
+	::System::Void Method_2_33E2FA8E6403B93D()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6271301AC04D7ABC_METHOD_2_89EF21CA0414B145_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6271301AC04D7ABC_METHOD_2_33E2FA8E6403B93D_OFFSET))(this);
 	}
 };

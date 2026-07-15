@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class MiHoYoSDKEOSInterface___c__DisplayClass33_0; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0x193BF010)
-#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x193BF020)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAAEB410)
+#define MIHOYO_SDK_MIHOYOSDKEOSINTERFACE___C__DISPLAYCLASS33_1__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0xAAEB420)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass33_1_TypeDefinitionIndex = 43718;
+	inline static constexpr unsigned int MiHoYoSDKEOSInterface___c__DisplayClass33_1_TypeDefinitionIndex = 44580;
 
 	class MiHoYoSDKEOSInterface___c__DisplayClass33_1 : public ::System::Object
 	{
 	public:
-		::System::String* epicUserId; // 0x10
-		::MiHoYo::SDK::MiHoYoSDKEOSInterface___c__DisplayClass33_0* CS___8__locals1; // 0x18
+		::MiHoYo::SDK::MiHoYoSDKEOSInterface___c__DisplayClass33_0* CS___8__locals1; // 0x10
+		::System::String* epicUserId; // 0x18
 		::System::Int32 ret; // 0x20
 
 		::System::Void _ctor()

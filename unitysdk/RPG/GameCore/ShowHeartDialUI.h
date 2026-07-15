@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWHEARTDIALUI_METHOD_3_25CB8B555E4D31A5_OFFSET UNITYSDK_OFFSET(0x1A005BC0)
-#define RPG_GAMECORE_SHOWHEARTDIALUI_METHOD_3_BCD1360FA0617534_OFFSET UNITYSDK_OFFSET(0x1A005B40)
-#define RPG_GAMECORE_SHOWHEARTDIALUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1A005B90)
+#define RPG_GAMECORE_SHOWHEARTDIALUI_METHOD_3_007DF4107D975C66_OFFSET UNITYSDK_OFFSET(0x1B8D0170)
+#define RPG_GAMECORE_SHOWHEARTDIALUI_METHOD_3_25CB8B555E4D31A5_OFFSET UNITYSDK_OFFSET(0x1B8D01B0)
+#define RPG_GAMECORE_SHOWHEARTDIALUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D01A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHeartDialUI_TypeDefinitionIndex = 20053;
+	inline static constexpr unsigned int ShowHeartDialUI_TypeDefinitionIndex = 20425;
 
 	class ShowHeartDialUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHEARTDIALUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BCD1360FA0617534(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHeartDialUI*& a2)
+		static ::System::Void Method_3_007DF4107D975C66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHeartDialUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHeartDialUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHEARTDIALUI_METHOD_3_BCD1360FA0617534_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHeartDialUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHEARTDIALUI_METHOD_3_007DF4107D975C66_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_25CB8B555E4D31A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHeartDialUI* a2)

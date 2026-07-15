@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AC7D350)
-#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC7D6B0)
+#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D2380)
+#define RPG_GAMECORE_GRIDFIGHTBACKSKILLEXTRADESCCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D26E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBackSkillExtraDescConfigRow_TypeDefinitionIndex = 12896;
+	inline static constexpr unsigned int GridFightBackSkillExtraDescConfigRow_TypeDefinitionIndex = 13044;
 
 	class GridFightBackSkillExtraDescConfigRow : public ::System::Object
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
 		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x20
 		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x28
-		::System::UInt32 SkillID; // 0x30
-		::RPG::Client::TextID ConditionSimpleDesc; // 0x38
-		::RPG::Client::TextID ConditionDesc; // 0x48
+		::RPG::Client::TextID ConditionDesc; // 0x30
+		::System::UInt32 SkillID; // 0x40
+		::RPG::Client::TextID ConditionSimpleDesc; // 0x48
 
 		::System::Void _ctor()
 		{

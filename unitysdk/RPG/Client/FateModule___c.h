@@ -5,24 +5,24 @@
 namespace RPG::Client { class ScheduleData; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_FATEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18AC2540)
-#define RPG_CLIENT_FATEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC2570)
-#define RPG_CLIENT_FATEMODULE___C___INITREQ_B__16_0_OFFSET UNITYSDK_OFFSET(0x18AC2580)
+#define RPG_CLIENT_FATEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4758F0)
+#define RPG_CLIENT_FATEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC475920)
+#define RPG_CLIENT_FATEMODULE___C___INITREQ_B__16_0_OFFSET UNITYSDK_OFFSET(0xC475930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateModule___c_TypeDefinitionIndex = 59823;
+	inline static constexpr unsigned int FateModule___c_TypeDefinitionIndex = 61108;
 
 	class FateModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__16_0()
 		{
-			return (::System::Action_1<::RPG::Client::ScheduleData*>**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x187B0);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x4C60);
 		}
 		static ::RPG::Client::FateModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::FateModule___c**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x187B8);
+			return (::RPG::Client::FateModule___c**)Il2CppClass::FromTypeDefinitionIndex(FateModule___c_TypeDefinitionIndex)->GetStaticField(0x4C68);
 		}
 
 		static ::System::Void _cctor()

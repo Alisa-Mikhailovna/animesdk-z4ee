@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_075C34D03AFA1215_96;
+class Class_1_075C34D03AFA1215_92;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMEDALINFO_GET_UNLOCKEDMEDALITEMIDS_OFFSET UNITYSDK_OFFSET(0x18390C40)
-#define RPG_CLIENT_ROGUEMEDALINFO_ISMETALUNLOCKED_OFFSET UNITYSDK_OFFSET(0x18390B80)
-#define RPG_CLIENT_ROGUEMEDALINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x18390B00)
-#define RPG_CLIENT_ROGUEMEDALINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18390AA0)
+#define RPG_CLIENT_ROGUEMEDALINFO_GET_UNLOCKEDMEDALITEMIDS_OFFSET UNITYSDK_OFFSET(0xD3D7990)
+#define RPG_CLIENT_ROGUEMEDALINFO_ISMETALUNLOCKED_OFFSET UNITYSDK_OFFSET(0xD3D78D0)
+#define RPG_CLIENT_ROGUEMEDALINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xD3D7850)
+#define RPG_CLIENT_ROGUEMEDALINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD3D77F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMedalInfo_TypeDefinitionIndex = 62995;
+	inline static constexpr unsigned int RogueMedalInfo_TypeDefinitionIndex = 64362;
 
 	class RogueMedalInfo : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMEDALINFO__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_075C34D03AFA1215_96* a1)
+		::System::Void Sync(::Class_1_075C34D03AFA1215_92* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_075C34D03AFA1215_96*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMEDALINFO_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_075C34D03AFA1215_92*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMEDALINFO_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsMetalUnlocked(::System::UInt32 a1)

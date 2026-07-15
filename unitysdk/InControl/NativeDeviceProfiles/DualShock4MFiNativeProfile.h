@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_DUALSHOCK4MFINATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x15246BC0)
-#define INCONTROL_NATIVEDEVICEPROFILES_DUALSHOCK4MFINATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x15247F10)
+#define INCONTROL_NATIVEDEVICEPROFILES_DUALSHOCK4MFINATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1997B4A0)
+#define INCONTROL_NATIVEDEVICEPROFILES_DUALSHOCK4MFINATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1997C780)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int DualShock4MFiNativeProfile_TypeDefinitionIndex = 38285;
+	inline static constexpr unsigned int DualShock4MFiNativeProfile_TypeDefinitionIndex = 39093;
 
 	class DualShock4MFiNativeProfile : public ::InControl::InputDeviceProfile
 	{

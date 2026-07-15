@@ -5,16 +5,16 @@
 class Class_1_C16931E567A100F1;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168EB640)
-#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS8_0___AICHECKNEEDUSELIMITEDDICE_B__0_OFFSET UNITYSDK_OFFSET(0x168F5140)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4F1490)
+#define CLASS_1_C16931E567A100F1___C__DISPLAYCLASS8_0___AICHECKNEEDUSELIMITEDDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1A4FAA30)
 
-inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass8_0_TypeDefinitionIndex = 34488;
+inline static constexpr unsigned int Class_1_C16931E567A100F1___c__DisplayClass8_0_TypeDefinitionIndex = 34870;
 
 class Class_1_C16931E567A100F1___c__DisplayClass8_0 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::Int32>* diceResults; // 0x10
-	::Class_1_C16931E567A100F1* __4__this; // 0x18
+	::Class_1_C16931E567A100F1* __4__this; // 0x10
+	::System::Collections::Generic::List_1<::System::Int32>* diceResults; // 0x18
 
 	::System::Void _ctor()
 	{

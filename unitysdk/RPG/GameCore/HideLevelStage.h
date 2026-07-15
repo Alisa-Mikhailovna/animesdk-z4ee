@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HIDELEVELSTAGE_METHOD_3_54C146DB28FF9C01_OFFSET UNITYSDK_OFFSET(0x19AC4660)
-#define RPG_GAMECORE_HIDELEVELSTAGE_METHOD_3_AA46E2326F7620CC_OFFSET UNITYSDK_OFFSET(0x19AC4700)
-#define RPG_GAMECORE_HIDELEVELSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC46C0)
+#define RPG_GAMECORE_HIDELEVELSTAGE_METHOD_3_3B37194C368D8EC2_OFFSET UNITYSDK_OFFSET(0x1B514220)
+#define RPG_GAMECORE_HIDELEVELSTAGE_METHOD_3_AA46E2326F7620CC_OFFSET UNITYSDK_OFFSET(0x1B514280)
+#define RPG_GAMECORE_HIDELEVELSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B514260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideLevelStage_TypeDefinitionIndex = 21279;
+	inline static constexpr unsigned int HideLevelStage_TypeDefinitionIndex = 21694;
 
 	class HideLevelStage : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDELEVELSTAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_54C146DB28FF9C01(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideLevelStage*& a2)
+		static ::System::Void Method_3_3B37194C368D8EC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideLevelStage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideLevelStage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDELEVELSTAGE_METHOD_3_54C146DB28FF9C01_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideLevelStage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDELEVELSTAGE_METHOD_3_3B37194C368D8EC2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AA46E2326F7620CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideLevelStage* a2)

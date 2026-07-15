@@ -6,18 +6,18 @@ namespace RPG::Client { class ExpeditionGroupData; }
 namespace RPG::Client { class ExpeditionHarvestData; }
 namespace RPG::Client { class ExpeditionModule; }
 
-#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18252820)
-#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS5_0__GETUNLOCKEDGROUPDATAS_B__1_OFFSET UNITYSDK_OFFSET(0x18252AA0)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC426560)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS5_0__GETUNLOCKEDGROUPDATAS_B__1_OFFSET UNITYSDK_OFFSET(0xC4266F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionModule___c__DisplayClass5_0_TypeDefinitionIndex = 59765;
+	inline static constexpr unsigned int ExpeditionModule___c__DisplayClass5_0_TypeDefinitionIndex = 61050;
 
 	class ExpeditionModule___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ExpeditionModule* __4__this; // 0x10
-		::RPG::Client::ExpeditionGroupData* group; // 0x18
+		::RPG::Client::ExpeditionGroupData* group; // 0x10
+		::RPG::Client::ExpeditionModule* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

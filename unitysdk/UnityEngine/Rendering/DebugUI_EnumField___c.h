@@ -6,29 +6,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GUIContent; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x195C02F0)
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x195C0330)
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__INITQUICKSEPARATORS_B__17_0_OFFSET UNITYSDK_OFFSET(0x195C0390)
-#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__SET_AUTOENUM_B__16_0_OFFSET UNITYSDK_OFFSET(0x195C0340)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEF0DF0)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF0E30)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__INITQUICKSEPARATORS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1CEF0E90)
+#define UNITYENGINE_RENDERING_DEBUGUI_ENUMFIELD___C__SET_AUTOENUM_B__16_0_OFFSET UNITYSDK_OFFSET(0x1CEF0E40)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_EnumField___c_TypeDefinitionIndex = 33728;
+	inline static constexpr unsigned int DebugUI_EnumField___c_TypeDefinitionIndex = 34099;
 
 	class DebugUI_EnumField___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_EnumField___c_TypeDefinitionIndex)->GetStaticField(0x483C0);
+		}
 		static ::UnityEngine::Rendering::DebugUI_EnumField___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::DebugUI_EnumField___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_EnumField___c_TypeDefinitionIndex)->GetStaticField(0x464C0);
+			return (::UnityEngine::Rendering::DebugUI_EnumField___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_EnumField___c_TypeDefinitionIndex)->GetStaticField(0x483C8);
 		}
 		static ::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_EnumField___c_TypeDefinitionIndex)->GetStaticField(0x464C8);
-		}
-		static ::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::UnityEngine::GUIContent*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_EnumField___c_TypeDefinitionIndex)->GetStaticField(0x464D0);
+			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_EnumField___c_TypeDefinitionIndex)->GetStaticField(0x483D0);
 		}
 
 		static ::System::Void _cctor()

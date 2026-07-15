@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEMAGICSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EC4A00)
-#define RPG_GAMECORE_ROGUEMAGICSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EC4BB0)
+#define RPG_GAMECORE_ROGUEMAGICSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B76C6D0)
+#define RPG_GAMECORE_ROGUEMAGICSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76C880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicScoreRow_TypeDefinitionIndex = 14143;
+	inline static constexpr unsigned int RogueMagicScoreRow_TypeDefinitionIndex = 14291;
 
 	class RogueMagicScoreRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 LayerNum; // 0x10
-		::System::UInt32 RoomNum; // 0x14
+		::System::UInt32 RoomNum; // 0x10
+		::System::UInt32 LayerNum; // 0x14
 		::System::UInt32 WorldLevel; // 0x18
 		::System::UInt32 WeeklyScore; // 0x1C
 

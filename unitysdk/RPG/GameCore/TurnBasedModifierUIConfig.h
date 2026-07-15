@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ModifierForceKillConfig; }
 namespace RPG::GameCore { class ModifierHint; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_METHOD_2_8123D29418BDE619_OFFSET UNITYSDK_OFFSET(0x19A55370)
-#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A55D50)
+#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_METHOD_2_8123D29418BDE619_OFFSET UNITYSDK_OFFSET(0x1B9B1CE0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B26C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierUIConfig_TypeDefinitionIndex = 17343;
+	inline static constexpr unsigned int TurnBasedModifierUIConfig_TypeDefinitionIndex = 17516;
 
 	class TurnBasedModifierUIConfig : public ::RPG::GameCore::JsonConfig
 	{

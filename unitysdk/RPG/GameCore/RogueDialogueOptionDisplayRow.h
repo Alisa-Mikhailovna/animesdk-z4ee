@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19EB6730)
-#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB6D90)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B75F3A0)
+#define RPG_GAMECORE_ROGUEDIALOGUEOPTIONDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75FA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueOptionDisplayRow_TypeDefinitionIndex = 14087;
+	inline static constexpr unsigned int RogueDialogueOptionDisplayRow_TypeDefinitionIndex = 14235;
 
 	class RogueDialogueOptionDisplayRow : public ::System::Object
 	{

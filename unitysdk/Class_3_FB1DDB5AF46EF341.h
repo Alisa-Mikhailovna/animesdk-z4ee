@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChangeHeroBasicType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FB1DDB5AF46EF341_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154E9EC0)
-#define CLASS_3_FB1DDB5AF46EF341__CTOR_OFFSET UNITYSDK_OFFSET(0x154E9E90)
+#define CLASS_3_FB1DDB5AF46EF341_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9CD500)
+#define CLASS_3_FB1DDB5AF46EF341__CTOR_OFFSET UNITYSDK_OFFSET(0xB9CD4D0)
 
-inline static constexpr unsigned int Class_3_FB1DDB5AF46EF341_TypeDefinitionIndex = 49236;
+inline static constexpr unsigned int Class_3_FB1DDB5AF46EF341_TypeDefinitionIndex = 50251;
 
 class Class_3_FB1DDB5AF46EF341 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChangeHeroBasicType*>
 {

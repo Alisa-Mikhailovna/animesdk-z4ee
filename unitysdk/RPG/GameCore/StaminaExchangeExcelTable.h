@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19343D20)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19343BB0)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x193438A0)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19343B50)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19343E70)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19343920)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19343EB0)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19344080)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19344230)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19344550)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19343FE0)
-#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19343F40)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B904F20)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B904DB0)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B904AA0)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B904D50)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B905070)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B904B20)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B9050B0)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B905280)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B905430)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B905750)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B9051E0)
+#define RPG_GAMECORE_STAMINAEXCHANGEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B905140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StaminaExchangeExcelTable_TypeDefinitionIndex = 13774;
+	inline static constexpr unsigned int StaminaExchangeExcelTable_TypeDefinitionIndex = 13922;
 
 	class StaminaExchangeExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaExchangeRow*>** StaticGet_dataDict_()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x4D830);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaExchangeRow*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x32E0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x4D838);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x32E8);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaExchangeRow*>** StaticGet_dataDict_()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::StaminaExchangeRow*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x4D840);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x32F0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0xECA0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x1400);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0xECA1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(StaminaExchangeExcelTable_TypeDefinitionIndex)->GetStaticField(0x1401);
 		}
 
 		static ::System::Void _cctor()

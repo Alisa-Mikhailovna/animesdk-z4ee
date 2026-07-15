@@ -4,20 +4,20 @@
 
 namespace Proto { class BuyGoodsScRsp; }
 
-#define PROTO_BUYGOODSSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A43B060)
-#define PROTO_BUYGOODSSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A43B0A0)
-#define PROTO_BUYGOODSSCRSP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1A43B0B0)
+#define PROTO_BUYGOODSSCRSP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC63840)
+#define PROTO_BUYGOODSSCRSP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC63880)
+#define PROTO_BUYGOODSSCRSP___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BC63890)
 
 namespace Proto
 {
-	inline static constexpr unsigned int BuyGoodsScRsp___c_TypeDefinitionIndex = 32399;
+	inline static constexpr unsigned int BuyGoodsScRsp___c_TypeDefinitionIndex = 32775;
 
 	class BuyGoodsScRsp___c : public ::System::Object
 	{
 	public:
 		static ::Proto::BuyGoodsScRsp___c** StaticGet___9()
 		{
-			return (::Proto::BuyGoodsScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(BuyGoodsScRsp___c_TypeDefinitionIndex)->GetStaticField(0x3C060);
+			return (::Proto::BuyGoodsScRsp___c**)Il2CppClass::FromTypeDefinitionIndex(BuyGoodsScRsp___c_TypeDefinitionIndex)->GetStaticField(0x3C1F0);
 		}
 
 		static ::System::Void _cctor()

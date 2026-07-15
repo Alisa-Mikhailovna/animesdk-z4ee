@@ -8,17 +8,14 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C42160)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C422B0)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x18C420F0)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x18C423B0)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x18C423D0)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x18C42410)
-#define RPGTOOLS_TIMELINE_MOCAPTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x18C423C0)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xDCEF430)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xDCEF580)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xDCEF3C0)
+#define RPGTOOLS_TIMELINE_MOCAPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDCEF680)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MocapTrack_TypeDefinitionIndex = 45481;
+	inline static constexpr unsigned int MocapTrack_TypeDefinitionIndex = 46415;
 
 	class MocapTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -43,21 +40,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOCAPTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

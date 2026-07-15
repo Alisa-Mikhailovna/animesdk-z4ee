@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class NotifyShowFuncBtnParam; }
 
-#define RPG_CLIENT_FUNCBTNMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15FF8230)
-#define RPG_CLIENT_FUNCBTNMODULE___C__DISPLAYCLASS4_0__IFMAINMISSIONISOCCUPIED_B__0_OFFSET UNITYSDK_OFFSET(0x15FF8260)
+#define RPG_CLIENT_FUNCBTNMODULE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC665F40)
+#define RPG_CLIENT_FUNCBTNMODULE___C__DISPLAYCLASS4_0__IFMAINMISSIONISOCCUPIED_B__0_OFFSET UNITYSDK_OFFSET(0xC665F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FuncBtnModule___c__DisplayClass4_0_TypeDefinitionIndex = 56597;
+	inline static constexpr unsigned int FuncBtnModule___c__DisplayClass4_0_TypeDefinitionIndex = 57843;
 
 	class FuncBtnModule___c__DisplayClass4_0 : public ::System::Object
 	{

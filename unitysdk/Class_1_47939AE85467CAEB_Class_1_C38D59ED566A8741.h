@@ -3,25 +3,25 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_1068;
+class Class_0_16E4307DCC419505_1112;
 namespace InControl { class PlayerAction; }
 
-#define CLASS_1_47939AE85467CAEB_CLASS_1_C38D59ED566A8741_METHOD_1_3DE39D0B7183A6A4_OFFSET UNITYSDK_OFFSET(0x14FA6600)
-#define CLASS_1_47939AE85467CAEB_CLASS_1_C38D59ED566A8741_METHOD_1_7EC693EFA0B59E75_OFFSET UNITYSDK_OFFSET(0x14FA6AF0)
-#define CLASS_1_47939AE85467CAEB_CLASS_1_C38D59ED566A8741__CTOR_OFFSET UNITYSDK_OFFSET(0x14FA5900)
+#define CLASS_1_47939AE85467CAEB_CLASS_1_C38D59ED566A8741_METHOD_1_3DE39D0B7183A6A4_OFFSET UNITYSDK_OFFSET(0x15542D10)
+#define CLASS_1_47939AE85467CAEB_CLASS_1_C38D59ED566A8741_METHOD_1_7EC693EFA0B59E75_OFFSET UNITYSDK_OFFSET(0x155432C0)
+#define CLASS_1_47939AE85467CAEB_CLASS_1_C38D59ED566A8741__CTOR_OFFSET UNITYSDK_OFFSET(0x15541F20)
 
-inline static constexpr unsigned int Class_1_47939AE85467CAEB_Class_1_C38D59ED566A8741_TypeDefinitionIndex = 70451;
+inline static constexpr unsigned int Class_1_47939AE85467CAEB_Class_1_C38D59ED566A8741_TypeDefinitionIndex = 71974;
 
 class Class_1_47939AE85467CAEB_Class_1_C38D59ED566A8741 : public ::System::Object
 {
 public:
 	::InControl::PlayerAction* Field_1_0; // 0x10
 	::InControl::PlayerAction* Field_1_1; // 0x18
-	::InControl::PlayerAction* Field_1_2; // 0x20
-	::Class_0_16E4307DCC419505_1068* Field_1_3; // 0x28
+	::Class_0_16E4307DCC419505_1112* Field_1_2; // 0x20
+	::InControl::PlayerAction* Field_1_3; // 0x28
 	::InControl::PlayerAction* Field_1_4; // 0x30
-	::UnityEngine::Vector2 Field_1_5; // 0x38
-	::System::Single Field_1_6; // 0x40
+	::System::Single Field_1_5; // 0x38
+	::UnityEngine::Vector2 Field_1_6; // 0x3C
 
 	::System::Void _ctor()
 	{

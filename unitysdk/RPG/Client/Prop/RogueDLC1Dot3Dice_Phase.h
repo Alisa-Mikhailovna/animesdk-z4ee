@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueDLC1Dot3Dice_Phase_TypeDefinitionIndex = 73471;
+	inline static constexpr unsigned int RogueDLC1Dot3Dice_Phase_TypeDefinitionIndex = 74996;
 
 	enum class RogueDLC1Dot3Dice_Phase : ::System::Int32
 	{

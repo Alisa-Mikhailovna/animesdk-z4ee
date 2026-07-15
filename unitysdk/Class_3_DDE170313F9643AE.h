@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SetNPCPlatformMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DDE170313F9643AE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C32DE0)
-#define CLASS_3_DDE170313F9643AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C32E30)
-#define CLASS_3_DDE170313F9643AE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C32DB0)
-#define CLASS_3_DDE170313F9643AE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C33090)
+#define CLASS_3_DDE170313F9643AE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x125F42B0)
+#define CLASS_3_DDE170313F9643AE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x125F4300)
+#define CLASS_3_DDE170313F9643AE__CTOR_OFFSET UNITYSDK_OFFSET(0x125F4280)
 
-inline static constexpr unsigned int Class_3_DDE170313F9643AE_TypeDefinitionIndex = 54712;
+inline static constexpr unsigned int Class_3_DDE170313F9643AE_TypeDefinitionIndex = 55937;
 
 class Class_3_DDE170313F9643AE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetNPCPlatformMove*>
 {
@@ -30,10 +29,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DDE170313F9643AE_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DDE170313F9643AE___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

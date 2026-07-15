@@ -7,10 +7,10 @@ namespace RPG::GameCore { class RtTargetMapBelongGrid; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_EE01F3225E428F9E_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x14C29290)
-#define CLASS_2_EE01F3225E428F9E__CTOR_OFFSET UNITYSDK_OFFSET(0x14C29270)
+#define CLASS_2_EE01F3225E428F9E_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDE96980)
+#define CLASS_2_EE01F3225E428F9E__CTOR_OFFSET UNITYSDK_OFFSET(0xDE96960)
 
-inline static constexpr unsigned int Class_2_EE01F3225E428F9E_TypeDefinitionIndex = 50255;
+inline static constexpr unsigned int Class_2_EE01F3225E428F9E_TypeDefinitionIndex = 51337;
 
 class Class_2_EE01F3225E428F9E : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapBelongGrid*>
 {

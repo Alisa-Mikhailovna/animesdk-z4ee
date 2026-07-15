@@ -7,18 +7,18 @@ namespace RPG::GameCore { class BattleRogueMagicData_MagicUnit; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_SCEPTER_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0x141A7D60)
-#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_SCEPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x141A81A0)
+#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_SCEPTER_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0xD9BCEC0)
+#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_SCEPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD9BD350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleRogueMagicData_Scepter_TypeDefinitionIndex = 52579;
+	inline static constexpr unsigned int BattleRogueMagicData_Scepter_TypeDefinitionIndex = 53783;
 
 	class BattleRogueMagicData_Scepter : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* SlotCountMap; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::BattleRogueMagicData_MagicUnit*>* MagicUnitList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::BattleRogueMagicData_MagicUnit*>* MagicUnitList; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicMountType, ::System::UInt32>* SlotCountMap; // 0x18
 		::System::UInt32 Level; // 0x20
 		::System::UInt32 ScepterID; // 0x24
 

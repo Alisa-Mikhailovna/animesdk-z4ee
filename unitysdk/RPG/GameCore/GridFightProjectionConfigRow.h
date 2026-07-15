@@ -2,32 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/GridFightProjectionUnlockType.h"
 #include "unitysdk/System/Object.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 
-#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A1B7510)
-#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1B7990)
+#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4E6FA0)
+#define RPG_GAMECORE_GRIDFIGHTPROJECTIONCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E7460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightProjectionConfigRow_TypeDefinitionIndex = 12849;
+	inline static constexpr unsigned int GridFightProjectionConfigRow_TypeDefinitionIndex = 12997;
 
 	class GridFightProjectionConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TraitList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitListMemberGeneralPropertyList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x18
+		::Il2CppArray<::System::UInt32>* TraitList; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitListMemberGeneralPropertyList; // 0x28
 		::Il2CppArray<::System::UInt32>* ActivationTraitLayerList; // 0x30
-		::System::UInt32 Rarity; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::RPG::Client::TextID ProjectionName; // 0x40
-		::RPG::Client::TextID ProjectionDesc; // 0x50
-		::System::UInt32 MazebuffID; // 0x60
-		::System::UInt32 RoleID; // 0x64
+		::System::UInt32 MazebuffID; // 0x38
+		::System::UInt32 Rarity; // 0x3C
+		::RPG::GameCore::GridFightProjectionUnlockType UnlockType; // 0x40
+		::RPG::Client::TextID ProjectionName; // 0x48
+		::System::UInt32 ID; // 0x58
+		::System::UInt32 RoleID; // 0x5C
+		::RPG::Client::TextID ProjectionDesc; // 0x60
 
 		::System::Void _ctor()
 		{

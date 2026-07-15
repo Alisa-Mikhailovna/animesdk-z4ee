@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_FATIGUEREMINDMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC3390)
+#define MIHOYO_SDK_FATIGUEREMINDMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19CEA9E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int FatigueRemindModel_TypeDefinitionIndex = 7819;
+	inline static constexpr unsigned int FatigueRemindModel_TypeDefinitionIndex = 7825;
 
 	class FatigueRemindModel : public ::System::Object
 	{

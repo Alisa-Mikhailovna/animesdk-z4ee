@@ -6,24 +6,24 @@
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x15211F20)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x15217820)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x152177B0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x15211F10)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x1A3F8050)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1A3FE0B0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A3FE020)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F8040)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 34087;
+	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 34458;
 
 	class BGCurveCalculatorClosestPoint : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_TransitionsForPartitions()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGCurveCalculatorClosestPoint_TypeDefinitionIndex)->GetStaticField(0x4E6A0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGCurveCalculatorClosestPoint_TypeDefinitionIndex)->GetStaticField(0x4F080);
 		}
-		::Il2CppArray<::System::Boolean>* excludedSections; // 0x10
-		::Il2CppArray<::System::Single>* minSectionDistances; // 0x18
+		::Il2CppArray<::System::Single>* minSectionDistances; // 0x10
+		::Il2CppArray<::System::Boolean>* excludedSections; // 0x18
 		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x20
 
 		static ::System::Void _cctor()
